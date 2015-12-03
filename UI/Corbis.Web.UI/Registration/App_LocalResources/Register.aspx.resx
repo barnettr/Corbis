@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acceptValidator.ErrorMessage" xml:space="preserve">
+    <value>Please click the checkbox to indicate your agreement to the site Terms and Conditions and Privacy Policy.&lt;br /&gt;</value>
+  </data>
+  <data name="accountInfo.Text" xml:space="preserve">
+    <value>Account Info</value>
+  </data>
+  <data name="answerLabel.Text" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="caption.Text" xml:space="preserve">
+    <value>Please fill out the following information to become a Corbis Member.  </value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="confirmEmailLabel.Text" xml:space="preserve">
+    <value>Confirm Email</value>
+  </data>
+  <data name="confirmPasswordLabel.Text" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="contactCorbis.Text" xml:space="preserve">
+    <value>contact Corbis</value>
+  </data>
+  <data name="createAccount.Text" xml:space="preserve">
+    <value>Create Account</value>
+  </data>
+  <data name="emailConfirmMatchValidator.ErrorMessage" xml:space="preserve">
+    <value>The Email Address you have entered does not match the Email Address you must confirm with. Please re-enter.</value>
+  </data>
+  <data name="emailConfirmRequired.ErrorMessage" xml:space="preserve">
+    <value>Please confirm your Email Address entered.</value>
+  </data>
+  <data name="emailExistsLabel.Text" xml:space="preserve">
+    <value>An Account exists with the Email $email, would you like to &lt;a href="../Registration/SignIn.aspx"&gt;sign-in&lt;/a&gt; or &lt;a href="../Registration/SignInInformationRequest.aspx"&gt;retrieve your password&lt;/a&gt;?</value>
+  </data>
+  <data name="emailFormatLabel.Text" xml:space="preserve">
+    <value>Preferred email format</value>
+  </data>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="hiddenRegisterMsg.Text" xml:space="preserve">
+    <value>More UX messaging explaining closed registration.</value>
+  </data>
+  <data name="hiddenRegisterTitle.Text" xml:space="preserve">
+    <value>Registration is closed during beta period.</value>
+  </data>
+  <data name="jobTitleLabel.Text" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="language.PromptText" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="languageLabel.Text" xml:space="preserve">
+    <value>Preferred Language</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="passwordCaption.Text" xml:space="preserve">
+    <value>(Your Password requires a minimum of 8 characters and no more than 20 characters, including letters and numbers.)</value>
+  </data>
+  <data name="passwordConfirmRequired.ErrorMessage" xml:space="preserve">
+    <value>Please confirm your Password entered.</value>
+  </data>
+  <data name="passwordLabel.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="passwordMatchValidator.ErrorMessage" xml:space="preserve">
+    <value>The Password you have entered does not match your Confirmed Password. Please re-enter.</value>
+  </data>
+  <data name="personalProfile.Text" xml:space="preserve">
+    <value>Personal information</value>
+  </data>
+  <data name="phoneLabel.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="promoComm.Text" xml:space="preserve">
+    <value>Preferences: Promotions &amp; Communications</value>
+  </data>
+  <data name="required.Text" xml:space="preserve">
+    <value>An asterisk (*) indicates a required field.</value>
+  </data>
+  <data name="securityQuestionLabel.Text" xml:space="preserve">
+    <value>Security question</value>
+  </data>
+  <data name="sendEmail.Text" xml:space="preserve">
+    <value>Please send me promotions and newsletters from Corbis via email.  I understand that I can unsubscribe at any time.</value>
+  </data>
+  <data name="sendSnailMail.Text" xml:space="preserve">
+    <value>Please send me printed promotions and catalogs from Corbis via regular mail.  I understand that I can unsubscribe at any time.</value>
+  </data>
+  <data name="signIn.Text" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="SignInCaption.Text" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="successMessage.Text" xml:space="preserve">
+    <value>Thank you for registering with Corbis.</value>
+  </data>
+  <data name="successTitle.Title" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="usernameExistsLabel.Text" xml:space="preserve">
+    <value>The Username must be unique.  There is another Corbis member with the Username $username.  Please enter another Username to try again.</value>
+  </data>
+  <data name="usernameLabel.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="warningDifferentCountry.Text" xml:space="preserve">
+    <value>Your current settings may prevent online viewing, pricing and purchasing of certain images. Please</value>
+  </data>
+  <data name="warningDifferentCountryEnd.Text" xml:space="preserve">
+    <value>for more information.</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="businessInformation.Text" xml:space="preserve">
+    <value>Business information</value>
+  </data>
+  <data name="companyNameLabel.Text" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="businessAddress.Text" xml:space="preserve">
+    <value>Business address</value>
+  </data>
+  <data name="mailingAddress.Text" xml:space="preserve">
+    <value>Mailing address</value>
+  </data>
+  <data name="sameAsMailingAddress.Text" xml:space="preserve">
+    <value>Same as mailing address</value>
+  </data>
+  <data name="register.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="username.required_message" xml:space="preserve">
+    <value>Please enter a Username.</value>
+  </data>
+  <data name="answer.required_message" xml:space="preserve">
+    <value>Please enter the answer to the Security Question.</value>
+  </data>
+  <data name="confirmPassword.required_message" xml:space="preserve">
+    <value>Please confirm your Password.</value>
+  </data>
+  <data name="password.required_message" xml:space="preserve">
+    <value>Please enter a Password.</value>
+  </data>
+  <data name="confirmEmail.custom1_message" xml:space="preserve">
+    <value>The Email addresses you have entered do not match.</value>
+  </data>
+  <data name="confirmEmail.required_message" xml:space="preserve">
+    <value>Please confirm your Email.</value>
+  </data>
+  <data name="email.email_message" xml:space="preserve">
+    <value>Please enter a valid Email address.</value>
+  </data>
+  <data name="email.required_message" xml:space="preserve">
+    <value>Please enter a valid Email address.</value>
+  </data>
+  <data name="confirmPassword.confirm_message" xml:space="preserve">
+    <value>Please.</value>
+  </data>
+  <data name="confirmPassword.custom1_message" xml:space="preserve">
+    <value>The Passwords you have entered do not match.</value>
+  </data>
+  <data name="accept.required_message" xml:space="preserve">
+    <value>Please click the checkbox to indicate your agreement to Terms and Conditions and Privacy Policy.</value>
+  </data>
+  <data name="companyName.required_message" xml:space="preserve">
+    <value>Please enter your Company name.</value>
+  </data>
+  <data name="phone.required_message" xml:space="preserve">
+    <value>Please enter your phone number.</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="userNameExistsError.Text" xml:space="preserve">
+    <value>The Username you entered already exists. Please enter a unique Username.</value>
+  </data>
+  <data name="accept.checkbox_message" xml:space="preserve">
+    <value>Please click the checkbox to indicate your agreement to Terms and Conditions and Privacy Policy.</value>
+  </data>
+  <data name="html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>TEXT</value>
+  </data>
+  <data name="PasswordHelpInfo.Text" xml:space="preserve">
+    <value>Your Password is case sensitive and must be a length between 8 and 20 characters, including letters and numbers.</value>
+  </data>
+  <data name="PasswordHelpTitle.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="securityQuestionHelpLabel.Text" xml:space="preserve">
+    <value>A security question and answer is needed  for security in Username and password recovery.</value>
+  </data>
+  <data name="securityQuestionHelpTitle.Text" xml:space="preserve">
+    <value>Security Question</value>
+  </data>
+  <data name="phone.phone_message" xml:space="preserve">
+    <value>Please enter a valid phone number: 6-24 characters. Allowed special characters include +, (), -, or .</value>
+  </data>
+  <data name="password.custom1_message" xml:space="preserve">
+    <value>Your Password is case sensitive and must be a length between 8 and 20 characters, including letters and numbers.</value>
+  </data>
+  <data name="emailExistsError.Text" xml:space="preserve">
+    <value>The email you entered already exists.</value>
+  </data>
+  <data name="advantage1" xml:space="preserve">
+    <value>+ View and download large unwatermarked comping images</value>
+  </data>
+  <data name="advantage2" xml:space="preserve">
+    <value>+ Use personalized lightboxes to store and share images</value>
+  </data>
+  <data name="advantage3" xml:space="preserve">
+    <value>+ Receive free image research from Corbis experts</value>
+  </data>
+  <data name="advantage4" xml:space="preserve">
+    <value>+ Save preferences to find and price images quickly</value>
+  </data>
+  <data name="advantage5" xml:space="preserve">
+    <value>+ Use Express Checkout to license images in 3 simple steps</value>
+  </data>
+  <data name="advantage6" xml:space="preserve">
+    <value>+ See and license images from our Fine Art collection</value>
+  </data>
+  <data name="advantage7" xml:space="preserve">
+    <value>+ Get special offers and information via e-mail or post</value>
+  </data>
+  <data name="whyRegisterMainContent.Text" xml:space="preserve">
+    <value>Registration lets you add images to your cart and license them for use in your projects.</value>
+  </data>
+  <data name="whyRegisterMainSubContent.Text" xml:space="preserve">
+    <value>You'll also be able to:</value>
+  </data>
+  <data name="whyRegisterTitle.Text" xml:space="preserve">
+    <value>Why Register?</value>
+  </data>
+  <data name="accept" xml:space="preserve">
+    <value> I agree to the &lt;a href="$siteUsage"&gt;Site Usage Agreement&lt;/a&gt; and to the &lt;a href="$privacyPolicy" &gt;Corbis Privacy Policy&lt;/a&gt;.</value>
+  </data>
+  <data name="accept1.Text" xml:space="preserve">
+    <value>I agree to the </value>
+  </data>
+  <data name="accept2.Text" xml:space="preserve">
+    <value>Site Usage Agreement</value>
+  </data>
+  <data name="accept3.Text" xml:space="preserve">
+    <value> and to the </value>
+  </data>
+  <data name="accept4.Text" xml:space="preserve">
+    <value>Corbis Privacy Policy.</value>
+  </data>
+  <data name="jobTitle.custom1_message" xml:space="preserve">
+    <value>Please select your Job title.</value>
+  </data>
+  <data name="securityQuestion.custom1_message" xml:space="preserve">
+    <value>Please select a Security question.</value>
+  </data>
+  <data name="advantageChina1" xml:space="preserve">
+    <value>+ View large unwatermarked comping images</value>
+  </data>
+  <data name="advantageChina4" xml:space="preserve">
+    <value>+ Save preferences to find images quickly</value>
+  </data>
+</root>

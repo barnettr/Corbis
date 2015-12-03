@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Nieuwe fotografie</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Premium RM| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Premium RM| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Buitengewone momenten, veeleisende art direction. Maak kennis met opmerkelijke nieuwe toevoegingen aan de Corbis-collectie.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush: de kunst van het adverteren</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Premium RM| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Premium RM| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Gestileerd en opmerkelijk, Crush bestaat uit commerciële designfotografie met een toonaangevende, ontegenzeggelijk moderne uitstraling.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Trend: verantwoord ondernemen</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Premium RM| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Premium RM| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-NL.pdf?cid=nl-nl" localize="true" Text="Download het PDF-bestand" Title="Klik om PDF-bestand te downloaden"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>Bedrijven erkennen meer dan ooit het verband tussen positieve sociale activiteiten en winstgevendheid. Milieu, onderwijs en ethiek zijn de nieuwe voornaamste prestatie-indicatoren.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-NL.pdf?cid=nl-nl" localize="true" Text="Download het PDF-bestand (1,83 MB)" Title="Klik om PDF-bestand te downloaden"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

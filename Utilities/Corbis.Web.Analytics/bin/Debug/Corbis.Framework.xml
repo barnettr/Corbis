@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Corbis.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:Corbis.Framework.CorbisException">
+            <bp>*************************************************************</bp>
+             <class>
+             CorbisException
+             </class>
+             
+             <origination author="Rajul Vashistha" date="26-Jun-2007"></origination>
+             
+             <summary>
+             This class is a custom exception class. It is used to handle the exception across the layers 
+             in this application. A exception of type "CorbisException" will be thrown after handling and 
+             logging the original exception. It helps other layers to identify the handled exception and 
+             provides better performance.
+             </summary>
+             
+             <remarks>
+            	This is a base class of custom exception handling. Other classes may be derived from it.
+             </remarks>
+             
+             <revisions>
+             </revisions>
+             <ep>************************************************************</ep>
+        </member>
+        <member name="M:Corbis.Framework.CorbisException.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Corbis.Framework.CorbisException.#ctor(System.String)">
+            <summary>
+            Initializes with a specified error message.
+            </summary>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisException.#ctor(System.String,System.String)">
+            <summary>
+            Initializes with specified error message, title and inner exception details.
+            </summary>
+            <param name="title">A subject that describes the error.</param>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes with a specified error 
+            message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisException.#ctor(System.String,System.String,System.Exception)">
+            <summary>
+            Initializes with specified error message, title and inner exception details.
+            </summary>
+            <param name="title">A subject that describes the error.</param>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="T:Corbis.Framework.CorbisAuthorizationException">
+            <bp>*************************************************************</bp>
+             <class>
+             CorbisAuthorizationException
+             </class>
+             
+             <origination author="Rajul Vashistha" date="26-Jun-2007"></origination>
+             
+             <summary>
+             This class is a custom exception class. It is used to handle the authorization exceptions. 
+             An exception of type "CorbisAuthorizationException" will be thrown after handling and 
+             logging the original unauthorized exception. It helps 
+             other layers to identify the handled exception and provides better performance.
+             </summary>
+             
+             <remarks>
+            	This class is derived from base class CorbisException. 
+             </remarks>
+             
+             <revisions>
+             </revisions>
+             <ep>************************************************************</ep>
+        </member>
+        <member name="F:Corbis.Framework.CorbisAuthorizationException.errorCode">
+            <summary>
+            Member variable used to hold the errornumber for validation check.
+            </summary>
+        </member>
+        <member name="M:Corbis.Framework.CorbisAuthorizationException.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Corbis.Framework.CorbisAuthorizationException.#ctor(System.String)">
+            <summary>
+            Initializes with a specified error message.
+            </summary>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisAuthorizationException.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes with a specified error message.
+            </summary>
+            <param name="errorCode">An error code for validation.</param>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisAuthorizationException.#ctor(System.String,System.String)">
+            <summary>
+            Initializes with a specified error message.
+            </summary>
+            <param name="title">A subject that describes the error.</param>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisAuthorizationException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes with a specified error 
+            message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisAuthorizationException.#ctor(System.Int32,System.String,System.Exception)">
+            <summary>
+            Initializes with a specified error 
+            message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="errorCode">An error code for validation.</param>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisAuthorizationException.#ctor(System.String,System.String,System.Exception)">
+            <summary>
+            Initializes with specified error message, title and inner exception details.
+            </summary>
+            <param name="title">A subject that describes the error.</param>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="P:Corbis.Framework.CorbisAuthorizationException.ErrorCode">
+            <summary>
+            Property to control value of error number.
+            </summary>
+        </member>
+        <member name="T:Corbis.Framework.RegularExpressions">
+            <summary>
+             Validation regular expressions.
+            </summary>
+        </member>
+        <member name="F:Corbis.Framework.RegularExpressions.EmptyValue">
+            <summary>
+            Empty value RE
+            </summary>
+        </member>
+        <member name="F:Corbis.Framework.RegularExpressions.ValueNotSelected">
+            <summary>
+            Selection RE
+            </summary>
+        </member>
+        <member name="F:Corbis.Framework.RegularExpressions.EmailFormat">
+            <summary>
+            Email RE
+            </summary>
+        </member>
+        <member name="F:Corbis.Framework.RegularExpressions.FirstNameFormat">
+            <summary>
+            FirstName RE
+            </summary>
+        </member>
+        <member name="F:Corbis.Framework.RegularExpressions.LastNameFormat">
+            <summary>
+            LastName RE
+            </summary>
+        </member>
+        <member name="F:Corbis.Framework.RegularExpressions.PhoneFormat">
+            <summary>
+            Phone RE
+            </summary>
+        </member>
+        <member name="F:Corbis.Framework.RegularExpressions.PasswordFormat">
+            <summary>
+            Password RE
+            </summary>
+        </member>
+        <member name="T:Corbis.Framework.LoggingHelper">
+            <bp>*************************************************************</bp>
+             <class>
+             LoggingHelper
+             </class>
+             
+             <origination author="Rajul Vashistha" date="15-Jun-2007"></origination>
+             
+             <summary>
+             Logging helper class is a wrapper around logging application block.  
+             It provides easy way for developers to log an entry to log. The log could be 
+             a event viewer, database, or flat file.
+             </summary>
+             
+             <remarks>
+            	This is a basic version of logging framework. This will be revised as and when the need arise.
+             </remarks>
+             
+             <revisions>
+             </revisions>
+             <ep>************************************************************</ep>
+        </member>
+        <member name="M:Corbis.Framework.LoggingHelper.Log(System.Diagnostics.TraceEventType,System.String)">
+            <summary>
+            Log method to log an entry into a log.
+            </summary>
+            <param name="eventType">Type of the log entry.</param>
+            <param name="subject">Subject of log entry.</param>
+        </member>
+        <member name="M:Corbis.Framework.LoggingHelper.Log(System.Exception)">
+            <summary>
+            Log method to log an entry into a log.
+            </summary>
+            <param name="exception">System exception object.</param>
+        </member>
+        <member name="M:Corbis.Framework.LoggingHelper.Log(System.Diagnostics.TraceEventType,System.Exception)">
+            <summary>
+            Log method to log an entry into a log. It logs the error with specified severity.
+            </summary>
+            <param name="eventType">Type of the log entry.</param>
+            <param name="exception">System exception object.</param>
+        </member>
+        <member name="M:Corbis.Framework.LoggingHelper.Log(System.Diagnostics.TraceEventType,System.String,System.String)">
+            <summary>
+            Log method to log an entry into a log.
+            </summary>
+            <param name="eventType">Type of the log entry.</param>
+            <param name="subject">Subject of log entry.</param>
+            <param name="message">Detailed message to be logged by a log entry.</param>
+        </member>
+        <member name="M:Corbis.Framework.LoggingHelper.GetExceptionDetails(System.Exception)">
+            <bp>***************************************************************************</bp>
+             <origination author="Jay Freer" date="10/24/2004"/>
+            
+             <summary>
+                 Translates the given exception chain into a readable, formatted string.
+             </summary>
+            
+             <remarks>
+                 The details of this method were taken from the Microsoft Exception Management
+                 Application Blocks DefaultPublisher which writes events to the Windows event log.
+                 The string format is the same.
+             </remarks>
+            
+             <param name="exception">The exception to log</param>
+            
+             <returns>Formatted string with exception details.</returns>
+            
+             <revisions>
+             </revisions>
+            <ep>***************************************************************************</ep>
+        </member>
+        <member name="T:Corbis.Framework.CorbisBusinessRuleException">
+            <bp>*************************************************************</bp>
+             <class>
+             CorbisBusinessRuleException
+             </class>
+             
+             <origination author="Rajul Vashistha" date="26-Jun-2007"></origination>
+             
+             <summary>
+             This class is a custom exception class. It is used to handle the exception in Business Logic  
+             layer. A exception of type "CorbisBusinessRuleException" will be thrown after handling and 
+             logging the original exception, which might occur due to business rule failure. It helps 
+             other layers to identify the handled exception and provides better performance.
+             </summary>
+             
+             <remarks>
+            	This class is derived from base class CorbisException. 
+             </remarks>
+             
+             <revisions>
+             </revisions>
+             <ep>************************************************************</ep>
+        </member>
+        <member name="F:Corbis.Framework.CorbisBusinessRuleException.errorCode">
+            <summary>
+            Member variable used to hold the errornumber for validation check.
+            </summary>
+        </member>
+        <member name="M:Corbis.Framework.CorbisBusinessRuleException.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="M:Corbis.Framework.CorbisBusinessRuleException.#ctor(System.String)">
+            <summary>
+            Initializes with a specified error message.
+            </summary>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisBusinessRuleException.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes with a specified error message.
+            </summary>
+            <param name="errorCode">An error code for validation.</param>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisBusinessRuleException.#ctor(System.String,System.String)">
+            <summary>
+            Initializes with a specified error message.
+            </summary>
+            <param name="title">A subject that describes the error.</param>
+            <param name="message">A message that describes the error.</param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisBusinessRuleException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes with a specified error 
+            message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisBusinessRuleException.#ctor(System.Int32,System.String,System.Exception)">
+            <summary>
+            Initializes with a specified error 
+            message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="errorCode">An error code for validation.</param>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="M:Corbis.Framework.CorbisBusinessRuleException.#ctor(System.String,System.String,System.Exception)">
+            <summary>
+            Initializes with specified error message, title and inner exception details.
+            </summary>
+            <param name="title">A subject that describes the error.</param>
+            <param name="message">The error message that explains the reason for the exception.
+            </param>
+            <param name="exception">The exception that is the cause of the current exception. 
+            If the innerException parameter is not a null reference, the current exception 
+            is raised in a catch block that handles the inner exception.
+            </param>
+        </member>
+        <member name="P:Corbis.Framework.CorbisBusinessRuleException.ErrorCode">
+            <summary>
+            Property to control value of error number.
+            </summary>
+        </member>
+    </members>
+</doc>

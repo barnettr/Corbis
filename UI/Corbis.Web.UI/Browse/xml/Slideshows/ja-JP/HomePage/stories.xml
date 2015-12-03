@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stories baseURL="/Browse/xml/Slideshows/Images/HomePage/images/">
+	
+	<!-- 	
+		This is the default options stack, YOU ONLY HAVE TO ADD THE PARAMETERS YOU WANT TO MODIFY:
+		<options
+			position="left"
+			verticalPosition="" 
+			textBackground="true" 
+			textColor="light" 
+			linkColor="blue"
+			fadeTo="black"
+		/>
+		
+		The slideshow accepts the following parameters:
+			position: left or right (controls whether the text-box is on the left or the right)
+			verticalPosition: Any number or nothing (controls the vertical position of the box, if you don't include a value then it will be centered vertically. If a number used, it will place it that many pixels from the top)
+			textBackground: true or false (If it's true, then a transparent background will appear. If not, nothing.) 
+			textColor: light or dark (Sets the text colour as specified) 
+			linkColor: blue or whte (Sets the color of the link)
+			fadeTo: black or white (Once another story is selected, will the current one fade to white or black)
+			
+		!!! If you make any errors, the code will automatically choose the default values !!!
+		
+	 -->
+	<story>
+		<img src="giardino.jpg" />
+		<title><![CDATA[パトリック・ジャルディーノ]]></title>
+		<subhead><![CDATA[フォトグラファー特集]]></subhead>
+		<text><![CDATA[アスリートやダンサーのポートレート写真、ダイナミックな風景写真に、人を惹きつける表情。パトリック・ジャルディーノの写真には、正真正銘のパワーが秘められています。 ]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=giardino" target="_blank"><![CDATA[スライドショーを見る]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-15805476" name="42-15805476">Premium RM| © Patrik Giardino/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="warhol.jpg" />
+		<title><![CDATA[アンディー・ウォーホルの靴]]></title>
+    <subhead>
+      <![CDATA[ファインアート:]]></subhead>
+		<text><![CDATA[有名なキャンベル・スープ缶やマリリン・モンローの作品、そしてポップアートの旗手と呼ばれる前、アンディー・ウォーホルはユニークな靴のイラストレーターでした。]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=warhol" target="_blank"><![CDATA[スライドショーを見る]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-18454480_1280" name="42-18454480">| Premium RM| © Andy Warhol Foundation/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="bo-diddley.jpg" />
+		<title>
+      <![CDATA[没後1周年、ボ・ディドリーを追悼して]]></title>
+		<subhead><![CDATA[Hotline:]]></subhead>
+		<text><![CDATA[ボ・ディドリーの独特のビートはアメリカの音楽界を変え、50年以上にわたってミュージシャンに影響を与え続けてきました。]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=boDiddley" target="_blank"><![CDATA[スライドショーを見る]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-17478836" name="42-17478836">| Standard RM| © Michael Ochs Archives/Corbis</attribution>
+		<options textColor="dark" textBackground="false"/>
+	</story>
+	
+</stories>

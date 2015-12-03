@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>A coleção abrangente da Corbis Motion</Title>
+		<Copy>
+			<![CDATA[
+				<p>A Corbis Motion, em parceria com a Thought Equity Motion, oferece a você acesso a conteúdo das principais empresas cinematográficas e de entretenimento do mundo, incluindo MGM Studios, HBO Archives, National Geographic, Sony Pictures Entertainment, Smithsonian Channel e Paramount Pictures. O site também oferece compras online, downloads instantâneos, várias cortesias e serviços de pesquisa gratuitos.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="http://www.corbismotion.com/" Text="Visite corbismotion.com" Title="Corbis Motion"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

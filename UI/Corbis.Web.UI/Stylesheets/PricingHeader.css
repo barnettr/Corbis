@@ -1,0 +1,133 @@
+/* PROPOSED CORE STYLE */
+.Clear{ clear:both; }
+
+/* END PROPOSED CORE STYLE */
+
+body
+{
+	background-color: #e8e8e8;
+	color: #000000;
+}
+.PriceImageHeader
+{
+	clear: both;
+	padding: 10px  10px 20px 10px;
+	width: 675px !important;
+	height:90px;
+	vertical-align:middle;
+}
+.PriceImageHeader .ImageDetails
+{
+	float: left;
+}
+.PriceImageHeader .ImageDetails .Thumbnail
+{
+	width:90px;
+	height:90px;
+    min-height: 90px;
+    line-height:90px;
+    text-align:center;
+    float: left;
+	background-color:#333333;
+	display: table;  
+	_position: relative; 
+	overflow: hidden;
+}
+.PriceImageHeader .ImageDetails .Thumbnail .Inner
+{
+     _position: absolute; 
+     _top: 50%;
+     _left:50%;
+     display: table-cell; 
+     vertical-align: middle;
+
+}
+.PriceImageHeader .ImageDetails .Thumbnail img
+{
+
+     _position: relative; 
+     _left:-50%;
+     _top: -50%;
+     vertical-align:middle;
+}
+.PriceImageHeader .ImageDetails .ImageInfo
+{
+	margin-left: 5px;
+	float: left;
+}
+.PriceImageHeader .ImageDetails .ImageInfo .ImageTitle
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 3px;
+	text-transform:uppercase;
+}
+.PriceImageHeader .ImageDetails .ImageInfo .ImageId
+{
+	color: Gray;
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+
+.PriceImageHeader .ImageDetails .ImageInfo .PricingTier
+{
+	font-size: 12px;
+	/*color: Green;*/
+}
+.PriceImageHeader .PricingInfo
+{
+	float: right;
+	width: 300px;
+}
+
+.PriceImageHeader .PricingInfo .PricingBox
+{
+	background-color:white;
+	padding: 10px;
+	max-height:55px;
+	margin-bottom:-4px;
+}
+
+
+.PricingBox
+{
+	font-weight: bold;
+}
+.PriceImageHeader .PricingInfo div .GlassButton
+{
+	float: right;
+}
+.LightboxButton
+{
+    margin-top:10px;
+    margin-bottom: 0;
+    /* IE 7 bug? */
+    border: solid 1px transparent;
+}
+.Price .PriceCurrency
+{
+	font-weight: bold;
+}
+.PricingBox .PriceIndicator
+{
+    font-size:18px;
+	margin-top: 12px;
+	width:270px;
+}
+.PricingBox .ExpressCheckoutLink, .PricingBox .PriceLabel
+{
+    font-weight:normal;
+}
+.PricingBox .ExpressCheckoutLink
+{
+    clear:both;
+    margin-top:3px !important;
+    /*margin-top:-3px !important;*/
+    margin-top:0;
+    float:right;
+}
+
+#licenseAlertDiv
+{
+	height: 100px;
+}

@@ -1,0 +1,83 @@
+dl.accordion-menu {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+}
+dl.accordion-menu dt.a-m-t {
+	margin: 0;
+	padding: 3px;
+	color: #b0c07f;
+	width:100%;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:underline;
+	text-transform:uppercase;
+	text-indent:10px;
+	background-image:url(../images/right_menu_arrows.gif);
+	background-repeat:no-repeat;
+	
+}
+
+dl.accordion-menu dt.a-m-t-hover{
+	text-decoration:none;
+}
+
+
+dl.accordion-menu dt.a-m-t-down{
+	
+}
+
+
+
+
+
+html.accordion-menu-js dt.a-m-t{
+	cursor:pointer;
+	
+}
+
+dl.accordion-menu dd.a-m-d {
+	margin: 0 0 0 20px;
+	padding: 0;
+	padding:0;
+}
+
+html.accordion-menu-js dd.a-m-d{
+	display:none;
+}
+
+
+html.accordion-menu-js dd.a-m-d-expand {
+	display:block;
+}
+
+html.accordion-menu-js dd.a-m-d-before-expand {
+	display:block;
+	position:relative;
+	z-index:-1;
+	opacity:0;
+	height:auto !important;
+	visibility:hidden;
+	overflow:visible;
+}
+
+
+html.accordion-menu-js dt.a-m-t-expand {
+	color:white;
+	text-decoration:none;
+	background-image:url(../images/right_menu_arrows.gif);
+	background-repeat:no-repeat;
+	background-position: 0 -33px;
+	
+}
+
+html.accordion-menu-js dd.a-m-d-anim {
+	overflow:hidden;
+	display:block;	
+}
+
+dl.accordion-menu dd.a-m-d .bd{
+	padding:1px;
+	
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Ilustrator: Chuck Shacochis</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| Standardowe RM| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| Standardowe RM| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Inspiracją jego prac są filmy rysunkowe okresu międzywojennego oraz rosyjskie plakaty filmowe. Sam Shacochis określa swój styl jako "oldschoolowo-komiksowy współcześnie zakręcony". Odważne, wyraziste kreski. Kontrowersyjne tematy.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Współczesna grafika od CSA Images</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| Standardowe RM| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| Standardowe RM| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Niekonwencjonalne kolekcje CSA Images to zadziornie prowokacyjna mieszanka stylistyczna.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Pozornie proste</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| Standardowe RM| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| Standardowe RM| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Venki Talath tworzy komiksową grafikę dla dorosłych, bogatą w przewrotną symbolikę.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

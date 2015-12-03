@@ -1,0 +1,173 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C30B1114-AE29-4C53-8951-99D47F37EA01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corbis.Web.Utilities</RootNamespace>
+    <AssemblyName>Corbis.Web.Utilities</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\libs\Castle\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy2, Version=2.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\libs\Castle\Castle.DynamicProxy2.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.BetaAccess.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\BetaAccess\Corbis.BetaAccess.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.BetaAccess.ServiceAgents, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\BetaAccess\Corbis.BetaAccess.ServiceAgents.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Common.ServiceFactory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Common\Corbis.Common.ServiceFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Framework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bcc9665afa894bea, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Corbis.Framework\Binaries\Corbis.Framework\Corbis.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Framework.Globalization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Corbis.Framework\Binaries\Corbis.Framework.Globalization\Corbis.Framework.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Framework.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Corbis.Framework\Binaries\Corbis.Framework.Logging\Corbis.Framework.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Membership.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Membership\Corbis.Membership.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Membership.ServiceAgents, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Membership\Corbis.Membership.ServiceAgents.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.SessionState.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\SessionState\Corbis.SessionState.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.SessionState.ServiceAgents, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\SessionState\Corbis.SessionState.ServiceAgents.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\common\libs\System.Web\System.Web.Abstractions.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CopyrightHelper.cs" />
+    <Compile Include="CurrencyHelper.cs" />
+    <Compile Include="src\BetaAuthentication.cs" />
+    <Compile Include="src\CheckSum.cs" />
+    <Compile Include="src\ClientIPHelper.cs" />
+    <Compile Include="src\EncryptionWrapper.cs" />
+    <Compile Include="src\HtmlHelper.cs" />
+    <Compile Include="src\CustomConfigurationSettings\ListItem\ListItem.cs" />
+    <Compile Include="src\CustomConfigurationSettings\ListItem\ListItemCollection.cs" />
+    <Compile Include="src\CustomConfigurationSettings\ListItem\ListItemConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\GuidHelper.cs" />
+    <Compile Include="src\Cache\CacheItem.cs" />
+    <Compile Include="src\Cache\CachePersistenceHelper.cs" />
+    <Compile Include="src\CollectionHelper.cs" />
+    <Compile Include="src\DateHelper.cs" />
+    <Compile Include="src\LocalizationHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\RandomHelper.cs" />
+    <Compile Include="src\ServiceAgentProvider\CorbisServices.cs" />
+    <Compile Include="src\ServiceAgentProvider\DetailsInterceptor.cs" />
+    <Compile Include="src\ServiceAgentProvider\ProxyServiceAgentProvider.cs" />
+    <Compile Include="src\ServiceAgentProvider\ServiceAgentProvider.cs" />
+    <Compile Include="src\ServiceAgentProvider\ServiceAgentProviderCollection.cs" />
+    <Compile Include="src\ServiceAgentProvider\ServiceAgentProviderSection.cs" />
+    <Compile Include="src\ServiceAgentProvider\StandardServiceAgentProvider.cs" />
+    <Compile Include="src\ServiceHelper.cs" />
+    <Compile Include="src\StateManagement\AspCacheHelper.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\ExpressCheckoutKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\OrderKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\TermClarifications.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\FastSearchKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\ImageKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\PricingKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\ProfileKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\QuickPicKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\SearchKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\ThemeKeys.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\ZipHandlerKeys.cs" />
+    <Compile Include="src\StateManagement\CookieHelper.cs" />
+    <Compile Include="src\StateManagement\CommonKeys\LightboxCartKeys.cs" />
+    <Compile Include="src\StateManagement\ISessionHelper.cs" />
+    <Compile Include="src\StateManagement\MultiCallSessionHelper.cs" />
+    <Compile Include="src\StateManagement\Serializer.cs" />
+    <Compile Include="src\StateManagement\SingleCallSessionHelper.cs" />
+    <Compile Include="src\StateManagement\StateEnums.cs" />
+    <Compile Include="src\StateManagement\StateItem.cs" />
+    <Compile Include="src\StateManagement\StateItemCollection.cs" />
+    <Compile Include="src\StateManagement\StateItemDescAttribute.cs" />
+    <Compile Include="src\StringHelper.cs" />
+    <Compile Include="src\WorkflowHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StateManagement.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

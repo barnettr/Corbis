@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stories baseURL="/Browse/xml/Slideshows/Images/HomePage/images/">
+	
+	<!-- 	
+		This is the default options stack, YOU ONLY HAVE TO ADD THE PARAMETERS YOU WANT TO MODIFY:
+		<options
+			position="left"
+			verticalPosition="" 
+			textBackground="true" 
+			textColor="light" 
+			linkColor="blue"
+			fadeTo="black"
+		/>
+		
+		The slideshow accepts the following parameters:
+			position: left or right (controls whether the text-box is on the left or the right)
+			verticalPosition: Any number or nothing (controls the vertical position of the box, if you don't include a value then it will be centered vertically. If a number used, it will place it that many pixels from the top)
+			textBackground: true or false (If it's true, then a transparent background will appear. If not, nothing.) 
+			textColor: light or dark (Sets the text colour as specified) 
+			linkColor: blue or whte (Sets the color of the link)
+			fadeTo: black or white (Once another story is selected, will the current one fade to white or black)
+			
+		!!! If you make any errors, the code will automatically choose the default values !!!
+		
+	 -->
+	<story>
+		<img src="giardino.jpg" />
+		<title><![CDATA[Patrik Giardino]]></title>
+		<subhead><![CDATA[Perfil del fotógrafo:]]></subhead>
+		<text><![CDATA[Retratos de atletas y bailarines, paisajes dinámicos y rostros fascinantes. La fotografía de Patrik Giardino es pura energía. ]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=giardino" target="_blank"><![CDATA[Ver la presentación de diapositivas]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-15805476" name="42-15805476">Premium DP| © Patrik Giardino/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="warhol.jpg" />
+		<title><![CDATA[Los zapatos de Andy Warhol]]></title>
+    <subhead>
+      <![CDATA[Arte:]]></subhead>
+		<text><![CDATA[Antes de las latas de sopa, Marilyn y el fenómeno Pop, Andy Warhol diseñaba calzado muy original.]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=warhol" target="_blank"><![CDATA[Ver la presentación de diapositivas]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-18454480_1280" name="42-18454480">| Premium DP| © Andy Warhol Foundation/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="bo-diddley.jpg" />
+		<title>
+      <![CDATA[Un año después: El recuerdo de Bo Diddley]]></title>
+		<subhead><![CDATA[Hotline:]]></subhead>
+		<text><![CDATA[El estilo de Bo Diddley revolucionó la música americana y ha inspirado a artistas durante más de 50 años.]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=boDiddley" target="_blank"><![CDATA[Ver la presentación de diapositivas]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-17478836" name="42-17478836">| Estándar DP| © Michael Ochs Archives/Corbis</attribution>
+		<options textColor="dark" textBackground="false"/>
+	</story>
+	
+</stories>

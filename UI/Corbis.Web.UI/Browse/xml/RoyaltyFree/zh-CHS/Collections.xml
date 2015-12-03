@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>免版税图片库</Title>
+	<Links>
+    <Link Url="Collections.aspx?name=fancy" Text="Fancy" Title="查看幻灯片展示"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Somos" Title="View images" />-->
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289158" Text="Cardinal" Title="查看图像"  />
+    <Link Url="Collections.aspx?name=imagesource" Text="Image Source" Title="查看幻灯片展示"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289160" Text="moodboard" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289161" Text="PhotoAlto" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289162" Text="Cultura" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289163" Text="Juice" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289165" Text="Radius" Title="查看图像"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Clover" Title="View images" />-->
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289170" Text="ZenShui" Title="查看图像"  />
+	</Links>
+</ModuleList>

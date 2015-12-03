@@ -1,0 +1,214 @@
+		BODY { 
+		    background-color: #FFFFFF;
+		    text-align:center; 
+		    font-family:Arial, Verdana, Helvetica, sans-serif;
+		}
+		#TemplateHeader, #TemplateTopNav, #TemplateFooter, #TemplateBodyHolder, #TemplateSecondaryNav{
+			text-align:left;
+		}
+		#TemplateFooter span{
+			color:#000000;
+		}
+		
+		#ctl05_lblAllRightsReserved { color: #BEBEBE; }
+		#ctl05_lblChooseLanguage    { color: #BEBEBE; }
+		#ctl02_linkLogo { margin-left:30px; }
+	
+		#TemplateBodyHolder { 
+			background-image:url(../images/left_collage.jpg); 
+		    background-repeat:no-repeat; 
+		    margin-top:-7px;
+		    width:1005px;
+		    padding:1px 0 0 0;
+		    margin-right:auto;
+		    margin-left:auto;
+		    padding-top:1px;
+		 }
+		#TemplateBodyHolder *{
+			align:left;
+		}
+		/* BEGIN TAB MENU */
+		#tabNav{ width:590px; position:relative; height:56px; padding:0; }
+		.searchTipsTab {
+		    float: left; 
+		    margin-left:6px;
+		}
+		
+		#navTitle{ 
+			padding:0;
+		    display:block;
+		    float:left;
+		    text-indent:-5000px;
+		    height:56px;
+		    width:230px; 
+		}
+	
+		#tabNav a{ 
+		    outline:none; 
+		    float:left;
+		    display:block; 
+		    background-position:top; 
+		    height:56px; 
+		    width:66px; 
+		    text-indent:-5000px; 
+		    text-decoration:none;
+		}
+		#tabNav #DivTab1 a:hover, #tabNav #DivTab2 a:hover, #tabNav #DivTab3 a:hover, #tabNav #DivTab4 a:hover, #tabNav #DivTab5 a:hover{ 
+			background-position: bottom; 
+		}
+		#tabNav a.off{ background-position: top; }
+		#tabNav a.on{ background-position: bottom; }
+		
+		
+		
+		#tab0Content{ padding-top:75px; text-align:center; }	
+		
+		#sectionLogo { 
+			float:left; 
+			margin:14px 0 0 47px !important;
+		}
+		
+		
+		#subhead, #keywordHead{ float:left; margin: 3px 6px 3px 0;  padding:0px; height:32px; background-color:black;}
+		#subhead{ margin-left:98px; margin-top:6px; }
+		#keywordHead { width:283px;position:relative; top:-50px !important; height:85px; }
+		
+		#layout_cleft_col, #layout_right_col{ background-color:#656565; padding: 6px; margin: -48px 6px 6px 0; float:left; height:470px; }
+		#layout_cleft_col{ width:590px; margin-left: 98px; }
+		#layout_right_col{ width:265px;  text-align:left; }
+		#layout_right_col a{ color:#b0c07f; text-decoration:underline; }
+		#layout_right_col a:hover{ text-decoration:none; }
+		#layout_right_col img { margin-bottom:7px; }
+		
+		/* BEGIN CENTER CONTENT */
+		
+		div.whiteCenterBox{
+		    display:block;
+		    height:292px;
+		    width:589px;
+		    margin:0px;
+		    padding: 6px 0px 0px 71px;
+		    background-color:white;
+		    color:#656565;
+		    text-align:left;		      
+		}
+		.searchTipsContent {
+		    width: 100%;
+		    color: white;
+		    height:350px;
+		}
+		.imageHolders{ display:inline; margin:6px 6px 0 0; float:left;  }
+		
+		span.fauxSearchTitle{ float:left; text-transform:uppercase; font-weight:bold;margin:2px 2px 0 0;font-size:12px; }
+		span.fauxSearch{
+			text-align:left;
+		    border: 1px solid #e2e2e2;
+		    display:block;
+		    float:left;
+		    width:300px;
+		    padding:2px; 
+		    font-size:12px;   
+		}
+		p.tabDesc{
+		    display:block;
+		    height:75px;
+		    width:95%;
+		    overflow:visible;
+		    padding:5px;
+		    margin: 26px 0px 10px 26px;
+		    font-size:12px;
+		}
+		/* END CENTER CONTENT */
+		
+		div.extraLinksDiv{
+			margin:0px 0 0 48px;
+			padding:0;
+			overflow:visible;
+			height:32px;
+			width:602px;
+			float:left;
+			
+		}
+		
+		a.extraLink{
+		    cursor:pointer;
+		    color: #656565;
+		    float:left;
+		    font-size:11px;
+		    font-weight:bold; 
+		    display:inline-block;
+		    background-color:#bada55;
+		    height:11px;
+		    margin:0 0 0 98px;
+		    padding: 8px;
+		    text-decoration: underline;
+		    width:601px !important;
+		    text-align:left;
+		}
+		.pdf
+		{
+		    color: #656565;
+		    float:left;
+		    font-size:11px;
+		    font-weight:bold; 
+		    display:inline-block;
+		    background-color:#bada55;
+		    height:11px;
+		    margin:0 0 0 8px;
+		    padding: 8px;
+		    text-decoration: underline;
+		    width:279px !important;
+		    text-align:left;
+		}
+		
+		div.boutiqueLink{
+		    float:right;
+		    margin:0px 10px 6px 0px;
+		    width:281px;		 
+		    background-color:#bada55;
+		    color:#656565;
+		    padding: 6px;
+		    font-size:12px;
+		    text-align:left;
+		}
+		div.boutiqueLink a.extraLink{
+		    float:right;
+		    margin:0px;
+		    padding:6px 3px 6px 0;
+		    width:98%;
+		    text-align:right;
+		}
+		
+		a:hover{
+		    color: #656565;  
+		    text-decoration:none;
+		}
+
+		
+		
+			
+		a.searchTabActiveText, a.searchTabInactiveText{
+			display:block;
+			padding:0px;
+			margin:0px;
+			vertical-align:top;
+			z-index:0;
+			}
+			
+		td.searchTabActive, td.searchTabInactive{
+				
+				vertical-align:top;
+				padding-top:0px;
+				
+			}
+			
+			
+			#ctl03_SearchTabs_trThirdTab td img{
+				display:none !important;
+				display:inline;
+			}
+			
+			td.searchTabInactive{
+				
+				border-bottom: 4px solid #babbb6;
+			}

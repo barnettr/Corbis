@@ -1,0 +1,195 @@
+/**************************
+ *  HTML RESETS
+ **************************/
+
+/* =======================================================
+    Note: do not change anything inside css reset section 
+    before you have talked with Travis, Chris or Mike 
+   ======================================================= */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, 
+dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, 
+sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus
+{
+    outline: 0;
+}
+body
+{
+    line-height: 1;
+    /*color: black;*/
+    background: white;
+}
+ol, ul
+{
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table
+{
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td
+{
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: "";
+}
+blockquote, q
+{
+    quotes: "" "";
+}
+
+/* HTML elements  */
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	cursor: pointer;
+}
+
+body, input
+{
+	font-family: 'Trebuchet MS', 'Lucida Grande', Arial, Helvetica, sans-serif, 'Unicode MS';
+}
+
+body
+{
+	border: none;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+fieldset
+{
+	border: solid 1px #8b8e85;
+	margin: 0px;
+	padding: 15px;
+}
+
+h2, .actLikeH2
+{
+	color: #666;
+	font: 20px;
+	font-size: 20px;
+	margin: 0px 0px 8px 0px;
+}
+
+h3, .actLikeH3
+{
+	color: #808080;
+	font: 18px;
+	font-size: 18px;
+	margin: 0px;
+}
+
+hr
+{
+	clear: both;
+	height: 1px;
+}
+
+img
+{
+	background: transparent left top no-repeat;
+	border: none;
+}
+
+input
+{
+	color: #333333;
+	font-size: 12px;
+	padding: 0px;
+}
+
+input[type=text], input[type=password]
+{
+	border: solid 1px #999;
+	height: 20px !important;
+}
+
+input[type=checkbox], input[type=radio]
+{
+	margin: 0px 5px 0px 0px;
+}
+
+input[type=submit], input[type=button]
+{
+	border: solid 1px #666;
+	height: 20px;
+	overflow: visible;
+	cursor:hand;
+    cursor:pointer;
+}
+
+legend
+{
+	color: #c00;
+	font-weight: bold;
+}
+
+p
+{
+	margin: 5px 0px;
+}
+
+select
+{
+	/* JavasScript for creating a variable width option list for a fixed width select */
+	/*behavior: expression(window.dropdown_menu_hack!=null?window.dropdown_menu_hack(this):0);*/
+	border: solid 1px #999;
+	color: #333333;
+	font-size: 12px;
+}
+
+td, th
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+textarea
+{
+	border: solid 1px #999;
+	color: #333333;
+	font-size: 12px;
+	height: 64px;
+	line-height: 12px;
+	padding: 0px;
+	width: 100%;
+}
+
+thead
+{
+	font-weight: bold;
+}
+
+ul
+{
+	list-style: disc;
+	margin: 0px;
+}
+
+/*  css reset section END */
+/* =======================*/

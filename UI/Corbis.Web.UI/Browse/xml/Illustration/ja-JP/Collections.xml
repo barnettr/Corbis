@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>画像スタイル別にブラウズする</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288755" Text="アニメ" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288754" Text="カートゥーン " Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288756" Text="コンセプト" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288758" Text="最先端" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288759" Text="グラフィック" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288760" Text="線画" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288762" Text="絵画風" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288763" Text="レトロコミック" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288764" Text="スタイリッシュ" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288765" Text="ユニーク" Title="画像を見る"  />
+  </Links>
+</ModuleList>

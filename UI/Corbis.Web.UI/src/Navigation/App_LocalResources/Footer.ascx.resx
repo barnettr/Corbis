@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aboutCorbis.Text" xml:space="preserve">
+    <value>About Corbis</value>
+  </data>
+  <data name="corbisMotion.Text" xml:space="preserve">
+    <value>Corbis Motion</value>
+  </data>
+  <data name="corporate.Text" xml:space="preserve">
+    <value>Corporate</value>
+  </data>
+  <data name="customerService.Text" xml:space="preserve">
+    <value>Customer Service</value>
+  </data>
+  <data name="employment.Text" xml:space="preserve">
+    <value>Employment</value>
+  </data>
+  <data name="legal.Text" xml:space="preserve">
+    <value>Legal</value>
+  </data>
+  <data name="licenseInformation.Text" xml:space="preserve">
+    <value>Licensing Terms &amp; Conditions (PDF)</value>
+  </data>
+  <data name="mobile.Text" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="pressroom.Text" xml:space="preserve">
+    <value>Pressroom</value>
+  </data>
+  <data name="privacyPolicyLink.Text" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="relatedSites.Text" xml:space="preserve">
+    <value>Related Sites</value>
+  </data>
+  <data name="requestImageResearch.Text" xml:space="preserve">
+    <value>Request Image Research</value>
+  </data>
+  <data name="rightsClearances.Text" xml:space="preserve">
+    <value>Rights Clearances</value>
+  </data>
+  <data name="siteUsageAgreement.Text" xml:space="preserve">
+    <value>Site Usage Agreement</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Site Usage Agreement</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>Site Usage Agreement</value>
+  </data>
+  <data name="close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="getReader.Text" xml:space="preserve">
+    <value>This document requires &lt;a href='http://www.adobe.com/products/reader/' class='getAcrobat' target='_blank'&gt;Acrobat Reader&lt;/a&gt;.</value>
+  </data>
+  <data name="getAcrobat.Title" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="greenLight.Text" xml:space="preserve">
+    <value>GreenLight</value>
+  </data>
+  <data name="imprint.Text" xml:space="preserve">
+    <value>Impressum</value>
+  </data>
+  <data name="successModalHeading.Title" xml:space="preserve">
+    <value>Thank you!</value>
+  </data>
+  <data name="successModalContent.Text" xml:space="preserve">
+    <value>&lt;p&gt;A Corbis Representative will contact you shortly.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Should you require immediate assistance, please call:&lt;br /&gt;
+1.800.260.0444 (US)&lt;br /&gt;
++33.(0)1.53.33.38.00 (France)&lt;br /&gt;
+0800.731.9995/ +44.(0)20.7843.4444 (UK &amp;amp; Europe)&lt;br /&gt;
+61-2-9080-1000 (Australia)&lt;br /&gt;
+852.2215.8000 (Hong Kong)&lt;/p&gt;</value>
+  </data>
+  <data name="downloadAdobeReader.Title" xml:space="preserve">
+    <value>Download Adobe Reader</value>
+  </data>
+  <data name="downloadAdobeReaderImg.Title" xml:space="preserve">
+    <value>Download Adobe Reader</value>
+  </data>
+  <data name="greenLight.href" xml:space="preserve">
+    <value>http://greenlightrights.com/us</value>
+  </data>
+</root>

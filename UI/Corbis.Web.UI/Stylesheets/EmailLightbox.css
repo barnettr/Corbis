@@ -1,0 +1,118 @@
+﻿#emailLightbox .ModalPopupPanelDialog .ModalPopupContent 
+{
+	background-color: #DBDBDB;
+	display: block;
+	line-height: 18px;
+	margin-bottom: 0;
+	padding: 0;
+	width: 600px;
+}
+
+#emailLightbox .ModalPopupPanelDialog .ModalTitleBar .Title 
+{
+	color: #1a1a1a;
+	font-weight: bold;
+	height:20px;
+	padding-bottom: 0px;
+}
+
+#emailLightbox .ModalPopupPanelDialog .ModalTitleBar .Close 
+{
+	margin-bottom: 5px;
+}
+
+#emailLightbox .ModalPopupPanelDialog .ModalPopupContent .FormButtons
+{
+	margin: 0;
+}
+
+#emailLightbox .ModalPopupPanelDialog .ModalPopupContent .FormButtons .instructions
+{
+	font-size:11px;
+	line-height:14px;
+	padding-left:12px;
+	padding-right:110px;
+}
+
+#emailLightbox .inputFields
+{
+	background-color: #e8e8e8;
+	margin-bottom: 2px;
+	margin-top:17px;
+}
+
+#emailLightbox .modalButtons
+{
+	background-color: #e8e8e8;
+	height: 38px;
+	margin-top:-1px;
+	padding-right: 130px;
+}
+
+#emailLightbox .modalButtons .GlassButton
+{
+	margin-top: 10px;
+}
+
+#emailLightbox .cancelButton
+{
+	position: relative;
+}
+
+#emailLightbox .ValidationSummary
+{
+	padding: 0;
+	margin: 0;
+}
+
+#emailLightbox .ValidationSummary ul 
+{
+	background-image:none !important;
+	margin:13px 0 0 44px;
+	padding:0px 10px 10px 0px;
+	text-align:left;
+}
+
+#formFields
+{
+	width: 600px;
+}
+
+#formFields .FormLeft
+{
+	width: 110px;
+	vertical-align: top !important;
+	border-top:2px solid #DBDBDB;
+	border-bottom: none;
+}
+
+#formFields .FormLeft span,
+#formFields .FormRight span
+{
+	margin: 10px 0 10px 10px;
+}
+
+#formFields .FormRight
+{
+	width: 490px;
+	border-top:2px solid #DBDBDB;
+	border-bottom: none;
+}
+
+#formFields .FormRight input
+{
+	width: 350px;
+	margin: 5px 8px;
+}
+
+#formFields .FormRight textarea
+{
+	height: 130px;
+	width: 350px;
+	margin: 5px 8px;
+}
+
+#formFields .messageRow td
+{
+	height: 142px;
+}

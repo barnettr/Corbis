@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Neue Fotos</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Premium RM| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Premium RM| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Außergewöhnliche Momente, ausgefeilte Art-Direktion. Beachtenswerte Neuzugänge zur Corbis Kollektion.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush: das Theater der Werbung</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Premium RM| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Premium RM| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Stilisiert und auffällig - Crush steht für designorientierte werbliche Fotografie mit einem smarten, bewusst modernen Look.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Trend-Report: Unternehmensverantwortung</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Premium RM| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Premium RM| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-DE.pdf?cid=de-DE" localize="true" Text="PDF-Datei herunterladen" Title="PDF-Datei herunterladen"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>Unternehmen sind sich heute mehr denn je des Zusammenhangs zwischen positivem sozialem Handeln und Profitabilität bewusst. Umwelt, Bildung und Ethik sind die neuen zentralen Leistungsindikatoren.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-DE.pdf?cid=de-DE" localize="true" Text="PDF-Datei herunterladen (1,83 MB)" Title="PDF-Datei herunterladen"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

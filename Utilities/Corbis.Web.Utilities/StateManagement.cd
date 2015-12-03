@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Corbis.Web.Utilities.StateManagement.UserState">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\UserState.cs</FileName>
+      <HashCode>AAAEAEAAAAAAAAAQAAAAAAAEAAAAQAAAAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Corbis.Web.Utilities.StateManagement.StateItemCollectionBase">
+    <Position X="3.25" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\StateItemCollectionBase.cs</FileName>
+      <HashCode>AAAAAAAAAAkAAgAAAAAACAAAAAAAAgAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Corbis.Web.Utilities.StateManagement.StateItem">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\StateItem.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Corbis.Web.Utilities.StateManagement.StateItemDescAttribute">
+    <Position X="1" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\StateItemDescAttribute.cs</FileName>
+      <HashCode>AAAEAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Corbis.Web.Utilities.StateManagement.CookieHelper">
+    <Position X="5.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\CookieHelper.cs</FileName>
+      <HashCode>EABAACAgAEQAAAABAAAACAAiAAAAAAAAAQAABAAAEQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Corbis.Web.Utilities.StateManagement.StateItemStore">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\StateEnums.cs</FileName>
+      <HashCode>EAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Corbis.Web.Utilities.StateManagement.StatePersistenceFormat">
+    <Position X="1" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\StateEnums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Corbis.Web.Utilities.StateManagement.StatePersistenceDuration">
+    <Position X="1" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <FileName>src\StateManagement\StateEnums.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

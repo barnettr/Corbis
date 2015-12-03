@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/bestOf/large/" tnpath="xml/Slideshows/Images/bestOf/thumb/">
+		<img src="OUT21391994.jpg" caption="Poppy Montgomery&lt;br&gt; OUT21391994 &lt;p&gt; © Jack Guy/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21576449.jpg" caption="Renee Zellweger&lt;br&gt; OUT21576449 &lt;p&gt; © James White/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21620277.jpg" caption="Tyson Ritter of The All-American Rejects&lt;br&gt; OUT21620277 &lt;p&gt; © Adam Fedderly/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21666774.jpg" caption="Davendra Banhart&lt;br&gt; OUT21666774 &lt;p&gt; © Dan Monick/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21725571.jpg" caption="Martha MacIsaac&lt;br&gt; OUT21725571 &lt;p&gt; © Trevor O'Shana/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21798048.jpg" caption="Lily Allen&lt;br&gt; OUT21798048 &lt;p&gt; © Jonathan Worth/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21804463.jpg" caption="Jessica Szohr&lt;br&gt; OUT21804463 &lt;p&gt; © Rayon Richards/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21809904.jpg" caption="Matt Bush&lt;br&gt; OUT21809904 &lt;p&gt; © Della Bass/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21853666.jpg" caption="Milo Ventimiglia&lt;br&gt; OUT21853666 &lt;p&gt; © Mitchell McCormack/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21896329.jpg" caption="Cobie Smulders&lt;br&gt; OUT21896329 &lt;p&gt; © Robert Trachtenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21913083.jpg" caption="AnnaLynne McCord&lt;br&gt; OUT21913083 &lt;p&gt; © Daniela Federici/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21922459.jpg" caption="Rihanna&lt;br&gt; OUT21922459 &lt;p&gt; © Ian White/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21924358.jpg" caption="Freida Pinto &lt;br&gt; OUT21924358 &lt;p&gt; © Regan Cameron/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21925262.jpg" caption="Jeffrey Dean Morgan&lt;br&gt; OUT21925262 &lt;p&gt; © Patrick Fraser/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21928721.jpg" caption="Guillaume Canet&lt;br&gt; OUT21928721 &lt;p&gt; © Patrick Swirc/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21930182.jpg" caption="Taylor Swift&lt;br&gt; OUT21930182 &lt;p&gt; © Mary Ellen Matthews/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21967476.jpg" caption="Catherine Deneuve&lt;br&gt; OUT21967476 &lt;p&gt; © Patrick Swirc/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21970062.jpg" caption="Jesse Eisenberg&lt;br&gt; OUT21970062 &lt;p&gt; © Nicolas Wagner/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21975609.jpg" caption="Dwayne &#34;The Rock&#34; Johnson&lt;br&gt; OUT21975609 &lt;p&gt; © Anthony Mandler/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21980766.jpg" caption="Sasha Grey&lt;br&gt; OUT21980766 &lt;p&gt; © Pieter Henket/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21993319.jpg" caption="Alina Puscau&lt;br&gt; OUT21993319 &lt;p&gt; © Gavin Bond/Corbis Outline &lt;/p&gt;" link="" />
+	</album>
+</gallery>

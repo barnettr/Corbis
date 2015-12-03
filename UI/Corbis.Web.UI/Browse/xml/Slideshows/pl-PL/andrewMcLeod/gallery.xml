@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/andrewMcLeod/large/" tnpath="xml/Slideshows/Images/andrewMcLeod/thumb/">
+		<img src="OUT18676589.jpg" caption="JoJo &lt;br&gt; OUT18676589 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT18677221.jpg" caption="Hayden Panettiere &lt;br&gt; OUT18677221 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT18677371.jpg" caption="Hayden Panettiere &lt;br&gt; OUT18677371 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT18800072.jpg" caption="Jeremy Piven &lt;br&gt; OUT18800072 &lt;p&gt; | © Andrew McLeod/Corbis &lt;/p&gt;" link="" />
+		<img src="OUT18800620.jpg" caption="Jason Mraz &lt;br&gt; OUT18800620 &lt;p&gt; | © Andrew McLeod/Corbis &lt;/p&gt;" link="" />
+		<img src="OUT18800738.jpg" caption="Hanson &lt;br&gt; OUT18800738 &lt;p&gt; | © Andrew McLeod/Corbis &lt;/p&gt;" link="" />
+		<img src="OUT18800760.jpg" caption="Jonathan Lethem &lt;br&gt; OUT18800760 &lt;p&gt; | © Andrew McLeod/Corbis &lt;/p&gt;" link="" />
+		<img src="OUT20804678.jpg" caption="Lauren Conrad &lt;br&gt; OUT20804678 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT20804934.jpg" caption="Cast of &#34;The Hills&#34; &lt;br&gt; OUT20804934 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT20805244.jpg" caption="Rashida Jones &lt;br&gt; OUT20805244 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT20969716.jpg" caption="Mo Rocca &lt;br&gt; OUT20969716 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21209388.jpg" caption="Whitney Port &lt;br&gt; OUT21209388 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21658619.jpg" caption="Solange Knowles &lt;br&gt; OUT21658619 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21837743.jpg" caption="Jay Baruchel &lt;br&gt; OUT21837743 &lt;p&gt; | © Andrew McLeod/Corbis Outline &lt;/p&gt;" link="" />
+	</album>
+</gallery>

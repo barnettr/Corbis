@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Perełki z archiwum Corbis</Title>
+		<Image Src="xml/Archival/Images/main.jpg" Alt="42-21496840| Ekskluzywne RM| © Bob Adelman/Corbis" ImageID="42-21496840" Attribution="| Ekskluzywne RM| © Bob Adelman/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Klęski i triumfy. Przywódcy i wizjonerzy. Fotografia uprawdopodobnia historię.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Świat w kolorze</Title>
+		<Image Src="xml/Archival/Images/sub.1.jpg" Alt="U1591414-10| Standardowe RM| © Bettmann/CORBIS" ImageID="U1591414-10" Attribution="| Standardowe RM| © Bettmann/CORBIS" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Fotografia świadkiem ewolucji koloru</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

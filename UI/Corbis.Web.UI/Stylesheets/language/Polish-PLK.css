@@ -1,0 +1,136 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+ 
+.optionsBlock a span  
+{  /* delivery icons in stage 2 of checkout */
+    position:relative;
+    top:-4px;
+ }
+
+a.AddToCart
+{
+	/*background-image: url(../images/icon-cart-up.gif);*/
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 0px !important;
+	height:20px;
+	width: 23px;
+}
+
+a.AddToCart:hover
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -20px !important;
+	height: 20px;
+}
+
+a.AddToCartSelected
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -40px !important;
+	width: 23px;
+	cursor: default;
+}
+
+a.ExpressCheckout
+{
+	/*background-image: url(../images/icon-express-up.gif);*/
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 1px !important;
+	width: 30px;
+}
+
+a.ExpressCheckout:hover
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -19px !important;
+}
+
+a.ExpressCheckoutSelected
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -40px !important;
+	width: 30px;
+	cursor: default;
+}
+  
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:450px !important;
+}
+
+.SBT_filters img {
+    background-image:url(/Images/pl-PL/buddyTabFilters_off.gif);
+    height:68px;
+}
+.SBT_filters.ON img {
+    background-image:url(/Images/pl-PL/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/pl-PL/buddyTabFilters_hover.gif);
+}
+
+.SBT_lightboxes img 
+{
+	background-image:url(/Images/pl-PL/buddyTabLightbox_off.gif);
+	height:75px;
+}
+.SBT_lightboxes.ON img 
+{
+	background-image:url(/Images/pl-PL/buddyTabLightbox_on.gif);
+}
+.SBT_lightboxes img:hover
+{
+	background-image:url(/Images/pl-PL/buddyTabLightbox_hover.gif);
+}
+
+.SBT_quickpic img {
+    background-image:url(/Images/pl-PL/buddyTabQuickPic1.gif);
+    height:87px;
+}
+.SBT_quickpic.ON img {
+    background-image:url(/Images/pl-PL/buddyTabQuickPic2.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/pl-PL/buddyTabQuickPic3.gif);
+}
+
+/* 
+cart button:
+IE cannot handle nowrap/width:auto because positioning is handled by floats, and floats in IE7 need a width in this situation in the polish version.  
+Should be rebuilt using a table if the fixed width in polish becomes an issue/it's an issue in future languages.
+ */
+#cartCountDiv,
+.Checkout
+{  
+    width:165px !important;    
+}
+
+/* more display options in search header: text needs to wrap */
+#moreDisplayOptions
+{
+     height:165px !important;
+}
+
+/* sort options in search */
+.searchResultsContent #sortOptionsMenuDiv
+{
+     width:280px !important;
+}
+
+/* sort options in order history */
+#orderHistory .IE7OrLess #sortOptionsMenuDiv
+{
+     width:288px !important;
+}
+
+/* cart count button, top right (in universal header) - bug 15887: in Polish, the number must be on the right. */
+#cartCount
+{
+    float:right;
+}
+/*  OrderHistory & Checkout RFCD download  */
+#rfcdDownloadTemplate .rfcdInstruction
+{
+    width:365px;
+}
+.rfcdInfo
+{
+    width:400px !important;
+}

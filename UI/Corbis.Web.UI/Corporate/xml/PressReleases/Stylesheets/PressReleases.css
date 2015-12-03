@@ -1,0 +1,42 @@
+﻿div#modalWrapper{
+	float:left;
+	background:#dbdbdb;
+}
+div#modalWrapper div.contentWrapper h1{
+	font-weight:bold;
+	font-size:14px;
+}
+div#modalWrapper div.contentWrapper p{
+	line-height:1.333em;
+}
+div#modalWrapper div.navImages{
+	float:right;
+}
+div#modalWrapper div.titleWrapper{
+	color:#666;
+	font-size:14px !important;
+	height:26px;
+	padding-left:8px;
+}
+div#modalWrapper div.titleWrapper img.printLink{
+	background:transparent url(/Images/ICN-print.gif) no-repeat scroll 0 0;
+	display:inline-block;
+	height:16px;
+	width:16px;
+	margin-right:4px;
+	cursor:pointer;
+}
+div#modalWrapper div.titleWrapper img.closeLink{
+	background:transparent url(/Images/iconClose.gif) no-repeat scroll 0 0;
+	display:inline-block;
+	height:16px;
+	width:16px;
+	cursor:pointer;
+	margin-right:12px;
+}
+div#modalWrapper div.closeButtonWrapper{
+	background:#dbdbdb;
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+}

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addLink.Text" xml:space="preserve">
+    <value>I want to add a new credit card</value>
+  </data>
+  <data name="Address1Caption" xml:space="preserve">
+    <value>Street Address 1</value>
+  </data>
+  <data name="Address2Caption" xml:space="preserve">
+    <value>Street Address 2</value>
+  </data>
+  <data name="Address3Caption" xml:space="preserve">
+    <value>Street Address 3</value>
+  </data>
+  <data name="addShippingAddress.Text" xml:space="preserve">
+    <value>I want to add a new shipping address</value>
+  </data>
+  <data name="billingAddressTitle.Text" xml:space="preserve">
+    <value>Billing address</value>
+  </data>
+  <data name="businesssInfoTitle.Text" xml:space="preserve">
+    <value>Business information</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cardnumberTitle.Text" xml:space="preserve">
+    <value>Card number</value>
+  </data>
+  <data name="changePasswordModal.Text" xml:space="preserve">
+    <value>I want to change my password</value>
+  </data>
+  <data name="changePasswordModal.WindowTitle" xml:space="preserve">
+    <value>Change My Password</value>
+  </data>
+  <data name="CityCaption" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="companyNameLabel.Text" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="CountryCaption" xml:space="preserve">
+    <value>Country / Region</value>
+  </data>
+  <data name="deleteLink.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteShippingAddress.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteShippingAddress.WindowTitle" xml:space="preserve">
+    <value>Delete Shipping Address</value>
+  </data>
+  <data name="directMailPreferencesHeader.Text" xml:space="preserve">
+    <value>Direct mail</value>
+  </data>
+  <data name="doNotSendPromoEmail.Text" xml:space="preserve">
+    <value>Do not send me promotions and newsletters from Corbis via email.</value>
+  </data>
+  <data name="edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editLink.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editMailingAddress.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editPersonalInformation.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="editPersonalInformation.WindowTitle" xml:space="preserve">
+    <value>Edit My Personal Information</value>
+  </data>
+  <data name="editShippingAddress.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="emailAddressLabel.Text" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="emailLanguageText.Text" xml:space="preserve">
+    <value>Email Language</value>
+  </data>
+  <data name="emailPreferencesHeader.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="emptyCreditResult.Text" xml:space="preserve">
+    <value>You have no credit card on file.</value>
+  </data>
+  <data name="emptyShippingInformation.Text" xml:space="preserve">
+    <value>You have no shipping addresses on file.</value>
+  </data>
+  <data name="expirationDateTitle.Text" xml:space="preserve">
+    <value>Expiration date</value>
+  </data>
+  <data name="expressCheckout.Text" xml:space="preserve">
+    <value>Express checkout</value>
+  </data>
+  <data name="expressCheckoutOff.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="expressCheckoutOn.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="ExpressCheckOuttooltip.Title" xml:space="preserve">
+    <value>Express Checkout</value>
+  </data>
+  <data name="jobTitleLabel.Text" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="mailingAddressLabel.Text" xml:space="preserve">
+    <value>Mailing address</value>
+  </data>
+  <data name="displayNameLabel.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="nameOfCardholderTitle.Text" xml:space="preserve">
+    <value>Name of cardholder</value>
+  </data>
+  <data name="onfileMessageLabel.Text" xml:space="preserve">
+    <value>Here’s what we currently have on file.</value>
+  </data>
+  <data name="securityMessageLabel.Text" xml:space="preserve">
+    <value>The following information is needed for security in username and password recovery.</value>
+  </data>
+  <data name="securityQuestionLabel.Text" xml:space="preserve">
+    <value>Security question</value>
+  </data>
+  <data name="answerLabel.Text" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Profile &amp; Preferences</value>
+  </data>
+  <data name="paymentAndShippingHeader.Text" xml:space="preserve">
+    <value>Payment preferences</value>
+  </data>
+  <data name="paymentInfoHeadTitle.Text" xml:space="preserve">
+    <value>Payment information</value>
+  </data>
+  <data name="paymentInfoTitle.Text" xml:space="preserve">
+    <value>This credit card information is currently on file. Click edit to update</value>
+  </data>
+  <data name="personalTitle.Text" xml:space="preserve">
+    <value>Sign In &amp; Personal information</value>
+  </data>
+  <data name="PostalCodeCaption" xml:space="preserve">
+    <value>Zip / Postal Code</value>
+  </data>
+  <data name="preferencesHeader.Text" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="Preferred.Text" xml:space="preserve">
+    <value>(preferred)</value>
+  </data>
+  <data name="preferredCorporateAccount.Text" xml:space="preserve">
+    <value>Preferred corporate account</value>
+  </data>
+  <data name="preferredCreditCard.Text" xml:space="preserve">
+    <value>Preferred credit card</value>
+  </data>
+  <data name="preferredPaymentMethod.Text" xml:space="preserve">
+    <value>Preferred payment method</value>
+  </data>
+  <data name="preferredShippingAddress.Text" xml:space="preserve">
+    <value>Preferred shipping address:</value>
+  </data>
+  <data name="RegionCaption" xml:space="preserve">
+    <value>State / Province</value>
+  </data>
+  <data name="save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="sendPromoEmail.Text" xml:space="preserve">
+    <value>Please send me promotions and newsletters from Corbis via email.</value>
+  </data>
+  <data name="ShippingAddress.Text" xml:space="preserve">
+    <value>Shipping address</value>
+  </data>
+  <data name="ShippingBusinessPhoneNumber.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ShippingCompanyName.Text" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="snailMailPreferenceText.Text" xml:space="preserve">
+    <value>Please send me printed promotions and catalogs from Corbis via regular mail. I understand that I can unsubscribe at any time.</value>
+  </data>
+  <data name="streetAddressLabel.Text" xml:space="preserve">
+    <value>Business address</value>
+  </data>
+  <data name="telephoneLabel.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ExpressCheckOuttooltip.Rel" xml:space="preserve">
+    <value>Express checkout enables you to quickly purchase a single image license and immediately download that image using your default shipping and payment information.</value>
+  </data>
+  <data name="typeofCreditTitle.Text" xml:space="preserve">
+    <value>Type of credit card</value>
+  </data>
+  <data name="usernameLabel.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>Corbis: photography, rights, motion - My Profile &amp; Preferences</value>
+  </data>
+  <data name="Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="passwordSuccessModal.Message" xml:space="preserve">
+    <value>Your &lt;strong&gt;password&lt;/strong&gt; has been changed.</value>
+  </data>
+  <data name="passwordSuccessModal.Title" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="getSuccess.Title" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="getSuccessMessage.Text" xml:space="preserve">
+    <value>Your changes have been saved.</value>
+  </data>
+  <data name="emailFormatLabel.Text" xml:space="preserve">
+    <value>Email format</value>
+  </data>
+  <data name="emailLanguageLabel.Text" xml:space="preserve">
+    <value>Email language</value>
+  </data>
+  <data name="PaymentMethod_CorporateAccount" xml:space="preserve">
+    <value>Corporate Account</value>
+  </data>
+  <data name="PaymentMethod_CorporateAccount_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PaymentMethod_CreditCard" xml:space="preserve">
+    <value>Credit Card</value>
+  </data>
+  <data name="PaymentMethod_CreditCard_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="furiganaNameLabel.Text" xml:space="preserve">
+    <value>Furigana name</value>
+  </data>
+  <data name="warningDifferentCountry.Text" xml:space="preserve">
+    <value>Your current settings may prevent online viewing, pricing and purchasing of certain images. Please</value>
+  </data>
+  <data name="warningDifferentCountryEnd.Text" xml:space="preserve">
+    <value>for more information.</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="successMessage.Text" xml:space="preserve">
+    <value>Your changes have been saved.</value>
+  </data>
+  <data name="successTitle.Title" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="contactCorbis.Text" xml:space="preserve">
+    <value>contact Corbis</value>
+  </data>
+</root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Collections/Images/warhol/large/" tnpath="xml/Collections/Images/warhol/thumb/">
+		<img src="42-16315560.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-16315560');&quot;&gt;42-16315560&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-16315560');" />
+		<img src="AALX001011.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001011');&quot;&gt;AALX001011&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001011');" />
+    <img src="AALX001019.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001019');&quot;&gt;AALX001019&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001019');" />
+    <img src="AALX001022.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001022');&quot;&gt;AALX001022&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001022');" />
+    <img src="AALX001031.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001031');&quot;&gt;AALX001031&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001031');" />
+		<img src="AALX001033.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001033');&quot;&gt;AALX001033&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001033');" />
+		<img src="AALX001040.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001040');&quot;&gt;AALX001040&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001040');" />
+    <img src="AALX001043.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001043');&quot;&gt;AALX001043&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001043');" />
+		<img src="AALX001065.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001065');&quot;&gt;AALX001065&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001065');" />
+		<img src="AALX001084.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001084');&quot;&gt;AALX001084&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001084');" />
+    <img src="AALX001098.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001098');&quot;&gt;AALX001098&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001098');" />
+		<img src="AALX001131.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001131');&quot;&gt;AALX001131&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001131');" />
+		<img src="AALX001197.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001197');&quot;&gt;AALX001197&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001197');" />
+		<img src="AALX001210.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001210');&quot;&gt;AALX001210&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001210');" />
+		<img src="AALX001217.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001217');&quot;&gt;AALX001217&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001217');" />
+    <img src="AALX001276.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001276');&quot;&gt;AALX001276&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001276');" />
+    <img src="AALX001278.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001278');&quot;&gt;AALX001278&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001278');" />
+    <img src="AALX001364.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001364');&quot;&gt;AALX001364&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001364');" />
+    <img src="AALX001396.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001396');&quot;&gt;AALX001396&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001396');" />
+    <img src="AALX001432.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001432');&quot;&gt;AALX001432&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001432');" />
+    <img src="AALX001465.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001465');&quot;&gt;AALX001465&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" llink="javascript:DisplaySearchResults('AALX001465');" />
+    <img src="AALX001472.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001472');&quot;&gt;AALX001472&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001472');" />
+    <img src="AALX001494.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001494');&quot;&gt;AALX001494&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001494');" />
+    <img src="AALX001528.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('AALX001528');&quot;&gt;AALX001528&lt;/a&gt; &lt;p&gt;| Premium RM| © Andy Warhol Foundation/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001528');" />
+  </album>
+</gallery>

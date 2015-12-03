@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page>
+
+	<PageTitle>Corbis Employment</PageTitle>
+
+	<PageDescription></PageDescription>
+
+	<PageKeywords>Corbis, Stock Photography, Stock Photos</PageKeywords>
+
+	<!-- Page Content below -->
+	<Content>
+		<p>
+			At any given time, Corbis is likely seeking talented individuals to fill positions in client advisory roles, as well as in customer service, research, photography/art/motion editing, web production, and other departments in our global offices. For information about current job openings, click below.
+		</p>
+		<ul class="Links">
+			<li>
+				<a href="/Corporate/Employment/Benefits.aspx" title="See benefits">Benefits</a>
+			</li>
+			<li>
+				<a href="/Corporate/Employment/Jobs.aspx" title="See jobs">Jobs</a>
+			</li>
+		</ul>
+	</Content>
+
+</Page>

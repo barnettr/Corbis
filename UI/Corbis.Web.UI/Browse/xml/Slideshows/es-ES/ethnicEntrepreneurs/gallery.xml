@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/ethnicEntrepreneurs/large/" tnpath="xml/Slideshows/Images/ethnicEntrepreneurs/thumb/">
+		<img src="01_42-21638064.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21638064');&quot;&gt;42-21638064&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21638064');" />
+		<img src="02_42-21637547.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21637547');&quot;&gt;42-21637547&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21637547');" />
+    <img src="03_42-20619410.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20619410');&quot;&gt;42-20619410&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20619410');" />
+		<img src="04_42-20050006.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20050006');&quot;&gt;42-20050006&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20050006');" />
+    <img src="05_42-19752178.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19752178');&quot;&gt;42-19752178&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19752178');" />
+    <img src="06_42-21090671.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21090671');&quot;&gt;42-21090671&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21090671');" />
+		<img src="07_42-20059224.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20059224');&quot;&gt;42-20059224&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20059224');" />
+    <img src="08_42-21638075.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21638075');&quot;&gt;42-21638075&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21638075');" />
+    <img src="09_42-19847224.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19847224');&quot;&gt;42-19847224&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19847224');" />
+		<img src="10_42-19752173.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19752173');&quot;&gt;42-19752173&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19752173');" />
+		<img src="11_42-21090778.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21090778');&quot;&gt;42-21090778&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21090778');" />
+		<img src="12_42-19857917.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19857917');&quot;&gt;42-19857917&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19857917');" />
+		<img src="13_42-20529628.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20529628');&quot;&gt;42-20529628&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20529628');" />
+		<img src="14_42-21638070.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21638070');&quot;&gt;42-21638070&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21638070');" />
+    <img src="15_42-20059238.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20059238');&quot;&gt;42-20059238&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20059238');" />
+		<img src="16_42-20528925.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20528925');&quot;&gt;42-20528925&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20528925');" />
+		<img src="17_42-21637569.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21637569');&quot;&gt;42-21637569&lt;/a&gt; &lt;p&gt; | Premium LD| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21637569');" />
+	</album>
+</gallery>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem>
+		<Title>September</Title>
+		<Image Src="xml/Hotline/Images/main.jpg" Alt="42-18768552| Standaard RM| © WWD/Condé Nast/Corbis" Title="Gwyneth Paltrow" ImageID="42-18768552" Attribution="| Standaard RM| © WWD/Condé Nast/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="Verjaardagen" Title="Klik om beelden te bekijken"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="Verjaardagen" Title="Klik om beelden te bekijken"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288732" PreText="01" Text="Deauville-filmfestival" Title="Klik om beelden te bekijken"  />
+      
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288791" PreText="01" Text="MTV Video Music Awards" Title="Klik om beelden te bekijken"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288833" PreText="10" Text="Aanvang van het Toronto-filmfestival" Title="Klik om beelden te bekijken"  />
+
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288925" PreText="11" Text="8 jaar geleden: VS getroffen door ergste terrorismedaad in vredestijd in de geschiedenis van het land" Title="Klik om beelden te bekijken"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288792" PreText="11" Text="Mercedes-Benz New York Fashion Week - voorjaar/zomer 2010" Title="Klik om beelden te bekijken"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288748" PreText="12" Text="Filmfestival Venetië - Gouden Leeuw" Title="Klik om beelden te bekijken"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288749" PreText="18" Text="London Fashion Week - voorjaar/zomer 2010" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288747" PreText="19" Text="Oktoberfest - München" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288827" PreText="20" Text="Primetime Emmy Awards 2009" Title="Klik om beelden te bekijken"  />
+		</Links>
+   </FeaturedItem>
+  <FeaturedItem>
+    <Title>Augustus</Title>
+    <Image Src="xml/Hotline/Images/second.jpg" Alt="42-18979743| Premium RM| © Elliott Landy/Corbis" Title="Bob Dylan" ImageID="42-18979743 " Attribution="| Premium RM| © Elliott Landy/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="Verjaardagen" Title="Klik om beelden te bekijken"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="Verjaardagen" Title="Klik om beelden te bekijken"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288641" PreText="07" Text="Lollapalooza 2009" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288643" PreText="07" Text="Edinburgh Festival Fringe 2009" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288642" PreText="09" Text="Teen Choice Awards" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288684" PreText="13" Text="PGA-kampioenschap (VS)" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288675" PreText="15" Text="40 jaar geleden: aanvang van het Woodstock-festival" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1233542" PreText="17" Text="1 jaar geleden: Michael Phelps won acht gouden medailles op de Olympische Spelen" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288660" PreText="22" Text="V-festival" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288677" PreText="23" Text="Formule 1: Grand Prix van Europa" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288661" PreText="25" Text="Truman Capote overleed 25 jaar geleden" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288635" PreText="26" Text="Tomatina-festival" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230133" PreText="31" Text="US Open" Title="Klik om beelden te bekijken"  />
+      
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Juli</Title>
+    <Image Src="xml/Hotline/Images/third.jpg" Alt="42-16014622 | Standaard RM| © Oliver Hoslet/epa/Corbis" Title="Lance Armstrong geeft zijn zeven Tour-overwinningen aan" ImageID="42-16014622" Attribution="| Standaard RM| © Oliver Hoslet/epa/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="Verjaardagen" Title="Klik om beelden te bekijken"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="Verjaardagen" Title="Klik om beelden te bekijken"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288468" PreText="02" Text="Roskilde-festival 2009" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288467" PreText="03" Text="Brian Jones overleed 40 jaar geleden" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230891" PreText="04" Text="Tour de France" Title="Klik om beelden te bekijken"  />
+   
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288492" PreText="06" Text="Paris Haute Couture - najaar/winter 2009/10" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230892" PreText="07" Text="MLB - All Star Game" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288410" PreText="14" Text="Frankrijk - Quatorze Juillet" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288474" PreText="17" Text="13 jaar geleden: TWA-vlucht ontplofte voor de kust van Long Island" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288482" PreText="17" Text="Billie Holiday overleed 50 jaar geleden" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288495" PreText="17" Text="ESPY Awards" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288472" PreText="20" Text="40 jaar geleden: eerste mens op de maan" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288484" PreText="24" Text="International Cheerleading Championships" Title="Klik om beelden te bekijken"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288409" PreText="28" Text="Jacqueline Onassis werd 80 jaar geleden geboren" Title="Klik om beelden te bekijken"  />
+    </Links>
+  </FeaturedItem>
+</FeaturedItems>

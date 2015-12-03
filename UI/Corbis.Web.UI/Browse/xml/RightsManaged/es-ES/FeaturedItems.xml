@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Fotografía nueva</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Premium DP| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Premium DP| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Momentos extraordinarios. El arte más exigente. La colección de Corbis crece con distinguidas incorporaciones.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>La farsa publicitaria</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Premium DP| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Premium DP| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Estilizada y llamativa, Crush crea fotografía comercial de diseño por excelencia con un toque elegante y moderno.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Informe de tendencias: responsabilidad empresarial</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Premium DP| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Premium DP| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-ES.pdf?cid=es-es" localize="true" Text="Descarga el PDF" Title="Descarga el PDF"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>Ahora más que nunca, las empresas reconocen la relación entre la acción social positiva y la rentabilidad. El medio ambiente, la educación y la ética son los nuevos indicadores clave de la actuación de las empresas.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-ES.pdf?cid=es-es" localize="true" Text="Descarga el PDF (1,83 MB)" Title="Descarga el PDF"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

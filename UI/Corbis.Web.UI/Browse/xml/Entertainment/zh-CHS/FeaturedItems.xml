@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>夏季大片</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Standard RM| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Standard RM| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>顶级明星及制作费，竞逐夏季票房第一名。浪漫爱情故事、喜剧、戏剧及科幻小说，让这一年的荧幕大放异彩。查看2009年占据首位的精彩电影片段。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Corbis Outline 独家名人肖像</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="在 Outline 查看更多名人肖像。" Title="在 Outline 查看更多名人肖像。"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>艺术家与灵感缪思。传说与纯真的少女。Corbis Outline™ 为您送上世界各地出色的名人肖像图片，由业界最出色的摄影师负责拍摄。</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="在 Outline 查看更多名人肖像。" Title="在 Outline 查看更多名人肖像。"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

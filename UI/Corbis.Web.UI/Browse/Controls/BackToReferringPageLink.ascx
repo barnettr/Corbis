@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="BackToReferringPageLink.ascx.cs" Inherits="Corbis.Web.UI.Browse.Controls.BackToReferringPageLink" %>
+<asp:Literal ID="BackLink" runat="server" />

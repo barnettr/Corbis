@@ -1,0 +1,50 @@
+.RfcdCategoryFloatLeft 
+{
+	float:left; 
+	height:100%; 
+	position:relative;
+}
+
+.RfcdAlphabetFloatLeft
+{
+	float:left; 
+	height:26px; 
+	position:relative;
+}
+
+.RfcdCategoryMarginLeft 
+{
+	width:auto;
+	height:auto;
+	margin-left:20px;
+}
+
+.RfcdCategoryAlphabet
+{
+	width:100%;
+	height:30px;
+}
+
+.RfcdCategoryContent
+{
+	width:100%;
+	height:auto;
+}
+
+.RfcdCategoryDetailFloatLeft
+{
+	float:left; 
+	margin-left:300px;
+	position:relative;
+}
+
+.RfcdResultsLeftNav
+{
+	width:260px;
+	float:left;
+}
+
+.RfcdResultsProducts
+{
+	margin-left:300px;	
+}

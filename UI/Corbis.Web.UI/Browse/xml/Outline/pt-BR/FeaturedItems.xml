@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Estrelas de bilheteria de verão</Title>
+		<Image Src="xml/Outline/Images/main.jpg" Alt="OUT18640068| RC Premium| © Don Flood/Corbis Outline" Attribution="OUT18640068| RC Premium| © Don Flood/Corbis Outline">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Veja o show de slides" Title="Veja o show de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>
+				Eles fazem papel de capitães, criminosos e garotos bruxos. Eles lutam contra dinossauros, sequestradores e máquinas humanas. Os astros posam para promover os campeões de bilheteria deste verão.
+				</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+  <FeaturedItem>
+    <Title>Em destaque: Jill Greenberg</Title>
+    <Image Src="xml/Outline/Images/sub.1.jpg" Alt="OUT21718659| RC Premium| © Jill Greenberg/Corbis Outline" Attribution="OUT21718659| RC Premium| © Jill Greenberg/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>A fotografia de Jill Greenberg é aclamada pelo seu estilo de iluminação distinta e claridade marcante.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Apresentando Andrew McLeod</Title>
+    <Image Src="xml/Outline/Images/sub.2.jpg" Alt="OUT20804934| RC Premium| © Andrew McLeod/Corbis Outline" Attribution=" OUT20804934| RC Premium| © Andrew McLeod/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Com uma lista de clientes que inclui Seventeen e Sony BMG, Andrew McLeod se especializa em fotografia para a moda e retratos de celebridades.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>O melhor da Outline</Title>
+    <Image Src="xml/Outline/Images/sub.3.jpg" Alt="OUT21975609| RC Premium| © Anthony Mandler/Corbis Outline" Attribution="OUT21975609| RC Premium| © Anthony Mandler/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Retratos originais das pessoas mais fascinantes do mundo tirados pelos fotógrafos mais requisitados.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+    </Links>
+  </FeaturedItem>
+	<FeaturedItem IsHero="true">
+		<Title>Não é membro da Outline?</Title>
+		<Copy>
+			<![CDATA[
+				<p>
+					As imagens da Outline estão disponíveis exclusivamente para os membros da Outline. <a href="http://pro.corbis.com/creative/celebrity/outlineform/orderform.asp?lcd=pt-br" title="Clique para exibir o formulário de cadastro da associação." rel="720_600_popup" localize="true">Clique aqui</a> para entrar em contato conosco sobre a associação.
+				</p>
+			]]>
+		</Copy>
+		<Links />
+	</FeaturedItem>
+</FeaturedItems>

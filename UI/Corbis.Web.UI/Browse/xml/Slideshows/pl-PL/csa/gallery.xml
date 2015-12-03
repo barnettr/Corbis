@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Ekskluzywne RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Ekskluzywne RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/csa/large/" tnpath="xml/Slideshows/Images/csa/thumb/">
+    <img src="01_42-19484511.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19484511');&quot;&gt;42-19484511&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19484511');" />
+    <img src="02_42-19482766.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19482766');&quot;&gt;42-19482766&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19482766');" />
+    <img src="03_42-19483741.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19483741');&quot;&gt;42-19483741&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19483741');" />
+    <img src="04_42-19467495.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19467495');&quot;&gt;42-19467495&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19467495');" />
+    <img src="05_42-19473157.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19473157');&quot;&gt;42-19473157&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19473157');" />
+    <img src="06_42-19473501.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19473501');&quot;&gt;42-19473501&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19473501');" />
+    <img src="07_42-19476963.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19476963');&quot;&gt;42-19476963&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19476963');" />
+    <img src="08_42-19526932.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19526932');&quot;&gt;42-19526932&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19526932');" />
+    <img src="09_42-19484631.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19484631');&quot;&gt;42-19484631&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19484631');" />
+    <img src="10_42-19467513.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19467513');&quot;&gt;42-19467513&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19467513');" />
+    <img src="11_42-19482652.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19482652');&quot;&gt;42-19482652&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19482652');" />
+    <img src="12_42-19464649.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19464649');&quot;&gt;42-19464649&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19464649');" />
+    <img src="13_42-19467217.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19467217');&quot;&gt;42-19467217&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19467217');" />
+    <img src="14_42-19477570.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19477570');&quot;&gt;42-19477570&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19477570');" />
+    <img src="15_42-19467501.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19467501');&quot;&gt;42-19467501&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19467501');" />
+    <img src="16_42-19484010.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19484010');&quot;&gt;42-19484010&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19484010');" />
+    <img src="17_42-19467376.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19467376');&quot;&gt;42-19467376&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19467376');" />
+    <img src="18_42-19467391.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19467391');&quot;&gt;42-19467391&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19467391');" />
+    <img src="19_42-19476960.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19476960');&quot;&gt;42-19476960&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19476960');" />
+    <img src="20_42-19476846.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19476846');&quot;&gt;42-19476846&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19476846');" />
+    <img src="21_42-19470866.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19470866');&quot;&gt;42-19470866&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mod Art/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19470866');" />
+    <img src="22_42-19483470.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-19483470');&quot;&gt;42-19483470&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Printstock/CSA Images/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-19483470');" />
+	</album>
+</gallery>

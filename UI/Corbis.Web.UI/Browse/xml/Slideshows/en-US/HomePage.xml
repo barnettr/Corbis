@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Slideshow Url="Browse/xml/Slideshows/Flash/home-slideshow.swf" Width="1000" Height="520" Flashvars="xmlfile:'/Browse/xml/Slideshows/en-US/HomePage/stories.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes="">
+	<NoFlashCopy>
+		<![CDATA[
+			<p class="first">
+				For optimal browsing and searching on the refreshed corbis.com, please upgrade your Flash player.
+			</p>
+			<p class="downloadFlash">
+				<a href="http://www.adobe.com/go/getflashplayer">
+					Click here to download Flash<br />
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" localize="true"/>
+				</a>
+			</p>
+			<p>
+				Your current Flash player will allow you to view corbis.com, however your experience may be compromised.
+			</p>
+			<p>
+				For assistance installing your new Flash player, please contact your company&#8217;s technical support team.
+			</p>
+		]]>		
+	</NoFlashCopy>
+</Slideshow>

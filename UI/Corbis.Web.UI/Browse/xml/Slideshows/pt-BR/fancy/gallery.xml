@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| DC Premium| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| DC Premium| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/fancy/large/" tnpath="xml/Slideshows/Images/fancy/thumb/">
+		<img src="02_42-19729906.jpg" caption="Laughing woman and blue sky&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19729906');&quot;&gt;42-19729906&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19729906');" />
+		<img src="03_42-19721406.jpg" caption="Hand holding spruce seedling&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19721406');&quot;&gt;42-19721406&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19721406');" />
+		<img src="04_42-19730390.jpg" caption="Boy looking up&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19730390');&quot;&gt;42-19730390&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19730390');" />
+		<img src="05_42-19729743.jpg" caption="Adirondack chairs at the lake&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19729743');&quot;&gt;42-19729743&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19729743');" />
+    <img src="06_42-19857956.jpg" caption="Designers in a meeting&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19857956');&quot;&gt;42-19857956&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19857956');" />
+    <img src="07_42-20048763.jpg" caption="Heart shape on cappuccino&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20048763');&quot;&gt;42-20048763&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20048763');" />
+		<img src="08_42-19738707.jpg" caption="Mother and daughter together&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19738707');&quot;&gt;42-19738707&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19738707');" />
+    <img src="10_42-20069294.jpg" caption="Businessman using PDA&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20069294');&quot;&gt;42-20069294&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20069294');" />
+    <img src="11_42-19721005.jpg" caption="Doctors using laptop computer together&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19721005');&quot;&gt;42-19721005&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19721005');" />
+		<img src="12_42-19721437.jpg" caption="Sun behind clouds&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19721437');&quot;&gt;42-19721437&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19721437');" />
+    <img src="13_42-20713543.jpg" caption="Senior woman using laptop computer&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20713543');&quot;&gt;42-20713543&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20713543');" />
+		<img src="14_42-20713554.jpg" caption="Senior couple on patio&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20713554');&quot;&gt;42-20713554&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20713554');" />
+		<img src="15_42-20735056.jpg" caption="Friends using cell phone&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20735056');&quot;&gt;42-20735056&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20735056');" />
+    <img src="16_42-21637459.jpg" caption="Cat'S Muzzle&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21637459');&quot;&gt;42-21637459&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21637459');" />
+		<img src="17_42-21053100.jpg" caption="Mother and daughter&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21053100');&quot;&gt;42-21053100&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21053100');" />
+    <img src="18_42-22069147.jpg" caption="Businesswoman&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-22069147');&quot;&gt;42-22069147&lt;/a&gt; &lt;p&gt; | RF Premium| © Fancy/Veer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-22069147');" />
+	</album>
+</gallery>

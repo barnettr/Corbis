@@ -1,0 +1,191 @@
+		BODY { 
+		    background-color: #FFFFFF;
+		    text-align:center; 
+		    font-family:Arial, Verdana, Helvetica, sans-serif;
+		}
+		#TemplateHeader, #TemplateTopNav, #TemplateFooter, #TemplateBodyHolder, #TemplateSecondaryNav{
+			text-align:left;
+		}
+		
+		#ctl05_lblAllRightsReserved { color: #BEBEBE; }
+		#ctl05_lblChooseLanguage    { color: #BEBEBE; }
+		#ctl02_linkLogo { margin-left:30px; }
+		
+		#TemplateFooter span{
+			color:#000000;
+		}
+		
+		#TemplateBodyHolder{ 
+			background-image:url(../images/left_collage.jpg); 
+		    background-repeat:no-repeat; 
+		    background-position: 0px -5px;
+		    margin-top:0px;
+		    width:999px;
+		    padding:1px 0 0 0;
+		    margin-right:auto;
+		    margin-left:auto;
+		    padding-top:1px;
+		 }
+
+		/* BEGIN TAB MENU */
+		#tabNav{ width:590px; position:relative; height:56px; padding:0; }
+		.searchTipsTab {
+		    float: left; 
+		    margin-left:6px;
+		    
+		}
+		
+		#navTitle{ 
+			padding:0;
+		    display:block;
+		    float:left;
+		    text-indent:-5000px;
+		    height:56px;
+		    width:230px; 
+		}
+	
+		#tabNav a{ 
+		    outline:none; 
+		    float:left;
+		    display:block; 
+		    background-position:top; 
+		    height:56px; 
+		    width:66px; 
+		    text-indent:-5000px; 
+		    text-decoration:none;
+		}
+		#tabNav #DivTab1 a:hover, #tabNav #DivTab2 a:hover, #tabNav #DivTab3 a:hover, #tabNav #DivTab4 a:hover, #tabNav #DivTab5 a:hover{ 
+			background-position: bottom; 
+		}
+		#tabNav a.off{ background-position: top; }
+		#tabNav a.on{ background-position: bottom; }
+		
+		
+		
+		#tab0Content{ padding-top:75px; text-align:center; }	
+		
+		
+		
+		
+		
+		#sectionLogo {  
+			width:184px;
+			margin:9px 0 3px 47px !important;			
+		}
+		
+		
+		#subhead, #keywordHead{ float:left; margin: 0px 6px 3px 0;  padding:0px; height:32px; background-color:black;}
+		#subhead{ width:604px;  margin-left:96px; margin-top: -10px; }
+		#keywordHead { width:283px;position:relative; top:-63px !important; left:0px; height:83px; }
+		
+		#layout_cleft_col, #layout_right_col{ background-color:#656565; padding: 6px; margin: -58px 5px 6px 0; float:left; }
+		#layout_cleft_col{ width:592px; margin-left: 96px; height:460px; }
+		#layout_right_col{ width:271px; margin-left:1px; height:440px; min-height:460px; text-align:left; }
+		#layout_right_col a{ color:#b0c07f; text-decoration:underline; }
+		#layout_right_col a:hover{ text-decoration:none; }
+		#layout_right_col img { margin-bottom:7px; }
+		
+		/* BEGIN CENTER CONTENT */
+		
+		div.whiteCenterBox{
+		    display:block;
+		    height:306px;
+		    margin:0px;
+		    padding: 6px 0px 0px 61px;
+		    background-color:white;
+		    color:#656565;
+		    text-align:left;
+		      
+		}
+		.searchTipsContent {
+		    width: 100%;
+		    color: white;
+		    height:350px;
+		}
+		.imageHolders{ margin:6px 6px 0 0; float:left;  }
+		
+		span.fauxSearchTitle{ float:left; text-transform:uppercase; font-weight:bold;margin:2px 2px 0 0;font-size:12px; }
+		span.fauxSearch{
+			text-align:left;
+		    border: 1px solid #e2e2e2;
+		    display:block;
+		    float:left;
+		    width:300px;
+		    padding:2px; 
+		    font-size:12px;   
+		}
+		p.tabDesc{
+		    display:block;
+		    width:90%;
+		    height:50px;
+		    overflow:hidden;
+		    margin: 26px 0px 16px 30px;
+		    text-align:left;
+		    font-size:12px;
+		}
+		/* END CENTER CONTENT */
+		
+		div.extraLinksDiv{
+			margin:0px 0 0 96px;
+			padding:0;
+			overflow:visible;
+			height:32px;
+			width:604px;
+			display:block;
+			
+		}
+		
+		a.extraLink{
+		    cursor:pointer;
+		    color: #656565;
+		    float:left;
+		    font-size:11px;
+		    font-weight:bold; 
+		    display:inline-block;
+		    background-color:#bada55;
+		    height:11px;
+		    margin:0 0 0 96px;
+		    padding: 8px;
+		    text-decoration: underline;
+		    width:587px !important;
+		    text-align:left;
+		}
+		.pdf
+		{
+		    color: #656565;
+		    float:left;
+		    font-size:11px;
+		    font-weight:bold; 
+		    display:inline-block;
+		    background-color:#bada55;
+		    height:11px;
+		    margin:0 0 0 8px;
+		    padding: 8px;
+		    text-decoration: underline;
+		    width:265px !important;
+		    text-align:left;
+		}
+		
+		div.boutiqueLink{
+		    float:right;
+		    margin:0px 10px 6px 0px;
+		    width:271px;
+		    display:block;
+		    background-color:#bada55;
+		    color:#656565;
+		    padding: 6px;
+		    font-size:12px;
+		    text-align:left;
+		}
+		div.boutiqueLink a.extraLink{
+		    float:right;
+		    margin:0px;
+		    padding:6px 0 6px 0;
+		    width:98%;
+		    text-align:right;
+		}
+		
+		a:hover{
+		    color: #656565;  
+		    text-decoration:none;
+		}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Archival Collections</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288531" Text="Bettmann" Title="View images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288534" Text="Sygma" Title="View images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288532" Text="Condé Nast" Title="View images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1217882" Text="Turnley" Title="View images"  />
+	</Links>
+</ModuleList>

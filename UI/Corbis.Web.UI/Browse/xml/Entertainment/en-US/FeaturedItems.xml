@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Summer Blockbusters</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Standard RM| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Standard RM| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="View slideshow" Title="View slideshow" />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>The biggest stars and budgets vie for first place at the box office in the summer. Romance, comedy, drama, and sci-fi light up the screen this year. Get a sneak peek at the top cinema stories of 2009.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="View slideshow" Title="View slideshow" />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Corbis Outline exclusive celebrity portraits</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="View more celebrity portraits at Outline" Title="View more celebrity portraits at Outline" />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Artists and muses. Legends and ingenues. Corbis Outline™ brings you the most recognizable and fascinating people on earth, photographed by the best in the business.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="View more celebrity portraits at Outline" Title="View more celebrity portraits at Outline" />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

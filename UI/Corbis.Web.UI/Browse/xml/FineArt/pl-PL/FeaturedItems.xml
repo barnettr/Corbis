@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Gatunek: Pies domowy</Title>
+		<Image Src="xml/FineArt/Images/main.jpg" Alt="AAKS001420| Standard RM| © PoodlesRock/CORBIS" ImageID="AAKS001420" Attribution="| Standardowe RM| © PoodlesRock/CORBIS">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Pies to wdzięczne zwierzę, wdzięczne do hodowania i fotografowania.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="" Title=""  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Buty, buciki, buciory</Title>
+		<Image Src="xml/FineArt/Images/sub.1.jpg" Alt="42-20093397| Premium RM| © Andy Warhol Foundation/Corbis" ImageID="42-20093397" Attribution="| Premium RM| © Andy Warhol Foundation/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Wraz z nastaniem ery pop-artu nawet buty zdobione ręką Andy Warhola miały branie.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+
+</FeaturedItems>

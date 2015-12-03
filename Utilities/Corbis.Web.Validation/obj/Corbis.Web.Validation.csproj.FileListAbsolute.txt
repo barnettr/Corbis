@@ -1,0 +1,13 @@
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Corbis.Web.Validation.dll
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Corbis.Web.Validation.pdb
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Corbis.Framework.dll
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Corbis.Framework.pdb
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\obj\Debug\ResolveAssemblyReference.cache
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\obj\Debug\Corbis.Web.Validation.dll
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\obj\Debug\Corbis.Web.Validation.pdb
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\TFS\Sustainment\DEV\Corbis.Web\src\Utilities\Corbis.Web.Validation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml

@@ -1,0 +1,93 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+                        
+.optionsBlock a span  
+{  /* delivery icons in stage 2 of checkout */
+    position:relative;
+    top:-4px;
+ }
+     
+.SBT_filters img {
+    background-image:url(/Images/es-ES/buddyTabFilters_off.gif);
+    height:80px;
+}
+.SBT_filters.ON img,
+.SBT_filters.ON img:hover
+{
+    background-image:url(/Images/es-ES/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/es-ES/buddyTabFilters_hover.gif);
+}
+
+.SBT_lightboxes img,
+.SBT_Mylightboxes img 
+{
+	background-image:url(/Images/es-ES/buddyTabLightbox_off.gif);
+	height:96px;
+}
+.SBT_lightboxes.ON img,
+.SBT_lightboxes.ON img:hover,
+.SBT_Mylightboxes.ON img,
+.SBT_Mylightboxes.ON img:hover
+{
+	background-image:url(/Images/es-ES/buddyTabLightbox_on.gif);
+}
+.SBT_lightboxes img:hover, 
+.SBT_Mylightboxes img:hover
+{
+	background-image:url(/Images/es-ES/buddyTabLightbox_hover.gif);
+}
+
+.SBT_quickpic img
+ {
+    background-image:url(/Images/es-ES/buddyTabQuickPic1.gif);
+    height:84px;
+}
+.SBT_quickpic.ON img,
+.SBT_quickpic.ON img:hover
+{
+    background-image:url(/Images/es-ES/buddyTabQuickPic3.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/es-ES/buddyTabQuickPic2.gif);
+}
+
+/* 
+cart button:
+IE cannot handle nowrap/width:auto because positioning is handled by floats, and floats in IE7 need a width in this situation in the polish version.  
+Should be rebuilt using a table if the fixed width becomes an issue/it's an issue in future languages.
+Bug 13866
+ */
+
+#cartCountDiv,
+.Checkout
+{  
+    width:110px !important;
+}
+
+/* sort options in search */
+.searchResultsContent #sortOptionsMenuDiv
+{
+     width:230px !important;
+}
+ 
+/* sort options in order history */
+ #orderHistory .IE7OrLess #sortOptionsMenuDiv
+{
+     width:250px !important;
+}
+
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:485px !important;
+}
+
+/* bug no. 17839 - height of 'you want to quit pricing?' dialog title*/
+#confirmCloseWindow .ModalPopupPanelDialog .ModalTitleBar 
+{
+height:38px !important;
+}

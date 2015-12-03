@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Canis familiaris</Title>
+		<Image Src="xml/FineArt/Images/main.jpg" Alt="AAKS001420| Standard RM| © PoodlesRock/CORBIS" ImageID="AAKS001420" Attribution="| Standard RM| © PoodlesRock/CORBIS">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>跨越世纪，遍布全球，可爱的狗儿一直都是热门的题材。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Shoes, shoes, shoes</Title>
+		<Image Src="xml/FineArt/Images/sub.1.jpg" Alt="42-20093397| Premium RM| © Andy Warhol Foundation/Corbis" ImageID="42-20093397" Attribution="| Premium RM| © Andy Warhol Foundation/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>在波普 (Pop) 艺术流行之前，Andy Warhol 是一个绘画独特鞋类的知名插画家。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+
+</FeaturedItems>

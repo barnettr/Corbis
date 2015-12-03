@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="andLabel.Text" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="archival.ToolTip" xml:space="preserve">
+    <value>Events, people, and culture captured; from one year ago back through history</value>
+  </data>
+  <data name="betweenButton.Text" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="betweenLabel.Text" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="outline.ToolTip" xml:space="preserve">
+    <value>Exclusive portraits of celebrities from stage, screen, sports and business</value>
+  </data>
+  <data name="changeSelection.Text" xml:space="preserve">
+    <value>Please change your selection to the left.</value>
+  </data>
+  <data name="CloseSearchError.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="creative.ToolTip" xml:space="preserve">
+    <value>Art-directed photography and illustration ideal for commercial use</value>
+  </data>
+  <data name="currentEvents.ToolTip" xml:space="preserve">
+    <value>The past 12 months of global news and sports</value>
+  </data>
+  <data name="dateCreatedLabel.Text" xml:space="preserve">
+    <value>DATE PHOTOGRAPHED</value>
+  </data>
+  <data name="daysButtonLabel.Text" xml:space="preserve">
+    <value>In the last</value>
+  </data>
+  <data name="daysTextLabel.Text" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="editorial.ToolTip" xml:space="preserve">
+    <value>Images of real events, people, places and things</value>
+  </data>
+  <data name="EmptySearchStringAlert" xml:space="preserve">
+    <value>Please enter a keyword or image id!</value>
+  </data>
+  <data name="exampleLabel.Text" xml:space="preserve">
+    <value>(e.g. 1935-1941, mid 1980s, 02/28/2002)</value>
+  </data>
+  <data name="fineArt.ToolTip" xml:space="preserve">
+    <value>Masterful paintings, illustration and sculpture</value>
+  </data>
+  <data name="horizontalLabel.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="imageAvailableLabel.Text" xml:space="preserve">
+    <value>IMAGE MADE AVAILABLE</value>
+  </data>
+  <data name="imageAvailableLabel.ToolTip" xml:space="preserve">
+    <value>Limit search results to recent additions to Corbis' library</value>
+  </data>
+  <data name="imageAvailablityLabel.ToolTip" xml:space="preserve">
+    <value>Limit search results to recent additions to Corbis’ library</value>
+  </data>
+  <data name="imageNumbersLabel.Text" xml:space="preserve">
+    <value>IMAGE NUMBERS</value>
+  </data>
+  <data name="imageNumbersLabel.ToolTip" xml:space="preserve">
+    <value>Limit search results by image number</value>
+  </data>
+  <data name="immediateAvailabilityLabel.Text" xml:space="preserve">
+    <value>IMMEDIATE AVAILABILITY</value>
+  </data>
+  <data name="immediateAvailabilityLabel.ToolTip" xml:space="preserve">
+    <value>Limit search results to available resolutions</value>
+  </data>
+  <data name="locationLabel.Text" xml:space="preserve">
+    <value>LOCATION</value>
+  </data>
+  <data name="locationLabel.ToolTip" xml:space="preserve">
+    <value>Limit search results to countries, cities and landmarks</value>
+  </data>
+  <data name="moreSearchTitle.Text" xml:space="preserve">
+    <value>More Search Options</value>
+  </data>
+  <data name="noCategoryErr.Text" xml:space="preserve">
+    <value>Please select at least one &lt;strong&gt;Creative&lt;/strong&gt; or &lt;strong&gt;Editorial&lt;/strong&gt; filter to begin your search.</value>
+  </data>
+  <data name="noColorErr.Text" xml:space="preserve">
+    <value>Please select &lt;strong&gt;Color&lt;/strong&gt; or &lt;strong&gt;Black &amp; White&lt;/strong&gt;.</value>
+  </data>
+  <data name="noLicenseErr.Text" xml:space="preserve">
+    <value>Please select &lt;strong&gt;Rights Managed&lt;/strong&gt; or &lt;strong&gt;Royalty-Free&lt;/strong&gt;.</value>
+  </data>
+  <data name="noPhotoErr.Text" xml:space="preserve">
+    <value>Please select &lt;strong&gt;Photography&lt;/strong&gt; or &lt;strong&gt;Illustration&lt;/strong&gt;.</value>
+  </data>
+  <data name="noSearchResultsWarning.Title" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+  <data name="notDateErr" xml:space="preserve">
+    <value>Please enter a valid date</value>
+  </data>
+  <data name="notNumericErr.Text" xml:space="preserve">
+    <value>Please enter a valid number</value>
+  </data>
+  <data name="orientationLabel.Text" xml:space="preserve">
+    <value>ORIENTATION</value>
+  </data>
+  <data name="panoramaLabel.Text" xml:space="preserve">
+    <value>Panorama</value>
+  </data>
+  <data name="photographerLabel.Text" xml:space="preserve">
+    <value>PHOTOGRAPHER</value>
+  </data>
+  <data name="pointOfViewLabel.Text" xml:space="preserve">
+    <value>POINT OF VIEW</value>
+  </data>
+  <data name="premiumCollectionsLabel.Text" xml:space="preserve">
+    <value>Premium Collections</value>
+  </data>
+  <data name="premiumCollectionsLabel.ToolTip" xml:space="preserve">
+    <value>Our top-line images at premium prices</value>
+  </data>
+  <data name="procFilters.Text" xml:space="preserve">
+    <value>Processing filters.</value>
+  </data>
+  <data name="providerLabel.Text" xml:space="preserve">
+    <value>PROVIDER</value>
+  </data>
+  <data name="providerLabel.ToolTip" xml:space="preserve">
+    <value>Limit search results to images provided to Corbis by an agency, organization, newspaper or other institution</value>
+  </data>
+  <data name="rightsManaged.Text" xml:space="preserve">
+    <value>Rights Managed (RM)</value>
+  </data>
+  <data name="rightsManaged.Text1" xml:space="preserve">
+    <value>Rights Managed</value>
+  </data>
+  <data name="rightsManaged.ToolTip" xml:space="preserve">
+    <value>Rights and fees will be calculated for each project depending on how you plan to use the image</value>
+  </data>
+  <data name="rMOnlyLabel.Text" xml:space="preserve">
+    <value>RM only. All RF Images are immediately available.</value>
+  </data>
+  <data name="royaltyFree.Text" xml:space="preserve">
+    <value>Royalty-Free (RF)</value>
+  </data>
+  <data name="royaltyFree.Text1" xml:space="preserve">
+    <value>Royalty-Free</value>
+  </data>
+  <data name="royaltyFree.ToolTip" xml:space="preserve">
+    <value>For a one-time flat fee, images can be used an unlimited number of times in multiple projects</value>
+  </data>
+  <data name="search.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="SearchImages" xml:space="preserve">
+    <value>Search images...</value>
+  </data>
+  <data name="searching.Text" xml:space="preserve">
+    <value>Searching...</value>
+  </data>
+  <data name="searchWarningIntro.Text" xml:space="preserve">
+    <value>You've selected a filter combination that will return &lt;strong&gt;zero results&lt;/strong&gt;</value>
+  </data>
+  <data name="standardCollectionsLabel.Text" xml:space="preserve">
+    <value>Standard Collections</value>
+  </data>
+  <data name="standardCollectionsLabel.ToolTip" xml:space="preserve">
+    <value>Corbis quality images at competitive prices</value>
+  </data>
+  <data name="superValueCollectionsLabel.Text" xml:space="preserve">
+    <value>Super Value Collections</value>
+  </data>
+  <data name="superValueCollectionsLabel.ToolTip" xml:space="preserve">
+    <value>Great images priced for everyday use</value>
+  </data>
+  <data name="tooLateDateErr.Text" xml:space="preserve">
+    <value>Please enter a start date earlier than the end date</value>
+  </data>
+  <data name="DateErr.Text" xml:space="preserve">
+    <value>Please enter a valid date</value>
+  </data>
+  <data name="valueCollectionsLabel.Text" xml:space="preserve">
+    <value>Value Collections</value>
+  </data>
+  <data name="valueCollectionsLabel.ToolTip" xml:space="preserve">
+    <value>Professional images, affordable prices</value>
+  </data>
+  <data name="deleteMoreSearchOptionsToolTip.ToolTip" xml:space="preserve">
+    <value>Delete options</value>
+  </data>
+  <data name="verticalLabel.Text" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="documentary.ToolTip" xml:space="preserve">
+    <value>Timeless, versatile photography of our world and culture</value>
+  </data>
+  <data name="optionsAppliedText.Text" xml:space="preserve">
+    <value>   | Options applied</value>
+  </data>
+  <data name="optionsAppliedSubTitle.Text" xml:space="preserve">
+    <value>Click to open More Search Options</value>
+  </data>
+  <data name="optionsAppliedTitle.Text" xml:space="preserve">
+    <value>Options applied</value>
+  </data>
+  <data name="dateCreatedSummaryLabel.Text" xml:space="preserve">
+    <value>Date photographed or created: </value>
+  </data>
+  <data name="dateRangeSummaryLabel.Text" xml:space="preserve">
+    <value>Images available between</value>
+  </data>
+  <data name="daysSummary.Text" xml:space="preserve">
+    <value>Images made available in the last &lt;span class="optionsValueText"&gt;{0}&lt;/span&gt; days</value>
+  </data>
+  <data name="imageNumbersSummaryLabel.Text" xml:space="preserve">
+    <value>Image numbers:</value>
+  </data>
+  <data name="immediateAvailabilitySummaryLabel.Text" xml:space="preserve">
+    <value>Immediate availability:</value>
+  </data>
+  <data name="locationSummaryLabel.Text" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="orientationSummaryLabel.Text" xml:space="preserve">
+    <value>Orientation:</value>
+  </data>
+  <data name="photographerSummaryLabel.Text" xml:space="preserve">
+    <value>Photographer:</value>
+  </data>
+  <data name="pointOfViewSummaryLabel.Text" xml:space="preserve">
+    <value>Point of View:</value>
+  </data>
+  <data name="providerSummaryLabel.Text" xml:space="preserve">
+    <value>Provider:</value>
+  </data>
+  <data name="premiumCollectionsSummaryLabel.Text" xml:space="preserve">
+    <value>Premium Collections:</value>
+  </data>
+  <data name="standardCollectionsSummaryLabel.Text" xml:space="preserve">
+    <value>Standard Collections:</value>
+  </data>
+  <data name="superValueCollectionsSummaryLabel.Text" xml:space="preserve">
+    <value>Super Value Collections:</value>
+  </data>
+  <data name="valueCollectionsSummaryLabel.Text" xml:space="preserve">
+    <value>Value Collections:</value>
+  </data>
+  <data name="returnPreviousSearchTitle.Text" xml:space="preserve">
+    <value>Return to Search</value>
+  </data>
+  <data name="numberOfPeopleLabel.Text" xml:space="preserve">
+    <value>NUMBER OF PEOPLE</value>
+  </data>
+  <data name="imageNumbers.Text" xml:space="preserve">
+    <value>Other filters are ignored when searching by image numbers.</value>
+  </data>
+  <data name="numberOfPeopleSummaryLabel.Text" xml:space="preserve">
+    <value>Number of people:</value>
+  </data>
+  <data name="editorial.Text" xml:space="preserve">
+    <value>Editorial</value>
+  </data>
+  <data name="entertainment.ToolTip" xml:space="preserve">
+    <value>Comprehensive coverage of entertainment events and personalities</value>
+  </data>
+  <data name="AlertDateText" xml:space="preserve">
+    <value>Please enter a start date earlier than the end date</value>
+  </data>
+  <data name="deselectAllText.Text" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+  <data name="selectAllText.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="CollectionCountStringFormat.Text" xml:space="preserve">
+    <value>{0} of {1} selected</value>
+  </data>
+</root>

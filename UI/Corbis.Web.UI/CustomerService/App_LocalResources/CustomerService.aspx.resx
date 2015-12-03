@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutDropDownValues" xml:space="preserve">
+    <value>Sales/Pricing;Technical Support;Image research;Website feedback;General</value>
+  </data>
+  <data name="AboutLabel.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="comments.Height" xml:space="preserve">
+    <value>500px</value>
+  </data>
+  <data name="commentsLabel.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="contactName" xml:space="preserve">
+    <value>$firstName $lastName</value>
+  </data>
+  <data name="contactUsTitle.Text" xml:space="preserve">
+    <value>Get in touch</value>
+  </data>
+  <data name="country.PromptText" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="countryLabel.Text" xml:space="preserve">
+    <value>Country / Region</value>
+  </data>
+  <data name="Dashes" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="emailAddressLabel.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="emailConfirmRequired.Text" xml:space="preserve">
+    <value>Email address is required</value>
+  </data>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="faqTitle.Text" xml:space="preserve">
+    <value>Frequently asked questions</value>
+  </data>
+  <data name="faxNumberLabel.Text" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="firstnameLabel.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lastNameLabel.Text" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="myRepTitle.Text" xml:space="preserve">
+    <value>My Account Executive</value>
+  </data>
+  <data name="officeListLabel.Text" xml:space="preserve">
+    <value>&lt;b&gt;To contact us in:&lt;/b&gt;</value>
+  </data>
+  <data name="officesTitle.Text" xml:space="preserve">
+    <value>Corbis offices worldwide</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Customer Service</value>
+  </data>
+  <data name="phoneNumberLabel.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="stateLabel.Text" xml:space="preserve">
+    <value>State / Province</value>
+  </data>
+  <data name="telephoneLabel.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>Corbis: photography, rights, motion - Customer Service</value>
+  </data>
+  <data name="getThankYou.Title" xml:space="preserve">
+    <value>Thank You!</value>
+  </data>
+  <data name="getMessage.Text" xml:space="preserve">
+    <value>A Corbis Representative will contact you shortly.</value>
+  </data>
+  <data name="Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Answer1.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Changing a Username&lt;/b&gt;&lt;br /&gt;
+To sign in, you'll need a username and password. We recommend you keep the username that you supplied when initially registering as a Corbis member. However, you can change your username by completing the following steps: &lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.    Click &lt;b&gt;&lt;a href="../Accounts/MyProfile.aspx" &gt;My Account&lt;/a&gt;&lt;/b&gt;.                                                                                                 &lt;li&gt;2.   The display defaults to &lt;a href="../Accounts/MyProfile.aspx"&gt;Profiles &amp; Preferences&lt;/a&gt;.
+        &lt;li&gt;3.    Under Sign In &amp; Personal Information, select &lt;b&gt;Edit.&lt;/b&gt;                                             &lt;li&gt;4.    Replace your existing Username by typing in a new one.                                   &lt;li&gt;5.    Click &lt;b&gt;Save.&lt;/b&gt;
+        &lt;/ol&gt; 
+&lt;br /&gt;&lt;p&gt;&lt;b&gt;Changing a Password&lt;/b&gt;&lt;br /&gt;
+You can change your password at any time after signing in by completing the following steps:&lt;/p&gt;&lt;br /&gt; 
+                                        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.    Click &lt;b&gt;&lt;a href="../Accounts/MyProfile.aspx"&gt;My Account&lt;/a&gt;&lt;/b&gt;.                                                                                                 &lt;li&gt;2.    The display defaults to &lt;a href="../Accounts/MyProfile.aspx"&gt;Profiles &amp; Preferences&lt;/a&gt;.
+        &lt;li&gt;3.    Under Sign In &amp; Personal Information, select &lt;b&gt;I want to change my password.&lt;/b&gt;                                             &lt;li&gt;4.    Type in your Old Password.                                  &lt;li&gt;5.    Type in your New Password (a minimum of 8 letters and numbers is required).                                                                                                           &lt;li&gt;6.    Confirm your New Password and click &lt;b&gt;Save.&lt;/b&gt;
+        &lt;/ol&gt;</value>
+  </data>
+  <data name="Answer10" xml:space="preserve">
+    <value>&lt;p&gt;You can add items to your cart from a lightbox or from search results at any time. Plus, you may store these items in your cart between visits -- you don’t have to buy everything at one time.  &lt;/p&gt;&lt;br /&gt;&lt;p&gt;&lt;i&gt;Note: You must price images to purchase them. &lt;/i&gt;&lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   When you are ready to purchase images, select the image(s) in your cart that you want to purchase.                                                                            &lt;li&gt;2.   Instructions on the site will walk you through the purchasing process.                                                                                                                     
+        &lt;li&gt;3.   At every step you will be given the option to abandon the purchase procedure and return you to your cart.                                                                                                                    &lt;li&gt;4.   You will be prompted to enter project details, and select the delivery method and payment method.                                                                                                    &lt;li&gt;5.   &lt;b&gt;Agree&lt;/b&gt; to the General Terms and Conditions and click Submit Order.&lt;li&gt;6.   Remember to note your &lt;b&gt;Order Number&lt;/b&gt; for future reference.    
+        &lt;/ol&gt;&lt;br /&gt;                                                                                                                                                          &lt;p&gt;&lt;b&gt;Note about prices:&lt;/b&gt;&lt;br /&gt;Prices may change between the time you place an item your cart/lightbox and the time you purchase it. Items in your cart/lightbox will display the price calculated when you last entered your License Details. Placing a priced item in your cart/lightbox does not reserve the price shown at that time. For more information about purchasing images, including image restrictions and licensing details, contact your Corbis Representative.&lt;/p&gt;</value>
+  </data>
+  <data name="Answer11.Text" xml:space="preserve">
+    <value>&lt;p&gt;Many Corbis images carry restrictions on their use. Image restrictions are varied; they can range from “must have source approval before licensing” to "no print use allowed.”&lt;/p&gt;&lt;br /&gt; 
+&lt;p&gt;For each image that carries one or more restrictions, all applicable restrictions are listed on the Image Detail page. You should review the restrictions associated with specific images prior to purchasing image licenses.&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;The full list of image restrictions is too large to include here. To obtain more information, please contact your Corbis Representative. 
+&lt;/p&gt;</value>
+  </data>
+  <data name="Answer12.Text" xml:space="preserve">
+    <value>&lt;p&gt;Content available from Corbis is generally &lt;b&gt;Rights Managed&lt;/b&gt; or &lt;b&gt;Royalty-Free.&lt;/b&gt;&lt;/p&gt;&lt;p&gt; 
+&lt;b&gt;Rights Managed (RM): &lt;/b&gt;Rights and fees will be calculated for each project depending on how you plan to use the image.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Royalty-Free (RF):&lt;/b&gt; For a one-time flat fee, images can be used an unlimited number of times in multiple projects.&lt;/p&gt;&lt;br /&gt;
+&lt;p&gt;Please see the &lt;a href="javascript:NewWindow('/Legal/LicenseInfo.aspx',700,800,'True')"&gt;Corbis Content License Agreement&lt;/a&gt; for more details.
+&lt;/p&gt;</value>
+  </data>
+  <data name="Answer13.Text" xml:space="preserve">
+    <value>&lt;p&gt;After you have purchased licenses for one or more images, follow these instructions to download your order from our site. &lt;/p&gt;&lt;p&gt;&lt;i&gt;Note: You must be logged in to download licensed images. &lt;/i&gt;&lt;/p&gt;&lt;br /&gt;
+        &lt;ul style="margin-left:10px;"&gt;
+        &lt;li&gt;Click &lt;b&gt;&lt;a href="../OrderHistory/OrderHistory.aspx" &gt;My Orders&lt;/a&gt;&lt;/b&gt; and locate the desired image order.                                                                                 &lt;li&gt;Find the image that you want to download and select the desired image resolution from the drop down box.                                                                                                                      
+        &lt;li&gt;Click the &lt;b&gt;Download&lt;/b&gt; button. (To download all images within an order, click the &lt;b&gt;Download Al&lt;/b&gt;l button.)                                                                                                                                                                     &lt;li&gt;When the Downloading Images dialog box appears, click on the image file(s) that you want to download.                                                                                                                                                              &lt;li&gt;Choose "Save As" and select the desired location for the saved (downloaded) image.     
+        &lt;/ul&gt;&lt;br /&gt;                                                                                                                                                          &lt;p&gt;&lt;b&gt;File Compression Utilities &lt;/b&gt;&lt;br /&gt;To facilitate downloading, image files are compressed. You will need a compression utility, such as WinZip or StuffIt, to open the Corbis file. &lt;/p&gt;&lt;br /&gt;     &lt;p&gt;Stufflt: &lt;a href="http://my.smithmicro.com/downloads/index.html" &gt;http://my.smithmicro.com/downloads/index.html&lt;/a&gt;&lt;br /&gt;WinZip: &lt;a href="http://www.winzip.com/ddchomea.htm" &gt;http://www.winzip.com/ddchomea.htm&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Answer14.Text" xml:space="preserve">
+    <value>&lt;p&gt;Under certain specific terms and conditions, it is possible to cancel (or, “kill”) a license for an image after a purchase has been made. Canceling a license incurs a cancellation fee (or, a “kill fee”), plus any applicable processing, production, and/or services charges. &lt;/p&gt;&lt;br /&gt;
+        &lt;ul style="margin-left:10px;"&gt;                                                                                  &lt;li&gt;If the cancellation notice is received more than seven (7) but less than thirty (30) business days after the invoice date, a cancellation fee equal to fifty (50%) percent of the amount of the Invoice will be charged.                                                                                                                      
+        &lt;li&gt;AFTER THIRTY DAYS, NO CANCELLATIONS WILL BE ACCEPTED AND THE FULL AMOUNT OF THE INVOICE MUST BE PAID.     
+        &lt;/ul&gt;&lt;br /&gt;                                                                                                                                                          &lt;p&gt;For any cancellations, you must also pay the full service charge, production fee, processing and handling fee, and shipping fee. No license to use the image will be granted upon cancellation; all cancellations are final. For more information about cancellation of image licenses or about cancellation fees, contact your Corbis Representative.&lt;/p&gt;</value>
+  </data>
+  <data name="Answer2" xml:space="preserve">
+    <value> 
+&lt;p&gt;To change your account information, sign in using your username and password. You can then update your Personal, Business, Payment, Shipping, or Preferences information by completing the following steps:  &lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   Click &lt;b&gt;&lt;a href="../Accounts/MyProfile.aspx"&gt;My Account&lt;/a&gt;&lt;/b&gt;.                                                                                                 &lt;li&gt;The display defaults to &lt;a href="../Accounts/MyProfile.aspx" &gt;Profiles &amp; Preferences&lt;/a&gt;.
+        &lt;li&gt;2.   You can select any of these options:&lt;b&gt; Personal Information, Business Information, Payment Information, or Preferences.&lt;/b&gt; (“Preferences” is where you choose your preferred method of payment and communication from Corbis.)                                             &lt;li&gt;3.   After selecting the category you want, select &lt;b&gt;Edit&lt;/b&gt;                                   &lt;li&gt;4.   Click &lt;b&gt;Save.&lt;/b&gt;
+        &lt;/ol&gt;</value>
+  </data>
+  <data name="Answer3.Text" xml:space="preserve">
+    <value>&lt;p&gt;To update your credit card information, sign in using your username and password. You can then update your Payment or Preferences information by completing the following steps:   &lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   Click &lt;b&gt;&lt;a href="../Accounts/MyProfile.aspx"&gt;My Account&lt;/a&gt;&lt;/b&gt;.                                                                                                 &lt;li&gt;2.   The display defaults to &lt;a href="../Accounts/MyProfile.aspx"&gt;Profiles &amp; Preferences&lt;/a&gt;.
+        &lt;li&gt;3.   Select &lt;b&gt;Payment Information&lt;/b&gt;&lt;/ol&gt;&lt;br /&gt;                                                   &lt;ul class="ML_8"&gt;
+        &lt;li&gt;To ADD a new credit card: click &lt;b&gt;I want to add a new credit card.&lt;/b&gt;                                                                                                 &lt;li&gt;To EDIT an existing credit card: click &lt;b&gt;Edit&lt;/b&gt; next to the card you wish to update.
+        &lt;li&gt;To DELETE a credit card on file with Corbis: click the &lt;b&gt;X&lt;/b&gt; next to the card you wish to delete and then click &lt;b&gt;Delete.&lt;/b&gt; 
+        &lt;/ul&gt;</value>
+  </data>
+  <data name="Answer4.Text" xml:space="preserve">
+    <value>&lt;p&gt;To apply for credit, sign in using your username and password, and then completing the following steps:   &lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   Click &lt;b&gt;&lt;a href="../Accounts/MyProfile.aspx"&gt;My Account&lt;/a&gt;&lt;/b&gt;.                                                                                                 &lt;li&gt;2.   The display defaults to &lt;a href="../Accounts/MyProfile.aspx"&gt;Profiles &amp; Preference&lt;/a&gt;.
+        &lt;li&gt;3.   Select &lt;b&gt;Apply for Credit&lt;/b&gt; in the upper right corner.                                            &lt;li&gt;4.   Click on the appropriate Word or PDF version of the application for your region.                                    &lt;li&gt;5.   Print the application, fill it out, and fax it to the number provided. 
+        &lt;/ol&gt;</value>
+  </data>
+  <data name="Answer5" xml:space="preserve">
+    <value>&lt;p&gt;Registered members of Corbis can work with lightboxes to save and transfer images online. If you are new to Corbis, or beginning a large project, the information below will help you get started.    &lt;/p&gt;&lt;br /&gt;&lt;p&gt;&lt;b&gt;You can create a new lightbox in five ways: &lt;/b&gt;&lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   &lt;b&gt;From search results:&lt;/b&gt; Click the &lt;b&gt;light bulb icon&lt;/b&gt; below the thumbnail you wish to save to a lightbox. If a lightbox does not exist, a pop-up window will appear where you will click &lt;b&gt;Create new lightbox.&lt;/b&gt; Name the lightbox and click &lt;b&gt;Add to new lightbox.&lt;/b&gt;                                                                                                  &lt;li&gt;2.   &lt;b&gt;From the REFINE search pane:  &lt;/b&gt; Click the &lt;b&gt;light bulb icon&lt;/b&gt;, then select Create new lightbox. A pop-up window will appear where you will name the lightbox and click &lt;b&gt;Save&lt;/b&gt;.                                                                                                  &lt;li&gt;3.   &lt;b&gt;From Image Enlargement:  &lt;/b&gt; Click the &lt;b&gt;light bulb icon.&lt;/b&gt; A pop-up window will appear where you will click &lt;b&gt;Create new lightbox.&lt;/b&gt;  Name the lightbox and click &lt;b&gt;Add to new lightbox.&lt;/b&gt;                                           &lt;li&gt;4.   &lt;b&gt;From Price Calculator:&lt;/b&gt;  Click the &lt;b&gt;light bulb icon&lt;/b&gt;.  A pop-up window will appear where you will click &lt;b&gt;Create new lightbox.&lt;/b&gt;  Name the lightbox and click &lt;b&gt;Add to new lightbox.&lt;/b&gt;                                    &lt;li&gt;5.   &lt;b&gt;From My Lightboxes: &lt;/b&gt;At the top of any page, click &lt;a href="../Lightboxes/MyLightboxes.aspx"&gt;My Lightboxes&lt;/a&gt; to be taken to your saved lightboxes. At the top of your lightbox window, click &lt;b&gt;Create new lightbox.&lt;/b&gt; 
+        &lt;/ol&gt;&lt;br /&gt;                                                                                                                                                          &lt;p&gt;The creator of a new lightbox is automatically the lightbox owner and controls access until it is transferred. You can add additional lightboxes and nest lightboxes in hierarchical order, as required. &lt;/p&gt;</value>
+  </data>
+  <data name="Answer6.Text" xml:space="preserve">
+    <value>&lt;p&gt;If you are signed in as a registered member, you may find that you have several lightboxes saved. The last lightbox you use becomes your active lightbox, and any images that you Add to lightbox will be sent to that lightbox by default.     &lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   To access your lightboxes, click the &lt;b&gt;&lt;a href="../Lightboxes/MyLightboxes.aspx"&gt;My Lightboxes&lt;/a&gt;&lt;/b&gt; at the top of any page.                                            &lt;li&gt;2.   Highlight any of your lightboxes by clicking on a lightbox in the list on the left.
+        &lt;li&gt;3.   Click &lt;b&gt;Move&lt;/b&gt; and then select a lightbox (“parent”) to contain the original lightbox (“child”). 
+        &lt;/ol&gt;&lt;br /&gt;                                                                                                                                                          &lt;p&gt;&lt;i&gt;Note: The “child” lightbox will be nested beneath the “parent” lightbox. You are limited to a maximum of four children beneath any one parent lightbox. &lt;/i&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Answer7" xml:space="preserve">
+    <value>&lt;p&gt;If you are signed in as a registered member, you may find that you have several lightboxes saved. The last lightbox you use becomes your active lightbox, and any images that you &lt;b&gt;Add to lightbox&lt;/b&gt; will be sent to that lightbox by default.      &lt;/p&gt;&lt;br /&gt;&lt;p&gt;To change the lightbox where an image will be saved, follow these instructions: &lt;/p&gt;&lt;br /&gt;                                                                                                    &lt;p&gt;&lt;b&gt;From the REFINE search pane:&lt;/b&gt;&lt;/p&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   To access your lightboxes, click the lightbox tab on the REFINE Search pane.                                 &lt;li&gt;2.   After selecting the lightbox where you’d like to save the image, click the &lt;b&gt;light bulb  icon&lt;/b&gt; below the thumbnail you wish to save to a lightbox.  
+        &lt;/ol&gt;                                                                                                                                                          &lt;br /&gt;&lt;p&gt;&lt;b&gt;From the Image Enlargement page or Price Calculator:&lt;/b&gt;&lt;/p&gt;                                                             &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   Click on the light bulb icon and a pop-up window will appear where you can either select to &lt;b&gt;Add to lightbox&lt;/b&gt; or &lt;b&gt;Create new lightbox.&lt;/b&gt;                                                                                                                   &lt;li&gt;2.   After selecting either &lt;b&gt;Add&lt;/b&gt; or &lt;b&gt;Add to new lightbox&lt;/b&gt; as the lightbox where you’d like to save the image, the selected lightbox becomes your active lightbox. 
+        &lt;/ol&gt;                                                                                                                                                          &lt;br /&gt;&lt;p&gt;&lt;b&gt;From My Lightboxes:&lt;/b&gt;&lt;/p&gt;&lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   To access your lightboxes, click &lt;b&gt;My Lightboxes&lt;/b&gt; to be taken to your saved lightboxes, at the top of any page.                                           &lt;li&gt;2.   Clicking to view any lightbox on your left will make it the Active lightbox. 
+        &lt;/ol&gt;            </value>
+  </data>
+  <data name="Answer8.Text" xml:space="preserve">
+    <value>&lt;p&gt;The creator of a new lightbox is automatically the lightbox owner and controls access until it is transferred. You can transfer ownership to a Corbis member so they can manage the contents of the lightbox.    &lt;/p&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   Click &lt;b&gt;My Lightboxes&lt;/b&gt; and then select the lightbox that you wish to transfer ownership.                            &lt;li&gt;2.   Click &lt;b&gt;Transfer&lt;/b&gt; and select the new owner's username from  the Corbis members list box.&lt;br \&gt;-&lt;i&gt;or&lt;/i&gt;-&lt;br/&gt; Type the new owner's username in the Add a Corbis member field.  
+        &lt;li&gt;3.   If you want to remove this lightbox from your list, check the box next to “Remove from My Lightboxes”.         &lt;li&gt;4.   Then click &lt;b&gt;Transfer&lt;/b&gt;.
+        &lt;/ol&gt;</value>
+  </data>
+  <data name="Answer9.Text" xml:space="preserve">
+    <value>&lt;p&gt;To purchase images, you must be a registered Corbis member and have a method of payment on file in &lt;a href="../Accounts/MyProfile.aspx"&gt;My Account&lt;/a&gt;. &lt;/p&gt;&lt;br /&gt;&lt;p&gt;&lt;b&gt;In order to purchase Rights Managed (RM) images online, you must complete the following:  &lt;/b&gt;&lt;/p&gt;&lt;br /&gt;
+        &lt;ul style="margin-left:10px;"&gt;
+        &lt;li&gt;Enter the License Details for each image to get a price.                                                                            &lt;li&gt;Save priced images to a lightbox or cart.  
+        &lt;/ul&gt;                                                                                                                                                          &lt;br /&gt;&lt;p&gt;&lt;b&gt;If any selected images are NOT available for pricing: &lt;/b&gt;&lt;/p&gt;&lt;br /&gt;                                          &lt;p&gt;A &lt;b&gt;Contact&lt;/b&gt; link will be displayed which requests an Account Executive (A.E.) to: &lt;/p&gt;                    &lt;ul style="margin-left:10px;"&gt;
+        &lt;li&gt;Review the requested images.                                                                                                                   &lt;li&gt;Set the price online prior to purchasing.                                                                                                    &lt;li&gt;Handle any restriction issues or approvals.  
+        &lt;/ul&gt;&lt;br /&gt;                                                                                                                                                          &lt;p&gt;&lt;b&gt;NEW Content Licensing Terms from Corbis&lt;/b&gt;&lt;br /&gt;Please review the new &lt;a href="javascript:NewWindow('/Legal/LicenseInfo.aspx',700,800,'True')" &gt;Corbis Content License Agreement&lt;/a&gt;, which is applicable to your order.&lt;/p&gt;</value>
+  </data>
+  <data name="LightboxesTitle.Text" xml:space="preserve">
+    <value>Lightboxes</value>
+  </data>
+  <data name="MyAccountTitle.Text" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="PurchasingImagesTitle.Text" xml:space="preserve">
+    <value>Purchasing images</value>
+  </data>
+  <data name="Question1.Text" xml:space="preserve">
+    <value>How can I change my username or password?</value>
+  </data>
+  <data name="Question10.Text" xml:space="preserve">
+    <value>How do I purchase an image?</value>
+  </data>
+  <data name="Question11.Text" xml:space="preserve">
+    <value>What are image restrictions?</value>
+  </data>
+  <data name="Question12.Text" xml:space="preserve">
+    <value>What do RM and RF mean?</value>
+  </data>
+  <data name="Question13.Text" xml:space="preserve">
+    <value>How do I download images once I have purchased them?</value>
+  </data>
+  <data name="Question14.Text" xml:space="preserve">
+    <value>Can I cancel an image license after I have purchased it?</value>
+  </data>
+  <data name="Question2.Text" xml:space="preserve">
+    <value>How can I update my account information?</value>
+  </data>
+  <data name="Question3.Text" xml:space="preserve">
+    <value>How can I change my credit card?</value>
+  </data>
+  <data name="Question4.Text" xml:space="preserve">
+    <value>How can I apply for credit?</value>
+  </data>
+  <data name="Question5.Text" xml:space="preserve">
+    <value>How do I create a lightbox?</value>
+  </data>
+  <data name="Question6.Text" xml:space="preserve">
+    <value>How do I group lightboxes in hierarchical order?</value>
+  </data>
+  <data name="Question7.Text" xml:space="preserve">
+    <value>How do I change my “active” lightbox?</value>
+  </data>
+  <data name="Question8.Text" xml:space="preserve">
+    <value>How do I transfer ownership of a lightbox?</value>
+  </data>
+  <data name="Question9.Text" xml:space="preserve">
+    <value>What’s required to purchase an image from Corbis?</value>
+  </data>
+  <data name="Chat.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="country.custom1_message" xml:space="preserve">
+    <value>Please select a valid Country/Region</value>
+  </data>
+  <data name="email.email_message" xml:space="preserve">
+    <value>Please enter a valid Email Address</value>
+  </data>
+  <data name="email.required_message" xml:space="preserve">
+    <value>Please enter a valid Email Address</value>
+  </data>
+  <data name="firstName.required_message" xml:space="preserve">
+    <value>Please enter a valid First Name</value>
+  </data>
+  <data name="lastName.required_message" xml:space="preserve">
+    <value>Please enter a valid Last Name</value>
+  </data>
+  <data name="stateList.custom1_message" xml:space="preserve">
+    <value>Please select a valid State/Province</value>
+  </data>
+  <data name="telephone.required_message" xml:space="preserve">
+    <value>Please enter a valid Phone</value>
+  </data>
+  <data name="telephone.phone_message" xml:space="preserve">
+    <value>Please enter a valid phone number: 6-24 characters. Allowed special characters include +, (), -, or .</value>
+  </data>
+  <data name="comments.required_message" xml:space="preserve">
+    <value>Please provide Comments.</value>
+  </data>
+  <data name="AnswerChina2" xml:space="preserve">
+    <value> 
+&lt;p&gt;To change your account information, sign in using your username and password. You can then update your Personal, Business, Payment, Shipping, or Preferences information by completing the following steps:  &lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   Click &lt;b&gt;&lt;a href="../Accounts/MyProfile.aspx"&gt;My Account&lt;/a&gt;&lt;/b&gt;.                                                                                                 &lt;li&gt;The display defaults to &lt;a href="../Accounts/MyProfile.aspx" &gt;Profiles &amp; Preferences&lt;/a&gt;.
+        &lt;li&gt;2.   You can select any of these options:&lt;b&gt; Personal Information, Business Information, or Preferences.&lt;/b&gt;  &lt;li&gt;3.   After selecting the category you want, select &lt;b&gt;Edit&lt;/b&gt;                                   &lt;li&gt;4.   Click &lt;b&gt;Save.&lt;/b&gt;
+        &lt;/ol&gt;</value>
+  </data>
+  <data name="AnswerChina10" xml:space="preserve">
+    <value>To purchase an image, plesae contact customer service by clicking on the blue square icon under an image and fill out the contact form.</value>
+  </data>
+  <data name="AnswerChina5" xml:space="preserve">
+    <value>&lt;p&gt;Registered members of Corbis can work with lightboxes to save and transfer images online. If you are new to Corbis, or beginning a large project, the information below will help you get started.    &lt;/p&gt;&lt;br /&gt;&lt;p&gt;&lt;b&gt;You can create a new lightbox in five ways: &lt;/b&gt;&lt;/p&gt;&lt;br /&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   &lt;b&gt;From search results:&lt;/b&gt; Click the &lt;b&gt;light bulb icon&lt;/b&gt; below the thumbnail you wish to save to a lightbox. If a lightbox does not exist, a pop-up window will appear where you will click &lt;b&gt;Create new lightbox.&lt;/b&gt; Name the lightbox and click &lt;b&gt;Add to new lightbox.&lt;/b&gt;                                                                                                  &lt;li&gt;2.   &lt;b&gt;From the REFINE search pane:  &lt;/b&gt; Click the &lt;b&gt;light bulb icon&lt;/b&gt;, then select Create new lightbox. A pop-up window will appear where you will name the lightbox and click &lt;b&gt;Save&lt;/b&gt;.                                                                                                  &lt;li&gt;3.   &lt;b&gt;From Image Enlargement:  &lt;/b&gt; Click the &lt;b&gt;light bulb icon.&lt;/b&gt; A pop-up window will appear where you will click &lt;b&gt;Create new lightbox.&lt;/b&gt;  Name the lightbox and click &lt;b&gt;Add to new lightbox.&lt;/b&gt;                                   &lt;li&gt;4.   &lt;b&gt;From My Lightboxes: &lt;/b&gt;At the top of any page, click &lt;a href="../Lightboxes/MyLightboxes.aspx"&gt;My Lightboxes&lt;/a&gt; to be taken to your saved lightboxes. At the top of your lightbox window, click &lt;b&gt;Create new lightbox.&lt;/b&gt; 
+        &lt;/ol&gt;&lt;br /&gt;                                                                                                                                                          &lt;p&gt;The creator of a new lightbox is automatically the lightbox owner and controls access until it is transferred. You can add additional lightboxes and nest lightboxes in hierarchical order, as required. &lt;/p&gt;</value>
+  </data>
+  <data name="AnswerChina7" xml:space="preserve">
+    <value>&lt;p&gt;If you are signed in as a registered member, you may find that you have several lightboxes saved. The last lightbox you use becomes your active lightbox, and any images that you &lt;b&gt;Add to lightbox&lt;/b&gt; will be sent to that lightbox by default.      &lt;/p&gt;&lt;br /&gt;&lt;p&gt;To change the lightbox where an image will be saved, follow these instructions: &lt;/p&gt;&lt;br /&gt;                                                                                                    &lt;p&gt;&lt;b&gt;From the REFINE search pane:&lt;/b&gt;&lt;/p&gt;
+        &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   To access your lightboxes, click the lightbox tab on the REFINE Search pane.                                 &lt;li&gt;2.   After selecting the lightbox where you’d like to save the image, click the &lt;b&gt;light bulb  icon&lt;/b&gt; below the thumbnail you wish to save to a lightbox.  
+        &lt;/ol&gt;                                                                                                                                                          &lt;br /&gt;&lt;p&gt;&lt;b&gt;From the Image Enlargement page:&lt;/b&gt;&lt;/p&gt;                                                             &lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   Click on the light bulb icon and a pop-up window will appear where you can either select to &lt;b&gt;Add to lightbox&lt;/b&gt; or &lt;b&gt;Create new lightbox.&lt;/b&gt;                                                                                                                   &lt;li&gt;2.   After selecting either &lt;b&gt;Add&lt;/b&gt; or &lt;b&gt;Add to new lightbox&lt;/b&gt; as the lightbox where you’d like to save the image, the selected lightbox becomes your active lightbox. 
+        &lt;/ol&gt;                                                                                                                                                          &lt;br /&gt;&lt;p&gt;&lt;b&gt;From My Lightboxes:&lt;/b&gt;&lt;/p&gt;&lt;ol style="margin-left:10px;"&gt;
+        &lt;li&gt;1.   To access your lightboxes, click &lt;b&gt;My Lightboxes&lt;/b&gt; to be taken to your saved lightboxes, at the top of any page.                                           &lt;li&gt;2.   Clicking to view any lightbox on your left will make it the Active lightbox. 
+        &lt;/ol&gt;            </value>
+  </data>
+</root>

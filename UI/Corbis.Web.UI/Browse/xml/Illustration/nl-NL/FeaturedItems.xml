@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Profiel van illustrator: Chuck Shacochis</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| Standaard RM| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| Standaard RM| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Geïnspireerd door strips en Russische filmposters uit de periode tussen beide wereldoorlogen beschrijft Shacochis zijn donkere stijl als "vintage, door strips geïnspireerde illustraties met een moderne draai." Speelse, opvallende contouren. Vooruitstrevende onderwerpen.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Originele grafische kunst van CSA Images</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| Standaard RM| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| Standaard RM| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>De onconventionele collecties van CSA Images voorzien diverse uiteenlopende stijlen van een provocatieve speelsheid.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Misleidend eenvoudig</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| Standaard RM| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| Standaard RM| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>De leuke, energieke personages van Venki Talath functioneren als geraffineerde archetypen en zijn een voorbeeld van de opkomende trend van strips voor volwassenen.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

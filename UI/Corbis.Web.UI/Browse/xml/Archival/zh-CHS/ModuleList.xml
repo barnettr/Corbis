@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>历史档案类图片库</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288531" Text="Bettmann" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288534" Text="Sygma" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288532" Text="Condé Nast" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1217882" Text="Turnley" Title="查看图像"  />
+	</Links>
+</ModuleList>

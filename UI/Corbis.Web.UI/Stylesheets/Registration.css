@@ -1,0 +1,241 @@
+
+#mainRegistrationContent
+{
+	background-color:#363636;
+	margin:20px;
+	width:950px;
+	position:relative;
+	clear:both;
+	float:left;
+
+}
+#RegisterContent
+{
+	padding-left:10px;
+	width: 580px;
+	
+}
+#RegisterContent .title
+{
+	font-size: 14px;
+	color:#cccccc;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	height:20px;
+
+}
+
+#RegisterContent #RegisterContentUserInput
+{
+	background-color:#e8e8e8;
+}
+
+#RegisterContent .captionClass
+{
+	font-size: 12px;
+	color:#1a1a1a;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#DBDBDB;
+	font-weight:normal;
+}
+
+#RegisterContent .TRUSTe a
+{
+	border-bottom: none;
+}
+
+#RegisterContent .subHeadings
+{
+	font-size: 14px;
+	background-color:#DBDBDB;
+	padding-left:10px;
+
+	padding-bottom:5px;
+	height:17px;
+    color:#666666;
+    font-weight:normal;
+    padding-top:5px;
+
+}
+
+#RegisterContent .container
+{
+	background-color:#e8e8e8;
+	width: 580px;
+	border-collapse:collapse;
+	
+}
+
+#RegisterContent .item
+{
+	width:200px;
+	
+}
+
+#RegisterContent .FormLeft
+{
+	width:30%;
+}
+
+#RegisterContent .indentLeft
+{
+	width:25%;
+}
+
+#RegisterContent .RegistrationOptional
+{
+	color: #808080;
+	width:200px;
+}
+
+#RegisterContent .FormRight
+{
+	width:70%;
+	text-align:left;
+	border-left:none;
+	
+}
+
+#RegisterContent .ImageCheckbox
+{
+	font-size:12px;
+}
+
+.whyRegisterTitle
+{
+	font-size: 14px;
+	color:#cccccc;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	height:20px;
+}
+
+.whyRegisterContent
+{
+	padding-left:10px;
+	background-color:#e8e8e8;
+	font-weight:bold;	
+	
+}
+
+.advantage
+{
+	font-weight:normal;
+	line-height:15px;
+	list-style-type:none;
+	color:#666666;
+}
+
+.bold
+{
+	padding-top:5px;
+	color:#000000;
+}
+
+#RegisterContent input[type="text"],
+#RegisterContent input[type="password"],
+#RegisterContent select
+{
+	margin:6px 0 6px 8px;
+}
+
+#RegistrationRound
+{
+    width: 950px;
+    top:15px;
+    left:20px;
+    position:relative;
+   
+}
+
+#RegistrationRoundBottom
+{
+	width: 950px;
+    top:-20px;
+    left:20px;
+    position:relative;
+   
+}
+
+#RegistrationRound .Left,
+#RegistrationRound .Right,
+#RegistrationRoundBottom .Left,
+#RegistrationRoundBottom .Right
+{
+	background-color: #363636;
+	background-image: url("../Images/rc5px363636-1a1a1a.gif");
+}
+
+#RegisterContent .PaneHeaderExpanded,
+#RegisterContent .PaneHeaderExpanded .Right,
+#RegisterContent .PaneHeaderExpanded .Right .Center,
+#whyRegister .PaneHeaderExpanded,
+#whyRegister .PaneHeaderExpanded .Right,
+#whyRegister .PaneHeaderExpanded .Right .Center
+{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: visible !important;
+    background-image:url(../App_Themes/BlackBackground/Images/barDarkSprite.gif);
+    
+   
+}
+
+#RegisterContent .PaneHeaderExpanded,
+#whyRegister .PaneHeaderExpanded
+{
+    margin-top: 5px;
+}
+
+#RegisterContent .PaneHeaderExpanded .Right,
+#whyRegister .PaneHeaderExpanded .Right
+{
+    padding-right: 5px;
+    padding-left: 5px;
+    background-position:right -238px;
+}
+
+#RegisterContent .PaneHeaderExpanded .Right .Center,
+#whyRegister .PaneHeaderExpanded .Right .Center
+    {
+	    background-repeat: repeat-x;
+	    color: #cccccc;
+	    font-size: 14px;
+	    line-height: 14px;
+	    background-position:0 -272px;
+    }
+    
+#RegisterContent .PaneContentRound .Left,
+#RegisterContent .PaneContentRound .Right,
+#whyRegister .PaneContentRound .Left,
+#whyRegister .PaneContentRound .Right
+{
+	background-color: #dbdbdb;
+	background-image: url("../Images/rc5pxdbdbdb-363636.gif");
+}
+
+
+
+
+#mainRegistrationContent .LeftAccordion
+    {
+	    
+	    clear:both;
+		float:left;
+	    margin-right: 15px;
+	    width: 570px;
+    }
+
+#mainRegistrationContent .RightAccordion
+{
+	float: left;
+    width: 341px;
+    margin-bottom:27px;
+    margin-left:13px;
+}
+
+

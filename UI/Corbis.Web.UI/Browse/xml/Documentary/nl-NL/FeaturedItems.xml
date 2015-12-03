@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Latitude</Title>
+		<Image Src="xml/Documentary/Images/main.jpg" Alt="42-18630995| Premium RM| © Andy Rouse/Corbis" ImageID="42-18630995" Attribution="| Premium RM| © Andy Rouse/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Dit is kwalitatief hoogstaand, commercieel zeer geschikt Rights Managed-beeldmateriaal. Authentieke en onvervangbare beelden van de menselijke beschaving en de natuur.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Terra</Title>
+		<Image Src="xml/Documentary/Images/sub.1.jpg" Alt="42-19191759| Standaard RM| © Remi Benali/Corbis" ImageID="42-19191759" Attribution="| Standaard RM| © Remi Benali/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Een redactionele collectie van rijkdom en overvloed, met diepgaande en zeer relevante reportages over mensen, plaatsen, dieren en gebeurtenissen over de hele wereld.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

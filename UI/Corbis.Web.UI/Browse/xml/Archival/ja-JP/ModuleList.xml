@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>歴史写真コレクション</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288531" Text="Bettmann" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288534" Text="Sygma" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288532" Text="Condé Nast" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1217882" Text="Turnley" Title="画像を見る"  />
+	</Links>
+</ModuleList>

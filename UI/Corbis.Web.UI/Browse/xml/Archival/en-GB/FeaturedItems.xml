@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Treasures from the Corbis archive</Title>
+		<Image Src="xml/Archival/Images/main.jpg" Alt="42-21496840| Premium RM| © Bob Adelman/Corbis" ImageID="42-21496840" Attribution="| Premium RM| © Bob Adelman/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="View slideshow" Title="View slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Triumphs and catastrophes. Leaders and visionaries. Regimes topple, crowds surge, icons perish, and the camera captures each story.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="View slideshow" Title="View slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>The colour century</Title>
+		<Image Src="xml/Archival/Images/sub.1.jpg" Alt="U1591414-10| Standard RM| © Bettmann/CORBIS" ImageID="U1591414-10" Attribution="| Standard RM| © Bettmann/CORBIS" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="View slideshow" Title="View slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Early pigmentation techniques, obsolete film, and forgotten formats imbue distinctive hues.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="View slideshow" Title="View slideshow"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

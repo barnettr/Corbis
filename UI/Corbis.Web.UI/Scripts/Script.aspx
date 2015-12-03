@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Script.aspx.cs" Inherits="Corbis.Web.UI.Scripts.Script" %>

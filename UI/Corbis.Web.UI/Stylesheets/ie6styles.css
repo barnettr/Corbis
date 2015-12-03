@@ -1,0 +1,298 @@
+input
+{
+	border: expression(this.type == 'text' || this.type == 'password' ? 'solid 1px #999' : this.type == 'submit' || this.type == 'button' ? 'solid 1px #666' : '');
+	height: expression(this.type == 'text' || this.type == 'password' || this.type == 'submit' || this.type == 'button' ? '20px !important' : '');
+	margin: expression(this.type == 'checkbox' || this.type == 'radio' ? '0px 5px 0px 0px !important' : '');
+	overflow: expression(this.type == 'submit' || this.type == 'button' ? 'visible' : '');
+}
+
+.ModalPopupContent {
+    zoom: 1;     /* triggers hasLayout */
+}
+
+.ModalBackground
+{
+	background-color: #000;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=65);
+}
+
+.ModalPopupContent input
+{
+	width: expression(this.type == 'text' || this.type == 'password' ? '100%' : '');
+}
+
+.ModalPopupContent select
+{
+	width: 100%;
+}
+
+.GlassButton input
+{
+	background-color: Transparent;
+	border: none !important;
+}
+
+.GlassButton
+{
+	display:inline !important;
+	height:22px;	
+}
+
+#modalOverlay
+{
+	top: expression(ignoreMe = document.documentElement.scrollTop);
+}
+
+/* search buddy */
+
+/* search buddy - to display bottom right corner correctly  */
+* html .inSearchBuddy    {
+    background-color:Transparent;
+    background-position:bottom 180px;
+    padding-bottom:0;
+    width:220px;
+    z-index:300;
+}   
+
+/* image enlargement: allow float of image & details in container*/ 
+#imageDetailsDiv {
+    background-color:transparent !important;
+    margin-bottom:-20px;
+    width:982px;
+}
+
+#imageDetailsContent .infoWrap {
+    width:300px !important;
+}
+
+/* shifted controls on the right up so that they don't push section under tabs down */
+#imagePaging {margin-top:-10px;}
+
+
+/*  checkout page */
+
+.TwoColumn_leftWrap
+{
+    margin-bottom:-8px; /* scoot panels up to stop bottom overflow over rounded corners */
+}
+
+.totalDivLabel 
+{
+    margin-right:-10px;    
+}
+
+/* checkout page: scrolling issues in item summary */
+#itemSummaryContainer
+{
+    height:272px !important;    
+    width:94% !important;
+    zoom:1;
+}
+
+body #summaryItemsContainer
+{
+    height:272px;
+    width:291px; 
+    zoom:1;
+}
+
+#summaryItems table 
+{
+    width:274px !important;
+    zoom:1;
+}
+
+.buttonBar
+{
+    padding-bottom:0 !important;
+}
+
+/* checkout page: allow resizing in main browsers, fixed in IE6 */
+
+html body #checkoutStageWrap
+{
+    width: 1000px;    
+}
+
+
+/* checkout page: in item summary */
+div.total div.totalDivValue 
+{
+    width:112px
+}
+
+/* project panel in project step in checkout */
+#projectPaneLayout td
+{
+    height:30px !important;   
+ }
+
+ .Error
+{
+    width:650px !important;
+    padding-left:0 !important; 
+}
+
+.Error ul, .Error div {
+    background-position: -2px 7px;
+}
+
+.Error strong
+{
+    display:block;
+    padding-left:30px;
+}
+
+/* checkout page tabs */
+body #topNavDiv a.tab, body #topNavDiv a.tab:link, body #topNavDiv a.tab:visited, body #topNavDiv a.tab:active
+{
+	padding:12px 0 11px;
+}
+
+/* 'loading' rotating icon */
+#loadingViewRestrictions 
+{
+    right:30px !important;
+}
+
+.zeroResults
+{
+    position:absolute;
+    bottom:-10px !important;    
+}
+.zeroResultsBuddy
+{
+    position:absolute !important;
+    bottom:-450px !important;
+    height:600px !important;
+}
+
+#CheckoutWidget
+{
+	width: 120px;
+}
+
+/* For tranparent png image issue */
+#Logo
+{
+	background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../Images/Corbis_logo.png,sizingMethod='scale');
+    cursor:pointer;
+}
+
+/* For tranparent png image issue */
+#BrowseMenu
+{
+	background-image: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale');
+}
+
+/* For 2 Column layout is ignored - the right column wraps under the left. My guess is that it is a IE6 margin/padding issue */
+#betaFormRight
+{
+    background-color:#d8d8d8;
+    color:#666666;
+    float:left; 
+    width:357px;
+    margin-bottom:10px;
+    margin-left:0px;         
+    position:absolute;
+}
+
+/* For solving the padding issue in register page */
+ #mainRegistrationContent
+{
+	background-color:#363636;
+	margin:20px;
+	width:950px;
+	position:relative;
+	clear:both;
+	float:left;
+    /*padding-bottom:100px;*/
+}
+
+/* For IE6 Only for the issue-(2 Column layout is ignored – the right column wraps under the left.) */
+ #mainRegistrationContent .RightAccordion  
+{
+	background-color:#d8d8d8;
+    color:#666666;
+    float:left; 
+    width:335px; 
+    margin-bottom:10px;
+    margin-left:-7px;    
+    margin-right:10px;  
+    position:absolute;    
+}
+
+/* Only for IE6 (for set the position of Why register Section div in register page) */
+#RegisterContent .PaneHeaderExpanded,
+#whyRegister .PaneHeaderExpanded
+{
+    margin-top: 0px;
+}
+
+/* For IE6 Only Margin/padding issues in header of OrderHistory page */
+ #headerHistory #imagePaging, #OrderHistorySearchResultsFooter #imagePaging
+{
+    display:block; 
+    float:right;
+    right:32px;
+    width: 180px;
+    margin-top:0px;
+}
+/* set the width of more search option */
+#sortBlockId
+{
+	margin:3px 5px;
+	width:210px;
+}
+
+/* For IE6 Only for resolving the issue of search Pagination header is messed up */
+
+#header2 #imagePaging, #SearchResultsFooter #imagePaging 
+{
+	display:block; 
+    float:right;
+    right:32px;
+    width:180px;
+    margin-top:0px;
+}
+
+/* For the issue of No search Results Section(Search bar is gone – covered by footer). */
+#searchGlassButton	
+{
+	width:210px;
+}
+
+/* For footer Setting */
+.zeroResults
+{
+	position:relative;
+	bottom:-100px; 
+	margin-top:35px;  
+	clear:both;
+}
+/* For set the Height of zeroSearchResult div at No Search result Section */
+#zeroSearchResult
+{
+	height:100px;
+}
+/* For fixing the issue(2 column layout is not happening – margin/padding issue) In RMPricing Section*/
+#licenseDetailsDiv
+{
+	background-color: #DBDBDB;
+	float: right;
+	width: 240px; /* should be 254px, but the temp scroll bar breaks it */
+	margin-left:-235px;
+	margin-top:12px;
+	margin-right:10px;    
+    position:absolute;
+    margin-bottom:10px;
+}
+
+/* For fixing the issue(Save favorite use button is WIDE and causes button wrap) In RMPricing Section */
+#ctl00_mainContent_SaveFavoriteUsageButton
+{
+	width:100px
+}

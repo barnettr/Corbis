@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Latitude</Title>
+		<Image Src="xml/Documentary/Images/main.jpg" Alt="42-18630995| Premium RM| © Andy Rouse/Corbis" ImageID="42-18630995" Attribution="| Premium RM| © Andy Rouse/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>这是概念独特，并且具备商业元素的版权正片。真实的、无可取代的图像，展示人类文明及自然生态。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Terra</Title>
+		<Image Src="xml/Documentary/Images/sub.1.jpg" Alt="42-19191759| Standard RM| © Remi Benali/Corbis" ImageID="42-19191759" Attribution="| Standard RM| © Remi Benali/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>一个具深度及广度的编辑类图片库，提供可作封面的图像，当中包括人物、地方、生物，以及世界各地的事情。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

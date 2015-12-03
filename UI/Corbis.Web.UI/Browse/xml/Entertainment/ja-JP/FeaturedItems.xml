@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>夏の人気映画</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Standard RM| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Standard RM| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>この夏、大スターと大掛かりな制作費をかけた多数の映画が人気を競います。ロマンス映画、コメディー、ドラマ、SFと様々なジャンルの映画が目白押し。2009年の話題作のストーリーをちょっぴりご紹介。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>コービスOutlineの独占セレブ写真</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="Outline でセレブ写真を見る" Title="Outline でセレブ写真を見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>偉大なアーティストから可憐な歌姫。そして伝説的なセレブから純真な子役まで。コービスのOutline™ は、業界一のフォトグラファーの手で撮影された、最も著名で魅力的なセレブの写真をお届けします。</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="Outline でセレブ写真を見る" Title="Outline でセレブ写真を見る"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

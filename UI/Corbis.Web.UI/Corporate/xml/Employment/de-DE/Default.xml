@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page>
+    
+    <PageTitle>Corbis Employment</PageTitle>
+
+    <PageDescription></PageDescription>
+
+    <PageKeywords>Corbis, Stock Photography, Stock Photos</PageKeywords>
+
+    <!-- Page Content below -->
+    <Content>
+			<p>
+				Corbis sucht ständig talentierte Personen für die verschiedenen internationalen Büros des Unternehmens für die folgenden Bereiche: Beratung, Kundenservice, Recherche, Fotografie/Kunst/Filmbearbeitung, Webproduktion und andere. Wenn Sie weitere Informationen zu aktuellen Stellenangeboten wünschen, klicken Sie unten.
+			</p>
+			<ul class="Links">
+				<li>
+					<a href="/Corporate/Employment/Jobs.aspx" title="See jobs">Jobs</a>
+				</li>
+			</ul>
+		</Content>
+
+</Page>

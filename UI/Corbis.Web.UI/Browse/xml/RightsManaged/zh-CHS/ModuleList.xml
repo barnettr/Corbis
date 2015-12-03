@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>版权正片图片库</Title>
+	<Links>
+		<Link Url="Collections.aspx?name=crush" Text="Crush" Title="查看幻灯片展示"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289174" Text="Ivy " Title="查看图像"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289154" Text="zefa" Title="查看图像"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289155" Text="moodboard plus" Title="查看图像"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289184" Text="Blend Images" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289156" Text="Amana" Title="查看图像"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289157" Text="PhotoCuisine" Title="查看图像"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Transtock" Title="View images" />-->
+	</Links>
+</ModuleList>

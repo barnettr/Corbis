@@ -1,0 +1,61 @@
+﻿body
+{
+background: #404040 url(/Images/BG-gray-gradient.jpg) top left repeat-x;
+background-color: #404040;
+color: White;
+}
+
+/* Bad Browsers */
+
+.SorryBadBrowser
+{
+    width: auto;
+    padding-top: 200px;
+    text-align: center;
+    
+}
+
+td.logoRow
+{
+border-bottom: 1px solid #656565;
+padding-bottom: 10px;
+}
+
+td.optimalExperience
+{
+    font-size: 14px;
+    color: white;
+    padding: 15px 0px;
+}
+
+td.browserList
+{
+    background-color: #3f3f3f;
+    padding: 20px;
+}
+
+td.browserList ul,
+td.browserList ul li
+{
+    list-style: none;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+td.browserList ul li
+{
+    font-size: 20px;
+}
+
+td.upgradeLater
+{
+    font-size: 20px;
+    color: White;
+    padding: 15px 0px;
+}
+
+td.installAssistance
+{
+    font-size: 14px;
+    color: #989898
+}

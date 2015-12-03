@@ -1,0 +1,198 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+/* ====[ general ]=========================== */
+ 
+html body  *
+ {
+    font-family: "Trebuchet MS","Lucida Grande","Arial,Helvetica,sans-serif","Unicode MS", "宋体","华文宋体" !important;            /* SimSun for Win; then STSong for Mac */
+    font-style:normal !important;
+    font-weight:normal !important;
+ }
+ 
+ /* ====[ font-size:12px ]============= */
+ #Search .MSOButton .Center,
+ #refineHeader, 
+ #lightboxHeader, 
+ #lightboxHeaderNew, 
+ #quickPicHeader,
+.inSearchBuddy div.imageCheckbox span,
+.sortBlock .GlassButton a,
+.ProductBlock .categoryInfo, 
+#header2 span,
+.PricingBox .innerWrap,
+#Tree span, #Tree div,
+.renameLink,
+#LightboxProducts,
+#AccountsNavigation .Tab .Title,
+#moreSearchOptions,
+#moveLightbox .ModalPopupPanelDialog .ModalPopupContent .FormButtons .instructions,
+#emailLightbox .ModalPopupPanelDialog .ModalPopupContent .FormButtons .instructions,
+.storySet,
+.creditLabel,
+.photographedBy,
+.datePublished,
+.scrollBoxOLContent,
+.storySetAL,
+#FooterContent .Column div,
+#transferLightbox .instructions,
+#optionsAppliedModalWindow_overlay *,
+.NoteName,
+.noteName,
+.clientName,
+#viewDimensions span,
+.valueType
+ {
+    font-size:12px !important;
+}
+.collectionInfo
+{
+    font-size:11px !important;
+}
+
+/* ====[ font-size:13px ]============= */
+.menuButtons,
+#copyProduct .instructions,
+#emailLightbox .ModalPopupContent td,
+.keywordsSection .viewDimensions, 
+div.imageCheckbox span,
+#clearKeywords a,
+.PriceImageHeader .PricingInfo span,
+.cartBlock .detailsWrap .actLikeLink,
+.productBlock span,
+.headertitles   
+{
+    font-size:13px !important;
+}
+
+/* ====[ font-size:14px ]============= */
+#thumbContentContainer div,
+#thumbContentContainer span,
+.DetailHeader *,
+.mainLabelRFCD
+{
+    font-size:14px !important;
+ }
+ 
+ /* ====[ font-size:16px ]============= */
+.mochaContent .Title
+ {
+    font-size:16px !important;
+ }
+
+
+/* ====[ end of general ]============= */
+
+
+.SBT_filters img {
+    background-image:url(/Images/zh-CHS/buddyTabFilters_off.gif);
+    height:59px;
+}
+.SBT_filters.ON img {
+    background-image:url(/Images/zh-CHS/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/zh-CHS/buddyTabFilters_hover.gif);
+}
+
+.SBT_lightboxes img 
+{
+	background-image:url(/Images/zh-CHS/buddyTabLightbox_off.gif);
+	height:58px;
+}
+.SBT_lightboxes.ON img 
+{
+	background-image:url(/Images/zh-CHS/buddyTabLightbox_on.gif);
+}
+.SBT_lightboxes img:hover
+{
+	background-image:url(/Images/zh-CHS/buddyTabLightbox_hover.gif);
+}
+
+.SBT_quickpic img {
+    background-image:url(/Images/zh-CHS/buddyTabQuickPic1.gif);
+    height:78px;
+}
+.SBT_quickpic.ON img {
+    background-image:url(/Images/zh-CHS/buddyTabQuickPic2.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/zh-CHS/buddyTabQuickPic3.gif);
+}
+
+/* ====[ search page ]===============*/
+
+#CheckoutWidget .Checkout .Right .Center a {
+    font-size:16px;
+}
+
+#header2 span 
+{
+    line-height:26px;
+}
+
+#moreDisplayOptionsWindow
+{
+    left:500px !important;
+}
+
+#moreDisplayOptions
+{
+    height:165px !important;
+    width:150px !important;
+}
+
+.seperatorLine
+{
+    width:150px !important;
+}
+
+#sortOptionTrigger a span
+{
+    display:inline-block;
+    padding-top:4px;
+}
+
+/* ====[ accounts page ]==============*/
+#AccountsNavigation .Tab .Title
+ {
+ line-height:14px;
+ }
+ 
+ .sortOptionText
+ {
+    margin-top:-5px;
+ }
+ 
+                                      
+/* ====[ 'transfer' modal in lightbox page ]==========*/
+#emailLightbox  .ModalTitleBar .Title, 
+#transferLightbox .ModalPopupPanelDialog .ModalTitleBar .Title 
+ {
+     font-size:16px;
+ }
+
+#emailLightbox  .ModalTitleBar .Title, 
+#transferLightbox  .ModalTitleBar .Title 
+{
+    height:24px;
+}
+
+#noMemberMessage
+{
+    top:-139px;                                      
+}                      
+
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:400px !important;
+}
+
+/* sign in modal: necessary for IE7 - bug no.17967 */
+.SignInContent #forgotWrapper
+{
+   padding-bottom:5px;
+}
+ 

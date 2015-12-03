@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stories baseURL="images/">
+	
+	<!-- 	
+		This is the default options stack, YOU ONLY HAVE TO ADD THE PARAMETERS YOU WANT TO MODIFY:
+		<options
+			position="left"
+			verticalPosition="" 
+			textBackground="true" 
+			textColor="light" 
+			linkColor="blue"
+			fadeTo="black"
+		/>
+		
+		The slideshow accepts the following parameters:
+			position: left or right (controls whether the text-box is on the left or the right)
+			verticalPosition: Any number or nothing (controls the vertical position of the box, if you don't include a value then it will be centered vertically. If a number used, it will place it that many pixels from the top)
+			textBackground: true or false (If it's true, then a transparent background will appear. If not, nothing.) 
+			textColor: light or dark (Sets the text colour as specified) 
+			linkColor: blue or whte (Sets the color of the link)
+			fadeTo: black or white (Once another story is selected, will the current one fade to white or black)
+			
+		!!! If you make any errors, the code will automatically choose the default values !!!
+		
+	 -->
+	<story>
+		<img src="giardino.jpg" />
+		<title><![CDATA[Patrik Giardino]]></title>
+		<subhead><![CDATA[Photographer Profile]]></subhead>
+		<text><![CDATA[Portraits of athletes and dancers, dynamic landscapes, and fascinating faces. Patrik Giardino’s photography is pure energy. ]]></text>
+		<link href="http://pro.localhost.corbis.pre:8080/Browse/Slideshows.aspx?Name=giardino"><![CDATA[See the slideshow]]></link>
+		<attribution href="http://pro.localhost.corbis.pre:8080/Search/SearchResults.aspx?q=42-15805476" name="42-15805476">Premium RM| © Patrik Giardino/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="warhol.jpg" />
+		<title><![CDATA[Andy Warhol’s shoes]]></title>
+    <subhead>
+      <![CDATA[Fine Art:]]></subhead>
+		<text><![CDATA[Before soup cans, Marilyn, and the Pop phenomenon, Andy Warhol was an illustrator of whimsical footwear.]]></text>
+		<link href="http://pro.localhost.corbis.pre:8080/Browse/Slideshows.aspx?Name=warhol"><![CDATA[See the slideshow]]></link>
+		<attribution href="http://pro.localhost.corbis.pre:8080/Search/SearchResults.aspx?q=42-18454480_1280" name="42-18454480_1280">Andy Warhol Foundation/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="bo-diddley.jpg" />
+		<title>
+      <![CDATA[One year later: Bo Diddley remembered]]></title>
+		<subhead><![CDATA[Hotline:]]></subhead>
+		<text><![CDATA[Bo Diddley’s unusual beat changed American music and inspired musicians for more than 50 years.]]></text>
+		<link href="http://pro.localhost.corbis.pre:8080/Browse/Slideshows.aspx?Name=boDiddley"><![CDATA[See the slideshow]]></link>
+		<attribution href="http://pro.localhost.corbis.pre:8080/Search/SearchResults.aspx?q=42-17478836" name="42-17478836">Michael Ochs Archives/Corbis</attribution>
+		<options textColor="dark" textBackground="false"/>
+	</story>
+	
+</stories>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Corbis Motion 的庞大资源库</Title>
+		<Copy>
+			<![CDATA[
+				<p>与 Thought Equity Motion 成为合作伙伴后，Corbis Motion 可以提供著名电影及娱乐公司所摄制的片段内容，这些公司包括米高梅电影公司、HBO 电影资源库、国家地理、索尼影视娱乐有限公司，还有史密森尼频道，以及派拉蒙影业公司。网站提供下载功能、大样片，以及免费的找片服务。</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="http://www.corbismotion.com/" Text="到 corbismotion.com" Title="Corbis Motion"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

@@ -1,0 +1,62 @@
+﻿  .mainWrap
+       {
+           background-color:#2f2f2f;
+           color:#666666;
+           width:978px;
+           margin:12px 12px 0px 12px;
+           float: left;
+       }
+       .leftOuterWrap
+       {
+           margin: 12px 0px 0px 12px; 
+           float: left; 
+           width: 665px;
+       }
+    .rightOuterWrap
+    {
+        margin: 12px 0px 0px 0px; 
+        float: left; 
+        width: 256px;
+    }
+    .rightContent
+    {
+        margin:0px;
+        height:385px;
+        width:256px;
+        background-color:#1a1a1a;
+    }
+    .rightTitle
+    {
+        background-color:#797979;
+        margin:0px;
+        width:256px;
+        height:100px;
+        color:#f8f8f8;
+        vertical-align:middle;
+        position:relative;  
+    }
+    .vertDivider
+    {
+        width:1px;
+        background-color:#666666;
+        min-height:485px;
+        margin:12px 16px 0 16px;
+        float:left;
+        overflow:hidden;
+    }
+    .rightInnerContainers
+    {
+        padding:26px;   
+    }
+    .rightContentGray
+    {
+        color:#b7b7b7;
+    }
+    .titleFont
+    {
+        font-size:24px;
+    }
+    .bottom
+    {
+        margin-top:98px;
+    }

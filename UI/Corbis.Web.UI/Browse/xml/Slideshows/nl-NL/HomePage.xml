@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+	<Slideshow Url="Browse/xml/Slideshows/Flash/home-slideshow.swf" Width="1000" Height="520" Flashvars="xmlfile:'/Browse/xml/Slideshows/nl-nl/HomePage/stories.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes=""><NoFlashCopy>
+		<![CDATA[
+			<p class="first">
+				Als u optimaal wilt kunnen browsen en zoeken op het vernieuwde corbis.com, moet u uw versie van Flash Player bijwerken.
+			</p>
+			<p class="downloadFlash">
+				<a href="http://www.adobe.com/go/getflashplayer"> Klik hier om Flash Player te downloaden<br />
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Download Adobe Flash Player" localize="true" />
+				</a>
+			</p>
+			<p>
+				Met de huidige versie van Flash Player kunt u corbis.com wel bekijken, maar kunt u mogelijk niet profiteren van de complete ervaring.
+			</p>
+			<p>
+				Neem contact op met de afdeling Technische ondersteuning van uw bedrijf voor assistentie bij het installeren van de nieuwe Flash Player.
+			</p>
+		]]>		
+	</NoFlashCopy>
+</Slideshow>

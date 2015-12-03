@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Kinowe hity lata</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Standardowe RM| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Standardowe RM| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Trwa wyścig po laur zwycięzcy najbardziej kasowego filmu tego lata. Romans, komedia, dramat i fantasy - niczego nie zabraknie w letniej ofercie kinowej. Zobacz, czym nas kina będą odciągać od grilla.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Panteon gwiazd w Corbis Outline</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Ekskluzywne RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Ekskluzywne RM| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="Outline i cała reszta" Title="Outline i cała reszta"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Artyści i ich muzy. Legendy kina i wschodzące gwiazdki. Corbis Outline™ to zbiór nietuzinkowych portretów słynnych, znanych i podziwianych osobowości świata filmu, ekranu, sportu i biznesu.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="Outline i cała reszta" Title="Outline i cała reszta"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

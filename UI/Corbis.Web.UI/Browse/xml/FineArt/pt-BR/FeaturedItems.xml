@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Canis familiaris</Title>
+		<Image Src="xml/FineArt/Images/main.jpg" Alt="AAKS001420| DC Padrão| © PoodlesRock/CORBIS" ImageID="AAKS001420" Attribution="| DC Padrão| © PoodlesRock/CORBIS">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Veja o show de slides" Title="Veja o show de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Com o passar do tempo e pelo mundo afora, o adorável cãozinho tem sido um tema artístico constante.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>“Shoes, shoes, shoes” de Andy Warhol</Title>
+		<Image Src="xml/FineArt/Images/sub.1.jpg" Alt="42-20093397| DC Padrão| © Andy Warhol Foundation/Corbis" ImageID="42-20093397" Attribution="| DC Premium| © Andy Warhol Foundation/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Nas vésperas da explosão da arte Pop, Andy Warhol era o ilustrador de calçados extravagantes mais requisitado.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+
+</FeaturedItems>

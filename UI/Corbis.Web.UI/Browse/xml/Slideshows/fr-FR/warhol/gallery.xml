@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium DG| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium DG| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/warhol/large/" tnpath="xml/Slideshows/Images/warhol/thumb/">
+		<img src="01_42-20093397.jpg" caption="A la Recherche du Shoe Perdu by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20093397');&quot;&gt;42-20093397&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093397');" />
+    <img src="02_42-18454447.jpg" caption="Shoe (To Kathryne Hays From Andy Warhol) by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18454447');&quot;&gt;42-18454447&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18454447');" />
+    <img src="03_42-17767946.jpg" caption="Shoe (To Kathryne Hays From Andy Warhol) by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-17767946');&quot;&gt;42-17767946&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17767946');" />
+    <img src="04_42-18622838.jpg" caption="Who's Pussyfooting Around? by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18622838');&quot;&gt;42-18622838&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18622838');" />
+		<img src="05_42-18454480.jpg" caption="Shoe and Leg by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18454480');&quot;&gt;42-18454480&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18454480');" />
+    <img src="06_42-20093350.jpg" caption="A la Recherche du Shoe Perdu by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20093350');&quot;&gt;42-20093350&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093350');" />
+    <img src="07_42-20093351.jpg" caption="A la Recherche du Shoe Perdu by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20093351');&quot;&gt;42-20093351&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093351');" />
+		<img src="08_42-20093356.jpg" caption="A la Recherche du Shoe Perdu by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20093356');&quot;&gt;42-20093356&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093356');" />
+		<img src="09_AALX001392.jpg" caption="Shoe Bright, Shoe Light, First Shoe I've Seen Tonight by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AALX001392');&quot;&gt;AALX001392&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001392');" />
+		<img src="10_42-20093386.jpg" caption="A la Recherche du Shoe Perdu by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20093386');&quot;&gt;42-20093386&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093386');" />
+    <img src="11_42-20093423.jpg" caption="A la Recherche du Shoe Perdu by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20093423');&quot;&gt;42-20093423&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093423');" />
+    <img src="12_AALX001006.jpg" caption="I Dream of Jeannie with the Light Brown Shoes by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AALX001006');&quot;&gt;AALX001006&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001006');" />
+		<img src="13_AALX001008.jpg" caption="You Can Lead a Shoe to Water But You Can't Make It Drink by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AALX001008');&quot;&gt;AALX001008&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AALX001008');" />
+		<img src="14_42-18454477.jpg" caption="High Heel Shoe by Andy Warhol&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18454477');&quot;&gt;42-18454477&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Warhol Foundation/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18454477');" />
+	</album>
+</gallery>

@@ -1,0 +1,1089 @@
+﻿/* $$$ ====[ page layout ]*/
+
+body
+{
+    background-color:#e8e8e8 !important;
+    color:#1a1a1a;
+}
+
+#expressCheckoutStageWrap
+{
+    width:934px;
+    max-width: 934px;
+    min-width: 934px;
+    padding: 6px 12px 6px 12px;
+}
+
+.wrap
+{
+    width:100%;
+    position: relative;
+}
+/* $$$ ====[ column layout - overriding base styles from /Stylesheets/helpers/columnLayouts.css ]*/
+
+/* $$$ ====[ 2 column left column settings ] */
+#expressCheckoutDisplayColumns
+{
+    background: transparent;
+    width:934px;
+    padding:0 !important;
+}
+
+/* $$$ ====[ the container for the columns ] */
+#expressCheckoutDisplayColumns .TwoColumn_leftWrap
+{
+    left: 616px; /* this moves the right columns left spacing */
+    background-color: #e8e8e8;
+    padding: 0px;
+    
+}
+#expressCheckoutDisplayColumns .TwoColumn_mainWrap
+{
+    right: 616px; /* same as left column width */
+    padding-bottom: 0px;
+}
+
+/* $$$ ====[ Main/Right Column ]*/
+#expressCheckoutDisplayColumns .TwoColumn_mainColumn
+{
+    margin: 0px 0px 0px 628px; /* this controls padding of right column */
+    position: relative;
+    
+    
+}
+
+/* $$$ ====[ Left Column ]*/
+#expressCheckoutDisplayColumns .TwoColumn_leftColumn
+{
+    width: 616px; /* width of left column */
+    right: 616px;
+    background-color: #e8e8e8;
+}
+
+#projectInfoId .ValidationSummary
+{
+	margin-top:3px;
+}
+#projectValidate, #projectValidate div {
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+}
+#projectValidate{
+    margin:7px 0 7px 0 !important;
+}
+.LicensingDetailsHeader
+{
+	padding:5px 13px;
+}
+.LicensingDetailsHeader h3
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+}
+.LicensingDetailsHeader li
+{
+    float:left;
+    display:inline-block;
+    list-style-type:none;
+    width:190px;
+}
+.licenseDetailsHeaderLbl
+{
+    margin-left:12px;
+    display:none;
+}
+.licenseWrapper
+{
+    background-color:#e8e8e8;
+    margin:12px 0;
+    padding:0 0 12px 0;
+    color:#1a1a1a;
+}
+.fileSizeWrapper, .dimensionSizeWrapper, .priceFooter, .itemNotAvailable
+{
+    margin:0 30px;
+    line-height:16px;
+    
+}
+.Bold
+{
+    font-weight:bold !important;
+}
+.yellowNotification
+{
+    background-color:#ffffcd;
+    line-height:26px;
+    margin:0 0 12px 0;
+    padding:0 8px;
+}
+.RepeaterContainer
+{
+    background-color:#dbdbdb;
+    width: 600px !important;
+    text-align:left;
+}
+.RFPricingRepeater, .customPricedDisplay
+{
+
+    background-color:#dbdbdb;
+    display:block;
+    width:100%;
+    margin:10px 0;
+}
+.RFPricesInnerWrap
+{
+    padding:12px 0;
+    background-color: #e8e8e8;
+}
+.ListItemWrap
+{
+    display:block;
+    height:30px;
+    margin:0 0 4px 0 !important;
+}
+.RFPricingRepeaterDataRow
+{   
+    margin:0 0 4px 0 !important;
+    float:left;
+    height:20px;
+    width:544px;
+    overflow:hidden;
+    padding:5px;
+    background: #e8e8e8 url(../Images/btnBarRfSprite.gif) repeat-x 0 -30px;
+    cursor:pointer;
+}
+.RFPricingRepeaterDataRow ul{ list-style-type:none;display:inline; }
+.RFPricingRepeaterDataRow ul li{ float:left;  height: 1.8em; line-height: 1.8em; }
+.RFPricingRepeaterDataRow ul li.double-line{ line-height: 0.9em; }
+.RFPricingRepeaterDataRow ul li.Right{ float:right; text-align:right; }
+.RFPricingRepeaterDataRow ul li img{ position:relative; top:3px; }
+.RFPricingRowLeft
+{
+    margin-left:13px;
+}
+.RFPricingRowLeft, .RFPricingRowRight
+{
+    display:inline;
+    float:left;
+    height:30px;
+    width:5px; 
+    background: #e8e8e8 url(../Images/btnBarRfSprite.gif) no-repeat 0 0px;
+}
+.RFPricingRowRight
+{
+    background-position: 0px -60px;
+    margin-right:13px;
+}
+
+
+/* $$$ ====[ AJAX Indicators ]*/
+.ajaxPriceLoader
+{
+    background-color:#e8e8e8;
+    zoom:1;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -moz-opacity: 0;
+    height:105px;
+    width:280px;    
+    margin:5px 0 0 -12px;
+    position:absolute;  
+    
+}
+.ajaxPriceLoader .msg
+{
+    color:#1a1a1a;
+    text-align:center;
+    font-size:18px;
+    margin:32px 12px 12px 12px;
+}
+.ajaxLicenseLoader
+{
+    background-color:#e8e8e8;
+    zoom:1;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -moz-opacity: 0;
+    height:150px;
+    width:250px;
+    margin:5px 0 0 2px;
+    position:absolute;
+}
+.ajaxLicenseLoader .msg
+{
+    color:#1a1a1a;
+    text-align:center;
+    font-size:18px;
+    margin:32px 12px 12px 12px;
+}
+
+
+/* $$$ ====[RM PRICING PANE] */
+
+.CustomPricing
+{
+    background-color:#DBDBDB;
+	width: 310px;
+	float: left;
+	margin:12px 0 0 0px;
+	color:#1a1a1a;
+}
+.LicenseDetails
+{
+	background-color: #DBDBDB;
+	float: left;
+	width: 270px;
+    margin:12px 0px 0 12px;
+}
+.licenseDetailsInnerWrap
+{
+    background-color:#e8e8e8;
+    padding-left: 12px;
+    padding-top: 10px;
+    min-height:242px;
+    height: 242px;
+    overflow-y: auto;    
+}
+.savedUsageHeader, .licenseDetailsHeader
+{
+    margin:6px 0 12px 0;
+}
+
+.licenseDetailsBlank
+{
+    color:#cc0000;
+}
+.savedUsageHeader .roundedHeaders, .licenseDetailsHeader .roundedHeaders
+{
+    margin-top:6px;
+    font-size:14px;
+    color:#666666;
+}
+
+.RMPricingInnerWrap, .RMPricedByAEInnerWrap, .RMPricedAlreadyInnerWrap
+{
+    width:310px;
+    min-height:228px;
+    padding-top:12px;
+    background-color:#e8e8e8;
+    vertical-align:top;
+}
+.CreditCardExpiryError{
+    padding:0;
+    background: url("../../Images/iconError.png") 12px 6px no-repeat;
+    font-weight:normal;
+    color:#1a1a1a;
+}
+.CreditCardExpiryError span
+{
+    display:block;
+    padding:6px 6px 6px 44px;
+}
+.SelectSavedUsage, .CreateNewUsage, .StartDate
+{
+    background-color:#FFFFFF;
+    width:286px;
+    margin:6px 12px;
+
+}
+.StartDate
+{
+    width:266px !important;
+}
+#StartDatePriced
+{
+    display:none;
+}
+.RMPricedByAEInnerWrap, .RMPricedAlreadyInnerWrap
+{
+    display:none;
+}
+.RMPricedByAEInnerWrap span, .RMPricedAlreadyInnerWrap span
+{
+    display:block;
+    margin:12px;
+}
+.RMPricingError
+{
+    padding:0;
+    display:none;
+    background: url("../../Images/iconError.png") 12px 6px no-repeat;
+    font-weight:normal;
+    color:#1a1a1a;
+}
+.RMPricingError span
+{
+    display:block;
+    padding:6px 6px 6px 44px;
+}
+.WarningMode
+{
+    padding:6px 12px;
+    background-color:#FFFFCE;
+    color:#1a1a1a;
+    display:none;
+}
+
+.StartOver
+{
+    text-align:right;
+    margin:-9px 12px 0 0;
+    padding:0;
+}
+.padWhiteBoxes
+{
+    padding:10px;
+} 
+.learnMoreLink
+{
+    margin-left:12px;
+}
+.Or
+{
+    display:block;
+    background-image:url(../Images/dividerHorizontal.gif);
+    background-repeat:repeat-x;
+    background-position: 0px 7px;
+    width: 286px;
+    margin:0 12px;
+    height:19px;
+    text-align:center;    
+}
+.Or span
+{
+    background-color:#e8e8e8;
+    font-weight:bold;
+    padding:0 10px;
+    font-size:18px;
+}
+/* $$$ ====[ Image checkboxes ]*/
+.purchaseCheckboxes
+{
+    background-color:#dbdbdb;
+    margin-bottom:2px;
+    padding:10px 12px 0;
+}        
+
+.purchaseCheckboxes .bold
+{
+    background-color:#f8f8f8;
+    padding:10px;
+}
+
+.purchaseCheckboxes div.imageCheckbox 
+{
+    float:left;
+    left:10px;
+    position:relative;
+    width:20px;
+}
+
+.checkThisText
+{
+    font-size:11px;
+    color:#555555;
+    line-height:16px;
+    position:relative;
+    padding:3px 10px 0px 0px !important;
+    margin-left:26px;
+    top:-13px;
+    *top:-28px;
+}
+
+
+/* $$$ ====[ Modal Title bar ]*/
+
+.TitleBar
+{
+    background-color:#dbdbdb !important;
+    padding:4px 12px 0 10px;
+    height:26px;
+}
+
+.TitleBar .ExpressCheckoutImageTitle h1
+{
+    color:#1a1a1a;
+    font-size:18px;
+    font-weight:bolder;
+    float:left;
+    margin:0 0 0 0;
+}
+.TitleBar .ExpressCheckoutImageTitle h1 .SubTitle
+{
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:normal;
+    margin-left:12px;
+}
+.TitleBar .CloseButton, .TitleBar .ChatDiv
+{
+    float:right; 
+    border:0;
+}
+.ChatIconImg
+{
+    display:block;
+    float:left;
+    width:13px;
+    height:11px !important;
+    text-decoration:none;
+    background: url(/Images/ICN-chat.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0 !important;
+    background-position: 0 1px;
+    text-indent:-5000px;
+}
+.ChatIconImg:hover, .ChatIconImg:active
+{
+    background-position:0 -11px !important;
+    border-bottom:0;
+}
+.ChatIconText
+{
+	display:block;
+	margin: 2px 2px 0 0;
+    float:left;
+    text-decoration:none !important;
+}
+.ChatIconText:hover, .ChatIconText:active 
+{
+	margin-top: 2px;
+    float:left;
+    border-bottom:0;
+}
+.TitleBar .CloseButton
+{
+    margin: 0 0 0 20px !important;
+}
+.noUnderline .disabled
+{
+	cursor:default;
+}
+.noUnderline .enabled 
+{
+	cursor:pointer;
+}
+.noUnderline:hover, .noUnderline *:hover
+{
+    text-decoration:none;
+    border:0 !important;
+}
+
+
+
+
+
+/* $$$ ====[ Image information and thumbnail ]*/
+
+#restrictionsPopupWindow .FormButtons
+{
+    margin-top:0;
+}
+
+.ImageDetails
+{
+    color:#1a1a1a;
+    width:28%;
+    margin-bottom:6px;
+	float: left;
+}
+#restrictionsPopupWindow .ImageDetailsRestricitons 
+{
+    /*override the above for restrictions modal*/
+    width:10% !important;
+	float: right;
+	margin-right:38px;
+}
+.ImageDetails .Thumbnail
+{
+	width:90px;
+	height:90px;
+    min-height: 90px;
+    line-height:90px;
+    text-align:center;
+    float: left;
+	background-color:#333333;
+	display: table;  
+	overflow: hidden;
+}
+.ImageDetails .Thumbnail .Inner
+{
+     display: table-cell; 
+     vertical-align: middle;
+
+}
+.ImageDetails .Thumbnail img
+{
+     vertical-align:middle;
+}
+.ImageDetails .ImageInfo
+{
+	margin-left: 5px;
+	float: left;
+}
+.ImageDetails .ImageInfo .ImageTitle
+{
+	font-weight: bold;
+	font-size: 14px;
+	text-transform:uppercase;
+	margin-bottom: 3px;
+}
+.ImageDetails .ImageInfo .ImageId
+{
+	margin-bottom: 3px;
+}
+
+/* $$$ ====[ DIMMERS  ]*/
+#orderProcessingIndicator, #imageCompressionIndicator
+{
+	display:none;
+	left: 0;
+	background-color:transparent;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top:180px;
+    bottom:0px;
+    height:100%;
+    z-index:1;
+    width: 100%;
+}
+#orderProcessingIndicator .mask
+{
+	left: 0;
+    opacity: 0.7;
+    filter:alpha(opacity = 70);
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top:0px;
+    height:100%;
+    bottom:-1000px;
+    z-index:1;
+    width: 100%;
+    background-color: black;
+}
+#orderProcessingContents, #imageCompressionContents
+{
+    display:none;
+	background:transparent;
+    color: #1A1A1A;
+    margin-top: 300px;
+    padding: 10px 5px 5px;
+    text-align: center;
+    width: 100%;
+    min-width: 1008px;
+    position: fixed;
+    top:15%;left:10%;
+    width: auto !important;
+    z-index: 505;
+}
+.selectUse .mask,
+.purchaseInfo .mask
+{
+	left: 0px;
+	height: 50%;
+	width: 100%;
+    position: absolute;
+    opacity: 0.01;
+    filter:alpha(opacity = 1);
+    overflow: hidden;
+    z-index:1;
+    background-color: white;
+}
+.purchaseButtonMask
+{
+	left: 110px;
+	height:25px;
+	width:172px;
+    opacity: 0.01;
+    filter:alpha(opacity = 1);
+    overflow: hidden;
+    position: absolute;
+    z-index:2;
+    background-color: white;
+}
+
+#orderConfirmationMsgDiv, #imageCompressionCancelDiv
+{
+    color: #4385C0;
+    margin-top:-15px;
+    margin-bottom:31px;
+    display:none;
+}
+
+#orderProcessingContents h1, #imageCompressionContents h1
+{
+    font-size:20px;
+    color: #4385C0;
+    height: 50px;
+    line-height: 36px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+#orderProcessingContents h1 span, #imageCompressionContents h1 span
+{
+    font-size:12px;
+    /* REBRANDING */
+    color: White;
+}
+
+/* $$$ ====[ License Details block (RM) ]*/
+.QuestionText
+{
+    display:block;
+    margin:0;
+    line-height:16px;
+    font-weight:bold !important;
+}
+.AnswerText
+{
+    display:block;
+    margin:0;
+    line-height:16px;
+}
+
+/* $$$ ====[ You are about to purchase notification / page Subtitle ]*/
+
+.PageDetails
+{
+    width:45%;
+    height:90px;
+    display:block;
+    float:left;
+    color:#1a1a1a;
+    line-height:18px;
+}
+.PageDetails h1
+{
+    font-size:16px;
+    font-weight:bolder;
+    margin-bottom:18px;
+}
+
+
+
+/* $$$ ====[ Fonts and Inner Layouts ]*/
+
+.projectInfo
+{
+    background-color:#797979;
+    margin-bottom:11px;
+}
+.purchaseInfo, .selectUse
+{
+	display:block;
+	background-color:#797979;
+    margin-bottom:11px;
+}
+.purchaseInfo .creditCardValidationCodeBox
+{   
+    padding:0 6px;
+    width:250px;
+    height:30px;
+    display:table-cell;
+    vertical-align:middle;
+}
+.promoCodeBox
+{
+    
+    margin-left:-12px;
+    padding:4px 0;
+    width:280px;
+}
+.promoCodeBox .pricingValues
+{
+    width:40%;
+}
+.promoCodeBox .promotionCode{
+    margin:0 8px
+}
+
+#promoMask
+{
+    right: 50px;
+	height: 25px;
+	width: 70px;
+	margin-top:-25px;
+    opacity: 1;
+    filter:alpha(opacity = 1);
+    overflow: hidden;
+    position: absolute;
+    z-index:3;
+    background-color: white; 
+}
+.selectUseInner
+{
+    margin:0 12px;
+}
+.PricingBox
+{
+    margin:12px;
+    padding:0;
+    background-color:#e8e8e8;
+    text-align:center;
+    color:#1a1a1a;
+}
+.PricingBox .innerWrap
+{
+    margin:0 12px;
+    padding:0;
+    text-align:left;
+}
+
+.PricingBox .darkGrayBold
+{
+    display:block;
+    font-weight:bolder;
+    margin-bottom:12px;
+}
+
+.imageCheckbox label
+{
+    position:relative;
+    top:-4px;
+    color:#555555;
+    line-height:16px !important;
+
+}
+.PriceIndicator .Price, .PriceIndicator .PriceCurrency
+{
+    font-size:18px;
+}
+.pricingLabels
+{
+    float:left;
+    text-align:right;
+    width:35%;
+}
+.pricingValues
+{
+    float:left;
+    text-align:right;
+    width:65%;
+}
+.pricingValuesPromo
+{
+    float:left;
+    text-align:left;
+    padding:0;
+    width:56%;
+}
+
+.totalsWrap
+{
+    padding:8px 12px 0px 12px;
+    background-color:#f6f6f6;
+    width:100%;
+    margin-left:-12px;
+    display:block;
+    height:20px;
+}
+.totalLabel
+{
+    font-weight:bolder;
+}
+.purchaseButton
+{
+    width:100%;
+    text-align:right;
+}
+.projectWrap
+{
+    margin:6px 12px 12px 12px;
+    background-color:#e8e8e8;
+}
+.projectWrap table
+{
+    margin:10px 0px 10px 10px;
+}
+.projectWrap table td
+{
+    vertical-align:bottom;
+    padding: 0 20px 0 0;
+}
+.roundedHeaders
+{
+    font-size:16px;
+    color:White;
+    margin:12px 12px 6px 12px;
+
+}
+.roundedHeaders strong
+{
+    font-weight:bolder;
+}
+td.projectFieldLabel
+{
+    color:Black;
+    font-weight:bold;
+}
+td.projectFields
+{
+    padding-top:8px !important;
+}
+.smallClear
+{
+    height:6px !important;
+}
+.extraSmallClear
+{
+    height:1px !important;
+}
+.infoIcon
+{
+    height:14px;
+    width:14px;
+    background: url(/Images/info.gif) no-repeat 0 0;
+}
+.floatBottomL
+{
+   top:0px;
+   left:6px;
+   width:618px;
+   margin-bottom:0;
+   float:left;
+}
+.floatBottomR
+{
+   width:220px;
+   top:0;
+   margin-bottom:0;
+   text-align:right;
+   float:right;
+   margin-right:11px;
+}
+.TrusteGraphic
+{
+    display:inline;
+}
+.secureLink
+{
+    display:inline;
+    margin:20px 0px 0 12px;
+}
+.viewRestrictionsWrap
+{
+    color:#1a1a1a;
+    margin:0 12px 0px 12px;
+    float:left;
+}
+
+#restrictionsPopupWindow .ModalPopupPanelDialog
+{
+     float:left;                 
+}
+
+/* Bug no. 17414 */
+#restrictionsPopupWindow .ModalPopupPanelDialog .ModalPopupContent 
+{                                                                 
+    height:109px;
+    overflow-y:auto;
+    width:528px;
+}
+
+.pricesVaryWrap
+{
+    color:#1a1a1a;
+    float:right;
+    margin:2px 12px 0px 12px;
+}
+.fileSizeDisclaimer
+{
+    clear:both;
+    margin:0px 12px 5px 12px;
+    padding-top:6px;
+    line-height:18px;
+    color:#1a1a1a;
+}
+.fileSizeDisclaimer strong
+{
+    font-weight:bolder;
+}
+.dottedDivider
+{	
+	background-image:url(../Images/divider.gif);
+	background-repeat:repeat-x;
+	float:right;
+	width:100%;
+	clear:both;
+	height:1px;
+	padding-bottom:10px;
+}
+.agessaMessage
+{
+   margin-top:13px;
+}
+.agessaMessage *
+{
+    color:#cc0000;   
+}
+/* PRICE BY AE EXPIRED MODAL */
+.dataContainer
+{
+    padding-left:8px;
+    padding-right:8px;
+    background-color:#e8e8e8; 
+    color:#1a1a1a;   
+}
+.titleWrapper
+{
+    padding-left:8px;
+    background-color:#dbdbdb;
+    height:26px;    
+}
+
+.expiredCloseButton
+{
+    float:right;
+    margin:0px 0px 0px 0px;
+    vertical-align:top;
+    cursor:pointer; 
+    position:absolute; 
+    right:7px;   
+    top:0px;
+}
+.expiredStrongBody
+{
+    margin-top:26px;    
+}
+.expiredMainBody
+{
+    margin-top:26px;
+}
+.expiredGlass
+{
+    float:right;
+    margin-top:26px;
+}
+
+
+
+ /* CREDIT CARD modal layer */
+
+ #AddNewCreditCardWindow .ModalPopupPanelDialog .ModalPopupContent,
+ #UseSavedCreditCard .ModalPopupPanelDialog .ModalPopupContent
+{
+    display: block;
+    background-color: #dbdbdb !important;
+    width: 97%;
+    line-height: 18px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+ #AddNewCreditCardWindow .ModalPopupPanelDialog .ModalPopupContent table,
+ #UseSavedCreditCard .ModalPopupPanelDialog .ModalPopupContent table
+{
+    background-color:transparent !important;
+    margin-top:-11px;
+
+}
+ #AddNewCreditCardWindow .ModalPopupPanelDialog .ModalPopupContent table td,
+ #UseSavedCreditCard .ModalPopupPanelDialog .ModalPopupContent table td
+ {
+     padding-top:6px;
+     min-height:25px;
+ }
+#AddNewCreditCardWindow .ButtonRow350,
+#UseSavedCreditCard .ButtonRow350
+{
+    padding-top:6px;
+}
+
+#downloadProgress
+{
+	background-color: Transparent;
+	/* REBRANDING
+	color: #dd602b;
+	*/
+	color: #4088D1;
+	text-align: center;	
+}
+
+#downloadProgress .standBy, .standBy1
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#downloadProgress .downloadMessage, .standBy2,
+#downloadProgress .longWaitMessage, .standBy3
+{
+    /* REBRANDING */
+    color: White;
+}
+
+#downloadProgress .downloadMessage, .standBy2
+{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#downloadProgress .longWaitMessage, .standBy3
+{
+	color: #d8d8d8;
+	font-size: 14px;
+	margin-top: 10px;
+
+	overflow: visible;
+}
+
+/* =============== Calendar Control ===============*/
+.aeCalendar .ajax__calendar_container 
+{
+    border:1px solid #646464;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.ICN-calendar
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-top: 3px;
+	float:left;
+}
+.startDateEditMode
+{
+    float:left;
+}
+.ajax__calendar_container {padding:4px;position:absolute;cursor:default;width:170px;font-size:11px;text-align:center;font-family:tahoma,verdana,helvetica;}
+.ajax__calendar_body {height:139px;width:170px;position:relative;overflow:hidden;margin:auto;}
+.ajax__calendar_days, .ajax__calendar_months, .ajax__calendar_years {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:auto;}
+.ajax__calendar_container TABLE {font-size:11px;}
+.ajax__calendar_header {height:20px;width:100%;}
+.ajax__calendar_prev {cursor:pointer;width:15px;height:15px;float:left;background-repeat:no-repeat;background-position:50% 50%;background-image:url(<%=WebResource("AjaxControlToolkit.Calendar.arrow-left.gif")%>);}
+.ajax__calendar_next {cursor:pointer;width:15px;height:15px;float:right;background-repeat:no-repeat;background-position:50% 50%;background-image:url(<%=WebResource("AjaxControlToolkit.Calendar.arrow-right.gif")%>);}
+.ajax__calendar_title {cursor:pointer;font-weight:bold;}
+.ajax__calendar_footer {height:15px;}
+.ajax__calendar_today {cursor:pointer;padding-top:3px;}
+.ajax__calendar_dayname {height:17px;width:17px;text-align:right;padding:0 2px;}
+.ajax__calendar_day {height:17px;width:18px;text-align:right;padding:0 2px;cursor:pointer;}
+.ajax__calendar_month {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.ajax__calendar_year {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+
+.ajax__calendar .ajax__calendar_container {border:1px solid #646464;background-color:#ffffff;color:#000000;}
+.ajax__calendar .ajax__calendar_footer {border-top:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_dayname {border-bottom:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_day {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_month {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_year {border:1px solid #ffffff;}
+
+.ajax__calendar .ajax__calendar_active .ajax__calendar_day {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_active .ajax__calendar_month {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_active .ajax__calendar_year {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+
+.ajax__calendar .ajax__calendar_other .ajax__calendar_day {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+.ajax__calendar .ajax__calendar_other .ajax__calendar_year {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_day {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_month {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_year {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_title {color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_today {color:#0066cc;}

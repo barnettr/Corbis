@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Estrellas de la cartelera de verano</Title>
+		<Image Src="xml/Outline/Images/main.jpg" Alt="OUT18640068| Premium DP| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium DP| © Don Flood/Corbis Outline">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>
+				Dan vida a capitanes, delincuentes y aprendices de mago. Hacen frente a dinosaurios, secuestradores y máquinas con sentimientos. Las estrellas posan para promocionar los estrenos más taquilleros del verano.
+				</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+  <FeaturedItem>
+    <Title>Jill Greenberg </Title>
+    <Image Src="xml/Outline/Images/sub.1.jpg" Alt="OUT21718659| Premium DP| © Jill Greenberg/Corbis Outline" Attribution="OUT21718659| Premium Dp| © Jill Greenberg/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Las fotografías de Jill Greenberg son famosas por la fuerza de su luminosidad y claridad.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Andrew McLeod</Title>
+    <Image Src="xml/Outline/Images/sub.2.jpg" Alt="OUT20804934| Premium DP| © Andrew McLeod/Corbis Outline" Attribution=" OUT20804934| Premium DP| © Andrew McLeod/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Entre los clientes de Andrew McLeod se encuentran Seventeen y Sony BMG. Su especialidad es la fotografía del mundo de la moda y el retrato de famosos.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Lo mejor de Outline</Title>
+    <Image Src="xml/Outline/Images/sub.3.jpg" Alt="OUT21975609| Premium DP| © Anthony Mandler/Corbis Outline" Attribution="OUT21975609| Premium DP| © Anthony Mandler/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Retratos originales de las personalidades más emblemáticas del mundo tomados por los fotógrafos más demandados del sector.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+    </Links>
+  </FeaturedItem>
+	<FeaturedItem IsHero="true">
+		<Title>¿Todavía no eres miembro de Outline?</Title>
+		<Copy>
+			<![CDATA[
+				<p>
+					Las imágenes de Outline están disponibles en exclusiva para los miembros de Outline. <a href="http://pro.corbis.com/creative/celebrity/outlineform/orderform.asp?lcd=es-es" title="Haz clic para ver el formulario de inscripción." rel="720_600_popup" localize="true">Haz clic aquí</a> para ponerte en contacto con nosotros acerca de tu suscripción.
+				</p>
+			]]>
+		</Copy>
+		<Links />
+	</FeaturedItem>
+</FeaturedItems>

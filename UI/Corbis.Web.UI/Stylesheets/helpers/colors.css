@@ -1,0 +1,80 @@
+/**************************
+ *  LICENSE COLORS
+ **************************/
+/* REBRANDING
+.RM_blue, .RM_color { color: #206aff; }
+.RF_green, .RF_color { color: #298c43; }
+.RS_gold, .RS_color { color: #e0861a; }
+
+.RM_background { background-color: #206aff; color: white; }
+.RF_background { background-color: #298c43; color: white; }
+.RS_background { background-color: #e0861a; color: white; }
+*/
+
+.RM_blue, .RM_color { color: #646464; }
+.RF_green, .RF_color { color: #646464; }
+.RS_gold, .RS_color { color: #646464; }
+
+.RM_background { background-color: #646464; color: white; }
+.RF_background { background-color: #646464; color: white; }
+.RS_background { background-color: #646464; color: white; }
+
+
+
+/**************************
+ *  MESSAGING COLORS
+ **************************/ 
+
+.Error
+{
+	color: #c00;
+	font-weight: bold;
+}
+
+.Error div
+{
+	background: #ffffcd url("../../Images/iconError.png") 10px 7px no-repeat;
+	color: #1a1a1a !important;
+	font-weight: bold;
+}
+
+.Error, .ErrorField, .ErrorRow
+{
+	background-color: #ffffcd !important;
+}
+
+.ErrorHighlight
+{
+    background-color: #ffffcd !important;
+	color: #1a1a1a !important;
+	font-weight: bold;
+}
+
+.Informative.Error
+{
+	background: #ffffcd url("../../Images/alertYellow.gif") 12px 14px no-repeat;
+    color:#1a1a1a;
+    font-weight:normal;
+}
+     .Informative.Error h5
+    {
+        font-weight:bold;    
+    }
+
+.Information
+{
+	color: #2492a5;
+	font-weight: bold;
+}
+
+.Success
+{
+	color: #060;
+	font-weight: bold;
+}
+
+/**************************
+ *  GENERAL COLORS
+ **************************/
+
+.gray { color: #808080 !important; }

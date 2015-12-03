@@ -1,0 +1,98 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73D41C91-8017-4195-8A79-E1DE50E2F40B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corbis.Web.UI.Presenters.SignIn</RootNamespace>
+    <AssemblyName>Corbis.Web.UI.Presenters.SignIn</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Corbis.Common.ServiceFactory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Common\Corbis.Common.ServiceFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Framework.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Corbis.Framework\Binaries\Corbis.Framework.Logging\Corbis.Framework.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Membership.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Membership\Corbis.Membership.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Membership.ServiceAgents, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Membership\Corbis.Membership.ServiceAgents.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\Interfaces\ISignInInformationRequest.cs" />
+    <Compile Include="src\Interfaces\ISignInView.cs" />
+    <Compile Include="src\SignInInformationRequestPresenter.cs" />
+    <Compile Include="src\SignInPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Utilities\Corbis.Web.Authentication\Corbis.Web.Authentication.csproj">
+      <Project>{9B3304C6-5E69-452A-9F1F-D7CCF3EE788E}</Project>
+      <Name>Corbis.Web.Authentication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utilities\Corbis.Web.Entities\Corbis.Web.Entities.csproj">
+      <Project>{E237F5BC-C366-49F4-BB7D-F97E08552414}</Project>
+      <Name>Corbis.Web.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utilities\Corbis.Web.Utilities\Corbis.Web.Utilities.csproj">
+      <Project>{C30B1114-AE29-4C53-8951-99D47F37EA01}</Project>
+      <Name>Corbis.Web.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Corbis.Web.UI.Presenters\Corbis.Web.UI.Presenters.csproj">
+      <Project>{3F264FFC-955D-4471-8203-1DBD11720F65}</Project>
+      <Name>Corbis.Web.UI.Presenters</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

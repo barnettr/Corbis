@@ -1,0 +1,46 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+this is for English-UK, not US
+*/
+
+a.AddToCart
+{
+	/*background-image: url(../images/icon-cart-up.gif);*/
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 0px !important;
+	height:20px;
+	width: 23px;
+}
+
+a.AddToCart:hover
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -20px !important;
+	height: 20px;
+}
+
+a.AddToCartSelected
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -40px !important;
+	width: 23px;
+	cursor: default;
+}
+
+a.ExpressCheckout
+{
+	/*background-image: url(../images/icon-express-up.gif);*/
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 1px !important;
+	width: 30px;
+}
+
+a.ExpressCheckout:hover
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -19px !important;
+}
+
+a.ExpressCheckoutSelected
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -40px !important;
+	width: 30px;
+	cursor: default;
+}
+

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem>
+		<Title>Septembre</Title>
+		<Image Src="xml/Hotline/Images/main.jpg" Alt="42-18768552| Standard DG| © WWD/Condé Nast/Corbis" Title="Gwyneth Paltrow" ImageID="42-18768552" Attribution="| Standard DG| © WWD/Condé Nast/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="Anniversaires" Title="Voir les images"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="Anniversaires" Title="Voir les images"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288732" PreText="01" Text="Festival de Deauville" Title="Voir les images"  />
+      
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288791" PreText="01" Text="MTV Video Music Awards" Title="Voir les images"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288833" PreText="10" Text="Début du Festival de Toronto" Title="Voir les images"  />
+
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288925" PreText="11" Text="Il y a 8 ans : les États-Unis sont sauvagement frappés par l'acte terroriste le plus terrible de leur histoire." Title="Voir les images"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288792" PreText="11" Text="Mercedes-Benz Fashion Week de New York - printemps/été 2010" Title="Voir les images"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288748" PreText="12" Text="Festival de Venise - Lion d'or" Title="Voir les images"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288749" PreText="18" Text="Fashion Week de Londres - printemps/été 2010" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288747" PreText="19" Text="Oktoberfest - Munich" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288827" PreText="20" Text="Primetime Emmy Awards 2009" Title="Voir les images"  />
+		</Links>
+   </FeaturedItem>
+  <FeaturedItem>
+    <Title>Août</Title>
+    <Image Src="xml/Hotline/Images/second.jpg" Alt="42-18979743| Premium DG| © Elliott Landy/Corbis" Title="Bob Dylan" ImageID="42-18979743 " Attribution="| Premium DG| © Elliott Landy/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="Anniversaires" Title="Voir les images"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="Anniversaires" Title="Voir les images"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288641" PreText="07" Text="Lollapalooza 2009" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288643" PreText="07" Text="Fringe Festival d'Édimbourg 2009" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288642" PreText="09" Text="Teen Choice Awards" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288684" PreText="13" Text="Championnat de la PGA" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288675" PreText="15" Text="Premier festival de Woodstock il y a 40 ans" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1233542" PreText="17" Text="Il y a 1 an, Michael Phelps remporte 8 médailles d'or aux JO" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288660" PreText="22" Text="Festival V Festival" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288677" PreText="23" Text="Formule 1 : Grand Prix d'Europe" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288661" PreText="25" Text="Truman Capote meurt il y a 25 ans" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288635" PreText="26" Text="La Tomatina (Festival)" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230133" PreText="31" Text="US Open" Title="Voir les images"  />
+      
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Juillet</Title>
+    <Image Src="xml/Hotline/Images/third.jpg" Alt="42-16014622 | Standard DG| © Oliver Hoslet/epa/Corbis" Title="Lance Armstrong remporte pour la septième fois le Tour de France" ImageID="42-16014622" Attribution="| Standard DG| © Oliver Hoslet/epa/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="Anniversaires" Title="Voir les images"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="Anniversaires" Title="Voir les images"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288468" PreText="02" Text="Festival de Roskilde 2009" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288467" PreText="03" Text="Il y a 40 ans : mort de Brian Jones" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230891" PreText="04" Text="Tour de France" Title="Voir les images"  />
+   
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288492" PreText="06" Text="Haute Couture à Paris - Automne/Hiver 2009/10" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230892" PreText="07" Text="Ligue majeure de base-ball - « All Star Game »" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288410" PreText="14" Text="Fête nationale française" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288474" PreText="17" Text="Il y a 13 ans : explosion d'un avion de la TWA au-dessus de Long Island" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288482" PreText="17" Text="Il y a 50 ans : mort de Billie Holiday" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288495" PreText="17" Text="ESPY Awards" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288472" PreText="20" Text="Il y a 40 ans : premier homme sur la Lune" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288484" PreText="24" Text="Championnats internationaux de cheerleading" Title="Voir les images"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288409" PreText="28" Text="Naissance de Jacqueline Onassis, il y a 80 ans" Title="Voir les images"  />
+    </Links>
+  </FeaturedItem>
+</FeaturedItems>

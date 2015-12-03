@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>当代的工作间</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Premium RF| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Premium RF| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>真正的企业家会在任何地方工作，在平常 ── 及不平常 ── 的地方。在会议室开会，在咖啡店处理文件，在机场等候飞机时进行思潮冲击活动。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy：充满艺术美感的免版税摄影</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Standard RF| © Image Source/Corbis" ImageID="42-21218191" Attribution="| Standard RF| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>捕捉当代生活方式及现代人的关注点，Fancy 为免版税摄影带来新标准。着重灯光、地点，以及拍摄对象，这是个质量并重的图片库。</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

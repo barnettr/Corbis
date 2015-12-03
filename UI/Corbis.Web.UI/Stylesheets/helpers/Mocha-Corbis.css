@@ -1,0 +1,31 @@
+/*
+Amendments to mocha.css to ensure corrent rendering without messing with mocha's default code.
+*/
+
+/* these 3 styles override a float issue in Safari */
+#securityQuestionsModalWindow_content .ModalTitleBar,
+#shippingDeliveryModalWindow_content .ModalTitleBar,
+#viewRestrictionsTemplateWindow .ModalTitleBar
+{
+        padding-bottom:10px;
+        position:relative;
+	    text-align:left;
+}
+
+    #securityQuestionsModalWindow_content .Title,
+    #shippingDeliveryModalWindow_content .Title,
+    #viewRestrictionsTemplateWindow .Title
+    {
+        float:none !important;
+        width:100%;
+     }
+  
+    #securityQuestionsModalWindow_content .ModalTitleBar .Close,
+    #shippingDeliveryModalWindow_content .ModalTitleBar .Close,
+    #viewRestrictionsTemplateWindow .Close
+    {
+        position:absolute; 
+        right:0;
+    }
+
+

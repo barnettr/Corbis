@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Rechercher par type</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288755" Text="Manga" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288754" Text="Dessin animé " Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288756" Text="Conceptuel" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288758" Text="Extrême" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288759" Text="Graphique" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288760" Text="Dessin au trait" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288762" Text="Pictural" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288763" Text="BD rétro" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288764" Text="Stylisé" Title="Voir les images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288765" Text="Fantaisie" Title="Voir les images"  />
+  </Links>
+</ModuleList>

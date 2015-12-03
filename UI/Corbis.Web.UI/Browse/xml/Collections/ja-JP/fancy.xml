@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Collection>
+	<Title>Fancy：アートなロイヤリティーフリー画像</Title>
+	<Copy>
+		<![CDATA[
+		<p>
+		現代のライフスタイルやモダンな関心事をしっかり捉えた Fancy は、ハイレベルのロイヤリティーフリー画像のブランド。照明、ロケ地、モデルの細部にまでこだわった写真は、スタイリッシュで本物の仕上がり。 	
+		</p>
+		]]>
+	</Copy>
+	<!--<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>
+	<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>-->
+	
+		<Slideshow Url="xml/Collections/Flash/collections.swf" Width="600" Height="450" Flashvars="xmlfile:'xml/Collections/ja-jp/fancy/gallery.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes=""><NoFlashCopy>
+			<![CDATA[
+			<p>
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Adobe Flash player をダウンロード" localize="true"  />
+				</a>
+			</p>
+			]]>		
+		</NoFlashCopy>
+	</Slideshow>
+</Collection>

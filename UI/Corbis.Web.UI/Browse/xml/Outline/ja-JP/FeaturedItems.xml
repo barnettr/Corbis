@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>今夏、話題の映画</Title>
+		<Image Src="xml/Outline/Images/main.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>
+				主役の顔ぶれは、キャプテンに、犯罪者に、魔法使い。対する敵は、恐竜に、ハイジャック犯に、感情を持った機械。この夏の話題作に先駆けて、スターが勢ぞろい。
+				</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+  <FeaturedItem>
+    <Title>ジル・グリーンバーグ特集</Title>
+    <Image Src="xml/Outline/Images/sub.1.jpg" Alt="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" Attribution="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>ジル・グリーンバーグの写真は、その独特の照明の使い方と、人を惹きつけて離さない透明感で知られています。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="スライドショーを見る" Title="スライドショーを見る"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>アンドリュー・マクロードの紹介</Title>
+    <Image Src="xml/Outline/Images/sub.2.jpg" Alt="OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" Attribution=" OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>SeventeenやSony BMGに代表されるクライアントを持つアンドリュー・マクロードは、ファッション写真とセレブ写真の専門家。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="スライドショーを見る" Title="スライドショーを見る"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Outline からの選り抜き画像</Title>
+    <Image Src="xml/Outline/Images/sub.3.jpg" Alt="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" Attribution="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>コービスだけのオリジナルポートレート写真。業界一のフォトグラファーの手による、世界でもっとも魅力的なセレブの写真。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="スライドショーを見る" Title="スライドショーを見る"  />
+    </Links>
+  </FeaturedItem>
+	<FeaturedItem IsHero="true">
+		<Title>Outlineのメンバー登録はお済みですか？</Title>
+		<Copy>
+			<![CDATA[
+				<p>
+					コービス Outlineの画像をご覧いただくには、まずOutlineのメンバー登録をお願いします。<a href="http://pro.corbis.com/creative/celebrity/outlineform/orderform.asp?lcd=ja-jp" title="クリックしてメンバー登録フォームをご覧ください。メンバーシップに関するお問い合わせは、" rel="720_600_popup" localize="true">ここをクリック</a>してください。
+				</p>
+			]]>
+		</Copy>
+		<Links />
+	</FeaturedItem>
+</FeaturedItems>

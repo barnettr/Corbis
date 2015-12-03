@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Nowoczesne miejsce pracy</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Ekskluzywne RF| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Ekskluzywne RF| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Człowiek interesu miejsca pracy się nie boi. Spotkania prowadzi się w salach konferencyjnych, robotę papierkową załatwia się między kawą a ciastkiem na kawiarnianym stoliku, a najlepsze biznes plany powstają po krzepiącej drzemce w fotelu samolotu.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy: Artystyczna fotografia Royalty-Free</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Standardowe RF| © Image Source/Corbis" ImageID="42-21218191" Attribution="| Standardowe RF| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Fancy to nowy standard w tematyce zdjęć Royalty-Free. A do tego dbałość o szczegóły: światło, miejsce, model. Wszystko wyjątkowe.</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

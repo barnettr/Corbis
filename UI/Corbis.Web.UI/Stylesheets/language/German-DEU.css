@@ -1,0 +1,121 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+
+a.AddToCart
+{
+	/*background-image: url(../images/icon-cart-up.gif);*/
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 0px !important;
+	height:20px;
+	width: 23px;
+	z-index:10000;
+}
+
+a.AddToCart:hover
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -20px !important;
+	height: 20px;
+	z-index:10000;
+}
+
+a.AddToCartSelected
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -40px !important;
+	width: 23px;
+	cursor: default;
+}
+
+a.ExpressCheckout
+{
+	/*background-image: url(../images/icon-express-up.gif);*/
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 1px !important;
+	width: 30px;
+}
+
+a.ExpressCheckout:hover
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -19px !important;
+}
+
+a.ExpressCheckoutSelected
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -40px !important;
+	width: 30px;
+	cursor: default;
+}
+
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:465px !important;
+}
+
+
+.SBT_filters img {
+    background-image:url(/Images/de-DE/buddyTabFilters_off.gif);
+    height:93px;
+}
+.SBT_filters.ON img,
+.SBT_filters.ON img:hover
+{
+    background-image:url(/Images/de-DE/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/de-DE/buddyTabFilters_hover.gif);
+}
+
+.SBT_lightboxes img,
+.SBT_Mylightboxes img  
+{
+	background-image:url(/Images/de-DE/buddyTabLightbox_off.gif);
+	height:109px;
+}
+.SBT_lightboxes.ON img,
+.SBT_lightboxes.ON img:hover,
+.SBT_Mylightboxes.ON img,
+.SBT_Mylightboxes.ON img:hover
+{
+	background-image:url(/Images/de-DE/buddyTabLightbox_on.gif)  !important;
+}                                  
+.SBT_lightboxes img:hover, 
+.SBT_Mylightboxes img:hover
+{
+	background-image:url(/Images/de-DE/buddyTabLightbox_hover.gif);
+}
+.SBT_quickpic img {
+    background-image:url(/Images/de-DE/buddyTabQuickPic1.gif);
+    height:87px;
+}
+.SBT_quickpic.ON img,
+.SBT_quickpic.ON img:hover
+{
+    background-image:url(/Images/de-DE/buddyTabQuickPic3.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/de-DE/buddyTabQuickPic2.gif);
+}
+
+#transferLightbox .addMemberControls .addMemberInstruction 
+{
+    margin-top:-6px;
+    width:260px;           /* bug no. 17861 */
+}
+
+/* sort options in search */
+.searchResultsContent #sortOptionsMenuDiv
+{
+     width:250px !important;
+}
+
+/* sort options in order history */
+#orderHistory .IE7OrLess #sortOptionsMenuDiv
+{
+     width:235px !important;      
+}
+
+/* bug no. 17839 - height of 'you want to quit pricing?' dialog title*/
+#confirmCloseWindow .ModalPopupPanelDialog .ModalTitleBar 
+{
+height:38px !important;
+}

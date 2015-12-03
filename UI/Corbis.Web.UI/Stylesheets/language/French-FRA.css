@@ -1,0 +1,157 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+
+.optionsBlock a span   
+{  /* delivery icons in stage 2 of checkout */
+    position:relative;
+    top:-4px;
+ }
+
+a.AddToCart
+{
+	/*background-image: url(../images/icon-cart-up.gif);*/
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 0px !important;
+	height:20px;
+	width: 23px;
+}
+              
+a.AddToCart:hover
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -20px !important;
+	height: 20px;
+}
+
+a.AddToCartSelected
+{
+	background:transparent url(../../Images/icon-basket.gif) no-repeat 0 -40px !important;
+	width: 23px;
+	cursor: default;
+}
+
+a.ExpressCheckout
+{
+	/*background-image: url(../images/icon-express-up.gif);*/
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 1px !important;
+	width: 30px;
+}
+
+a.ExpressCheckout:hover
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -19px !important;
+}
+
+a.ExpressCheckoutSelected
+{
+	background:transparent url(../../Images/icon-express-basket.gif) no-repeat 0 -40px !important;
+	width: 30px;
+	cursor: default;
+}
+
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:465px !important;
+}
+
+.SBT_filters img {
+    background-image:url(/Images/fr-FR/buddyTabFilters_off.gif);
+    height:73px;
+}
+.SBT_filters.ON img {
+    background-image:url(/Images/fr-FR/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/fr-FR/buddyTabFilters_hover.gif);
+}
+
+.SBT_lightboxes img 
+{
+	background-image:url(/Images/fr-FR/buddyTabLightbox_off.gif);
+	height:94px;
+}
+.SBT_lightboxes.ON img 
+{
+	background-image:url(/Images/fr-FR/buddyTabLightbox_on.gif);
+}
+.SBT_lightboxes img:hover
+{
+	background-image:url(/Images/fr-FR/buddyTabLightbox_hover.gif);
+}
+
+.SBT_quickpic img {
+    background-image:url(/Images/fr-FR/buddyTabQuickPic1.gif);
+    height:150px;
+}
+.SBT_quickpic.ON img {
+    background-image:url(/Images/fr-FR/buddyTabQuickPic2.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/fr-FR/buddyTabQuickPic3.gif);
+}
+
+#transferLightbox .addMemberControls .addMemberInstruction 
+{
+    margin-top:-6px;
+    width:260px;           /* bug no. 17861 */
+}
+
+/* 
+Item Summary on left of checkout: 
+to render 'Modifier mon panier' link on right side of item summary title line 
+*/
+#editMyCartLink
+{
+width:40px;
+}
+
+/* sort options in search */
+.searchResultsContent #sortOptionsMenuDiv
+{
+     width:240px !important;
+}
+
+/* sort options in order history */
+ #orderHistory .IE7OrLess #sortOptionsMenuDiv
+{
+     width:265px !important;
+}
+
+
+/* Bug no. 15906 - signin 'forgot password' modal */
+.infoRequestFooter 
+{
+    height:50px !important;        
+}
+
+.cancelButton
+{
+   display:block !important;
+   float:right;
+}
+
+/* 
+cart button:
+IE cannot handle nowrap/width:auto because positioning is handled by floats, and floats in IE7 need a width in this situation in the polish version.  
+Should be rebuilt using a table if the fixed width becomes an issue/it's an issue in future languages.
+Bug 13866
+ */
+
+#cartCountDiv,
+.Checkout
+{
+width:115px;
+}
+
+/* bug no. 17839 - height of 'you want to quit pricing?' dialog title*/
+#confirmCloseWindow .ModalPopupPanelDialog .ModalTitleBar 
+{
+height:38px !important;
+}
+
+/* bug no. 17882 - button alignment in 'you want to quit checkout?' modal */
+#quitCheckout .ModalPopupContent .FormButtons .GlassButton 
+{
+margin-left:1px;
+}

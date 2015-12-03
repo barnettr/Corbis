@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © | Standard RM| © Illustration Works/Corbis for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © | Standard RM| © Illustration Works/Corbis for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/venki/large/" tnpath="xml/Slideshows/Images/venki/thumb/">
+		<img src="01_42-20093114.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20093114');&quot;&gt;42-20093114&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093114');" />
+    <img src="02_42-21473713.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21473713');&quot;&gt;42-21473713&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21473713');" />
+		<img src="03_42-20092858.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20092858');&quot;&gt;42-20092858&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20092858');" />
+		<img src="04_42-20835885.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20835885');&quot;&gt;42-20835885&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20835885');" />
+    <img src="05_42-21473731.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21473731');&quot;&gt;42-21473731&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21473731');" />
+		<img src="06_42-20093115.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20093115');&quot;&gt;42-20093115&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093115');" />
+    <img src="07_42-20093096.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20093096');&quot;&gt;42-20093096&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093096');" />
+		<img src="08_42-20093108.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20093108');&quot;&gt;42-20093108&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093108');" />
+    <img src="09_42-20835900.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20835900');&quot;&gt;42-20835900&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20835900');" />
+    <img src="10_42-20092845.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20092845');&quot;&gt;42-20092845&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20092845');" />
+    <img src="11_42-20093111.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20093111');&quot;&gt;42-20093111&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093111');" />
+		<img src="12_42-20092866.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20092866');&quot;&gt;42-20092866&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20092866');" />
+    <img src="13_42-20092864.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20092864');&quot;&gt;42-20092864&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20092864');" />
+		<img src="14_42-21473472.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21473472');&quot;&gt;42-21473472&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21473472');" />
+		<img src="15_42-21473514.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21473514');&quot;&gt;42-21473514&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21473514');" />
+    <img src="16_42-21473675.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21473675');&quot;&gt;42-21473675&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21473675');" />
+    <img src="17_42-21473679.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21473679');&quot;&gt;42-21473679&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21473679');" />
+		<img src="18_42-21473516.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21473516');&quot;&gt;42-21473516&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21473516');" />
+    <img src="19_42-20093110.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20093110');&quot;&gt;42-20093110&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093110');" />
+		<img src="20_42-20093113.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20093113');&quot;&gt;42-20093113&lt;/a&gt; &lt;p&gt; | Standard RM| © Illustration Works/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20093113');" />
+	</album>
+</gallery>

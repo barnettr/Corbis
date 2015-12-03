@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address1Label" xml:space="preserve">
+    <value>Street address 1</value>
+  </data>
+  <data name="Address2Label" xml:space="preserve">
+    <value>Street address 2</value>
+  </data>
+  <data name="Address3Label" xml:space="preserve">
+    <value>Street address 3</value>
+  </data>
+  <data name="AnswerLabel" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="CityLabel" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CompanyLabel" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="ConfirmEmailLabel" xml:space="preserve">
+    <value>Confirm Email</value>
+  </data>
+  <data name="ConfirmPasswordLabel" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="CountryLabel" xml:space="preserve">
+    <value>Country / Region</value>
+  </data>
+  <data name="EmailLabel" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="FirstNameLabel" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="FuriganaFirstNameLabel" xml:space="preserve">
+    <value>Furigana First name</value>
+  </data>
+  <data name="FuriganaLastNameLabel" xml:space="preserve">
+    <value>Furigana Last name</value>
+  </data>
+  <data name="JapaneseFirstNameLabel" xml:space="preserve">
+    <value>Kangi First name</value>
+  </data>
+  <data name="JapaneseLastNameLabel" xml:space="preserve">
+    <value>Kangi Last name</value>
+  </data>
+  <data name="JobTitleLabel" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Preferred Language</value>
+  </data>
+  <data name="LastNameLabel" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="MemberValidationError_BusinessAddress1Required" xml:space="preserve">
+    <value>Please enter your business Street address.</value>
+  </data>
+  <data name="MemberValidationError_BusinessCityRequired" xml:space="preserve">
+    <value>Please enter your business City.</value>
+  </data>
+  <data name="MemberValidationError_BusinessCountryRequired" xml:space="preserve">
+    <value>Please select your business Country / Region.</value>
+  </data>
+  <data name="MemberValidationError_BusinessStateRequired" xml:space="preserve">
+    <value>Please select your business State / Province.</value>
+  </data>
+  <data name="MemberValidationError_BusinessPhoneRequired" xml:space="preserve">
+    <value>Please enter your Phone number.</value>
+  </data>
+  <data name="MemberValidationError_InvalidBusinessPhone" xml:space="preserve">
+    <value>Please enter a valid phone number: 6-24 characters. Allowed special characters include +, (), -, or .</value>
+  </data>
+  <data name="MemberValidationError_CompanyNameRequired" xml:space="preserve">
+    <value>Please enter your Company name.</value>
+  </data>
+  <data name="MemberValidationError_ConfirmEmailMatch" xml:space="preserve">
+    <value>The Email addresses you have entered do not match.</value>
+  </data>
+  <data name="MemberValidationError_ConfirmEmailRequired" xml:space="preserve">
+    <value>Please confirm your Email.</value>
+  </data>
+  <data name="MemberValidationError_DuplicateEmailAddress" xml:space="preserve">
+    <value>The email you entered already exists.</value>
+  </data>
+  <data name="MemberValidationError_DuplicateUserName" xml:space="preserve">
+    <value>The Username you entered already exists. Please enter a unique Username.</value>
+  </data>
+  <data name="MemberValidationError_EmailAddressRequired" xml:space="preserve">
+    <value>Please enter a valid Email address.</value>
+  </data>
+  <data name="MemberValidationError_FirstNameRequired" xml:space="preserve">
+    <value>Please enter your First name.</value>
+  </data>
+  <data name="MemberValidationError_FuriganaFirstNameRequired" xml:space="preserve">
+    <value>Please enter your Furigana First name.</value>
+  </data>
+  <data name="MemberValidationError_FuriganaLastNameRequired" xml:space="preserve">
+    <value>Please enter your Furigana Last name.</value>
+  </data>
+  <data name="MemberValidationError_InvalidBillingPostalCode" xml:space="preserve">
+    <value>Please enter a valid business Postal code.</value>
+  </data>
+  <data name="MemberValidationError_InvalidEmailAddress" xml:space="preserve">
+    <value>Please enter a valid Email address.</value>
+  </data>
+  <data name="MemberValidationError_InvalidMailingPostalCode" xml:space="preserve">
+    <value>Please enter a valid mailing Postal code.</value>
+  </data>
+  <data name="MemberValidationError_InvalidPassword" xml:space="preserve">
+    <value>Your Password must be a length between 8 and 20 characters, including both letters and numbers.</value>
+  </data>
+  <data name="MemberValidationError_JobTitleRequired" xml:space="preserve">
+    <value>Please select your Job title.</value>
+  </data>
+  <data name="MemberValidationError_LastNameRequired" xml:space="preserve">
+    <value>Please enter your Last name.</value>
+  </data>
+  <data name="MemberValidationError_MailingAddress1Required" xml:space="preserve">
+    <value>Please enter your mailing Street address.</value>
+  </data>
+  <data name="MemberValidationError_MailingCityRequired" xml:space="preserve">
+    <value>Please enter your mailing City.</value>
+  </data>
+  <data name="MemberValidationError_MailingCountryRequired" xml:space="preserve">
+    <value>Please select your mailing Country / Region.</value>
+  </data>
+  <data name="MemberValidationError_MailingStateRequired" xml:space="preserve">
+    <value>Please select your mailing State / Province.</value>
+  </data>
+  <data name="MemberValidationError_NonAsciiData" xml:space="preserve">
+    <value>Only standard western European characters, numeric values, and punctuation characters such as '@' and '.' are allowed.</value>
+  </data>
+  <data name="MemberValidationError_PasswordConfirmCustom1" xml:space="preserve">
+    <value>The Passwords you have entered do not match.</value>
+  </data>
+  <data name="MemberValidationError_PasswordConfirmRequired" xml:space="preserve">
+    <value>Please confirm your Password.</value>
+  </data>
+  <data name="MemberValidationError_PasswordCustom1" xml:space="preserve">
+    <value>Your Password is case sensitive and must be a length between 8 and 20 characters, including letters and numbers.</value>
+  </data>
+  <data name="MemberValidationError_PasswordRecoveryAnswerRequired" xml:space="preserve">
+    <value>Please enter the answer to the Security Question.</value>
+  </data>
+  <data name="MemberValidationError_PasswordRecoveryQuestionRequired" xml:space="preserve">
+    <value>Please select a Security question.</value>
+  </data>
+  <data name="MemberValidationError_PasswordRequired" xml:space="preserve">
+    <value>Please enter a Password.</value>
+  </data>
+  <data name="MemberValidationError_UserNameRequired" xml:space="preserve">
+    <value>Please enter a Username.</value>
+  </data>
+  <data name="PasswordLabel" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PhoneLabel" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="SecurityQuestionLabel" xml:space="preserve">
+    <value>Security question</value>
+  </data>
+  <data name="StateLabel" xml:space="preserve">
+    <value>State / Province</value>
+  </data>
+  <data name="UserNameLabel" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="ZipLabel" xml:space="preserve">
+    <value>ZIP / Postal code</value>
+  </data>
+  <data name="MemberValidationError_NonAsciiDataAfterBillingCountryChanged" xml:space="preserve">
+    <value>Your personal information contains nonstandard Western European characters. Please fix these before attempting to change your billing country.</value>
+  </data>
+  <data name="CreditCardValidationError_InvalidCardType" xml:space="preserve">
+    <value>Please enter a valid credit card Type.</value>
+  </data>
+  <data name="CreditCardValidationError_InvalidCardNumber" xml:space="preserve">
+    <value>Please enter a valid credit card number.</value>
+  </data>
+  <data name="CreditCardValidationError_NameRequired" xml:space="preserve">
+    <value>Please enter your cardholder name.</value>
+  </data>
+  <data name="CreditCardValidationError_InvalidExpirationDate" xml:space="preserve">
+    <value>Please enter a valid expiration date.</value>
+  </data>
+  <data name="CreditCardValidationError_CardExpired" xml:space="preserve">
+    <value>The selected card has expired. Please update the card.</value>
+  </data>
+</root>

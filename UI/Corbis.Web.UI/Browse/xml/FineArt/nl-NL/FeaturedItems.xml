@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Canis familiaris</Title>
+		<Image Src="xml/FineArt/Images/main.jpg" Alt="AAKS001420| Standaard RM| © PoodlesRock/CORBIS" ImageID="AAKS001420" Attribution="| Standaard RM| © PoodlesRock/CORBIS">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Diapresentatie weergeven" Title="Klik om de diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>In de loop der eeuwen en overal ter wereld is de zowel geliefde als gehate hond een favoriet artistiek onderwerp geweest.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Diapresentatie weergeven" Title="Klik om de diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Shoes, shoes, shoes (Andy Warhol)</Title>
+		<Image Src="xml/FineArt/Images/sub.1.jpg" Alt="42-20093397| Premium RM| © Andy Warhol Foundation/Corbis" ImageID="42-20093397" Attribution="| Premium RM| © Andy Warhol Foundation/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Diapresentatie weergeven" Title="Klik om de diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Aan de vooravond van de Pop Art-explosie, was Andy Warhol een gewilde illustrator van fantasierijk schoeisel.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Diapresentatie weergeven" Title="Klik om de diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+
+</FeaturedItems>

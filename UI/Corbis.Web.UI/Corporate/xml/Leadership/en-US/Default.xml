@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page>
+    
+    <PageTitle>Corbis Leadership bios</PageTitle>
+
+    <PageDescription></PageDescription>
+
+    <PageKeywords>Corbis, Stock Photography, Stock Photos</PageKeywords>
+
+    <!-- Page Content below -->
+    <Content>
+			<p>
+				The individuals charged with managing Corbis contribute diverse skills to the common goal of maintaining the company's position as the industry leader.
+			</p>
+			<h3>Executive Management</h3>
+			<ul class="Links Bios">
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=1" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_sm_gary_shenk.jpg" alt=""/>Gary Shenk
+					</a>
+					<br />CEO
+				</li>
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=5" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_sm_Barry_Allen.jpg" alt=""/>Barry Allen
+					</a>
+					<br />CFO
+				</li>
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=9" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_rajiv_jain.jpg" alt=""/>Rajiv Jain
+					</a>
+					<br />SVP &amp; CTO
+				</li>
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=4" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_sm_Jim_Mitchell.jpg" alt=""/>Jim Mitchell
+					</a>
+					<br />SVP, Corporate Development &amp; General Counsel
+				</li>
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=7" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_viv_farris_headshot_50.jpg" alt=""/>Vivian Farris
+					</a>
+					<br />SVP, Human Resources
+				</li>
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=6" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_sm_Nairn_Nerland.jpg" alt=""/>Nairn Nerland
+					</a>
+					<br />SVP, Networks
+				</li>
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=8" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_Don_Wieshlow_headshot_sm.jpg" alt=""/>Don Wieshlow
+					</a>
+					<br />SVP, Products
+				</li>
+				<li>
+					<a href="/Corporate/Overview/LeaderBio.aspx?id=3" title="See bio" rel="600_600_modal">
+						<img src="/Corporate/xml/Leadership/Images/Images_sm_Ivan_Purdie.jpg" alt=""/>Ivan Purdie
+					</a>
+					<br />SVP, Sales &amp; Service
+				</li>
+			</ul>
+		</Content>
+
+</Page>

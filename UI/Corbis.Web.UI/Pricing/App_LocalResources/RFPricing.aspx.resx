@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AsPerContract" xml:space="preserve">
+    <value>Per contract</value>
+  </data>
+  <data name="cancelClose.Text" xml:space="preserve">
+    <value>Finish pricing images now.</value>
+  </data>
+  <data name="chatHyperlink.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="chatImgHyperlink.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="confirmClose.Message" xml:space="preserve">
+    <value>To save your price, you must price your image and then &lt;b&gt;add it to your cart or lightbox&lt;/b&gt;.</value>
+  </data>
+  <data name="confirmClose.Title" xml:space="preserve">
+    <value>You haven't finished pricing.</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="continueClose.Text" xml:space="preserve">
+    <value>Close without saving changes.</value>
+  </data>
+  <data name="lblCustomPriceAlertMessage.Text" xml:space="preserve">
+    <value>This item has been specially priced for you by your Corbis Representative. </value>
+  </data>
+  <data name="lblCustomPriceAlertMessageAE.Text" xml:space="preserve">
+    <value>This item has changed since it was specially priced for you by your Account Executive. </value>
+  </data>
+  <data name="lblCustomPriceFooter.Text" xml:space="preserve">
+    <value>* File sizes are approximate and may vary by color space and source. Pixel dimensions are accurate as displayed.</value>
+  </data>
+  <data name="lblDimensions.Text" xml:space="preserve">
+    <value>Dimensions:</value>
+  </data>
+  <data name="lblFileSize.Text" xml:space="preserve">
+    <value>File size:</value>
+  </data>
+  <data name="lblLicensingDetails.Text" xml:space="preserve">
+    <value>License details</value>
+  </data>
+  <data name="lblPriceMayVary.Text" xml:space="preserve">
+    <value>Prices may vary by collection.</value>
+  </data>
+  <data name="lblPricingFooterDisclaimer.Text" xml:space="preserve">
+    <value>Files downloaded directly from our website are compressed JPEGs. If you require a TIFF or a&lt;br /&gt; larger output size, please &lt;a id="rfPricingContactLink" href="javascript:void(0);" onclick="javascript:CorbisUI.ContactCorbis.ShowContactCorbisModal(this); return false;"&gt;contact Customer Service&lt;/a&gt;.</value>
+  </data>
+  <data name="lblPricingFooterDisclaimerStrong.Text" xml:space="preserve">
+    <value>&lt;b&gt;&lt;sup&gt;*&lt;/sup&gt; File sizes are approximate and may vary by color space and source. Pixel dimensions are accurate as displayed.&lt;/b&gt;</value>
+  </data>
+  <data name="lnkViewRestrictions.Text" xml:space="preserve">
+    <value>View restrictions</value>
+  </data>
+  <data name="pageSubTitle.Text" xml:space="preserve">
+    <value>ROYALTY-FREE</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Price image</value>
+  </data>
+  <data name="printImgHyperlink.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="restrictionsPopup.Title" xml:space="preserve">
+    <value>Restrictions</value>
+  </data>
+  <data name="rpRFPricingLabel.Text" xml:space="preserve">
+    <value>&lt;br /&gt;The selected image cannot be licensed for this usage online. Please Contact Us or call &lt;country-specific Corbis phone number&gt; to complete this transaction.&lt;br /&gt;&amp;nbsp;</value>
+  </data>
+  <data name="expiredTitle.Text" xml:space="preserve">
+    <value>Pricing alert</value>
+  </data>
+  <data name="strongStatement.Text" xml:space="preserve">
+    <value>&lt;b&gt;The special pricing applied by a Corbis Representative has expired.&lt;/b&gt;</value>
+  </data>
+  <data name="mainStatement.Text" xml:space="preserve">
+    <value>Please price this image using your current options, or contact a &lt;a href="{0}" &gt;Corbis Representative&lt;/a&gt; for pricing assistance.</value>
+  </data>
+  <data name="expiredGlass.Text" xml:space="preserve">
+    <value>Price now</value>
+  </data>
+  <data name="lblApologyStatement.Text" xml:space="preserve">
+    <value>&lt;b&gt;We apologize for the inconvenience, but your selected file size is no longer available online.&lt;/b&gt;</value>
+  </data>
+  <data name="lblContactStatement.Text" xml:space="preserve">
+    <value>Please contact us so that we can complete your purchase offline</value>
+  </data>
+  <data name="btnContactAE.Text" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="chatDiv.Title" xml:space="preserve">
+    <value>Chat with a Corbis Representative</value>
+  </data>
+  <data name="printDiv.Title" xml:space="preserve">
+    <value>Print this</value>
+  </data>
+  <data name="contactUsForPriceCloseImage.AlternateText" xml:space="preserve">
+    <value>Close Modal Popup</value>
+  </data>
+  <data name="priceStatusCloseButton.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="priceStatusPopup.Message" xml:space="preserve">
+    <value>&lt;p class=bold&gt;Your selected image is not available for
+Online Checkout.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Please add this image to your cart or lightbox&lt;/b&gt;. Then navigate to that location and click the "Contact us" link under your image to request assistance. &lt;/p&gt;</value>
+  </data>
+  <data name="priceStatusPopup.Title" xml:space="preserve">
+    <value>Pricing Alert</value>
+  </data>
+</root>

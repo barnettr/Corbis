@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModuleList>
+	<Title>Fine Art Collections</Title>
+	<Links>
+    <Link Url="Collections.aspx?name=warhol" Text="Andy Warhol Foundation" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288500" Text="Ansel Adams " Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288501" Text="The Gallery Collection" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288519" Text="Smithsonian Institution " Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288520" Text="SWIM Ink" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288522" Text="Brett Weston Archive" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288512" Text="The Picture Desk Limited" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288510" Text="Historical Picture Library" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288504" Text="Christie's Images" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288499" Text="Fratelli Alinari" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288502" Text="Blue Lantern Studio" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288517" Text="Philadelphia Museum of Art" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288503" Text="Brooklyn Museum" Title="View images" />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288507" Text="Fine Art Photographic Library" Title="View images" />
+	</Links>
+</ModuleList>

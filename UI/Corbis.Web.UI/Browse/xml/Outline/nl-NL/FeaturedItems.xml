@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Sterren uit de kaskrakers van deze zomer</Title>
+		<Image Src="xml/Outline/Images/main.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>
+				Ze spelen leiders, criminelen en jeugdige tovenaars. Ze strijden tegen dinosaurussen, kapers en machines met een bewustzijn. Sterren poseren om de grootste kaskrakers van deze zomer te promoten.
+				</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+  <FeaturedItem>
+    <Title>Aandacht voor Jill Greenberg</Title>
+    <Image Src="xml/Outline/Images/sub.1.jpg" Alt="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" Attribution="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>De fotografie van Jill Greenberg wordt geroemd om de opmerkelijke belichtingsstijl en fascinerende helderheid.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Maak kennis met Andrew McLeod</Title>
+    <Image Src="xml/Outline/Images/sub.2.jpg" Alt="OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" Attribution=" OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Met opdrachtgevers zoals Seventeen en Sony BMG specialiseert Andrew McLeod zich in modefotografie en celebrity-portretten.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Het beste van Outline</Title>
+    <Image Src="xml/Outline/Images/sub.3.jpg" Alt="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" Attribution="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Originele portretten van de meest fascinerende personen ter wereld door de meest gewilde fotografen in de branche.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+    </Links>
+  </FeaturedItem>
+	<FeaturedItem IsHero="true">
+		<Title>Nog niet geregistreerd bij Outline?</Title>
+		<Copy>
+			<![CDATA[
+				<p>
+					Outline-beelden zijn exclusief verkrijgbaar voor geregistreerde gebruikers van Outline. <a href="http://pro.corbis.com/creative/celebrity/outlineform/orderform.asp?lcd=nl-nl" title="Klik om het registratieformulier weer te geven." rel="720_600_popup" localize="true">Klik hier</a> om contact met ons op te nemen over het registreren.
+				</p>
+			]]>
+		</Copy>
+		<Links />
+	</FeaturedItem>
+</FeaturedItems>

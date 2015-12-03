@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Corbis.Web.UI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WebRoot" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~</Value>
+    </Setting>
+    <Setting Name="LoggingCategory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">UI</Value>
+    </Setting>
+    <Setting Name="RequestContextUidKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">RequestContextUid</Value>
+    </Setting>
+    <Setting Name="HttpUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://pro.localhost.corbis.pre:8080</Value>
+    </Setting>
+    <Setting Name="HttpsUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://secure.localhost.corbis.pre</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

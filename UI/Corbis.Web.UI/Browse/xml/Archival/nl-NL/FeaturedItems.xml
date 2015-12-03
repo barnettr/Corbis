@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Juweeltjes uit het Corbis-archief</Title>
+		<Image Src="xml/Archival/Images/main.jpg" Alt="42-21496840| Premium RM| © Bob Adelman/Corbis" ImageID="42-21496840" Attribution="| Premium RM| © Bob Adelman/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Triomfen en catastrofes. Leiders en visionairs. Regimes worden omver geworpen, massa's komen in opstand, iconen sterven en de camera legt elk verhaal vast.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>De eeuw van de kleur</Title>
+		<Image Src="xml/Archival/Images/sub.1.jpg" Alt="U1591414-10| Standaard RM| © Bettmann/CORBIS" ImageID="U1591414-10" Attribution="| Standaard RM| © Bettmann/CORBIS" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>De eerste kleuringstechnieken, verouderde films en vergeten formaten zorgen voor opmerkelijke kleurschakeringen.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

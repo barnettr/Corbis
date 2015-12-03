@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contactMessage" xml:space="preserve">
+    <value>Please contact &lt;a href="{0}"&gt;Customer Service&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="cornfirmationNumber" xml:space="preserve">
+    <value>Confirmation #{0}</value>
+  </data>
+  <data name="deliveryPaneTitle.Text" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="downloadAll.Text" xml:space="preserve">
+    <value>DOWNLOAD ALL</value>
+  </data>
+  <data name="downloadErrorModal.Title" xml:space="preserve">
+    <value>Download error</value>
+  </data>
+  <data name="downloadImagesModal.Title" xml:space="preserve">
+    <value>Download images</value>
+  </data>
+  <data name="downloadItemCount" xml:space="preserve">
+    <value>Your order contains {0} item.</value>
+  </data>
+  <data name="downloadItemsHeader.Text" xml:space="preserve">
+    <value>DOWNLOAD YOUR ITEM(S)</value>
+  </data>
+  <data name="errorMessage.Text" xml:space="preserve">
+    <value>An error occurred during the download process. We apologize for the inconvenience.</value>
+  </data>
+  <data name="imageDownloadMessage.Text" xml:space="preserve">
+    <value>Click on the file name to download:</value>
+  </data>
+  <data name="imagesHeader" xml:space="preserve">
+    <value>{0} image(s)&lt;br/&gt;Order #{1}</value>
+  </data>
+  <data name="imageSizeQuestion.Text" xml:space="preserve">
+    <value>Questions about image file sizes?</value>
+  </data>
+  <data name="instructionalText.Text" xml:space="preserve">
+    <value>Lower resolution images are available for immediate download.  Higher resolutions may take longer before downloads are available.  Please allow up to 1 hour for every 3 images purchased.</value>
+  </data>
+  <data name="licenseDetailsPaneTitle.Text" xml:space="preserve">
+    <value>License details</value>
+  </data>
+  <data name="orderDateLabel" xml:space="preserve">
+    <value>This order was placed on {0}.</value>
+  </data>
+  <data name="orderEmail" xml:space="preserve">
+    <value>In addition, an email confirmation has been sent to: {0}.</value>
+  </data>
+  <data name="orderMessageHeader.Text" xml:space="preserve">
+    <value>Your order was successfully submitted. Thank you for placing your order with Corbis!</value>
+  </data>
+  <data name="orderRecords.Text" xml:space="preserve">
+    <value>A record of this transaction is available in &lt;a href="../OrderHistory/OrderHistory.aspx"&gt;my orders&lt;/a&gt;.</value>
+  </data>
+  <data name="orderSummary" xml:space="preserve">
+    <value>ORDER SUMMARY #{0}</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Order submitted</value>
+  </data>
+  <data name="paymentPaneTitle.Text" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="printOrder.Text" xml:space="preserve">
+    <value>PRINT FULL ORDER SUMMARY</value>
+  </data>
+  <data name="projectDetailsLabel.Text" xml:space="preserve">
+    <value>Project details</value>
+  </data>
+  <data name="projectPaneTitle.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="total.Text" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>Corbis: photography, rights, motion - Order submitted</value>
+  </data>
+  <data name="zipFilesHeader" xml:space="preserve">
+    <value>We've created {0} ZIP file(s) for you.</value>
+  </data>
+  <data name="downloadMessage.Text" xml:space="preserve">
+    <value>We are compressing your image(s) for download.</value>
+  </data>
+  <data name="longWaitMessage.Text" xml:space="preserve">
+    <value>You've selected 50+ images. Preparing that many images can take many minutes to complete. Thank you for your patience.</value>
+  </data>
+  <data name="standByMessage.Text" xml:space="preserve">
+    <value>Please stand by...</value>
+  </data>
+  <data name="promotionAppliedLabel.Text" xml:space="preserve">
+    <value>Promotion Applied</value>
+  </data>
+  <data name="subtotalLabel.Text" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="taxLabel.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="totalLabel.Text" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="contactCorbis.Text" xml:space="preserve">
+    <value>Contact Corbis</value>
+  </data>
+  <data name="errorIcon.title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="orderTotalItem" xml:space="preserve">
+    <value>{0} item</value>
+  </data>
+  <data name="orderTotalItems" xml:space="preserve">
+    <value>{0} items </value>
+  </data>
+  <data name="shippingLabel.Text" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="chat.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="errorTitle.Text" xml:space="preserve">
+    <value>There was an error with your order.</value>
+  </data>
+  <data name="orderErrorMessage.Text" xml:space="preserve">
+    <value>Your order has not been processed and you have not been charged for this order.&lt;br /&gt;We apologize for the inconvenience.</value>
+  </data>
+  <data name="downloadItemsCount" xml:space="preserve">
+    <value>Your order contains {0} items.</value>
+  </data>
+  <data name="perContract" xml:space="preserve">
+    <value>Per Contract</value>
+  </data>
+  <data name="toBedetermined" xml:space="preserve">
+    <value>To be determined</value>
+  </data>
+  <data name="downloadRfcd.Text" xml:space="preserve">
+    <value>Download selected images</value>
+  </data>
+  <data name="rfcdDownloadTemplate.Title" xml:space="preserve">
+    <value>Download CD images</value>
+  </data>
+  <data name="rfcdInstruction.Text" xml:space="preserve">
+    <value>Click on a thumbnail to select it, and click again to deselect it. Then to begin downloading, click the Download selected images button.</value>
+  </data>
+  <data name="rfcdInstructionHeader.Text" xml:space="preserve">
+    <value>Select images to download</value>
+  </data>
+  <data name="selectAll.deselect" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+  <data name="selectAll.select" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="selectAllText.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="coffOrderSummary" xml:space="preserve">
+    <value>COFF ORDER SUMMARY #{0}</value>
+  </data>
+  <data name="pageTitleCOFF.Text" xml:space="preserve">
+    <value>COFF Order Submitted</value>
+  </data>
+  <data name="KsaTax" xml:space="preserve">
+    <value>KSA Tax</value>
+  </data>
+</root>

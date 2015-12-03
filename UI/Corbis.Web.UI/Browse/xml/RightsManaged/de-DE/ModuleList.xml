@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Lizenzpflichtige Kollektionen</Title>
+	<Links>
+		<Link Url="Collections.aspx?name=crush" Text="Crush" Title="Diashow anzeigen"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289174" Text="Ivy " Title="Bilder anzeigen"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289154" Text="zefa" Title="Bilder anzeigen"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289155" Text="moodboard plus" Title="Bilder anzeigen"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289184" Text="Blend Images" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289156" Text="Amana" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289157" Text="PhotoCuisine" Title="Bilder anzeigen"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Transtock" Title="View images" />-->
+	</Links>
+</ModuleList>

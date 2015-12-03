@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK IMAGEID &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/summerStars/large/" tnpath="xml/Slideshows/Images/summerStars/thumb/">
+		<img src="OUT932961.jpg" caption="Denzel Washington &lt;br&gt; OUT932961 &lt;p&gt; | © Sante D'Orazio/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT944973.jpg" caption="Marion Cotillard &lt;br&gt; OUT944973 &lt;p&gt; | © Patrick Swirc/CORBIS OUTLINE &lt;/p&gt;" link="" />
+    <img src="OUT956643.jpg" caption="Ryan Gosling &lt;br&gt; OUT956643 &lt;p&gt; | © Yariv Milchan/CORBIS OUTLINE &lt;/p&gt;" link="" />
+		<img src="OUT15301447.jpg" caption="Sandra Bullock &lt;br&gt; OUT15301447 &lt;p&gt; | © Ruven Afanador/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT15877180.jpg" caption="Emma Watson &lt;br&gt; OUT15877180 &lt;p&gt; | © Jason Joyce/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT15900418.jpg" caption="Cameron Diaz &lt;br&gt; OUT15900418 &lt;p&gt; | © James White/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT16856171.jpg" caption="Ryan Reynolds &lt;br&gt; OUT16856171 &lt;p&gt; | © Steven Lippman/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT18003047.jpg" caption="Kirsten Dunst &lt;br&gt; OUT18003047  &lt;p&gt; | © James White/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT18640068.jpg" caption="Megan Fox &lt;br&gt; OUT18640068 &lt;p&gt; | © Don Flood/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT18734290.jpg" caption="Shia LaBeouf &lt;br&gt; OUT18734290 &lt;p&gt; | © Patrick Fraser/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT18942395.jpg" caption="Christian Bale &lt;br&gt; OUT18942395 &lt;p&gt; | © Justin Stephens/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT19173609.jpg" caption="Michael Cera &lt;br&gt; OUT19173609 &lt;p&gt; | © Gavin Bond/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT19188021.jpg" caption="John Travolta &lt;br&gt; OUT19188021 &lt;p&gt; | © Justin Stephens/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT19616924.jpg" caption="Johnny Depp &lt;br&gt; OUT19616924 &lt;p&gt; | © MR Photo/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT19715190.jpg" caption="Will Ferrell &lt;br&gt; OUT19715190 &lt;p&gt; | © Justin Stephens/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT20101832.jpg" caption="Olivia Wilde &lt;br&gt; OUT20101832 &lt;p&gt; | © Lance Staedler/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT20485008.jpg" caption="Amber Heard &lt;br&gt; OUT20485008 &lt;p&gt; | © James White/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT20770467.jpg" caption="Daniel Radcliffe and Tom Felton &lt;br&gt; OUT20770467 &lt;p&gt; | © James Dimmock/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT20827935.jpg" caption="Jack Black &lt;br&gt; OUT20827935 &lt;p&gt; | © Chris Buck/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT20839871.jpg" caption="Joseph Gordon-Levitt &lt;br&gt; OUT20839871 &lt;p&gt; | © Scott McDermott/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT20877356.jpg" caption="Anna Friel &lt;br&gt; OUT20877356 &lt;p&gt; | © Kenneth Willardt/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT20961707.jpg" caption="Evan Rachel Wood &lt;br&gt; OUT20961707 &lt;p&gt; | © Fabrice Dall'Anese/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT20975291.jpg" caption="Zooey Deschanel &lt;br&gt; OUT20975291 &lt;p&gt; | © Gitte &amp; Delaney/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21778257.jpg" caption="Zachary Quinto and Chris Pine &lt;br&gt; OUT21778257 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+	</album>
+</gallery>

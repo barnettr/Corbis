@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acceptTermsConditionslabel.Text" xml:space="preserve">
+    <value>Select this box to acknowledge you have read, understand and agree with the &lt;a href="javascript:NewWindow('/Legal/LicenseInfo.aspx',700,800,'True')" &gt;Terms &amp; Conditions&lt;/a&gt; of your Quick Pic account.  Use of the images you are downloading for comping purposes only must comply with these restrictions. If you have additional questions regarding your account or Corbis licensing terms, please contact your &lt;a id="quickPicTermsContactLink" href="javascript:void(0);" onclick="javascript:CorbisUI.ContactCorbis.ShowContactCorbisModal(this);return false;"&gt;Account Executive&lt;/a&gt;.</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contactMessage" xml:space="preserve">
+    <value>Please contact &lt;a href="{0}"&gt;Customer Service&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>Ensure that you have agreed to the Terms &amp; Conditions to download images</value>
+  </data>
+  <data name="downloadErrorModal.Title" xml:space="preserve">
+    <value>Download error</value>
+  </data>
+  <data name="downloadImages.Text" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="downloadLabel.Text" xml:space="preserve">
+    <value>Download all Quick Pic images at:</value>
+  </data>
+  <data name="downloadMessage.Text" xml:space="preserve">
+    <value>We are compressing your image(s) for download.</value>
+  </data>
+  <data name="downloadProgressText.Text" xml:space="preserve">
+    <value>If your download does not start, click on the link below.</value>
+  </data>
+  <data name="downloadProgressTitle.Text" xml:space="preserve">
+    <value>Download in progress</value>
+  </data>
+  <data name="errorMessage.Text" xml:space="preserve">
+    <value>An error occurred during the download process. We apologize for the inconvenience.</value>
+  </data>
+  <data name="fileSizeQuestions.Text" xml:space="preserve">
+    <value>Questions about image sizes?</value>
+  </data>
+  <data name="helpText.Text" xml:space="preserve">
+    <value>&lt;b&gt;Need help?&lt;/b&gt;&lt;br/&gt;To open the ZIP file on your computer, you will need file compression software like &lt;a href="http://my.smithmicro.com/mac/stuffit" target="_blank"&gt;Stuffit&amp;#8482;
+&lt;/a&gt; or &lt;a href="http://www.winzip.com" target="_blank"&gt;WinZip&amp;#8482;
+&lt;/a&gt;</value>
+  </data>
+  <data name="highestResolution.Text" xml:space="preserve">
+    <value>Highest resolution</value>
+  </data>
+  <data name="lowestResolution.Text" xml:space="preserve">
+    <value>Lowest resolution</value>
+  </data>
+  <data name="orderNumberLabel.Text" xml:space="preserve">
+    <value>Order Number</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Quick Pic</value>
+  </data>
+  <data name="privacyPolicy.Text" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="projectNamelabel.Text" xml:space="preserve">
+    <value>Project name</value>
+  </data>
+  <data name="projectNamePrefix" xml:space="preserve">
+    <value>Quick Pic: </value>
+  </data>
+  <data name="quickPicOrderText.Text" xml:space="preserve">
+    <value>Your Quick Pic order will also be available in &lt;a href="/OrderHistory/OrderHistory.aspx" target="_blank"&gt;My Orders&lt;/a&gt; for future reference and download. In addition an email confirmation has been sent to:</value>
+  </data>
+  <data name="quickPicText.Text" xml:space="preserve">
+    <value>Corbis Quick Pic gives you immediate and privileged access to high-resolution images to evaluate in your work. Before downloading, you must select a desired resolution for each image. For more information about Quick Pic terms and conditions, contact your &lt;a id="quickPicContactLink" href="javascript:void(0);" onclick="javascript:CorbisUI.ContactCorbis.ShowContactCorbisModal(this);return false;"&gt;Account Executive&lt;/a&gt;.</value>
+  </data>
+  <data name="resolutionText.Text" xml:space="preserve">
+    <value>Please select a resolution for all images or use the drop-down menu below each image.</value>
+  </data>
+  <data name="resolutionTitle.Text" xml:space="preserve">
+    <value>What resolution do you want?</value>
+  </data>
+  <data name="siteUsage.Text" xml:space="preserve">
+    <value>Site Usage Agreement</value>
+  </data>
+  <data name="standByMessage.Text" xml:space="preserve">
+    <value>Please stand by...</value>
+  </data>
+  <data name="termsConditionsTitle.Text" xml:space="preserve">
+    <value>Acknowledge Terms &amp; Conditions</value>
+  </data>
+  <data name="chatText.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+</root>

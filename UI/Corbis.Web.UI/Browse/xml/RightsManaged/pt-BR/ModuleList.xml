@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Coleções com Direitos Controlados</Title>
+	<Links>
+		<Link Url="Collections.aspx?name=crush" Text="Crush" Title="Veja o show de slides"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289174" Text="Ivy " Title="Exibir imagens"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289154" Text="zefa" Title="Exibir imagens"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289155" Text="moodboard plus" Title="Exibir imagens"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289184" Text="Blend Images" Title="Exibir imagens"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289156" Text="Amana" Title="Exibir imagens"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289157" Text="PhotoCuisine" Title="Exibir imagens"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Transtock" Title="View images" />-->
+	</Links>
+</ModuleList>

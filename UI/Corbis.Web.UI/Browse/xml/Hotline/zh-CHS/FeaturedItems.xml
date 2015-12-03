@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem>
+		<Title>年9月</Title>
+		<Image Src="xml/Hotline/Images/main.jpg" Alt="42-18768552| Standard RM| © WWD/Condé Nast/Corbis" Title="Gwyneth Paltrow" ImageID="42-18768552" Attribution="| Standard RM| © WWD/Condé Nast/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="生日" Title="查看图像"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="生日" Title="查看图像"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288732" PreText="01" Text="杜维尔亚洲电影节" Title="查看图像"  />
+      
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288791" PreText="01" Text="MTV 音乐录像带颁奖典礼" Title="查看图像"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288833" PreText="10" Text="多伦多国际电影节开始" Title="查看图像"  />
+
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288925" PreText="11" Text="8年前：美国在和平时期受到最严重的恐怖袭击" Title="查看图像"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288792" PreText="11" Text="奔驰纽约时装周 － 春季/夏季2010" Title="查看图像"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288748" PreText="12" Text="威尼斯电影节 － 金狮奖" Title="查看图像"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288749" PreText="18" Text="伦敦时装周 － 春季/夏季2010" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288747" PreText="19" Text="啤酒节 － 慕尼黑" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288827" PreText="20" Text="2009 黄金时段艾美奖颁奖典礼" Title="查看图像"  />
+		</Links>
+   </FeaturedItem>
+  <FeaturedItem>
+    <Title>年8月</Title>
+    <Image Src="xml/Hotline/Images/second.jpg" Alt="42-18979743| Premium RM| © Elliott Landy/Corbis" Title="Bob Dylan" ImageID="42-18979743 " Attribution="| Premium RM| © Elliott Landy/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="生日" Title="查看图像"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="生日" Title="查看图像"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288641" PreText="07" Text="Lollapalooza 音乐节 2009" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288643" PreText="07" Text="爱丁堡边缘艺术节 2009" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288642" PreText="09" Text="美国青少年选票奖" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288684" PreText="13" Text="美国 PGA 锦标赛" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288675" PreText="15" Text="40年前：Woodstock 音乐节开始" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1233542" PreText="17" Text="1年前：菲尔普斯(Michael Phelps) 在奥运会中赢得八面金牌" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288660" PreText="22" Text="V 音乐节" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288677" PreText="23" Text="一级方程式：格兰匹治(欧洲赛)" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288661" PreText="25" Text="Truman Capote 25年前逝世" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288635" PreText="26" Text="西红柿节" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230133" PreText="31" Text="美国网球公开赛" Title="查看图像"  />
+      
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>年7月</Title>
+    <Image Src="xml/Hotline/Images/third.jpg" Alt="42-16014622 | Standard RM| © Oliver Hoslet/epa/Corbis" Title="Lance Armstrong 七届环法自行车赛冠军" ImageID="42-16014622" Attribution="| Standard RM| © Oliver Hoslet/epa/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="生日" Title="查看图像"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="生日" Title="查看图像"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288468" PreText="02" Text="罗斯基勒音乐节 2009" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288467" PreText="03" Text="Brian Jones 逝世40年" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230891" PreText="04" Text="法国之旅" Title="查看图像"  />
+   
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288492" PreText="06" Text="巴黎高级时装周 － 秋季/冬季2009/10" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230892" PreText="07" Text="美国职棒全明星赛" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288410" PreText="14" Text="法国国庆日" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288474" PreText="17" Text="13年前：TWA 客机在长岛上空发生爆炸" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288482" PreText="17" Text="Billie Holiday 逝世50年" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288495" PreText="17" Text="ESPY 奖" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288472" PreText="20" Text="40年前：人类第一次登陆月球" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288484" PreText="24" Text="国际啦啦队锦标赛" Title="查看图像"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288409" PreText="28" Text="80年前：Jacqueline Onassis 出生" Title="查看图像"  />
+    </Links>
+  </FeaturedItem>
+</FeaturedItems>

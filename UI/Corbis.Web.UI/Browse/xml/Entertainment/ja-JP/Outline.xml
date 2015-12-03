@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleText>
+	<Title>Outline</Title>
+	<Copy>
+		<![CDATA[
+				<p></p>
+			]]>
+	</Copy>
+	<Links>
+		<Link Url="Outline.aspx" Text="メンバー登録する" Title="メンバー登録する"  />
+	</Links>
+</ModuleText>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stories baseURL="/Browse/xml/Slideshows/Images/HomePage/images/">
+	
+	<!-- 	
+		This is the default options stack, YOU ONLY HAVE TO ADD THE PARAMETERS YOU WANT TO MODIFY:
+		<options
+			position="left"
+			verticalPosition="" 
+			textBackground="true" 
+			textColor="light" 
+			linkColor="blue"
+			fadeTo="black"
+		/>
+		
+		The slideshow accepts the following parameters:
+			position: left or right (controls whether the text-box is on the left or the right)
+			verticalPosition: Any number or nothing (controls the vertical position of the box, if you don't include a value then it will be centered vertically. If a number used, it will place it that many pixels from the top)
+			textBackground: true or false (If it's true, then a transparent background will appear. If not, nothing.) 
+			textColor: light or dark (Sets the text colour as specified) 
+			linkColor: blue or whte (Sets the color of the link)
+			fadeTo: black or white (Once another story is selected, will the current one fade to white or black)
+			
+		!!! If you make any errors, the code will automatically choose the default values !!!
+		
+	 -->
+	<story>
+		<img src="giardino.jpg" />
+		<title><![CDATA[Patrik Giardino]]></title>
+		<subhead><![CDATA[摄影师资料]]></subhead>
+		<text><![CDATA[运动员、舞蹈员肖像，充满动感的景观，以及迷人的脸孔。Patrik Giardino 摄影作品充满纯能量。 ]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=giardino" target="_blank"><![CDATA[查看幻灯片展示]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-15805476" name="42-15805476">Premium RM| © Patrik Giardino/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="warhol.jpg" />
+		<title><![CDATA[Andy Warhol 的鞋]]></title>
+    <subhead>
+      <![CDATA[艺术作品:]]></subhead>
+		<text><![CDATA[在罐头汤、玛丽莲梦露，以及波普 (Pop) 现象之前，Andy Warhol 是一个绘画独特鞋类的插画家。 ]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=warhol" target="_blank"><![CDATA[查看幻灯片展示]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-18454480_1280" name="42-18454480">| Premium RM| © Andy Warhol Foundation/Corbis</attribution>
+		<options />
+	</story>
+	
+	<story>
+		<img src="bo-diddley.jpg" />
+		<title>
+      <![CDATA[一年后：怀缅 Bo Diddley ]]></title>
+		<subhead><![CDATA[Hotline:]]></subhead>
+		<text><![CDATA[Bo Diddley 的独特节奏对美国音乐及音乐家的影响超过50年。]]></text>
+		<link href="/Browse/Slideshows.aspx?Name=boDiddley" target="_blank"><![CDATA[查看幻灯片展示]]></link>
+		<attribution href="/Search/SearchResults.aspx?q=42-17478836" name="42-17478836">| Standard RM| © Michael Ochs Archives/Corbis</attribution>
+		<options textColor="dark" textBackground="false"/>
+	</story>
+	
+</stories>

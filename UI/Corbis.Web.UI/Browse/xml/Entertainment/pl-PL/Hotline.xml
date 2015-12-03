@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleText>
+	<Title>Hotline</Title>
+	<Copy>
+		<![CDATA[
+				<p>Kalendarz rocznic i wydarzeń sporządzony na trzy miesiące zanim staną się tematem sezonu.</p>
+			]]>
+	</Copy>
+	<Links>
+		<Link Url="Hotline.aspx" Text="Kalendarz Hotline" Title="Kalendarz Hotline"  />
+	</Links>
+</ModuleText>

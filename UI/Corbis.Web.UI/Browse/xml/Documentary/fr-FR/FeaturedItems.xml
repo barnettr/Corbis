@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Latitude</Title>
+		<Image Src="xml/Documentary/Images/main.jpg" Alt="42-18630995| Premium DG| © Andy Rouse/Corbis" ImageID="42-18630995" Attribution="| Premium DG| © Andy Rouse/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Images à droits gérés authentiques et irremplaçables, qui illustrent la civilisation humaine et le monde naturel.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Terra</Title>
+		<Image Src="xml/Documentary/Images/sub.1.jpg" Alt="42-19191759| Standard DG| © Remi Benali/Corbis" ImageID="42-19191759" Attribution="| Standard DG| © Remi Benali/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Une collection éditoriale riche et vaste dédiée aux individus, aux lieux et aux événements du monde entier.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

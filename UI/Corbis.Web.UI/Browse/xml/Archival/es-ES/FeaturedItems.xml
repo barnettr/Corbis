@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Joyas de archivo de Corbis</Title>
+		<Image Src="xml/Archival/Images/main.jpg" Alt="42-21496840| Premium DP| © Bob Adelman/Corbis" ImageID="42-21496840" Attribution="| Premium DP| © Bob Adelman/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Triunfos y catástrofes. Líderes y visionarios. Caídas de regímenes, levantamientos de masas, declives de iconos. La cámara inmortaliza cada historia. </p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>El siglo del color</Title>
+		<Image Src="xml/Archival/Images/sub.1.jpg" Alt="U1591414-10| Estándar DP| © Bettmann/CORBIS" ImageID="U1591414-10" Attribution="| Estándar DP| © Bettmann/CORBIS" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>De las primeras técnicas de pigmentación, las películas antiguas y los formatos olvidados emanan colores característicos.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

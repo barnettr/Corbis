@@ -1,0 +1,799 @@
+/* MSO-More Search Options */
+#moreSearchOptions
+ {
+      color:#fff;
+      font:normal 10px Trebuchet MS, Helvetica, Sans-Serif;
+}
+
+.MSO_element 
+{
+    color:Black;
+    }
+
+/* =======$$$[ structural containers ]=======*/
+.aSearchColumn
+{
+    border-right: dotted 1px #000;
+    float: left !important;
+    height: 400px;
+    left: 10px;
+    padding-left: 3px;
+    position: relative;
+    top: 10px;
+    width: 229px;
+}
+
+.bSearchColumn
+{
+    border-right: dotted 1px #000;
+    float: left !important;
+    height: 400px;
+    left: 10px;
+    padding-left: 16px;
+    position: relative;
+    top: 10px;
+    width: 225px;
+}
+
+.cSearchColumn
+{
+    float: left !important;
+    height: 400px;
+    left: 10px;
+    padding-left: 16px;
+    position: relative;
+    width: 255px;
+}
+
+/* $$$ text/input spacing */
+.availText 
+{
+    display:block;
+    margin-top:12px;
+}
+
+.egText
+ {
+      color:#fff;
+      font:normal 10px Trebuchet MS, Helvetica, Sans-Serif !important;
+}
+
+#moreSearchOptions .MB_5, #moreSearchOptions .MT_5  
+{
+    /*display:block;*/
+}
+
+#ctl00_search_pointOfViewLabel 
+{
+    margin-top:1px;
+ }
+
+.locText 
+{
+    display:block;
+    margin-bottom:15px;
+}
+
+.photoText 
+{
+    margin-bottom:15px;
+ }    
+    
+.providerText 
+{
+    margin-bottom:15px;   
+ }
+ 
+.locText span, .photoText span, .providerText span
+{
+    display:block;
+    margin-bottom:3px;
+}
+
+.locText span
+{
+    margin-top:1px;
+    clear:left;
+}
+
+.between        /* to prevent word wrapping */
+{
+    width:186px;
+}
+
+.pointOfView
+{
+    clear:left;
+}
+
+.IMA_between 
+{
+    margin-bottom:20px;
+}
+
+#ctl00_search_imageNumbersLabel 
+{
+    margin-top:-4px;
+}    
+    
+#ctl00_search_rMOnlyLabel 
+{
+    line-height:12px;
+ }
+    
+#dateDataContainer input 
+{
+    text-align:center;    
+}
+        
+div.mocha .mochaContent .moreTitle 
+{
+    color:#fff;
+    display:block;
+    font:bold 12px Trebuchet MS, Helvetica, Sans-Serif;
+    padding: 5px 0 0 12px;
+}
+
+ div.mocha .mochaContent #moreSearchOptions .moreTitle 
+{
+    font-size:14px !important;
+    }
+    
+#moreSearchOptions div.MSO_toggler .center span.title
+{
+   font-size:14px !important;
+}
+
+#moreSearchOptions div.imageRadio    
+{
+    float:left; 
+    margin-right:3px;
+}
+
+#moreSearchOptions img.radio 
+{
+    float:left; 
+    position:static !important;
+}
+    
+#moreSearchOptions  #betweenDataContainer span
+{
+    left:3px;
+    position:relative;
+    top:6px;    
+}
+
+#moreSearchOptions  #dateDataContainer 
+{
+    clear:both;
+    width:100%;
+}
+
+/*=========$$$[ rounded corners box ]==========*/
+
+.roundMe
+{
+    background-color: #4d4d4d;
+    float: left;
+    margin-top: 5px;
+    position: relative;
+    width: 216px;
+}
+
+    .inRoundMe /* to get padding in rounded box without losing corners */
+    {
+        float:left;
+        padding: 2px 8px 4px 8px;
+        position: relative;
+        width: 200px;
+    }
+    
+        .topLeftCorner
+        {
+            background: #4d4d4d url(../Images/searchMSO_container.png) no-repeat top left;
+            height: 5px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 5px;
+        }
+
+        .topRightCorner
+        {
+            background: #4d4d4d url(../Images/searchMSO_container.png) no-repeat 0 -5px;
+            height: 5px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 5px;
+        }
+
+        .bottomLeftCorner
+        {
+            background: url(../Images/searchMSO_container.png) no-repeat 0 -10px;
+            bottom: 0;
+            height: 5px;
+            left: 0;
+            position: absolute;
+            width: 5px;
+        }
+
+        .bottomRightCorner
+        {
+            background: #4d4d4d url(../Images/searchMSO_container.png) no-repeat 0 -15px;
+            bottom: 0;
+            height: 5px;
+            position: absolute;
+            right: 0;
+            width: 5px;
+        }
+/*=========$$$[ end of rounded corners box ]==========*/
+
+.checkLblPair
+{
+    height: 17px;
+    position: relative;
+    width: 90px;
+}
+
+    .checkLblPair img
+    {
+        left: 0;
+        position: absolute;
+    }
+
+    .checkLblPair span
+    {
+        color: White;
+        left: 20px;
+        position: absolute;
+    }
+
+/*====$$$ [ 'more search options' button ]======*/
+/* next 3 styles just override glassbutton styles */
+.Search .btnOrangedbdbdb 
+{
+    background-image:none;
+}
+
+.Search .GlassButton
+{
+    padding:0;
+}
+
+.MSOButton, .MSOButton .Right, .MSOButton .Center
+{
+    padding: 0 !important;
+}
+
+.arrowMeUp
+{
+    background: url(../Images/mso_arrow.gif) no-repeat top right;
+    float: right;
+    height: 4px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    width: 7px;
+}
+
+.arrowMeDown
+{
+    background: url(../Images/mso_arrow.gif) no-repeat top right;
+    float: left;
+    height: 4px;
+    width: 7px;
+    margin-top:11px;
+    display:inline;
+    margin-left:5px;
+}
+.arrowMeDownClose
+{
+    background: url(../Images/mso_arrow.gif) no-repeat top right;
+    float: left;
+    height: 4px;
+    width: 7px;
+    margin-top:11px;
+    display:inline;
+    margin-left:10px;
+}
+
+.thumbContentContainer
+{
+    margin:8px 8px 8px 8px;    
+}
+
+.thumbNail 
+{
+    font-family:Arial;
+    font-size:12px;
+    color:#c5c5c5;
+}
+
+
+.thumbnailOnly
+{
+    height:16px; 
+    width:16px; 
+    background-image:url(../Images/ICN-SPRITE-thumbnailLayout.gif); 
+    background-position:-16px 0; 
+    margin-top:8px; 
+    float:left; 
+    display:inline;    
+}
+.thumbnailPlusLabels
+{
+    height:16px; 
+    width:16px; 
+    background-image:url(../Images/ICN-SPRITE-thumbnailLayout.gif); 
+    background-position:0 -16px; 
+    margin-top:8px; 
+    margin-left:0px; 
+    position:absolute; 
+    left:8px; 
+    float:left; 
+    display:inline;    
+}
+.thumbnailPlusDetails
+{
+    height:16px; 
+    width:16px; 
+    background-image:url(../Images/ICN-SPRITE-thumbnailLayout.gif); 
+    background-position:-32px 0; 
+    margin-top:8px; 
+    margin-left:0px; 
+    position:absolute; 
+    left:8px; 
+    float:left; 
+    display:inline;    
+}
+.onWarning
+{
+    background-image:url(../Images/ICN-SPRITE-termClarifications.gif); 
+    background-position:0 -15px; 
+    background-repeat:no-repeat;
+    display:inline-block;
+    height:15px; 
+    margin-top:6px; 
+    width:14px;
+    padding:0 3px 0 3px; 
+}
+.offWarning
+{
+    background-image:url(../Images/ICN-SPRITE-termClarifications.gif); 
+    background-position:0 0; 
+    background-repeat:no-repeat;
+    display:inline-block; 
+    height:15px; 
+    width:14px;
+    padding:0 3px 0 3px; 
+}
+.warningOff, 
+.warningOn
+{
+    color:#ffffff;
+    display:inline-block;
+    font-size:11px;
+    position:relative;
+    padding-right:6px;
+    top:-2px;
+}
+
+.thumbNailDark
+{
+    font-family:Trebuchet MS;
+    font-size:11px;
+    color:#494949;
+    position:relative;
+    left:4px; 
+    top:10px;   
+}
+
+#thumbnailPlusLabelsContainer
+{
+    display:block;
+    margin-top:0px;    
+}
+
+.thumbNailWhite
+{
+    font-family:Trebuchet MS;
+    font-size:11px;
+    color:#ffffff;
+    position:relative;
+    left:22px; 
+    top:10px;    
+}
+#thumbnailPlusDetailssContainer
+{
+    margin:14px 0px 0px 0px;    
+}
+.thumbNailDetails
+{
+    font-family:Trebuchet MS;
+    font-size:11px;
+    color:#494949;
+    position:relative;
+    left:22px; 
+    top:10px;
+}
+
+.seperatorLine
+{
+    width:205px; 
+    height:2px; 
+    background-image:url(../Images/seperator.gif); 
+    background-repeat:repeat-x; 
+    margin-top:20px;    
+}
+
+.infoTop
+{
+    width:14px; 
+    height:15px; 
+    background-image:url(../Images/info.gif); 
+    position:absolute; 
+    top:8px; 
+    left:180px;    
+}
+.infoBottom
+{
+    width:14px; 
+    height:15px; 
+    background-image:url(../Images/info.gif); 
+    position:absolute; 
+    top:112px; 
+    left:180px;    
+}
+
+#Search .MSOButton
+{
+    background: url(../Images/BTN-gray-border-only.gif) no-repeat 0 0 !important;
+    border-bottom: 0;
+    float:left;
+    height: 24px !important;
+    margin-left: 10px; 
+    margin-top: 9px;
+    position:relative; 
+}
+
+#Search .MSOButton .Center
+{
+    background: url(../Images/BTN-gray-border-only.gif) repeat-x 0 -48px !important;
+    font-size:11px;
+    font-weight:bold;
+    height: 24px !important;
+    margin: 0 4px 0 3px !important;
+    padding: 0 15px 0 6px !important;
+}
+
+#Search .MSOButton .Right
+{
+    background: url(../Images/BTN-gray-border-only.gif) no-repeat 100% -24px !important;
+    height: 24px !important;
+}
+
+#Search .MSOButton a
+{
+    border: 0;
+    color: white !important;
+    display: block;
+    font-weight: bold;
+    height: 25px !important;
+    padding:6px 5px 0 3px !important;
+    text-transform:uppercase;
+}
+/*Styles for Return to Previous Search button*/
+#Search .returnToPreviousSearchDiv
+{
+    background: url(../Images/BTN-orange-border-only.gif) no-repeat 0 0 !important;
+    border-bottom: 0;
+    float:right;
+    height: 24px;
+    margin: 9px 20px 0 10px;
+    position:relative; 
+}
+
+#Search .returnToPreviousSearchDiv .Right 
+{
+	background:transparent url(../Images/BTN-orange-border-only.gif) no-repeat scroll 100% -24px !important;
+	height: 24px;
+	display:block;
+	padding:0;
+}
+
+#Search .returnToPreviousSearchDiv .Right .Center
+{
+    background: url(../Images/BTN-orange-border-only.gif) repeat-x 0 -48px !important;
+    font-size:11px;
+    font-weight:normal;
+    height: 24px;
+    margin: 0 4px 0 3px !important;
+    padding: 0 !important;
+}
+
+#Search .returnToPreviousSearchDiv .returnPreviousSearchHyperlink
+{
+    border: 0;
+    display: block;
+    font-weight: normal;
+    /*height: 25px !important;*/
+    padding:6px 0px 0 0px !important;
+    text-transform:uppercase;
+    margin: 0 4px;
+    color: #6699cc;
+}
+
+#Search a.returnPreviousSearchHyperlink:hover
+{
+	border-bottom:1px dotted #4385C0 !important;
+}
+
+/* $$$ accordion */
+#MSO_accordion {
+			width: 255px;
+			margin-bottom:22px;
+		}
+
+#MSO_accordion .MSO_toggler 
+{
+    overflow:hidden;
+}
+
+div.MSO_toggler {
+		cursor: pointer;
+		color: white;
+		margin: 0px;
+		padding: 0px;
+		height: 34px;
+		width: 100%;
+		margin-top: 6px;
+}
+		
+			div.MSO_toggler .left,
+			div.MSO_toggler .right,
+			div.MSO_toggler .center
+			{
+				background-color: transparent;
+				background-image: url(../images/BTN-SPRITE-accordionDarkBar.gif);
+				background-repeat: no-repeat;
+				height: 34px; /* $$$ this is the value that makes the togglerheader have the bottom rounded cornereven when selected */
+			}
+			
+			div.MSO_toggler .left
+			{
+				padding-left: 3px;
+				background-position: 0px 0px;
+			}
+			
+			div.MSO_toggler .right
+			{
+				padding-right: 3px;
+				background-position: right -34px;
+			}
+			
+			div.MSO_toggler .center
+			{
+				line-height: 34px;
+				background-repeat: repeat-x;
+				background-position: 0px -68px;
+				padding: 0px 5px;
+				position: relative;
+			}
+			
+			/* toggler hover */
+			div.MSO_togglerHover .left { background-position: 0px -102px; }
+			div.MSO_togglerHover .right { background-position: right -136px; }
+			div.MSO_togglerHover .center { background-position: 0px -170px; }
+			
+			/* toggler onstate*/
+			div.MSO_togglerOn { overflow:auto; }
+			
+			div.MSO_togglerOn .left { background-position: 0px -204px; }
+			div.MSO_togglerOn .right { background-position: right -238px; }
+			div.` .center { background-position: 0px -272px; }
+			
+			div.MSO_toggler .center span.title,
+			div.MSO_toggler .center span.counts
+			{
+				display: inline;
+			}
+			
+			div.MSO_toggler .center span.title
+			{
+				float: left;
+			}
+			
+			div.MSO_toggler .center span.counts
+			{
+				text-align: right;
+				float: right;
+			}
+
+		div.MSO_element
+		{
+			background-color: #dbdbdb;
+			height: 180px;
+		}
+		#moreSearchOptionsWindow_contentWrapper
+		{
+		    overflow:hidden;    
+		}		
+			div.MSO_element .collectionOptionsWrap
+			{
+				background-color: #e8e8e8;
+				height: 191px;
+				width: 100%;
+				overflow:hidden;
+			}
+				div.MSO_element .collectionOptionsWrap .collectionsPadding
+				{
+					padding: 5px;
+					height: 191px;
+				}
+				div.MSO_element .collectionOptionsWrap .collectionsPadding .checkboxWrap .checkbox
+				{
+				    position:static !important;
+                    margin-bottom:5px;
+				}
+				div.MSO_element .collectionOptionsWrap .collectionsPadding .checkboxWrap .ImageCheckbox
+				{
+				    padding-bottom: 0px !important;
+                    padding-left: 0px !important;
+                    padding-right: 0px !important;
+                    padding-top: 0px !important;
+				}
+				div.MSO_element .collectionOptionsWrap .collectionsPadding .checkboxWrap .imageCheckbox
+				{
+				    display:inline !important;
+                    vertical-align:top;
+                    font-family:Trebuchet MS;
+                    font-size:11px; 
+				}
+				div.MSO_element .collectionOptionsWrap .collectionsPadding .checkboxWrap .imageCheckbox Label
+				{
+				    padding-left:4px; 
+				}
+			
+			div.MSO_element .selectLinksWrap
+			{
+				padding: 3px 8px;
+				color: #1a1a1a;
+			}
+		
+			div.MSO_element .elementFooter
+			{
+				padding-left: 4px;
+				height: 4px;
+			}
+		
+			div.MSO_element .elementFooter,
+			div.MSO_element .elementFooter .right
+			{
+				background: transparent url(../images/RC-SPRITE-accordianBottomCorners.gif) no-repeat 0px 0px;
+				height: 4px;
+				width:4px;
+			}
+
+			div.MSO_element .elementFooter
+			{
+            bottom:6px;
+            left:0px;
+            position:relative;
+            z-index:0;
+			}
+
+			div.MSO_element .elementFooter .right
+			{
+    		background-position:  right -4px ;
+            bottom:0;
+            left:251px;
+            position:absolute;
+            z-index:2000;
+			}
+
+.msoSectionLabel {
+    display:inline !important;
+    padding-left:4px;
+    vertical-align:top;
+    font-family:Trebuchet MS;
+    font-size:11px;    
+}
+.checkboxWrap {
+   margin-bottom:2px;     
+}
+.selectLinksWrap {
+    vertical-align:text-bottom;    
+}
+.dateCombo
+{
+    text-align:left !important; 
+}
+
+/************************************************
+
+    OPTIONS APPLIED MODAL POPUP
+
+*************************************************/
+
+.optionsSubtitle
+{
+    margin:0;
+    position:absolute;   
+    top:7px;
+    left:7px;
+}
+div.optionsSubtitle span
+{
+     white-space:nowrap; 
+}
+div.optionsTitleWrapper span
+{
+    color: #797979;
+    font-weight: normal;   
+    font-size: 14px;
+    font-family:Trebuchet MS;
+    white-space:nowrap;  
+}
+.subWrapper
+{
+    margin-top:5px;
+}
+#ctl00_mainContent_searchControl_optionsAppliedSubTitle
+{
+   color: #1a1a1a;
+   font-weight: normal;   
+   font-size: 10px;
+   font-family:Trebuchet MS;
+   white-space:nowrap;  
+}
+.optionsAppliedCloseButton
+{
+    float:right;
+    margin:0px 0px 0px 0px;
+    vertical-align:top;
+    cursor:pointer; 
+    position:absolute; 
+    right:7px;   
+    top:7px;
+}
+div.optionsAppliedClose img:hover
+{
+}
+.optionsAppliedDataContainer
+{
+    margin-top:8px;
+    padding-left:8px;
+    padding-right:8px;
+    background-color:#e8e8e8;  
+    height:auto;
+}
+    .optionsAppliedDataContainer .dataContainerDivider
+    {
+        width:1px;
+        height:8px;
+    }
+.optionsLightText
+{
+    font-family:Trebuchet MS;
+    font-size:11px;
+    color:#999999;
+    font-weight:normal;
+}
+.optionsValueText
+{
+    font-family:Trebuchet MS;
+    font-size:11px;
+    color:#1a1a1a;
+    font-weight:normal;
+}
+.pairing
+{
+    margin-bottom:4px;
+}
+.imageNumbers
+{
+    font-size:12px; 
+    color:#333333; 
+    font-family:Trebuchet MS,Lucida Grande,Arial,Helvetica,sans-serif,Unicode MS;
+}

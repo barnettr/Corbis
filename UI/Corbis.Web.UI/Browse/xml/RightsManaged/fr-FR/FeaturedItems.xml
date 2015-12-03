@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Nouvelles photographies</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Premium DG| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Premium DG| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Direction artistique ultra-soignée, des images stylisées. Des nouveautés à ne pas manquer.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush : théâtral !</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Premium DG| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Premium DG| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Une collection d’images stylisées aux mises en scène esthétiques, décalées et recherchées qui correspondent aux tendances actuelles.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Rapport de tendance : entreprise engagée</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Premium DG| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Premium DG| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-FR.pdf?cid=fr-fr" localize="true" Text="Télécharger le PDF" Title="Télécharger le PDF"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>Plus que jamais, les sociétés ont identifié le lien existant entre l'action sociale positive et la rentabilité. L'environnement, l'éducation et l'éthique sont les tout nouveaux indicateurs clés de performance.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-FR.pdf?cid=fr-fr" localize="true" Text="Télécharger le PDF (1.83 Mo)" Title="Télécharger le PDF"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

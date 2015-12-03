@@ -1,0 +1,214 @@
+﻿.thumbWrap 
+{
+	text-align:center;
+}
+
+.fl
+{
+	float:left;
+}
+
+/* $$$ ====[ title styles ]==== */
+
+#expressDownloadTitleBar
+{
+	background-color:#dbdbdb;
+    cursor:default;
+	height:27px;
+	padding-top: 5px;
+	width:960px;
+}
+
+#expressDownloadTitleBar a:hover
+{
+	border-bottom: none;
+}
+
+#expressDownloadTitleBar .chatIcon
+{
+    float: right;
+    width: 13px;
+    height: 11px;
+    background: url(/Images/ICN-chat.gif) no-repeat 0 0;
+    margin-left: 4px;
+}
+
+#expressDownloadTitleBar .chatDiv
+{
+	float:right;
+	margin:2px 20px 0 0;
+	text-align: right;
+	width: 50px;
+}
+
+#expressDownloadTitleBar .closeButton
+{
+	border: 0px;
+    float: right;
+    margin-right:10px;
+}
+
+#expressDownloadTitleBar .title
+{
+    color: #1A1A1A;
+    float: left;
+    margin-left:13px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* $$$ ====[ body styles ]==== */
+
+#expressDownloadBody
+{
+	background-color:#dbdbdb;
+	height:338px;
+	padding: 0 13px 5px 3px;
+	width:944px;
+}
+
+#orderInfo, #imageDownload
+{
+	background-color: #e8e8e8;
+	margin-left:10px;
+	width:462px;
+}
+
+#CompletedOrder, #imageDownload .imageDownloadContent
+{
+	color:#1a1a1a;
+	height:313px;
+	margin: 7px 11px;
+}
+
+#orderInfo .successMessage, #imageDownload .downloadHeading
+{
+	font-size:16px;
+	font-weight:bold;
+}
+
+#orderInfo .orderDetails
+{
+	font-size:15px;
+	font-weight:normal;
+	margin-top:20px;
+}
+
+#orderInfo .orderMessage
+{
+	font-size:12px;
+	font-weight:normal;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#imageDownload .downloadMessage
+{
+	line-height:15px;
+	margin-top:20px;
+	margin-bottom:4px;
+}
+
+/* $$$ ====[ downloadProducts styles ]==== */
+
+#downloadProducts 
+{
+	background-color:#e8e8e8;
+	display:inline-block;
+	margin-top:22px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+}
+
+#downloadProducts .productBlock 
+{
+	-moz-box-orient:vertical;
+	border:2px solid #BFBFBF;
+	display:inline-block;
+	float:left;
+	padding:3px;
+	position:relative;
+	vertical-align:top;
+	width:128px;
+}
+
+#downloadProducts .productContent 
+{
+	background-color:#333333;
+	height:128px;
+	width:100%;
+}
+
+#downloadProducts .productBlock .fileSize 
+{
+	margin-top:3px;
+	width:100%;
+}
+
+#downloadProducts .productBlock .downloadbutton 
+{
+	margin-top:3px;
+}
+
+#downloadProducts .productBlock .downloadbutton .Center 
+{
+	width:118px;
+}
+
+#downloadProducts .productBlock img:hover
+{
+    cursor: pointer;
+}
+
+/* $$$ ====[ progress modal styles ]==== */
+
+#downloadProgress
+{
+	background-color: Transparent;
+	color: #4385C0;
+	height: 185px;
+	text-align: center;	
+	width:315px;
+}
+
+#downloadProgress .standBy
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#downloadProgress .downloadMessage
+{
+	font-size: 14px;
+	margin-top: 5px;
+	/* REBRANDING */
+	color: White;
+}
+
+#downloadProgress .cancelButton
+{
+	margin-top: 25px;
+}
+
+
+#downloadImagesModal .zipFiles
+{
+	margin-top: 15px;
+}
+
+#downloadImagesModal .zipFilesHeader
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+#downloadImagesModal hr
+{
+	width: 348px; 
+	color: #d0d0d0;
+}
+
+#downloadImagesModal .ModalPopupPanelDialog .ModalPopupContent
+{
+	width:348px;
+}

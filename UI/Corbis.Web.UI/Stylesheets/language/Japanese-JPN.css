@@ -1,0 +1,228 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+
+/* ====[ general ]=========================== */
+ 
+ html body  *
+{
+    font-family: "Trebuchet MS","Lucida Grande","Arial,Helvetica,sans-serif","Unicode MS", "ＭＳ Ｐゴシック","Osaka";   /* MS Gothic (Gothic EMUESU) for Win; Osaka for Mac  */
+    font-style:normal !important;
+    font-weight:normal !important;
+ }
+
+ /* ====[ font-size:12px ]============= */
+
+ #Search .MSOButton .Center,
+ #refineHeader, 
+ #lightboxHeader, 
+ #lightboxHeaderNew, 
+ #quickPicHeader,
+.inSearchBuddy div.imageCheckbox span,
+.sortBlock .GlassButton a,
+.ProductBlock .categoryInfo, 
+#header2 span,
+.PricingBox .innerWrap,
+#FooterContent,
+#imageDetailsDiv,
+.fineDetails span,
+.DetailHeader span,
+.menuButtons,
+#FooterContent .Column div,
+#transferLightbox .instructions,
+#optionsAppliedModalWindow_overlay *,
+.NoteName,
+.noteName,
+.clientName,
+#viewDimensions span,
+.valueType,
+#LightboxProducts .noteContent
+{
+    font-size:12px;
+}
+.collectionInfo
+{
+    font-size:11px !important;
+}
+ 
+/* ====[ font-size:13px ]============= */
+ 
+.keywordsSection .viewDimensions, 
+div.imageCheckbox span,
+#clearKeywords a,
+.PriceImageHeader .PricingInfo span,
+.cartBlock .detailsWrap .actLikeLink,
+.productBlock span,
+.headertitles,
+.clientData .txtName,
+.clientData .lblName,
+.noteData .txtNote,
+.noteData .lblNotes   
+{
+    font-size:13px !important;            
+}
+ 
+ /* ====[ end of general ]=========================== */
+
+.optionsBlock a span  
+{  /* delivery icons in stage 2 of checkout */
+    position:relative;
+    top:-4px;
+ }
+ 
+.SBT_lightboxes img 
+{
+	background-image:url(/Images/ja-JP/buddyTabLightbox_off.gif);
+	height:103px;
+}
+.SBT_lightboxes.ON img 
+{
+	background-image:url(/Images/ja-JP/buddyTabLightbox_on.gif);
+}
+.SBT_lightboxes img:hover
+{
+	background-image:url(/Images/ja-JP/buddyTabLightbox_hover.gif);
+}
+
+.SBT_filters img {
+    background-image:url(/Images/ja-JP/buddyTabFilters_off.gif);
+    height:85px;
+}
+.SBT_filters.ON img {
+    background-image:url(/Images/ja-JP/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/ja-JP/buddyTabFilters_hover.gif);
+}
+
+.SBT_quickpic img {
+    background-image:url(/Images/ja-JP/buddyTabQuickPic1.gif);
+}
+.SBT_quickpic.ON img {
+    background-image:url(/Images/ja-JP/buddyTabQuickPic2.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/ja-JP/buddyTabQuickPic3.gif);
+}
+.RightForm input
+{
+    width:190px !important;
+}
+.RightForm select
+{
+    width:190px !important;
+}
+.LeftForm
+{
+    border-bottom: solid 1px #dbdbdb;
+	font-weight: bold;
+	line-height: 12px;
+	width: 120px;
+	padding: 7px 8px 7px 10px;
+	text-align: right;
+	font-size:12px;
+	color:#1a1a1a;
+	white-space:normal;
+}
+                                      
+ /* search page */
+
+#CheckoutWidget .Checkout .Right .Center a {
+    font-size:16px;
+}
+
+#header2 span 
+{
+    line-height:26px;
+}
+
+#moreDisplayOptionsWindow
+{
+    left:500px !important;
+}
+
+#moreDisplayOptions,
+.seperatorLine
+{
+    width:200px !important;
+}
+
+#sortOptionTrigger a span
+{
+    display:inline-block;
+    padding-top:4px;
+}
+  
+/* search buddy: for bug no. 17553 */  
+.SBT_filters img {
+height:95px;
+}
+
+/* search options applied; bug no.17927 */
+#Search .optionsAppliedDiv {
+width:150px;
+}
+                                                    
+/* ====[ 'transfer' modal in lightbox page ]==========*/
+#transferLightbox .ModalPopupPanelDialog .ModalTitleBar .Title 
+ {
+     font-size:16px;
+ }
+
+#transferLightbox  .ModalTitleBar .Title 
+{
+    height:24px;
+}
+
+#noMemberMessage
+{
+    top:-139px;                                      
+}                      
+
+/* ====[ accounts page ]==============*/
+#AccountsNavigation .Tab .Title
+ {
+    line-height:14px;
+ }
+ 
+ .sortOptionText
+ {
+    margin-top:-5px;
+ }
+                              
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:430px !important;
+}
+                             
+/* sign in modal: necessary for IE7 */
+.SignInContent #forgotWrapper
+{
+   padding-bottom:5px;
+}
+     
+/* 
+cart button:
+IE cannot handle nowrap/width:auto because positioning is handled by floats, and floats in IE7 need a width in this situation in the polish version.  
+Should be rebuilt using a table if the fixed width becomes an issue/it's an issue in future languages.
+Bug 13866
+ */
+
+#cartCountDiv,
+.Checkout
+{
+width:110px;
+}
+
+
+/* CHECKOUT */
+#quitCheckout .ModalPopupContent { width: 358px; }
+
+
+/* Display point of view label correctly in enlargement */
+#ctl00_search_pointOfViewLabel
+{
+    display:block;
+}

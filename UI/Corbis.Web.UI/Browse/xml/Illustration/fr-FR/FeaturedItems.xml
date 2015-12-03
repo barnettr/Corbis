@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Portrait : Chuck Shacochis</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| Standard DG| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| Standard DG| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Puisant son inspiration dans les dessins animés de l'entre-deux guerres et dans les affiches de films russes, Shacochis décrit son style noir comme « de l'illustration inspirée par les vieux dessins animés avec l'aspect contemporain en plus. »  </p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>CSA Images : un graphisme inventif</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| Standard DG| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| Standard DG| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Le côté provocateur des collections originales de CSA Images s'applique à un éventail de styles.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Incroyablement simple</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| Standard DG| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| Standard DG| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>On constate aujourd'hui une nouvelle tendance pour les dessins animés pour adultes auxquels les personnages décapants de Venki Talath s'adressent.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

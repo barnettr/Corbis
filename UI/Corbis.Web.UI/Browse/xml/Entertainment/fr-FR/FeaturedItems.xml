@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Blockbusters : été 2009</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Standard DG| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Standard DG| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Les plus grandes stars et les plus grosses productions rivalisent pour obtenir la première place au box-office de l'été. Amour, comédie, drame et science-fiction viendront animer nos écrans cette année. Découvrez ce que vous réservent les films en 2009.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Corbis Outline : des portraits exclusifs de personnalités</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Premium DG| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium DG| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="Voir les portraits Outline" Title="Voir les portraits Outline"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Artistes et muses. Légendes et ingénues. Corbis Outline™ vous offre les personnalités les plus connues et les plus emblématiques photographiées par les meilleurs.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="Voir les portraits Outline" Title="Voir les portraits Outline"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

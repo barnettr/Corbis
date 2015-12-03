@@ -1,0 +1,5 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ErrorsMaster.Master.cs" Inherits="Corbis.Web.UI.MasterPages.ErrorsMaster" MasterPageFile="~/MasterPages/MasterBase.Master" %>
+   <asp:Content ID="mainContent" runat="server" ContentPlaceHolderID="mainContent">
+        <asp:ContentPlaceHolder ID="ErrorContent" runat="server">
+        </asp:ContentPlaceHolder>
+  </asp:Content>

@@ -1,0 +1,12 @@
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Corbis.Web.UI.HttpModules.dll.config
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Corbis.Web.UI.HttpModules.dll
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Corbis.Web.UI.HttpModules.pdb
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Corbis.Framework.Logging.dll
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\obj\Debug\ResolveAssemblyReference.cache
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\obj\Debug\Corbis.Web.UI.HttpModules.dll
+c:\TFS\Sustainment\DEV\Corbis.Web\src\UI\Corbis.Web.UI.HttpModules\obj\Debug\Corbis.Web.UI.HttpModules.pdb

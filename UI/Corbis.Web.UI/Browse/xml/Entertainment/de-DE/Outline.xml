@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleText>
+	<Title>Outline</Title>
+	<Copy>
+		<![CDATA[
+				<p></p>
+			]]>
+	</Copy>
+	<Links>
+		<Link Url="Outline.aspx" Text="Werden Sie Mitglied" Title="Werden Sie Mitglied"  />
+	</Links>
+</ModuleText>

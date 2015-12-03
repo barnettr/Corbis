@@ -1,0 +1,890 @@
+.OuterContainer
+{
+	width: 700px;
+	/*height:514px !important;*/
+}
+.TitleBar
+{
+	cursor: default; 
+	width: 700px; 
+	height: 25px;
+	border-bottom: solid 1px #cccccc;
+    background-color:#dbdbdb;
+}
+.TitleBar .PriceImageTitle
+{
+	float: left;
+	margin-left:13px;
+}
+.TitleBar .CloseButton
+{
+	float: right;
+	margin-right:10px;
+}
+.SaveTip 
+{
+	height:200px;
+	width:300px;
+}
+.StartOver
+{
+	padding-top: 12px;
+	padding-right: 5px;
+	float: right;
+	font-size: 12px;
+	line-height:20px;
+}
+
+.calendarWarningClass
+{
+    /*position: relative;
+    left: -132px;*/
+    display:block;
+    margin-top: 15px;
+}
+.StartOver input
+{
+	margin-bottom: 2px;
+	vertical-align: middle;
+}
+.TitleBar .Title
+{
+	display:inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	line-height:20px;
+}
+.TitleBar .SubTitle
+{
+	/* REBRANDING
+	color: #206aff;
+	*/
+	color: #646464;
+	
+	font-weight: normal;
+	font-size: 12px;
+	margin-left: 12px;
+}
+.ChatDiv
+{
+    float:right;
+    margin:1px 20px 0 0;
+}
+.PrintDiv
+{
+    float:right;
+    margin:0 20px 0 0
+}
+.ChatIconImg
+{
+    display:block;
+    float:left;
+    width:13px;
+    height:11px;
+    background: url(/Images/ICN-chat.gif) no-repeat 0 0;
+    margin:2px 0 0 4px;
+    text-indent:-5000px;
+}
+.ChatIconImg:hover
+{
+    background-position:0 -11px;
+    border-bottom:none;
+}
+.PrintIconImg
+{
+    display:block;
+    float:left;
+    width:16px;
+    height:16px;
+    background: url(/Images/ICN-print.gif) no-repeat 0 0;
+    text-indent:-5000px;
+}
+.PrintIconImg:hover
+{
+    background-position:0 -17px;
+    text-decoration: none !important;
+}
+.ChatIconText
+{
+    float:left;
+    margin-top: 2px;
+    text-decoration: none !important;
+}
+
+.CancelButtonDiv
+{
+	float: right;
+}
+.CancelButton
+{
+	font-weight:bold;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.Close:hover
+{
+	text-decoration: none !important;
+	border: none;
+}
+
+div.CloseButton a:hover
+{
+	border-bottom: none !important;
+}
+
+.ConfirmClose
+{
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	font-size: 13px;
+}
+a:active, a:hover, .actLikeLink:hover 
+{
+	/*border-bottom: none !important;*/
+	border-bottom: 1px dotted #4385C0;
+}
+
+.headerFont
+{
+    color:#808080;
+    font-size:14px;   
+}
+
+.ConfirmClose .ConfirmCloseCancel
+{
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	height: 20px;
+}
+.ConfirmClose .ConfirmCloseContinue
+{
+	float: right;
+}
+
+.RMPricing
+{
+    width: 700px !important;
+	clear:both;
+	background-color:#797979;
+	overflow-x:auto;
+	padding-bottom:12px;
+	/*height:370px;*/
+}
+.SavedUsageDropDown
+{
+	width: 350px;
+}
+
+.CustomPricing
+{
+    background-color:#DBDBDB;
+	/*width: 415px;*/
+	width: 415px;
+	float: left;
+	margin:12px 0 0 10px;
+	
+}
+.LicenseDetails
+{
+	background-color: #DBDBDB;
+	float: right;
+	width: 253px; /* should be 254px, but the temp scroll bar breaks it */
+    margin:12px 10px 0 10px;
+}
+.CustomPricing .Title, .LicenseDetails .Title
+{
+	background-color: #DBDBDB;
+	color: #666;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 4px 12px 14px 12px;
+	height: 25px;
+	/*height: 30px;*/
+}
+
+.emptyDiv
+{
+    height: 0px;   
+}
+
+.CatagoryDropDownPosition
+{
+    position:relative;
+    top: 50px;
+    left: 10px;  
+}
+.SpecificDropDownPosition
+{
+    position:relative;
+    top: 60px;
+    left: 10px;  
+}
+
+/*
+
+{
+    border: 1px solid lime !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    zoom: 1 !important;
+    
+}
+*/
+
+.Content
+{
+	background-color: #e8e8e8;
+	color: #000;
+	line-height: 16px;
+	padding: 13px 12px 13px 12px;
+	/*height: 350px;*/
+	height: 260px;
+	overflow-y: auto;
+	overflow-x:hidden;
+}
+.SelectSavedUsage
+{
+	width: 410px;
+    background-color: #fff;
+    border-bottom:2px solid #e8e8e8;
+}
+.saveFavoriteUsePopUpLabel
+{
+    display:block;
+    height:30px;
+    margin-bottom:12px;
+    width:286px;
+}
+
+/* Express checkout title in French in particular - bug 18866 */ 
+#saveFavoriteUsePopUp .ModalPopupPanelDialog .ModalTitleBar .Title
+{
+	padding-bottom:10px; 
+	width:255px;                                
+}
+
+#saveFavoriteUsePopUp .ModalPopupPanelDialog .ModalTitleBar .Close 
+{
+    margin-left:0;
+    margin-right:8px;
+}
+
+.Or
+{
+    background-image:url(../Images/dividerHorizontal.gif);
+    background-repeat:repeat-x;
+    background-position: 0px 7px;
+    width: 410px;
+    height:25px;
+    text-align:center;
+
+}
+.CollapseContainer
+{
+    height: 0px !important;   
+}  
+
+.Or span
+{
+    background-color:#e8e8e8;
+    font-weight:bold;
+    font-size:18px;
+}
+.PushLeft
+{
+    padding-right:10px;
+}   
+.ButtonRight
+{
+    width:360px; 
+    text-align:right;
+}
+
+.ButtonRight div.GlassButton
+{
+	margin-left:10px;
+	padding-right:0px;
+}
+
+.PT_10 PL_10
+{
+    height: 0px
+}
+.widthController
+{
+    width: 375px !important;
+}
+
+.UseCategoriesDropDownDiv
+{
+	padding: 2px 0 2px 10px;
+}
+.UseTypesDropDownDiv
+{
+	padding: 2px 0 0px 10px;
+}
+.createANewUseDiv
+{
+	padding:5px 0;
+	border-bottom:2px solid  #E8E8E8;
+}
+
+.addBottomBorder
+{
+    
+	border-bottom:2px solid #e8e8e8;
+	padding-bottom: 2px !important;
+}
+
+.StartNewUsage
+{
+    width: 350px;
+    background-color: #fff;
+    padding: 10px 0 10px 0;
+}
+.StartNewUsage h3, .SelectSavedUsage h3
+{
+	font-size: 13px;
+    font-weight:bold;
+    color:Black;
+}
+
+.or
+{
+    position: relative;
+    font-size:18px;
+    padding: 5px 2px 0px 2px; 
+    background-color: #e8e8e8;
+    width: 20px;
+    top: -10px;
+    left: 170px;
+}
+.dottedLine
+{
+    border-bottom: 1px dotted #808080;
+    text-align:center;
+    padding-top:18px;
+    padding-bottom:0px;
+    background-color: #e8e8e8;
+    height: 0px;    
+}
+.StartNewUsage .NewUsageSelectors
+{
+    display:block;
+    background-color:#fff;
+    border-bottom:2px solid #e8e8e8;
+    padding-top: 3px;
+}
+
+.NewUsageSelectorsNoBorder
+{
+    display:block;
+    background-color:#fff;
+    border-bottom: none;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.SelectedAttribute 
+{
+ background-color :#E1E1E1 !important;
+}
+
+.UnselectedAttribute
+{
+ background-color :#fff;
+}
+
+.font--color
+{
+    color: #1a1a1a;
+    }
+.StartNewUsage .NewUsageSelectors input
+{
+    /*display:block;*/
+    margin:5px 0;
+}
+.NewUsageSelectorsNoBorder input
+{
+    display:block;
+    margin:5px 0;
+}
+.StartNewUsage .NewUsageSelectors span
+{
+	padding-left: 10px;
+	
+}
+.NewUsageSelectorsNoBorder span
+{
+	/*padding-left: 10px;*/
+	
+}
+.NewUsageSelectorsNoBorder div
+{
+	padding: 0 0 5px 0px;
+}
+.StartNewUsage .NewUsageSelectors div
+{
+	padding: 0 0 5px 10px;
+}
+.StartNewUsage .NewUsageSelectors div div
+{
+	padding: 0 0 0 0;
+}
+.StartNewUsage .NewUsageSelectors div span
+{
+	padding: 0 0 0 0;
+}
+.StartNewUsage .NewUsageSelectors div div div
+{
+	padding: 0 0 0 0;
+}
+.UseTypeAttributeDropDowns
+{
+    padding: 0px 0px 0px 0px;
+    top: 0px;
+    vertical-align: top;
+    margin: 0px 0px 0px 0px;
+     
+}
+.StartNewUsage select
+{
+    width:350px;
+    top: 0px;
+}
+.CalendarText
+{
+	float: left;
+	margin-bottom: 15px;
+}
+.ICN-calendar
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	padding-left: 15px;
+	padding-top: 3px;
+}
+
+#ctl00_mainContent_useTypeAttributesRepeater_ctl03_useTypeAttributeDiv
+{
+ position: static !important;   
+}
+
+.QuestionText
+{	
+	font-weight: bold;
+}
+.AnswerText
+{	
+	margin-bottom: 0px;
+}
+
+.licenseDetailsBlockSeperatorBottom
+{	
+	margin-bottom: 15px;
+}
+
+.licenseDetailsBlockSeperatorTop
+{	
+	margin-top: 15px;
+}
+.PricingBottom
+{
+    width: 670px;
+	padding:5px 15px 5px 15px;
+	background-color:#dbdbdb;
+	height:1px;
+	
+}
+.PricingBottom .ViewRestrictions
+{
+	margin-top: -2px;
+}
+
+#restrictionsPopupWindow
+{
+    top:0 !important;
+}
+
+.ModelReleaseLabel,
+.PropertyReleaseLabel
+{ 
+	font-weight: bold;
+}
+
+.RestrictionsList
+{
+	margin-left: 10px;
+}
+
+#restrictionsPopup .FormButtons
+{
+    margin:0 0 -10px 0 !important;
+    max-height:300px !important;
+    overflow:auto;
+    padding:10px;
+    width:525px;
+}
+
+#restrictionsPopup .ModalPopupContent
+{
+    padding:0 0 0 5px !important;
+}
+
+.restrictionValues
+{
+    padding-bottom:20px;
+}
+
+    .restrictionValues ul
+    {
+        list-style-type:none;
+        margin:0;
+    }
+
+    .restrictionValues li
+    {
+        margin-top:15px;
+    }
+
+.PricingBottom .ExclusiveRights
+{
+	float: right;
+	margin-top: -2px;
+}
+.PricingFooter
+{
+    width:670px;
+	border-top: solid 1px #ccc;
+	background-color:#dbdbdb;
+	padding: 10px 15px 5px 15px;
+	margin-top:0 !important;
+	margin-top:15px;
+	position: fixed;
+    bottom: 0px;
+}
+
+/* =============== Geography Control ===============*/
+.GeographyControl
+{
+	width: 350px;
+	display: block;
+	height: 160px;
+}
+.GeographyControlLeftList
+{
+    float:left;
+	width: 160px;
+}
+.GeographyControlLeftList select
+{
+	width: 160px;
+	
+}
+.GeographyControlButtons
+{
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.GeographyControlAddButton
+{
+	margin-top: 35px;
+}
+.GeographyControlRemoveButton
+{
+	margin-top: 10px;
+	padding: 0px 1px 0px 1px;
+}
+.GeographyControlAddButton input,
+.GeographyControlRemoveButton input
+{
+	width: 20px;
+	height: 20px;
+	border: none !important;
+}
+
+.GeoPrevButton 
+{ 
+background-image:url(../images/arrowbuttonSmallLeftHoverffffff.gif);
+}
+.GeographyControlRightList
+{
+	float: left;
+	width: 160px;
+}
+.GeographyControlRightList select
+{
+	width: 160px;
+}
+
+/* =============== Calendar Control ===============*/
+.ajax__calendar_container {padding:4px;position:absolute;cursor:default;width:170px;font-size:11px;text-align:center;font-family:tahoma,verdana,helvetica;}
+.ajax__calendar_body {height:139px;width:170px;position:relative;overflow:hidden;margin:auto;}
+.ajax__calendar_days, .ajax__calendar_months, .ajax__calendar_years {top:0px;left:0px;height:139px;width:170px;position:absolute;text-align:center;margin:auto;}
+.ajax__calendar_container TABLE {font-size:11px;}
+.ajax__calendar_header {height:20px;width:100%;}
+.ajax__calendar_prev {cursor:pointer;width:15px;height:15px;float:left;background-repeat:no-repeat;background-position:50% 50%;background-image:url(<%=WebResource("AjaxControlToolkit.Calendar.arrow-left.gif")%>);}
+.ajax__calendar_next {cursor:pointer;width:15px;height:15px;float:right;background-repeat:no-repeat;background-position:50% 50%;background-image:url(<%=WebResource("AjaxControlToolkit.Calendar.arrow-right.gif")%>);}
+.ajax__calendar_title {cursor:pointer;font-weight:bold;}
+.ajax__calendar_footer {height:15px;}
+.ajax__calendar_today {cursor:pointer;padding-top:3px;}
+.ajax__calendar_dayname {height:17px;width:17px;text-align:right;padding:0 2px;}
+.ajax__calendar_day {height:17px;width:18px;text-align:right;padding:0 2px;cursor:pointer;}
+.ajax__calendar_month {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+.ajax__calendar_year {height:44px;width:40px;text-align:center;cursor:pointer;overflow:hidden;}
+
+.ajax__calendar .ajax__calendar_container {border:1px solid #646464;background-color:#ffffff;color:#000000;}
+.ajax__calendar .ajax__calendar_footer {border-top:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_dayname {border-bottom:1px solid #f5f5f5;}
+.ajax__calendar .ajax__calendar_day {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_month {border:1px solid #ffffff;}
+.ajax__calendar .ajax__calendar_year {border:1px solid #ffffff;}
+
+.ajax__calendar .ajax__calendar_active .ajax__calendar_day {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_active .ajax__calendar_month {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_active .ajax__calendar_year {background-color:#edf9ff;border-color:#0066cc;color:#0066cc;}
+
+.ajax__calendar .ajax__calendar_other .ajax__calendar_day {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+.ajax__calendar .ajax__calendar_other .ajax__calendar_year {background-color:#ffffff;border-color:#ffffff;color:#646464;}
+
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_day {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_month {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_year {background-color:#edf9ff;border-color:#daf2fc;color:#0066cc;}
+
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_title {color:#0066cc;}
+.ajax__calendar .ajax__calendar_hover .ajax__calendar_today {color:#0066cc;}	
+
+.groovyTips {
+	width: 150px;
+}
+
+.groovyTips .tip-top {
+	
+}
+
+.groovyTips .tip {
+	position: relative;
+}
+
+.groovyTips .tip-bottom {
+	
+}
+
+.groovyTips .tip-title {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	background: green;
+	color: white;
+	font-weight: bold;
+	padding: 4px 8px;
+}
+
+.groovyTips .tip-text {
+	background: #1e1e1e;
+	padding: 18px 10px 10px 10px;
+	color: white;
+	border: 1px solid maroon;
+}
+.ModalPopupText
+{
+    padding:0px 0px 0px 10px;
+}
+
+#confirmClose .ModalPopupPanelDialog .ModalTitleBar .Close 
+{
+margin-left:16px;
+}
+
+#confirmClose .ModalPopupPanelDialog .ModalPopupContent 
+{
+    width:auto;
+}
+
+#confirmClose .FormButtons
+{
+    margin-right:-7px;
+}
+
+.AE
+{
+    background-color:#333333;
+}
+#aeOutLine
+{
+    border: 2px solid #969696;
+    margin: 26px 9px 26px 9px;
+    /*margin: 43px 9px 26px 9px;
+    height: 258px;*/
+}
+.AE h3, #startDateBlock
+{
+    color:#e8e8e8;
+}
+.AE h3
+{
+    font-size:13px;
+    font-weight:bold;
+    margin: 34px 10px 0px 10px;
+}
+#startDateBlock
+{
+    margin: 34px 0px 0px 0px;
+}
+#errorBlock div img, #errorBlock div span  
+{
+    margin:4px;
+}
+.AE p
+{
+    color:#adadad;
+    font-size:14px;
+    margin: 4px 10px 0px 10px;
+
+}
+.AE #ctl00_mainContent_pricedByAEstartDateDiv p
+{
+    font-size:12px;    
+}
+.aeCalendar .ajax__calendar_container 
+{
+    border:1px solid #646464;
+    background-color: #E8E8E8;
+    color: black;
+}
+
+.AEDetail h3
+{
+    font-size:10px;
+    font-weight:bold;
+    color:#1a1a1a;
+    margin:2px 4px 2px 4px;
+}
+.AEDetail, .AE
+{
+    /*padding:0px 0px;*/
+}
+.AEDetail p
+{
+    margin:2px 4px 2px 4px;
+    font-size:10px;
+}
+.aeSeperater
+{
+    height:5px;
+}
+#startDateButtons
+{
+    margin:5px 0 3px 130px;
+}
+
+#startDateButtons span
+{
+    display:none;
+}
+
+.WarningMode
+{
+    background-color:#FFFFCE;
+    color:Black;
+}
+
+#startDateMain
+{
+    color:#e8e8e8;
+    font-size:14px;
+    font-weight:bold;
+    padding-left:10px;
+    padding-bottom: 7px;
+}
+
+.errorImage
+{
+    position:relative;
+    top: 5px;
+    left: 5px;
+}
+
+#errorBlock span
+{
+    position: relative;
+    left: 15px;
+}
+
+.RMPricing #ErrorContainer div
+{
+    font-weight:normal;
+}
+
+.CustomPricing #ErrorContainer b
+{
+    display:block;
+}
+
+#ctl00_mainContent_pricedByAEStartDateLbl 
+{
+    font-size:15px;
+    font-weight:normal;    
+}
+
+.startDateDefaultMode 
+{
+    font-size:13px;
+    font-weight:normal;    
+    margin-left:5px;
+}
+
+#ErrorContainer .Error ul, .Error div
+{
+	line-height: 16px;
+	padding: 0;
+}
+
+#ctl00_mainContent_PricedByAEUpdatePanel 
+{
+    zoom:1;  /* to create 'hasLayout' in IE */
+}
+
+.PricingBottom 
+{
+   margin-top:-3px;
+}
+
+.thumbWrap
+{
+    background-color:#333333;       /* just so we can see where it is */
+    float:right;
+    height:90px;
+    margin:10px 0 10px 10px;
+    width:90px;
+    z-index:999999;
+}
+
+.ModalPopupContent .FormButtons .GlassButton 
+{
+float:right;
+margin:2px;
+}
+.rm-info
+{
+    float: right;
+    font-weight: normal;
+    width: 130px;
+}
+
+.rm-label
+{
+    float: left;
+    width: 130px;
+}
+.deEmphasizeNoUsage 
+{
+	padding-top:0px;
+	color:#797979;
+	
+}

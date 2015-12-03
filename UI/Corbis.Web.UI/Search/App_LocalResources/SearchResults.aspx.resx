@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CategoriesPanelExtender.collapsedtext" xml:space="preserve">
+    <value>Categories...</value>
+  </data>
+  <data name="CategoriesPanelExtender.expandedtext" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="StandardMessage.Text" xml:space="preserve">
+    <value>Corbis quality images at a competitive price</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>Corbis: photography, rights, motion - Search Results</value>
+  </data>
+  <data name="editorial.Text" xml:space="preserve">
+    <value>Editorial</value>
+  </data>
+  <data name="rightsManaged.Text" xml:space="preserve">
+    <value>Rights Managed (RM)</value>
+  </data>
+  <data name="royaltyFree.Text" xml:space="preserve">
+    <value>Royalty-Free (RF)</value>
+  </data>
+  <data name="noPeople.Text" xml:space="preserve">
+    <value>No People</value>
+  </data>
+  <data name="photography.Text" xml:space="preserve">
+    <value>Photography</value>
+  </data>
+  <data name="illustration.Text" xml:space="preserve">
+    <value>Illustration</value>
+  </data>
+  <data name="color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="blackWhite.Text" xml:space="preserve">
+    <value>Black &amp; White</value>
+  </data>
+  <data name="modelReleased.Text" xml:space="preserve">
+    <value>Only Model-Released</value>
+  </data>
+  <data name="creative.ToolTip" xml:space="preserve">
+    <value>Art-directed photography and illustration ideal for commercial use</value>
+  </data>
+  <data name="editorial.ToolTip" xml:space="preserve">
+    <value>Images of real events, people, places and things</value>
+  </data>
+  <data name="documentary.ToolTip" xml:space="preserve">
+    <value>Timeless, versatile photography of our world and culture</value>
+  </data>
+  <data name="archival.ToolTip" xml:space="preserve">
+    <value>Events, people, and culture captured; from one year ago back through history</value>
+  </data>
+  <data name="fineArt.ToolTip" xml:space="preserve">
+    <value>Masterful paintings, illustration and sculpture</value>
+  </data>
+  <data name="currentEvents.ToolTip" xml:space="preserve">
+    <value>The past 12 months of global news and sports</value>
+  </data>
+  <data name="outline.ToolTip" xml:space="preserve">
+    <value>Exclusive portraits of celebrities from stage, screen, sports and business</value>
+  </data>
+  <data name="rightsManaged.ToolTip" xml:space="preserve">
+    <value>Rights and fees will be calculated for each project depending on how you plan to use the image</value>
+  </data>
+  <data name="royaltyFree.ToolTip" xml:space="preserve">
+    <value>For a one-time flat fee, images can be used an unlimited number of times in multiple projects</value>
+  </data>
+  <data name="noPeople.ToolTip" xml:space="preserve">
+    <value>No People</value>
+  </data>
+  <data name="photography.ToolTip" xml:space="preserve">
+    <value>Photography</value>
+  </data>
+  <data name="illustration.ToolTip" xml:space="preserve">
+    <value>Illustration</value>
+  </data>
+  <data name="color.ToolTip" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="blackWhite.ToolTip" xml:space="preserve">
+    <value>Black &amp; White</value>
+  </data>
+  <data name="modelReleased.ToolTip" xml:space="preserve">
+    <value>Limit your search to images with model releases on file</value>
+  </data>
+  <data name="signIn.Text" xml:space="preserve">
+    <value>&lt;span&gt;Please&lt;/span&gt; sign in</value>
+  </data>
+  <data name="reset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="searchBuddyRefineTab.Text" xml:space="preserve">
+    <value>Refine search</value>
+  </data>
+  <data name="createLightboxTitle.Text" xml:space="preserve">
+    <value>Lightbox</value>
+  </data>
+  <data name="createNew.Text" xml:space="preserve">
+    <value>Create New Lightbox</value>
+  </data>
+  <data name="emptyLightboxMessage.Text" xml:space="preserve">
+    <value>Click &lt;img src="../Images/spacer.gif" alt="lightbox" class="lightboxIcon" height="12" /&gt; to add to&lt;br /&gt;this lightbox</value>
+  </data>
+  <data name="goToLightbox.alt" xml:space="preserve">
+    <value>Got to my lightbox</value>
+  </data>
+  <data name="ambiguousTitle.Text" xml:space="preserve">
+    <value>Please clarify...</value>
+  </data>
+  <data name="zeroTitle.Text" xml:space="preserve">
+    <value>Your search returned zero results</value>
+  </data>
+  <data name="clarificationOffLink.Text" xml:space="preserve">
+    <value>Turn off clarification</value>
+  </data>
+  <data name="updateClarification.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="clarifyCancelButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="previewOff" xml:space="preserve">
+    <value>Turn off image preview</value>
+  </data>
+  <data name="previewOffSelected" xml:space="preserve">
+    <value>Turn off image preview</value>
+  </data>
+  <data name="previewOn" xml:space="preserve">
+    <value>Turn on image preview</value>
+  </data>
+  <data name="previewOnSelected" xml:space="preserve">
+    <value>Turn on image preview</value>
+  </data>
+  <data name="zeroResultsItem1.Text" xml:space="preserve">
+    <value>Check your &lt;b&gt;spelling&lt;/b&gt;</value>
+  </data>
+  <data name="zeroResultsItem2.Text" xml:space="preserve">
+    <value>Reset your &lt;b&gt;filters&lt;/b&gt; and &lt;b&gt;more search options&lt;/b&gt; from a previous search</value>
+  </data>
+  <data name="zeroResultsItem3.Text" xml:space="preserve">
+    <value>Use &lt;b&gt;quotation marks&lt;/b&gt; for phrases like "fashion model"</value>
+  </data>
+  <data name="zeroResultsItem4.Text" xml:space="preserve">
+    <value>Get expert &lt;a href='#' onclick='getSearchTipsWindow(); return false;'&gt;&lt;b style='color:#4385C0;'&gt;search tips&lt;/b&gt;&lt;/a&gt;</value>
+  </data>
+  <data name="imageGroupZeroresults.Text" xml:space="preserve">
+    <value>The item is no longer available. We apologize for the inconvenience.</value>
+  </data>
+  <data name="previousButton.Text" xml:space="preserve">
+    <value>Return to previous page</value>
+  </data>
+  <data name="downloadAll.Text" xml:space="preserve">
+    <value>Download All</value>
+  </data>
+  <data name="resetAlt.Title" xml:space="preserve">
+    <value>Reset these filters to the default state</value>
+  </data>
+  <data name="addToCartAlt.Text" xml:space="preserve">
+    <value>Add to Cart</value>
+    <comment>for Dutch FrenchGermanPolishEnglish-UK, it is "Add to Basket"</comment>
+  </data>
+  <data name="expressCheckoutAlt.Text" xml:space="preserve">
+    <value>Express Checkout</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="filterError.Title" xml:space="preserve">
+    <value>Filter error</value>
+  </data>
+  <data name="filterErrorCategories.Text" xml:space="preserve">
+    <value>Please select at least one &lt;b&gt;Creative&lt;/b&gt; or &lt;b&gt;Editorial&lt;/b&gt; filter to begin your search.</value>
+  </data>
+  <data name="filterErrorColor.Text" xml:space="preserve">
+    <value>Please select &lt;b&gt;Color&lt;/b&gt; or &lt;b&gt;Black &amp; White&lt;/b&gt;.</value>
+  </data>
+  <data name="filterErrorPhotography.Text" xml:space="preserve">
+    <value>Please select &lt;b&gt;Photography&lt;/b&gt; or &lt;b&gt;Illustration&lt;/b&gt;.</value>
+  </data>
+  <data name="filterErrorRMRF.Text" xml:space="preserve">
+    <value>Please select &lt;b&gt;Rights Managed&lt;/b&gt; or &lt;b&gt;Royalty-Free&lt;/b&gt;.</value>
+  </data>
+  <data name="filterErrorToTheLeft.Text" xml:space="preserve">
+    <value>Please change your selection to the left.</value>
+  </data>
+  <data name="filterError.Message" xml:space="preserve">
+    <value>You've selected a filter combination that will return &lt;b&gt;zero results&lt;/b&gt;.</value>
+  </data>
+  <data name="goButton.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="deleteBtnAlt.Text" xml:space="preserve">
+    <value>Delete item</value>
+  </data>
+  <data name="entertainment.ToolTip" xml:space="preserve">
+    <value>Comprehensive coverage of entertainment events and personalities</value>
+  </data>
+  <data name="AddToQuickPicAlt.Text" xml:space="preserve">
+    <value>Add to Quick Pic</value>
+  </data>
+  <data name="RemoveFromQuickPicAlt.Text" xml:space="preserve">
+    <value>Remove from Quick Pic</value>
+  </data>
+  <data name="updatingResultsText.Text" xml:space="preserve">
+    <value>Updating results...</value>
+  </data>
+  <data name="clarificationPopupHideImage.AlternateText" xml:space="preserve">
+    <value>Close Modal Popup</value>
+  </data>
+  <data name="quickPic.Text" xml:space="preserve">
+    <value>Quick Pic</value>
+  </data>
+  <data name="procFilters.Text" xml:space="preserve">
+    <value>Processing filters.</value>
+  </data>
+  <data name="searching.Text" xml:space="preserve">
+    <value>Searching ...</value>
+  </data>
+</root>

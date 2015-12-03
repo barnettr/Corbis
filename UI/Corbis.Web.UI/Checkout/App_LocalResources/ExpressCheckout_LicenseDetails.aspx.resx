@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acceptLicenseAgreement.Text" xml:space="preserve">
+    <value>I have read, understand, and accept the &lt;a href="javascript:void(0);"&gt;Corbis Content License Agreement&lt;/a&gt;. I am aware that certain uses of Corbis images may require that I obtain additional rights from third parties.</value>
+  </data>
+  <data name="acceptRestrictions.Text" xml:space="preserve">
+    <value>I have read, understand, and accept the &lt;a href="javascript:void(0);"&gt;restrictions&lt;/a&gt; for this image.</value>
+  </data>
+  <data name="AsPerContract" xml:space="preserve">
+    <value>Per your contract</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="fileSizeDisclaimer.Text" xml:space="preserve">
+    <value>&lt;strong&gt;* File sizes are approximate and may vary by color space and source. Pixel dimensions are accurate as displayed.&lt;/strong&gt; Files downloaded from our website are compressed JPEGs. If you require a TIFF or a larger output size, please &lt;a target="_blank" href="/CustomerService/CustomerService.aspx" class="lblPricingFooterDisclaimerLink"&gt;contact Customer Service&lt;/a&gt;.</value>
+  </data>
+  <data name="jobNumber.Text" xml:space="preserve">
+    <value>Job #</value>
+  </data>
+  <data name="lblCurrencyCode.Text" xml:space="preserve">
+    <value>(USD)</value>
+  </data>
+  <data name="lblPrice.Text" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lblPromotion.Text" xml:space="preserve">
+    <value>Promotion</value>
+  </data>
+  <data name="lblPromotionCode.Text" xml:space="preserve">
+    <value>Promotion code</value>
+  </data>
+  <data name="lblTax.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="lblTotal.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="licensee.Text" xml:space="preserve">
+    <value>Licensee</value>
+  </data>
+  <data name="licenseeInfo.Text" xml:space="preserve">
+    <value>
+The licensee is the individual or company who owns any purchased licenses associated
+        with this order. Licenses are not transferable.
+&lt;div class="clr"&gt;&amp;nbsp;&lt;/div&gt;</value>
+  </data>
+  <data name="lnkViewRestrictions.Text" xml:space="preserve">
+    <value>View restrictions</value>
+  </data>
+  <data name="pageDescription.Text" xml:space="preserve">
+    <value>With Express Checkout, you can quickly purchase a single image license
+and immediately download the image.</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Express Checkout</value>
+  </data>
+  <data name="poNumber.Text" xml:space="preserve">
+    <value>PO #</value>
+  </data>
+  <data name="pricesMayVary.Text" xml:space="preserve">
+    <value>Prices may vary by collection.</value>
+  </data>
+  <data name="project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="projectDetails.Text" xml:space="preserve">
+    <value>&lt;strong&gt;STEP 1:&lt;/strong&gt; Enter your project details</value>
+  </data>
+  <data name="projectName.Text" xml:space="preserve">
+    <value>Project name</value>
+  </data>
+  <data name="purchaseButton.Text" xml:space="preserve">
+    <value>PURCHASE &amp; DOWNLOAD</value>
+  </data>
+  <data name="purchaseTitle.Text" xml:space="preserve">
+    <value>&lt;strong&gt;STEP 3:&lt;/strong&gt; Purchase</value>
+  </data>
+  <data name="rfDisplayText" xml:space="preserve">
+    <value>Royalty-Free</value>
+  </data>
+  <data name="rmDisplayText" xml:space="preserve">
+    <value>Rights Managed</value>
+  </data>
+  <data name="rpRFPricingLabel.Text" xml:space="preserve">
+    <value>&lt;br /&gt;The selected image cannot be licensed for this usage online. Please Contact Us or call &lt;country-specific Corbis phone number&gt; to complete this transaction.&lt;br /&gt;&amp;nbsp;</value>
+  </data>
+  <data name="selectPaymentTitle.Text" xml:space="preserve">
+    <value>Select a payment method</value>
+  </data>
+  <data name="selectUse.Text" xml:space="preserve">
+    <value>&lt;strong&gt;STEP 2:&lt;/strong&gt; Select use</value>
+  </data>
+  <data name="step2Requirements.Text" xml:space="preserve">
+    <value>Step 1 must be completed before advancing to Step 2</value>
+  </data>
+  <data name="step3Requirements.Text" xml:space="preserve">
+    <value>Steps 1 &amp; 2 must be completed before advancing to Step 3</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>Express Checkout</value>
+  </data>
+  <data name="youAreAboutToPurchase.Text" xml:space="preserve">
+    <value>You are about to purchase this {0} image</value>
+  </data>
+  <data name="lblCustomPriceAlertMessage.Text" xml:space="preserve">
+    <value>This item has been specially priced for you by your Account Executive. </value>
+  </data>
+  <data name="lblCustomPriceAlertMessageAE.Text" xml:space="preserve">
+    <value>This item has changed since it was specially priced for you by your Account Executive. </value>
+  </data>
+  <data name="lblDimensions.Text" xml:space="preserve">
+    <value>Dimensions:</value>
+  </data>
+  <data name="lblFileSize.Text" xml:space="preserve">
+    <value>File size:</value>
+  </data>
+  <data name="lblLicensingDetails.Text" xml:space="preserve">
+    <value>License details</value>
+  </data>
+  <data name="imageCompressionCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="orderConfirmationMsg.Text" xml:space="preserve">
+    <value>If you are not redirected to the Order Confirmation 
+&lt;br /&gt;
+page within 30 seconds, please contact us at 
+&lt;br /&gt;
+{0}.
+&lt;br /&gt;&lt;br /&gt;
+Do not resubmit your order.</value>
+  </data>
+  <data name="pleaseStandBy.Text" xml:space="preserve">
+    <value>Please stand by...</value>
+  </data>
+  <data name="processingOrder.Text" xml:space="preserve">
+    <value>We are currently processing your order.</value>
+  </data>
+  <data name="restrictionsPopup.Title" xml:space="preserve">
+    <value>Restrictions</value>
+  </data>
+  <data name="weAreCompression.Text" xml:space="preserve">
+    <value>We are compressing your image for download.</value>
+  </data>
+  <data name="lblApologyStatement.Text" xml:space="preserve">
+    <value>&lt;b&gt;We apologize for the inconvenience, but your selected file size is no longer available online.&lt;/b&gt;</value>
+  </data>
+  <data name="lblContactStatement.Text" xml:space="preserve">
+    <value>Please contact your Account Executive so that we can complete your purchase offline</value>
+  </data>
+  <data name="btnContactAE.Text" xml:space="preserve">
+    <value>Contact your A.E.</value>
+  </data>
+  <data name="cancelClose.Text" xml:space="preserve">
+    <value>Continue Express Checkout</value>
+  </data>
+  <data name="confirmClose.Message" xml:space="preserve">
+    <value>Are you sure you want to &lt;b&gt;quit the Express Checkout process&lt;/b&gt; now?</value>
+  </data>
+  <data name="confirmClose.Title" xml:space="preserve">
+    <value>Quit Express Checkout?</value>
+  </data>
+  <data name="continueClose.Text" xml:space="preserve">
+    <value>Quit Express Checkout</value>
+  </data>
+  <data name="expiredGlass.Text" xml:space="preserve">
+    <value>Price now</value>
+  </data>
+  <data name="expiredTitle.Text" xml:space="preserve">
+    <value>Pricing alert</value>
+  </data>
+  <data name="mainStatement.Text" xml:space="preserve">
+    <value>Please price this image using your current options, or contact your &lt;a href="/Corporate/ContactUs.aspx"&gt;Account Executive&lt;/a&gt; for pricing assistance.</value>
+  </data>
+  <data name="strongStatement.Text" xml:space="preserve">
+    <value>&lt;b&gt;The special pricing applied by your Account Executive has expired.&lt;/b&gt;</value>
+  </data>
+  <data name="createUseLbl.Text" xml:space="preserve">
+    <value>Create a new Favorite Use</value>
+  </data>
+  <data name="or.text" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="orLabel.Text" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="questionsLabel.Text" xml:space="preserve">
+    <value>Answer a few questions to calculate price.</value>
+  </data>
+  <data name="SaveFavoriteUse.Text" xml:space="preserve">
+    <value>Save this Favorite Use</value>
+  </data>
+  <data name="saveFavoriteUseButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="saveFavoriteUsePopUpLabel.Text" xml:space="preserve">
+    <value>Name and save this Favorite Use:</value>
+  </data>
+  <data name="selectFavoriteUseLabel.Text" xml:space="preserve">
+    <value>SELECT A FAVORITE USE</value>
+  </data>
+  <data name="createAnewUseLabel.Text" xml:space="preserve">
+    <value>CREATE A NEW USE</value>
+  </data>
+  <data name="favoriteUseInstructionsLabel.Text" xml:space="preserve">
+    <value>Save time by starting with a Favorite Use.</value>
+  </data>
+  <data name="useFavoriteUse.PromptText" xml:space="preserve">
+    <value>Select a Favorite Use</value>
+  </data>
+  <data name="learnMoreLink.Text" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="licenseDetails.Text" xml:space="preserve">
+    <value>Please make a selection from the left.</value>
+  </data>
+  <data name="licenseDetailsHeader.Text" xml:space="preserve">
+    <value>License details</value>
+  </data>
+  <data name="savedUsageHeader.Text" xml:space="preserve">
+    <value>Custom pricing</value>
+  </data>
+  <data name="useCategoryLicenseDetails.Text" xml:space="preserve">
+    <value>Use Category:</value>
+  </data>
+  <data name="useTypeLicenseDetails.Text" xml:space="preserve">
+    <value>Use Type:</value>
+  </data>
+  <data name="licenseStartDate.Text" xml:space="preserve">
+    <value>License Start Date:</value>
+  </data>
+</root>

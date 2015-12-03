@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Nach Stilrichtung durchsuchen</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288755" Text="Anime" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288754" Text="Cartoon " Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288756" Text="Konzepte" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288758" Text="Progressiv" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288759" Text="Grafisch" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288760" Text="Line-Art" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288762" Text="Malerei" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288763" Text="Retro-Comics" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288764" Text="Stilisiert" Title="Bilder anzeigen"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288765" Text="Skurril" Title="Bilder anzeigen"  />
+  </Links>
+</ModuleList>

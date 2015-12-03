@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterBase.master.cs" Inherits="Corbis.Web.UI.Corporate.MasterPages.MasterBase" %>
+<%@ Register TagPrefix="Corbis" Namespace="Corbis.Web.UI.Controls" Assembly="Corbis.Web.UI.Controls" %>
+<%@ Register TagPrefix="Corbis" TagName="Footer" Src="~/src/Navigation/Footer.ascx" %>
+<%@ Register TagPrefix="Corbis" TagName="Search" Src="~/src/Navigation/Search.ascx" %>
+<%@ Register TagPrefix="Corbis" TagName="GlobalNav" Src="~/src/Navigation/GlobalNav.ascx" %>
+<%@ Register TagPrefix="AJAXExtentions" Namespace="AjaxControlToolkit.WCSFExtensions" Assembly="AjaxControlToolkit.WCSFExtensions" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html >
+<head id="Head1" runat="server">
+    <title text="<%$ Resources: defaultSiteTitle %>"></title>
+    <link rel="shortcut icon" href="~/Images/favicon.ico" type="image/x-icon" />
+</head>
+<body id="BodyTag" runat="server" class="MasterBase">
+    <form id="creativeMaster" runat="server">
+    <asp:ScriptManager ID="scriptManager" runat="server" AsyncPostBackTimeout="300" EnableScriptGlobalization="true" EnableScriptLocalization="true" >
+        <CompositeScript>
+            <Scripts>
+            	<asp:ScriptReference name="MicrosoftAjax.js" />
+	            <asp:ScriptReference name="MicrosoftAjaxWebForms.js" />
+	            <asp:ScriptReference name="AjaxControlToolkit.Common.Common.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.ExtenderBase.BaseScripts.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.TextboxWatermark.TextboxWatermark.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.Common.DateTime.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.Compat.Timer.Timer.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.Animation.Animations.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.Animation.AnimationBehavior.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.PopupExtender.PopupBehavior.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.Common.Threading.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.Calendar.CalendarBehavior.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+	            <asp:ScriptReference name="AjaxControlToolkit.FilteredTextBox.FilteredTextBoxBehavior.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+            </Scripts>
+        </CompositeScript>
+    </asp:ScriptManager>
+    <div>
+        <div>
+            <Corbis:Search id="search" runat="server" />
+        </div>
+         <div id="leftNav">
+            <asp:ContentPlaceHolder ID="leftContent" runat="server" />
+        </div>
+        <div id="MainContent">
+            <asp:ContentPlaceHolder ID="mainContent" runat="server" />
+        </div>
+        <div>
+            <Corbis:Footer id="footer" runat="server" />
+        </div>
+        <div class="clear"></div>
+        <div>
+            <Corbis:GlobalNav id="globalNav" runat="server" />
+        </div>
+    </div>
+    <div id="hiddenWorkshop" class="hdn"></div>
+     
+    </form>
+    <%-- MOCHA IFRAME MODAL -- LOADS THE SIGNIN.ASPX PAGE --%>
+    <div id="secureSignIn" runat="server" style="display:none;">
+   
+    </div>
+    <%-- END MOCHA IFRAME --%>
+    <script type="text/javascript">
+        var registerPageUrl = '<%=Corbis.Web.UI.SiteUrls.Register %>';
+        function redirectToRegister() {
+            {
+                self.focus();
+                if (window.location.search.test('ReturnUrl')) {
+                    window.location = HttpsUrl + registerPageUrl + '?redirect=' + window.location.search.substring(11);
+
+                } else {
+                    if (window.location.pathname == '/Search/SearchResults.aspx') {
+                        window.location = HttpsUrl + registerPageUrl + '?redirect=' + escape(window.location.pathname);
+                    } else {
+                        window.location = HttpsUrl + registerPageUrl + '?redirect=' + escape(window.location.pathname) + escape(window.location.search);
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>

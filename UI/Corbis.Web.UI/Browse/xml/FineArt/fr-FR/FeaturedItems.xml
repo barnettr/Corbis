@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Toutou est un art</Title>
+		<Image Src="xml/FineArt/Images/main.jpg" Alt="AAKS001420| Standard DG| © PoodlesRock/CORBIS" ImageID="AAKS001420" Attribution="| Standard DG| © PoodlesRock/CORBIS">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Au cours des siècles et à travers le monde, le meilleur ami de l'homme a toujours été un sujet artistique de premier choix.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>« Shoes, Shoes, Shoes » de Andy Warhol</Title>
+		<Image Src="xml/FineArt/Images/sub.1.jpg" Alt="42-20093397| Premium DG| © Andy Warhol Foundation/Corbis" ImageID="42-20093397" Attribution="| Premium DG| © Andy Warhol Foundation/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Andy Warhol, figure emblématique du Pop Art, débuta en dessinant des chaussures originales.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+
+</FeaturedItems>

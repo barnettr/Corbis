@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © © Jill Greenberg/Corbis Outline for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © © Jill Greenberg/Corbis Outline for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/jillGreenburg/large/" tnpath="xml/Slideshows/Images/jillGreenburg/thumb/">
+		<img src="OUT18407272.jpg" caption="Aaron Eckhart &lt;br&gt; OUT18407272 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21718659.jpg" caption="Arnold Schwarzenegger &lt;br&gt; OUT21718659 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21736734.jpg" caption="Kristen Bell &lt;br&gt; OUT21736734 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21764531.jpg" caption="Seth Rogan &lt;br&gt; OUT21764531 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21765619.jpg" caption="Nate Corddry and Rob Corddry &lt;br&gt; OUT21765619 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21766234.jpg" caption="Eddie Van Halen &lt;br&gt; OUT21766234 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21766701.jpg" caption="Fergie &lt;br&gt; OUT21766701 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21771207.jpg" caption="John C. Reilly &lt;br&gt; OUT21771207 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21778257.jpg" caption="Zachary Quinto and Chris Pine &lt;br&gt; OUT21778257 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21778802.jpg" caption="LeBron James &lt;br&gt; OUT21778802 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21779982.jpg" caption="Lindsay Lohan &lt;br&gt; OUT21779982 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21781941.jpg" caption="Martha Stewart &lt;br&gt; OUT21781941 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21800839.jpg" caption="Mike Rowe &lt;br&gt; OUT21800839 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21806780.jpg" caption="Paul Rudd &lt;br&gt; OUT21806780 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21808265.jpg" caption="Simon Cowell &lt;br&gt; OUT21808265 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21815277.jpg" caption="Seth McFarlane &lt;br&gt; OUT21815277 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21822995.jpg" caption="Sarah Polley &lt;br&gt; OUT21822995 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+    <img src="OUT21850671.jpg" caption="Rainn Wilson &lt;br&gt; OUT21850671 &lt;p&gt; | © Jill Greenberg/Corbis Outline &lt;/p&gt;" link="" />
+		<img src="OUT21864767.jpg" caption="Richard Jenkins &lt;br&gt; OUT21864767 &lt;p&gt; | © Jill Greenberg | Corbis Outline &lt;/p&gt;" link="" />
+	</album>
+</gallery>

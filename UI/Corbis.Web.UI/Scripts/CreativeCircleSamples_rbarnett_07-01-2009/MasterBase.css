@@ -1,0 +1,2399 @@
+/**************************
+ *  FOOTER
+ **************************/
+
+#FooterContent
+{
+	clear: both;
+	float:left;
+	font-size: 10px;
+	line-height: 15px;
+	min-width: 1005px;
+	width: 100%;
+	height:120px;
+	z-index: 2;
+	display:block;
+	bottom:-137px;	
+	position:relative;
+}
+
+#FooterContent .Curve
+{
+	left: 0px;
+	height: 110px;
+}
+
+#FooterContent #Left
+{
+	float: left;
+	padding: 12px 0px 0px 40px;
+	height:108px;
+}
+
+#FooterContent .Column
+{
+	float: left;
+	text-align: left;
+	width: 162px;
+}
+
+#FooterContent .Column div
+{
+	margin-bottom: 5px;
+	min-width:300px;
+	font-size: 10px;
+}
+
+#FooterContent .Column div.LicenseInformation
+{
+	display:inline-block;
+	float:left;
+	white-space:nowrap;
+	min-width:400px;
+}
+#FooterContent .Column div.LicenseInformation a, #FooterContent .Column div.LicenseInformation a:hover
+{
+	float:left;
+}
+
+#FooterContent .Header
+{
+	font-size: 12px;
+	font-weight: bold;
+	/*line-height:16px;*/
+	color: #B7B7B7 !important;
+}
+
+#FooterContent #Right .Header
+{
+	/* REBRANDING
+	color: #DD602B !important;
+	*/
+	color: #6699CC !important;
+}
+
+#FooterContent #Right
+{
+	float: right;
+	margin-top: 12px;
+	text-align: left;
+	width: 378px;
+}
+
+#FooterContent #Right hr
+{
+	border-top: solid 1px #1e1e1e;
+	border-bottom: solid 1px #4e4e4e;
+	margin: 12px 0px;
+	padding: 0px;
+}
+
+#FooterContent .Copyright
+{
+	margin-right: 15px;
+	font-size:10px;
+	line-height:12px;
+	color: #B7B7B7;
+}
+
+/* ============================================ 
+    Legal modals 
+   ============================================
+*/
+
+.contentWrapper
+{
+    background-color:#e8e8e8;
+    padding:16px 16px 16px 16px;
+    overflow:scroll !important;
+    overflow: -moz-scrollbars-vertical!important;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    height:500px !important;
+    margin-bottom:0.3em !important;
+    color:#1a1a1a;
+    line-height:16px;
+}
+#SiteUsageAgreementModalWindow_content
+{
+    height:1200px;
+}
+
+/* print version of site usage agreement */
+body#siteUsageAgreement.printVersion
+{
+    background-color:#FFFFFF;
+    color:#000000;
+    font:normal 11px "Tahoma", Verdana, Tahoma, Arial, sans-serif; 
+    height:100%;
+    line-height:16px;
+    margin:10px;
+}
+
+#siteUsageAgreement.printVersion p 
+{
+    margin:0px 0px 1.2em;
+}
+
+#siteUsageAgreement.printVersion a 
+{
+    color:#4385C0;
+    text-decoration:none;
+}
+
+#siteUsageAgreement.printVersion a:visited 
+{
+    color:#4385C0;
+    text-decoration:none;
+}
+
+#siteUsageAgreement.printVersion a:hover, 
+#siteUsageAgreement.printVersion a.context_link:hover,
+#siteUsageAgreement.printVersion a.link_light:hover
+{
+    color:#4385C0;
+    text-decoration:underline;
+}
+
+#siteUsageAgreement.printVersion #Logo
+{
+    background-repeat:no-repeat;
+    float:left;
+    height:28px;
+    padding-top:8px;
+    position:static;
+    width:100px;
+ }
+
+#siteUsageAgreement.printVersion h1 
+{
+    color:#666666;
+    font-family:Trebuchet MS;
+    font-size:18px;
+    left:20px;
+    position:relative;
+    top:20px;
+}
+
+#siteUsageAgreement.printVersion #clearMe 
+{
+    clear:both;
+    margin-top:65px;
+}
+
+#siteUsageAgreement.printVersion #copyright
+{
+    font-size:10px; 
+    font-weight:bold;
+}
+
+/* end of print version of site usage agreement */
+
+.samCloseButton
+{
+    display:inline-block;
+    margin:0;
+    cursor:pointer; 
+    position:absolute;
+    top:0px !important;
+    right:12px;
+}
+.iconHolder
+{
+    margin:0;
+}
+#SiteUsageAgreementModalWindow_title
+{
+    font-family:trebuchet MS;
+    font-size:14px;
+    line-height:25px;
+    margin-left:10px;
+    margin-top:16px;
+    padding:0;
+}
+.PrintIconImg
+{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    background: url(/Images/ICN-print.gif) no-repeat 0 0;
+}
+.PrintIconImg:hover, .PrintIconImg:active
+{
+    background-position:0 -17px;
+    border-bottom:0;
+}
+.PrintDivSiteUsage
+{
+    position:absolute;
+    top:0px;
+    right:34px;
+    cursor:pointer;
+}
+.titleWrapper
+{
+    padding-left:8px;
+    background-color:#dbdbdb;
+    height:26px;
+    font-size:14px !important;
+    color:#666666;    
+}
+.SiteUsageModalClose
+{
+    float:right;
+    margin-right:20px;
+    margin-top: 10px;
+    background-color:#dbdbdb;
+}
+.alignTop
+{
+    vertical-align:top;
+    margin-left:7px;
+}
+.Reader
+{
+    display:inline;
+    cursor:pointer;
+    padding-left:10px;
+}
+
+.Reader a:hover
+{
+	border-bottom: none;
+}
+
+.getAcrobat:hover
+{
+    border-bottom:dotted 1px #4385C0 !important;
+}
+
+/* ============================================ 
+    Request Image Research modal 
+   ============================================
+*/
+
+.RIRWrapper hr
+{
+    border:solid 1px #dbdbdb;
+    margin:0px;
+}
+
+.RIRWrapper textarea
+{
+    width:474px;
+    margin-left:14px;
+    margin-bottom:5px;
+    font-family:Trebuchet MS;
+}
+
+div.ModalDescriptionText
+{
+	line-height:16px !important;
+}
+
+/**************************
+ *  GLOBAL NAV
+ **************************/
+
+#GlobalNav
+{
+	height: 135px;
+	left: 0px;
+	min-width: 1005px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index:2;
+}
+#GlobalNav .BetaFlag
+{
+    width:62px;
+    height:13px;
+    position:absolute;
+    float:left;
+    top:1px;
+    left:2px;
+    background: url(/Images/beta_flag.png) no-repeat 0 0;
+}
+
+
+#Logo
+{
+    /*background-color: #4c4c4c;*/
+	background-image: url("../Images/Corbis_logo.png");
+	/*border: solid 1px #666666;*/
+	
+	/*background-position: -1px -1px;*/
+	background-repeat: no-repeat;
+	float: left;
+	height: 43px;
+	left: 31px;
+	top: 45px;
+	position: absolute;
+	width: 165px;
+	z-index: 0; /* mike:changed from 100 to 0 to fix ItemSummary item tooltip problem */
+}
+
+    #Logo .Over
+    {
+        /*background-image: url("../Images/Corbis_logo.png");
+    
+	    background-position: -1px -96px ;
+	    background-repeat: no-repeat;*/
+	    float: left;
+	    height: 43px;
+	    width: 165px;
+	    visibility: hidden;
+    }
+
+    #Logo:hover .Over
+    {
+	    visibility: visible;
+    }
+
+    #Logo .OverText
+    {
+	    border: none;
+	    
+	    height: 43px;
+	    /*
+	    color: #999;
+	    line-height: 12px;
+	    padding-top: 52px;
+	    
+	    text-align: center;
+	    text-decoration: none;
+	    */
+	    position: absolute;
+	    text-indent: -10000px; /* to hide the text */
+	    width: 165px;
+    }
+zx5
+#Chevron img
+{
+	height: 10px;
+	width: 10px;
+	background: url("../App_Themes/BlackBackground/Images/OrangeChevronLrg.gif") left -18px no-repeat;
+}
+
+#BrowseMenu
+{
+    position:absolute;
+	top: 65px;
+	left: 245px;
+	width: 210px;
+	z-index:550;
+}
+
+    #BrowseMenu .BrowseImages
+    {
+	    padding-bottom: 8px;
+	    width: 100%;
+    }
+
+    #BrowseMenu .BrowseImages .Icon
+    {
+	    float: left;
+	    margin-top: 3px;
+    }
+
+    #BrowseMenu .BrowseImages .Icon img
+    {
+	    background-repeat: no-repeat;
+	    background-position: 0px -18px;
+	    height: 10px;
+	    width: 10px;
+    }
+
+    #BrowseMenu:hover .BrowseImages .Icon img
+    {
+	    /*background-position: 0px -8px;*/
+    }
+
+    #BrowseMenu .BrowseImages .Text
+    {
+	    margin-left: 20px;
+    }
+
+    #BrowseMenu .BrowseImages .Title
+    {
+	    font-size: 18px;
+	    font-weight: bold;
+	    line-height: 18px;
+    }
+
+
+    
+    #dropDownMenuDropShadow
+    {
+    	background: url('/Images/shadow-c.png') top left repeat;
+    }
+
+    #dropDownMenuDiv 
+    {
+    	position: absolute;
+    	z-index: 555;
+	    cursor: hand;
+	    display: none;
+	    margin-left: 0px;
+	    top:0px;
+	    width: 200px;
+    }
+
+    #dropDownMenuDiv a
+    {
+	    color: #DCB19E;
+    }
+
+    #dropDownMenuDiv .Chevron 
+    {
+	    /*background-image: url("../Images/world.gif");
+	    background-repeat: no-repeat;
+	    background-position: right 9px;*/
+    }
+
+    #dropDownMenuDiv .DivMain
+    {
+	    /* REBRANDING
+	    background: #a83c0d;
+	    border-left: solid 1px #c4450f;
+	    border-right: solid 1px #8a310b;
+	    */
+	    
+	    background: #4385c0;
+	    border-top: solid 1px #2f5d86;
+	    border-left: solid 1px #2f5d86;
+	    border-right: solid 1px #366a9a;
+	    
+	    width: 200px;
+    }
+
+    #dropDownMenuDiv .MenuItem
+    {
+	    line-height: 32px;
+    }
+
+    #dropDownMenuDiv .ParentItemContainer
+    {
+	    /* REBRANDING
+	    border-top: solid 1px #c4450f;
+	    border-bottom: solid 1px #8a310b;
+	    */
+	    /*border-top: solid 1px #2f5d86;*/
+	    border-bottom: solid 1px #366a9a;
+	    
+	    padding: 0px 0px;
+	    text-indent:12px;
+    }
+
+    #dropDownMenuDiv .ParentItemContainer a
+    {
+        /* REBRANDING
+        color:#541E06;
+        */
+        color:#214260;
+        
+	    border-bottom: none;
+	    font-weight: bold;
+	    
+    }
+
+    #dropDownMenuDiv .ParentItemContainer:hover
+    {
+	   /* background-color: #ce3d00;*/
+    }
+
+    #dropDownMenuDiv .ChildItemContainer
+    {
+	    /* REBRANDING
+	    border-top: solid 1px #8a310b;
+	    */
+	    border-top: solid 1px #366a9a;
+	    
+	    border-bottom: none;
+	    padding-left: 12px;
+    }
+
+    #dropDownMenuDiv .ChildItemContainer a
+    {
+	    border-bottom: none;
+	    /* REBRANDING
+	    color: #dcb09d;
+	    */
+	    color: #d0e0ef;
+	    
+	    font-weight: normal;
+    }
+
+    #dropDownMenuDiv .ChildItemContainer a:hover
+    {
+	   /* color: #fff;*/
+    }
+
+    #dropDownMenuDiv .ChildItemContainer:hover,
+    #dropDownMenuDiv .MotionHover
+    {
+	    /* REBRANDING
+	    background-color: #8a310b;
+	    */
+	    background-color: #366a9a;
+    }
+
+#Selectors
+{
+	float: right;
+	height: 32px;
+}
+
+#LanguageSelector
+{
+	float: right;
+	position: relative;
+	width: 236px;                             
+	z-index:20000;
+}
+
+    #LanguageSelector .LanguageMenuTop
+    {
+	    display:block;
+	    float: left;
+	    height: 32px;
+	    line-height: 32px;
+	    padding: 0px 15px 0px;
+	    position: relative;
+    }
+
+    #LanguageSelector .LanguageMenuTop .World
+    {
+	    float: left;
+	    height: 22px;
+	    margin-top: 5px;
+	    overflow: hidden;
+	    width: 22px;
+    }
+
+    #LanguageSelector:hover .LanguageMenuTop .World img
+    {
+	    margin-top: -23px;
+    }
+
+    #LanguageSelector .LanguageMenuTop .SelectedLanguage   
+    {
+	    float: left;
+	    margin: 0px 6px 0px 4px;
+    }
+
+    #LanguageSelector .LanguageMenuTop .DownArrow
+    {
+        float:left;
+	    margin-top: 11px;	
+    }
+
+    #LanguageSelector .LanguageSelectorMenu
+    {
+	    display:none;
+    }
+
+    .LanguageMenuBottom 
+    {
+	    left: 0px;
+	    position: absolute;
+	    top: 33px;
+	    background-image: url(../Images/shadow-c.png);
+        background-position: right top;
+        background-repeat:repeat;
+        width: 159px;
+    }
+    
+    #languageSelectorMenuDropShadow
+    {
+    	background-image: url(../Images/shadow-c.png);
+    	background-position: right top;
+    	background-repeat:repeat;
+    	height: 200px;
+        width: 159px;
+    }
+
+
+    .LanguageMenuBottom .MenuItem
+    {
+	    border: solid 1px #e5e5e5;
+	    border-bottom: solid 1px #aaa;
+	    height: 22px;
+	    line-height: 23px;
+	    padding-left: 10px;
+    }
+
+    .LanguageMenuBottom .MenuItem:hover
+    {
+	    background-color: #b4b4b4;
+    }
+
+    .LanguageMenuBottom .MenuItem a 
+    {
+	    border-bottom:none;
+    }
+
+    .LanguageMenuBottom .MenuDiv .Selected
+    {
+	    background-image: url("../Images/BG-languageCheck.jpg");
+	    background-position: right -4px;
+	    background-repeat: no-repeat;
+    }
+
+    .LanguageMenuBottom .MenuDiv:hover .Selected
+    {
+	    background-color: #b4b4b4;
+	    background-position: right -36px;
+    }
+    
+    .SortOptionsMenuBottom 
+    {
+	    left: 0px;
+	    position: absolute;
+	    top: 33px;
+	    /*background-color: #b4b4b4;*/
+	    background-image: url(../Images/shadow-c.png);
+        background-position: right top;
+        background-repeat:repeat;
+        height: 80px;
+        width: 159px;
+        font-size:12px;
+    }
+
+    .SortOptionsMenuBottom .MenuItem
+    {
+	    border: solid 1px #e5e5e5;
+	    border-bottom: solid 1px #aaa;
+	    height: 22px;
+	    line-height: 23px;
+	    padding-left: 10px;
+    }
+
+    .SortOptionsMenuBottom .MenuItem:hover
+    {
+	    background-color: #b4b4b4;
+    }
+
+    .SortOptionsMenuBottom .MenuItem a 
+    {
+	    border-bottom:none;
+    }
+
+    .SortOptionsMenuBottom .MenuDiv .Selected
+    {
+	    background-image: url("../Images/BG-languageCheck.jpg");
+	    background-position: right -4px;
+	    background-repeat: no-repeat;
+    }
+
+    .SortOptionsMenuBottom .MenuDiv:hover .Selected
+    {
+	    background-color: #b4b4b4;
+	    background-position: right -36px;
+    }
+    
+    .SortOptionsMenuBottomFour 
+    {
+	    left: 0px;
+	    position: absolute;
+	    top: 33px;
+	    /*background-color: #b4b4b4;*/
+	    background-image: url(../Images/shadow-c.png);
+        background-position: right top;
+        background-repeat:repeat;
+        height: 105px;
+        width: 159px;
+    }
+
+    .SortOptionsMenuBottomFour .MenuItem
+    {
+	    border: solid 1px #e5e5e5;
+	    border-bottom: solid 1px #aaa;
+	    height: 22px;
+	    line-height: 23px;
+	    padding-left: 10px;
+    }
+
+    .SortOptionsMenuBottomFour .MenuItem:hover
+    {
+	    background-color: #b4b4b4;
+    }
+
+    .SortOptionsMenuBottomFour .MenuItem a 
+    {
+	    border-bottom:none;
+    }
+
+    .SortOptionsMenuBottomFour .MenuDiv .Selected
+    {
+	    background-image: url("../Images/BG-languageCheck.jpg");
+	    background-position: right -4px;
+	    background-repeat: no-repeat;
+    }
+
+    .SortOptionsMenuBottomFour .MenuDiv:hover .Selected
+    {
+	    background-color: #b4b4b4;
+	    background-position: right -36px;
+    }
+
+#ThemeSelector
+{
+	float: right;
+	height: 32px;
+	padding: 0px 15px;
+}
+
+
+    #ThemeSelector .Label
+    {
+	    float: left;
+	    line-height: 32px;
+    }
+
+    #ThemeSelector .Theme
+    {
+	    float: left;
+	    height: 14px;
+	    margin-left: 10px;
+	    margin-top: 7px;
+	    width: 14px;
+    }
+
+    #ThemeSelector .Arrow img
+    {
+	    height: 4px;
+	    width: 16px;
+    }
+
+#Utility
+{
+	float: right;
+	clear: right;
+	margin-right: 15px;
+	text-align: left;
+	top: 32px;
+	width: 600px;
+}
+
+    #Utility .Divider
+    {
+	    float: right;
+	    height: 69px;
+	    margin: 16px 15px;
+	    width: 1px;
+    }
+
+#SignInStatus
+{
+	float: right;
+	margin-top: 28px;
+	position: relative;
+}
+
+    #SignInStatus .Title
+    {
+	    border: none;
+	    font-size: 18px;
+	    font-weight: bold;
+	    line-height: 18px;
+	    position: absolute;
+	    right: 0px;
+	    top: 0px;
+		white-space:nowrap;
+    }
+
+    #SignInStatus .Links
+    {
+	    clear: both;
+	    margin-top: 28px;
+	    line-height:20px;
+    }
+
+#NavigationLinks
+{
+	float: right;
+	line-height: 12px;
+	margin-top: 22px;
+	margin-right: 25px;
+	text-align: left;
+}
+
+    #NavigationLinks div
+    {
+	    margin-bottom: 12px;
+    }
+
+#CheckoutWidget
+{
+	float: right;
+	margin-top: 22px;
+	min-width: 70px;
+}
+
+    #CheckoutWidget .Cart,
+    #CheckoutWidget .Cart .Right,
+    #CheckoutWidget .Checkout,
+    #CheckoutWidget .Checkout .Right
+    {
+	    background-repeat: no-repeat;
+    }
+
+    #CheckoutWidget .Cart .Right .Center,
+    #CheckoutWidget .Checkout .Right .Center
+    {
+	    background-repeat: repeat-x;
+	    margin: 0px 4px;
+    }
+
+    #CheckoutWidget .Cart
+    {
+	    background-position: 0px 0px;
+	    height: 20px;
+	   
+    }
+
+    #CheckoutWidget .Cart .Right
+    {
+	    background-position: right -20px;
+	    height: 20px;
+    }
+
+    #CheckoutWidget .Cart .Right .Center
+    {
+	    background-position: 0px -40px;
+	    /* REBRANDING
+	    color: #dd602b;
+	    */
+	    color: #4385C0;
+	    height: 20px;
+	    padding: 0px 2px 0px 1px;
+    }
+
+    #CheckoutWidget .Cart .Right .Center .CountCart
+    {
+	    background: url("../Images/ICN-cart.gif") no-repeat;
+	    height: 15px;
+	    line-height: 18px;
+	    margin-right: 6px;
+	    padding-left: 24px;
+	    padding-top: 3px;
+    }
+
+    #CheckoutWidget .Cart .Right .Center .CountBasket
+    {
+	    background:transparent url(../Images/ICN-SPRITE-basket.gif) no-repeat scroll 0 -20px;
+	    height: 15px;
+	    line-height: 18px;
+	    margin-right: 6px;
+	    padding-left: 24px;
+	    padding-top: 3px;
+    }
+
+    #CheckoutWidget .Checkout
+    {
+	    background-position: 0px -81px;
+	    height: 21px;
+	    white-space: nowrap;
+    }
+
+    #CheckoutWidget .Checkout .Right
+    {
+	    background-position: right -60px;
+	    height: 21px;
+    }
+
+    #CheckoutWidget .Checkout .Right .Center
+    {
+	    background-position: 0px -102px;
+	    height: 21px;
+	    min-width:72px;
+	    text-align: center;
+    }
+
+    #CheckoutWidget .Checkout .Right .Center a
+    {
+	    border-bottom: none;
+	    color: #fff;
+	    font-weight: bold;
+	    line-height: 16px;
+	    padding: 3px 8px 0px 8px;
+	    display:block;
+    }
+
+    #CheckoutWidget .Checkout:hover
+    {
+	    background-position: 0px -144px;
+    }
+
+    #CheckoutWidget .Checkout:hover .Right
+    {
+	    background-position: right -123px;
+    }
+
+    #CheckoutWidget .Checkout:hover .Right .Center
+    {
+	    background-position: 0px -165px;
+    }
+    
+    /* 
+cart button:
+IE cannot handle nowrap/width:auto because positioning is handled by floats, and floats in IE7 need a width in this situation in the polish version.  
+Should be rebuilt using a table if the fixed width in polish becomes an issue/it's an issue in future languages.
+ */
+#cartCountDiv,
+    .Checkout,
+    .Contagem.do.Carrinho
+    {   
+    line-height:20px;
+    white-space:nowrap;
+    }
+    
+    
+
+/**************************
+ *  SEARCH BAR
+ **************************/
+
+#Search
+{
+	background-position: left -70px;
+	background-repeat: repeat-x;
+	height: 43px;
+	margin-top: 135px;
+	min-width: 1005px;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+    #Search .Keywords
+    {
+        
+	    background: url("../Images/searchinput.gif") 20px top no-repeat;
+	    float: left;
+	    height: 24px;
+	    margin-top: 10px;
+	    padding-left: 20px;
+	    width: 430px;
+	    position:relative;
+	    padding: 2px 12px 2px 12px;
+    }
+
+    #Search .Keywords input
+    {
+	   
+	    border: none !important;
+	    color: #808080;
+	    float: left;
+	    font-size: 16px;
+	    height:26px;
+	    font-weight: bold;
+	    line-height: 19px;
+	    padding:0;
+	    margin: 1px 0 0 15px;
+	    width: 408px;
+    }
+    
+/******************************************
+  Beginning of Options Applied Style
+
+*******************************************/
+    
+    #Search .optionsApplied
+    {
+        background: url("../Images/searchinputOptionsApplied.gif") 20px top no-repeat;
+	    float: left;
+	    position:relative;
+	    height: 24px;
+	    margin-top: 10px;
+	    padding-left: 20px;
+	    width: 330px;
+    }
+    #Search .optionsApplied input
+    {
+       width: 319px; 
+       
+    }
+    #Search .optionsAppliedDiv
+    {
+        display:block;
+        float:left;
+        position:relative;
+        background-color:#ffffcc; 
+        background-image:url("../Images/optionsApplied_bg.gif");
+        background-repeat:repeat-x;
+        height:24px; 
+        margin-top:10px;
+    }
+    #Search .optionsAppliedInput{
+        background-color:#ffffcc;
+    }
+    #Search .optionsAppliedTextWrapper
+    {
+        position:relative;
+        top:6px;
+        right:20px;
+        cursor:pointer;
+        width:auto;
+        text-align:right;
+    }
+    
+        #Search .optionsAppliedTextWrapper .optionsAppliedText
+        {
+            color:#999999;
+            font-size:11px;
+            font-family:Trebuchet MS;
+        }
+    #Search .optionsAppliedClose
+    {
+        display:block !important;
+        float:right;
+        margin:0px 0px 0px 0px;
+        vertical-align:top;
+        cursor:pointer; 
+        position:absolute; 
+        right:4px;   
+        top:8px;
+    }
+/******************************************
+  End of Options Applied Style
+
+*******************************************/
+    /*
+    #Search .Go,
+    #Search .Go .Center
+    {
+	    background-repeat: no-repeat;
+	    
+    }*/
+
+    #Search .Go
+    {
+	    background-position: right -24px;
+	    background-repeat: no-repeat;
+	    /* REBRANDING
+	    border-left: solid 1px #a83c0d;
+	    */
+	    border-left: solid 1px #366a9a;
+	    
+	    cursor: pointer;
+	    float: left;
+	    margin-top: 10px;
+    }
+
+    #Search .Go:hover
+    {
+	    background-position: right -96px;
+    }
+
+    #Search .Go .Center
+    {
+	    background-repeat: repeat-x;
+	    background-position: 0px -48px;
+	    color: #fff;
+	    font-size: 16px;
+	    font-weight: bold;
+	    line-height: 24px;
+	    margin-right: 7px;
+    }
+
+    #Search .Go .Center a
+    {
+	    border-bottom: none;
+	    color: #fff;
+	    padding: 0px 8px 0px 15px;
+    }
+
+    #Search .Go:hover .Center
+    {
+	    background-position: 0px -120px;
+    }
+
+    #Search .Filters
+    {
+	    float: left;
+	    margin-left: 20px;
+	    margin-top: 8px;
+    }
+
+/**************************
+ *  MAIN CONTENT AREA
+ **************************/
+
+#MainContent
+{
+/*
+todo:
+    note: (mike)
+    this setting conflict with the cart.aspx page
+    margin: 20px;
+     
+*/
+}
+
+/* page navigation */
+#Breadcrumb
+{
+	border-style: solid;
+	border-width: 1px;
+	margin: 5px 0px 5px 0px;
+	min-width: 965px;
+	padding: 3px 10px 3px 10px;
+}
+
+    #Breadcrumb .BreadcrumbCurrentNode
+    {
+	    font-weight: bold;
+    }
+
+/**************************
+ *  CUSTOMER SERVICE
+ **************************/
+
+	#CustomerServiceContent
+	{
+		clear: both;
+		float: left;
+		padding: 10px 15px 10px 15px;
+		width: 926px;
+		position:relative;
+		top:25px;
+		left:20px;
+	}
+
+    #CustomerServiceContent .TitleBar .InstantService
+    {
+	    float: right;
+    }
+
+    #CustomerServiceContent .TitleBar .Title
+    {
+	    color: #666666;
+	    float: left;
+	    font-size: 20px;
+	    text-transform: uppercase;
+	    font-weight: normal;
+	    margin-left:0px;
+    }
+
+    #CustomerServiceContent .PaneHeader,
+    #CustomerServiceContent .PaneHeader .Right,
+    #CustomerServiceContent .PaneHeader .Right .Center,
+    #CustomerServiceContent .PaneHeaderExpanded,
+    #CustomerServiceContent .PaneHeaderExpanded .Right,
+    #CustomerServiceContent .PaneHeaderExpanded .Right .Center
+    {
+	    background-color: transparent;
+	    background-repeat: no-repeat;
+	    overflow: visible !important;
+    }
+
+    #CustomerServiceContent .PaneHeader,
+    #CustomerServiceContent .PaneHeaderExpanded
+    {
+	    margin-top: 5px;
+    }
+
+    #CustomerServiceContent .PaneHeader .Right,
+    #CustomerServiceContent .PaneHeaderExpanded .Right
+    {
+	    padding-right: 5px;
+	    padding-left: 5px;
+    }
+    
+    #CustomerServiceContent .PaneHeader .FormButtons .Right,
+    #CustomerServiceContent .PaneHeaderExpanded .FormButtons .Right
+    {
+        /* REBRANDING
+    	background-image: url(../../Images/btnOranged8d8d8.gif);
+    	*/
+    	background-image: url(/Images/btnBlued8d8d8.gif);
+    	background-position: 0 -44px;
+    	padding-left:0px;
+    }
+    
+    #CustomerServiceContent .PaneHeaderExpanded .FormButtons .Right .Center
+    {
+    	/* REBRANDING
+    	background-image: url(../../Images/btnOranged8d8d8.gif);
+    	*/
+    	background-image: url(/Images/btnBlued8d8d8.gif);
+    	background-position: 0 -44px;
+    	padding: 4px; 
+    }
+    
+     .GetInTouch .PaneContent textarea
+    {
+    	margin:6px 0 0 8px;
+    }
+        
+    #CustomerServiceContent .ContactDetails
+    {
+    	line-height:14px;
+    	padding-bottom:7px;
+    }
+    
+    #CustomerServiceContent .OfficesDetails
+    {
+    	padding: 7px 0px;
+    }
+    
+    #CustomerServiceContent .chatIcon
+    {
+    	background: transparent url(/Images/ICN-chat.gif) no-repeat scroll 0 0;
+    	height: 11px;
+    	margin-left:4px;
+    	width:13px;
+    	display:inline-block;
+    }
+    
+    #CustomerServiceContent .ContactNameLabel span
+    {
+    	font-weight:bold;
+    	padding-bottom:7px;
+    }
+    
+    #CustomerServiceContent .TitleBar
+    {
+    	background-color:#363636;
+    	border-bottom:none;
+    	height:25px;
+    	width:100%;
+    }
+    
+    #CustomerServiceContent .TitleBar .ChatDiv
+    {
+    	margin-right:0px;
+    }
+    
+    .ChatDiv
+	{
+	    float:right;
+	    margin:1px 20px 0 0;
+	}
+    
+    #CustomerServiceContent .FormRow .commentsSpacing
+    {
+    	padding-top:10px !important;
+    	border-bottom:none;
+    }
+    
+    #CustomerServiceContent .PaneHeader .Right .Center,
+    #CustomerServiceContent .PaneHeaderExpanded .Right .Center
+    {
+	    background-repeat: repeat-x;
+	    color: #cccccc;
+	    font-size: 14px;
+	    line-height: 14px;
+	    padding: 9px 0px 11px 9px;
+    }
+
+    .PaneContent
+    {
+	    color: #000;
+	    padding-top: 0px;
+    }
+
+    #CustomerServiceContent .PaneContentRound
+    {
+	    overflow:visible;
+	    padding:0px;
+    }
+
+    #CustomerServiceContent .PaneHeader
+    {
+	    background-position: 0px 0px;
+    }
+
+    #CustomerServiceContent .PaneHeader:hover
+    {
+	    background-position: 0px -102px;
+    }
+
+    #CustomerServiceContent .PaneHeader:hover .Right
+    {
+	    background-position: right -136px;
+    }
+
+    #CustomerServiceContent .PaneHeader:hover .Right .Center
+    {
+	    background-position: 0px -170px;
+    }
+
+    #CustomerServiceContent .PaneHeaderExpanded
+    {
+	    background-position: 0px -204px;
+    }
+
+    #CustomerServiceContent .PaneHeaderExpanded .Right
+    {
+	    background-position: right -238px;
+    }
+    
+    #CustomerServiceContent .PaneHeaderExpanded .FormButtons .Right
+    {
+	    background-position: right -22px;
+    }
+
+    #CustomerServiceContent .PaneHeaderExpanded .Right .Center
+    {
+	    background-position: 0px -272px;
+    }
+
+    #CustomerServiceContent .Faq .PaneContent,
+    #CustomerServiceContent .Offices .PaneContent,
+    #CustomerServiceContent .MyRep .PaneContent
+    {
+	    padding-left: 13px;
+	    padding-right: 13px;
+	    padding-bottom: 11px;
+    }
+
+    #CustomerServiceContent .LeftAccordion
+    {
+	    clear: both;
+	    float: left;
+	    margin-right: 15px;
+	    width: 570px;
+    }
+
+    #CustomerServiceContent .RightAccordion
+    {
+	    float: left;
+	    width: 341px;
+	    margin-bottom:27px;
+    }
+
+    #CustomerServiceContent .Faq .Question
+    {
+	    line-height: 12px;
+	    padding: 12px 8px;
+    }
+
+    #CustomerServiceContent .Faq .Answer
+    {
+	    background-color: #e8e8e8;
+	    padding: 7px 8px;
+	    line-height:16px;
+    }
+    
+    #CustomerServiceContent .ChatIconImg
+	{
+		display:block;
+		float:left;
+		width:13px;
+		height:11px !important;
+		text-decoration:none;
+		background: url(/Images/ICN-chat.gif);
+		background-repeat: no-repeat;
+		background-position: 0 0 !important;
+		background-position: 0 1px;
+		margin:2px 0 0 4px;
+		text-indent:-5000px;
+	}
+	#CustomerServiceContent .ChatIconImg:hover, .ChatIconImg:active
+	{
+		background-position:0 -11px !important;
+		border-bottom:0;
+	}
+	
+	#CustomerServiceContent .ChatIconText
+	{
+		display:block;
+		margin-top: 2px;
+		float:left;
+		text-decoration:none !important;
+	}
+	#CustomerServiceContent .ChatIconText:hover, .ChatIconText:active 
+	{
+		margin-top: 2px;
+		float:left;
+		border-bottom:1px dotted #4385C0;
+	}
+
+     .GetInTouch .PaneContent input[type=text],
+     .GetInTouch .PaneContent input[type=password],
+     .GetInTouch .PaneContent select,
+     .GetInTouch .PaneContent textarea
+    {
+	    width: 90%;
+	    margin:6px 0 6px 8px;
+    }
+
+     .GetInTouch .PaneContent .FormButtons
+    {
+	    padding-right: 13px;
+    }
+
+	 .GetInTouch .PaneContent .FormLeft
+    {
+	    padding-left: 12px;
+	    padding-right: 8px;
+	    width: 134px;
+    }
+
+     .GetInTouch .PaneContent .FormRight
+    {
+	    padding-right: 13px;
+	    border-left:none;
+	    width:205px;
+    }
+
+     .GetInTouch .PaneContent .FormButtons 
+    {
+	    margin-left: 8px;
+	    padding-bottom: 5px;
+    }
+
+    #CustomerServiceContent .MyRep .PaneContent
+    {
+    	padding-top:11px;
+    }
+
+    #CustomerServiceContent .Offices .PaneContent
+    {
+	    padding: 0px 13px 16px 13px;
+    }
+
+    #CustomerServiceRound,
+    #sorryMessage /* 'unexpected error' page */
+    {
+	    width: 956px;
+	    top:20px;
+	    position:relative;            
+	    left:20px;
+    }
+    
+    #sorryMessage
+    {
+    	background: #363636 url(/Images/iconError.png) no-repeat 10px 10px;
+    	color:#fff;
+    	margin-bottom:400px;
+    	width:95%;
+    }
+    
+    #sorryMessage  p
+    {
+        line-height:20px;
+        margin-top:5px;
+        padding:0 10px 5px 50px;
+    }
+    
+    .MB_10
+	{
+		margin-bottom: 10px !important;
+	}
+	
+	.ML_8
+	{
+		padding-left:8px;
+	}
+	.buttonPadding
+	{
+		background-color:#dbdbdb; 
+		padding-right:10px;
+	}
+	
+	.faqHeader
+	{
+		padding:14px 8px;
+		font-weight:bold;
+		font-size:14px;
+	}
+	
+	.defaultLink
+	{
+		text-decoration: underline;
+		cursor:pointer;
+		border-bottom:none !important;
+	}
+
+/**************************
+ *  FORM LAYOUT STYLES
+ **************************/
+
+.FormButtons
+{
+	margin: 20px 0px 10px 0px;
+}
+
+.profileButtons
+{
+    margin: 10px 10px 0px 0px;
+    float:right;
+    background-color:#dbdbdb;
+}
+
+.deleteMessage
+{
+    padding-left:10px;
+    color:#1a1a1a;
+}
+
+.businessButtons
+{
+    margin: 20px 10px 0px 0px;
+    float:right;
+    background-color:#dbdbdb;
+}
+
+.businessTable
+{
+    width:350px;
+    margin-bottom:12px;
+}
+
+.mailButtons
+{
+    margin: 30px 10px 0px 0px;
+    float:right;
+    background-color:#dbdbdb;
+}
+
+.FormLeft
+{
+	border-top: solid 2px #dbdbdb;
+	font-weight: bold;
+	line-height: 12px;
+	min-width: 82px;
+	padding: 7px 8px 7px 10px;
+	text-align: right;
+	font-size:12px;
+	/*white-space: nowrap;*/
+}
+.FormRight
+{
+	border-left: solid 2px #d8d8d8;
+	border-top: solid 2px #dbdbdb;
+	line-height: 12px;
+	overflow: visible !important;
+	padding: 7px 10px 7px 8px;
+}
+.FormRightCredit
+{
+	border-left: solid 2px #d8d8d8;
+	border-top: solid 1px #dbdbdb;
+	line-height: 12px;
+	overflow: visible !important;
+	padding: 7px 10px 7px 8px;
+}
+.FormRightCreditTop
+{
+	border-left: solid 2px #d8d8d8;
+	line-height: 12px;
+	overflow: visible !important;
+	padding: 7px 10px 7px 8px;
+}
+.FormRightEmail
+{
+	border-left: solid 2px #d8d8d8;
+	border-top: solid 1px #dbdbdb;
+	line-height: 12px;
+	overflow: visible !important;
+	padding: 7px 10px 7px 8px;
+	width:100%;
+}
+.FormRightEmailTop
+{
+	border-left: solid 2px #d8d8d8;
+	line-height: 12px;
+	overflow: visible !important;
+	padding: 7px 10px 7px 8px;
+	width:100%;
+}
+.FormLeftProfile
+{
+	border-bottom: solid 1px #dbdbdb;
+	border-top: solid 1px #dbdbdb;
+	font-weight: bold;
+	line-height: 12px;
+	min-width: 120px;
+	padding: 7px 8px 7px 10px;
+	text-align: right;
+	vertical-align:top;
+	font-size:12px;
+	/*white-space: nowrap;*/
+}
+
+.checkLblPair label
+{
+    font-size:12px;
+}
+
+.FormRightPayment
+{
+	border-bottom: solid 1px #dbdbdb;
+	border-left: solid 2px #d8d8d8;
+	border-top: solid 1px #dbdbdb;
+	line-height: 12px;
+	overflow: visible !important;
+	padding: 7px 10px 7px 8px;
+	width:100%;
+}
+.RightForm
+{
+    border-bottom: solid 1px #dbdbdb;
+	overflow: visible !important;
+	padding: 7px 0px 7px 12px;
+}
+.RightFormTd
+{
+	border-left: solid 2px #dbdbdb;
+    border-bottom: solid 1px #dbdbdb;
+	overflow: visible !important;
+	padding: 7px 0px 7px 12px;
+}
+.RightForm input
+{
+    width:200px !important;
+}
+.RightForm select
+{
+    width:200px;
+}
+.LeftForm
+{
+    border-bottom: solid 1px #dbdbdb;
+	font-weight: bold;
+	line-height: 12px;
+	min-width: 82px;
+	padding: 7px 8px 7px 10px;
+	text-align: right;
+	font-size:12px;
+	color:#1a1a1a;
+	white-space:normal;
+}
+
+.marginTop
+{
+    margin-top:4px;
+}
+
+.personalCloseButton
+{
+    float:right;
+    margin:0px 0px 0px 0px;
+    vertical-align:top;
+    cursor:pointer; 
+    position:absolute; 
+    right:7px;   
+    top:0px;
+}
+
+.borderWidth
+{
+    border-width: 0px;
+    cursor:pointer;
+}
+
+.height12
+{
+    height:12px;
+}
+
+.paddingBottom6
+{
+    padding-bottom:6px;    
+}
+
+.tableWidth
+{
+    width:360px; 
+    background-color:#e8e8e8;
+}
+
+.profileTwoColumn
+{
+    width:350px;
+    height:1px;
+}
+
+.fontSize12
+{
+    font-weight:normal; 
+    font-size:12px;
+}
+
+.textBoxLength
+{
+    width:195px;
+}
+.FormRightLeft
+{
+	display: inline;
+	vertical-align: top;
+}
+
+.FormRow
+{
+	width: 100%;
+}
+
+.NotTestable
+{
+	background: #f99;
+}
+
+.Optional
+{
+	color: #808080;
+}
+
+.Required
+{
+	color: #FF0000;
+}
+.MyPersonalInfoDiv
+{
+    width:350px;
+}
+
+#MyPersonalInfoDiv .RightForm
+ {
+    width:208px;
+ }
+ 
+.RegularLink
+{
+    padding: 3px 0px 3px 0px;
+}
+
+.RegularText
+{
+    color:#e8e8e8;
+}
+
+.editPaymentInformationDiv
+{
+    width:350px;
+}
+
+/**************************
+ *  ROUND CORNERS?
+ **************************/
+.rc5px .Left,
+.rc5px .Right
+{
+    background-color:#363636;
+    background-image:url(../Images/rc5px363636-1a1a1a.gif);
+}
+
+.rc4px .Left,
+.rc4px .Right,
+.rc5px .Left,
+.rc5px .Right
+{
+	background-repeat: no-repeat;
+}
+
+.rc4px .Center
+{
+	height: 4px;
+	line-height: 4px;
+	width: 100%;
+}
+
+.rc4px .Left
+{
+	padding-left: 4px;
+}
+
+.rc4px .Right
+{
+	padding-right: 4px;
+}
+
+.rc4px .Top .Left
+{
+	background-position: 0px 0px;
+}
+
+.rc4px .Top .Right
+{
+	background-position: right -4px;
+}
+
+.rc4px .Bottom .Left
+{
+	background-position: 0px -8px;
+}
+
+.rc4px .Bottom .Right
+{
+	background-position: right -12px;
+}
+
+.rc5px .Center
+{
+	height: 5px;
+	line-height: 5px;
+	width: 100%;
+}
+
+.rc5px .Left
+{
+	padding-left: 5px;
+}
+
+.rc5px .Right
+{
+	padding-right: 5px;
+}
+
+.rc5px .Top .Left
+{
+	background-position: 0px 0px;
+}
+
+.rc5px .Top .Right
+{
+	background-position: right -5px;
+}
+
+.rc5px .Bottom .Left
+{
+	background-position: 0px -10px;
+}
+
+.rc5px .Bottom .Right
+{
+	background-position: right -15px;
+}
+
+.rc5px363636-1a1a1a .Left,
+.rc5px363636-1a1a1a .Right
+{
+	background-color: #363636;
+	background-image: url("../Images/rc5px363636-1a1a1a.gif");
+}
+
+.rc5px676767-363636 .Left,
+.rc5px676767-363636 .Right
+{
+	background-color: #676767;
+	background-image: url("../Images/rc5px676767-363636.gif");
+}
+
+.rc5pxb5b5b5-d0d0d0 .Left,
+.rc5pxb5b5b5-d0d0d0 .Right
+{
+	background-color: #b5b5b5;
+	background-image: url("../Images/rc5pxb5b5b5-d0d0d0.gif");
+}
+
+.rc5pxd0d0d0-e8e8e8 .Left,
+.rc5pxd0d0d0-e8e8e8 .Right
+{
+	background-color: #d0d0d0;
+	background-image: url("../Images/rc5pxd0d0d0-e8e8e8.gif");
+}
+
+.rc5pxdbdbdb-363636 .Left,
+.rc5pxdbdbdb-363636 .Right
+{
+	background-color: #dbdbdb;
+	background-image: url("../Images/rc5pxdbdbdb-363636.gif");
+}
+
+.rc5pxe8e8e8-d0d0d0 .Left,
+.rc5pxe8e8e8-d0d0d0 .Right
+{
+	background-color: #e8e8e8;
+	background-image: url("../Images/rc5pxe8e8e8-d0d0d0.gif");
+}
+
+/**************************
+ *  BUTTONS
+ **************************/
+
+/* TODO css has to be modified to embade the icon before the text in the button  end */
+
+.BTN-border-only,
+.BTN-border-only .right,
+.BTN-border-only .right .center
+{
+	height: 24px;
+	background-color: transparent;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-image: url('../images/btnGray-outline.png');
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 10px;
+}
+
+	.BTN-border-only
+	{ padding-left: 5px; }
+
+	.BTN-border-only .right
+	{
+		padding-right: 5px;
+		background-position: right -24px;
+	}
+
+	.BTN-border-only .right .center
+	{
+		background-position: 0px -48px;
+		background-repeat: repeat-x;
+		line-height: 24px;
+		padding: 0px 8px;
+		text-align: center;
+	}
+
+/**************************
+ *  ERROR MESSAGING - validating incorrectly filled-out/empty fields
+ **************************/
+.Error ul, .Error div
+{
+	line-height: 16px;
+	padding: 13px 10px 15px 41px;
+}
+
+.Error li
+{
+	list-style-type: none;
+}
+
+#ErrorContainer
+{
+    overflow:auto;/* enables correct display in IE */
+}
+
+.ErrorHighlight
+{
+	line-height: 16px;
+}
+
+.Informative.Error
+{
+    padding:13px;
+}
+
+.Informative.Error h5
+{
+    font-size:12px;
+}
+
+/**************************
+ *  WHAT IS THIS STUFF?
+ **************************/
+
+.ReadOnly
+{
+	background-color: #e5e5e5;
+}
+
+.HoverMenu
+{
+    display:none;
+	position: absolute;
+	width: 300px;
+	z-index: 30000;
+}
+
+.HoverMenu .Title
+{
+	background-color: #dbdbdb;
+	color: #797979;
+	font-size: 14px;
+	padding: 4px 12px 14px 12px;
+}
+
+.HoverMenu .Content
+{
+	background-color: #e8e8e8;
+	color: #1a1a1a;
+	line-height: 16px;
+	padding: 23px 12px 13px 12px;
+}
+
+
+
+.RoundCorners
+{
+	clear: both;
+	display: inline;
+	overflow: hidden;
+}
+
+.Section
+{
+	clear: left;
+	padding: 10px 0px;
+}
+
+
+div.Chat_link
+{
+    background-image: url(/Images/ICN-chat.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 0px 20px;
+    height: 11px;
+}
+
+.instantServiceDivText
+{
+	width:120px;
+}
+
+.chatBubble
+{
+	position:absolute;
+	left:-10px;
+	top:-10px;
+	width:25px;
+    float:left;
+  
+}
+.instantServiceLabel
+{
+	float:left;
+	padding-left:5px;	
+	width:20%;
+}
+.instantServiceTitle
+{
+	font-weight:bold;
+	font-size:22px;
+	padding-left:5px;
+}
+
+.instantServiceText
+{
+  float:left;
+  text-align:left;
+  margin-right:30px;
+  
+	
+}
+
+#shippingInfoDetail .floatLeft .seprator
+{
+	width:780px;
+	height:0.1px;
+	
+}
+
+.ImageDetail
+{
+	color: #c4450f;
+}
+
+.PaginControlNextEnabled
+{
+	width:20px;
+	background-attachment:fixed;
+	height:25px;
+	color:Red;
+}
+
+.PanelHeader
+{
+	cursor:pointer;
+	font-weight:bold;
+	font-size:14px;
+	padding:3px;
+}
+
+.WhiteTopBorder
+{
+	border-top: 1px white solid !important;
+	padding: 3px 0px 0px 0px;
+}
+
+.PanelGroup
+{
+	padding: 0px 0px 3px 0px;
+	cursor:default;
+}
+
+.Pointer
+{
+	cursor:pointer;
+}
+.expressWrap
+{
+    height:14px;
+    width:14px;
+    background: url(/Images/info.gif) no-repeat 0 0;
+    cursor:pointer;
+    margin-left:10px !important;
+}
+
+/* round corner style */
+#wrap
+{
+    font-size: 130%;
+    text-align: left;
+}
+.cssbox, .cssbox_body, .cssbox_head, .cssbox_head h2
+{
+    background: transparent url(assets/blogs/ryan/demobox.png) no-repeat scroll right bottom;
+    margin: 0pt;
+    padding: 0pt;
+}
+.cssbox
+{
+    margin: 20px auto;
+    padding-right: 15px;
+    width: 335px !important;
+}
+/* round corner style end */
+
+
+
+
+	
+	
+/* TODO css has to be modified to embade the icon next to button end */
+
+.PricingIframe{
+    width:640px;
+    overflow:visible;
+    border:0;
+}
+
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+
+/* Page control */
+
+#Pager .PrevButton, #Pager .NextButton, #Pager .PrevButtonDisabled, #Pager .NextButtonDisabled
+{
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	width: 26px;
+	_width: 29px;
+	text-decoration: none;
+	border: none;
+	height: 26px;
+	_height: 29px;
+	cursor: pointer;
+	float: left;
+}
+
+/* Replacing the Previous/Next Pagination buttons with updated graphics as per UX team */
+#Pager .PrevButton
+{
+	background:transparent url(../Images/orange-arrowbutton2f2f2f.gif) no-repeat 0 0;
+	margin-right:6px;
+}
+
+#Pager .PrevButton:hover
+{
+	background:transparent url(../Images/orange-arrowbutton2f2f2f.gif) no-repeat 0 -26px;
+}
+
+#Pager .PrevButtonDisabled
+{
+	background:transparent url(../Images/orange-arrowbutton2f2f2f.gif) no-repeat 0 0;
+	filter: alpha(opacity=50) !important;
+	opacity: 0.5;
+	cursor: default !important;
+	margin-right:6px;
+}
+
+.NextButton
+{
+	background-image: url(../images/arrowbuttonSmallRightHoverffffff.gif);
+}
+
+#Pager .NextButton
+{
+	background:transparent url(../Images/orange-arrowbutton2f2f2f.gif) no-repeat right 0;
+}
+
+#Pager .NextButton:hover
+{
+	background:transparent url(../Images/orange-arrowbutton2f2f2f.gif) no-repeat right -26px;
+}
+
+#Pager .NextButtonDisabled
+{
+	background:transparent url(../Images/orange-arrowbutton2f2f2f.gif) no-repeat right 0;
+	filter: alpha(opacity=50) !important;
+	opacity: 0.5;
+	cursor: default !important;
+}
+/* End of - Replacing the Previous/Next Pagination buttons with updated graphics as per UX team */
+
+.NavPageNumber
+{
+	width: 30px;
+	margin: 2px 0px 0px 6px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	float: left;
+}
+
+#Pager .PagerLabelPostFix
+{
+	color:#999;
+	float: left;
+	font-size:12px;
+	font-style:normal;
+	height:20px;
+	line-height:26px;
+	padding:0 6px 0 2px;
+}
+
+#Pager .PagerLabelPreFix
+{
+	display:block;
+	float: left;
+	line-height:26px;
+}
+
+/* End Page control */
+
+#searchProgIndicator
+{
+	display:none;
+	left: 0;
+	background-color:transparent;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top:180px;
+    bottom:0px;
+    height:100%;
+    z-index:1;
+    width: 100%;
+}
+#searchProgIndicator .mask
+{
+	left: 0;
+    opacity: 0.7;
+    filter:alpha(opacity = 70);
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top:0;
+    height:100%;
+    bottom:-1000px;
+    z-index:1;
+    width: 100%;
+    background-color: black;
+}
+#searchProgContents
+{
+	background:transparent;
+    color: #1A1A1A;
+    margin-top: 300px;
+    padding: 10px 5px 5px;
+    text-align: center;
+    width: 100%;
+    min-width: 1008px;
+    position: fixed;
+    top:15%;left:10%;
+    width: auto !important;
+    z-index: 506;
+}
+
+#processingFilters
+{
+    color: #4385C0;
+    margin-top:-15px;
+    margin-bottom:31px;
+    display:none;
+}
+
+#searchProgContents h1
+{
+    font-size:20px;
+    /* REBRANDING
+    color: #DD602B;
+    */
+    color: #4088D1;
+    
+    height: 50px;
+    line-height: 36px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+#secureSignInWindow_controls
+{
+	display: none;
+}
+
+/* $$$ Styles for print version: 
+    all have ".printVersion" parent element to implement styles & override previous styles to style the print version. */
+
+.printVersion,
+.printVersion .print-colors           /* COLORS */
+{
+    background-color:White !important;
+    color:Black;
+}
+
+.printVersion .hide-for-print       /* HIDE for print preview */ 
+{
+    display:none !important;
+}
+
+.show-for-print                           /* hide for standard page view */
+{
+    display:none;
+}
+
+.printVersion .show-for-print       /* SHOW for print preview */
+{
+    display:inline-block;
+}
+
+.reset_MP 
+{
+	padding:0px !important;
+	margin:0px !important;
+	width:100% !important;	
+}
+
+/* Use with 'clr' style like this:  class="clr smallClear"
+   this will make the line height only 1px or 6px 
+*/
+.smallClear
+{
+    height:6px !important;
+}
+.extraSmallClear
+{
+    height:1px !important;
+}
+
+.alignRightPreference
+{
+    text-align: right !important;
+    padding-right:8px !important;
+    font-weight:bold;
+    min-width:160px;
+}
+#expressCheckoutDiv
+{
+    width:100%;
+}
+
+.lineHeight
+{
+    line-height:16px;
+}
+
+
+
+
+/**************************
+ *  BEFORE YOU ADD TO THE
+ *  END OF THIS FILE, ASK
+ *  YOURSELF IF IT MAKES
+ *  SENSE TO ADD IT HERE
+ **************************/
+

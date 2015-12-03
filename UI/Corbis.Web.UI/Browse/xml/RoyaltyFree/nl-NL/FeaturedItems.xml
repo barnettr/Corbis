@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Hedendaagse werkplek</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Premium RF| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Premium RF| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Echte ondernemers werken overal, op de gebruikelijke – en ongebruikelijke – locaties. Vergaderingen worden gehouden in de directiekamer, papierwerk wordt weggewerkt in de bistro en brainstormen vindt tijdens een tussenstop op het vliegveld plaats.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy: kunstzinnige Royalty Free-fotografie</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Standaard RF| © Image Source/Corbis" ImageID="42-21218191" Attribution="| Standaard RF| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>In Fancy worden eigentijdse levensstijlen en moderne bezigheden vastgelegd, waardoor nieuwe uitgangspunten voor Royalty Free-fotografie ontstaan. Door de aandacht voor belichting, locatie en modellen krijgt deze collectie stijl en inhoud.</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

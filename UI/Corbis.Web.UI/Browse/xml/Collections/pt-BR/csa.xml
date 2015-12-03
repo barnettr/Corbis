@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Collection>
+	<Title>CSA Images</Title>
+	<Copy>
+		<![CDATA[
+		<p>
+			
+		</p>
+		]]>
+	</Copy>
+	<!--<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>
+	<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>-->
+	
+		<Slideshow Url="xml/Collections/Flash/collections.swf" Width="600" Height="450" Flashvars="xmlfile:'xml/Collections/pt-br/csa/gallery.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes=""><NoFlashCopy>
+			<![CDATA[
+			<p>
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtenha o Adobe Flash player" localize="true"  />
+				</a>
+			</p>
+			]]>		
+		</NoFlashCopy>
+	</Slideshow>
+</Collection>

@@ -1,0 +1,64 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+
+.optionsBlock a span   
+{  /* delivery icons in stage 2 of checkout */
+    position:relative;
+    top:-4px;
+ }
+ 
+.SBT_filters img {
+    background-image:url(/Images/pt-BR/buddyTabFilters_off.gif);
+    height:73px;
+}
+.SBT_filters.ON img {
+    background-image:url(/Images/pt-BR/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/pt-BR/buddyTabFilters_hover.gif);
+}
+
+.SBT_lightboxes img 
+{
+	background-image:url(/Images/pt-BR/buddyTabLightbox_off.gif);
+	height:98px;
+}
+.SBT_lightboxes.ON img 
+{
+	background-image:url(/Images/pt-BR/buddyTabLightbox_on.gif);
+}
+.SBT_lightboxes img:hover
+{
+	background-image:url(/Images/pt-BR/buddyTabLightbox_hover.gif);
+}
+
+.SBT_quickpic img {
+    background-image:url(/Images/pt-BR/buddyTabQuickPic1.gif);
+    height:87px;
+}
+.SBT_quickpic.ON img {
+    background-image:url(/Images/pt-BR/buddyTabQuickPic2.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/pt-BR/buddyTabQuickPic3.gif);
+}
+
+ /* sort options in search */
+.searchResultsContent #sortOptionsMenuDiv
+{
+     width:280px !important;
+}
+
+/* sort options in order history */
+#orderHistory .IE7OrLess #sortOptionsMenuDiv
+{
+     width:252px !important;
+}
+
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:480px !important;
+}

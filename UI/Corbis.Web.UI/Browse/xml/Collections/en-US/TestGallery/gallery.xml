@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Collections/Images/TestGallery/lg/" tnpath="xml/Collections/Images/TestGallery/thumb/">
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt;&lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt;&lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt;&lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt;&lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+	</album>
+</gallery>

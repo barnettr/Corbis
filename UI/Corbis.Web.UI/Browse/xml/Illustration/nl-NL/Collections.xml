@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Zoeken op stijl</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288755" Text="Anime" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288754" Text="Strips " Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288756" Text="Conceptueel" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288758" Text="Vooruitstrevend" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288759" Text="Grafisch" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288760" Text="Lijnenkunst" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288762" Text="Schilderachtig" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288763" Text="Retrostrips" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288764" Text="Gestileerd" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288765" Text="Fantasierijk" Title="Klik om beelden te bekijken"  />
+  </Links>
+</ModuleList>

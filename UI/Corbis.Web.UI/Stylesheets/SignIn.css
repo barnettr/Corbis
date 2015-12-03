@@ -1,0 +1,412 @@
+.SignInContent
+{
+	background-color:#dbdbdb;
+	overflow:hidden;
+	padding-bottom:1px;
+	width: 100%;
+}
+
+#secureSignInWindow_iframe,
+#secureSignInWindow_content,
+#secureSignInWindow .mochaIframe,
+#secureSignInWindow .SignInContent {
+     overflow:hidden !important;           
+}
+
+#pageTitle, h2
+{
+    color: #666666;
+    font-weight: normal;   
+    font-size: 14px;
+    font-family:Trebuchet MS;
+}
+
+.signInTitleWrapper
+{
+    background-color:#dbdbdb;
+    color: #666666;
+    font-weight: normal;   
+    font-size: 14px;
+    font-family:Trebuchet MS;
+    line-height:28px;
+    margin-bottom:5px;
+    margin-top:-10px;
+    padding-left:10px;     
+}
+.signInTitle
+{
+   color: #666666;
+   font-weight: normal;   
+   font-size: 14px;
+   font-family:Trebuchet MS;    
+}
+
+.signInCloseButton
+{
+    cursor:pointer; 
+    margin:0;
+    position:absolute; 
+    right:7px;   
+    top:0px;
+}
+
+
+.LoginUnsuccessful
+{
+    background-color:#ffffcd;
+    padding:4px 10px 4px 10px;
+    vertical-align:middle;
+    margin-bottom:2px;
+    clear: both;
+}
+.UserNameEmptyDiv
+{
+    background-color:#ffffcd;
+    padding:4px 10px 4px 10px;
+    vertical-align:middle;
+    margin-bottom:2px;
+    clear: both;
+}
+.noUserName
+{
+    background-color:#ffffcd;
+    padding:4px 10px 4px 10px;
+    vertical-align:middle;
+    margin-bottom:2px;
+    clear: both;
+}
+
+#userNameWrapper
+{
+    background-color:#e8e8e8;
+    height:24px;
+    width:100%;
+}
+
+.SignInContent #userNameWrapper #UsernameLabel
+{
+    float:right;
+    margin-top:6px;
+    padding-right:6px;
+    color:#1a1a1a;
+    font-weight:bold;
+}
+
+.SignInContent #userNameWrapper #UsernameField
+{
+    float:right;
+    margin-top:2px;
+    margin-right:8px;
+}
+.SignInContent #userNameWrapper #UsernameField input
+{
+    width:180px;
+}
+
+#passwordWrapper
+{
+    background-color:#e8e8e8;
+    height:24px;
+    width:100%;
+    margin-top:2px;
+}
+.SignInContent #passwordWrapper #PasswordLabel
+{
+	float:right;
+    margin-top:6px;
+    padding-right:6px;
+    color:#1a1a1a;
+    font-weight:bold;
+}
+
+.SignInContent #passwordWrapper #PasswordField
+{
+    float:right;
+    margin-top:2px;
+    margin-right:8px;
+}
+
+.SignInContent #passwordWrapper #PasswordField input
+{
+    width:180px;
+}
+
+.SignInContent #forgotWrapper
+{
+    margin-bottom:15px;
+    margin-top:2px;
+    padding-bottom:2px;
+    width:100%;
+}
+
+/* for bug no. 17967 - localization */
+.SignInContent #ForgotPasswordLink
+{
+    left:11px;
+    position:absolute;
+    bottom:6px;
+}
+
+.SignInContent #SubmitButton
+{
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;     
+}
+
+#RegisterButton
+{
+	margin-right: 10px;
+	margin-top: 10px;
+	float: right;         
+}
+
+.WhyRegisterWrapper
+{
+    z-index:100000 !important;
+}
+
+
+#ctl00_mainContent_WhyRegisterWrapper
+{
+	width:100%;
+	clear: both;
+}
+#regWrapper
+{
+    height:30px;
+    padding-top:12px;
+    padding-left:10px;
+    color: #666666;
+    font-weight: normal;   
+    font-size: 14px;
+    font-family:Trebuchet MS;    
+}
+#itemWrapper
+{
+    background-color:#e8e8e8;
+}
+ 
+#itemWrapper ul
+{
+    color:#1a1a1a;
+    font-weight:bold;
+    padding:20px 0 20px 10px;
+    text-align:justify;
+    width:330px;
+}
+
+#itemWrapper li
+{
+    width:100%;
+    color:#666666;
+    font-weight:normal;
+    padding-left:2px;
+    margin-right:6px;
+    list-style-type:none;
+}
+
+.SignInContent #TrusteGraphic
+{
+}
+
+.SignInContent #TrusteGraphic a
+{
+	border-bottom: none;
+}
+
+#trustWrapper
+{
+    margin-top:10px;
+    padding-left:12px;
+    width:95%;
+}
+ 
+.LoginInformationMainButtonsContent
+{
+	padding-left:85px;
+	
+}
+.LoginInformationMainEmailAddressInput
+{
+	width:100px;
+	height:22px;
+}
+
+#SignOutContent
+{
+}
+        
+/* forgotten password popup */
+#ctl00_mainContent_loginInformationMain
+{
+    background-color:#dbdbdb;
+    color:#1a1a1a;
+    line-height:18px;
+}
+
+#ctl00_mainContent_loginInformationMain  p
+{
+    background-color:#e8e8e8;
+    padding:10px;
+    color:#1a1a1a;
+    margin-bottom:2px;
+}
+
+#errorSending
+{
+    background-color:#ffffcd;
+    padding:4px 10px 4px 10px;
+    vertical-align:middle;
+    margin-bottom:2px;
+    height:32px;
+}
+
+.iconError
+{
+    margin-left:10px;
+    vertical-align:middle;
+}
+
+#forgotPasswordH2
+{
+    margin-left:10px;
+}
+
+#TitleDiv span 
+{
+    display:block;
+    line-height:17px;
+}
+
+
+/* Fix bug no. 15906 - forgotten password modal layout */
+    #forgotPasswordModalContent div.PrivacyPolicy 
+    {
+        bottom:5px;
+        left:10px;
+        position:absolute;
+        text-align:left;
+        width:350px;
+    }
+    
+    #forgotPasswordModalContent .infoRequestFooter 
+    {
+        clear:both;
+        height:30px;
+        padding:7px 3px 5px 0;
+        width:350px;    
+    }
+
+    #forgotPasswordModalContent .infoRequestFooter .btnGraydbdbdb,
+    #forgotPasswordModalContent .infoRequestFooter .btnOrangedbdbdb
+    {
+        margin:0 3px 5px;   
+   }
+    
+    #forgotPasswordModalContent .cancelButton
+    {
+        clear:both;
+        position:relative;
+        right:4px;
+    }
+
+    #ctl00_mainContent_loginInformationMain .FormRow
+    {
+        background-color:#e8e8e8;
+        float:left;
+        margin-bottom:2px;
+        padding:0;
+        text-align:right;
+        width:100%;
+    }
+    #ctl00_mainContent_loginInformationMain .FormRow div,
+    #ctl00_mainContent_loginInformationMain .FormRow span
+    {
+        border:0;
+    }
+
+    #ctl00_mainContent_loginInformationMain .FormRow span
+    {
+        width:165px;
+    }
+    
+    #ctl00_mainContent_loginInformationMain .emailRow
+    {
+        background-color:#ffffcd;
+        margin-bottom:2px;
+        padding:0;
+        text-align:right;
+        width:100%;
+        height:26px;
+    }
+    #ctl00_mainContent_loginInformationMain .emailRow input
+    {
+        margin-top:2px;
+        margin-right:12px;
+        float:right;
+        height:22px;
+    }
+    #ctl00_mainContent_loginInformationMain .emailRow div,
+    #ctl00_mainContent_loginInformationMain .emailRow span
+    {
+        border:0;
+    }
+
+    #ctl00_mainContent_loginInformationMain .emailRow span
+    {
+        width:75px;
+    }
+    
+.securityQuestion
+{
+    width:120px;
+}
+
+#ctl00_mainContent_loginInformationMain .FormRight
+{
+    float:right;
+}
+
+#ctl00_mainContent_loginInformationMain .FormLeft
+{
+    float:right;    
+}
+
+#ctl00_mainContent_loginInformationMain .emailFormLeft
+{
+    float:right; 
+    margin-left:0px;
+    font-weight:bold;   
+}
+
+
+#petsName
+{
+    font-weight:normal;
+}
+
+#ctl00_mainContent_loginInformationMain input
+{
+    width:180px;
+}
+
+#ctl00_mainContent_securityQuestionValue
+{
+    top:10px;
+}
+
+#ctl00_mainContent_loginInformationMain #ButtonsContent
+{
+padding-left:0;
+}
+.forgotPasswordFooter
+{
+    padding-left:18px;
+    padding-right:8px;
+    margin-top:20px;
+}
+.FormRow input
+{
+    margin-right:12px;
+}

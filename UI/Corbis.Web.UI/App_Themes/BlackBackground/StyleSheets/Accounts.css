@@ -1,0 +1,120 @@
+#AccountsContent
+{
+	background-color: #363636;
+}
+
+#AccountsNavigation .Tab
+{
+	background: url("../Images/accountTabDark.gif") 0px 3px no-repeat;
+}
+
+#AccountsNavigation .Active
+{
+	background: url("../Images/accountTabActiveDark.gif") 0px 3px no-repeat;
+}
+
+.ApplyForCredit
+{
+        background: url(../Images/accountTabDark.gif) no-repeat  0 -11px;   
+        padding:20px 0 10px 10px;
+}
+
+#AccountsRound .Left,
+#AccountsRound .Right
+{
+	background-color: #363636;
+	background-image: url("../Images/rc5px363636-1a1a1a.gif");
+}
+
+#ProfileContent .PaneContent
+{
+	background-color: #dbdbdb;
+}
+
+#ProfileContent .PaneContent .FormRow
+{
+	background-color: #e8e8e8;
+}
+
+#ProfileContent .PaneContentRound .Left,
+#ProfileContent .PaneContentRound .Right
+{
+	background-color: #dbdbdb;
+	background-image: url("../Images/rc5pxdbdbdb-363636.gif");
+}
+
+#ProfileContent .PaneHeader,
+#ProfileContent .PaneHeader .Right,
+#ProfileContent .PaneHeader .Right .Center,
+#ProfileContent .PaneHeaderExpanded,
+#ProfileContent .PaneHeaderExpanded .Right,
+#ProfileContent .PaneHeaderExpanded .Right .Center
+{
+	background-image: url("../Images/barDarkSprite.gif");
+}
+
+#ProfileContent .PaneHeader .Right
+{
+	background-position: right -34px;
+}
+
+#ProfileContent .PaneHeader .Right .Center
+{
+	background-position: 0px -68px;
+}
+
+#ShippingInfoDetail
+{
+	border: solid 1px #dbdbdb;
+}
+
+#PreferencesDetail .EmailPreferences,
+#PreferencesDetail .DirectMailPreferences,
+#PreferencesDetail .PaymentAndShippingPreferences
+{
+	background-color: #e8e8e8;
+}
+
+/* todo: */
+/* this part should be moved to a common css */
+/*
+this area also conflict with searchresult page pager control, removed by Mike Z
+#Pager .PrevButton,
+#Pager .PrevButtonDisabled
+{
+	background-image: url("../Images/btnPageArrowsdbdbdb.gif");	
+}
+#Pager .NextButton,
+#Pager .NextButtonDisabled
+{
+	background-image: url("../Images/orange-arrowbuttonRT-up.gif");	
+}
+*/
+
+
+
+
+
+.PrintButtonRoundedCorners
+{
+	background: #363636;
+	border: 1px solid #676767;
+	color: #FFF;
+	cursor:hand;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 22px;
+	padding:1px 7px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+    white-space:nowrap;
+}
+.PrintButtonRoundedCorners span {background: url(../Images/rc5px676767-363636.gif) no-repeat; display: block; font-size: 1px; height: 4px; position: absolute; width: 4px; z-index: 1}
+.PrintButtonRoundedCorners .top-left {background-position: 0 0; left: -1px; top: -1px}
+.PrintButtonRoundedCorners .top-right {background-position: 0 -4px; right: -1px; top: -1px}
+.PrintButtonRoundedCorners .bottom-left {background-position: 0 -8px; bottom: -1px; left: -1px}
+.PrintButtonRoundedCorners .bottom-right {background-position: 0 -12px; bottom: -1px; right: -1px}

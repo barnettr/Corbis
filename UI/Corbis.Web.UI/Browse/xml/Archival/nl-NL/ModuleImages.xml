@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModuleImages>
+	<Title>Module Images Placeholder</Title>
+	<Images>
+		<Image Src="" Alt="NEW">
+			<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		</Image>
+		<Image Src="" Alt="NEW">
+			<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		</Image>
+		<Image Src="" Alt="NEW">
+			<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		</Image>
+		<Image Src="" Alt="NEW">
+			<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		</Image>
+	</Images>
+	<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>
+</ModuleImages>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Campeões de bilheteria de verão</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| DC Padrão| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| DC Padrão| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Veja o show de slides" Title="Veja o show de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>As maiores estrelas e orçamentos almejam o primeiro lugar nas bilheterias este verão. Romance, comédia, drama e ficção iluminam a tela este ano. Dê uma olhadinha nas histórias mais importantes do cinema de 2009.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Retratos exclusivos de celebridades da Corbis Outline</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| RC Premium| © Don Flood/Corbis Outline" Attribution="OUT18640068| RC Premium| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="Visualize mais retratos de celebridades na Outline" Title="Visualize mais retratos de celebridades na Outline"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Artistas e musas. Astros legendários e cândidos. A Corbis Outline™ traz a você as pessoas mais famosas e fascinantes da face da terra, fotografadas pelos melhores fotógrafos do setor.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="Visualize mais retratos de celebridades na Outline" Title="Visualize mais retratos de celebridades na Outline"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

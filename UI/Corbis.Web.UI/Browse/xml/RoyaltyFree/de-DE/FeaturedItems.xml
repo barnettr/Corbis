@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Modernes Arbeiten</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Premium RF| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Premium RF| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Wahre Unternehmernaturen können überall arbeiten. Im gewohnten, aber auch unkonventionellen Umfeld. Besprechungen werden im Sitzungsraum abgehalten, Korrespondenz wird im Coffee-Shop erledigt und Brainstorming findet während der Zwischenlandung am Flughafen statt.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy: Kunstvolle lizenzfreie Fotografie</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Standard RF| © Image  Source/Corbis" ImageID="42-21218191" Attribution="| Standard RF| © Image  Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Fancy widmet sich modernen Lifestyles und setzt neue Maßstäbe für die lizenzfreie Fotografie. Das besondere Augenmerk auf Licht, Aufnahmeort und Models verleihen dieser Kollektion Stil und Substanz.</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Diashow anzeigen" Title="Diashow anzeigen"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

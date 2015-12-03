@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page>
+    
+    <PageTitle>Corbis About Us</PageTitle>
+
+    <PageDescription></PageDescription>
+
+    <PageKeywords>Corbis, Stock Photography, Stock Photos</PageKeywords>
+
+    <!-- Page Content below -->
+    <Content>
+			<p>Corbis is a creative resource for advertising, marketing and media professionals worldwide, helping to bring creative work to life with the highest quality photography, footage and rights services.  Corbis offers a preeminent collection of more than 100 million creative, entertainment and historic images, a comprehensive footage library, the world's deepest rights and clearances expertise and an award-winning media management solution, as well as empowering SnapVillage, an innovative microstock web site.  Based in Seattle, Corbis serves more than 50 countries worldwide. Corbis is privately held by its Chairman Bill Gates, who founded the company in 1989.  For more information, visit <a href="http://www.corbis.com/" title="Click to visit corbis.com website.">www.corbis.com</a>.
+			</p>
+		</Content>
+
+</Page>

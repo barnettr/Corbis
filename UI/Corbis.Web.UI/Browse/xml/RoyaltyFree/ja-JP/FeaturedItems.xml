@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>現代の仕事場</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Premium RF| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Premium RF| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>真の起業家はどこにいても戦闘態勢。場所を選びません。ミーティングは会議室で、書類の処理はコーヒーショップで、企画の構想は空港での待ち時間にこなします。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy：アートなロイヤリティーフリー画像</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Standard RF| © Image Source/Corbis" ImageID="42-21218191" Attribution="| Standard RF| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>現代のライフスタイルやモダンな関心事をしっかり捉えた Fancy は、ハイレベルのロイヤリティーフリー画像のブランド。照明、ロケ地、モデルの細部にまでこだわった写真は、スタイリッシュで本物の仕上がり。</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="スライドショーを見る" Title="スライドショーを見る"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

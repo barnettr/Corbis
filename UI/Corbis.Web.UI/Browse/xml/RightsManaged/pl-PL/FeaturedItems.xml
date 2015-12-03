@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Nowe zdjęcia</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Ekskluzywne RM| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Ekskluzywne RM| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Niecodzienne ujęcia, nowatorskie kierunki fotografii. Oto najnowsze zdjęcia Corbis.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush: Teatr reklamy</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Ekskluzywne RM| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Ekskluzywne RM| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Crush jest kolekcją o przeznaczeniu stricte reklamowym, wystylizowana i współczesna, trafia w gusta wybrednych konsumentów.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Trend: Solidna firma</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Ekskluzywne RM| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Ekskluzywne RM| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-PL.pdf?cid=pl-pl" localize="true" Text="Pobierz w PDF" Title="Pobierz w PDF"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>Korporacje chętnie oddają się czynom społecznym nie zapominając przy tym o dobrze pojętym własnym interesie. Środowisko, oświata, etyka - to nowe obszary penetracji współczesnego biznesu.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-PL.pdf?cid=pl-pl" localize="true" Text="Pobierz w PDF (1.83 MB)" Title="Pobierz w PDF"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

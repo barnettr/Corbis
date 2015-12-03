@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Gwiazdy świecą na dywanie</Title>
+		<Image Src="xml/Outline/Images/main.jpg" Alt="OUT18640068| Ekskluzywne RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Ekskluzywne RM| © Don Flood/Corbis Outline">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>
+				Raz bandyta, raz kapitan. Broi lub broni. W filmie można być każdym. Na czerwonym dywanie jest się gwiazdą.
+				</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Links>
+	</FeaturedItem>
+  <FeaturedItem>
+    <Title>Jill Greenberg</Title>
+    <Image Src="xml/Outline/Images/sub.1.jpg" Alt="OUT21718659| Ekskluzywne RM| © Jill Greenberg/Corbis Outline" Attribution="OUT21718659| Ekskluzywne RM| © Jill Greenberg/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Fotografie Jill Greenberg wyróżnia gra światłem i czystość kompozycji.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Andrew McLeod</Title>
+    <Image Src="xml/Outline/Images/sub.2.jpg" Alt="OUT20804934| Ekskluzywne RM| © Andrew McLeod/Corbis Outline" Attribution=" OUT20804934| Ekskluzywne RM| © Andrew McLeod/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Pracował z Seventeen i Sony BMG. Andrew McLeod specjalizuje się w fotografowaniu gwiazd oraz mody.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Outline Best</Title>
+    <Image Src="xml/Outline/Images/sub.3.jpg" Alt="OUT21975609| Ekskluzywne RM| © Anthony Mandler/Corbis Outline" Attribution="OUT21975609| Ekskluzywne RM| © Anthony Mandler/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Znane twarze w obiektywie słynnych fotografów.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="Pokaz slajdów" Title="Pokaz slajdów"  />
+    </Links>
+  </FeaturedItem>
+	<FeaturedItem IsHero="true">
+		<Title>Dostęp do kolekcji Outline</Title>
+		<Copy>
+			<![CDATA[
+				<p>
+					Wypełnij formularz i uzyskaj dostęp do wyjątkowej kolekcji portretów znanych ludzi. <a href="http://pro.corbis.com/creative/celebrity/outlineform/orderform.asp?lcd=pl-pl" title="Formularz dostępu do kolekcji Outline." rel="720_600_popup" localize="true">Kliknij tutaj</a> aby uzyskać dostęp do kolekcji Outline.
+				</p>
+			]]>
+		</Copy>
+		<Links />
+	</FeaturedItem>
+</FeaturedItems>

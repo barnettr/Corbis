@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Campioni d'incassi estivi</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Standard RM| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Standard RM| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Le star e i progetti cinematografici più importanti gareggiano per conquistare il primo posto al botteghino per l'estate. Commedie, film romantici, drammatici e di fantascienza animeranno il grande schermo anche quest'anno. Date un'occhiata alle storie cinematografiche più avvincenti del 2009.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Ritratti esclusivi di celebrities di Corbis Outline</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="Visualizza altri ritratti di celebrities di Outline" Title="Visualizza altri ritratti di celebrities di Outline"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Artisti e muse ispiratrici. Leggende e personalità celebri. Corbis Outline™ vi offre le immagini delle personalità più amate e più affascinanti, ritratte dai migliori fotografi in circolazione.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="Visualizza altri ritratti di celebrities di Outline" Title="Visualizza altri ritratti di celebrities di Outline"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

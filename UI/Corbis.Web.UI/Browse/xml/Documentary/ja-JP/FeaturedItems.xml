@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Latitude</Title>
+		<Image Src="xml/Documentary/Images/main.jpg" Alt="42-18630995| Premium RM| © Andy Rouse/Corbis" ImageID="42-18630995" Attribution="| Premium RM| © Andy Rouse/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>ハイコンセプトで、コマーシャルにすぐ使えるライツマネージド画像のブランド。人類の文明や大自然をファインダーに収めた、正真正銘、本物の画像。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Terra</Title>
+		<Image Src="xml/Documentary/Images/sub.1.jpg" Alt="42-19191759| Standard RM| © Remi Benali/Corbis" ImageID="42-19191759" Attribution="| Standard RM| © Remi Benali/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>豊かで幅広いコレクションが自慢のエディトリアル写真のブランド。世界中の人々や場所、生き物やイベントなど様々な被写体をカバーした、すぐに使える深みのある写真がそろっています。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

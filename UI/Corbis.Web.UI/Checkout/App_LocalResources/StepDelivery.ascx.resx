@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="emailConfirmationLayer.Title" xml:space="preserve">
+    <value>Who receives the order confirmation?</value>
+  </data>
+  <data name="emailConfirmationModalInputLabel.Text" xml:space="preserve">
+    <value>Enter email address(es) below, separated by a semicolon:</value>
+  </data>
+  <data name="howWould.Text" xml:space="preserve">
+    <value>How would you like to receive your order?</value>
+  </data>
+  <data name="CDThis.Text" xml:space="preserve">
+    <value>Delivered on CD*</value>
+  </data>
+  <data name="deliveryCharges.Text" xml:space="preserve">
+    <value>* Shipping and handling charges may apply.</value>
+  </data>
+  <data name="downloadThis.Text" xml:space="preserve">
+    <value>Download from this website</value>
+  </data>
+  <data name="emailThis.text" xml:space="preserve">
+    <value>Email*</value>
+  </data>
+  <data name="FTPThis.Text" xml:space="preserve">
+    <value>Use the Corbis FTP server</value>
+  </data>
+  <data name="howDeliver.Text" xml:space="preserve">
+    <value>How would you like to receive your order?</value>
+  </data>
+  <data name="nextStep.Text" xml:space="preserve">
+    <value>Next step &gt;</value>
+  </data>
+  <data name="pleaseGiveEmail.Text" xml:space="preserve">
+    <value>Please provide an email address for this order:</value>
+  </data>
+  <data name="pleaseIndicateImagePreferences.Text" xml:space="preserve">
+    <value>Please indicate image preferences and/or special instructions below:</value>
+  </data>
+  <data name="previousStep.Text" xml:space="preserve">
+    <value>&lt; Previous step </value>
+  </data>
+  <data name="quit.Text" xml:space="preserve">
+    <value>Quit Checkout</value>
+  </data>
+  <data name="semicolon.Text" xml:space="preserve">
+    <value>(Use a semicolon to separate multiple email addresses.)</value>
+  </data>
+  <data name="WeWillSend.Text" xml:space="preserve">
+    <value>When your order is complete or ready for email delivery, we'll send an email to:</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="companyNameLabel.Text" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="companyNameTextBox.Text" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="nameLabel.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="newAddress.Text" xml:space="preserve">
+    <value>Add new address</value>
+  </data>
+  <data name="preferredAddress.Text" xml:space="preserve">
+    <value>Preferred shipping address</value>
+  </data>
+  <data name="sameAsBusinessAddress.Text" xml:space="preserve">
+    <value>Same as business address</value>
+  </data>
+  <data name="ship1.Text" xml:space="preserve">
+    <value>Ship 1</value>
+  </data>
+  <data name="ship2.Text" xml:space="preserve">
+    <value>Ship 2</value>
+  </data>
+  <data name="ship3.Text" xml:space="preserve">
+    <value>Ship 3</value>
+  </data>
+  <data name="shippingPriorityModal.Title" xml:space="preserve">
+    <value>Shipping priority:</value>
+  </data>
+  <data name="shipTo.Text" xml:space="preserve">
+    <value>Ship to:</value>
+  </data>
+  <data name="NoAddressesError.Text" xml:space="preserve">
+    <value>We don't understand your selection. Please try again, making sure to enter all required data if prompted.</value>
+  </data>
+  <data name="addShippingLayer.Title" xml:space="preserve">
+    <value>Add a shipping address</value>
+  </data>
+  <data name="cityLabel.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="countryRegionLabel.Text" xml:space="preserve">
+    <value>Country/Region</value>
+  </data>
+  <data name="phoneLabel.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="phoneTextBox.Text" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="stateProvinceLabel.Text" xml:space="preserve">
+    <value>State/Province</value>
+  </data>
+  <data name="streetAddress1Label.Text" xml:space="preserve">
+    <value>Street address 1</value>
+  </data>
+  <data name="streetAddress1TextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="streetAddress2Label.Text" xml:space="preserve">
+    <value>Street address 2</value>
+  </data>
+  <data name="streetAddress2TextBox.Text" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="streetAddress3Label.Text" xml:space="preserve">
+    <value>Street address 3</value>
+  </data>
+  <data name="streetAddress3TextBox.Text" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="zipPostalCodeLabel.Text" xml:space="preserve">
+    <value>Zip/Postal code</value>
+  </data>
+  <data name="noSavedAddress.Text" xml:space="preserve">
+    <value>You have no saved shipping addresses.</value>
+  </data>
+  <data name="areYouSure.Message" xml:space="preserve">
+    <value>&lt;p&gt;Are you sure you want to &lt;strong&gt;quit the Checkout process&lt;/strong&gt; now?&lt;/p&gt;</value>
+  </data>
+  <data name="areYouSure.Title" xml:space="preserve">
+    <value>Quit Checkout?</value>
+  </data>
+  <data name="rmResolutionPreference.Text" xml:space="preserve">
+    <value>I prefer 1280px resolution (RM images only).</value>
+  </data>
+  <data name="specialInstructionsSection.Text" xml:space="preserve">
+    <value>Special instructions</value>
+  </data>
+  <data name="subjectSection.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="deliveryEmails.email_message" xml:space="preserve">
+    <value>Please provide a valid Email Address(es).</value>
+  </data>
+  <data name="deliveryEmails.required_message" xml:space="preserve">
+    <value>Please provide your Email Address.</value>
+  </data>
+  <data name="subjectSectionText.Text" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="specialInstructionsSectionText.Text" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+  <data name="continue.Text" xml:space="preserve">
+    <value>Continue Checkout</value>
+  </data>
+  <data name="areYouSure.Width" xml:space="preserve">
+    <value>340</value>
+    <comment>do not localize number</comment>
+  </data>
+</root>

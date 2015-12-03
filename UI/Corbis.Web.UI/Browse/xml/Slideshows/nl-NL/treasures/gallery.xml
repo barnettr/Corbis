@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/treasures/large/" tnpath="xml/Slideshows/Images/treasures/thumb/">
+		<img src="42-15170714.jpg" caption="Procession carrying the body of Pope John Paul II&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15170714');&quot;&gt;42-15170714&lt;/a&gt; &lt;p&gt;| Standaard RM| © Smiley N. Pool/Dallas Morning News/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15170714');" />
+		<img src="42-15733990.jpg" caption="Hurricane Katrina Aftermath&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15733990');&quot;&gt;42-15733990&lt;/a&gt; &lt;p&gt;| Standaard RM| © Smiley N. Pool/Dallas Morning News/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15733990');" />
+		<img src="42-15779188.jpg" caption="Chernobyl - The Aftermath&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15779188');&quot;&gt;42-15779188&lt;/a&gt; &lt;p&gt;| Premium RM| © Igor Kostin/Sygma/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15779188');" />
+		<img src="42-16941193.jpg" caption="Soccer - NASL - Pele Feature&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-16941193');&quot;&gt;42-16941193&lt;/a&gt; &lt;p&gt;| Standaard RM| © George Tiedemann/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-16941193');" />
+		<img src="42-19152111.jpg" caption="USA - Politics - President Bush Exits Airforce One&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19152111');&quot;&gt;42-19152111&lt;/a&gt; &lt;p&gt;| Standaard RM| © Brooks Kraft/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19152111');" />
+		<img src="42-21496840.jpg" caption="Audience Members in the Grandstands of the IBM Pavilion&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21496840');&quot;&gt;42-21496840&lt;/a&gt; &lt;p&gt;| Premium RM| © Bob Adelman/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21496840');" />
+		<img src="AAHV001002.jpg" caption="Plane Flying into World Trade Center&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAHV001002');&quot;&gt;AAHV001002&lt;/a&gt; &lt;p&gt;| Premium RM| © Rob Howard/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAHV001002');" />
+		<img src="AAMT001009.jpg" caption="Soldiers Leaping Over Foxhole&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAMT001009');&quot;&gt;AAMT001009&lt;/a&gt; &lt;p&gt;| Premium RM| © The Dmitri Baltermants Collection/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAMT001009');" />
+		<img src="BE023780.jpg" caption="Muhammad Ali Taunting Sonny Liston&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('BE023780');&quot;&gt;BE023780&lt;/a&gt; &lt;p&gt;| Premium RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE023780');" />
+		<img src="BE082014.jpg" caption="Hindenburg Explosion&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('BE082014');&quot;&gt;BE082014&lt;/a&gt; &lt;p&gt;| Premium RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE082014');" />
+		<img src="BE082986.jpg" caption="Valentina Tereshkova, First Woman in Space&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('BE082986');&quot;&gt;BE082986&lt;/a&gt; &lt;p&gt;| Standaard RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE082986');" />
+		<img src="FP001214.jpg" caption="Martin Luther King Jr., 1965&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('FP001214');&quot;&gt;FP001214&lt;/a&gt; &lt;p&gt;| Standaard RM| © Flip Schulke/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('FP001214');" />
+		<img src="HU060590.jpg" caption="Emperor Hirohito at His Enthronement&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('HU060590');&quot;&gt;HU060590&lt;/a&gt; &lt;p&gt;| Standaard RM| © Hulton-Deutsch Collection/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('HU060590');" />
+		<img src="IG001338.jpg" caption="Benito Mussolini Pinching His Nose&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('IG001338');&quot;&gt;IG001338&lt;/a&gt; &lt;p&gt;| Premium RM| © Lucien Aigner/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('IG001338');" />
+		<img src="IH065286.jpg" caption="Explosion of Space Shuttle Challenger, 1986&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('IH065286');&quot;&gt;IH065286&lt;/a&gt; &lt;p&gt;| Standaard RM| © CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('IH065286');" />
+		<img src="NRM351895.jpg" caption="American Soldiers Advancing Toward Baghdad During Sandstorm&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('NRM351895');&quot;&gt;NRM351895&lt;/a&gt; &lt;p&gt;| Standaard RM| © David Leeson/Dallas Morning News/CORBIS SYGMA&lt;/p&gt;" link="javascript:DisplaySearchResults('NRM351895');" />
+		<img src="TL003170.jpg" caption="German Youth Astride the Berlin Wall&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('TL003170');&quot;&gt;TL003170&lt;/a&gt; &lt;p&gt;| Premium RM| © Peter Turnley/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('TL003170');" />
+		<img src="TL034341.jpg" caption="Black Students Protesting Apartheid&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('TL034341');&quot;&gt;TL034341&lt;/a&gt; &lt;p&gt;| Standaard RM| © David Turnley/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('TL034341');" />
+		<img src="U1584025.jpg" caption="Wounded Marine Being Dragged to Safety&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('U1584025');&quot;&gt;U1584025&lt;/a&gt; &lt;p&gt;| Standaard RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('U1584025');" />
+		<img src="u1874802-3.jpg" caption="Multiple Exposure of Nadia Comaneci on Beam&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('u1874802-3');&quot;&gt;u1874802-3&lt;/a&gt; &lt;p&gt;| Standaard RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('u1874802-3');" />
+		<img src="U1999915.jpg" caption="Iranians Marching Hostages&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('U1999915');&quot;&gt;U1999915&lt;/a&gt; &lt;p&gt;| Standaard RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('U1999915');" />
+		<img src="U88274016-18.jpg" caption="Nancy Reagan Looks Lovingly at Ronald Reagan&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('U88274016-18');&quot;&gt;U88274016-18&lt;/a&gt; &lt;p&gt;| Standaard RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('U88274016-18');" />
+		<img src="UB5973ABINP.jpg" caption="Orville Wright Gliding&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('UB5973ABINP');&quot;&gt;UB5973ABINP&lt;/a&gt; &lt;p&gt;| Standaard RM| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('UB5973ABINP');" />
+	</album>
+</gallery>

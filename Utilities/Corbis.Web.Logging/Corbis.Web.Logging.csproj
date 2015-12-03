@@ -1,0 +1,122 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5849E15B-2DC2-4B57-A882-1B24AC895278}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corbis.Web.Logging</RootNamespace>
+    <AssemblyName>Corbis.Web.Logging</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\common\libs\Microsoft.Practices\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\common\PreReqs\Microsoft Enterprise Library 3.1 - May 2007\Bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\common\libs\Microsoft.Practices\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\common\PreReqs\Microsoft Enterprise Library 3.1 - May 2007\Bin\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\common\PreReqs\Microsoft Enterprise Library 3.1 - May 2007\Bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActualLogging.cs" />
+    <Compile Include="Logging Extensions\Configuration\AgeThresholdUnit.cs" />
+    <Compile Include="Logging Extensions\Configuration\ByteThresholdUnit.cs" />
+    <Compile Include="Logging Extensions\Configuration\RollingFileSinkData.cs" />
+    <Compile Include="Logging Extensions\Configuration\RollingFileTraceListenerAssembler.cs" />
+    <Compile Include="Logging Extensions\Configuration\RollingFileTraceListenerData.cs" />
+    <Compile Include="Logging Extensions\Configuration\RollingFileTraceListenerNode.cs" />
+    <Compile Include="Logging Extensions\Configuration\RollingFileTraceListenerSettings.cs" />
+    <Compile Include="Logging Extensions\Configuration\SizeThresholdUnit.cs" />
+    <Compile Include="Logging Extensions\DefaultValues.cs" />
+    <Compile Include="Logging Extensions\DummyClass.cs" />
+    <Compile Include="Logging Extensions\LoggingCommandRegistrar.cs" />
+    <Compile Include="Logging Extensions\LoggingConfigurationDesignManager.cs" />
+    <Compile Include="Logging Extensions\LoggingNodeMapRegistrar.cs" />
+    <Compile Include="Logging Extensions\TraceListeners\FileComparer.cs" />
+    <Compile Include="Logging Extensions\TraceListeners\FileNameBuilder.cs" />
+    <Compile Include="Logging Extensions\TraceListeners\LogRoller.cs" />
+    <Compile Include="Logging Extensions\TraceListeners\RollingFileTraceListener.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logging Extensions\bin\Debug\LogicaCMG.EnterpriseLibraryExtensions.Logging.pdb" />
+    <Content Include="Logging Extensions\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml" />
+    <Content Include="Logging Extensions\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml" />
+    <Content Include="Logging Extensions\Logging.Configuration.Design.csproj" />
+    <Content Include="Logging Extensions\Logging.Configuration.Design.csproj.user" />
+    <Content Include="Logging Extensions\Logging.csproj" />
+    <Content Include="Logging Extensions\Logging.csproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <Component Include="Logging Extensions\bin\Debug\LogicaCMG.EnterpriseLibraryExtensions.Logging.dll" />
+    <Component Include="Logging Extensions\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Component Include="Logging Extensions\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+    <Component Include="Logging Extensions\bin\Debug\Microsoft.Practices.ObjectBuilder.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Logging Extensions\bin\Release\" />
+    <Folder Include="Logging Extensions\Configuration\Design\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

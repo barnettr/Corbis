@@ -1,0 +1,1209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BetaSiteUsageAgreementText" xml:space="preserve">
+    <value>
+                            &lt;p&gt;
+                                PLEASE READ THIS CAREFULLY. THE FOLLOWING TERMS AND CONDITIONS CONSTITUTE
+                                    A BINDING AGREEMENT BETWEEN YOU AND CORBIS CORPORATION ("Corbis"). By
+                                    using the Corbis beta web site ("Site") and/or downloading any content,
+                                    you are agreeing to participate in the evaluation of a beta (pre-release)
+                                    version of the Corbis web site and you agree to be bound by and comply
+                                    with this Beta Site Usage Agreement ("Agreement").  You acknowledge and
+                                    agree that Corbis may change or discontinue the beta web site at any
+                                    time, without notice of any kind.  If you do not wish to be bound by
+                                    this Agreement, do not use this Site.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                This Agreement applies to you, and if you are using this Site on your employer’s
+                                    behalf, to you and your employer. Corbis reserves the right to change
+                                    this Agreement from time to time at its sole discretion, and your use
+                                    of the Site will be subject to the most current version posted on the
+                                    Site at the time of your use. If you are acting within the scope of your
+                                    employment as an employee, contractor, or agent of another party, you
+                                    warrant that such party has full knowledge of your actions and has consented
+                                    thereto.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                This Agreement is in addition to your obligations under the applicable Corbis
+                                    Content License Agreement (if any). In the event of any conflict between
+                                    this Agreement and the Corbis Content License Agreement, the Corbis Content
+                                    License Agreement will control as to the conflicting terms.
+                                &lt;strong&gt;
+                                    If you are unsure of your rights or obligations under this Agreement,
+                                    please contact Customer Service by e-mail at service@corbis.com.
+                                &lt;/strong&gt; 
+                                &lt;br /&gt;
+                                
+                                &lt;br /&gt;
+                                Permitted Use of this Site 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                This Site is owned and operated by Corbis. All images, audio, video and related
+                                    informational materials in any medium furnished by Corbis hereunder,
+                                    including related text, captions, or information (collectively referred
+                                    to as "Content"), is owned by Corbis or our licensors and is protected
+                                    by US and international copyright laws, trade dress, moral rights, and
+                                    other intellectual property rights. Except as explicitly permitted under
+                                    this Agreement or the applicable Corbis’ Content License Agreement (if
+                                    any), no portion or element of this Site or its Content may be copied
+                                    or retransmitted via any means and all related rights shall remain the
+                                    exclusive property of Corbis.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                FOR THE PROTECTION OF CORBIS AND ITS IMAGE SOURCES AND OTHER LICENSORS, CONTENT
+                                    MAY BE VISIBLY, INVISIBLY, OR ELECTRONICALLY WATERMARKED AND MAY INCLUDE
+                                    THE USE OF DIGITAL RIGHTS MANAGEMENT SYSTEM TECHNOLOGY WITHIN CONTENT.
+                                    SUCH TECHNOLOGY MAY PERMIT ONLINE CRAWLING OR TRACKING OF CONTENT OBTAINED
+                                    FROM CORBIS AND/OR OTHER METHODS OF PROTECTING, MONITORING, OR TRACKING
+                                    THE UNAUTHORIZED USE OF THE CONTENT ("RIGHTS MANAGEMENT SYSTEMS (RMS))".
+                                    If you do not consent to Corbis’ use of RMS, do not use the Site or any
+                                    Content found therein. You shall not knowingly disable any such technology
+                                    or tool. You may not remove any copyright or other proprietary notices
+                                    contained in the Content, caption information, or any other material
+                                    on this Site. Additionally, unless authorized by Corbis in writing, you
+                                    may not:
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                (i) deep link or employ software or any automatic device, technology or algorithm,
+                                    to "crawl," "scrape," search or monitor the Site and/or retrieve or copy
+                                    Content or related information;
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                (ii) violate the mechanical restrictions of the Site, or bypass other measures
+                                    employed to prevent or limit access to the Site or Content by hacking
+                                    or other means;
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                (iii) copy, redirect, or exploit the Site or any Content;
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                (iv) probe, scan, or test the vulnerability of the Site or of the network
+                                    supporting the Site, or seek information on visitors to the Site or personal
+                                    information of Corbis’ customers; or
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                (v) use any device, software or routine that would interfere with the proper
+                                    functioning of the Site, or any transaction conducted via the Site.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Your use of this Site and any Content shall comply with all applicable law.
+                                    Corbis reserves the right, in its sole discretion, to revoke your authorization
+                                    to view, download and use the Content and information available on the
+                                    Site at any time and for any reason, with or without notice to you of
+                                    such revocation, and you agree to immediately discontinue such use upon
+                                    notice from Corbis. Corbis may also restrict or remove Content from the
+                                    Site for any reason, and you agree to immediately discontinue all use
+                                    of the Content upon notification from Corbis.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Despite our efforts to provide accurate information, this Site may contain
+                                    technical or other mistakes, inaccuracies or typographical errors. Additionally,
+                                    this Site and its Content may include historically and culturally important
+                                    images and text that may contain subjects that reflect the social attitudes
+                                    and circumstances of a particular time or location. You should be aware
+                                    that your search may display results containing content that may seem
+                                    inappropriate to its context, or text that could be potentially offensive.
+                                &lt;strong&gt;
+                                &lt;em&gt;You are solely responsible for determining whether your use of any Content
+                                requires the consent of any third party or the license of any additional
+                                rights, and you should not rely solely on the information provided by Corbis.
+                                If you are unsure whether additional third-party rights are needed for your
+                                use, you are responsible for consulting with competent rights management
+                                professionals or legal counsel.&lt;/em&gt;
+                                &lt;/strong&gt; 
+                                &lt;br /&gt;
+                                
+                                &lt;br /&gt;
+                                Privacy 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Corbis’ Privacy Policy applies to use of this Site, and its terms and conditions
+                                    are made part of this Agreement by reference. Please consult Corbis’
+                                    Privacy Policy for specific information on Corbis policies for use of
+                                    your personal information. You understand that any message or information
+                                    sent to the Site may be viewed or intercepted by third parties, even
+                                    if there is a special notice that the information (e.g., financial information)
+                                    is encrypted. 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Feedback
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Corbis will own and have sole right to any ideas, information, understandings
+                                    and concepts derived from your evaluation of the Site or any other suggestions
+                                    or information you disclose (Collectively, Submissions"), without restriction,
+                                    for any purpose, and without compensating you in any way.  You understand
+                                    and agree that Corbis will own all copyrights in the results of any of
+                                    your evaluation, suggestions or information of the Site, including any
+                                    quotations or comments provided by you, and you hereby assign to Corbis
+                                    all worldwide rights, title and interest in copyrights and other intellectual
+                                    property rights in the Submissions.  All Submissions will be deemed confidential
+                                    and proprietary information of Corbis.  You agree to release Corbis and
+                                    its affiliates, contractors, agents, and employees from any claims relating
+                                    to use of the material that you provide and that is included in all Submissions,
+                                    so long as such use is in accordance with the terms of this Agreement. 
+                                    These rights and obligations survive this Agreement.  If requested, you
+                                    agree to reasonably cooperate to provide Corbis with your evaluation
+                                    of the Site.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Confidentiality
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                The Site has not been commercially released and information relating to the
+                                    Site, including features and functionality, is considered proprietary. 
+                                    By virtue of your use of the Site, you are the recipient of important
+                                    proprietary and confidential information.  You may also, in connection
+                                    with your evaluation of the Site, receive information about this Site
+                                    that is still being developed or other confidential information relating
+                                    to Corbis’ business, products and services (including, without limitation,
+                                    algorithms, know-how, formulas, processes, ideas, inventions (whether
+                                    patentable or not), schematics and other technical, business, financial,
+                                    customer and product development plans, forecasts, strategies and information).
+                                    Any information you acquire as a result of your participation in the
+                                    evaluation of the Site is confidential and proprietary and is being disclosed
+                                    to you only so that you can participate in the evaluation.  You agree
+                                    not to use in any manner nor disclose to any third party any of the information
+                                    you obtain through your participation in this evaluation (including any
+                                    Submissions) other than to say that you helped to evaluate a new e-commerce
+                                    product.
+                                &lt;br /&gt;
+                                
+                                &lt;br /&gt;
+                                Any details and features of the Site which do not appear in the commercial
+                                release (if any) of the Site, shall remain the proprietary information of
+                                Corbis.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Registering For A Corbis Account 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Registration with Corbis grants you certain privileges. For example, if you
+                                    have registered for a Corbis account and Corbis has approved your registration,
+                                    you may be able to access Content without a visible watermark. In applying
+                                    for a Corbis account, you agree to furnish true and accurate information.
+                                    Corbis reserves sole discretion over whether to grant you an account,
+                                    and you agree to access the authorized sections of the Site and your
+                                    account only by using the account number and password supplied to you
+                                    by Corbis. You are responsible for maintaining the confidentiality of
+                                    your account number and/or password, if applicable, and you shall not
+                                    distribute this access information or allow others to use this access
+                                    information to gain access to this Site. You agree to take reasonable
+                                    steps to prevent others from obtaining your access information and to
+                                    notify Corbis of any unauthorized access or need to update or remove
+                                    access for any of your employees or agents. You shall be liable for payment
+                                    for all Content downloaded by others using your account, with or without
+                                    your permission or knowledge prior to the time that you notify Corbis
+                                    of any unauthorized use. Corbis cannot and will not be liable for any
+                                    loss or damage arising from your failure to follow these obligations.
+                                    You agree that you shall not acquire any rights of use, ownership, or
+                                    bailment as a result of using any Corbis account or Site or related services. 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Children 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Minors and children (persons under the age of 18) are not eligible to use
+                                    this Site unsupervised and we ask that minors and children do not register
+                                    for an account or submit any personal information to us. By using this
+                                    Site unsupervised, and/or registering for an account, you warrant that
+                                    you are 18 years of age or older. 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Limited License for Comp Usage 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Conditioned on your compliance with this Agreement, Corbis grants you a limited
+                                    license to download Content consisting of images solely for evaluating
+                                    whether you wish to purchase a license to the image according to Corbis
+                                    Content License Agreement applicable to your use ("Comps"). If you are
+                                    not a registered user, your Comp license covers only visibly watermarked
+                                    Content, and does not entitle you to download Content which does not
+                                    contain a visible watermark. You may use Comps solely for your internal
+                                    evaluation and for no longer than sixty (60) days from the date of download
+                                    solely to determine whether you intend to obtain a non-Comp license for
+                                    the Content. You may not use a Comp image in any final materials distributed
+                                    within your company or any materials distributed outside of your company
+                                    or to the public or in any online or other electronic distribution system.
+                                    Except for this limited, internal testing and sample use, Corbis grants
+                                    you no other rights, and you may not copy, distribute, publish, display,
+                                    sublicense, make available, or otherwise use in any way the comp outside
+                                    the scope of this Agreement. To access images without a visible watermark,
+                                    you must register for a Corbis account.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Corbis may immediately terminate any licenses granted to you without notice
+                                    if you fail to comply with any provision of this agreement or with the
+                                    Corbis Content License Agreement applicable to your use. If a license
+                                    is terminated, you agree to immediately (i) stop using this Site and
+                                    the Content and (ii) delete all Content and all copies from all magnetic
+                                    media and destroy all other copies, or, at Corbis’ request, return all
+                                    such copies to Corbis.
+                                &lt;br /&gt;
+                                
+                                &lt;br /&gt;
+                                Corbis Trademarks 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                You may not use the trademarks or service marks of Corbis without Corbis’
+                                    prior written consent. "Corbis," "Start Here," "Corbis Outline," "Corbis
+                                    Motion," and the CORBIS logo, among others, are trademarks of the Corbis
+                                    Corporation. Other product and company names mentioned on the Site may
+                                    be trademarks of their respective owners. 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Indemnification 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                You agree to indemnify and hold harmless Corbis and its Content sources,
+                                    officers, directors, employees, contractors, subsidiaries, joint ventures,
+                                    licensors and licensees against all claims (including, without limitation,
+                                    claims by third parties), liability, damages (including punitive damages),
+                                    judgments, settlements, costs and expenses, including reasonable legal
+                                    fees and expenses, arising out of or related to (i) Your breach of any
+                                    terms, conditions or restrictions of this Agreement, (ii) Your use or
+                                    modification of any Content, or combination of any Content, with any
+                                    text or other content, (iii) Your failure to obtain from third parties
+                                    all permissions necessary to use the Content,; and (iv) any act or failure
+                                    to act by you or any of your employees, contractors, employers, agents,
+                                    clients, principals, or users. 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Disclaimers and Limitation of Liability 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                            &lt;strong&gt;
+                            &lt;em&gt;YOU ACKNOWLEDGE THAT THE SITE IS A BETA (PRE-RELEASE) VERSION.  CORBIS PROVIDES
+                            YOU WITH THE SITE AND CONTENT ON AN 
+                            &amp;quot;
+                                AS IS
+                            &amp;quot; 
+                                AND "AS AVAILABLE" BASIS. EXCEPT FOR ANY LIABILITY WHICH CANNOT BY LAW BE
+                                EXCLUDED OR LIMITED, NEITHER CORBIS NOR ANY CORBIS SUBSIDIARY, SUCCESSOR,
+                                PREDECESSOR, PARENT, JOINT VENTURE, AFFILIATE, OFFICER, DIRECTOR, EMPLOYEE,
+                                CONTRACTOR, CONTENT SOURCE, LICENSOR OR LICENSEE SHALL BE LIABLE TO YOU OR
+                                ANY OTHER THIRD PARTY CLAIMING THROUGH YOU FOR INDIRECT, INCIDENTAL, SPECIAL,
+                                PUNITIVE, STATUTORY OR CONSEQUENTIAL DAMAGES ARISING OUT OF, OR RELATING
+                                TO, THIS AGREEMENT, CONTENT OR THIS WEB SITE, AND YOUR RIGHTS UNDER ANY PROVISION
+                                OF THIS AGREEMENT, INCLUDING, WITHOUT LIMITATION, YOUR USE OR INABILITY TO
+                                USE THE CONTENT OR THIS WEB SITE, WHETHER FRAMED AS A BREACH OF WARRANTY
+                                OF MERCHANTABILITY, TITLE, NON-INFRINGEMENT, OR FITNESS FOR A PARTICULAR
+                                PURPOSE, IN TORT, CONTRACT, FAILURE OF ESSENTIAL PURPOSE, OR OTHERWISE. IN
+                                NO EVENT SHALL CORBIS' OR ITS AFFILIATES' LIABILITY ARISING OUT OF YOUR USE
+                                OF THIS SITE OR INABILITY TO ACCESS THIS SITE OR ANY OF THE CONTENT EXCEED
+                                $500. THE FOREGOING EXCLUSIONS AND LIMITATIONS ON REMEDIES AND DAMAGES ARE
+                                APPLICABLE NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE.  &lt;/em&gt;
+                            &lt;/strong&gt;
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Third Party Links 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                As a convenience, our Site may link to other sites that may be of interest
+                                    to you but are not under Corbis’ control. These links do not imply endorsement
+                                    by Corbis and we are not responsible for the availability of or the content
+                                    contained in any linked site. 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Notification of Copyright Infringement 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Corbis may terminate the accounts of users who infringe the intellectual
+                                    property rights of others. If you believe that your work has been used
+                                    or copied in a way that constitutes copyright infringement and such infringement
+                                    is occurring on the Site, send Corbis’ copyright agent a notice containing:
+                                    (i) a physical or electronic signature of the copyright owner or person
+                                    authorized to act on behalf of the copyright owner; (ii) a description
+                                    of the copyrighted work or works that you claim have been infringed and
+                                    identification of what material in such work(s) is claimed to be infringing;
+                                    (iii) a description of where the material that you claim is infringing
+                                    is located on the Site; (iv) information sufficient to permit Corbis
+                                    to contact you, such as your physical address, telephone number, and
+                                    email address; (v) a statement that you have a good faith belief that
+                                    the use of the material you identified is not authorized by the copyright
+                                    owner, its agent, or the law; and (vi) a statement by you that the information
+                                    in your notice is accurate and, under penalty of perjury, that you are
+                                    the copyright owner or authorized to act on the copyright owner’s behalf.
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Corbis’ copyright agent for notice of claims of copyright infringement can
+                                    be reached as follows:
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Corbis Copyright Agent
+                                &lt;br /&gt;
+                                710 Second Avenue, Suite 200
+                            &lt;br /&gt;
+                                Seattle, WA 98104
+                                &lt;br /&gt;
+                                By telephone: 206.373.6000
+                            &lt;br /&gt;
+                                By fax: 206.373.6100
+                                &lt;br /&gt;
+                                
+                                &lt;br /&gt;
+                                Choice of Law / Jurisdiction / Attorneys’ Fees 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Any dispute regarding this Agreement shall be governed by the laws of the
+                                    State of New York and applicable U.S. Federal law, including Title 17
+                                    of the U.S. Code, as amended. The parties agree to accept the exclusive
+                                    jurisdiction of the state and federal courts located in New York, USA,
+                                    regardless of conflicts of laws. This Agreement shall not be governed
+                                    by the United Nations Convention on Contracts for the International Sale
+                                    of Goods, the application of which is expressly disclaimed. The parties
+                                    hereto confirm that it is their wish that this Agreement, as well as
+                                    any other documents relating hereto, including notices, has been and
+                                    shall be written in the English language. In any dispute between Corbis
+                                    and you, Corbis shall be entitled to recover its reasonable attorneys’
+                                    fees, legal expert fees, and other legal expenses from you. 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                Miscellaneous 
+                            &lt;/p&gt;
+                            &lt;p&gt;
+                                You acknowledge that you have read this Agreement and understand it, and
+                                    agree to be bound by all its terms and conditions. This Agreement (along
+                                    with Corbis’ Privacy Policy and the Corbis Content License Agreement,
+                                    if applicable) constitutes the entire agreement between the parties with
+                                    respect to the subject matter hereof and merges all prior and contemporaneous
+                                    communications. No action of Corbis, other than the express or written
+                                    waiver or amendment, may be construed as a waiver or amendment of this
+                                    Agreement. This Agreement shall not be modified except by a written agreement
+                                    signed by duly authorized representatives of Corbis, provided that no
+                                    purchase order or similar document issued by you shall modify this Agreement,
+                                    even if signed by Corbis. If any provision of this Agreement is found
+                                    invalid or unenforceable, the remainder of this Agreement shall remain
+                                    valid and enforceable according to its terms. The parties intend that
+                                    the provisions of this Agreement be enforced to the fullest extent permitted
+                                    by applicable law. Accordingly, the parties agree that if any provisions
+                                    are deemed not enforceable, they shall be deemed modified to the extent
+                                    necessary to make them enforceable and in such manner as comes closest
+                                    to the intentions of the parties to this Agreement as is possible. This
+                                    Agreement will inure to the benefit of and be binding upon the parties,
+                                    their successors and assigns, except that you may not assign or transfer
+                                    this Agreement without Corbis’ prior written consent. 
+                            &lt;/p&gt;</value>
+  </data>
+  <data name="BetaSiteUsageAgreementTitle" xml:space="preserve">
+    <value>BETA SITE USAGE AGREEMENT</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>© 2001-{YEAR} by Corbis Corporation. All visual media © by Corbis Corporation and/or its media providers. All Rights Reserved.</value>
+  </data>
+  <data name="ImprintText" xml:space="preserve">
+    <value>      &lt;p&gt;&lt;b&gt;Anschrift:&lt;/b&gt;&lt;br /&gt;Corbis GmbH&lt;br /&gt;Kaistra&amp;#223;e 2&lt;br /&gt;40221 D&amp;#252;sseldorf&lt;br /&gt; &lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Kontakt:&lt;/b&gt;&lt;br /&gt;&lt;a class=RegularLink href="mailto:service.germany@corbis.com" target=_blank&gt;service.germany@corbis.com&lt;/a&gt; &lt;br /&gt;Tel.: +49 (0)211 912 82-0&lt;br /&gt;Fax:   +49 (0)211 912 82-34&lt;br /&gt;&lt;/p&gt;&lt;p&gt;E-Mail: F&amp;#252;r den einfachen und schnellen Kontakt nutzen Sie bitte unsere &lt;a class="RegularLink" href="/CustomerService/CustomerService.aspx" target=_top&gt;Kontaktseite&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Sitz der Gesellschaft&lt;/b&gt;&lt;br /&gt;D&amp;#252;sseldorf&lt;br /&gt;&lt;p/&gt;&lt;p&gt;&lt;br/&gt;&lt;b&gt;Registergericht:&lt;/b&gt;&lt;br /&gt;Amtsgericht D&amp;#252;sseldorf, HBR 39389&lt;/p&gt;
+        &lt;p&gt;&lt;br/&gt;&lt;b&gt;Umsatzsteueridentifikationsnummer (USt-ID-Nr.):&lt;/b&gt;&lt;br /&gt;DE 813045485&lt;/p&gt;
+        &lt;p&gt;&lt;br/&gt;&lt;b&gt;Vertretungsberechtigt:&lt;/b&gt;&lt;br /&gt;
+         Max Wieberneit&lt;br /&gt;
+         Ivan Purdie&lt;br /&gt;
+        Stefan Biberfeld&lt;br /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;br/&gt;&lt;b&gt;Vertretungsberechtigter Gesch&amp;#228;ftsf&amp;#252;hrer &lt;br /&gt; und inhaltlich verantwortlich gem. &amp;#167; 6 MDStV&lt;/b&gt;&lt;br /&gt;
+        Max Wieberneit&lt;/p&gt;</value>
+  </data>
+  <data name="ImprintTitle" xml:space="preserve">
+    <value>Impressum</value>
+  </data>
+  <data name="PrivacyPolicyText" xml:space="preserve">
+    <value>&lt;b&gt;Last Updated on 04/22/2008&lt;/b&gt;&lt;br /&gt;
+        &lt;p /&gt;
+        At Corbis, we understand and respect your concern about the privacy of any information 
+        you supply while at our web site. We believe that knowledge is the key to monitoring 
+        and protecting how your information is used on the Internet. This statement sets forth 
+        our Privacy Policy and describes the practice we follow with respect to all 
+        visitors to this web site, which is owned and operated by Corbis Corporation, a 
+        subsidiary of Corbis Holdings, Inc.
+        &lt;p /&gt;
+        Corbis is a licensee of the TRUSTe Privacy Program. TRUSTe is an independent, 
+        non-profit organization whose mission is to enable individuals and organizations to 
+        establish trusting relationships based on respect for personal identity and information 
+        by promoting the use of fair information practices. This privacy statement covers the 
+        web site &lt;a class="RegularLink" href="http://www.corbis.com" target="_blank"&gt;www.corbis.com&lt;/a&gt; (“Web Site”). 
+        Because Corbis wants to demonstrate its commitment 
+        to our Web Site users’ privacy, it has agreed to disclose its information practices and 
+        have its privacy practices reviewed for compliance by TRUSTe.
+        &lt;p /&gt;
+        If you have any questions regarding this privacy statement please do not hesitate in contacting us. 
+        Email your questions to &lt;a class="RegularLink" href="mailto:service@corbis.com"&gt;service@corbis.com&lt;/a&gt;. 
+        If you do not receive acknowledgment of your inquiry 
+        or your inquiry is not satisfactorily addressed, you should then contact TRUSTe through the TRUSTe 
+        Watchdog Dispute Resolution Process by Internet at &lt;a class="RegularLink" href="http://www.truste.org/consumers/watchdog_complaint.php" target="_blank"&gt;http://www.truste.org/consumers/watchdog_complaint.php&lt;/a&gt;, 
+        or fax at 415-520-3420, or mail at Watchdog Complaints, TRUSTe, 55 2nd Street 2nd Floor, 
+        San Francisco, CA, USA 94105. If you are faxing or mailing TRUSTe to lodge a complaint, 
+        you must include the following information: the name of company, the alleged privacy violation, 
+        your contact information, and whether you would like the particulars of your complaint shared with the 
+        company. TRUSTe will serve as a liaison with the Web Site to resolve users' concerns. The TRUSTe 
+        program covers only information that is collected through this Web Site.
+        &lt;p /&gt;
+        Please note that by agreeing to Corbis’ Privacy Policy and providing your personally identifiable information you consent to:
+        &lt;ul style="margin-left:10px;"&gt;
+        &lt;li&gt;the use of your personal information by Corbis and its parent, affiliates and subsidiaries
+        for the uses identified in Section titled “Personal Information,” in accordance with this
+        privacy policy; and
+        &lt;li&gt;the transfer of your information to servers located in the United States.
+        &lt;/ul&gt;
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Notice Paragraph&lt;/b&gt;
+        &lt;p /&gt;
+        We participate in and abide by the EU Safe Harbor Privacy Framework as set forth by the United States Department of Commerce regarding the collection, use, and retention of data from the European Union. 
+        As part of our participation in the safe harbor, we have agreed to TRUSTe dispute resolution for disputes 
+        relating to our compliance with the Safe Harbor Privacy Framework. If you have any complaints regarding our 
+        compliance with the Safe Harbor you should first contact us by emailing your questions to 
+        &lt;a class="RegularLink" href="mailto:service@corbis.com"&gt;service@corbis.com&lt;/a&gt;. If contacting 
+        us does not resolve your complaint, you may raise your complaint with TRUSTe by Internet 
+        at &lt;a class="RegularLink" href="http://www.truste.org/consumers/watchdog_complaint.php" target="_blank"&gt;http://www.truste.org/consumers/watchdog_complaint.php &lt;/a&gt;, or fax at 415-520-3420, or mail at Watchdog Complaints, TRUSTe, 55 2nd Street 2nd Floor, San Francisco, CA, USA 94105. If you are faxing or mailing TRUSTe to lodge a complaint, you must include the following information: the name of company, the alleged privacy violation, your contact information, and whether you would like the particulars of your complaint shared with the company. 
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Children&lt;/b&gt;
+        &lt;p /&gt;
+        Children (persons under the age of 18) are not eligible to use this Web Site unsupervised 
+        and we ask that children do not register for an account or submit any personal 
+        information to us. By using this Web Site unsupervised, and/or registering for 
+        an account, you warrant that you are 18 years of age or older.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Personal Information&lt;/b&gt;
+        &lt;p /&gt;
+        Corbis collects certain personal information from users of this Web Site. 
+        To create user accounts, authorized users must provide certain contact 
+        and account information such as name, email address, billing address, 
+        and phone number in order to access, license and download images. Corbis 
+        may use certain account information such as credit card number and 
+        company information of authorized users to conduct credit inquiries. 
+        Corbis may use this information for the following purposes:
+        &lt;ul style="margin-left:10px;"&gt;
+        &lt;li&gt;to process your order and any invoices;
+        &lt;li&gt;to maintain or update your Corbis account;
+        &lt;li&gt;to send you updates about special offers, new services, special promotions, and
+        noteworthy news and events;
+        &lt;li&gt;to fulfill the terms of a promotion or contest;
+        &lt;li&gt;to fulfill a service to you, for example, if you choose to submit content to the Web Site,
+        we may use your personal information to respond to your submission;
+        &lt;li&gt;to contact you in response to forms such as “Contact Us” or Live Chat or emailed
+        requests;
+        &lt;li&gt;to contact you about a material change to this Privacy Policy or Site Usage Agreement,
+        if necessary;
+        &lt;li&gt;to comply with the law or in the good faith belief that such action is necessary
+        in order to conform with the requirements of the law or to comply with
+        legal process served on us; and
+        &lt;li&gt;to third parties as part of any corporate reorganization process, including, but not
+        limited to mergers, acquisitions, and sales of all or substantially all of our assets.
+        &lt;/ul&gt;
+        &lt;p /&gt;
+        Corbis may also share or disclose your personally identifiable information that is collected 
+        on the Web Site to Corbis’ parent and affiliated companies who are offering products or 
+        services that we believe may be of interest to you or who require your personally identifiable 
+        information for research, administrative and/or internal business purposes. These parties may 
+        use such information to contact you with an advertisement or offering related to a product or services.
+        &lt;p /&gt;
+        Except as specifically set forth in this Privacy Policy, Corbis does not sell, share or rent information 
+        about its customers to third parties for their marketing or promotional purposes.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Lightbox Referral&lt;/b&gt;
+        &lt;p /&gt;
+        If you use our referral service for informing a friend about our Web Site, or inviting a friend to view 
+        your lightbox, we will ask you for the friend's name and email address. Corbis will automatically send 
+        your friend a one-time email inviting him or her to visit the Web Site. Corbis does not retain this information.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Profile Information&lt;/b&gt;
+        &lt;p /&gt;
+        Your profile information (such as company type and language preference) in the registration form is used 
+        by Corbis to create personalized content, services, and advertising on the Web Site. Corbis may 
+        also profile your Web Site activity in order to accurately track your account and provide you with Corbis 
+        products and services that correspond to your interests. Corbis may also compile data in aggregate form 
+        so that we may better understand the users that are visiting our Web Site. For example, we may produce 
+        reports on the most popular search terms by collecting general search term data based on individual searches. 
+        Aggregate data is anonymous and does not contain any personal information that identifies a user. Corbis may 
+        provide non-identifying and aggregate usage and volume statistical information from our Web Site users to 
+        third parties for their audit, research and analytical purposes. 
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Automatically Collected Information&lt;/b&gt;
+        &lt;p /&gt;
+        As is true of most web sites, when you access and use the Web Site, we gather certain information 
+        automatically and store it in log files. This information includes internet protocol (IP) 
+        addresses, browser type, internet service provider (ISP), referring/exit pages, operating system, 
+        date/time stamp, and clickstream data. 
+        &lt;p /&gt;
+        We use this information, which does not identify individual users, to analyze trends, to administer 
+        the Web Site, to track users' movements around the Web Site and to gather demographic information 
+        about our user base as a whole.
+        &lt;p /&gt;
+        We do link this automatically collected data to personally identifiable information. IP 
+        addresses are tied to personally identifiable information to segregate customer types 
+        for analytical purposes. 
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Use of Service Providers&lt;/b&gt;
+        &lt;p /&gt;
+        We occasionally hire or partner with other companies to provide limited services on our 
+        behalf, such as managing and handling the processing and delivery of mailings (both email 
+        and postal mail), providing customer support, processing transactions, or performing 
+        statistical analysis of our services. We will only provide those companies the personal 
+        information they need to deliver the service. They are required to maintain the confidentiality 
+        of your information and are prohibited from using that information for any other purpose.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Change of Address or Contact Information&lt;/b&gt;
+        &lt;p /&gt;
+        If your personally identifiable information changes, or if you no longer desire our service, 
+        you may correct, update, or delete inaccuracies in your information by making the change 
+        through the "Customer Service" page of our Web Site, by emailing our Customer Support at 
+        &lt;a class="RegularLink" href="mailto:service@corbis.com"&gt;service@corbis.com&lt;/a&gt;, 
+        or by contacting us by telephone or postal mail at the contact information listed below. 
+        Your request will be processed and implemented within thirty (30) days.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Security&lt;/b&gt;
+        &lt;p /&gt;
+        Corbis has a number of operational functions in place to protect the confidentiality of 
+        personal information. For example, we store the personal information you provide on 
+        computer systems with limited access that are located in secured facilities. Corbis' 
+        employees are trained and kept up-to-date on our security procedures. If you have any 
+        questions about the security at our Web Site, you can send an email to 
+        &lt;a class="RegularLink" href="mailto:service@corbis.com"&gt;service@corbis.com&lt;/a&gt;.
+        &lt;p /&gt;
+        We use SSL encryption technologies to transmit sensitive information such as a credit 
+        card number to our servers. However, perfect security on the Internet does not exist, 
+        and Corbis does not warrant that its Web Site is impenetrable or invulnerable to hackers.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Cookies&lt;/b&gt;
+        &lt;p /&gt;
+        When you visit the Web Site, Corbis sends your computer a cookie, which is a small 
+        file that resides on your computer's hard drive and contains non-personally identifiable 
+        information about the user. Cookies only identify the user's computer. Cookies allow 
+        Corbis to make its Web Site more useful by storing information about your preferences. 
+        For example, Corbis will send your computer a cookie to maintain default settings such 
+        as your language preference. You can set your browser's options not to accept cookies, 
+        but this may prevent you from accessing all of the features of the Corbis Web Site.
+        &lt;p /&gt;
+        Corbis uses a third party to assist in managing the licensing of our images. This 
+        third party uses clear GIFs, a tiny 1x1 pixel GIF, to digitally watermark our images, 
+        in both a visible and invisible manner. When you purchase a licensed image from us, the 
+        visible watermark is then removed from the image, however, in certain lower resolution images, 
+        an invisible watermark may remain, allowing Corbis and the third party to track certain usage 
+        of such images on the Internet.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Email&lt;/b&gt;
+        &lt;p /&gt;
+        Except as set forth in this Privacy Policy, Corbis does not rent, share or sell email 
+        lists to third parties for their promotional purposes. Corbis may send you email to 
+        notify you about your recent order; this will be sent to the email address you provide to Corbis.
+        &lt;p /&gt;
+        Corbis offers its members the choice to not receive emails or updates about special benefits, 
+        promotions, or offers from Corbis. If you no longer wish to receive these updates, or you 
+        wish to unsubscribe from your Corbis account please complete the Contact Us form on the Web 
+        Site and let us know in the comments section that you would like to be removed from the mailing list.
+        &lt;p /&gt;
+        If you no longer wish to receive our promotional communications, you may opt-out of receiving them 
+        by following the instructions included in each communication (e.g. following the unsubscribe 
+        instructions within the email) or you may contact us at &lt;a href="mailto:service@corbis.com" class="RegularLink"&gt;service@corbis.com&lt;/a&gt;, 
+        or telephone us at 1-800-260-0444, to opt-out.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Surveys, Promotions, and Contests&lt;/b&gt;
+        &lt;p /&gt;
+        Participation in surveys, promotions, or contests on the Web Site is completely voluntary and 
+        the user therefore has a choice whether or not to disclose personal information. Information 
+        requested may include contact information (such as name and shipping address), and demographic 
+        information (such as zip code). Contact information will be used to notify the winners and award promotional 
+        gifts prizes. Survey information will be used for the purposes of monitoring or improving the use of the Web Site.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Discussion Threads&lt;/b&gt;
+        &lt;p /&gt;
+        Corbis may offer discussion threads and comment boxes on the Web Site. If you use Corbis' discussion 
+        threads or comment boxes, you should be aware that any personally identifiable information 
+        you submit there can be read, collected, or used by other users of these forums, and could be 
+        used to send you unsolicited messages. We are not responsible for the personally identifiable 
+        information you choose to submit in these discussion threads.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Links&lt;/b&gt;
+        &lt;p /&gt;
+        Please be aware that the Web Site may contain links to other sites that are covered 
+        by their own privacy policies. Corbis is not responsible for the privacy practices of such 
+        other sites and we encourage our users to be aware when they leave our site. We recommend 
+        that our users read the privacy statements of each and every web site that collects personally 
+        identifiable information.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Changes of Corbis' Online Privacy Policy&lt;/b&gt;
+        &lt;p /&gt;
+        Corbis reserves the right to change our online privacy policy and modify this privacy 
+        statement at any time, so please review it frequently. If we decide to make any material 
+        changes to our privacy statement, we will notify you via email or by posting a prominent 
+        notice on our Web Site including the home page and other places we deem appropriate, at 
+        least thirty (30) days prior to implementing the change so that you are aware of what 
+        information we collect, how we use it, and under what circumstances, if any, we disclose it. 
+        You will have a choice as to whether or not we use your information in this different manner.
+        &lt;p /&gt;
+        &lt;br /&gt;
+        &lt;b&gt;Legal Disclaimer&lt;/b&gt;
+        &lt;p /&gt;
+        We may disclose personal information when required by law or in the good-faith belief
+        that such action is necessary in order to conform to the edicts of the law or to
+        comply with a legal process served on our Web Site.
+        &lt;p /&gt;
+        If you have any questions about Corbis' Privacy Policy or concerns about personal
+        information you have supplied to Corbis, please contact Corbis Customer Service
+        at &lt;a class="RegularLink" href="mailto:service@corbis.com"&gt;service@corbis.com&lt;/a&gt;: or call 1-800-260-0444. You may also write to us at the address listed below:
+        &lt;p /&gt;
+        Corbis Corporation&lt;br /&gt;
+        Attn: Customer Service&lt;br /&gt;
+        710 Second Avenue, Suite 200&lt;br /&gt;
+        Seattle, Washington 98104</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="SiteUsageAgreementText" xml:space="preserve">
+    <value>PLEASE READ THIS CAREFULLY.  THE FOLLOWING TERMS AND CONDITIONS CONSTITUTE A BINDING AGREEMENT 
+    BETWEEN YOU AND CORBIS HOLDINGS, INC., PARENT COMPANY OF CORBIS CORPORATION (“Corbis”).  By using 
+    the Corbis web site (“Site”) and/or downloading any content or activating your account on the 
+    Community Pages (as defined below), you agree to be bound by and comply with this Site Usage Agreement (“Agreement”).  
+    If you do not wish to be bound by this Agreement, do not use this Site.&lt;p /&gt;
+THIS AGREEMENT CONTAINS IMPORTANT INFORMATION REGARDING YOUR LEGAL RIGHTS, REMEDIES AND OBLIGATIONS, 
+INCLUDING VARIOUS LIMITATIONS OF LIABILITY AND EXCLUSIONS, YOUR INDEMNIFICATION OBLIGATION AND A 
+DISPUTE RESOLUTION CLAUSE THAT GOVERNS HOW DISPUTES WILL BE RESOLVED.&lt;p /&gt;&lt;br /&gt;
+This Agreement applies to you, and if you are using this Site on your employer’s behalf, 
+to you and your employer. Corbis reserves the right to change this Agreement from time to 
+time at its sole discretion, and your use of the Site will be subject to the most current 
+version posted on the Site at the time of your use.  If you are acting within the scope of 
+your employment as an employee, contractor, or agent of another party, you warrant that such 
+party has full knowledge of your actions and has consented thereto.&lt;p /&gt;  
+This Agreement is in addition to your obligations under the applicable Corbis Content License 
+Agreement (if any). In the event of any conflict between this Agreement and the Corbis Content 
+License Agreement, the Corbis Content License Agreement will control as to the conflicting terms. 
+&lt;b&gt;If you are unsure of your rights or obligations under this Agreement, please contact 
+Customer Service by e-mail at &lt;a href="mailto:service@corbis.com"&gt;
+service@corbis.com&lt;/a&gt;.&lt;/b&gt;
+&lt;p /&gt;   
+
+&lt;b&gt;Permitted Use of this Site&lt;/b&gt;
+&lt;p /&gt; 
+This Site is owned and operated by Corbis. All images, audio, video and related informational 
+materials in any medium furnished by Corbis hereunder, including related text, captions, or 
+information (collectively referred to as “Content”), is owned by Corbis or our licensors and 
+is protected by US and international copyright laws, trade dress, moral rights, and other 
+intellectual property rights.  Except as explicitly permitted under this Agreement or the 
+applicable Corbis’ Content License Agreement (if any), no portion or element of this Site or 
+its Content may be copied or retransmitted via any means and all related rights shall remain 
+the exclusive property of Corbis&lt;p /&gt;   
+FOR THE PROTECTION OF CORBIS AND ITS IMAGE SOURCES AND OTHER LICENSORS, CONTENT MAY BE VISIBLY, 
+INVISIBLY, OR ELECTRONICALLY WATERMARKED AND MAY INCLUDE THE USE OF DIGITAL RIGHTS MANAGEMENT 
+SYSTEM TECHNOLOGY WITHIN CONTENT.  SUCH TECHNOLOGY MAY PERMIT ONLINE CRAWLING OR TRACKING OF 
+CONTENT OBTAINED FROM CORBIS AND/OR OTHER METHODS OF PROTECTING, MONITORING, OR TRACKING 
+THE UNAUTHORIZED USE OF THE CONTENT (“RIGHTS MANAGEMENT SYSTEMS (RMS))”.  If you do not 
+consent to Corbis’ use of RMS, do not use the Site or any Content found therein.  You shall 
+not knowingly disable any such technology or tool.  You may not remove any copyright or 
+other proprietary notices contained in the Content, caption information, or any other material 
+on this Site.  Additionally, unless authorized by Corbis in writing, you may not:&lt;p /&gt; 
+(i)	deep link or employ software or any automatic device, technology or algorithm, to “crawl,” 
+“scrape,” search or monitor the Site and/or retrieve or copy Content or related information;
+&lt;p /&gt;
+(ii)	violate the mechanical restrictions of the Site, or bypass other measures employed to 
+prevent or limit access to the Site or Content by hacking or other means;
+&lt;p /&gt;
+(iii)	copy, redirect, or exploit the Site or any Content;
+&lt;p /&gt;
+(iv)	probe, scan, or test the vulnerability of the Site or of the network supporting the 
+Site, or seek information on visitors to the Site or personal information of Corbis’ customers; or
+&lt;p /&gt;
+(v)	use any device, software or routine that would interfere with the proper functioning of the 
+Site, or any transaction conducted via the Site.
+&lt;p /&gt;
+Your use of this Site and any Content shall comply with all applicable law. Corbis reserves 
+the right, in its sole discretion, to revoke your authorization to view, download and use the 
+Content and information available on the Site at any time and for any reason, with or without 
+notice to you of such revocation, and you agree to immediately discontinue such use upon notice 
+from Corbis. Corbis may also restrict or remove Content from the Site for any reason, and you 
+agree to immediately discontinue all use of the Content upon notification from Corbis.  
+Additionally, you are responsible for backing up your data and any Content you have licensed 
+from the Site, and Corbis provides no warranty or guarantee that Content you have licensed will 
+be available from the Site.
+&lt;p /&gt;
+Despite our efforts to provide accurate information, this Site may contain technical or other mistakes, 
+inaccuracies or typographical errors. Additionally, this Site and its Content may include historically 
+and culturally important images and text that may contain subjects that reflect the social attitudes 
+and circumstances of a particular time or location. You should be aware that your search may display 
+results containing content that may seem inappropriate to its context, or text that could be potentially 
+offensive. &lt;b&gt;&lt;i&gt;You are solely responsible for determining whether your use of any Content 
+requires the consent of any third party or the license of any additional rights, and you should not rely 
+solely on the information provided by Corbis. If you are unsure whether additional third-party rights 
+are needed for your use, you are responsible for consulting with competent rights management professionals 
+or legal counsel.&lt;/i&gt;&lt;/b&gt;
+&lt;p /&gt;
+&lt;b&gt;Privacy&lt;/b&gt;
+&lt;p /&gt;
+Corbis’ &lt;a href="javascript:parent.CorbisUI.Legal.CloseAgreementOpenPolicy();" class="RegularLink"&gt;Privacy 
+Policy&lt;/a&gt; applies to use of this Site, and its terms and conditions are made part of this 
+Agreement by reference.  Please consult Corbis’ Privacy Policy for specific information on Corbis 
+policies for use of your personal information.  You understand that any message or information sent 
+to the Site may be viewed or intercepted by third parties, even if there is a special notice that 
+the information (e.g., financial information) is encrypted.
+&lt;p /&gt;
+Please note that if you use Corbis’ Community Pages, including blogs and discussion threads described 
+further below, you should be aware that any personally identifiable information you submit there can 
+be read, collected, or used by other users of these forums, and could be used to send you unsolicited 
+messages. We are not responsible for the personally identifiable information you choose to submit in 
+these pages. You may, at any time, request access to, correct and delete personal information about you 
+stored by Corbis with respect to these Community Pages by contacting us directly.
+&lt;p /&gt;
+&lt;b&gt;Registering for a Corbis Account&lt;/b&gt;
+&lt;p /&gt;
+Registration with Corbis grants you certain privileges.  For example, if you have registered for a Corbis 
+account and Corbis has approved your registration, you may be able to access Content without a visible 
+watermark. In applying for a Corbis account, you agree to furnish true and accurate information. Corbis 
+reserves sole discretion over whether to grant you an account, and you agree to access the authorized 
+sections of the Site and your account only by using the account number and password supplied to you by 
+Corbis. You are responsible for maintaining the confidentiality of your account number and/or password, 
+if applicable, and you shall not distribute this access information or allow others to use this access 
+information to gain access to this Site. You agree to take reasonable steps to prevent others from obtaining 
+your access information and to notify Corbis of any unauthorized access or need to update or remove access 
+for any of your employees or agents. You shall be liable for payment for all Content downloaded by others 
+using your account, with or without your permission or knowledge prior to the time that you notify Corbis 
+of any unauthorized use. You acknowledge and agree that you are responsible for damages and repercussions 
+resulting from all uses of your account, whether actually or expressly authorized by you. You further 
+acknowledge and agree that you will be responsible for each and every access, use or enjoyment of the 
+Content that occurs in conjunction with the account and password given to you by Corbis, and that Corbis 
+is authorized to accept the account information and password as conclusive evidence that you have accessed, 
+utilized, or otherwise enjoyed the Content.
+&lt;p /&gt;
+If you suspect you are being impersonated, contact us immediately. Corbis reserves the right to disclose any 
+information, including registration data, in order to comply with any applicable laws and/or government 
+requests for the protection of Corbis and its members.
+&lt;p /&gt;
+Corbis cannot and will not be liable for any loss or damage arising from your failure to follow these 
+obligations.  You agree that you shall not acquire any rights of use, ownership, or bailment as a result of 
+using any Corbis account or Site or related services.
+&lt;p /&gt;
+&lt;b&gt;Children&lt;/b&gt;
+&lt;p /&gt;
+Minors and children (persons under the age of 18) are not eligible to use this Site unsupervised and we 
+ask that minors and children do not register for an account or submit any personal information to us. 
+By using this Site unsupervised, and/or registering for an account, you warrant that you are 18 years 
+of age or older.
+&lt;p /&gt;
+&lt;b&gt;Limited License for Comp Usage&lt;/b&gt;
+&lt;p /&gt;
+Conditioned on your compliance with this Agreement, Corbis grants you a limited license to download Content 
+consisting of images solely for evaluating whether you wish to purchase a license to the image according to 
+Corbis Content License Agreement applicable to your use (“Comps”).  If you are not a registered user, your 
+Comp license covers only visibly watermarked Content, and does not entitle you to download Content which 
+does not contain a visible watermark.  You may use Comps solely for your internal evaluation and for no 
+longer than sixty (60) days from the date of download solely to determine whether you intend to obtain a 
+non-Comp license for the Content. You may not use a Comp image in any final materials distributed within 
+your company or any materials distributed outside of your company or to the public or in any online or other 
+electronic distribution system.  Except for this limited, internal testing and sample use, Corbis grants 
+you no other rights, and you may not copy, distribute, publish, display, sublicense, make available, or 
+otherwise use in any way the comp outside the scope of this Agreement. To access images without a visible 
+watermark, you must register for a Corbis account.
+&lt;p /&gt;
+Corbis may immediately terminate any licenses granted to you without notice if you fail to comply with 
+any provision of this agreement or with the Corbis Content License Agreement applicable to your use. 
+If a license is terminated, you agree to immediately (i) stop using this Site and the Content and (ii) 
+delete all Content and all copies from all magnetic media and destroy all other copies, or, at Corbis’ 
+request, return all such copies to Corbis.
+&lt;p /&gt;
+&lt;b&gt;Corbis Trademarks&lt;/b&gt;
+&lt;p /&gt;
+You may not use the trademarks, service marks or logos of Corbis without Corbis’ prior written consent. 
+“Corbis,”“Corbis Outline,” “Corbis Motion,” and the CORBIS logo, among others, are trademarks of the 
+Corbis Corporation.  Other product and company names mentioned on the Site may be trademarks of their 
+respective owners.
+&lt;p /&gt;
+&lt;b&gt;Indemnification&lt;/b&gt;
+&lt;p /&gt;
+You agree to indemnify and hold harmless Corbis and its Content sources, officers, directors, employees, 
+contractors, subsidiaries, joint ventures, licensors and licensees against all claims (including, 
+without limitation, claims by third parties), liability, damages (including punitive damages), judgments, 
+settlements, costs and expenses, including reasonable legal fees and expenses, arising out of or related 
+to (i) Your breach of any terms, conditions or restrictions of this Agreement, (ii) Your use or modification 
+of any Content, or combination of any Content, with any text or other content, (iii) Your failure to obtain 
+from third parties all permissions necessary to use the Content,; and (iv) any act or failure to act by you 
+or any of your employees, contractors, employers, agents, clients, principals, or users and (v) any claims 
+arising out of Content you supply via the Community Pages.
+&lt;p /&gt;
+&lt;b&gt;Disclaimers and Limitation of Liability&lt;/b&gt;
+&lt;p /&gt;
+&lt;b&gt;&lt;i&gt;CORBIS PROVIDES YOU WITH THE SITE AND CONTENT ON AN "AS IS" AND “AS AVAILABLE” BASIS WITHOUT ANY 
+WARRANTIES OF ANY KIND. YOU UNDERSTAND AND AGREE THAT THE USE OF THE CONTENT IS AT YOUR SOLE RISK.&lt;/i&gt;&lt;/b&gt;
+&lt;p /&gt;
+CORBIS MAKES NO REPRESENTATIONS WITH RESPECT TO ANY CONTENT, INCLUDING PRODUCTS, SERVICES AND SOFTWARE AND, TO THE 
+MAXIMUM EXTENT ALLOWED BY APPLICABLE LAW, DISCLAIMS ALL REPRESENTATIONS, WARRANTIES, GUARANTEES AND CONDITIONS OF 
+ANY KIND, EXPRESS AND IMPLIED, REGARDING THE CONTENT (INCLUDING PRODUCTS, SERVICES AND SOFTWARE), INCLUDING WITHOUT 
+LIMITATION, ALL REPRESENTATIONS, WARRANTIES, GUARANTEES OR CONDITIONS REGARDING ACCURACY, TIMELINESS, COMPLETENESS, 
+CURRENTNESS, AVAILABILITY, EFFECTIVENESS, NON-INFRINGEMENT, SECURITY, PRIVACY, TITLE, USEFULNESS, SUITABILITY, QUALITY, 
+MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE. FURTHER, CORBIS MAKES NO REPRESENTATION, WARRANTY OR GUARANTEE 
+THAT THE CONTENT (INCLUDING PRODUCTS, SERVICES AND SOFTWARE) WILL BE SATISFACTORY TO YOUR NEEDS, MEET YOUR EXPECTATIONS, 
+OR BE UNINTERRUPTED, TIMELY, ACCURATE, SECURE OR FREE FROM ERRORS.
+&lt;p /&gt;
+&lt;b&gt;&lt;i&gt;EXCEPT FOR ANY LIABILITY WHICH CANNOT BY LAW BE EXCLUDED OR LIMITED, NEITHER CORBIS NOR ANY CORBIS 
+SUBSIDIARY, SUCCESSOR, PREDECESSOR, PARENT, JOINT VENTURE, AFFILIATE, OFFICER, DIRECTOR, EMPLOYEE, CONTRACTOR, CONTENT 
+SOURCE, LICENSOR OR LICENSEE SHALL BE LIABLE TO YOU OR ANY OTHER THIRD PARTY CLAIMING THROUGH YOU FOR INDIRECT, INCIDENTAL, 
+SPECIAL, PUNITIVE, STATUTORY OR CONSEQUENTIAL DAMAGES ARISING OUT OF, OR RELATING TO, THIS AGREEMENT, CONTENT OR THIS SITE, 
+AND YOUR RIGHTS UNDER ANY PROVISION OF THIS AGREEMENT, INCLUDING, WITHOUT LIMITATION, YOUR USE OR INABILITY TO USE THE CONTENT 
+OR THIS SITE, WHETHER FRAMED AS A BREACH OF WARRANTY OF MERCHANTABILITY, TITLE, NON-INFRINGEMENT, OR FITNESS FOR A PARTICULAR 
+PURPOSE, IN TORT, CONTRACT, FAILURE OF ESSENTIAL PURPOSE, OR OTHERWISE.&lt;/i&gt;&lt;/b&gt;
+&lt;p /&gt;
+CORBIS, ITS AFFILIATES, AGENTS, LICENSORS, SUPPLIERS, OR THEIR RESPECTIVE DIRECTORS OR EMPLOYEES, SHALL NOT BE LIABLE TO YOU 
+OR ANY THIRD PARTY FOR DAMAGE OR LOSS OF ANY KIND ARISING OUT OF OR RELATING TO THE USE OF, OR THE INABILITY TO USE, THE SITE 
+OR ANY CONTENT (INCLUDING PRODUCTS, SERVICES AND SOFTWARE) PROVIDED THEREIN, OR ARISING OUT OF OR RELATING TO THE USE OF ANY 
+SITE LINKED HERETO AND/OR EVENTS BEYOND THE REASONABLE CONTROL OF CORBIS, INCLUDING VIRUSES, FAILED OR UNDELIVERED MESSAGES, 
+THE CORRUPTION OF DATA, TRANSMISSION ERRORS, INTERNET SERVICE PROVIDERS, LINKS TO AND THIRD PARTY SITES AND THIRD PARTY CONTENT,  
+INCLUDING, BUT NOT LIMITED TO, ANY LOST PROFITS, LOST OPPORTUNITIES, SPECIAL, INCIDENTAL, INDIRECT, PUNITIVE, EXEMPLARY, AGGRAVATED, 
+ECONOMIC OR CONSEQUENTIAL DAMAGE, EVEN IF CORBIS IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGE OR LOSS OR OF A CLAIM BY ANOTHER PARTY.
+&lt;p /&gt;
+ALTHOUGH CORBIS TAKES PRECAUTIONS TO PROTECT PERSONAL AND CONFIDENTIAL INFORMATION, THERE IS NO GUARANTEE, AND CORBIS MAKES NO 
+REPRESENTATION OR WARRANTY, THAT PERSONAL AND CONFIDENTIAL INFORMATION TRANSMITTED TO OR FROM OR STORED ON THE SITE, OR TRANSMITTED 
+OVER THE INTERNET GENERALLY, WILL BE MAINTAINED CONFIDENTIAL AND SECURE. CORBIS ASSUMES NO LIABILITY OR RESPONSIBILITY PERTAINING TO 
+THE RECEIPT, STORAGE, TRANSMISSION OR OTHER USE OF PERSONAL OR CONFIDENTIAL INFORMATION PROVIDED BY YOU TO CORBIS, UNLESS OTHERWISE 
+PROVIDED IN A WRITTEN AGREEMENT BETWEEN YOU AND CORBIS.
+&lt;p /&gt;
+CORBIS, ITS AFFILIATES, AGENTS, LICENSORS, SUPPLIERS, AND THEIR RESPECTIVE DIRECTORS AND EMPLOYEES CUMULATIVE TOTAL LIABILITY FOR 
+ANY DAMAGE OR LOSS THAT YOU MAY SUFFER FROM ANY CAUSE WHATSOEVER (INCLUDING WITHOUT LIMITATION BREACH OF CONTRACT, TORT, NEGLIGENCE, 
+GROSS NEGLIGENCE, OR OTHERWISE) SHALL BE LIMITED TO THE AMOUNT, IF ANY, PAID BY YOU TO CORBIS IMMEDIATELY PRECEDING THE TIME THAT 
+THE DAMAGES OR LOSS FIRST OCCURRED. YOU ACKNOWLEDGE THAT CORBIS’ PRICING REFLECTS THIS ALLOCATION OF RISK AND THE LIMITATION OF 
+LIABILITY SPECIFIED IN THIS AGREEMENT.   IN NO EVENT WILL CORBIS’ TOTAL MAXIMUM AGGREGATE LIABILITY FOR ANY CLAIMS ARISING FROM 
+USE OF THE SITE EXCEED $500.00.
+&lt;p /&gt;
+&lt;b&gt;Third Party Links&lt;/b&gt;
+&lt;p /&gt;
+As a convenience, our Site may link to other sites that may be of interest to you but are not under Corbis’ control. These links
+do not imply endorsement by Corbis and we are not responsible for the availability of or the content contained in any linked site.
+&lt;p /&gt;
+&lt;b&gt;Notification of Copyright Infringement&lt;/b&gt;
+&lt;p /&gt;
+Corbis may terminate the accounts of users who infringe the intellectual property rights of others. If you believe that your work 
+has been used or copied in a way that constitutes copyright infringement and such infringement is occurring on the Site, send 
+Corbis’ copyright agent a notice containing: (i) a physical or electronic signature of the copyright owner or person authorized 
+to act on behalf of the copyright owner; (ii) a description of the copyrighted work or works that you claim have been infringed 
+and identification of what material in such work(s) is claimed to be infringing; (iii) a description of where the material that 
+you claim is infringing is located on the Site; (iv) information sufficient to permit Corbis to contact you, such as your physical 
+address, phone number, and email address; (v) a statement that you have a good faith belief that the use of the material you 
+identified is not authorized by the copyright owner, its agent, or the law; and (vi) a statement by you that the information in 
+your notice is accurate and, under penalty of perjury, that you are the copyright owner or authorized to act on the copyright owner’s behalf.
+&lt;p /&gt;
+Corbis’ copyright agent for notice of claims of copyright infringement can be reached as follows:
+&lt;p /&gt;
+Corbis Copyright Agent&lt;br /&gt;
+710 Second Avenue, Suite 200&lt;br /&gt;
+Seattle, WA 98104&lt;br /&gt;
+By phone: 206.373.6000&lt;br /&gt;
+By fax: 206.373.6100
+&lt;p /&gt;
+&lt;b&gt;Choice of Law / Jurisdiction / Attorneys’ Fees&lt;/b&gt;
+&lt;p /&gt;
+Any dispute regarding this Agreement shall be governed by the laws of the State of New York and applicable 
+U.S. Federal law, including Title 17 of the U.S. Code, as amended. The parties agree to accept the exclusive 
+jurisdiction of the state and federal courts located in New York,  USA, regardless of conflicts of laws. 
+This Agreement shall not be governed by the United Nations Convention on Contracts for the International Sale 
+of Goods, the application of which is expressly disclaimed. The parties hereto confirm that it is their wish 
+that this Agreement, as well as any other documents relating hereto, including notices, has been and shall be 
+written in the English language  &lt;b&gt;In any dispute between Corbis and you, Corbis shall be entitled to 
+recover its reasonable attorneys’ fees, legal expert fees, and other legal expenses from you.&lt;/b&gt;
+&lt;p /&gt;
+&lt;b&gt;Miscellaneous&lt;/b&gt;
+&lt;p /&gt;
+You acknowledge that you have read this Agreement and understand it, and agree to be bound by all its terms 
+and conditions. This Agreement (along with Corbis’ Privacy Policy, the terms for the Community Pages (if 
+separately agreed to), and the Corbis Content License Agreement, if applicable) constitutes the entire agreement 
+between the parties with respect to the subject matter hereof and merges all prior and contemporaneous 
+communications. No action of Corbis, other than the express or written waiver or amendment, may be construed 
+as a waiver or amendment of this Agreement.  This Agreement shall not be modified except by a written agreement 
+signed by duly authorized representatives of Corbis, provided that no purchase order or similar document issued 
+by you shall modify this Agreement, even if signed by Corbis. If any provision of this Agreement is found invalid 
+or unenforceable, the remainder of this Agreement shall remain valid and enforceable according to its terms. 
+The parties intend that the provisions of this Agreement be enforced to the fullest extent permitted by applicable law.  
+Accordingly, the parties agree that if any provisions are deemed not enforceable, they shall be deemed modified to 
+the extent necessary to make them enforceable and in such manner as comes closest to the intentions of the parties 
+to this Agreement as is possible. This Agreement will inure to the benefit of and be binding upon the parties, 
+their successors and assigns, except that you may not assign or transfer this Agreement without Corbis’ 
+prior written consent.
+&lt;p /&gt;
+&lt;b&gt;Community Pages&lt;/b&gt; 
+&lt;p /&gt;
+The Site may contain chat rooms, discussion forums, bulletin boards, review services or other forums in which 
+you or third parties may post Content, messages, materials or other items on the Site ("&lt;b&gt;Community Pages&lt;/b&gt;"). 
+&lt;p /&gt;
+If Corbis provides such Community Pages, You are solely responsible for your use of such Community Pages and use them at 
+your own risk.  You agree that all the information posted or accessed will be used only for your individual personal purposes. 
+You will not make any other unauthorized use of this Site, or any interactive features available on this Site.  
+You agree that you are responsible for your own use of the Site, for any Content you upload, and for any consequences thereof.  
+&lt;p /&gt;
+1.	Profiles.
+&lt;p /&gt;
+Corbis may require you to furnish additional information or agree to additional terms before permitting 
+you to access certain features of the Site you agree to access the authorized sections of the Site and 
+your account only by using the account information and password supplied to you by Corbis.  You 
+acknowledge that your user name may be displayed on the Site in connection with any content you submit.
+&lt;p /&gt;
+For use of Community Pages, Corbis will enable registered users to create a community profile of 
+themselves, including interests and favorites.  Please note that if you delete your profile, all 
+Content you submit (“User Content”), including work and information created by that user may be deleted.
+&lt;p /&gt;
+2.	Permitted Use of Community Pages. 
+&lt;p /&gt;
+a.	Subject to the terms of this Agreement, you may post User Content consisting of images, tags, 
+keywords, reviews, comments, and other material relating to Content; send communications; and 
+submit suggestions, ideas, comments, questions, or other information, so long as the content 
+is not illegal, obscene, threatening, defamatory, invasive of privacy, infringing of intellectual 
+property rights, or otherwise injurious to third parties or objectionable and does not consist 
+of or contain software viruses, political campaigning, commercial solicitation, chain letters, 
+mass mailings, or any form of "spam."  Hotlinking to other third party Sites is not permitted.
+&lt;p /&gt;
+b.	In posting any User Content, you represent and warrant that:
+&lt;p /&gt;
+i.	you are the sole owner of the User Content and its copyright and/or have the right to grant Corbis the rights in the User Content set forth in this agreement;&lt;br /&gt;
+ii.	the User Content is original and does not infringe on or violate or misappropriate the statutory copyright or common law rights of privacy, publicity, or moral rights of any third party;&lt;br /&gt;
+iii.	the User Content is not pornographic or obscene nor does it defame any third party;&lt;br /&gt;
+iv.	the User Content does not contain any illegal material or promote illegal activities; and&lt;br /&gt;
+v.	the User Content does not contain any material that denigrates or attacks any persons based on race, 
+religion, national origin or sexual orientation.
+&lt;p /&gt;
+c.	You may not use a false e-mail address, impersonate any person or entity, or otherwise mislead 
+as to the origin of material or User Content posted or submitted to the Site. 
+&lt;p /&gt;
+d.	Corbis reserves the right (but not the obligation) to remove or edit such material, but 
+does not regularly review posted User Content.  Tags, keywords, reviews, and comments 
+posted on, and other material or content submitted to or through the Site are public, 
+not private, and while Corbis reserves the right (but not the obligation) to screen 
+postings, no posting on or submission to or through Site should be considered approved, reviewed, or endorsed by Corbis.  
+&lt;p /&gt;
+e.	Corbis may engage a third party/third party web site to host the Community Pages, 
+and that use of such site may require you to agree to that site’s terms and conditions 
+in addition to those set forth herein. Unless stated otherwise in the privacy policy 
+posted on such pages, Corbis is not responsible for the practices (including privacy practices) of such site.
+&lt;p /&gt;
+f.	You agree to abide by the Code of Conduct linked to the Community Pages.
+&lt;p /&gt;
+3.	Grant of Rights/Indemnity. 
+&lt;p /&gt;
+a.	For clarity, you retain all of your ownership rights in your User Content.  
+However, if you do post or submit any User Content  to or through the Site,  
+you grant Corbis and its affiliates, licensees, and sub-licensees a nonexclusive, 
+royalty-free, fully assignable and sub-licensable right to use, reproduce, modify, 
+publish, translate, create derivative works from, distribute, and display such 
+User Content  on the Site and for Corbis’ (and its successors and affiliates’) 
+business, throughout the world in any media formats and you grant each user a 
+non-exclusive license to access your User Content as permitted under these 
+Terms of Use.  The license granted by you will terminate in a reasonable time 
+after you remove or delete the User Content from the Site, however Corbis may 
+retain, but not display, distribute or perform copies of such User Content for archival purposes. 
+&lt;p /&gt;
+b.	You grant Corbis and its affiliates and sub-licensees the right to use your 
+user name, or the name and avatar that you submit in connection with such User Content, 
+if they choose. You represent and warrant that you own or otherwise control all of 
+the rights to the User Content that you post; that the information provided in 
+association with the User Content is accurate; that use of the User Content you 
+supply does not violate this policy and will not cause injury to any person or entity; 
+&lt;p /&gt;
+c.	The Site is not intended to be used as back up drive or asset management system.  
+You are responsible for backing up your data and any User Content you submit to the 
+Site and Corbis provides no warranty or guarantee that User Content you have submitted 
+will be available from the Site.
+&lt;p /&gt;
+d.	Corbis takes no responsibility and assumes no liability for any User Content 
+posted by you or any third party on the Community Pages.   You understand and 
+agree that for purposes of any Community Pages, Corbis is acting only as a 
+Service Provider as defined in 17 U.S.C. § 512 and as an Interactive Computer 
+Service as defined in 47 U.S.C. § 230(f)(2).  As such, Corbis only operates the 
+pages from which contributors may offer and users may post User Content, information 
+and materials.  Corbis does not act as an agent for such contributors and does not guarantee 
+the safety, quality or legality of the contributor content or the accuracy of the information provided.
+&lt;p /&gt;
+e.	Accordingly, you irrevocably waive and unconditionally release and waive any and 
+all claims, demands, damages (actual and consequential) of every kind and nature, 
+known and unknown, you may have or assert against Corbis relating to or arising out 
+of any use of User Content or of these Community Pages.
+&lt;p /&gt;
+&lt;b&gt;User Acknowledgements&lt;/b&gt;
+&lt;p /&gt;
+You acknowledge and agree that inherent in the procurement, compiling, collecting, 
+interpreting, reporting, communicating, delivering and inputting digitally of the 
+Content, there will be a degree of error which cannot be avoided even with standards 
+of quality control which exceed industry standards. You further acknowledge that 
+Third Party Content and User Content are provided by third parties and that 
+Corbis cannot control such Content.
+&lt;p /&gt;
+The following constitute violations of this Agreement and may result in immediate termination or suspension of your account:
+&lt;p /&gt;
+&lt;ul style="margin-left:10px;"&gt;
+&lt;li&gt;  any use of the Site or any Content for illegal purposes, or in support of illegal activities. Corbis reserves the right to cooperate with legal authorities and/or injured third parties in the investigation of any suspected crime or civil wrongdoing;&lt;/li&gt;  
+&lt;li&gt;	harming, or attempt to harm, minors in any way, including, but not limited to child pornography;&lt;/li&gt;
+&lt;li&gt;	transmitting any material (by e-mail, uploading, posting or otherwise) that threatens or encourages bodily harm or destruction of property, or that harasses another;&lt;/li&gt;
+&lt;li&gt;	making commercial use of any Corbis Community Pages, including offering to sell or selling goods or services via the forum,&lt;/li&gt; 
+&lt;li&gt;	making fraudulent offers to sell or buy products, items, or services (including Content), or to advance any type of financial scam such as "pyramid schemes," "ponzi schemes," and "chain letters";&lt;/li&gt; 
+&lt;li&gt;	adding, removing or modifying identifying network header information in an effort to deceive or mislead, or attempting to impersonate any person by using forged headers or other identifying information;&lt;/li&gt; 
+&lt;li&gt;	transmitting any unsolicited commercial or unsolicited bulk e-mail, or malicious intent to impede another person's use of electronic mail services or news, or forging any message header, in part or whole, of any electronic transmission, originating or passing through the Corbis service;&lt;/li&gt; 
+&lt;li&gt;	accessing, or to attempt to access, the accounts of others, or to penetrate, or attempt to penetrate, security measures of Corbis’ or another entity's computer software or hardware, electronic communications system, or telecommunications system, whether or not the intrusion results in the corruption or loss of data;&lt;/li&gt; 
+&lt;li&gt;	transmitting any material (by e-mail, uploading, posting or otherwise) that infringes any copyright, trademark, patent, trade secret or other proprietary rights of any third party, including, but not limited to, the unauthorized copying of copyrighted material, the digitization and distribution of photographs from magazines, books, or other copyrighted sources, and the unauthorized transmittal of copyrighted software;&lt;/li&gt;
+&lt;li&gt;	collecting, or attempt to collect, personal information about third parties without their knowledge or consent in violation of any applicable statute or ordinance;&lt;/li&gt;
+&lt;li&gt;	any activity that affects the ability of other people or systems to use Corbis Services or the Internet. This includes "denial of service" (DOS) attacks against another network host or individual user. Interference with or disruption of other network users, services or equipment is prohibited;&lt;/li&gt; 
+&lt;li&gt;	any knowing misrepresentation or misleading statement, writing or activity made with the intent that the person receiving it will act upon it;&lt;/li&gt;
+&lt;li&gt;	intentional distributions of software that attempts to and/or causes damage, harassment, or annoyance to persons, data, and/or computer systems, or use of software or any device that would facilitate a continued connection, i.e. pinging, while using Corbis services;&lt;/li&gt; 
+&lt;li&gt;	reselling or giving away free access to Corbis services or resources.&lt;/li&gt;&lt;br /&gt;
+&lt;/ul&gt;
+&lt;b&gt;Restricted Access&lt;/b&gt;
+&lt;p /&gt;&lt;p /&gt;
+You agree that you will not attempt to enter restricted areas of Corbis’ computer 
+system or perform functions that you are not authorized to perform pursuant to this 
+Agreement.  Corbis may, without notice, temporarily or permanently suspend your access 
+to the Site and the Content by deactivating your account or password if Corbis reasonably 
+suspects that you are using the account or password to obtain unauthorized access to 
+Corbis’ other systems or information, or are using the account or password in any other 
+inappropriate manner. These suspensions will be for a period of time necessary to permit 
+the thorough investigation of such suspended activity. Corbis may terminate this Agreement 
+immediately without notice if it is determined that you have undertaken such 
+unauthorized activity or if such unusual activity cannot be reasonably explained.
+&lt;p /&gt;
+&lt;b&gt;Termination of this Agreement&lt;/b&gt;
+&lt;p /&gt;
+This Agreement is effective until terminated by Corbis, in its sole and absolute discretion.
+Corbis may terminate this Agreement with or without notice to you and will do so if you use
+or attempt to use the Site or the Content therein in any manner contrary to the terms of
+this Agreement. Any such termination by Corbis shall be in addition to and without prejudice
+to such rights and remedies as may be available to Corbis, including the suspension or
+termination of your account or password and injunctive relief enjoining such acts or
+attempts, it being acknowledged by you that other legal remedies are inadequate.
+The, Disclaimer of Warranties, Limitation of Liability, Indemnification, Termination
+and Choice of Law provisions of this Agreement shall survive the termination
+or expiry of this Agreement.
+&lt;p /&gt;
+&lt;b&gt;International Users&lt;/b&gt;
+&lt;p /&gt;
+The Site is controlled, operated, and administered by Corbis from its offices 
+within the United States of America.  The Site can be accessed from countries 
+around the world and may contain references to Content, including products and 
+services, that are not available in your country. These references do not imply that 
+Corbis intends to market, promote, or distribute such Content, including products 
+and services, in your country. If you access the Site from a location outside 
+the United States, you are responsible for compliance with all local laws.&lt;p /&gt;</value>
+  </data>
+  <data name="SiteUsageAgreementTitle" xml:space="preserve">
+    <value>Site Usage Agreement</value>
+  </data>
+</root>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page>
+    
+    <PageTitle>Corbis Pressroom</PageTitle>
+
+    <PageDescription></PageDescription>
+
+    <PageKeywords>Corbis, Stock Photography, Stock Photos</PageKeywords>
+
+    <!-- Page Content below -->
+    <Content>
+			<h3>Pressemitteilungen</h3>
+			<p>
+				Zugriff auf aktuelle Pressemitteilungen von Corbis.
+			</p>
+			<ul class="Links">
+				<li>
+					<a href="/Corporate/Pressroom/PressReleases.aspx" title="See press releases">See press releases</a>
+				</li>
+			</ul>
+			
+			<h3>Daten Und Fakten Für Die Presse</h3>
+			<p>
+				Hintergrundinformationen über das Unternehmen, die Corbis-Kollektionen sowie andere Produkte und Services.
+			</p>
+			<ul class="Links">
+				<li><a href="/Corporate/Pressroom/PressFactSheet.aspx" title="See fact sheets">See fact sheets</a></li>
+			</ul>
+			
+			<h3>Pressekontakte</h3>
+			<p>
+				Corbis bietet Ansprechpartner, die Medien und Analysten mit Informationen über das Unternehmen sowie Corbis-Produkte und -Services versorgen.
+			</p>
+			<ul class="Links">
+				<li>
+					<a href="/CustomerService/CustomerService.aspx" title="Go to customer service">Go to customer service</a>
+				</li>
+			</ul>
+		</Content>
+
+</Page>

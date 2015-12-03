@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleText>
+	<Title>Hotline</Title>
+	<Copy>
+		<![CDATA[
+				<p>一个包含重要时事及娱乐事件的月历，送上未来三个月适合作编辑类内容的故事灵感。</p>
+			]]>
+	</Copy>
+	<Links>
+		<Link Url="Hotline.aspx" Text="查看 Hotline 月历" Title="查看 Hotline 月历"  />
+	</Links>
+</ModuleText>

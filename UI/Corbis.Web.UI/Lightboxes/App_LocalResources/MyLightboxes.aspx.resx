@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Delete it</value>
+  </data>
+  <data name="lightboxTree.ChildrenCountFormat" xml:space="preserve">
+    <value>{0} Lightboxes</value>
+  </data>
+  <data name="lightboxTree.CountsSeparator" xml:space="preserve">
+    <value>,</value>
+  </data>
+  <data name="lightboxTree.ItemCountFormat" xml:space="preserve">
+    <value>{0} Items</value>
+  </data>
+  <data name="lightboxTree.OneChildCountFormat" xml:space="preserve">
+    <value>{0} Lightbox</value>
+  </data>
+  <data name="lightboxTree.OneItemCountFormat" xml:space="preserve">
+    <value>{0} Item</value>
+  </data>
+  <data name="lightboxTree.SharedByFormat" xml:space="preserve">
+    <value>Shared</value>
+  </data>
+  <data name="lightboxTree.UpdatedFormat" xml:space="preserve">
+    <value>Modified {0}</value>
+  </data>
+  <data name="mylightboxTab.Text" xml:space="preserve">
+    <value>My Lightboxes</value>
+  </data>
+  <data name="noLightboxes.Text" xml:space="preserve">
+    <value>You have no Lightbox Folders. Please create a new lightbox to store your images.</value>
+  </data>
+  <data name="noThanks.Text" xml:space="preserve">
+    <value>No thanks</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>My Lightboxes</value>
+  </data>
+  <data name="sortByDate.Text" xml:space="preserve">
+    <value>Sort by date</value>
+  </data>
+  <data name="sortByName.Text" xml:space="preserve">
+    <value>Sort by name</value>
+  </data>
+  <data name="modalDeleteMessage.Text" xml:space="preserve">
+    <value>Do you want to &lt;b&gt;delete&lt;/b&gt; this item?</value>
+  </data>
+  <data name="modalDeleteTemplate.Message" xml:space="preserve">
+    <value />
+    <comment>Please leave this blank</comment>
+  </data>
+  <data name="modalDeleteTemplate.Title" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="btnNotecancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnNoteSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteNoteModal.Message" xml:space="preserve">
+    <value>Are you sure you want to delete this note?</value>
+  </data>
+  <data name="deleteNoteModal.Title" xml:space="preserve">
+    <value>Delete Note</value>
+  </data>
+  <data name="previewOff" xml:space="preserve">
+    <value>Turn off image preview</value>
+  </data>
+  <data name="previewOffSelected" xml:space="preserve">
+    <value>Turn off image preview</value>
+  </data>
+  <data name="previewOn" xml:space="preserve">
+    <value>Turn on image preview</value>
+  </data>
+  <data name="previewOnSelected" xml:space="preserve">
+    <value>Turn on image preview</value>
+  </data>
+  <data name="downloadAll.Text" xml:space="preserve">
+    <value>Download All</value>
+  </data>
+  <data name="copyItemsButton.Text" xml:space="preserve">
+    <value>Copy items</value>
+  </data>
+  <data name="createNew.Text" xml:space="preserve">
+    <value>Create new lightbox</value>
+  </data>
+  <data name="emailButton.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="moveButton.Text" xml:space="preserve">
+    <value>Move lightbox</value>
+  </data>
+  <data name="printButton.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="transferButton.Text" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="transferButton.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="copyProduct.Title" xml:space="preserve">
+    <value>Copy lightbox items: </value>
+  </data>
+  <data name="instructions.Text" xml:space="preserve">
+    <value>Click on the thumbnail to select it, and click again to deselect it. Then to copy items, select a destination lightbox and click the copy items button.</value>
+  </data>
+  <data name="copyTo.Text" xml:space="preserve">
+    <value>Copy to:</value>
+  </data>
+  <data name="items.Text" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="selectAll.deselect" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+  <data name="selectAll.select" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="selectAllText.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="copyMessage.Text" xml:space="preserve">
+    <value>We are copying your items.</value>
+  </data>
+  <data name="copySuccess.Message" xml:space="preserve">
+    <value>The items were successfully copied.</value>
+  </data>
+  <data name="copySuccess.Title" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="standByMessage.Text" xml:space="preserve">
+    <value>Updating results...</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="MoveHeader.Title" xml:space="preserve">
+    <value>Move lightbox</value>
+  </data>
+  <data name="MoveLimit.Text" xml:space="preserve">
+    <value>Select where to move this lightbox. Lightboxes are limited to four levels and you must be the owner of the selected lightbox.</value>
+  </data>
+  <data name="Moveto.Text" xml:space="preserve">
+    <value>Move to:</value>
+  </data>
+  <data name="MovetoTop.Text" xml:space="preserve">
+    <value>Move to top</value>
+  </data>
+  <data name="Selectone.Text" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="copySuccessTemplate" xml:space="preserve">
+    <value>{0} item(s) were successfully copied.&lt;br/&gt;&lt;br&gt;Item(s) that already exist in the selected lightbox were not copied.</value>
+  </data>
+  <data name="CopyNoImage" xml:space="preserve">
+    <value>There are no items in this lightbox to copy.</value>
+  </data>
+  <data name="CopyTooManyImages" xml:space="preserve">
+    <value>Copying is not available for lightboxes that contain more than 1,000 items.</value>
+  </data>
+  <data name="MoveError" xml:space="preserve">
+    <value>You cannot move a Shared folder that you do not own.</value>
+  </data>
+  <data name="close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contactMessage" xml:space="preserve">
+    <value>Please contact &lt;a href="{0}"&gt;Customer Service&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="renameLightbox.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Client.Text" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Modified.Text" xml:space="preserve">
+    <value>Modified:</value>
+  </data>
+  <data name="Note.Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Owner.Text" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="Shared.Text" xml:space="preserve">
+    <value>Shared:</value>
+  </data>
+  <data name="Created.Text" xml:space="preserve">
+    <value>Created:</value>
+  </data>
+  <data name="details.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="hide.Text" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="show.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="readonly" xml:space="preserve">
+    <value>&lt;i&gt;(read-only)&lt;/i&gt;</value>
+  </data>
+  <data name="addmember.Text" xml:space="preserve">
+    <value>Add a Corbis member</value>
+  </data>
+  <data name="addMemberButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="addMemberInstruction.Text" xml:space="preserve">
+    <value>You must know the member's username.</value>
+  </data>
+  <data name="corbisMembersLabel.Text" xml:space="preserve">
+    <value>Corbis members</value>
+  </data>
+  <data name="deleteMembersText.Text" xml:space="preserve">
+    <value>Remove selected user(s)</value>
+  </data>
+  <data name="removeFromLightbox.Text" xml:space="preserve">
+    <value>Remove from My Lightboxes</value>
+  </data>
+  <data name="transferLightbox.Title" xml:space="preserve">
+    <value>Transfer:</value>
+  </data>
+  <data name="transferMessage.Text" xml:space="preserve">
+    <value>Transfer ownership to another Corbis member. This will send a duplicate copy of the lightbox to another member so they can make changes to it without affecting your own copy.</value>
+  </data>
+  <data name="transferSuccess.Message" xml:space="preserve">
+    <value>This lightbox has been transferred.</value>
+  </data>
+  <data name="transferSuccess.Title" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="transferToLabel.Text" xml:space="preserve">
+    <value>Transfer to...</value>
+  </data>
+  <data name="transfer.Text" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="coffItemsButton.Text" xml:space="preserve">
+    <value>COFF</value>
+  </data>
+  <data name="coffInstructions.Text" xml:space="preserve">
+    <value>Click a thumbnail to select it. Click again to deselect it.&lt;br/&gt;When finished, click the "COFF selected items" button.</value>
+  </data>
+  <data name="coffProduct.Title" xml:space="preserve">
+    <value>Select item(s) to COFF</value>
+  </data>
+  <data name="coffSelectedItemsButton.Text" xml:space="preserve">
+    <value>COFF selected items</value>
+  </data>
+  <data name="coffAlert.Title" xml:space="preserve">
+    <value>COFF alert</value>
+  </data>
+  <data name="reviewMessagePreFileSize.Text" xml:space="preserve">
+    <value>Review and confirm the appropriate</value>
+  </data>
+  <data name="continueToCheckout.Text" xml:space="preserve">
+    <value>Continue to Checkout</value>
+  </data>
+  <data name="coffAlertMessage.Text" xml:space="preserve">
+    <value>Some of the items you've selected need your attention.</value>
+  </data>
+  <data name="rfcdCoffAlertMessage.Text" xml:space="preserve">
+    <value>Items indicated as "Not available for COFF" will be removed from this order.</value>
+  </data>
+  <data name="reviewMessageFileSize.Text" xml:space="preserve">
+    <value>file size</value>
+  </data>
+  <data name="reviewMessagePostFileSize.Text" xml:space="preserve">
+    <value>for each of the following items. &lt;br/&gt;When finished, click the "Continue to Checkout" button on the right.</value>
+  </data>
+  <data name="noMemberMessage.Text" xml:space="preserve">
+    <value>To transfer this lightbox, you must Add a new Corbis member.</value>
+  </data>
+  <data name="noTransferToMessage.Text" xml:space="preserve">
+    <value>To transfer this lightbox, you must select a member from your Corbis member list or add a New Corbis member.</value>
+  </data>
+  <data name="RFCDText" xml:space="preserve">
+    <value>RFCD</value>
+  </data>
+  <data name="RFText" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="RMText" xml:space="preserve">
+    <value>RM</value>
+  </data>
+  <data name="RSText" xml:space="preserve">
+    <value>RS</value>
+  </data>
+  <data name="invalidCOFFItemMessage.Text" xml:space="preserve">
+    <value>Not available for COFF.</value>
+  </data>
+  <data name="coffCheckoutMessage.Text" xml:space="preserve">
+    <value>We are checking out items for COFF.</value>
+  </data>
+  <data name="coffMessage.Text" xml:space="preserve">
+    <value>We are validating your items for COFF.</value>
+  </data>
+  <data name="errorBodyCopyLightboxImages" xml:space="preserve">
+    <value>An error occurred during the copy process. We apologize for the inconvenience.</value>
+  </data>
+  <data name="errorBodyDefault" xml:space="preserve">
+    <value>An error occurred during the current process. We apologize for the inconvenience.</value>
+  </data>
+  <data name="errorBodyTransferLightbox" xml:space="preserve">
+    <value>An error occurred during the transfer process. We apologize for the inconvenience.</value>
+  </data>
+  <data name="errorTitleCopyLightboxImages" xml:space="preserve">
+    <value>Copy items error</value>
+  </data>
+  <data name="errorTitleDefault" xml:space="preserve">
+    <value>Lightbox action error</value>
+  </data>
+  <data name="errorTitleTransferLightbox" xml:space="preserve">
+    <value>Transfer lightbox error</value>
+  </data>
+  <data name="coffSelectedItemCountText" xml:space="preserve">
+    <value>You've selected {0} of {1} items.</value>
+  </data>
+  <data name="cancelCOFF.Text" xml:space="preserve">
+    <value>Cancel COFF</value>
+  </data>
+  <data name="renameText.Text" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="quickPicText.Text" xml:space="preserve">
+    <value>Quick Pic</value>
+  </data>
+  <data name="invalidCoffProductsError.AlternateText" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="coffItemsButton.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="copyItemsButton.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="createNew.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="Details.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="edit.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="emailButton.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="moveButton.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="printButton.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="show.Style" xml:space="preserve">
+    <value>font-weight:bold;</value>
+  </data>
+  <data name="addToCartAlt.Text" xml:space="preserve">
+    <value>Add to Cart</value>
+    <comment>for Dutch FrenchGermanPolishEnglish-UK, it is "Add to Basket"</comment>
+  </data>
+  <data name="AddToQuickPicAlt.Text" xml:space="preserve">
+    <value>Add to Quick Pic</value>
+  </data>
+  <data name="deleteBtnAlt.Text" xml:space="preserve">
+    <value>Delete item</value>
+  </data>
+  <data name="expressCheckoutAlt.Text" xml:space="preserve">
+    <value>Express Checkout</value>
+  </data>
+  <data name="RemoveFromQuickPicAlt.Text" xml:space="preserve">
+    <value>Remove from Quick Pic</value>
+  </data>
+  <data name="DeleteError" xml:space="preserve">
+    <value>You cannot delete the item from this read-only lightbox.</value>
+  </data>
+  <data name="NotesError" xml:space="preserve">
+    <value>You cannot edit the item from this read-only lightbox.</value>
+  </data>
+  <data name="fileSizeModal" xml:space="preserve">
+    <value>Royalty-Free image file sizes</value>
+  </data>
+  <data name="footerMessage" xml:space="preserve">
+    <value>File sizes are approximate and may vary by color space and source. Pixel dimensions are accurate as displayed for each image.</value>
+  </data>
+  <data name="rfLargeSize" xml:space="preserve">
+    <value>Large (approx. 32 MB)</value>
+  </data>
+  <data name="rfMediumSize" xml:space="preserve">
+    <value>Medium (approx. 14 MB)</value>
+  </data>
+  <data name="rfSmallSize" xml:space="preserve">
+    <value>Small (approx. 2 MB)</value>
+  </data>
+  <data name="rfWebSize" xml:space="preserve">
+    <value>Web (approx. 640 KB)</value>
+  </data>
+  <data name="rfXLargeSize" xml:space="preserve">
+    <value>Xlarge (approx. 50 MB)</value>
+  </data>
+</root>

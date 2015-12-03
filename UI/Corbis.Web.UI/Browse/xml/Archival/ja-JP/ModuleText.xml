@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModuleText>
+	<Title>Module Text Placeholder</Title>
+	<Copy>
+		<![CDATA[
+				<p>NEW. NEW. NEW. NEW. NEW. NEW.</p>
+			]]>
+	</Copy>
+	<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>
+</ModuleText>

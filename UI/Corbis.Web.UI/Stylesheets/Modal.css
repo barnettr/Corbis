@@ -1,0 +1,372 @@
+.ModalBackground
+{
+	background-image: url("../Images/modalLayerBackground.png");
+	background-repeat: repeat;
+}
+.ModalPopupContent
+{
+	background-color: #e8e8e8;	
+	color:#1a1a1a;
+	font-size:12px;
+	overflow:visible;
+}
+.ModalPopupContent td
+{
+	
+	font-size:12px;
+}
+.ModalPopupContent:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.ModalPopupContent input[type=text],
+.ModalPopupContent input[type=password]
+/*,
+.ModalPopupContent select 
+rg: why would you want this???*/
+{
+	width: 90%;
+}
+
+.ModalPopupContent .Error
+{
+	position: relative;
+}
+
+.ModalPopupContent .FormLeft
+{
+	padding: 10px 7px 10px 13px;
+	width: 140px;
+	float:left;
+}
+
+.ModalPopupContent .FormRight
+{
+	border-left: none;
+	padding: 5px 10px 5px 0px;
+	vertical-align: middle;
+	width: 180px;
+	float:left;
+	clear:right;
+}
+tr.FormRow td.FormRight,tr.FormRow td.FormLeft {
+	line-height:14px;
+	padding:0px !important;
+	vertical-align:middle !important;
+	
+}
+div.ButtonRow350Profile
+{
+    padding:15px 10px 0px 0px;
+	width:340px;
+	height:19px;
+	background:#dbdbdb;	
+	text-align:right;
+}
+.secureImage
+{
+    float:left; 
+    display:inline; 
+    margin-bottom:0px; 
+    margin-top:6px; 
+    margin-left:14px; 
+    vertical-align:bottom;
+}
+div.ButtonRow350, div.ButtonRow500
+{
+	padding:5px 10px 5px 0;
+	width:340px;
+	height:23px;
+	background:#dbdbdb;	
+	text-align:right;
+}
+div.ButtonRow500
+{
+	width:500px !important;
+}
+table.pop350
+{
+	clear:both;
+	width:350px;
+	margin-bottom:6px;
+}
+table.pop500
+{
+	clear:both;
+	width:500px
+}
+table.pop350 td.FormRight
+{
+	width:210px;	
+}
+table.pop500 td.FormRight
+{
+	width:333px;	
+}table.pop500 td.FormLeft
+{
+	width:167px;	
+}
+table.pop500 input[type=text]
+{
+	width:311px;	
+}table.pop500 div
+{
+	line-height: 12px;	
+}
+td.FormRight select, td.FormRight input, td.FormLeft select, td.FormLeft input
+{
+	margin:4px 0px 4px 10px;
+	display:inline-block;
+}
+td.FormRight span, td.FormLeft span
+{
+	margin:3px 0px 6px 10px;
+	display:inline-block;
+} 
+body .ModalPopupContent .colspan2 
+{
+    width:330px;
+}
+
+.ModalPopupContent .FormRow
+{
+	background-color: #e8e8e8;
+}
+.FormDividerRow{
+    background-color:#dbdbdb;
+    color:#797979;
+    height:31px;
+    text-indent:14px;
+}
+.ModalPopupPanel .ModalTitleBar,
+.ModalPopupPanel .ModalSectionTitleBar
+{
+	background-color: #dbdbdb;
+	clear: both;
+	text-align: right;
+}
+
+.ModalPopupPanelDialog .ModalTitleBar
+{
+	background-color: #dbdbdb;
+    float:left;
+    width:100%;
+}
+
+.mochaContent .Title
+{
+	color: #797979;
+	float: left;
+	font-size: 14px;
+	height: 14px;
+	line-height: 14px;
+}
+.ModalPopupPanelDialog .Title
+{
+    width:100%;
+}
+
+.mochaContent .subTitle
+{
+	background-color: #dbdbdb;
+	color: #797979;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 11px 0px 8px 13px;
+	position:relative;
+    width:100%;
+}
+
+.ModalDescriptionText
+{
+	padding:10px 13px;	
+	font-weight:normal;
+}
+.ModalPopupPanel
+{
+	/* TODO: absolute, center vertically + horizontally, margin 20px,
+	no reposition on window resize or scroll */
+	width: 350px;
+}
+
+.ModalPopupPanel .ModalPopupContent
+{
+	background-color: #dbdbdb;
+	color:#1a1a1a;
+}
+
+.ModalPopupPanel .ModalTitleBar .Title
+{
+	padding: 4px 0px 13px 13px;
+}
+
+.ModalPopupPanel .ModalSectionTitleBar .Title
+{
+	padding: 11px 0px 8px 13px;
+}
+
+.ModalPopupPanel .ModalTitleBar .Close
+{
+	margin: 1px 11px 12px 20px;
+}
+
+.ModalPopupPanel .FormButtons
+{
+	display: inline-block;
+	overflow: auto;
+	text-align: right;
+	padding-right: 11px;
+	float:right;
+}
+
+.ModalPopupContent .FormButtons .GlassButton
+{
+	float: right;
+	margin-left: 6px;
+}
+
+.ModalPopupPanelDialog
+{
+	/* TODO: absolute, center vertically + horizontally, margin 20px,
+	no reposition on window resize or scroll */
+	width: 300px;
+}
+
+.ModalPopupPanelDialog .ModalTitleBar .Title
+{
+	float:left;
+	padding: 4px 0px 13px 12px;
+	width:100%;
+}
+
+.ModalPopupPanelDialog .ModalTitleBar .Close
+{
+	float:right;
+	margin: 1px 25px 12px 20px;
+}
+
+#restrictionsPopup .ModalTitleBar .Close
+{
+    float:right;
+	margin: 0px 25px 12px 20px !important;
+}
+
+#restrictionsPopup .contentContainer
+{
+    overflow:auto;
+    height:420px;
+    padding:3px 4px 3px 3px;
+}
+
+#restrictionsPopup .base
+{
+    height:440px; 
+    margin-right:-37px;
+}
+
+.ModalPopupPanelDialog .ModalPopupContent
+{
+	display:block;
+	background-color: #e8e8e8;
+	float:left;
+	width:90%;
+	line-height: 18px;
+	padding: 10px 10px 5px 12px;
+	margin-bottom: 0px;
+}
+
+.ModalPopupPanelDialog .ModalPopupContentLightbox
+{
+	display:block;
+	background-color: #e8e8e8;
+	width:90%;
+	line-height: 18px;
+	padding: 10px 10px 5px 12px;
+	margin-bottom: 0px;
+}
+
+.ModalPopupPanelDialog .Buttons
+{
+	margin-top: 22px;
+}
+
+.ModalPopupPanelDialog .Buttons .GlassButton
+{
+	font-weight: normal;
+	margin: 0px 3px 10px 3px;
+}
+
+.ModalPopupPanelDialog .Divider
+{
+    color:#999999;
+    border-bottom:1px solid white;
+    position:relative;
+    width:318px;
+    margin-left:-12px;
+}
+
+/* general section styling as indicated by Alison mid-Nov. 2008 */
+.emphasize
+{
+    font-size:14px;
+    font-weight:bold;
+}
+
+.deEmphasize
+{
+    color:#666;
+}
+
+/* end of general section */
+
+
+.ModalPopupPanelDialog .InlineDropdown
+{
+    /* forces width of dropdown list to allow for inline Action button */
+	float: left;
+    width:190px;
+    margin-right:10px;
+}
+/* ADD TO LIGHT BOX MODAL SPECIFIC */
+
+.ModalPopupPanelDialog .addToLightBox
+{
+	margin-bottom: 10px;
+	float:left;
+	font-weight: bold;
+	line-height: 18px;
+	text-align: left; 
+	width: 298px; !important;
+}
+
+.ModalPopupPanelDialog .newLightboxName
+{
+	width:255px;
+}
+
+/* Added style for reducing height of RM pricing modal at all over the site*/
+/*.noOverflow
+{
+	overflow:hidden;
+}*/
+
+#modalDeleteTemplateWindow_content .ModalPopupContent
+{
+    padding-top:30px;
+}
+
+/* 'no search results' modal from search  */
+#noSearchResultsWarningWindow .ModalPopupPanelDialog
+{
+    float:left;
+}
+
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:418px !important;
+}

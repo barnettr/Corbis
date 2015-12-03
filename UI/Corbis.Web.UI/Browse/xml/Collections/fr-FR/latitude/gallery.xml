@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium DG| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium DG| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Collections/Images/latitude/large/" tnpath="xml/Collections/Images/latitude/thumb/">
+		<img src="42-15195288.jpg" caption="Eye of a Tiger&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15195288');&quot;&gt;42-15195288&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15195288');" />
+		<img src="42-15377534.jpg" caption="Orangutan Catching Rain Water&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15377534');&quot;&gt;42-15377534&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15377534');" />
+		<img src="42-15768634.jpg" caption="Oil Worker Collecting Oil&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15768634');&quot;&gt;42-15768634&lt;/a&gt; &lt;p&gt;| Premium DG| © Remi Benali/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15768634');" />
+		<img src="42-16321589.jpg" caption="Piazza San Marco and Bell Tower&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-16321589');&quot;&gt;42-16321589&lt;/a&gt; &lt;p&gt;| Premium DG| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-16321589');" />
+		<img src="42-17221731.jpg" caption="Twin Polar Bear Cubs Sleeping in Snow Den&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-17221731');&quot;&gt;42-17221731&lt;/a&gt; &lt;p&gt;| Premium DG| © Jenny E. Ross/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17221731');" />
+		<img src="42-17348693.jpg" caption="Kiyomizu-Dera temple, Kyoto, Honshu, Japan&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-17348693');&quot;&gt;42-17348693&lt;/a&gt; &lt;p&gt;| Premium DG| © Gavin Hellier/JAI/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17348693');" />
+		<img src="42-17836363.jpg" caption="Melting Icebergs, Ililussat, Greenland&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-17836363');&quot;&gt;42-17836363&lt;/a&gt; &lt;p&gt;| Premium DG| © Paul Souders/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17836363');" />
+		<img src="42-18630995.jpg" caption="African Elephant Walking on Savanna&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18630995');&quot;&gt;42-18630995&lt;/a&gt; &lt;p&gt;| Premium DG| © Andy Rouse/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18630995');" />
+		<img src="42-18843311.jpg" caption="Night Blooming Water Lilies, (Nymphaea nouchali)&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18843311');&quot;&gt;42-18843311&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18843311');" />
+		<img src="42-19005931.jpg" caption="River in Lowland Rainforest of Danum Valley&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19005931');&quot;&gt;42-19005931&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19005931');" />
+		<img src="42-19126749.jpg" caption="Polar Bears Sparring on Ice&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19126749');&quot;&gt;42-19126749&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19126749');" />
+		<img src="42-19404640.jpg" caption="Boaters in the Grotta Azzurra&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19404640');&quot;&gt;42-19404640&lt;/a&gt; &lt;p&gt;| Premium DG| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19404640');" />
+		<img src="42-19431773.jpg" caption="Jaguar Running&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19431773');&quot;&gt;42-19431773&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19431773');" />
+		<img src="42-19432155.jpg" caption="African Elephant and Young&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19432155');&quot;&gt;42-19432155&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19432155');" />
+		<img src="42-19432214.jpg" caption="Lowland Gorilla&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19432214');&quot;&gt;42-19432214&lt;/a&gt; &lt;p&gt;| Premium DG| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19432214');" />
+		<img src="42-19540695.jpg" caption="New York City&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19540695');&quot;&gt;42-19540695&lt;/a&gt; &lt;p&gt;| Premium DG| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19540695');" />
+		<img src="42-19699693.jpg" caption="Traffic in Beijing&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19699693');&quot;&gt;42-19699693&lt;/a&gt; &lt;p&gt;| Premium DG| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19699693');" />
+		<img src="42-19967145.jpg" caption="Man Walking in Libyan Desert&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19967145');&quot;&gt;42-19967145&lt;/a&gt; &lt;p&gt;| Premium DG| © Michel Gounot /Godong/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19967145');" />
+		<img src="42-20002795.jpg" caption="Taj Mahal&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20002795');&quot;&gt;42-20002795&lt;/a&gt; &lt;p&gt;| Premium DG| © Bruno Ehrs/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20002795');" />
+		<img src="42-20113040.jpg" caption="Red-Crowned Cranes in Flight&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20113040');&quot;&gt;42-20113040&lt;/a&gt; &lt;p&gt;| Premium DG| © Keren Su/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20113040');" />
+		<img src="42-20876950.jpg" caption="Aerial View of London at Night&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20876950');&quot;&gt;42-20876950&lt;/a&gt; &lt;p&gt;| Premium DG| © Jason Hawkes/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20876950');" />
+		<img src="42-20974440.jpg" caption="Swakopmund Dunes in Namib Desert&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20974440');&quot;&gt;42-20974440&lt;/a&gt; &lt;p&gt;| Premium DG| © Blaine Harrington III/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20974440');" />
+		<img src="42-21012484.jpg" caption="Underwater View of Green Sea Turtle&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21012484');&quot;&gt;42-21012484&lt;/a&gt; &lt;p&gt;| Premium DG| © Paul Souders/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21012484');" />
+		<img src="42-21577468.jpg" caption="Land Spout Tornado in Rural Kansas&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21577468');&quot;&gt;42-21577468&lt;/a&gt; &lt;p&gt;| Premium DG| © Jim Reed/Jim Reed Photography - Severe & /Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21577468');" />
+		<img src="AAMK001053.jpg" caption="Triceratops Skeleton&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAMK001053');&quot;&gt;AAMK001053&lt;/a&gt; &lt;p&gt;| Premium DG| © Louie Psihoyos/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAMK001053');" />
+	</album>
+</gallery>

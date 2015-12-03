@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem>
+		<Title>9月</Title>
+		<Image Src="xml/Hotline/Images/main.jpg" Alt="42-18768552| Standard RM| © WWD/Condé Nast/Corbis" Title="グウィネス・パルトロー" ImageID="42-18768552" Attribution="| Standard RM| © WWD/Condé Nast/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="セレブの誕生日" Title="画像を見る"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="セレブの誕生日" Title="画像を見る"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288732" PreText="01" Text="ドーヴィル映画祭" Title="画像を見る"  />
+      
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288791" PreText="01" Text="MTV ビデオミュージックアワード" Title="画像を見る"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288833" PreText="10" Text="トロント国際映画祭始まる" Title="画像を見る"  />
+
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288925" PreText="11" Text="8年前：アメリカ史上最悪のテロ攻撃" Title="画像を見る"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288792" PreText="11" Text="メルセデス・ベンツ 2010年春・夏のニューヨーク・コレクション" Title="画像を見る"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288748" PreText="12" Text="ヴェネチア国際映画祭－ゴールデンライオン賞" Title="画像を見る"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288749" PreText="18" Text="2010年 春夏のロンドン・コレクション" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288747" PreText="19" Text="ミュンヘンのオクトーバーフェスト" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288827" PreText="20" Text="2009年 プライムタイム・エミー賞" Title="画像を見る"  />
+		</Links>
+   </FeaturedItem>
+  <FeaturedItem>
+    <Title>8月</Title>
+    <Image Src="xml/Hotline/Images/second.jpg" Alt="42-18979743| Premium RM| © Elliott Landy/Corbis" Title="ボブ・ディラン" ImageID="42-18979743 " Attribution="| Premium RM| © Elliott Landy/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="セレブの誕生日" Title="画像を見る"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="セレブの誕生日" Title="画像を見る"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288641" PreText="07" Text="2009年 ロラパルーザ（シカゴ）" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288643" PreText="07" Text="2009年 エディンバラ・フェスティバル・フリンジ" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288642" PreText="09" Text="アメリカのティーン・チョイス・アワード" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288684" PreText="13" Text="全米プロゴルフ選手権" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288675" PreText="15" Text="40年前、ウッドストックが始まる" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1233542" PreText="17" Text="1年前、オリンピックでマイケル・フェルプスが金メダルを8個獲得" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288660" PreText="22" Text="V フェスティバル" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288677" PreText="23" Text="F1、ヨーロッパ・グランプリ" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288661" PreText="25" Text="トルーマン・カポーティ没後25周年" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288635" PreText="26" Text="スペインのトマト祭り" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230133" PreText="31" Text="全米オープン" Title="画像を見る"  />
+      
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>7月</Title>
+    <Image Src="xml/Hotline/Images/third.jpg" Alt="42-16014622 | Standard RM| © Oliver Hoslet/epa/Corbis" Title="ランス・アームストロング、ツール・ド・フランス7連覇の偉業" ImageID="42-16014622" Attribution="| Standard RM| © Oliver Hoslet/epa/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="セレブの誕生日" Title="画像を見る"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="セレブの誕生日" Title="画像を見る"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288468" PreText="02" Text="2009年度 ロスキレ・フェスティバル（デンマーク）" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288467" PreText="03" Text="ブライアン・ジョーンズ没後40周年" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230891" PreText="04" Text="ツール・ド・フランス" Title="画像を見る"  />
+   
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288492" PreText="06" Text="パリ・オートクチュール（2009/10年 秋冬コレクション）" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230892" PreText="07" Text="メジャーリーグ/オールスターゲーム" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288410" PreText="14" Text="フランスの革命記念日" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288474" PreText="17" Text="トランスワールド航空機事故から13年" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288482" PreText="17" Text="ビリー・ホリデイ没後50周年" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288495" PreText="17" Text="スポーツ関連のESPY賞" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288472" PreText="20" Text="人類初の月着陸から40年" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288484" PreText="24" Text="国際チアリーディング大会" Title="画像を見る"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288409" PreText="28" Text="ジャクリーン・オナシス生誕80周年" Title="画像を見る"  />
+    </Links>
+  </FeaturedItem>
+</FeaturedItems>

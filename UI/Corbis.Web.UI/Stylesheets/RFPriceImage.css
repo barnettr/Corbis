@@ -1,0 +1,437 @@
+body{
+	width: 640px !important;
+	overflow: hidden !important;
+}
+.OuterContainer
+{
+    width:640px !important;
+    
+}
+.TitleBar
+{
+	cursor: default; 
+	width: 640px; 
+	height: 27px;
+	border-bottom: solid 1px #cccccc;
+    background-color:#dbdbdb;
+}
+.TitleBar .PriceImageTitle
+{
+	float: left;
+}
+.TitleBar .CloseButton
+{
+	float: right;
+	margin-right:10px;
+	border-bottom:0;
+}
+.TitleBar .Title
+{
+	font-size: 18px;
+	line-height:22px;
+	font-weight: bold;
+	margin-left:10px;
+}
+.TitleBar .SubTitle
+{
+	/* REBRANDING
+	color: #298c43;
+	*/
+	color: #646464;
+	
+	font-weight: normal;
+	font-size: 13px;
+	margin-left: 13px;
+}
+.PrintDiv
+{
+    float:right;
+    margin:0 20px 0 0
+}
+.ChatIconImg
+{
+    display:block;
+    float:left;
+    width:13px;
+    height:11px !important;
+    text-decoration:none;
+    background: url(/Images/ICN-chat.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0 !important;
+    background-position: 0 1px;
+    margin:2px 0 0 4px;
+    text-indent:-5000px;
+}
+.ChatIconImg:hover, .ChatIconImg:active
+{
+    background-position:0 -11px !important;
+    border-bottom:0;
+}
+.PrintIconImg
+{
+    display:block;
+    float:left;
+    width:16px;
+    height:16px;
+    background: url(/Images/ICN-print.gif) no-repeat 0 0;
+    text-indent:-5000px;
+}
+.PrintIconImg:hover, .PrintIconImg:active
+{
+    background-position:0 -17px;
+    border-bottom:0;
+}
+.ChatIconText
+{
+	display:block;
+	margin-top: 2px;
+    float:left;
+    text-decoration:none !important;
+}
+.ChatIconText:hover, .ChatIconText:active 
+{
+	margin-top: 2px;
+    float:left;
+    border-bottom:1px dotted #4385C0;
+}
+.PrintSizeSelectList
+{
+    background: url(listSelectBackgroundSprite.gif) repeat-x 0px 31px;
+}
+
+div.CloseButton a:hover
+{
+    border-bottom:none !important;
+    text-decoration:none !important;
+}
+
+.iconToolset a:active, .iconToolset a:hover, .iconToolset .actLikeLink:hover
+{
+	border-bottom: none !important;
+}
+
+.ConfirmClose
+{
+	width: 300px;
+	padding: 10px 10px 10px 10px;
+	font-size: 13px;
+}
+
+.ConfirmClose .ConfirmCloseCancel
+{
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	height: 20px;
+}
+.ConfirmClose .ConfirmCloseContinue
+{
+	float: right;
+}
+.CancelButtonDiv
+{
+	float: right;
+}
+.CancelButton
+{
+	font-weight:bold;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+.PricingGrid
+{
+	clear:both;
+	background-color:#797979;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.LicensingDetailsHeader
+{
+    background-color:#dbdbdb;
+	padding:5px 13px 7px 13px;
+}
+.LicensingDetailsHeader h3
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+}
+.LicensingDetailsHeader li
+{
+    float:left;
+    display:inline-block;
+    list-style-type:none;
+    width:190px;
+}
+.RepeaterContainer
+{
+	margin: 0px 15px 0px 15px;
+    background-color:#e8e8e8;
+    width: 610px !important;
+    text-align:left;
+}
+.RFPricingRepeater
+{
+
+    background-color:#e8e8e8;
+    display:block;
+    padding:10px 0;
+}
+.ListItemWrap
+{
+    display:block;
+    height:30px;
+    margin:0 0 4px 0 !important;
+}
+.RFPricingRepeaterDataRow
+{   
+    margin:0 0 4px 0 !important;
+    float:left;
+    height:20px;
+    width:564px;
+    overflow:hidden;
+    padding:5px;
+    background: #e8e8e8 url(../Images/btnBarRfSprite.gif) repeat-x 0 -30px;
+    cursor:pointer;
+}
+.RFPricingRepeaterDataRow ul{ list-style-type:none;display:inline; }
+.RFPricingRepeaterDataRow ul li{ float:left;  height: 1.8em; line-height: 1.8em; }
+.RFPricingRepeaterDataRow ul li.double-line{ line-height: 0.9em; }
+.RFPricingRepeaterDataRow ul li.Right{ float:right; text-align:right; }
+.RFPricingRepeaterDataRow ul li img{ position:relative; top:3px; }
+.RFPricingRowLeft
+{
+    margin-left:13px;
+}
+.RFPricingRowLeft, .RFPricingRowRight
+{
+    display:inline;
+    float:left;
+    height:30px;
+    width:5px; 
+    background: #e8e8e8 url(../Images/btnBarRfSprite.gif) no-repeat 0 0px;
+}
+.RFPricingRowRight
+{
+    background-position: 0px -60px;
+    margin-right:13px;
+}
+.RFPricingRepeaterNoResults
+{
+    display:block;
+    margin: 0 18px;
+    
+}
+.PriceMultipleRF
+{
+	float: right;
+}
+.PricingBottom
+{
+    width: 610px !important;
+    width:610px;
+	padding:10px 15px;
+	background-color:#e8e8e8;
+}
+.PricingBottomAE
+{
+    width: 610px !important;
+    width:610px;
+	padding:4px 15px;
+	background-color:#e8e8e8;
+}
+.PricingBottomRS
+{
+    width: 610px !important;
+    width:610px;
+	padding:10px 15px 50px 0px;
+	background-color:#e8e8e8;
+}
+
+#restrictionsPopupWindow
+{
+    top:0 !important;
+}
+
+.ModelReleaseLabel,
+.PropertyReleaseLabel
+{ 
+	font-weight: bold;
+}
+
+.RestrictionsList
+{
+	margin-left: 10px;
+}
+
+#restrictionsPopup .FormButtons
+{
+    margin:0 0 -10px 0 !important;
+    max-height:300px !important;
+    overflow:auto;
+    padding:10px;
+    width:525px;
+}
+
+#restrictionsPopup .ModalPopupContent
+{
+    padding:0 0 0 5px !important;
+}
+
+.restrictionValues
+{
+    padding-bottom:20px;
+}
+
+    .restrictionValues ul
+    {
+        list-style-type:none;
+        margin:0;
+    }
+
+    .restrictionValues li
+    {
+        margin-top:15px;
+    }
+
+.PricingFooterRF
+{
+    width: 610px;
+	border-top: solid 1px #ccc;
+	background-color:#dbdbdb;
+	padding: 5px 15px 5px 15px;
+    bottom: 0px; 
+}
+#ctl00_mainContent_customPricedDisplay
+{
+    height:223px;    
+}
+#ctl00_mainContent_lblPricingFooterDisclaimer
+{
+    line-height:15px;
+}
+.licenseWrapper
+{
+    padding-left:20px;
+    padding-right:20px;    
+}
+.boldAlert
+{
+    font-weight:bold !important;
+}
+.ffffcd
+{
+    background-color:#ffffcd;
+    line-height:26px;
+    margin:0px -20px 0px -20px;
+}
+.altSelection
+{
+    background-color:#ffffcd;
+    line-height:26px;
+}
+.innerPadding
+{
+    padding-left:20px;
+}
+.fileSizeWrapper
+{
+    margin:25px 0px 3px 20px;
+}
+
+#ctl00_mainContent_customPricedDisplay
+{
+    background-color:#E8E8E8;
+}
+
+.dimensionSizeWrapper
+{
+    margin:0px 0px 20px 20px;
+}
+.priceFooter
+{
+    font-weight:bold;
+}
+.createSpace
+{
+    margin-left:26px;
+}
+.createSpaceTwo
+{
+    margin-left:10px;
+}
+#modalOverlay
+{
+    /*opacity: 0.3 !important;*/
+    filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+}
+.dataContainer
+{
+    padding-left:8px;
+    padding-right:8px;
+    background-color:#e8e8e8;    
+}
+.titleWrapper
+{
+    padding-left:8px;
+    background-color:#dbdbdb;
+    height:26px;    
+}
+.expiredTitle
+{
+   color: #666666;
+   font-weight: bold;   
+   font-size: 14.5px;
+   font-family:Trebuchet MS;    
+}
+.expiredCloseButton
+{
+    float:right;
+    margin:0px 0px 0px 0px;
+    vertical-align:top;
+    cursor:pointer; 
+    position:absolute; 
+    right:7px;   
+    top:0px;
+}
+.expiredStrongBody
+{
+    margin-top:26px;    
+}
+.expiredMainBody
+{
+    margin-top:26px;
+}
+.expiredGlass
+{
+    float:right;
+    margin-top:26px;
+}
+.btnContactAE
+{
+    margin-top:16px;
+    padding-right:10px;
+    float:right;
+}
+.itemNotAvailable
+{
+    margin-top:30px;
+    padding-left:24px;
+}
+.lblPricingFooterDisclaimerLink:hover
+{
+    /*border-bottom:dotted 1px #dc602b;*/
+    border-color: #dc602b !important;
+    border-bottom-width: 1px !important;
+    border-style: dotted !important;
+    margin-bottom:-10px !important;
+
+}
+
+
+

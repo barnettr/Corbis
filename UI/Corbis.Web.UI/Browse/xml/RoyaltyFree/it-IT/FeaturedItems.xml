@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Luogo di lavoro dei tempi moderni</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Premium RF| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Premium RF| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>I veri imprenditori lavorano ovunque, sia in luoghi convenzionali che in ambienti insoliti. Le riunioni si tengono spesso in sedi improvvisate, il lavoro d'ufficio viene svolto al bar e il brainstorming ha luogo durante le attese in aeroporto.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy: Fotografia artistica Royalty-Free</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Standard RF| © Image Source/Corbis" ImageID="42-21218191" Attribution="| Standard RF| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Catturando gli stili di vita contemporanei e le preoccupazioni moderne, Fancy crea nuovi standard per la fotografia Royalty-Free. Grande attenzione alla luce, all'ambientazione e ai soggetti dona a questa collezione uno stile e un'essenza esclusivi.</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

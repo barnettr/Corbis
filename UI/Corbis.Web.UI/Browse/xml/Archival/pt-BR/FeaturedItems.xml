@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Retrospectivas: Tesouros da Corbis</Title>
+		<Image Src="xml/Archival/Images/main.jpg" Alt="42-21496840| DC Premium| © Bob Adelman/Corbis" ImageID="42-21496840" Attribution="| DC Premium| © Bob Adelman/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Triunfos e catástrofes. Líderes e visionários. Regimes políticos caem, multidões se manifestam, ícones são destruídos e a câmera continua captando cada acontecimento.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>A cor do século</Title>
+		<Image Src="xml/Archival/Images/sub.1.jpg" Alt="U1591414-10| DC Padrão| © Bettmann/CORBIS" ImageID="U1591414-10" Attribution="| RC Padrão| © Bettmann/CORBIS" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Técnicas antigas de pigmentação, filme obsoleto e formatos esquecidos fornecem nuances indistinguíveis.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

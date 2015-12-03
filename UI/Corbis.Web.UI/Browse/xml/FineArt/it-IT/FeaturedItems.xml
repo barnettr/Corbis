@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Canis familiaris</Title>
+		<Image Src="xml/FineArt/Images/main.jpg" Alt="AAKS001420| Standard RM| © PoodlesRock/CORBIS" ImageID="AAKS001420" Attribution="| Standard RM| © PoodlesRock/CORBIS">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Attraverso i secoli e in tutto il mondo, il beneamato e, talvolta, maltrattato amico dell'uomo è stato un soggetto artistico molto frequentato.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>"Shoes, shoes, shoes" di Andy Warhol</Title>
+		<Image Src="xml/FineArt/Images/sub.1.jpg" Alt="42-20093397| Premium RM| © Andy Warhol Foundation/Corbis" ImageID="42-20093397" Attribution="| Premium RM| © Andy Warhol Foundation/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Alla vigilia dell'esplosione della Pop Art, Andy Warhol disegnava su commissione illustrazioni di calzature eccentriche.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+
+</FeaturedItems>

@@ -1,0 +1,63 @@
+
+img.checkbox
+{
+	vertical-align:middle;
+	height:14px;width:14px;
+	position:absolute;
+}
+.imgContainer img.checkbox
+{
+    vertical-align:middle;
+	height:14px;
+	width:14px;
+	position:static !important;
+	font-size:12px;
+	padding-left:8px;
+}
+#PreferencesDetail .imageCheckbox span
+{
+    padding:0 0 4px 8px;
+    font-size:12px;
+}
+.prefCheckbox
+{
+    position:static !important;
+}
+span.ImageCheckbox input
+{
+	position:absolute;
+	left:-99999px;
+}
+div.imageCheckbox span
+{
+	display:inline-block;
+	font-size:11px;
+	-moz-user-select:none; 
+	padding:0px 0px 4px 18px;
+}
+
+.imageCheckbox img  {
+
+}
+
+span.checkboxHeading label
+{
+	color:white;
+}
+
+span.checkboxLinkedText
+{
+	color: #4385C0;
+	cursor: pointer;
+}
+
+span.checkboxLinkedText:hover
+{
+	border-bottom: dotted 1px #4385C0;
+}
+
+div.imageCheckbox
+{
+	margin:6px 0 5px 0;	
+	display:block;
+}

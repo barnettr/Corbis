@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Éxito de verano</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Estándar DP| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Estándar DP| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Todas las superproducciones que compiten en taquilla este verano. El romance, la comedia, el drama y la ciencia ficción ocupan las pantallas este año. Toma asiento y echa un vistazo a las películas del 2009.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Retratos de famosos exclusivos de Corbis Outline</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Premium DP| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium DP| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="Ver más retratos de famosos en Outline" Title="Haz clic para ver más retratos de famosos en Outline"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Artistas y musas. Leyendas e ingenuas. Corbis Outline™ presenta a los personajes más populares e interesantes del mundo fotografiados por los mejores profesionales.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="Ver más retratos de famosos en Outline" Title="Haz clic para ver más retratos de famosos en Outline"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

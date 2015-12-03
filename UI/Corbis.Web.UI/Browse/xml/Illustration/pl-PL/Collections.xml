@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Style w ilustracji</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288755" Text="Anime" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288754" Text="Komiks " Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288756" Text="Koncepcyjny" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288758" Text="Edgy" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288759" Text="Grafika" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288760" Text="Line Art" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288762" Text="Malarski" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288763" Text="Komiks retro" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288764" Text="Stylizowany" Title="Zobacz zdjęcia"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288765" Text="Wymyślny" Title="Zobacz zdjęcia"  />
+  </Links>
+</ModuleList>

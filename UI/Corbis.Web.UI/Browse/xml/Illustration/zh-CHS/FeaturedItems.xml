@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>插画家资料：Chuck Shacochis</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| Standard RM| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| Standard RM| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>受内战时期的卡通及俄罗斯电影海报的影响，Shacochis 把他的黑色风格描述为 "揉合现代特色与典型卡通风格的插画 "。新颖有趣的表达形式。紧贴时代步伐的主题。</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>来自 CSA Images 的创新平面艺术</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| Standard RM| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| Standard RM| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>绝不墨守成规的 CSA Images 图片库，包含各种各样的风格与别具创意的点子。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>简单而迷人</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| Standard RM| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| Standard RM| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Venki Talath 笔下的人物角色生动有趣、形象突出。这些典型角色反映了成人卡通的潮流趋势。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

@@ -1,0 +1,63 @@
+﻿#contactCorbisModal .ModalPopupContent
+{
+	background-color:#DBDBDB;
+	float:left;
+	margin:0;
+	padding:0;
+	width:350px;
+}
+
+#contactCorbisModal .ModalPopupPanelDialog
+{
+	background-color: #dbdbdb;
+}
+
+#contactCorbisModal .ModalPopupPanelDialog .ModalTitleBar .Title
+{
+	padding-bottom:10px;
+}
+
+#contactCorbisModal .FormButtons
+{
+	margin:0;
+}
+
+#contactCorbisModal .ModalPopupContent .FormButtons .GlassButton
+{
+	margin: 9px 12px 7px 0;
+}
+
+#contactInfo.defaultOffice
+{
+	background-color:#E8E8E8;
+	padding:12px;
+}
+
+#contactInfo table
+{
+	width:100%;
+}
+
+#contactInfo td
+{
+	padding:3px;
+	border:solid #dbdbdb 1px;	
+}
+
+#contactInfo .label
+{
+	background-color:#E8E8E8;
+	border-left:medium none;
+	font-weight:bold;
+	padding-right:7px;
+	text-align:right !important;
+	width:120px;
+}
+
+#contactInfo .data
+{
+	background-color:#E8E8E8;
+	border-right:none;	
+	padding-left:7px;
+}
+

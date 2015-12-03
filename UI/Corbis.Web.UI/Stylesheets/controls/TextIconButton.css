@@ -1,0 +1,55 @@
+.textIconButtonContainer
+{
+	background-position:left top;
+	background-repeat:no-repeat;
+	padding-left:20px;
+	padding-bottom:2px;
+	padding-top:2px;
+	text-decoration:none;
+	display:inline-block;
+	
+}
+
+.textIconButtonContainer.disabled:hover
+{
+    background-position: left top;
+    border:none !important;
+    cursor:default;
+}
+
+.textIconButton:hover
+{
+    /* REBRANDING
+    border-bottom:1px dotted #DD602B !important;
+    */
+    border-bottom:1px dotted #4385C0 !important;
+}
+.textIconButton.disabled:hover
+{
+    text-decoration:none !important;
+    border:none !important;
+    cursor:default;
+    
+}
+.textIconButton.disabled
+{
+	filter:alpha(opacity=100);
+    -moz-opacity:1;
+    opacity: 1;
+}
+.clearAll
+{
+    background-image:url(../../images/clear.png)
+}
+.selectAll 
+{
+	background-image:url(../../images/selectAll.gif);
+}
+.deleteAll
+{
+    background-image:url(../../images/deleteAll.gif);
+}
+.yellowAlert
+{
+	background-image:url(../../images/alertYellow.gif);
+}

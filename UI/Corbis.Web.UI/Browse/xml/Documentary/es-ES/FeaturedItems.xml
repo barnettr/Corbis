@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Latitude</Title>
+		<Image Src="xml/Documentary/Images/main.jpg" Alt="42-18630995| Premium DP| © Andy Rouse/Corbis" ImageID="42-18630995" Attribution="| Premium DP| © Andy Rouse/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Imágenes exclusivas y preparadas para uso comercial con derechos protegidos. Imágenes auténticas y únicas que muestran la civilización humana y la naturaleza.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=latitude" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Terra</Title>
+		<Image Src="xml/Documentary/Images/sub.1.jpg" Alt="42-19191759| Estándar DP| © Remi Benali/Corbis" ImageID="42-19191759" Attribution="| Estándar DP| © Remi Benali/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Una colección editorial rica y extensa que incluye una amplia cobertura de personas, lugares, criaturas y acontecimientos de todo el mundo. </p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=terra" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

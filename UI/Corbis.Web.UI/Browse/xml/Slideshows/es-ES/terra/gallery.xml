@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium DP| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium DP| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/terra/large/" tnpath="xml/Slideshows/Images/terra/thumb/">
+		<img src="42-15360103.jpg" caption="Solar Two Power Station&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15360103');&quot;&gt;42-15360103&lt;/a&gt; &lt;p&gt;| Estándar DP| © George Steinmetz/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15360103');" />
+		<img src="42-15487536.jpg" caption="Tahitian Dancers&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15487536');&quot;&gt;42-15487536&lt;/a&gt; &lt;p&gt;| Premium DP| © Darrell Gulin/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15487536');" />
+		<img src="42-15584691.jpg" caption="Hamer Tribe Warriors Carrying AK-47s&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15584691');&quot;&gt;42-15584691&lt;/a&gt; &lt;p&gt;| Estándar DP| © Remi Benali/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15584691');" />
+		<img src="42-15822485.jpg" caption="Embroidering the Kiswah&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15822485');&quot;&gt;42-15822485&lt;/a&gt; &lt;p&gt;| Estándar DP| © Kazuyoshi Nomachi/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15822485');" />
+		<img src="42-15822639.jpg" caption="Evening Prayer at Mosque of the Prophet&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15822639');&quot;&gt;42-15822639&lt;/a&gt; &lt;p&gt;| Estándar DP| © Kazuyoshi Nomachi/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15822639');" />
+		<img src="42-15987275.jpg" caption="Young Mali Boy Outside Adobe Structure&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15987275');&quot;&gt;42-15987275&lt;/a&gt; &lt;p&gt;| Estándar DP| © Remi Benali/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15987275');" />
+		<img src="42-16375927.jpg" caption="Producing the Fruits of an Economic Boom&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-16375927');&quot;&gt;42-16375927&lt;/a&gt; &lt;p&gt;| Estándar DP| © Gideon Mendel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-16375927');" />
+		<img src="42-16446626.jpg" caption="Girl Wearing Tocha&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-16446626');&quot;&gt;42-16446626&lt;/a&gt; &lt;p&gt;| Estándar DP| © Kazuyoshi Nomachi/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-16446626');" />
+		<img src="42-17143966.jpg" caption="Cook Preparing Pizza at Trianon Pizzeria&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-17143966');&quot;&gt;42-17143966&lt;/a&gt; &lt;p&gt;| Estándar DP| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17143966');" />
+		<img src="42-18979228.jpg" caption="Crowd at the Roman Theatre During Le Nuits de Fourviere Performance&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18979228');&quot;&gt;42-18979228&lt;/a&gt; &lt;p&gt;| Estándar DP| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18979228');" />
+		<img src="42-19191759.jpg" caption="Mentawai Child with Grubs on Leaf&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19191759');&quot;&gt;42-19191759&lt;/a&gt; &lt;p&gt;| Estándar DP| © Remi Benali/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19191759');" />
+		<img src="42-19864103.jpg" caption="Laser Beam Used in Tunnel Construction&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19864103');&quot;&gt;42-19864103&lt;/a&gt; &lt;p&gt;| Estándar DP| © Construction Photography/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19864103');" />
+		<img src="42-19901274.jpg" caption="African Elephant Walking Through Hotel Lobby&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19901274');&quot;&gt;42-19901274&lt;/a&gt; &lt;p&gt;| Estándar DP| © Frans Lanting/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19901274');" />
+		<img src="42-20119275.jpg" caption="Researchers Collecting Data from Polar Bear&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20119275');&quot;&gt;42-20119275&lt;/a&gt; &lt;p&gt;| Estándar DP| © Daniel J. Cox/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20119275');" />
+		<img src="42-20213892.jpg" caption="People Riding Escalators in Tokyo&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20213892');&quot;&gt;42-20213892&lt;/a&gt; &lt;p&gt;| Estándar DP| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20119275');" />
+		<img src="42-20244024.jpg" caption="Young Monks in Angkor&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20244024');&quot;&gt;42-20244024&lt;/a&gt; &lt;p&gt;| Estándar DP| © Philippe Lissac / GODONG/Godong/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20244024');" />
+		<img src="42-20337693.jpg" caption="Girls with Candles at the Timkat Festival&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20337693');&quot;&gt;42-20337693&lt;/a&gt; &lt;p&gt;| Estándar DP| © Alison Wright/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20337693');" />
+		<img src="42-20780792.jpg" caption="Galleria Vittorio Emanuele II with Christmas Decorations&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20780792');&quot;&gt;42-20780792&lt;/a&gt; &lt;p&gt;| Estándar DP| © Atlantide Phototravel/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20780792');" />
+		<img src="42-20944283.jpg" caption="Tour Boat in Amsterdam Canal&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20944283');&quot;&gt;42-20944283&lt;/a&gt; &lt;p&gt;| Estándar DP| © John Harper/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20944283');" />
+		<img src="AALV001028.jpg" caption="Barrel Containing Radioactive Waste&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AALV001028');&quot;&gt;AALV001028&lt;/a&gt; &lt;p&gt;| Estándar DP| © Karen Kasmauski/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALV001028');" />
+		<img src="AB006368.jpg" caption="Lion Sinking Claws into a Kudu&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AB006368');&quot;&gt;AB006368&lt;/a&gt; &lt;p&gt;| Estándar DP| © Gallo Images/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AB006368');" />
+		<img src="QU001727.jpg" caption="Head of Tollund Man&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('QU001727');&quot;&gt;QU001727&lt;/a&gt; &lt;p&gt;| Estándar DP| © Christophe Boisvieux/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('QU001727');" />
+		<img src="RI009176.jpg" caption="Fisherman with Fishing Weir&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('RI009176');&quot;&gt;RI009176&lt;/a&gt; &lt;p&gt;| Estándar DP| © Bob Krist/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('RI009176');" />
+	</album>
+</gallery>

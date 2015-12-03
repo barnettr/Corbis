@@ -1,0 +1,23 @@
+
+img.imageRadio
+{
+	vertical-align:middle;
+	height:14px;width:14px;
+	position:absolute;
+}
+span.imageRadio input
+{
+	position:absolute;
+	top:-99999px;
+}
+span.imageRadio label
+{
+	display:inline-block;
+	font-size:11px;
+	-moz-user-select:none; 
+	padding:0px 0px 6px 18px;
+}
+span.imageRadio
+{
+	display:inline-block;	
+}

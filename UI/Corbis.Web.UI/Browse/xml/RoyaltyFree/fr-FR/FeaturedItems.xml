@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Nouveaux espaces de travail</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Premium LD| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Premium LD| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Les entrepreneurs travaillent n'importe où ; lieux conventionnels ou totalement hors normes. Les réunions se déroulent dans des salles de conférence, les tâches administratives dans des cafétérias et les séances de brainstorming pendant les transits dans les aéroports.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy : collection libre de droits</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Standard LD| © Image Source/Corbis" ImageID="42-21218191" Attribution="| Standard LD| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Saisissant la vie moderne et ses préoccupations quotidiennes, Fancy ouvre de nouveaux horizons à la photographie libre de droits. Le soin porté à la lumière, l'emplacement et les sujets confèrent à cette collection tout son style et sa substance.</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Voir diaporama" Title="Voir diaporama"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

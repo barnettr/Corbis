@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>新摄影作品</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Premium RM| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Premium RM| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>特别的时刻、明显的艺术方向。介绍 Corbis 图片库里的最新作品。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush：广告影院</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Premium RM| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Premium RM| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>时尚、出色，Crush 是着重设计意念的商业类摄影，给人醒目、趋时的感觉。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>潮流报告：企业责任</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Premium RM| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Premium RM| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-chs.pdf?cid=zh-chs" localize="true" Text="下载 PDF" Title="下载 PDF"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>越来越多企业发现正面的社会行动与营商利润之间有着密切的关系。环境、教育、以及伦理，是新的表现指标。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-chs.pdf?cid=zh-chs" localize="true" Text="下载 PDF (1.83 MB)" Title="下载 PDF"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

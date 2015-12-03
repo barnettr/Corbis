@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium DG| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium DG| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/newWork/large/" tnpath="xml/Slideshows/Images/newWork/thumb/">
+		<img src="01_42-21360852.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21360852');&quot;&gt;42-21360852&lt;/a&gt; &lt;p&gt; | Premium DG| © Alejandro Almaraz/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21360852');" />
+		<img src="02_42-21082672.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21082672');&quot;&gt;42-21082672&lt;/a&gt; &lt;p&gt; | Premium DG| © Alejandro Almaraz/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21082672');" />
+		<img src="03_42-21140551.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21140551');&quot;&gt;42-21140551&lt;/a&gt; &lt;p&gt; | Premium DG| © Tim Pannell/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21140551');" />
+		<img src="04_42-21030610.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21030610');&quot;&gt;42-21030610&lt;/a&gt; &lt;p&gt; | Premium DG| © Doroszewicz &amp; Clausen/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21030610');" />
+		<img src="05_42-21032728.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21032728');&quot;&gt;42-21032728&lt;/a&gt; &lt;p&gt; | Premium DG| © Russ Schleipman/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21032728');" />
+		<img src="06_42-21481922.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21481922');&quot;&gt;42-21481922&lt;/a&gt; &lt;p&gt; | Standard DG| © Ken Redding/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21481922');" />
+		<img src="07_42-21482057.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21482057');&quot;&gt;42-21482057&lt;/a&gt; &lt;p&gt; | Standard DG| © Ken Redding/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21482057');" />
+		<img src="08_42-21030327.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21030327');&quot;&gt;42-21030327&lt;/a&gt; &lt;p&gt; | Premium DG| © Doroszewicz &amp; Clausen/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21030327');" />
+		<img src="09_42-21030369.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21030369');&quot;&gt;42-21030369&lt;/a&gt; &lt;p&gt; | Premium DG| © Doroszewicz &amp; Clausen/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21030369');" />
+		<img src="10_42-21712354.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21712354');&quot;&gt;42-21712354&lt;/a&gt; &lt;p&gt; | Standard DG| © Solus-Veer/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21712354');" />
+		<img src="11_42-21402480.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21402480');&quot;&gt;42-21402480&lt;/a&gt; &lt;p&gt; | Premium DG| © Adrianna Williams/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21402480');" />
+		<img src="12_42-21565344.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21565344');&quot;&gt;42-21565344&lt;/a&gt; &lt;p&gt; | Premium DG| © Tony Latham/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21565344');" />
+		<img src="13_42-21712496.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21712496');&quot;&gt;42-21712496&lt;/a&gt; &lt;p&gt; | Premium DG| © Solus-Veer/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21712496');" />
+		<img src="14_42-21712515.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21712515');&quot;&gt;42-21712515&lt;/a&gt; &lt;p&gt; | Premium DG| © Solus-Veer/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21712515');" />
+		<img src="15_42-21712647.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21712647');&quot;&gt;42-21712647&lt;/a&gt; &lt;p&gt; | Standard DG| © Solus-Veer/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21712647');" />
+		<img src="16_42-21506094.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21506094');&quot;&gt;42-21506094&lt;/a&gt; &lt;p&gt; | Standard DG| © Micha Pawlitzki/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21506094');" />
+		<img src="17_42-21603628.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21603628');&quot;&gt;42-21603628&lt;/a&gt; &lt;p&gt; | Premium DG| © Adrianna Williams/zefa/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21603628');" />
+		<img src="18_42-21711930.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-21711930');&quot;&gt;42-21711930&lt;/a&gt; &lt;p&gt; | Standard DG| © Solus-Veer/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21711930');" />
+		<img src="19_42-20900790.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20900790');&quot;&gt;42-20900790&lt;/a&gt; &lt;p&gt; | Premium DG| © Richard Morrell/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20900790');" />
+		<img src="20_42-20900977.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-20900977');&quot;&gt;42-20900977&lt;/a&gt; &lt;p&gt; | Premium DG| © Richard Morrell/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-20900977');" />
+	</album>
+</gallery>

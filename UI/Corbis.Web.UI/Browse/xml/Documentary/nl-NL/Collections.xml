@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Reportagecollecties</Title>
+	<Links>
+		<Link Url="Collections.aspx?name=latitude" Text="Latitude" Title="Klik om diapresentatie te bekijken"  />
+    <Link Url="Collections.aspx?name=terra" Text="Terra" Title="Klik om diapresentatie te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288525" Text="Encyclopedia" Title="Klik om beelden te bekijken"  />
+	</Links>
+</ModuleList>

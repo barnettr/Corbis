@@ -1,0 +1,159 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E237F5BC-C366-49F4-BB7D-F97E08552414}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corbis.Web.Entities</RootNamespace>
+    <AssemblyName>Corbis.Web.Entities</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Corbis.Common.ServiceFactory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Common\Corbis.Common.ServiceFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.CommonSchema.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\CommonSchema\Corbis.CommonSchema.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Framework.Logging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Corbis.Framework\Binaries\Corbis.Framework.Logging\Corbis.Framework.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Image.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Image\Corbis.Image.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.LightboxCart.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\LightboxCart\Corbis.LightboxCart.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.MediaDownload.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\MediaDownload\Corbis.MediaDownload.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Membership.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Membership\Corbis.Membership.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Products.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Products\Corbis.Products.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Products.ServiceAgents, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Products\Corbis.Products.ServiceAgents.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Rfcd.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Rfcd\Corbis.Rfcd.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.WebOrders.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\WebOrders\Corbis.WebOrders.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\AnalyticsEvents.cs" />
+    <Compile Include="src\Enums\MSOState.cs" />
+    <Compile Include="src\Enums\PriceTier.cs" />
+    <Compile Include="src\PricingDisplay.cs" />
+    <Compile Include="src\SearchItem.cs" />
+    <Compile Include="src\Enums\AboutCustomerFeedback.cs" />
+    <Compile Include="src\COFFCheckoutItem.cs" />
+    <Compile Include="src\COFFOrderImage.cs" />
+    <Compile Include="src\COFFValidationResponse.cs" />
+    <Compile Include="src\Enums\FunctionalArea.cs" />
+    <Compile Include="src\LightboxCoffImage.cs" />
+    <Compile Include="src\MemberAssociateDisplay.cs" />
+    <Compile Include="src\Address.cs" />
+    <Compile Include="src\Enums\CartContainer.cs" />
+    <Compile Include="src\CartProductContainerInfo.cs" />
+    <Compile Include="src\CheckoutProduct.cs" />
+    <Compile Include="src\ClientSearchResults.cs" />
+    <Compile Include="src\DeleteCartItemConfirm.cs" />
+    <Compile Include="src\DisplayImageForRelatedImages.cs" />
+    <Compile Include="src\Enums\FileSizeText.cs" />
+    <Compile Include="src\ImageFeedbackInfo.cs" />
+    <Compile Include="src\Enums\ItemsPerPage.cs" />
+    <Compile Include="src\MoreSearchOptions.cs" />
+    <Compile Include="src\OfficeContactInfo.cs" />
+    <Compile Include="src\Enums\OfficeCountry.cs" />
+    <Compile Include="src\OrderFee.cs" />
+    <Compile Include="src\Enums\ParentPage.cs" />
+    <Compile Include="src\Enums\ImageResolution.cs" />
+    <Compile Include="src\Enums\ProductType.cs" />
+    <Compile Include="src\ContentItem.cs" />
+    <Compile Include="src\Enums\ContentItems.cs" />
+    <Compile Include="src\Enums\AnalyticsLoggingLocation.cs" />
+    <Compile Include="src\Cookies.cs" />
+    <Compile Include="src\QuickPicItem.cs" />
+    <Compile Include="src\ProductRestriction.cs" />
+    <Compile Include="src\QuickPicOrderSummary.cs" />
+    <Compile Include="src\RelatedImagesSetForScriptService.cs" />
+    <Compile Include="src\Enums\RMUsageType.cs" />
+    <Compile Include="src\RsUseTypeAttribute.cs" />
+    <Compile Include="src\Enums\SearchProviders.cs" />
+    <Compile Include="src\Country.cs" />
+    <Compile Include="src\SearchResultProduct.cs" />
+    <Compile Include="src\ValidatedCoffItem.cs" />
+    <Compile Include="src\ValidateItemsItem.cs" />
+    <Compile Include="src\Enums\WebOrderNonRfcdDeliveryMethods.cs" />
+    <Compile Include="src\Enums\WebOrderRfcdDeliveryMethods.cs" />
+    <Compile Include="src\Webpage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Corbis.Web.Utilities\Corbis.Web.Utilities.csproj">
+      <Project>{C30B1114-AE29-4C53-8951-99D47F37EA01}</Project>
+      <Name>Corbis.Web.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

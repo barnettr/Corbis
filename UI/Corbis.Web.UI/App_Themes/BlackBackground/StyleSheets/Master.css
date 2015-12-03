@@ -1,0 +1,301 @@
+/* HTML elements  */
+
+a, .actLikeLink 
+{
+	/* REBRANDING
+	color: #dd602b;
+	*/
+	color: #6699CC;
+	cursor: pointer;
+}
+
+a:active, a:hover, .actLikeLink:hover
+{
+	/* REBRANDING
+	border-bottom: dotted 1px #dd602b;
+	*/
+	border-bottom: dotted 1px #6699CC;
+}
+
+
+body
+{
+	background-color: #1a1a1a;
+	color: #999999;
+}
+
+body.unsupportedBrowser
+{
+    background-color: #404040
+}
+
+#FooterContent
+{
+	background: url("../Images/BG-footer.gif") left top repeat-x; 
+	border-top: 1px solid #484848;
+}
+
+    .zeroResults
+    {
+        position:relative;
+        bottom:-100px; 
+        margin-top:-100px;  
+    }
+
+#FooterContent .Curve
+{
+	background: url("../Images/BG-footer-curve.jpg") left top no-repeat;
+}
+
+#FooterContent #Column .Header
+{
+	color: #808080;
+}
+
+#GlobalNav
+{
+	background: #3B3B3B url("../Images/GlobalNav.jpg") left top repeat-y;
+}
+
+/* Moved this to masterBase.css in stylesheets directory
+#Logo
+{
+	background-color: #4c4c4c;
+	background-image: url("../Images/corbis-logo.jpg");
+	border: solid 1px #666666;
+}
+
+#Logo .Over
+{
+	background-image: url("../Images/corbis-logo.jpg");
+}
+*/
+
+.BrowseImages .Icon img
+{
+	/* REBRANDING
+	background-image: url("../Images/orange-chevron-lrg-dark.gif");
+	*/
+	background-image: url("../Images/orange-chevron-lrg-dark.png");
+}
+
+.BrowseImages .Title
+{
+	color: #bbb;
+	cursor: pointer;
+}
+
+.BrowseImages:hover .Title
+{
+	border-bottom: dotted 1px #bbb;
+	
+}
+
+
+#LanguageSelector,
+#ThemeSelector
+{
+	background: #303030 url("../Images/BG-glass-gradients.jpg") left top repeat-x;
+	border-bottom: solid 1px #202020;
+	border-left: solid 1px #5c5c5c;
+	border-right: solid 1px #5c5c5c;
+	border-top: solid 1px #202020;
+}
+
+#LanguageSelector
+{
+	border-right: solid 1px #272727;
+}
+
+#LanguageSelector .LanguageMenuTop .SelectedLanguage
+{
+	color: #ccc;
+}
+
+#LanguageSelector .LanguageMenuTop .DownArrow img
+{
+	/* REBRANDING
+	background: url("../Images/orange-chevron-lrg-dark.gif") left -8px no-repeat;
+	*/
+	background: url("../Images/orange-chevron-lrg-dark.png") left -8px no-repeat;
+	
+	height: 10px;
+	width: 10px;
+}
+
+.LanguageMenuBottom
+{
+	color: #ccc;
+}
+
+.LanguageMenuBottom .MenuItem
+{
+	background-color: #ccc;
+	color: #666666;
+}
+
+.SortOptionsMenuBottom
+{
+	color: #ccc;
+}
+
+.SortOptionsMenuBottom .MenuItem
+{
+	background-color: #ccc;
+	color: #666666;
+}
+
+.SortOptionsMenuBottomFour
+{
+	color: #ccc;
+}
+
+.SortOptionsMenuBottomFour .MenuItem
+{
+	background-color: #ccc;
+	color: #666666;
+}
+
+#ThemeSelector
+{
+	border-left: solid 1px #8c8c8c;
+}
+
+#ThemeSelector .Label
+{
+	color: #ccc;
+}
+
+#ThemeSelector .Dark
+{
+	background-color: #58585a;
+	/* REBRANDING
+	border: solid 1px #dd602b !important;
+	*/
+	
+	border: solid 1px #4385C0 !important;
+
+}
+
+#ThemeSelector .Light
+{
+	background-color: #fff;
+	border: solid 1px #000 !important;
+}
+
+#ThemeSelector .Arrow img
+{
+	background: url("../Images/small-chevron-dark.gif") top center no-repeat;
+}
+
+#Utility .Divider
+{
+	background-color: #5c5c5c;
+	border-right: solid 1px #202020;
+}
+
+#SignInStatus .Title div:hover
+{
+	border-bottom: 1px dotted #fff;
+}
+
+#SignInStatus .Title a
+{
+	color: #fff;
+	
+}
+
+#SignInStatus .Links :hover
+{
+	border-bottom: 1px dotted #4385C0 !important;
+}
+
+#Search
+{
+	background-color: #303030;
+	background-image: url("../Images/BG-glass-gradients.jpg");
+	border-bottom: solid 1px #0f0f0f;
+	border-top: solid 1px #797979;
+}
+
+#Search .Go,
+#Search .Go .Center
+{
+	background-image: url("../Images/yellow-button-dark.gif");
+}
+
+.SignInContent #Or
+{
+	border-bottom: 1px solid #fff;
+}
+
+.SignInContent #Or span
+{
+	background-color: #000;
+	color: #fff;
+}
+
+#CheckoutWidget .Cart,
+#CheckoutWidget .Cart .Right,
+#CheckoutWidget .Cart .Right .Center,
+#CheckoutWidget .Checkout,
+#CheckoutWidget .Checkout .Right,
+#CheckoutWidget .Checkout .Right .Center
+{
+	background-image: url("../Images/cartBox-dark.gif");
+}
+
+#Breadcrumb
+{
+	border-color: #797979;
+}
+
+#CustomerServiceContent
+{
+	background-color: #363636;
+}
+
+#CustomerServiceContent .PaneHeader,
+#CustomerServiceContent .PaneHeader .Right,
+#CustomerServiceContent .PaneHeader .Right .Center,
+#CustomerServiceContent .PaneHeaderExpanded,
+#CustomerServiceContent .PaneHeaderExpanded .Right,
+#CustomerServiceContent .PaneHeaderExpanded .Right .Center
+{
+	background-image: url("../Images/barDarkSprite.gif");
+}
+
+#CustomerServiceContent .PaneContent
+{
+	background-color: #dbdbdb;
+}
+
+#CustomerServiceContent .PaneContent .FormRow
+{
+	background-color: #e8e8e8;
+}
+
+#CustomerServiceContent .PaneContentRound .Left,
+#CustomerServiceContent .PaneContentRound .Right
+{
+	background-color: #dbdbdb;
+	background-image: url("../Images/rc5pxdbdbdb-363636.gif");
+}
+
+#CustomerServiceContent .PaneHeader .Right
+{
+	background-position: right -34px;
+}
+
+#CustomerServiceContent .PaneHeader .Right .Center
+{
+	background-position: 0px -68px;
+}
+
+#CustomerServiceContent .Faq .PaneContent,
+#CustomerServiceContent .Offices .PaneContent,
+#CustomerServiceContent .MyRep .PaneContent
+{
+	background-color: #dbdbdb;
+}
+

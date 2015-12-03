@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/giardino/large/" tnpath="xml/Slideshows/Images/giardino/thumb/">
+		<img src="01_42-15346664.jpg" caption="Paparazzi&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15346664');&quot;&gt;42-15346664&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15346664');" />
+    <img src="02_42-15805476.jpg" caption="Celebrity in Limo Ignoring Fans and Paparazzi&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15805476');&quot;&gt;42-15805476&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15805476');" />
+		<img src="03_42-15346606.jpg" caption="Paparazzi Photographing Celebrity at Red Carpet Event&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15346606');&quot;&gt;42-15346606&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15346606');" />
+		<img src="04_42-15346991.jpg" caption="Photographing Model at Fashion Show&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15346991');&quot;&gt;42-15346991&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15346991');" />
+		<img src="05_42-15373210.jpg" caption="Photographing Fashion Model on Runway&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15373210');&quot;&gt;42-15373210&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15373210');" />
+    <img src="06_AXR002122.jpg" caption="Clubgoers Raising Their Hands&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AXR002122');&quot;&gt;AXR002122&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AXR002122');" />
+		<img src="07_AXR002121.jpg" caption="Man Crowd Surfing atop Mosh Pit&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AXR002121');&quot;&gt;AXR002121&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AXR002121');" />
+		<img src="08_42-21472993.jpg" caption="Modern Dancer in Scarf&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21472993');&quot;&gt;42-21472993&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21472993');" />
+		<img src="09_42-21472999.jpg" caption="Modern Dancers with Scarves&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21472999');&quot;&gt;42-21472999&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21472999');" />
+		<img src="10_42-19339517.jpg" caption="Woman Dancing in New York&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-19339517');&quot;&gt;42-19339517&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-19339517');" />
+    <img src="11_AX073653.jpg" caption="Sprinter in Position on Starting Block&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX073653');&quot;&gt;AX073653&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX073653');" />
+		<img src="12_AX073882.jpg" caption="Swimmer Preparing to Start Race&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX073882');&quot;&gt;AX073882&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX073882');" />
+    <img src="13_AX073714.jpg" caption="Man Swimming in Pool Lane&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX073714');&quot;&gt;AX073714&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX073714');" />
+    <img src="14_AX077832.jpg" caption="Sumo Wrestlers Lifting Legs&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX077832');&quot;&gt;AX077832&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX077832');" />
+    <img src="15_AX079686.jpg" caption="Jogger Running on Trail&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX079686');&quot;&gt;AX079686&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX079686');" />
+    <img src="16_AX077559.jpg" caption="Woman Basking in Sunlight&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX077559');&quot;&gt;AX077559&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX077559');" />
+    <img src="17_AXR001745.jpg" caption="Overgrown Rural Road in a Field&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AXR001745');&quot;&gt;AXR001745&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AXR001745');" />
+		<img src="18_AX057262.jpg" caption="Young Woman Riding in Vintage Car&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX057262');&quot;&gt;AX057262&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX057262');" />
+    <img src="19_AXR002887.jpg" caption="Leaving Suitcase Behind&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AXR002887');&quot;&gt;AXR002887&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AXR002887');" />
+    <img src="20_AX933950.jpg" caption="Curve Ahead Sign&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AX933950');&quot;&gt;AX933950&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AX933950');" />
+		<img src="21_AXR001737.jpg" caption="Couple Hugging at a Train Station&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AXR001737');&quot;&gt;AXR001737&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AXR001737');" />
+		<img src="22_AXR001742.jpg" caption="Man Waiting at Train Station&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AXR001742');&quot;&gt;AXR001742&lt;/a&gt; &lt;p&gt; | Premium RM| © Patrik Giardino/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('AXR001742');" />
+	</album>
+</gallery>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Local de trabalho dos tempos modernos</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| RF Premium| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| RF Premium| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Veja o show de slides" Title="Veja o show de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>O verdadeiro empreendedor trabalha em qualquer lugar – em lugares comuns e incomuns. As reuniões são feitas em salas de reuniões, a papelada é preenchida em lanchonetes e o brainstorm é feito enquanto se espera pelo próximo voo.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy: Imagens fotográficas Royalty-Free altamente conceituadas</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| RF Padrão| © Image Source/Corbis" ImageID="42-21218191" Attribution="| RF Padrão| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Capturando estilos de vida contemporâneos e preocupações modernas, a Fancy estabelece novos padrões para imagens Royalty-Free. Atenção com a iluminação, local e modelos dão estilo e conteúdo a esta coleção.</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

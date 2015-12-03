@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  USAGE NOTES
+  - feature images should be stored in boutique/images/features/ 
+  - feature images should be sized at 600 x 400 (server will create smaller versions)
+  - collection images should remain sized at 95 x 95
+  - the first <Feature> will always be the hero feature
+  - <FeatureID> must be unique per each feature entry, alphanumeric with no spaces
+  - In <FeatureText>, any single-quotes (apostrophes) must be written as: '
+  - If a <FeatureLink> is a download, include the following attributes: filesize and filetype
+  		example: <FeatureLink filesize="1.5MB" filetype="PDF">
+-->
+
+<RMBoutique>
+
+    <PageTitle>Stock photography, footage, rights: Inspiration at Corbis Creative Boutique</PageTitle>
+
+    <MetaKeywords>Creative Boutique, Corbis Creative Boutique, Featured Collections, New work, Trends image, Rights Managed, RM, inspiration, insight, wallpapers, free calendar, trends, images, trend spotting, image galleries</MetaKeywords>
+
+    <MetaDescription></MetaDescription>
+
+    <Labels>
+        <CreativeBoutique>Creative Boutique</CreativeBoutique>
+        <Features>Features</Features>
+        <Wallpapers>Wallpapers</Wallpapers>
+        <NewCollections>Featured Collections &amp; Galleries</NewCollections>
+        <Older>Older</Older>
+        <Newer>Newer</Newer>
+        <Close>CLOSE</Close>
+        <SignInText><![CDATA[<a href="https://secure.corbis.com/login/loginmain.aspx">Sign In</a> or <a href="https://secure.corbis.com/register/register.aspx">Register</a> to Download]]></SignInText>
+    </Labels>
+
+    <Categories>
+        <Category name="all">All</Category>
+        <Category name="bestof">Best Of</Category>
+        <Category name="keywords">Creative Keywords</Category>
+        <Category name="newwork">New Work</Category>
+        <Category name="trends">Trends</Category>
+        <Category name="insight">Insight</Category>
+    </Categories>
+
+    <LinkTexts>
+        <LinkText name="gallery">View Gallery</LinkText>
+        <LinkText name="search">View Search Results</LinkText>
+        <LinkText name="download">Download</LinkText>
+    </LinkTexts>
+
+    <Wallpaper>
+        <WallpaperImage>02_2009.jpg</WallpaperImage>
+        <WallpaperFile>http://cache.corbis.com/pro/wallpaper/0209_corbis_wallpaper.zip</WallpaperFile>
+        <WallpaperDownloadText>Download All Wallpapers (3.3MB ZIP)</WallpaperDownloadText>
+    </Wallpaper>
+
+    <SearchTips>
+        <SearchTips>Search Tips</SearchTips>
+        <SearchTipsText>
+            <![CDATA[
+        Looking for something great? Let us help you find it. Visit our <a href="/creative/searchtips/">Search Tips</a> page or download our <a href="http://cache.corbis.com/pro/searchtips/KeywordGuide_EN.pdf" target="_blank" localize="true">Keyword Guide (PDF)</a> for help.
+      ]]>
+        </SearchTipsText>
+    </SearchTips>
+
+    <!-- <Adverts>
+    <AdvertBox>
+      <AdvertBoxTitle>Museum of the Arts for the Arts</AdvertBoxTitle>
+      <AdvertBoxImage>mofaa.gif</AdvertBoxImage>
+      <AdvertBoxTextBegin></AdvertBoxTextBegin>
+      <AdvertBoxLinkText>Curate your own exhibit</AdvertBoxLinkText>
+      <AdvertBoxTextEnd> at the newly expanded MofAA!</AdvertBoxTextEnd>
+      <AdvertBoxLink>http://mofaa.org</AdvertBoxLink>
+    </AdvertBox>
+    
+    <AdvertBox>
+      <AdvertBoxTitle>Modern World</AdvertBoxTitle>
+      <AdvertBoxImage>worldgive.gif</AdvertBoxImage>
+      <AdvertBoxTextBegin>You buy. </AdvertBoxTextBegin>
+      <AdvertBoxLinkText>We donate $5 to Oxfam.</AdvertBoxLinkText>
+      <AdvertBoxTextEnd> Let’s make a difference.  Use code WORLDGIVE at checkout.</AdvertBoxTextEnd>
+      <AdvertBoxLink>http://oxfam.org</AdvertBoxLink>
+    </AdvertBox>
+    
+  </Adverts> -->
+
+    <!-- <Feedback>
+    <FeedbackText>
+      <![CDATA[
+        TALK TO US! Spotted your own trend? Have feedback for the Creative Boutique? Contact us at <a href="mailto:creativeboutique@corbis.com">creativeboutique@corbis.com</a>
+      ]]>
+    </FeedbackText>
+  </Feedback> -->
+
+
+    <Collections>
+
+        <!-- <Collection>
+      <CollectionImage>coll_wiesmeier.jpg</CollectionImage>
+      <CollectionName>&lt;span style="line-height:10px;font-size:11px;"&gt;Featured Photographer: Uli Wiesmeier&lt;span&gt;</CollectionName>
+      <CollectionLink>/creative/gallery/gallery.aspx?id=boutique/wiesmeier</CollectionLink>
+    </Collection> -->
+        <Collection>
+            <CollectionImage>food_stick.jpg</CollectionImage>
+            <CollectionName>Food on a stick</CollectionName>
+            <CollectionLink>/creative/gallery/gallery.aspx?id=boutique/food_stick</CollectionLink>
+        </Collection>
+        <Collection>
+            <CollectionImage>job_hunting.jpg</CollectionImage>
+            <CollectionName>Job hunting</CollectionName>
+            <CollectionLink>/creative/gallery/gallery.aspx?id=boutique/job_hunting</CollectionLink>
+        </Collection>
+
+    </Collections>
+
+    <Features>
+        <!-- hero feature -->
+
+        <Feature>
+            <FeatureID>ck_grandboss</FeatureID>
+            <FeatureTitle>Grand boss</FeatureTitle>
+            <FeatureImage>ck_alpha_grandboss.jpg</FeatureImage>
+            <FeatureCategory>keywords</FeatureCategory>
+            <FeatureSuperscript></FeatureSuperscript>
+            <FeatureText>Part benevolent, part terrifying, the boss’s boss embodies seniority.</FeatureText>
+            <FeatureLink Localize="true">http://pro.corbis.com/search/searchFrame.aspx?stab=1&amp;rft=RF_TL&amp;txt=Grand boss</FeatureLink>
+        </Feature>
+
+        <!-- the rest -->
+
+        <Feature>
+            <FeatureID>nw_0209_2</FeatureID>
+            <FeatureTitle>February 2009</FeatureTitle>
+            <FeatureImage>nw_0209_2.jpg</FeatureImage>
+            <FeatureCategory>newwork</FeatureCategory>
+            <FeatureSuperscript>NEW</FeatureSuperscript>
+            <FeatureText>Cutting-edge images to sharpen creative wits.</FeatureText>
+            <FeatureLink Localize="false">/creative/gallery/gallery.aspx?id=boutique/nw_0209_2</FeatureLink>
+        </Feature>
+
+        <Feature>
+            <FeatureID>ck_snap-on</FeatureID>
+            <FeatureTitle>Snap-on Smile</FeatureTitle>
+            <FeatureImage>ck_snap-on.jpg</FeatureImage>
+            <FeatureCategory>keywords</FeatureCategory>
+            <FeatureSuperscript>NEW</FeatureSuperscript>
+            <FeatureText>Some smiles are lit from within, others are purely decorative.</FeatureText>
+            <FeatureLink Localize="true">http://pro.corbis.com/search/searchFrame.aspx?stab=1&amp;rft=RF_TL&amp;txt=Snap-on Smile</FeatureLink>
+        </Feature>
+
+
+
+    </Features>
+
+</RMBoutique>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Ekskluzywne RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Ekskluzywne RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+  <album lgpath="xml/Slideshows/Images/boDiddley/large/" tnpath="xml/Slideshows/Images/boDiddley/thumb/">
+    <img src="01_42-17363916.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17363916');&quot;&gt;42-17363916&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Michael Ochs Archives/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17363916');" />
+    <img src="02_42-17363914.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17363914');&quot;&gt;42-17363914&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Michael Ochs Archives/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17363914');" />
+    <img src="03_42-17363912.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17363912');&quot;&gt;42-17363912&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Michael Ochs Archives/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17363912');" />
+    <img src="04_42-17478836.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17478836');&quot;&gt;42-17478836&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Michael Ochs Archives/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17478836');" />
+    <img src="05_42-17478839.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17478839');&quot;&gt;42-17478839&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Michael Ochs Archives/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17478839');" />
+    <img src="06_BE068223.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('BE068223');&quot;&gt;BE068223&lt;/a&gt; &lt;p&gt; | Standardowe RM| © CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE068223');" />
+    <img src="07_PN011934.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('PN011934');&quot;&gt;PN011934&lt;/a&gt; &lt;p&gt; | Przystępne RM| © Neal Preston/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('PN011934');" />
+    <img src="08_42-17363908.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17363908');&quot;&gt;42-17363908&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Michael Ochs Archives/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17363908');" />
+    <img src="09_BE068364.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('BE068364');&quot;&gt;BE068364&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Lynn Goldsmith/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE068364');" />
+    <img src="10_BE066344.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('BE066344');&quot;&gt;BE066344&lt;/a&gt; &lt;p&gt; | Standardowe RM| © CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE066344');" />
+    <img src="11_42-17482681.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17482681');&quot;&gt;42-17482681&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Lucas Jackson/Reuters/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17482681');" />
+    <img src="12_PN010817.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('PN010817');&quot;&gt;PN010817&lt;/a&gt; &lt;p&gt; | Przystępne RM| © Neal Preston/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('PN010817');" />
+    <img src="13_BE068359.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('BE068359');&quot;&gt;BE068359&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Lynn Goldsmith/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE068359');" />
+    <img src="14_PN010824.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('PN010824');&quot;&gt;PN010824&lt;/a&gt; &lt;p&gt; | Przystępne RM| © Neal Preston/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('PN010824');" />
+    <img src="15_PN010828.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('PN010828');&quot;&gt;PN010828&lt;/a&gt; &lt;p&gt; | Przystępne RM| © Neal Preston/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('PN010828');" />
+    <img src="16_UT0114009.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('UT0114009');&quot;&gt;UT0114009&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Reuters/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('UT0114009');" />
+    <img src="17_DWF15-849489.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('DWF15-849489');&quot;&gt;DWF15-849489&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Jeff Christensen/Reuters/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('DWF15-849489');" />
+    <img src="18_42-15113036.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-15113036');&quot;&gt;42-15113036&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Mike Segar/Reuters/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15113036');" />
+    <img src="19_42-15118796.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-15118796');&quot;&gt;42-15118796&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Nancy Kaszerman/ZUMA/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15118796');" />
+    <img src="20_42-17478840.jpg" caption="&lt;a href=&quot;javascript:DisplaySearchResults('42-17478840');&quot;&gt;42-17478840&lt;/a&gt; &lt;p&gt; | Standardowe RM| © Michael Ochs Archives/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17478840');" />
+  </album>
+</gallery>

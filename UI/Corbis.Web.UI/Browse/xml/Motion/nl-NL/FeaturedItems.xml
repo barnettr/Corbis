@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>De uitgebreide collectie van Corbis Motion</Title>
+		<Copy>
+			<![CDATA[
+				<p>In samenwerking met Thought Equity Motion biedt Corbis Motion u directe toegang tot content van de allerbeste film- en entertainmentbedrijven ter wereld, zoals MGM Studios, HBO Archives, National Geographic, Sony Pictures Entertainment, Smithsonian Channel en Paramount Pictures. Op de website vindt u ook online-aankoopmogelijkheden, directe downloads, grote comps en gratis researchdiensten.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="http://www.corbismotion.com/" Text="Breng een bezoek aan corbismotion.com" Title="Corbis Motion"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

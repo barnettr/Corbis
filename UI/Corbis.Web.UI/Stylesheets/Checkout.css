@@ -1,0 +1,2809 @@
+/*                             SMILE!!!
+
+                         oooo$$$$$$$$$$$$oooo
+                      oo$$$$$$$$$$$$$$$$$$$$$$$$o
+                   oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
+   o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$
+oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
+"$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$
+  $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$
+  $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  """$$$
+   "$$$""""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$
+    $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$o
+   o$$"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o
+   $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" "$$$$$$ooooo$$$$o
+  o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$
+  $$$$$$$$"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$""""""""
+ """"       $$$$    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"      o$$$
+            "$$$o     """$$$$$$$$$$$$$$$$$$"$$"         $$$
+              $$$o          "$$""$$$$$$""""           o$$$
+               $$$$o                                o$$$"
+                "$$$$o      o$$$$$$o"$$$$o        o$$$$
+                  "$$$$$oo     ""$$$$o$$$$$o   o$$$$""
+                     ""$$$$$oooo  "$$$o$$$$$$$$$"""
+                        ""$$$$$$$oo $$$$$$$$$$
+                                """"$$$$$$$$$$$
+                                    $$$$$$$$$$$$
+                                     $$$$$$$$$$"
+                                      "$$$""""
+
+
+*/
+
+/**************************
+ *  CHECKOUT CSS FILE 
+    You can jump through using $$$ to find areas.
+ **************************/
+
+@import url("/Stylesheets/helpers/columnLayouts.css");
+@import url("/Stylesheets/helpers/tooltips.css");
+@import url("/Stylesheets/helpers/address.css");
+
+/* $$$ ====[ generic styles ]====*/
+.optionalField
+{
+    color: #ccc !important;
+}
+.Error
+{
+    margin-bottom:10px;
+}
+
+.hdn
+{
+	display: none !important; 
+}
+
+/* $$$ ====[ containers ]====*/
+
+#MainContent
+{
+    margin-top: 134px;
+}
+
+#checkoutStage
+{
+    max-width: 1250px;
+    min-width: 967px;
+}
+
+#checkoutStageWrap
+{
+    max-width: 1230px;
+    min-width: 800px;
+    padding: 5px 10px 60px 10px;
+}
+
+.wrap
+{
+    background: #363636; /*  padding: 10px 30px; */
+    max-width: 1230px;
+    min-width: 800px;
+    position: relative;
+}
+
+.contentBar
+{
+    padding: 15px;
+}
+
+/* $$$ ====[ column layout - overriding base styles from /Stylesheets/helpers/columnLayouts.css ]*/
+
+/* 2 column left column settings */
+#checkoutDisplayColumns
+{
+    background: transparent;
+}
+
+/* the container for the columns */
+#checkoutDisplayColumns .TwoColumn_leftWrap
+{
+    left: 323px; /* this moves the right columns left spacing */
+    background: #DBDBDB;
+    padding: 0px;
+}
+#checkoutDisplayColumns .TwoColumn_mainWrap
+{
+    right: 323px; /* same as left column width */
+    padding-bottom: 0px;
+}
+
+/* MAIN COLUMN */
+#checkoutDisplayColumns .TwoColumn_mainColumn
+{
+    margin: 0px 0px 0px 323px; /* this controls padding of right column */
+    position: relative;
+}
+
+/* LEFT COLUMN */
+#checkoutDisplayColumns .TwoColumn_leftColumn
+{
+    width: 310px; /* width of left column */
+    right: 323px;
+    background: #363636;
+}
+
+/* $$$ ====[ bottom links, including TRUSTe ]====*/
+#bottomBlock
+{
+    clear: both;
+}
+
+#questions 
+{
+    left:10px;
+    position:absolute;
+    top:430px;
+}
+
+#questions li
+{
+    float: left;
+    line-height: 25px;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0 23px;
+    max-width:150px;
+    line-height:1.1;
+}
+
+#questions a
+{
+    /* REBRANDING
+    color: #dd602b;
+    */
+    color: #4385C0;
+}
+
+#questions .securityQuestions
+{
+    border-right: 1px solid black;
+    padding-left: 0;
+}
+
+.SDquestions
+{
+    border-left: 1px solid gray;
+}
+
+.TRUSTe
+{
+    bottom: 10px;
+    height: 33px;
+    position: absolute;
+    right: 10px;
+    width: 116px;
+}
+
+/* $$$ ====[ top bar ]====*/
+
+/* some lines copied from cart.css cartBar, will merge into the base css later */
+.checkoutBar
+{
+    background: transparent url(../images/BG-cartbar.jpg) repeat-x scroll left top;
+    height: 35px; /*         TODO: we should deal color in the body tag instead of here         this is just a temporary solution     */
+    color: #999;
+    position: relative;
+}
+
+span.orderContains
+{
+    font-size: 12px;
+    color: #b7b7b7;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.checkoutBar .Info
+{
+    position: relative;
+}
+
+div.totalIndicator
+{
+    position: absolute;
+    right: 20px;
+}
+
+div.totalIndicator ul, div.totalIndicator ul li
+{
+    display: inline;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.totalIndicator ul li
+{
+    color: White;
+    font-weight: bold;
+    font-size: 16px;
+    height: 35px;
+    line-height: 35px;
+}
+
+div.totalIndicator ul li.totalLabel
+{
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+
+.Info
+{
+    float: left;
+}
+
+.Info h2
+{
+    color: White;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 15px 0 15px;
+}
+
+.roundcornerhack
+{
+    margin: 6px 10px;
+}
+
+/* $$$ ====[ item summary ]====*/
+
+#summaryItemsContainer
+{
+    background-color: #f8f8f8;
+    height: 264px;
+    overflow: auto;
+    width: 310px;
+}
+
+#summaryItems
+{
+    background-color: #dbdbdb;
+}
+
+#summaryItems table
+{
+    width: 100%;
+}
+
+#itemSummaryContainer
+{
+    background-color: #dbdbdb;
+}
+
+#checkoutStage .editMyCart
+{
+    font-size: 12px;
+    font-weight: normal;
+    position:relative;
+    text-transform:none;
+    top:2px;
+}
+
+#itemSummaryTitle
+{
+    float:left;
+    padding-right:7px;
+}
+
+#checkoutStage h3
+{
+    background-color: #dbdbdb;
+    color: Black;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.padMe
+{
+    margin: 0 8px 10px;
+    padding-top:5px;
+}
+
+#loadingViewRestrictions
+{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.InfoLine, .InfoLine p, Info p
+{
+    float: left;
+}
+
+.InfoLine
+{
+    line-height: 25px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.checkoutItem td
+{
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+    color: #4e4d4d;
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 7px 5px;
+    vertical-align:top;
+}
+
+td.checkoutItemPhoto
+{
+    width: 51px;
+}
+
+.thumbWrap
+{
+    text-align: center;
+}
+
+td.checkoutItemPhoto div
+{
+    background-color: #333333;
+    height: 50px;
+    width: 50px;
+}
+
+td.checkoutItemDetails
+{
+    padding-left: 0;
+}
+
+.checkoutItemNumber
+{
+    color: #4e4e4d;
+    font-weight: bold;
+}
+
+ .
+.checkoutItemType.RF
+{
+    color: #298c43;
+}
+
+ .
+.checkoutItemType.RM
+{
+    color: #206aff;
+}
+
+.checkoutItemRestrictions
+{
+    background: url(../Images/alertYellow.gif) no-repeat bottom left;
+    color: #dc602b;
+    padding: 15px 0 0 20px;
+}
+
+#modelReleased, #propertyReleased
+{
+    font-weight: bold;
+}
+
+#modelReleased .value, #propertyReleased .value
+{
+    font-weight: normal;
+}
+
+.deleteMe
+{
+    background: url(../Images/icon-delete.gif) no-repeat bottom left;
+    cursor: pointer;
+    display: none;
+}
+
+.checkoutItemPrice
+{
+    text-align: right;
+    white-space: nowrap;
+}
+
+#itemSummary, #itemSummaryBottom
+{
+    width: 311px;
+}
+
+.summaryTotals
+{
+    background-color: #666666;
+}
+
+.subTotal, .promotionCode
+{
+    background-color: #dbdbdb;
+    color: #666666;
+    height: 25px;
+    text-align: right;
+}
+
+.subTotal
+{
+    font-weight: bold;
+    height: 50px; /* remove this if service fee is put back. */
+    margin-top: -1px; /* cheap & easy way to hide bottom border of table row ;-) */
+    padding-top: 5px;
+}
+
+#ctl00_mainContent_itemSummaryBlock_subTotalAmount
+{
+    border-bottom: 1px solid #dbdbdb; /* to ensure that "Subtotal" text is positioned correctly. */
+}
+
+.promotionCode
+{
+    padding-bottom: 10px;
+    padding-right: 35px;
+}
+
+#taxAndShipping /* combine both to ensure that background color is maintained when both are invisible */
+{
+    background-color: #e8e8e8;
+    color: #666666;
+    line-height: 16px;
+    text-align: right;
+}
+
+.total
+{
+    background-color: #666666;
+    color: White;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    padding-top: 5px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.subTotal div div, .promotionCode div div, .tax div, .shipping div, .total div.totalDivValue, .KSAtax div
+{
+    float: right;
+    padding-right: 5px;
+    text-align: right;
+    width: 180px;
+}
+
+.total div.totalDivValue
+{
+    height: 20px;
+    line-height: 20px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.total div.totalDivLabel
+{
+    width: 125px;
+    text-align: right;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+}
+
+#subTotalName
+{
+    padding-right:0;
+    width:115px;
+}
+
+/*====[ TABS ]=====*/
+#topNavDiv
+{
+    font-size: 14px;
+    height: 35px;
+    background: #363636;
+}
+
+#topNavDiv a
+{
+    background-color: inherit;
+    border-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 154px;
+}
+
+#topNavDiv a.tab, #topNavDiv a.tab:link, #topNavDiv a.tab:visited, #topNavDiv a.tab:active
+{
+    background-image: url(../images/tab-inactive.gif);
+    color: #b7b7b7;
+    cursor: hand;
+    padding: 15px 0 8px;
+    margin: 0 2px 0 0;
+}
+
+/* had to comment this for the javascript tab navigation thing.
+   please don't remove this again. you heard me. EVER. :P
+   -Chris (2008-12-02)
+#topNavDiv a.tab:hover*/
+body #topNavDiv a.tab_ON
+{
+    background-image: url(../images/tab-hover.gif);
+    color: #f8f8f8;
+}                
+
+
+
+#topNavDiv a.selectedTab, 
+#topNavDiv a.selectedTab:link, 
+#topNavDiv a.selectedTab:visited, 
+#topNavDiv a.selectedTab:hover, 
+#topNavDiv a.selectedTab:active, 
+#topNavDiv a.selected, 
+#topNavDiv a.selected:link, 
+#topNavDiv a.selected:visited, 
+#topNavDiv a.selected:hover, 
+#topNavDiv a.selected:active
+{
+    background-image: url(../images/tab-active.gif);
+    color: black;
+    cursor: default;
+    margin: 0 2px 0 0;
+}
+
+.disabled, .disabled:hover, .disabled-hover
+{
+    /* override utility style */
+    filter: alpha(opacity=100) !important;
+    -moz-opacity: 1.0 !important;
+    opacity: 1.0 !important;
+}
+
+.loseRoundedCorner
+{
+}
+
+/*$$$====[  common styles in Step 1, 2,3 & 4 Panes ]====*/
+/* structure, heading */
+.paneLayout
+{
+    background-color: #f8f8f8;
+    color: #1a1a1a;
+    height: 316px;
+    margin-top: 5px;
+    overflow:auto;
+    overflow-x:hidden;
+    padding: 8px 0;
+    text-align: left;    
+
+}
+
+.paneLayout h4
+{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 2px 0 20px 8px;
+}
+
+.paneLayout hr
+{
+    background-color: #eaeaea;
+    border:1px solid #EAEAEA;
+    clear: both;
+    color: #eaeaea;
+    margin: 10px 0;
+}
+
+.DeliveryDownload, 
+.DeliveryCD, 
+.DeliveryEmail, 
+.DeliveryFtp, 
+.DeliveryDownloadSelected, 
+.DeliveryCDSelected, 
+.DeliveryEmailSelected, 
+.DeliveryFtpSelected
+{
+    background: transparent url(../Images/deliveryOptions-icon.png) no-repeat scroll 0 0;
+    float: left;
+    height: 63px;
+    width: 70px;
+}
+
+/* controls at bottom */
+.buttonBarWrap
+{
+    background: #e1e1e1;
+    height: 21px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.buttonBar
+{
+    background: #e1e1e1;
+    height: 21px;
+    padding-top: 10px !important;
+    position: relative;
+    width: 100%;
+}
+
+.buttonBar a
+{
+    position: absolute;
+    right: 10px;
+}
+
+.buttonBar ul.buttonPositioner,
+.buttonBar ul.buttonPositioner li
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: inline;
+}
+
+.buttonBar ul.buttonPositioner li.previous
+{
+    padding-left: 10px;
+}
+
+.buttonBar ul.buttonPositioner li.next
+{
+    padding-left: 5px;
+}
+
+.backStepButton,
+.backStepButton .Center,
+.backStepButton .Right
+{
+    background-image:url(../Images/btnGraye1e1e1.gif) !important;
+}
+
+ 
+/* code from  glassbutton.css
+.btnGray363636,
+.btnGray363636 .Right,
+.btnGray363636 .Center
+{
+	background-image: url("../../Images/btnGray363636.gif");
+}*/
+
+/*$$$====[  optionsBlock ]====*/
+.optionsBlock
+{
+    display: block;
+    clear: both;
+    width: 98%;
+}
+
+.optionsBlock a
+{
+    border: 3px solid #dbdbdb;
+    /* REBRANDING
+    color: #e07345;
+    */
+    color: #4385C0;
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 39px;
+    margin-left: 40px;
+    padding: 80px 5px 5px;
+    text-align: center;
+    width: 101px;
+}
+
+    .optionsBlock a.selected, 
+    .optionsBlock a.selected:hover
+    {
+        background-color: #b7b7b7;
+        border-color: #666;
+        color: #2f2f2f;
+    }
+
+    .optionsBlock a:hover
+    {
+        background-color: #f8f8f8;
+        border-color: #666;
+    }
+
+    .optionsBlock a span
+    {
+        line-height:16px;
+    }
+
+    .optionsBlock a:hover span
+    {
+        /* REBRANDING
+        border-bottom: 1px dotted #DD602B;
+        */
+        border-bottom: 1px dotted #4385C0;
+    }
+
+    .optionsBlock a.selected:hover span
+    {
+        border-bottom: 0;
+    }
+
+/*$$$====[  No valid payment pane ]====*/
+#invalidPaymentPaneLayout
+{
+    padding: 8px;
+    background-color: #ffc;
+}
+
+#invalidPaymentPaneLayout .positionMe
+{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -240px;
+    top: 20%;
+}
+
+#invalidPaymentPaneLayout .Error div
+{
+    font-weight: normal;
+}
+
+#invalidPaymentPaneLayout .Error h4
+{
+    text-transform: uppercase;
+}
+
+#invalidPaymentPaneLayout .positionMe .alertButtons
+{
+    background:transparent;
+    color:#1A1A1A !important;
+    font-weight:normal;
+    line-height:16px;
+    padding: 0px;
+    text-align: right;
+}
+
+
+/*$$$====[  step 1: project pane ]====*/
+
+#projectPaneLayout td
+{
+    height: 30px;
+    padding-top:6px;
+    white-space:nowrap;
+}
+
+#projectPaneLayout input[type="text"]:focus
+{
+border:1px solid #999999 !important;
+}
+
+.thingType
+{
+    font-weight: bold;
+    padding: 6px 5px 3px 8px;
+    text-align: right;
+}
+
+div.licenseeInfo
+{
+    white-space:normal;
+    width: 440px;
+    margin:4px 0px;
+}
+
+#projectPane li.next
+{
+    padding-left: 10px;
+}
+
+#ctl00_mainContent_steps_stepProject_projectValSummary li
+{
+  padding-top:5px;
+}
+
+/*$$$====[  step 2: delivery pane ]====*/
+#deliveryPaneLayout
+{
+    width:100%;
+}
+
+#deliveryPane h4
+{
+    padding: 0px 10px;
+}
+
+
+
+ /* delivery options icon backgrounds */
+.deliveryOptionsDownload,
+.deliveryOptionsFTP,
+.deliveryOptionsCD,
+.deliveryOptionsEmail
+{
+    background-repeat: no-repeat;
+    background-position: 5px 0;
+}
+
+    .deliveryOptionsDownload
+    {
+        background-image: url(/Images/ICN-download.png);
+    } 
+    
+    .deliveryOptionsFTP
+    {
+        background-image: url(/Images/ICN-ftp.png);
+    } 
+    
+    .deliveryOptionsCD
+    {
+        background-image: url(/Images/ICN-cd.png);
+    } 
+    
+    .deliveryOptionsEmail
+    {
+        background-image: url(/Images/ICN-email.png);
+    }   
+
+    
+
+
+.paneLayout .deliveryChargesDiv
+{
+    color: #666;
+    padding: 10px 0;
+    text-align: right;
+    width: 600px;
+}
+
+#emailDeliverySection
+{
+    padding:0 8px 8px 8px;
+}
+
+#emailDeliverySection h4
+{
+    margin-left: -10px;
+    margin-bottom: 8px;
+    margin-top:2px;
+}
+
+#emailDeliverySection b, 
+#emailDeliverySection div, 
+#emailDeliverySection input
+{
+    margin: 5px 0;
+}
+
+#emailDeliverySection input
+{
+    display: block;
+    width:280px;
+    margin-bottom: 0px
+}
+.deliverySpecialInstructionsTable
+{
+	margin-top:10px;
+}
+#preferencesGroup
+{
+	width:100%;
+	height:80px;
+}
+#preferencesGroup .rmResolutionPreferenceCheckBox, #preferencesGroup .subjectDiv
+{
+	height:25px;
+}
+#preferencesSpecialInstructionsSection h4 
+{
+	width:70%;
+	margin-left:0px;
+}
+#preferencesGroup .instructionsDiv
+{
+	width:100%;
+	padding-bottom:25px;
+}
+.ValueClassTextArea textarea
+{
+	width:35%;
+	font-family: 'Trebuchet MS','Lucida Grande',Arial,Helvetica,sans-serif,'Unicode MS';
+}
+#preferencesGroup .LabelClass
+{
+	width:15%;
+	float:left;
+	text-align:right;
+	padding:3px 5px 0px 15px;
+}
+#preferencesGroup .ValueClass 
+{
+	width:50%;
+	text-align:left;
+	padding:0px 0px 0px 0px;
+}
+
+#preferencesGroup .rmResolutionPreferenceCheckBox .ValueClass input 
+{
+	width:auto;
+}
+#preferencesGroup .subjectDiv .ValueClass input , #preferencesGroup .instructionsDiv .ValueClass input
+{
+	width:20%;
+}
+#preferencesGroup .instructionsDiv .ValueClassTextArea span textarea
+{
+	width:35%;
+}
+
+#deliveryPhysical_Error div,
+#deliveryVirtual_Error div
+{
+    margin: 10px 10px 0px 10px;
+}
+
+/*$$$====[  step 3: payment pane ]====*/
+
+#paymentPaneLayout
+{
+    height: 319px;
+    overflow:auto;
+    position:relative;
+    width:100%;
+    overflow-x:hidden;
+}
+
+#paymentPane h4
+{
+    padding: 0 10px;
+    position: relative;
+}
+
+#paymentPane h4 a
+{
+    position: absolute; 
+    left:450px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#paymentPane h4.paymentPromo_Header
+{
+    margin: 0;
+    padding:0px 10px 8px 10px;
+}
+
+#paymentChosenBlock div.ErrorHighlight
+{
+    padding-top: 10px;
+}
+#paymentPane div.ValidationSummary
+{
+    margin:-5px -10px 0 -2px
+}
+
+div.creditAddDisplay div.ValidationSummary
+{
+    margin:-25px -10px 0px -10px;
+    padding-top:20px;
+    background-position:10px 30px;
+}
+
+
+div.paymentPromoCodeBlock input.paymentPromo_Input
+{
+    margin-bottom:20px;
+}
+
+div.paymentPromoCodeBlock input.paymentPromo_Input,
+div.paymentPromoCodeBlock input.Optional
+{
+    margin: 5px 0;
+    width:195px !important;
+}
+
+#paymentChosenBlock div.subcontainer, div.paymentPromoCodeBlock div
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#paymentChosenBlock img
+{
+    position:relative;
+    top:4px;
+}
+
+#ccVerificationCodeTextBox{
+    width:30px;
+}
+
+#ccVerificationHoverLeft{
+    float:left;
+    margin:0 20px 0 10px;
+}
+#ccVerificationHoverRight{
+    float:left;
+}
+#ccVerificationHoverRight h4, #ccVerificationHoverLeft h4{
+    color:#797979;
+    margin:10px 0 0 0;
+    font-weight:bold;
+    font-size:12px;
+}
+
+#ctl00_mainContent_steps_stepPayment_ctl00
+{
+    display:inline;
+}  
+
+    #ctl00_mainContent_steps_stepPayment_ctl00 select
+    {
+        width:220px;
+    }
+
+/* payment options icon backgrounds */
+.paymentOptionsSavedCard,
+.paymentOptionsNewCard
+{
+    background-repeat: no-repeat;
+    background-position:4px -10px;
+}
+
+    .paymentOptionsCorporate
+    {
+        background-image: url(/Images/ICN-corpacct.png);
+        background-position:5px -1px;
+        background-repeat:no-repeat;
+    } 
+    
+    .paymentOptionsSavedCard
+    {
+        background-image: url(/Images/ICN-savedcc.png);
+    } 
+    
+    .paymentOptionsNewCard
+    {
+        background-image: url(/Images/ICN-newcc.png);
+    } 
+
+/* inline error handling */
+#paymentChosenBlock.ErrorHighlight
+{
+    padding-top: 10px;
+}
+
+#tabContainers #paymentPane .Error
+{
+    margin:auto 0 10px 0;
+}
+
+#paymentPane .Error div
+{
+    background-position:3px 10px;
+	padding: 13px 10px 15px 29px;
+}
+
+.clr.ErrorHighlight
+{
+    color:black !important;
+    margin:0 !important;
+    padding:10px 0 0 39px;
+}
+/* Why would we globally set a width on a select?? -Ron
+.ErrorHighlight select
+{
+    width:220px;
+}
+ CREDIT CARD modal layers */
+#AddNewCreditCart .ModalPopupPanelDialog .ModalPopupContent{
+    width:350px; /*OVERRIDING FOR USE CC MODAL*/
+    margin:0;
+    padding:0;
+}
+
+.addCCFormRow{
+
+    border-top:1px solid #DBDBDB;
+    border-bottom:1px solid #DBDBDB;
+    clear:both;
+    height:21px !important;
+    height:31px;
+    width:100%;
+    padding:10px 0 0 0;
+    margin:0;   
+}
+
+#AddNewCreditCart .ModalTitleBar
+{
+    margin-bottom:-10px;
+}
+
+.addCCFormRow .FormLeft{
+    float:left;
+	border-bottom: none !important;
+	border-top: none !important;
+    width:35%;
+    text-align:right;
+    font-weight:bold;
+    margin:0 19px 0 0 !important;
+    padding:0;    
+}
+
+ #UseSavedCreditCard .ModalPopupPanelDialog .ModalPopupContent
+ {
+    padding:0;
+    width:100%;
+ }
+
+#UseSavedCreditCard td.FormRight select 
+{
+    width:167px;
+}
+
+#UseSavedCreditCard td.FormRight .cardMonth,
+#UseSavedCreditCard td.FormRight .cardYear
+{
+    float:left;
+    width:56px;
+}
+
+#UseSavedCreditCard .ModalPopupContent input[type="text"]
+{
+    width:80%;
+ }
+ 
+.TopRow{
+    background-color:#F4F4F4;
+    border-top:none !important;
+    height:30px !important;
+    margin-top:-10px;
+    padding-top:20px;
+}
+
+.addCCFormRow select, .addCCFormRow input{
+    float:left;
+    margin: -3px 0 0 0 !important;
+    padding:0;
+}
+.addCCFormRow input, select.selectCreditCard{
+
+    width:170px !important;
+}
+
+.addCCFormRow .cardMonth{
+    width:40px !important;
+    margin-right:5px !important
+}
+.addCCFormRow .cardYear{
+    width:65px !important;
+}
+.BottomRow{
+    margin-bottom:11px;
+    padding-bottom:6px;
+}
+.ModalPopupContent .FormButtons .GlassButtonLeft 
+{
+	float:left;
+}
+.ModalPopupContent .FormButtons .GlassButtonRight 
+{
+	float:right;
+} 
+#AddNewCreditCart .ModalPopupContent .FormButtons .GlassButton,
+#UseSavedCreditCard .ModalPopupContent .FormButtons .GlassButton
+ {
+    left:-7px;
+    position:relative;
+}
+
+.addCCFormRow input, .addCCFormRow select{
+    width:172px;
+}
+ 
+#footerSection a
+ {
+   float:right;
+   margin:10px 10px 0 0;
+ }
+
+  
+/*$$$====[  step 4: review pane ]====*/
+
+#reviewPane .paneLayout
+{
+    min-height: 319px; /* remove this later */
+    width:100%;
+    overflow: visible;
+}
+
+#reviewPane h4
+{
+    padding: 8px;
+}
+
+#tabContainers .orderContent 
+{
+    color:#1a1a1a;
+    margin:0;
+}
+
+.notification
+{
+    background-color:#fff;
+    margin-top:5px;
+    padding:10px;
+}
+
+#checkoutStage .notification h3
+{
+    background-color:#fff;  
+    text-transform:none;
+}
+
+#reviewPane h3
+{
+    text-transform:none;
+}
+
+#reviewPane h3 a
+{
+    font-size:12px;
+    font-weight:normal;
+    margin-left:10px;
+}
+
+#tabContainers .orderContent .orderItems 
+{
+    margin-top:0;
+}
+
+#reviewPane td 
+{
+    padding:4px 10px;
+}
+
+#reviewPane td.rightSection, 
+#reviewPane th.rightSection,
+th.rightSection
+{
+    border-left:5px solid #dbdbdb;
+    text-align:left;
+}
+
+.rightSection strong
+{
+    float:left;
+    padding-right:5px;
+    position:relative;
+    top:5px;
+}
+
+.rightSection p 
+{
+    float:left;
+}
+
+#reviewPane hr
+{
+    border:1px solid #fff;
+    margin:0 -18px;
+}
+
+.checkThis
+{
+    background-color:#dbdbdb;
+    margin-bottom:2px;
+    padding:10px 12px 0;
+}        
+                                    
+.checkThis h3
+{
+    padding-bottom:12px;
+}
+
+.checkThis .bold
+{
+    background-color:#f8f8f8;
+    padding:10px;
+}
+
+.checkThis div.imageCheckbox 
+{
+    float:left;
+    left:10px;
+    position:relative;
+    top:-13px;
+    width:20px;
+    z-index:200;
+}
+
+.checkThisText
+{
+    background-color:#f8f8f8;
+    padding:7px 10px 10px 30px !important;
+    position:relative;
+    top:-13px;
+    z-index:100;
+}
+
+#reviewPane .buttonPositioner 
+{
+    padding:10px 10px 12px;
+}
+
+#reviewPane .buttonPositioner li
+{
+    display:inline;
+    list-style-type:none;
+}
+
+#ctl00_mainContent_steps_stepSubmit_btnPaymentNext input
+{
+    font-weight:bold;
+}
+
+/* Agessa tax notification for French users */
+.agessa 
+{
+    border:1px solid #dd343a;
+    color:#dd343a;
+    left:0;
+    margin:0 10px 10px 10px;
+    padding:10px;  
+    position:absolute;
+    top:475px;
+    width:288px;
+}
+
+#checkoutStage .agessa h3
+{
+    background-color:#363636;
+    color:#dd343a;
+}
+ 
+#reviewPane  td.leftLabels
+{
+    font-weight:bold;
+    text-align:right;           
+    width:150px !important;       
+}
+
+
+/*$$$====[  modal popups ]====*/
+/* some override modal.css styles */
+.modalRow
+{
+    width: 300px!important;
+    height: 26px;
+    position: relative;
+    border-bottom: 3px solid rgb(219,219,219) !important;
+    padding: 5px 0px 3px 0px;
+    background-color: #E8E8E8;
+
+}
+.modalRow span
+{
+    font-weight:bold;
+}
+.modalRow select, .modalRow input
+{
+    width: 140px !important;   
+}
+.modalRowTDLeft
+{
+    
+    width: 115px!important;
+    float:left;
+}
+.modalRowTDLeft span
+{
+    position:relative;
+    float:right;
+}
+.modalRowTDRight
+{
+    
+    width: 175px!important;
+    float:right;
+    padding-left: 10px;
+}
+.modalRowTDRightHalf
+{
+    
+    width: 175px!important;
+    float:right;
+    padding-left: 10px;
+}
+
+.modalRowTDRightHalf select
+{
+    
+    width: 50px !important;
+    padding-left: 10px;
+    margin-right:10px;
+}
+
+/* credit card modal */
+#AddNewCreditCartWindow_content .ModalPopupContent
+{
+    padding: 0 !important;
+}
+
+#AddNewCreditCartWindow_content .ModalPopupPanelDialog
+{
+    background-color: #DBDBDB;
+}
+
+/* view restrictions window */
+#viewRestrictionsTemplateWindow .ModalPopupContent 
+{
+    height:auto !important;
+    max-height:300px !important; 
+    min-height:140px !important; 
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding-bottom: 0  !important;
+    width:93%;
+}
+
+#viewRestrictionsTemplateWindow .ModalPopupPanelDialog .ModalTitleBar .Close 
+{
+    margin-right:10px;
+}
+
+#viewRestrictionsTemplateWindow .ModalPopupContent img
+{
+    background-color: #333333;
+    margin: 0 auto;
+}
+
+#viewRestrictionsTemplateWindow .ModalPopupContent .thumbWrap
+{
+    background-color: #333333;
+    float: right;
+    height: 90px;
+    margin-left: 10px;
+    width: 90px;
+}
+
+#viewRestrictionsTemplateWindow_content .FormButtons 
+{
+    margin-left:5px;
+}
+
+#viewRestrictionsTemplateWindow_content .FormButtons p
+{
+    margin-bottom: 10px;
+}
+
+.padParagraphs p
+{
+    padding-top:10px;
+}
+
+#viewRestrictionsTemplateWindow_content #Div1,
+#viewRestrictionsTemplateWindow_content #Div2
+{
+    font-weight:bold;
+    line-height:15px;
+}
+
+#viewRestrictionsTemplateWindow_content .ModalPopupContent .value
+{
+    font-weight:normal;
+}
+
+/*  shipping delivery & security questions modals */
+
+#securityQuestionsModalWindow_content .ModalPopupContent, #shippingDeliveryModalWindow_content .ModalPopupContent
+{
+    height: 268px;
+    overflow: auto;
+    padding: 0;
+    width: 100%;
+}
+
+#securityQuestionsModalWindow_content .FormButtons, #shippingDeliveryModalWindow_content .FormButtons
+{
+    margin: 0px;
+    overflow: hidden;
+    padding: 10px;
+    width: 460px !important;
+}
+
+
+#shippingDeliveryModalWindow_content p
+{
+    padding-bottom: 10px;
+}
+
+#securityQuestionsModalWindow_content ul
+{
+    margin: 10px 40px 15px;
+}
+
+#securityQuestionsModalWindow_content .modalContent strong, #shippingDeliveryModalWindow_content strong
+{
+    font-weight: bold;
+}
+
+/*  Shipping priority modal */
+#shippingPriorityModalWindow .ModalTitleBar
+{
+    clear:both;
+    width:100%;
+}
+
+#shippingPriorityModalWindow .ModalPopupPanelDialog .ModalPopupContent 
+{
+    height:290px;
+    padding:5px 0;
+    width:100%;
+}
+
+#shippingPriorityModalWindow_content .FormButtons
+{
+    background-color:#E8E8E8;
+    border-top:1px solid #E8E8E8;
+    margin:2px 0;
+}
+
+.selectOne
+{
+    left:13px;
+    position:relative;
+    /* maybe have to rethink this
+    width:150px !important;
+    */
+    width: auto !important;
+    max-width: 80%;
+}
+
+#shippingPriorityModalWindow_content .subTitle 
+{
+    margin-bottom:-5px;
+    margin-top:7px;
+    width:327px;
+}
+
+    #shippingPriorityModalWindow_content .subTitle a
+    {
+        font-size:12px;
+        position:absolute; 
+        right:10px;
+    }
+    
+.addressItems
+{
+    float:left;
+    height:228px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    width:340px;
+}
+
+.addressItem
+{
+    background-color:#e8e8e8;
+    border-bottom:2px solid #dbdbdb;
+    float:left;
+    line-height:0;
+    width:100%;     
+}
+
+.addressItem li span 
+/* the span & surreal line-height in.addressItem above is necessary to allow empty li tags to collapse in IE7.  Honest ;-) */
+{
+    line-height:15px;
+}
+
+.addressItemPadding
+{
+    margin:10px 10px 4px 10px;
+}
+
+    .addressItem input
+    {
+        float:left;
+    }
+    
+    .addressItem ul
+    {
+        float:left;
+        list-style-type: none;
+    }
+    
+.Informative.Error
+{
+    border-top:10px solid #dbdbdb;
+    float:left;
+    line-height:15px;
+    padding-left:30px;
+    position:static;      /* to fix Firefox bug - weird ;-) */
+    width:297px;
+}
+
+    .Informative.Error div
+    {
+        margin-top:20px;
+        padding: 0;
+    }
+    
+#ctl00_mainContent_steps_stepDelivery_shippingPriorityModal_btnOK
+{
+    float:right;
+    left:-10px;
+    position:relative;
+    top:-1px;
+}
+
+/* 'add shipping address' modal */
+#ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressUpdatePanel
+{
+    margin:0;
+    text-align:right;
+}
+
+#ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressSave   /* button */
+{
+    float:left;
+}
+
+#ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressUpdatePanel select
+{
+    background-color:White;
+    height:21px !important;
+    margin-bottom:3px;
+    width:182px;
+}
+
+#ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressUpdatePanel .FormLeft
+{
+    height:12px !important;     
+}
+
+#ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressUpdatePanel .FormRight
+{
+    height:22px !important;     
+}
+
+#ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressPanel .FormButtons
+{
+    float:right;  
+    padding-right:9px;
+}
+
+html body #ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressPanel .ModalPopupContent .FormRow 
+{
+    background-color:#e8e8e8;
+}
+
+Title.FormRight
+{
+    padding-right:15px;
+    width:175px;
+}
+
+#editShippingAddressModalPopup .ModalPopupPanel .ModalTitleBar .Title
+{
+    padding-bottom:5px !important;
+}
+
+#ctl00_mainContent_steps_stepDelivery_editShippingAddress2_editShippingAddressSave
+ {
+ float:right;
+ }
+ 
+#editShippingAddressModalPopup .ValidationSummary
+{
+    margin-bottom:0;
+    padding-bottom:5px;
+}
+
+#shippingPriorityModal
+{
+    position:relative;
+}
+
+#shippingPriorityModal .ML_10
+{
+    position:absolute;
+    top:100px;
+    left:0;
+}
+
+/* 'Quit Checkout?' popup */
+#quitCheckout
+{
+    height:170px !important;
+}
+
+#quitCheckout .ModalPopupContent
+{
+    height:120px !important;
+    padding-bottom:10px;
+    padding-top:5px;
+    width:318px;
+}
+
+#quitCheckoutModalWindow_content .buttonsContainer
+{
+    left:10px;
+    position:relative;
+    text-align:right;  
+}
+
+#quitCheckoutModalWindow_content .FormButtons div
+{
+    margin:15px 0 20px 10px;    
+}
+
+#quitCheckout .FormButtons
+{
+    /*position:relative;
+    top:5px;*/
+}
+
+#quitCheckout p
+{
+     margin-bottom:60px;
+}
+
+
+/*  tooltip styles: rm & rf */
+
+.rm-block
+{
+    width: 270px;
+}
+
+.rf-info
+{
+    font-size:12px;
+    color:#1a1a1a;
+}
+
+.rm-info
+{
+    float: right;
+    font-weight: normal;
+    width: 130px;
+}
+
+.rm-label
+{
+    float: left;
+    width: 130px;
+}
+.deEmphasizeNoUsage 
+{
+	padding-top:0px;
+	color:#797979;
+	
+}
+.deEmphasize
+{
+    padding-top: 15px;
+    color:#797979;
+}
+
+.rm-parent-block
+{
+    float: left;
+    padding-bottom: 20px;
+    width: 270px;
+}
+
+.tip-text
+{
+    line-height: 14px;
+}
+
+strong
+{
+    font-weight: bold;
+}
+
+.ModlPopupContent p
+{
+    color: #1A1A1A;
+    width: 400px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+    clear: both !important;
+}
+
+/* 'Order restrictions' popup in review/submit tab */
+#ViewOrderRestrictionsWindow_content .thumbWrap1
+{
+    background-color:#333333;       /* just so we can see where it is */
+    float:right;
+    height:90px;
+    margin:0 0 10px 10px;
+    width:90px;
+    text-align: center;
+}
+
+.restrictionSection
+{
+    border-bottom:2px solid #dbdbdb;
+    float:left;
+    min-height:110px;
+    padding:10px 15px 0 15px;
+    width:94%;
+}
+
+.restrictionSection .bold
+{
+    margin-bottom:-10px;
+}
+
+#ViewOrderRestrictionsWindow_content #restrictionsContainer 
+{
+    max-height:432px;   
+    overflow:auto;
+    width:550px;
+}
+
+#ViewOrderRestrictionsWindow_content .ModalPopupPanelDialog .ModalPopupContent 
+{
+    padding:0;
+}
+
+#ViewOrderRestrictionsWindow_content .FormButtons
+{
+    margin:0;
+}
+
+#ViewOrderRestrictionsWindow_contentWrapper,
+#ViewOrderRestrictionsWindow_contentWrapper .ModalPopupContent 
+{
+    background-color:#f8f8f8 !important;
+}
+
+/**** $$$ [ test modal layer ] ****/
+
+#testModalLayer .mochaControls
+{
+    right: 10px;
+}
+
+#testModalLayer .mochaControls .mochaCloseButton
+{
+    background: url(/Images/iconClose.gif) top left no-repeat;
+    height: 15px;
+    width: 15px;
+}
+
+#testModalLayer .mochaToolbarWrapper
+{
+    background: #E1E1E1;
+    border: 0px
+}
+
+/* $$$ [ OrderComplete.aspx styles ] */
+
+/* $$$ ====[ Message and Error styles ]==== */
+
+.orderMessageWrap
+{
+	background-color: #555555;
+	margin:15px;
+}
+
+.orderMessage, .orderError
+{
+	color: #aaaaaa;
+	margin: 14px;
+}
+
+.orderMessage h3
+{
+    color: #dbdbdb;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.orderMessage .messageText
+{
+	line-height: 17px;
+}
+
+.orderMessage .confirmationNo
+{
+	color: #aaaaaa;
+	float: right;
+}
+
+/* $$$ ====[ Content div styles ]==== */
+
+.orderContentWrap
+{
+	background-color: #2f2F2F;
+	margin: 0px 15px 15px 15px;
+}
+
+.orderContent
+{
+	color: #797979;
+	margin: 14px;
+}
+
+.orderContent .orderItems
+{
+	background-color: #dbdbdb;
+	margin-top: 16px;
+    color:#1a1a1a;
+}
+.orderContent .orderItems .orderSummaryPanes hr
+{
+    display:none;
+}
+.orderContent .orderContentHeader
+{
+	margin-top: -6px;
+	height: 12px;
+}
+
+.orderContent .orderContentHeader .downloadAll
+{
+	float:right;
+	margin-top: -3px;
+}
+
+.orderContent .orderContentHeader .downloadItemCount
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.orderContent .orderContentHeader h3
+{
+	float:left;
+	font-size: 19px;
+}
+
+.orderContent .licenseImageDetails
+{
+    background-color:#e7e7e7;
+    font-weight:bold;
+    line-height:14px;
+}
+
+.orderContent .PaneHeader
+{
+    position:relative;
+    bottom:0px;
+}
+
+/* $$$ ====[ Download error display styles ]==== */
+
+#orderCompletedHeader .orderErrorHeader
+{
+	margin-top: -5px;
+}
+
+#orderCompletedHeader .orderErrorBody
+{
+	margin: 15px 0 25px 0;
+	line-height: 15px;
+	color: #b7b7b7;
+	font-weight: bold;
+}
+
+#orderCompletedHeader .chatIcon
+{
+    float: right;
+    width: 13px;
+    height: 11px;
+    background: url(/Images/ICN-chat.gif) no-repeat 0 0;
+    margin-left: 4px;
+}
+
+#orderCompletedHeader h3
+{
+	color: #dbdbdb;
+}
+
+#orderCompletedHeader .orderError a
+{
+	float: right;
+	background-color:#555555;
+	margin-top: -25px;
+	width: 45px;
+}
+
+#errorIcon
+{
+	float: left;
+}
+
+/* $$$ ====[ Download items div styles ]==== */
+
+.orderContent .downloadFooter
+{
+	padding: 9px 9px 0px 9px;
+}
+
+.orderContent .downloadFooter .instructionalText
+{
+	width: 580px;
+	line-height: 17px;
+}
+
+.orderContent .downloadFooter .questionLink
+{
+	float: right;
+	margin-top: -31px
+}
+
+/* $$$ ====[ delete error modal styles ]==== */
+
+#downloadErrorModal .errorMessage
+{
+	color: #1a1a1a;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#downloadErrorModal .contactMessage
+{
+	color: #1a1a1a;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#downloadErrorModal .GlassButton
+{
+	margin-right: -15px;
+}
+
+/* $$$ ====[ download images modal styles ]==== */
+
+#downloadImagesModal .zipFiles
+{
+	margin-top: 15px;
+}
+
+#downloadImagesModal .zipFilesHeader
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#downloadImagesModal hr
+{
+	width: 348px; 
+	color: #d0d0d0;
+}
+
+/* $$$ ====[ progress modal styles ]==== */
+
+#downloadProgress
+{
+	background-color: Transparent;
+	/* REBRANDING
+	color: #dd602b;
+	*/
+	color: #4088D1;
+	
+	height: 185px;
+	text-align: center;	
+	width:315px;
+}
+
+#downloadProgress .standBy, .standBy1
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#downloadProgress .downloadMessage, .standBy2,
+#downloadProgress .longWaitMessage, .standBy3
+{
+   /* REBRANDING */
+   color: White;
+}
+
+#downloadProgress .downloadMessage, .standBy2
+{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#downloadProgress .longWaitMessage, .standBy3
+{
+	color: #d8d8d8;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#downloadProgress .cancelButton
+{
+	margin-top: 25px;
+}
+
+/* $$$ ====[ order items styles ]==== */
+
+
+#downloadProducts
+{
+	background-color: #dbdbdb;
+	margin: 11px 0px 11px 26px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    max-height: 413px;
+    min-height: 210px;
+	display: inline-block;
+	position:relative;
+}
+
+#downloadProducts .productBlock
+{
+    -moz-box-orient: vertical;
+    border: 2px solid #bfbfbf;
+    display: inline-block;
+    margin: 15px 12px 0 0;
+    padding: 3px;
+    position: relative;
+    vertical-align: top;
+    width: 128px;
+	float:left;
+}
+
+#downloadProducts .productContent
+{
+	background-color: #333333;
+	height: 128px;
+	width: 100%;
+}
+
+#downloadProducts .license
+{
+    background-color:#BFBFBF;
+    background-image:url(/Images/iconLicensesExpired.png);
+    background-repeat:no-repeat;
+    height:24px;
+    padding-top:13px;
+}
+#downloadProducts .addtoCart
+{
+    margin-left:20px;
+    text-align:center;
+}
+
+#downloadProducts .productBlock .rfcdCount
+{
+    background: url(/Images/rfcdCount.png) top left no-repeat;
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+	float: right;
+    height: 29px;
+    left: 113px;
+	padding-top: 7px;
+    position: absolute;
+    top: -5px;
+    text-align: center;
+    width: 30px;
+}
+
+#downloadProducts .productBlock .fileSize
+{
+	margin-top: 3px;
+	width: 100%;
+}
+
+#downloadProducts .productBlock .downloadbutton
+{
+	margin-top: 3px;
+}
+
+#downloadProducts .productBlock .downloadbutton .Center 
+{
+	width: 118px;
+}
+
+.orderContent .orderItems .headerR, .orderContent .orderItems .headerL
+{
+    color:#666666;
+    font-weight:bold;
+    margin:12px 12px 0 12px;
+}
+.orderContent .orderItems .headerL
+{
+    float:left;
+}
+.orderContent .orderItems .headerR
+{
+    float:right;
+}
+.orderContent .orderSummaryPanes
+{
+    background-color:#dbdbdb;
+    padding:2px 12px 12px;
+    margin-bottom:2px;
+}
+
+#reviewPane .orderContent .orderSummaryPanes
+{
+    background-color:#dbdbdb;
+    margin-bottom:2px;
+    padding:10px 12px;
+}                                            
+
+#CompletedOrder
+{
+	min-width: 1024px;
+	max-width: 1280px;
+}
+
+#CompletedOrder .orderItems .orderSummaryPanes h3
+{
+    color:#1a1a1a;
+    font-size:14px; 
+    font-weight:bold;
+    margin-left:2px;
+    margin-top:10px !important; 
+}
+
+#CompletedOrder .orderSummaryTables td p
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.addressLeftAlign
+{
+    text-align:left;
+}
+.t50
+{
+    width:50%;
+}
+.t100
+{
+    width:100%   
+}
+
+.orderSummaryTables
+{
+    margin:12px 0 0 0;
+    background-color:#dbdbdb;
+    border-collapse:separate;
+    border-spacing:2px;
+}
+
+.orderSummaryTables th
+{
+    background-color:#b7b7b7;
+    font-weight:bold;
+    padding:10px 10px 8px 10px;    
+}
+.orderSummaryTables .tenPixelDivider
+{
+    border-right:8px solid #dbdbdb;
+}
+.orderSummaryTables .licenseImageHeader
+{
+    color:#4e4d4d;
+    line-height:14px;
+}
+.orderSummaryTables td
+{
+    background-color:#f8f8f8;
+    padding:0px;   
+}
+
+.orderSummaryTables td.leftLabels
+{
+	text-align: right;
+	font-weight: bold;
+	width: 165px;
+    min-width: 165px;
+}
+.orderSummaryTables td.rightLabels
+{
+	text-align: left;
+	font-weight: bold;
+	width: 165px;
+    min-width: 165px;
+    padding:0px;
+    
+}
+.orderSummaryTables td.rightLabelsNB
+{
+	text-align: left;
+	font-weight: normal;
+	width: 165px;
+    min-width: 165px;
+    padding:8px;
+    border:2px solid #FF0000;
+}
+
+#orderSummary .orderSummaryTables th.leftSection,
+#orderSummary .orderSummaryTables td.rightValue
+{
+    border-right:solid 4px #dbdbdb;
+}
+
+#orderSummary .orderSummaryTables th.rightSection,
+#orderSummary .orderSummaryTables td.rightSection
+{
+    border-left:solid 4px #dbdbdb;
+}
+
+#licensePane .orderSummaryTables
+{
+	margin: 0;
+}
+
+#licensePane .licenseDetailHeader
+{
+    margin:12px 0 0 0;
+    border-left: solid 2px #dbdbdb;
+    border-right: solid 2px #dbdbdb;
+    background-color:#b7b7b7;
+    font-weight:bold;
+    padding:10px;    
+    line-height: 14px;
+}
+
+#licensePane .oddLicenseDetail
+{
+	padding-right: 3px;
+}
+
+#licensePane .oddLicenseDetail, #licensePane .evenLicenseDetail
+{
+	width: 50%;
+}
+
+#licensePane .evenLicenseDetail
+{
+	padding-left: 3px;
+}
+
+#licensePane .licenseDetailHead
+{
+	color: #4e4d4d;
+}
+
+#licensePane .licenseImageDetails
+{
+    margin: 0;
+    border-left: solid 2px #dbdbdb;
+    border-right: solid 2px #dbdbdb;
+    background-color:#e8e8e8;
+    font-weight:bold;
+    padding:10px;    
+    line-height: 14px;
+}
+
+#licensePane .licenseImageDetails .restrictionsTitle
+{
+	background:transparent url(/Images/iconLicensesExpiring.png) no-repeat scroll left top;
+	height:21px;
+	padding:0 20px;
+	margin-left: 2px;
+}
+
+#licensePane .licenseImageDetails .restrictionContent
+{
+	background-color: #e8e8e8;
+	padding: 0 20px;
+}
+
+#licensePane .licenseImageDetails .restrictionContent .restrictionsList
+{
+	margin-left:15px;
+}
+
+#licensePane .licenseImageDetails .restrictionContent .restrictionDivEx
+{
+	overflow: hidden; 
+	height: 140px;
+}
+
+#licensePane .licenseImageDetails .restrictionContent .restrictionDiv
+{
+	/*max-height: 140px;*/
+}
+
+.DoubleDollar
+{
+    background: url(../images/ICN-$$.gif) top left no-repeat;
+    height:12px;
+	width:23px;
+}
+
+.TripleDollar
+{
+    background: url(../images/ICN-$$$.gif) top left no-repeat;
+    height:12px;
+	width:23px;
+}
+
+.orderContent .orderItemsSummary 
+{
+    background-color:#FFFFFF;
+}
+
+.promotionZone
+{
+    width:310px;
+}
+
+.licenseDetailsWrap
+{
+    background-color:#b7b7b7;
+    font-weight:bold;
+    padding:10px 10px 8px 10px; 
+}
+.licenseDetailsImageThumb
+{
+    width:90px;
+    height:90px;
+    background-color:#333333;
+    float:left;
+    margin-right:5px;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;  
+}
+
+td.textRight
+{
+    width:150px;
+    text-align:right;   
+}
+td.repeaterTextRight
+{
+    width:150px;
+    text-align:right;   
+}
+.sizeFootNote
+{
+    color:#515151;
+}
+.orderSummaryTotalsWrap
+{
+
+    width:100%;
+    height:180px;
+}
+.orderSummaryTotals
+{
+    float:right;
+    width:230px;
+    margin:12px;
+    clear:both;
+}
+.orderSummaryTotals td
+{
+    padding:6px;
+	text-align:right;
+}
+.orderSummaryTotals .totalsDividerBottom td
+{
+    border-bottom:1px solid #bbbbbb;
+}
+.orderSummaryTotals .totalValue td
+{
+    font-size: 13px;
+}
+.orderSummaryTotals .Bold
+{
+    font-weight:bold;
+}
+
+.orderSummaryTotals td
+{
+	white-space: nowrap;	
+}
+
+/* $$$ ====[ print button styles ]==== */
+
+#printOrder {
+	float:right;
+	margin-top: -4px;
+}
+.BTN-border-only {
+	padding-left:4px;
+}
+.BTN-border-only, .BTN-border-only .right, .BTN-border-only .right .center {
+	background-color:transparent;
+	background-image:url(../images/btnOutlineChromeDarkUI.gif);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	margin: 0px 0px 0px -1px;
+	color:white;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bold;
+	height:24px;
+}
+.BTN-border-only .right {
+	background-position:right -24px;
+	padding-right:4px;
+}
+.BTN-border-only .right .center 
+{
+	/* REBRANDING
+	border-top: solid 1px #DD602B;
+	border-bottom: solid 1px #DD602B;
+	*/
+	border-top: solid 1px #4385C0;
+	border-bottom: solid 1px #4385C0;
+	
+	background-image: none;
+	line-height:22px;
+	padding: 0 8px;
+	text-align:center;
+	/* REBRANDING
+	color: #DD602B;
+	*/
+	color: #4385C0;
+	
+	height: 22px;
+	_height: 20px;
+}
+
+/* $$$ ====[ footer styles ]==== */
+
+.orderContentFooter
+{
+	float: right;
+	margin: 0px 15px 15px 15px;
+}
+
+.orderContentFooter a
+{
+	border-bottom: none;
+}
+
+/* $$$ ====[ Order Submission Error styles ]==== */
+
+#OrderError
+{
+    padding: 10px;
+    position: relative;
+}
+
+#OrderError h2 { color: White; }
+
+
+
+ #OrderError .ChatIconImg
+	{
+		display:block;
+		float:left;
+		width:13px;
+		height:11px !important;
+		text-decoration:none;
+		background: url(/Images/ICN-chat.gif);
+		background-repeat: no-repeat;
+		background-position: 0 0 !important;
+		background-position: 0 1px;
+		margin:2px 0 0 4px;
+		text-indent:-5000px;
+	}
+	#OrderError .ChatIconImg:hover, .ChatIconImg:active
+	{
+		background-position:0 -11px !important;
+		border-bottom:0;
+	}
+	
+	#OrderError .ChatIconText
+	{
+		display:block;
+		margin-top: 2px;
+		float:left;
+		text-decoration:none !important;
+	}
+	#OrderError .ChatIconText:hover, .ChatIconText:active 
+	{
+		margin-top: 2px;
+		float:left;
+		border-bottom:1px dotted #4385C0;
+	}
+
+#OrderError .Error_ICN
+{
+    background: url(/Images/iconError.png) top left no-repeat;
+    height: 21px;
+    padding: 0px 30px;
+}
+
+
+.paymentPromoCodeBlock div.ValidationSummary
+{
+	position:relative;top:-5px;
+}
+
+/* $$$ ====[ RFCD download modal ]====*/
+
+#rfcdDownloadTemplate .rfcdInfo
+{
+	width: 440px;
+	height: 128px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-weight:bold;
+	line-height:14px;
+}
+
+#rfcdDownloadTemplate .licenseModel,
+#rfcdDownloadTemplate .rfcdTitle
+{
+	padding-left: 1px;
+}
+
+#rfcdDownloadTemplate .rfcdImageThumb
+{
+    width:128px;
+    height:128px;
+    float:left;
+    margin-right:10px;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;  
+}
+
+#rfcdDownloadTemplate .rfcdImageThumb img
+{
+	border-width:0px;
+	height:128px;
+}
+
+#rfcdDownloadTemplate .rfcdId
+{
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+#rfcdDownloadTemplate .rfcdTitle
+{
+	color: #797979;
+	font-size: 16px;
+}
+
+#rfcdDownloadTemplate .rfcdImageCount
+{
+	color: #1a1a1a;
+	font-size: 15px;
+}
+
+
+#rfcdDownloadTemplate .rfcdInstruction
+{
+	float: right;
+	height: 128px;
+	margin-right: 10px;
+	width: 340px;
+	position: relative;
+}
+
+#rfcdDownloadTemplate .rfcdInstructionHeader
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#rfcdDownloadTemplate .rfcdInstructionText
+{
+	line-height: 15px;
+}
+
+#rfcdDownloadTemplate .rfcdDownloadControls
+{
+	margin-top: 10px;
+}
+
+#rfcdDownloadTemplate .selectAllLink
+{
+    background: transparent url(../images/selectAll.gif) no-repeat top left;
+	float: right;
+	margin-top: -7px;
+	margin-right: 15px;
+    padding-left: 20px;
+}
+
+#rfcdDownloadTemplate .selectAllLink:hover
+{
+	background-position: 0 -16px;
+	/* REBRANDING
+	color: #ff8722;
+	*/
+	color: #4385C0;
+}
+
+#rfcdDownloadTemplate .rfcdImages
+{
+	background-color: #797979;
+	height: 330px;
+	max-height: 330px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	width: 790px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+	padding:10px;
+}
+
+#rfcdDownloadTemplate .downloadRfcd
+{
+	float: right; 
+}
+
+#rfcdDownloadTemplate .ModalPopupContent
+{
+	margin: 0px;
+	padding: 0px;
+	width: 810px;
+	display:block;
+}
+
+#rfcdDownloadTemplate .rfcdImages ul
+{
+	background-color: #797979;
+	padding:0px;
+}
+
+#rfcdDownloadTemplate .rfcdImages li
+{
+	background-color: #333333;
+	border: solid 2px #797979;
+	float:left;
+	height:96px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:5px;
+	padding:0px;
+	position:relative;
+	text-align:center;
+}
+
+#rfcdDownloadTemplate .rfcdImages .imageWrap
+{
+	border: solid 3px #797979;
+	background-color: #333333;
+	display:table-cell;
+	float:left;
+	height:90px;
+	text-align:center;
+	vertical-align:middle;
+	width:90px;
+}
+
+#rfcdDownloadTemplate .rfcdImages li.selected
+{
+	/* REBRANDING
+	border-color: #fb9503;
+	*/
+	border-color: #EDEDED;
+}
+
+.savedCCRow
+{
+	background-color: #F4F4F4;
+}
+
+.savedCCRow td
+{
+	border-bottom: solid 0 black;
+	border-left: solid 0 black;
+	color:#000000;
+}
+
+#paymentPane .nextStepButton
+{
+	display:inline-block;
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Kaskrakers van deze zomer</Title>
+		<Image Src="xml/Entertainment/Images/main.jpg" Alt="42-18571918| Standaard RM| © Frank Trapper/Corbis" ImageID="42-18571918" Attribution="| Standaard RM| © Frank Trapper/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>De grootste sterren en budgetten dingen deze zomer naar de eerste plaats in de bioscopen. Romantiek, humor, drama en sciencefiction zijn dit jaar op het witte doek te bewonderen. Krijg een voorproefje van de beste filmverhalen van 2009.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=blockbusters" Text="Diapresentatie weergeven" Title="Klik om diapresentatie te bekijken"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Exclusieve celebrity-portretten van Corbis Outline</Title>
+		<Image Src="xml/Entertainment/Images/sub.1.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Url="Outline.aspx" Text="Meer celebrity-portretten van Outline weergeven" Title="Klik om meer celebrity-portretten van Outline te bekijken"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Artiesten en muzen. Legendes en nieuwkomers. Corbis Outline™ brengt u de meest herkenbare en fascinerende personen op aarde, vastgelegd door de beste fotografen.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="Outline.aspx" Text="Meer celebrity-portretten van Outline weergeven" Title="Klik om meer celebrity-portretten van Outline te bekijken"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

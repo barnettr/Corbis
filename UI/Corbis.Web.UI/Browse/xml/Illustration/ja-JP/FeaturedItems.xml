@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>イラストレーター特集：チャック・シャコキス</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| Standard RM| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| Standard RM| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>1900年代前半のカートゥーンやロシアの映画ポスターに影響を受けたシャコキスは、独自のダークな作品について「ヴィンテージ・カートゥーンに影響を受け、現代風のひねりを加えたイラスト」と分析しています。遊び心のある奔放な筆致に、鋭いテーマが特徴です。</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>CSA Images からの独創的なグラフィックアート</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| Standard RM| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| Standard RM| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>形式にとらわれない CSA Images のコレクションは、刺激に満ち、遊び心にあふれた様々なスタイルを生み出します。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>一見シンプルに見えるけれど・・・</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| Standard RM| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| Standard RM| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>ヴェンキ・タラスが作り出すゆかいでインパクトのあるキャラクターは、洗練された個性で、今流行の大人向けのカートゥーンを反映しています。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

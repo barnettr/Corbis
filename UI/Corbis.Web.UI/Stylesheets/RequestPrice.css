@@ -1,0 +1,119 @@
+﻿body
+{
+}
+
+.GetInTouch .PaneContent .FormRight
+{
+	width:350px !important;
+}
+.contentWrapper 
+{
+	height:auto !important;
+	overflow:hidden !important;
+	padding: 0px !important;
+}
+
+.contactUsDesc
+{
+	padding: 5px 10px;
+	font-size:12px;
+	color: #1A1A1A;
+}
+
+td.FormRight select
+{
+	width:190px !important;
+}
+
+.privacyPolicy
+{
+	float:left;
+	margin: 0 10px;
+	padding: 5px 0;
+	/*REBRANDING
+	color:#DD602B;*/
+	color:#4385C0 !important;
+}
+
+.privacyPolicy:hover
+{
+	/*REBRANDING*/
+	/*border-bottom:1px dotted #DD602B;*/	
+	border-bottom:1px dotted #4385C0 !important;
+}
+
+/* Products Block in request price form- Images*/
+.ContactUSimages
+{
+	height:195px;
+	border:2px solid gray;
+	background-color:#797979;
+	padding:0 10px;
+	overflow-y:scroll;
+}
+
+.ProductBlock
+{
+    height:165px;
+    width:128px;
+	background:#444444;
+	margin: 10px 10px 10px 0;
+	padding:3px;
+	border:3px solid #888888;
+	display:inline-block;
+}
+
+.ProductBlock .thumbWrap
+{
+    background-color: #333333;
+	height:128px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 128px;
+    text-align: center;
+}
+
+.productTitle
+{
+	margin-bottom:2px;
+}
+
+.ProductBlock .controlWrap
+{
+    height: 20px;
+    margin-top: 2px;
+    position: relative;
+    width: 100%;
+    display:inline-block;
+}
+
+.ProductBlock.RM .controlWrap,.ProductBlock.RF .controlWrap
+{
+    border-top: 1px solid #646464;
+}
+
+.ProductBlock.RM .controlWrap div.active, .ProductBlock.RF .controlWrap div.active
+{
+    background-color: #646464;
+}
+
+.ProductBlock .controlWrap div.LT
+{
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px 4px;
+    position: absolute;
+}
+
+.commentsSpacing
+{
+	margin-top:10px;
+	border-top:none;
+	border-bottom:none;
+}

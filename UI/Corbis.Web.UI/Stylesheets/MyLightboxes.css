@@ -1,0 +1,2275 @@
+#lightboxesContent
+{
+	display: inline-block;
+	position: relative;
+	width:100%;
+}
+/*
+#MainContent
+{
+    position:relative;
+    z-index:4;
+}
+*/
+.TreePaneSide
+{
+	float: left;
+	width: 220px;
+}
+
+.DetailsViewSide
+{
+	/*float: right;*/
+	width: 100%;
+	background-color: #333333;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-bottom:1px solid #0F0F0F;
+	border-top:1px solid #0F0F0F;
+	/*border-left:2px solid #1a1a1a;
+	border-right:2px solid #1a1a1a;*/    
+}
+.headerNotes{
+display:none;
+background-color: #4d4d4d; 
+width:100%;
+}
+.DetailsViewTaskBar
+{
+	margin-top:30px;
+}
+#lightboxDetailsEdit .showLink
+{
+	display:block;
+}
+#lightboxDetailsEdit .hideLink
+{
+	display:none;
+}
+
+.DetailsViewSideTop
+{
+	background:transparent url(../images/topTaskbar.gif) repeat-x scroll 0 -72px;
+	border-bottom:1px solid #0F0F0F;
+	/*border-top:1px solid #797979;*/
+	height:30px;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+}
+.DetailsViewSideLeft
+{
+	background:transparent url(../Images/topTaskbar.gif) no-repeat scroll 0 -2px;
+	position:absolute;
+	top:0;
+	left:0;	
+	width:100%;
+	height:30px;
+	/*border-bottom:1px solid #0F0F0F;*/   
+}
+.DetailsViewSideRight
+{
+	background:transparent url(../Images/topTaskbar.gif) no-repeat scroll 0 -37px;
+	border-left:1px solid #4C4C4C;
+	position:absolute;
+	width:10px;
+	height:30px;	
+	right:0;
+	top:0;
+}
+
+.DetailsViewSideTop .seperaterInSearchHeader
+{
+   border-right:1px solid #4C4C4C;
+   border-left:1px solid #4C4C4C;
+   height:30px;
+}
+.DetailsViewSide .seperatorDottedLine
+{
+    border-bottom: 1px dotted #000000;
+    margin-left:10px;
+	margin-right:10px;
+    height:1px;
+}
+
+.emptyLightboxMessage
+{
+	padding:250px 375px 250px 375px; 
+	font-size:14px;
+}
+
+.LightboxNameInHeader
+{ 
+	margin:10px;
+	color:White;
+}
+
+.LightboxDetailsSpan {
+	line-height:30px;
+}
+
+.ButtonBar
+{
+	/*height: 20px;*/
+	margin-bottom: 10px;
+	float: right;
+}
+
+a.previewOnSelected:hover 
+{
+	background-color: transparent;
+	z-index: 50;
+}
+
+#header2 {
+	border-bottom:1px solid #333333;
+	float:left;
+	height:26px;
+	line-height:26px;
+	margin:3px 0;
+	padding-top: 4px;
+	padding-bottom:5px;
+	vertical-align:middle;
+	width:99%;
+}
+
+.menuLinkButton
+{
+	background-position:left top;
+	color:#CCCCCC;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	padding-left:8px;
+	padding-right:8px;
+	position:relative;
+}
+
+.menuLinkButton:hover,
+.menuButtons.selected .menuLinkButton
+{
+    color:#FFFFFF;
+	background-position: left -22px;
+}
+
+.menuButtons
+{
+	cursor:pointer;
+	display:inline-block;
+	font-size:11px;
+	font-weight:bold;
+	height:30px;
+	overflow:visible;
+	position:relative;
+	width:auto; 
+}
+.menuMoveButton
+{
+    display:inline-block;
+	font-size:11px;
+	font-weight:bold;
+	height:30px;
+	overflow:visible;
+	position:relative;
+	width:auto;
+}
+
+.menuRight
+{
+	border-left:1px solid #4C4C4C;
+	float: right;	
+}
+
+.menuLeft
+{
+	border-right:1px solid #4C4C4C;
+	float: left;
+}
+
+.menuButtons:hover, .menuButtons.selected
+{
+    background: transparent url(../images/btnTaskbar.gif) repeat scroll 0 -30px; 
+}
+
+.menuButtons.disabled
+{
+	opacity: 1;
+    filter: alpha(opacity = 1);
+    -moz-opacity: 1;
+}
+.menuButtons.disabled:hover
+{
+    background-image: none;
+	background: none;
+}
+
+.menuButtons a.menuLinkButton.disabled:hover
+{
+	color: #CCCCCC !important;
+}
+
+.lightboxDetails
+{
+    margin-left:10px;
+    color:#929292;
+    font-size:12px;
+    font-weight:bold;
+    line-height:30px;
+    vertical-align:middle;
+}
+
+#header1
+{
+    background-color: #333333;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+#header1 div
+{
+    color: #CCCCCC;
+    font-size: 14px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+#header1 strong
+{
+    color: #FFFFFF;
+    font-weight:bold;
+}
+
+#header2
+{
+	width:98%;
+}
+
+#SearchResultsFooter
+{
+	width:98%;
+}
+
+.TitleBar
+{
+	padding-bottom: 7px;
+	padding-top: 5px;
+}
+
+.TitleBar .Title
+{
+	color: #666666;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+#SortByDiv
+{
+	border-bottom: solid 1px #000;
+	padding: 10px 10px 15px 10px;
+	width: 165px;
+	
+}
+
+.TreePaneSide #TreePane
+{	
+	float: left;
+	border:solid 1px #000;
+}
+#Tree
+{
+	position: relative;
+}
+
+#Tree .Empty
+{
+	padding: 5px;
+}
+
+#Tree .Lightbox
+{
+	position:relative;
+	white-space: nowrap;
+}
+#Tree .LightboxRow:hover
+{
+    background-color:#555555;
+	cursor: hand;
+	cursor: pointer;
+}
+
+/* finish hightlightcolor later
+#Tree .HightlightColor
+{
+    display:none;
+    background-color:#CCC;
+    width:100%;
+    position:absolute;
+    z-index:2;
+}*/
+.Active .Details div
+{
+    color:#1a1a1a !important;
+}
+
+#Tree .Details
+{
+	float:left;	
+	width:109px;
+}
+#Tree .Children
+{
+    margin-left:10px;   
+    position:relative;
+    z-index:3;
+    width:100%;
+}
+ #Tree .Active .ChildrenDiv
+{
+background-color:#FFFFFF;
+ }
+
+#Tree .LightboxName
+{
+    /* REBRANDING
+    color: #DD602B;
+    */
+    color: #6699CC;
+    
+    font-weight:bold;
+    font-size:11px;
+    line-height:12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 110px;
+}
+#Tree .Details div
+{
+    line-height:12px;
+    color: #999999;
+    font-size: 10px;
+    font-weight: normal;
+	text-align: left;
+	margin-bottom: 3px;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+#Tree .LightboxRow .DeleteLB
+{
+	margin-left:15px;
+	margin-top:25px;
+	margin-right:10px;
+	display:none;
+}
+#Tree .Active .DeleteLB
+{
+    cursor: hand;
+    cursor: pointer;
+    margin-top:25px;
+    margin-right:5px;
+}
+
+#Tree .Active .DeleteLB div
+{
+    background-image:url(../Images/iconDelete.gif);
+    height:10px;
+    width:10px;    
+}
+
+
+#Tree #Search .Keywords 
+{
+padding-left:0;
+width:100%;
+}
+
+#Tree .Active
+{
+	text-align: left;
+	background-color:#CCCCCC;
+	color:#1a1a1a;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.DeleteLB
+{
+   float:right;
+}
+#Tree .Lightbox .Arrow
+{
+    cursor: hand;
+    cursor: pointer;
+	top: 13px;	
+	left:5px;
+	position: absolute;
+	width: 10px;
+	height: 10px;	
+	
+}
+.Details
+{
+   float:left;
+   padding: 10px 20px 10px 20px;
+}
+
+.DetailsView 
+{
+	float:left;	
+	width:100%;
+	/*margin-left:10px;    
+	margin-top:10px;*/	
+}
+
+.DetailsView .Title 
+{
+	color: #666666;
+	font-size: 18px;
+	padding-bottom: 0px;
+}
+
+
+/* $$$ COLUMNED CONTENT   */
+
+.columnLayout
+{
+    clear: both;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.EmailcolumnLayout
+{
+    clear: both;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-left:10px;
+}
+.twoColumn *
+{
+    zoom: 1;
+}
+.twoColumn .leftColumnWrap
+{
+    float: left;
+    left: 220px;
+    position: relative;
+    width: 200%;
+}
+
+.twoColumn .rightColumnWrap
+{
+    float: right;
+    position: relative;
+    right: 220px;
+    width: 50%;
+}
+
+.twoColumn .rightColumn
+{
+    margin: 0 0 0 220px;
+    overflow: hidden;
+    position: relative;
+    right: 100%;
+}
+
+.twoColumn .leftColumn
+{
+    float: left;
+    position: relative;
+    right: 220px;
+    width: 220px;
+}
+
+
+#SearchColumnedContent .rightColumn, #SearchColumnedContent .leftColumn
+{
+    /*min-height: 600px;     height: auto !important;     height: 550px;*/
+    position:relative;
+    margin-top:15px;
+}
+
+/* DON'T REMOVE YET - Chris
+#SearchColumnedContent .leftColumn
+{
+    height: 600px;
+    border: 1px solid green;
+}*/
+
+/* $$$ SEARCH BUDDY */
+
+.SearchBuddy
+{
+    bottom: -10px;
+    left: 0;
+    top: 10px;
+    position: fixed !important; /* DON'T REMOVE THIS EITHER ... YET - Chris     position: absolute !important;*/
+    min-height:540px;
+    width: 220px;
+    z-index: 0;
+    zoom: 1;
+    background: url(../Images/buddyChromeBGwShadow.gif) repeat-y top left;
+}
+
+.searchResultsContent
+{
+    margin-right: 20px; position:relative;
+}
+.searchBuddyFooter
+{
+    background: #4d4d4d url(../Images/buddyChromeBottom.gif) no-repeat bottom right;
+    bottom: 0;
+    height: 16px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 187px;
+    z-index: 200;
+}
+
+
+#refineHeaderDiv
+{
+    background-color: #5a5a5a;
+    border-top: 1px solid #808080;
+    height: 10px;
+    margin-bottom: 20px;
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+    width: 185px;
+    z-index: 10;
+    font-size:13px;
+    font-weight:bold;
+}
+.LBXContainer 
+{
+    text-align: left;
+    bottom:10px !important;
+    margin-bottom:10px;
+}
+.LBXContainer, .quickPicsContainer
+{
+    background-color: #404040;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #636363; 
+    bottom: 10px;
+    left: 0px;
+    padding-top: 20px;
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    overflow: auto; /* scrollbar*/
+}
+.SBBX_filters div.imgDivider img.imgDivider
+{
+    border-top: 1px dotted #000;
+    height: 1px;
+    margin: 5px 0 5px -3px;
+    width: 100%;
+}
+#SBBX_filters, .SBBX_lightboxes, .SBBX_quickpic
+{
+    background-color: #4d4d4d;
+    bottom: 2px !important;
+    left: 0;
+    overflow: auto;
+    padding: 10px 10px 45px 0;
+    position: absolute;
+    top: 0;
+    width: 175px;
+    z-index: 200;
+}
+
+.SBT_Mylightboxes img
+{
+	height: 111px;
+    background-image: url(../Images/en-US/buddyTabMyLightboxes1.gif);
+}
+
+.SBT_Mylightboxes img:hover
+{
+    background-image: url(../Images/en-US/buddyTabMyLightboxes2.gif);
+}
+
+.SBT_Mylightboxes.ON img
+{
+    background-image: url(../Images/en-US/buddyTabMyLightboxes3.gif);
+}
+
+#SBBX_quickpic span.actLikeLink
+{
+	margin-left:15px;
+}
+
+/* Lightbox thumbnails (LightboxProduct.ascx) */
+
+#LightboxProducts
+{
+    float: left;
+    margin-top: 5px; /* margin-left affected tab hover state & checking checkboxes in IE7 */ /*display: table;*/
+    /*min-height:450px;*/
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom:40px;
+}
+
+#LightboxProducts .ProductBlock
+{
+    -moz-box-orient: vertical;
+    display: inline-block;
+    margin: 30px 41px 0 0;
+    padding: 3px;
+    vertical-align: top;
+    border: 2px solid #404040;
+    width: 128px;
+}
+
+/* style for when a product is selected */
+#LightboxProducts .ProductSelected
+{
+    /* REBRANDING
+    border: 2px solid #ff9900;
+    */
+    border: 2px solid #646464;
+}
+/* style for when a product is ghosted */
+#LightboxProducts .ProductGhosted
+{
+    border: 2px dashed #909090;
+    opacity: 0.5;
+}
+
+#LightboxProducts .ProductBlock .thumbWrap
+{
+    background-color: #333333;
+	height:128px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 128px;
+    text-align: center;
+}
+
+.lightboxProductDetails
+{
+	padding: 0px;
+	width: 128px;
+}
+
+.ProductBlock .collectionInfo
+{
+    color: #999999;
+    height:auto;
+    margin-top: 2px;
+}
+
+.ProductBlock
+{
+	position: relative;
+}
+
+.ProductBlock .hoverBtn
+{
+	float: right;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    right: -22px;
+    cursor: pointer;
+    border: none;
+    width: 14px;
+    height: 24px;    
+}
+
+.ProductBlock .note
+{
+	width: 128px;
+}
+
+.ProductBlock .noteIcon
+{
+    top: 33px;
+    background: url(../images/thumbtab_note.gif) top left no-repeat;
+}
+.ProductBlock .closeIcon
+{
+    top: 5px;
+    background: url(../images/thumbtab_Delete.gif) top left no-repeat;
+}
+
+.ProductBlock .hoverBtn
+{
+	left: 133px;
+}
+
+.ProductBlock .hoverBtn:hover
+{
+    background-position: 0px -25px;
+    background-repeat: repeat-x;
+}
+
+.ProductBlock .hoverBtn input
+{
+    background-color: Transparent;
+    border: none;
+    width: 100%;
+}
+	
+#LightboxProducts .productPriceInfo
+{
+	background-color: #404040;
+	color: #999999;
+	margin-top: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	width: 128px;
+}
+
+#LightboxProducts .productPriceInfo .price
+{
+	cursor: pointer;
+	color: #4385C0;
+}
+
+#LightboxProducts .productPriceInfo .nohand
+{
+	cursor: default !important;
+}
+
+#LightboxProducts .productPriceInfo .priceStatus
+{
+	margin-top: 2px;
+	color: #CCCCCC;
+}
+
+#LightboxProducts .noteHeader
+{
+	background-color: #262626;
+	height: 18px;
+	margin-top: 1px;
+	padding-left: 7px;
+	padding-top: 5px;
+}
+
+#LightboxProducts .noteContent
+{
+	background-color: #262626;
+	margin-top: 1px;
+	padding-left: 7px;
+	padding-top: 7px;
+	padding-bottom: 10px;
+	height: expression( this.scrollHeight > 55 ? "56px" : this.offsetHeight > this.clientHeight? this.scrollHeight: "auto" ); /* sets max-height for IE */
+	max-height: 56px; /* sets max-height value for all standards-compliant browsers */
+	overflow: auto;
+	width:121px;
+}
+
+#LightboxProducts .noteDelete
+{
+	background: url(../images/noteDelete.gif) no-repeat left 0px;
+	float: right;
+	height: 11px;
+	margin-right: 5px;
+	width: 11px;
+	cursor: pointer;
+}
+
+	
+#LightboxProducts .noteDelete:hover
+{
+    background-position: 0px -11px;
+    background-repeat: repeat-x;
+}
+
+#LightboxProducts .noteDelete input
+{
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#LightboxProducts .productContent
+{
+	width: 100%;
+}
+/* End Lightbox thumbnails (LightboxProduct.ascx) */
+
+/* delete and note modal */
+
+#modalDeleteTemplate .pinkyThumb,
+#modalAddEditNoteTemplate .pinkyThumb
+{
+    width:90px;
+    height:90px; 
+    background-color:#333333; 
+    border:2px solid #888;  
+    margin:0px 0px 10px 10px;
+    float:left;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;  
+}
+
+#modalDeleteTemplate .FormButtons,
+#modalAddEditNoteTemplate .FormButtons
+{
+    margin-top: 0px;
+}
+
+#modalDeleteTemplate .pinkyThumb img,
+#modalAddEditNoteTemplate .pinkyThumb img
+{
+    cursor: move;
+}
+
+#modalDeleteTemplate .modalDeleteThumb,
+#modalAddEditNoteTemplate .modalDeleteThumb
+{
+	float: left;
+}
+
+#modalDeleteTemplate .modalDeleteMessage,
+#modalAddEditNoteTemplate .modalDeleteMessage
+{
+	float: left;
+	width: 218px;
+	margin-left: 10px;
+}
+
+#modalDeleteTemplate .modalDeleteMessage div,
+#modalAddEditNoteTemplate .modalDeleteMessage div
+{
+	margin-top: 28px;
+}
+
+#modalDeleteTemplate .ModalPopupContent
+{
+	height: 95px;
+	padding: 15px 0px 0px 15px;
+	width: 323px;
+}
+
+#modalAddEditNoteTemplate .ModalPopupContent
+{
+	height:135px;
+	padding: 15px 0px 0px 15px;
+	width: 310px;
+}
+
+#noteText
+{	
+	height:92px !important;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-top: 0px;
+	width:204px;
+	overflow:auto;
+}
+/* End delete modal */
+/*&&&&&&&&&&&&&& EmailLigtboxView &&&&&&&&&*/
+.ClientName
+{
+    background-color: #4d4d4d;
+    color:#999999;
+    font-size:11px;
+    font-weight:bold;
+    padding: 8px 0px 8px 10px;
+    vertical-align:top;
+}
+.DetailHeader
+{ 
+	margin:10px 10px 1px;
+	color:White;
+	color:#999999;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.DetailHeader a, 
+.DetailHeader .actLikeLink 
+{
+    display:inline-block;
+    margin-bottom:9px;
+    padding-bottom:2px;
+}
+
+.bulletPoint
+{
+    margin-bottom:12px;
+}
+
+.DetailHeader a:hover, 
+.DetailHeader .actLikeLink:hover {
+    padding-bottom:1px;
+}
+
+.seperatorDottedLine1
+{
+    border-bottom: 1px dotted #000000;
+    margin:  5px 10px 0px 0px;
+    height:1px;
+}
+.headertitles
+{
+    background-color: #404040;
+    color:#999999;
+    font-size:11px;
+    font-weight:bold;
+    padding: 5px 0px 0px 10px;
+}
+.headertitles1
+{
+    background-color: #404040;
+    color:#999999;
+    font-size:11px;
+    font-weight:bold;
+    padding: 0px 0px 0px 10px;
+   
+}
+.headertitles .sharedCss
+{
+    float:left;   
+    padding-right:14px;
+}
+
+.text2.SharedByPeople
+{
+    padding-left:0;
+}
+
+.clientName,
+.noteName,
+.NoteName
+{
+    color:#999999;
+    font-size:11px;
+    font-weight:bold;
+    padding: 5px 0px 5px 10px;
+    vertical-align:top;
+    width:10%;
+}
+.clientName
+{
+    height:32px;
+}
+
+.noteName
+{
+    height:100px;
+}
+
+.clientData,
+.noteData,
+.NoteData
+{
+    color: #e7e7e7;
+    font-weight:normal;
+    line-height:14px;	
+	padding:5px 7px;
+    text-align:left;
+    width:65%;
+}
+
+.lblDetails
+{
+    display:inline-block;
+    margin-bottom:12px;
+}
+
+.sectionSpacing 
+{
+	background-color:#333333; 
+	width:1%; 
+}
+
+.fineDetailsWrap
+{
+	width:24%;
+}
+
+.text, .text1, .text2, .textModified
+{
+    color: #e7e7e7;
+    font-weight:normal;
+    line-height:14px;
+}
+
+.txtName
+{
+	display: none;
+	height:auto;
+	width:100%;
+}
+
+.txtNote
+{
+	display: none;
+	height:72px;
+	line-height:15px;
+	overflow:auto;
+	width:100%;
+	width: expression( $('DetailsViewSideTop').offsetWidth*0.65); 
+}
+
+.lblNotes
+{
+	display:inline-block;
+	height:85px;
+	overflow:auto;
+	width:100%;
+	width: expression( $('DetailsViewSideTop').offsetWidth*0.65); 
+	color:#E7E7E7;
+	background-color:transparent;
+	border:0px;
+}
+
+.text
+{
+	padding: 5px 0px 5px 10px;
+}
+.lblName
+{
+	float:left;
+}
+
+#detailStructure
+{
+    width:100%;
+    display:none;
+}
+
+.details
+{
+    background-color:#404040;
+    border-collapse:collapse;
+    width:100%;
+}
+
+.details span
+{
+    display:inline-block;
+}
+
+.details textarea
+{   
+    font-family: 'Trebuchet MS', 'Lucida Grande', Arial, Helvetica, 'Unicode MS', sans-serif;
+    overflow:auto;
+}
+
+.actLikeLink {
+    margin-left:5px;
+}
+
+.fineDetails
+{
+    float:right;
+    width:100%;  
+    height:120px;
+    overflow-x:hidden;
+	overflow-y:auto;
+    display:inline-block;
+    background-color:#404040;
+}
+
+.LightboxDetails
+{
+    margin-right:25%;
+    text-align:right;
+}
+
+#notesGlassButton .GlassButton
+{
+     margin-left:7px;
+     position:relative;
+     top:6px;
+}
+
+.notesbuttonCSS
+{
+	height:30px;
+  }
+  
+.text1
+{
+    padding-left: 10px;
+}
+.text2, .textModified
+{
+    padding:0 10px;
+}
+#FooterContent
+{
+    margin-top:-100px;
+}
+
+#headerNotesDetails *
+{
+	width:100%;
+}
+
+/*End EmailLigtboxView */
+
+/* Copy item & transfer modal */
+
+#copyProduct .ModalPopupPanelDialog .ModalPopupContent 
+{
+	background-color: #DBDBDB;
+	display: block;
+	line-height: 18px;
+	margin-bottom: 7;
+	padding: 0;
+	width: 600px;
+	height: 505px;
+}
+
+#transferLightbox .ModalPopupPanelDialog .ModalPopupContent
+{
+	background-color: #DBDBDB;
+	display: block;
+	line-height: 18px;
+	margin-bottom: 7;
+	padding: 0;
+	width: 600px;
+}
+
+#transferLightbox .ModalPopupPanelDialog .ModalTitleBar .Title,
+#copyProduct .ModalPopupPanelDialog .ModalTitleBar .Title 
+{
+	color: #1a1a1a;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+
+#transferLightbox .ModalPopupPanelDialog .ModalTitleBar .Close,
+#copyProduct .ModalPopupPanelDialog .ModalTitleBar .Close 
+{
+	margin-bottom: 5px;
+}
+
+#transferLightbox .ModalPopupPanelDialog .ModalPopupContent .FormButtons,
+#copyProduct .ModalPopupPanelDialog .ModalPopupContent .FormButtons
+{
+	margin: 0;
+}
+
+#copyProduct .instructions
+{
+	font-size:11px;
+	line-height:14px;
+	padding:0 145px 12px 12px;
+}
+#coffProduct .selectAllLinkNoImage , #invalidCoffProducts .selectAllLinkNoImage
+{
+	float:left;
+	padding-left:0px;
+}
+#coffProduct .selectAllLink
+{
+	background:transparent url(../images/selectAll.gif) no-repeat scroll left top;
+	float:left;
+	padding-left:20px;
+	margin-top:2px;
+}
+#copyProduct .selectAllLink
+{
+	background:transparent url(../images/selectAll.gif) no-repeat scroll left top;
+	float:left;
+	padding-left:20px;
+}
+
+ a.selectAllLink
+{
+    border-bottom:1px solid #E8E8E8;
+}
+
+#coffLightboxImages
+{
+    cursor:default;
+}
+
+ a.selectAllLink:hover
+{
+	/* REBRANDING
+	border-bottom: dotted 1px #dd602b;
+	*/
+	border-bottom: dotted 1px #4385C0;
+}
+
+#copyProduct .copyPanel
+{
+	background-color:#e8e8e8;
+	height:97px;
+	padding:15px 13px 5px 13px;
+}
+
+#copyProduct .countSelectAll
+{
+	margin-top: 5px;
+}
+
+#copyProduct .countSelectAll .selectAllDiv
+{
+	border-left: solid 1px #999999;
+	float: left;
+	padding: 3px 9px;
+}
+
+#copyProduct .countSelectAll .itemCount
+{
+	float: left;
+	padding: 3px 9px;
+}
+
+#copyProduct .copyControls
+{
+	border: solid 1px #999999;
+	height: 45px;
+	padding: 10px;
+}
+
+#copyProduct .floatLeft
+{
+	padding:4px;
+}
+
+#copyProduct .copyControls select
+{
+	float: left;
+	height: 22px;
+	margin-top: 3px;
+}
+
+#copyProduct .copyControls div.GlassButton
+{
+	float: left;
+	margin-top: 3px;
+}
+
+#copyProduct .lightboxImages
+{
+	background-color:#797979;
+	height:330px;
+	max-height:330px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	padding:7px 4px 7px 16px;
+	position:relative;
+	width:580px;	
+}
+
+#copyProduct .lightboxImages li 
+{
+	background-color:#333333;
+	border:2px solid #797979;
+	float:left;
+	height:96px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:5px;
+	padding:0;
+	position:relative;
+	text-align:center;
+	width:96px;
+}
+
+#copyProduct .lightboxImages li.selected 
+{
+	/* REBRANDING
+	border-color:#FB9503;
+	*/
+	border-color:#EDEDED;
+}
+
+#copyProduct .lightboxImages .imageWrap 
+{
+	background-color:#333333;
+	border:3px solid #797979;
+	display:table-cell;
+	float:left;
+	height:90px;
+	text-align:center;
+	vertical-align:middle;
+	width:90px;
+}
+
+#copyProduct .lightboxImages .imageWrap img:hover
+{
+    cursor: pointer;
+}
+
+#transferLightbox .transferButtons
+{
+	height:29px;
+	background-color: #e8e8e8;	
+	padding-right:13px;
+}
+
+#transferLightbox .title
+{
+	font-weight:normal;
+	margin-left:5px;
+}
+
+#transferLightbox .instructions
+{
+	color:#303030;
+	font-size:11px;
+	line-height:14px;
+	padding:0 115px 12px 12px;
+}
+
+#transferLightbox .ValidationSummary
+{
+	margin-bottom: 0;
+}
+
+#transferLightbox .addMemberPanel
+{
+	background-color:#e8e8e8;
+	padding:15px 13px;
+}
+
+#transferLightbox .addMemberControls
+{
+	border: solid 1px #999999;
+	height: 43px;
+	width:553px !important;
+	padding: 10px;
+}
+
+#transferLightbox .addMemberControls .addMemberHeading
+{
+	color:#000000;
+	float:left;
+	font-weight:bold;
+	margin-top:-4px;
+}
+
+#transferLightbox .addMemberControls .addMemberName
+{
+	float:left;
+	margin-top:1px;
+	width:180px;
+}
+
+#transferLightbox .addMemberControls .GlassButton
+{
+	float:left;
+	margin-right:9px;
+	margin-top:1px;
+}
+
+#transferLightbox .addMemberControls .addMemberInstruction
+{
+	float:left;
+	font-size:11px;
+	margin-top:3px;
+}
+
+#transferLightbox .memberSelect
+{
+	color:#000000;
+	background-color:#e8e8e8;
+	font-size:12px;
+	font-weight:bold;
+	height:179px;
+	padding:0 13px;
+}
+
+#noMemberMessage,
+#noTransferToMessage
+{
+	color:#666666;
+	float:left;
+	font-weight:normal;
+	line-height:14px;
+	padding:8px;
+	position:relative;
+	top:-154px;
+	width:225px;
+}
+
+#noTransferToMessage
+{
+    left:5px;
+    padding:0;
+    position:absolute;
+    top:26px;
+}
+
+#transferLightbox #corbisMembers,
+#transferLightbox #transferTo
+{
+	color:#1A1A1A;
+	margin-top:2px;
+	padding:2px;
+	width:260px;
+	overflow-y: hidden;
+    overflow: -moz-scrollbars-horizontal ;
+
+}
+
+#transferLightbox .memberSelect .corbisMembers
+{
+	float:left;
+	height:179px;
+	width:260px;	
+}
+
+#transferLightbox .memberSelect .transferTo
+{
+	float:right;
+	height:179px;
+	position:relative;
+	width:260px;	
+}
+	
+#transferLightbox .memberSelect .deleteMembers
+{
+	background:transparent url(/Images/deleteAll.gif) no-repeat scroll 0 0;
+	float:left;
+	font-weight:normal;
+	margin-top:6px;
+	margin-left:3px;
+	padding-left:17px;
+	padding-top:2px;
+}
+
+#transferLightbox .memberSelect .deleteMembers:hover
+{
+	border-bottom:none;
+}
+
+#transferLightbox .memberSelect .ImageCheckbox
+{
+	font-weight:normal;
+}
+
+#transferLightbox .memberSelect .imageCheckbox
+{
+	float:left;
+	margin-bottom:0;
+	margin-left:5px;
+	margin-top:10px;
+}
+
+#transferLightbox .memberSelect .imageCheckbox .ImageCheckbox
+{
+	color:#1A1A1A;
+	font-size:12px;
+	margin-top:-2px;
+}
+
+#transferLightbox .listControls
+{
+	float:left;
+	padding-top:25px;
+}
+
+#addTransferTo,
+#removeTransferTo
+{
+	background-color:transparent;
+	background-repeat:no-repeat;
+	border:medium none;
+	cursor:pointer;
+	height:26px;
+	margin-top:10px;
+	margin-left:14px;
+	text-decoration:none;
+	width:26px;
+}
+
+#addTransferTo
+{
+	background-image:url(../Images/btnPageArrowsd8d8d8.gif);
+	background-position:right top;
+}
+
+#addTransferTo:hover
+{
+	background:transparent url(../Images/btnPageArrowsd8d8d8.gif) no-repeat scroll right -26px;
+}
+
+#removeTransferTo
+{
+	background-image:url(../Images/btnPageArrowsd8d8d8.gif);
+	background-position:left top;
+}
+
+#removeTransferTo:hover
+{
+	background:transparent url(../Images/btnPageArrowsd8d8d8.gif) no-repeat scroll left -26px;
+}
+
+/* End Copy item & transfer modal */
+
+/* Copy Progress modal */
+
+#copyProgress,
+#coffProgress,
+#downloadProgress
+{
+	background-color: Transparent;
+	/* REBRANDING 
+	color: #4385C0;
+	*/
+	color: #4088D1;
+	height: 185px;
+	text-align: center;	
+	width:315px;
+}
+
+#copyProgress .standBy
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+
+#coffProgess .standBy
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#copyProgress .copyMessage
+{
+	font-size: 14px;
+	margin-top: 5px;
+	/* REBRANDING */
+	color: White;
+}
+
+/* End Copy Progress modal */
+
+/* Move item modal */
+
+#moveLightbox .ModalPopupPanelDialog .ModalTitleBar .Title 
+{
+	color: #666666;
+	font-size:18px;
+	padding-bottom: 10px;
+}
+#moveLightbox .ModalPopupPanelDialog .ModalPopupContent 
+{
+    background-color:#E8E8E8;
+    display:block;
+    margin-bottom:0px;
+    padding: 0px 0px 10px 0px;
+    width:100%;
+    
+}
+#moveLightbox .moveto
+{
+   padding: 10px 0px 0px 10px;
+   color:#000;
+   font-weight:bold;
+   /*border-top:2px solid #DBDBDB;*/
+   width:20%;
+    
+}
+#moveLightbox .errorblock
+{
+    padding: 10px 0px 0px 10px;
+    background-color: #FFFFCD;
+    font-weight:bold;
+}
+
+#moveLightbox .modalButtons
+{
+    padding-right: 14px;
+    
+}
+#moveLightbox .ModalPopupPanelDialog .ModalPopupContent .FormButtons
+{
+	margin: 0;
+	
+}
+#moveLightbox .instructions
+{
+    background-color: #DBDBDB;
+    margin:0;
+}
+#moveLightbox .ModalPopupPanelDialog .ModalPopupContent .FormButtons .instructions
+{
+	font-size:11px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:left;
+	padding-bottom:3px;
+	
+}
+#moveFields .moveRow
+{
+	width: 350px;
+	border-top:2px solid #DBDBDB;
+	border-bottom: none;
+}
+
+#moveFields #ddlLightBox
+{
+    width:256px;
+}
+
+#moveFields .FormRight 
+{
+    border-top:none;
+    border-bottom:none;
+}
+
+/* End Move item modal */
+
+/* error modal styles */
+
+#errorModal .errorMessage
+{
+	color: #1a1a1a;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#errorModal .contactMessage
+{
+	color: #1a1a1a;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#errorModal .GlassButton
+{
+	margin-right: -15px;
+}
+
+/* End error modal styles */
+
+/* Rename lightbox related styles */
+
+.renameLink
+{
+	/* REBRANDING
+	color:#dd602b;
+	*/
+	color: #4385C0;
+	
+	font-size:10px;
+	font-weight:bold;
+	margin-bottom:5px;	
+	margin-left:7px;	
+}
+
+#DetailsViewSide .LightboxNameInHeader
+{
+	font-size:18px;
+	height:18px;
+}
+
+#DetailsViewSide .LightboxNameSpan
+{
+	height:18px;
+	margin-bottom:5px;
+}
+ .selectContainer {
+    overflow:hidden;
+    height:65px;
+}
+ .selectContainerScrollBar {
+     overflow-x: hidden; 
+	 overflow-y: scroll;
+	 height:65px;
+}
+#lightboxNameEdit
+{
+	height:18px;
+}
+
+#lightboxNameEdit .GlassButton
+{
+	float:left;
+	height:21px;
+	margin-left:10px;
+}
+
+#newLightboxName
+{
+	float:left;
+	font-size:18px;
+	margin-right:0;
+	width:500px;
+}
+/* End Rename lightbox related styles */
+
+
+/* Begin COFF Lightbox related styles */
+
+.attentionText
+{
+	width:85%;
+}
+.selectImageSizes 
+{
+	width:100%;
+	height:20px;
+}
+.selectAllImage 
+{
+    background-repeat:no-repeat;
+}
+.selectAllLinkText 
+{
+	text-align:left;
+}
+.selectCOFFItems .selectCOFFItemsContainer 
+{
+	background-color:#E8E8E8;
+	clear:both;
+	height:59px;
+	margin:0px 11px 0px 11px;
+	position:relative;
+	width:838px;
+}                             
+
+.selectCOFFItems 
+{
+	width:838px;
+}
+.selectCOFFItems .instructionText
+{
+	float:left;
+	font-size:12px;
+	color:#1a1a1a;
+	line-height:14px;
+	margin-top:8px;
+	padding-bottom:10px;
+}
+.selectCOFFItems .controlSection
+{
+    bottom:-10px;
+    position:absolute;
+    right:10px;
+    width:430px;
+}
+#coffProduct .FormButtons, #invalidCoffProducts .FormButtons
+{
+	background-color:#E8E8E8;
+	margin-top:0px;
+}
+#coffProduct .selectAll 
+{
+	background-image:none;
+	float:right;
+	padding-top:2px;
+}
+.invalidCoffProducts .ModalPopupPanelDialog .ModalTitleBar .Close 
+{
+	display:none;
+	visibility:hidden;
+}
+#coffProduct .controlButton 
+{
+	margin-top:-2px;
+}
+
+#coffProduct .controlButton,
+#coffProduct .selectAll
+{
+    width:auto;
+}
+
+#invalidCoffProducts .controlButton
+{
+	float:left;
+	padding-top:15px;
+	width:auto;
+}
+
+.rfFileSizesItem
+{
+	margin:0px;
+	background-color: #e8e8e8;
+	margin-top: 2px;
+	text-align:left;
+	width:auto;
+	font-size:12px;
+	color:#1a1a1a;
+	font-weight:bold;
+	font-family: Trebuchet MS, Helvetica, sans-serif;	
+	line-height:13px;
+}
+
+
+#coffProduct .selectCOFFItems .lightboxImages li 
+{
+	border:2px solid #797979;
+	float:left;
+	height:148px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:22px;
+	margin-right:22px;
+	padding:3px;
+	position:relative;
+	text-align:center;
+	width:128px;
+}
+
+#coffProduct .lightboxImages li.selected 
+{
+	/* REBRANDING
+	border-color:#FB9503;
+	*/
+	border-color:#EDEDED;
+	height: 148px;
+	padding:3px;
+}
+#coffProduct .lightboxImages .imageWrap 
+{
+	background-color:#333333;
+	height:128px;
+	text-align:center;
+	width:128px;
+}
+.LicenseModelStyle 
+{
+	width:20px;
+	text-align:left;
+	float:left;
+}
+.CorbisuidStyle 
+{
+	width:108px;
+	text-align:center;
+	cursor:pointer;
+	float:right;
+	font-size:11px;
+	background-color:#1a1a1a;
+	color:#e8e8e8;
+	height:18px;
+}
+#coffProduct .selectCOFFItems .lightboxImages 
+{
+	background-color:#797979;
+	height:318px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+	width:828px;
+	padding-left:22px;
+	padding-top:22px;
+	padding-bottom:22px;
+	padding-right:0px;
+}
+#cancelCOFFDiv 
+{
+	padding-top:10px;
+	width:838px;
+}
+#fileSizeModalWrap .ModalPopupPanelDialog .ModalPopupContent 
+{
+	width:300px;
+}
+#coffProduct .ModalPopupPanelDialog .ModalPopupContent, #invalidCoffProducts .ModalPopupPanelDialog .ModalPopupContent
+{
+    width:850px; /*OVERRIDING FOR USE CC MODAL*/
+    margin:0;
+    padding:0px 0px 0px 0px;
+    height: inherit;
+}
+#coffProduct .lightboxImages .imageWrap:hover
+{
+    cursor: pointer;
+}
+.displayWrapRF
+{
+	/* REBRANDING
+    border-top: 1px solid green;
+    */
+    border-top: 1px solid #646464;
+}
+.displayWrapRM
+{
+	/* REBRANDING
+    border-top:1px solid #0066CC;
+    */
+    border-top: 1px solid #646464;	
+}
+.LicenseModelRF
+{
+	width:20px;
+    color: white;
+    cursor:pointer;
+    /* REBRANDING
+    background-color: green;
+    */
+    background-color: #646464;
+    text-align:center;   
+    float:left;
+    height:18px;
+}
+.LicenseModelRM
+{
+	width:20px;	
+    /* REBRANDING
+    background-color: #0066CC;
+    */
+    background-color: #646464;
+    cursor:pointer;
+    color:White;
+    text-align:center;   
+    float:left;
+    height:18px;
+}
+.LicenseModelRS
+{
+	/* REBRANDING
+    background-color: #0066CC;
+    */
+    background-color: #646464;
+    color: white;
+    cursor:pointer;
+    width:20px;
+    text-align:center;   
+    float:left;
+    height:18px;
+    
+}
+
+.reviewMessage
+{
+	color: Red;
+	width:838px;
+    background-color:#FFFFCE;
+    color:#1a1a1a;
+    height:38px;
+    margin:0px;
+    font-weight:bold;
+    padding-bottom:11px;
+}
+.messagePanel
+{
+	color: Red;
+	width:828px;
+    background-color:#FFFFCD;
+    color:#1a1a1a;
+    height:25px;
+    padding:11px;
+    font-weight:bold;
+}
+
+.invalidCoffImageWrap li
+{
+    filter:alpha(opacity=50);
+    -moz-opacity:.50;
+    opacity: 0.50;
+    color:red;
+    text-align:center;
+    height:168px;
+    width:128px;
+    float:left;
+}
+.invalidCoffItemMessage
+{
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+	font-size:11px;
+	color:#e8e8e8;
+	line-height:12px;
+	width:128px;
+	height:20px;
+	text-align:left;
+	padding-left:6px;
+	padding-top:3px;
+	float:left;
+}
+#invalidCoffProducts .messagePanel .alertMessagePanel
+{
+	float:left;
+	width:72%;
+	vertical-align:top;
+	color:Red;
+	font-size:12px;
+}
+#invalidCoffProducts .messagePanel .rfcdCoffAlert 
+{
+	float:right;
+	width:21%;
+	text-align:justify;
+	color:Red;
+	font-size:11px;
+	line-height:13px;
+	padding-right: 8px;
+}
+.cancelCOFFLink
+{
+	vertical-align:middle;
+	float:left;
+	padding:9px 0 10px 11px;
+	width:700px;
+}
+#cancelCOFFDiv .trusteimageclass a:active, #cancelCOFFDiv .trusteimageclass a:hover, #cancelCOFFDiv .trusteimageclass .actLikeLink:hover 
+{
+	border-bottom: 0px;
+}
+#cancelCOFFDiv .trusteimageclass
+{
+	vertical-align:middle;
+	padding-right:11px;
+	float:right;
+}
+
+#invalidCoffProducts .reviewMessage .reviewMessageText
+{
+	float:left;
+	width:73%;
+	padding-left:40px;
+}
+.cancelCOFF  
+{
+	font-size: 12px;
+	color: #4385C0;	
+}
+.containerPanel 
+{
+	width:850px;
+	float:left;
+}
+
+#invalidCoffProducts .ModalPopupPanelDialog , #coffProduct .ModalPopupPanelDialog , #invalidCoffProducts .mochaOverlay , #coffProduct .mochaOverlay 
+{
+	background-color:#DBDBDB;
+}
+#invalidCoffProducts .ModalPopupPanelDialog .ModalPopupContent{
+    width:850px; /*OVERRIDING FOR USE CC MODAL*/
+    margin:0;
+    padding:0px 0px 0px 0px;
+    height: inherit;
+}
+
+#invalidCoffProducts .ModalPopupContent .FormButtons .GlassButton, #invalidCoffProducts .GlassButton .center, #invalidCoffProducts .GlassButton .Right , #invalidCoffProducts .GlassButton .Right input
+{
+	width:160px;
+	margin:0px;
+}
+#invalidCoffProducts .GlassButton .Right input 
+{
+	margin-right:11px;
+}
+#invalidCoffProducts .disabled, #invalidCoffProducts .disabled:hover, #invalidCoffProducts .disabled-hover
+{
+	opacity: 0.60;
+    filter: alpha(opacity = 60);
+    -moz-opacity: 0.60;
+}
+#invalidCoffProducts .DisabledGlassButton
+{
+	width:inherit;
+	width:auto;
+	float:left;
+	padding-right:5px;
+}
+#invalidCoffProducts .reviewMessage .continueToCheckout 
+{
+	float:left;
+	width:160px;
+	padding-top:10px;
+	margin-right:5px;
+} 
+#invalidCoffProducts .reviewMessage 
+{
+	width:850px;
+	margin-right:11px;
+}
+#invalidCoffProducts .lightboxImages
+{
+	background-color:#797979;
+	height:330px;
+	max-height:330px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+	width:850px;
+}
+#invalidCoffProducts .lightboxImages .displayWrap
+{
+	background-color:#797979;
+	display:table-cell;
+	float:left;
+	height:20px;
+	width:128;
+}
+#invalidCoffProducts .lightboxImages .imageWrap
+{
+	background-color:#333333;
+}
+#invalidCoffProducts .lightboxImages .invalidCoffImageWrap
+{
+    filter:alpha(opacity=50);
+    -moz-opacity:.50;
+    opacity: 0.50;
+}
+#invalidCoffProducts .lightboxImages li 
+{
+	background-color:#797979;
+	border:3px solid #797979;
+	float:left;
+	height:175px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:11px;
+	padding:0;
+	position:relative;
+	text-align:center;
+	width:128px;
+}
+
+#invalidCoffProducts .lightboxImages li.selected 
+{
+	height: 168px;
+}
+.coffSelectedItemCount 
+{
+	float:right;
+	padding:4px 0 13px 12px;
+	vertical-align:text-top;
+	font-size:12px;
+	color:#1a1a1a;
+	margin-top:-2px;
+	margin-right:-10px;
+}
+#coffProduct .ModalPopupPanelDialog .ModalTitleBar, #invalidCoffProducts .ModalPopupPanelDialog .ModalTitleBar
+{
+	width:838px;
+	float:none;
+}
+#coffProduct .ModalPopupPanelDialog .ModalTitleBar .Title , #invalidCoffProducts .ModalPopupPanelDialog .ModalTitleBar .Title
+{
+	text-align:left;
+	width:838px;
+	background-color:#DBDBDB;
+	height:18px;
+}
+
+#coffProduct .ModalPopupPanelDialog .ModalTitleBar .Title .Close, #invalidCoffProducts .ModalPopupPanelDialog .ModalTitleBar .Title .Close
+{
+	margin-right:11px;
+}
+
+#coffProduct .ModalPopupPanelDialog, #invalidCoffProducts .ModalPopupPanelDialog
+{
+	margin-top:0px;
+}
+
+/* End COFF Lightbox related styles */
+
+
+/* contactUS link on Mylightbox Thumbnails */
+.contactUS:hover
+{
+	/* REBRANDING
+	color:#DD602B;*/
+	color:#4385C0 !important;
+	cursor:pointer;
+	border-bottom:1px dotted ##4385C0 !important;
+}
+
+.contactUS
+{
+	/* REBRANDING
+	color:#DD602B;*/
+	color:#4385C0 !important;
+	display:inline-block;	
+}
+
+/* Styles for request price single/Multiple images popup*/
+
+.buttonsSpacing
+{
+	margin:15px;
+}
+.requestPriceButtons
+{
+	margin:5px;
+}
+
+#downloadProgress .standBy, .standBy1
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#downloadProgress .downloadMessage, .standBy2,
+#downloadProgress .longWaitMessage, .standBy3
+{
+    /* REBRANDING */
+    color: White;
+}
+
+#downloadProgress .downloadMessage, .standBy2
+{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#downloadProgress .longWaitMessage, .standBy3
+{
+	color: #d8d8d8;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#downloadProgress .cancelButton
+{
+	margin-top: 25px;
+}
+
+#requestPriceImagesModal .ModalPopupContent .FormButtons
+{
+	float:left;
+}
+
+#requestPriceImagesModal .ModalPopupPanelDialog
+{
+	width:308px;
+}
+
+#requestPriceImagesModal .ModalPopupPanelDialog .ModalPopupContent
+{
+	height:100px;
+}
+#fileSizeModalWindow .FormButtons 
+{
+	margin: 0;
+	font-weight:bold;
+	line-height:12px;
+}
+
+.footerMessageRfFileSizes
+{
+	background-color:#E8E8E8;
+	color:#666666;
+	font-weight:bold;
+	padding:13px 10px 10px 10px;
+	font-family: Trebuchet MS, Helvetica, sans-serif;	
+}
+.Hide 
+{
+	display:none;
+}
+
+.FileSize-ToolTip 
+{
+	z-index: 999999;
+}

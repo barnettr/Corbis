@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem>
+		<Title>Setembro de 2009</Title>
+		<Image Src="xml/Hotline/Images/main.jpg" Alt="42-18768552| DC Padrão| © WWD/Condé Nast/Corbis" Title="Gwyneth Paltrow" ImageID="42-18768552" Attribution="| DC Padrão| © WWD/Condé Nast/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="Aniversários" Title="Exibir imagens"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288744" Text="Aniversários" Title="Exibir imagens"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288732" PreText="01" Text="Festival de Cinema Deauville" Title="Exibir imagens"  />
+      
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288791" PreText="01" Text="MTV Video Music Awards" Title="Exibir imagens"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288833" PreText="10" Text="Começa o Festival de Cinema de Toronto" Title="Exibir imagens"  />
+
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288925" PreText="11" Text="Há 8 anos: os EUA sofrem o pior ataque terrorista de sua história" Title="Exibir imagens"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288792" PreText="11" Text="Mercedes-Benz New York Fashion Week - primavera/verão 2010" Title="Exibir imagens"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288748" PreText="12" Text="Festival de Cinema de Veneza - Leão de Ouro" Title="Exibir imagens"  />
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288749" PreText="18" Text="London Fashion Week - primavera/verão 2010" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288747" PreText="19" Text="Oktoberfest - Munique" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288827" PreText="20" Text="Primetime Emmy Awards 2009" Title="Exibir imagens"  />
+		</Links>
+   </FeaturedItem>
+  <FeaturedItem>
+    <Title>Agosto de 2009</Title>
+    <Image Src="xml/Hotline/Images/second.jpg" Alt="42-18979743| DC Premium| © Elliott Landy/Corbis" Title="Bob Dylan" ImageID="42-18979743 " Attribution="| DC Premium| © Elliott Landy/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="Aniversários" Title="Exibir imagens"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288652" Text="Aniversários" Title="Exibir imagens"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288641" PreText="07" Text="Lollapalooza 2009" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288643" PreText="07" Text="Edinburgh Festival Fringe 2009" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288642" PreText="09" Text="Teen Choice Awards" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288684" PreText="13" Text="US PGA Championship" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288675" PreText="15" Text="Há 40 anos: abertura do Festival Woodstock" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1233542" PreText="17" Text="Há 1 ano: Michael Phelps ganhou oito medalhas nas Olimpíadas" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288660" PreText="22" Text="V Festival" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288677" PreText="23" Text="Fórmula Um: Grande Prêmio da Europa" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288661" PreText="25" Text="Truman Capote morre há 25 anos" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288635" PreText="26" Text="Festival da Tomatina" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230133" PreText="31" Text="US Open" Title="Exibir imagens"  />
+      
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Julho</Title>
+    <Image Src="xml/Hotline/Images/third.jpg" Alt="42-16014622 | DC Padrão| © Oliver Hoslet/epa/Corbis" Title="Lance Armstrong sinaliza a sétima vitória no Tour" ImageID="42-16014622" Attribution="| RC Padrão| © Oliver Hoslet/epa/Corbis" AttributionLocation="UnderCopy">
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="Aniversários" Title="Exibir imagens"  />
+		</Image>
+		<Links>
+			<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288470" Text="Aniversários" Title="Exibir imagens"  />
+		</Links>
+		<Links>
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288468" PreText="02" Text="Festival Roskilde 2009" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288467" PreText="03" Text="Brian Jones morre, há 40 anos" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230891" PreText="04" Text="Tour de France" Title="Exibir imagens"  />
+   
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288492" PreText="06" Text="Paris Haute Couture - outono/inverno 2009-2010" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1230892" PreText="07" Text="MLB - All Star Game" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288410" PreText="14" Text="França - Queda da Bastilha" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288474" PreText="17" Text="Há 13 anos: Um avião da TWA explode perto de Long Island" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288482" PreText="17" Text="Billie Holliday morre, há 50 anos" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288495" PreText="17" Text="Prêmio ESPY" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288472" PreText="20" Text="Há 40 anos: o primeiro homem a pisar na Lua" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288484" PreText="24" Text="Campeonatos internacionais de líderes de torcida" Title="Exibir imagens"  />
+      <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288409" PreText="28" Text="Jacqueline Onassis nasce, há 80 anos" Title="Exibir imagens"  />
+    </Links>
+  </FeaturedItem>
+</FeaturedItems>

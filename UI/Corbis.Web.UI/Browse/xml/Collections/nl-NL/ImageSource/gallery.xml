@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Collections/Images/ImageSource/large/" tnpath="xml/Collections/Images/ImageSource/thumb/">
+		<img src="01_42-21238975.jpg" caption="Female office worker wearing necktie&lt;a href=&quot;javascript:DisplaySearchResults('42-21238975');&quot;&gt;42-21238975&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21238975');" />
+		<img src="02_42-15868301.jpg" caption="Business meeting&lt;a href=&quot;javascript:DisplaySearchResults('42-15868301');&quot;&gt;42-15868301&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-15868301');" />
+		<img src="03_42-21242303.jpg" caption="Profile of a young man&lt;a href=&quot;javascript:DisplaySearchResults('42-21242303');&quot;&gt;42-21242303&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21242303');" />
+		<img src="04_42-21218191.jpg" caption="Canary wharf tower &lt;a href=&quot;javascript:DisplaySearchResults('42-21218191');&quot;&gt;42-21218191&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21218191');" />
+    <img src="05_42-21227691.jpg" caption="Empty conference room&lt;a href=&quot;javascript:DisplaySearchResults('42-21227691');&quot;&gt;42-21227691&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21227691');" />
+    <img src="06_42-21238704.jpg" caption="Stressed man&lt;a href=&quot;javascript:DisplaySearchResults('42-21238704');&quot;&gt;42-21238704&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21238704');" />
+		<img src="07_42-21247617.jpg" caption="Green leaves on a branch&lt;a href=&quot;javascript:DisplaySearchResults('42-21247617');&quot;&gt;42-21247617&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21247617');" />
+		<img src="08_42-21247132.jpg" caption="Piggy bank by rain covered window &lt;a href=&quot;javascript:DisplaySearchResults('42-21247132');&quot;&gt;42-21247132&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21247132');" />
+    <img src="09_42-21213393.jpg" caption="Woman holding business card&lt;a href=&quot;javascript:DisplaySearchResults('42-21213393');&quot;&gt;42-21213393&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21213393');" />
+		<img src="10_42-21240203.jpg" caption="Rear view of medical professionals &lt;a href=&quot;javascript:DisplaySearchResults('42-21240203');&quot;&gt;42-21240203&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21240203');" />
+    <img src="11_42-16135567.jpg" caption="Woman having injection in her lip&lt;a href=&quot;javascript:DisplaySearchResults('42-16135567');&quot;&gt;42-16135567&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-16135567');" />
+    <img src="12_42-21239006.jpg" caption="Orchid&lt;a href=&quot;javascript:DisplaySearchResults('42-21239006');&quot;&gt;42-21239006&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21239006');" />
+		<img src="13_42-21202431.jpg" caption="Young woman bathing&lt;a href=&quot;javascript:DisplaySearchResults('42-21202431');&quot;&gt;42-21202431&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21202431');" />
+    <img src="14_42-21241957.jpg" caption="Blueberries and dried goji berries&lt;a href=&quot;javascript:DisplaySearchResults('42-21241957');&quot;&gt;42-21241957&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21241957');" />
+    <img src="15_42-21247634.jpg" caption="Grass and black background&lt;a href=&quot;javascript:DisplaySearchResults('42-21247634');&quot;&gt;42-21247634&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21247634');" />
+		<img src="16_42-21245413.jpg" caption="Tomatoes on plate&lt;a href=&quot;javascript:DisplaySearchResults('42-21245413');&quot;&gt;42-21245413&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21245413');" />
+    <img src="17_42-21239309.jpg" caption="Airplane engines and blue sky&lt;a href=&quot;javascript:DisplaySearchResults('42-21239309');&quot;&gt;42-21239309&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21239309');" />
+    <img src="18_42-21225362.jpg" caption="A teenage girl reading a large book&lt;a href=&quot;javascript:DisplaySearchResults('42-21225362');&quot;&gt;42-21225362&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21225362');" />
+    <img src="19_42-21245061.jpg" caption="Woman with earphones&lt;a href=&quot;javascript:DisplaySearchResults('42-21245061');&quot;&gt;42-21245061&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21245061');" />
+		<img src="20_42-21244503.jpg" caption="Pink roses&lt;a href=&quot;javascript:DisplaySearchResults('42-21244503');&quot;&gt;42-21244503&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21244503');" />
+		<img src="21_42-21241334.jpg" caption="Young man with tattoo on his neck&lt;a href=&quot;javascript:DisplaySearchResults('42-21241334');&quot;&gt;42-21241334&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21241334');" />
+    <img src="22_42-21243462.jpg" caption="Young couple&lt;a href=&quot;javascript:DisplaySearchResults('42-21243462');&quot;&gt;42-21243462&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21243462');" />
+		<img src="23_42-21243451.jpg" caption="Friends looking at view&lt;a href=&quot;javascript:DisplaySearchResults('42-21243451');&quot;&gt;42-21243451&lt;/a&gt; &lt;p&gt; | Standaard RF| © Image Source/Corbis &lt;/p&gt;" link="javascript:DisplaySearchResults('42-21243451');" />
+	</album>
+</gallery>

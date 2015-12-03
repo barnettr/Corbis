@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Canis familiaris</Title>
+		<Image Src="xml/FineArt/Images/main.jpg" Alt="AAKS001420| Estándar DP| © PoodlesRock/CORBIS" ImageID="AAKS001420" Attribution="| Estándar DP| © PoodlesRock/CORBIS">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Durante siglos, el mejor amigo del hombre ha servido de inspiración para multitud de obras de todo el mundo.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=manBytesDog" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>“Shoes, shoes, shoes” por Andy Warhol</Title>
+		<Image Src="xml/FineArt/Images/sub.1.jpg" Alt="42-20093397| Premium DP| © Andy Warhol Foundation/Corbis" ImageID="42-20093397" Attribution="| Premium DP| © Andy Warhol Foundation/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Ver la presentación de diapositivas" Title="Haz clic para ver presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Poco antes de la explosión del Pop Art, Andy Warhol se dedicaba a diseñar calzado fantasioso.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=warhol" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+
+</FeaturedItems>

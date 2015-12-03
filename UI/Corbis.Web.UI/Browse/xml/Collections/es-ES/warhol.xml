@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Collection>
+	<Title>Warhol: fotografía artística</Title>
+	<Copy>
+		<![CDATA[
+		<p>
+    <b>Todo es pop</b><br />
+		El trabajo de Andy Warhol ayudó a definir la cultura americana del siglo XX. La colección de Corbis incluye más de 1.000 imágenes de Warhol, desde las ilustraciones iniciales de anuncios hasta las latas de sopa, accidentes de coche y serigrafías de personajes famosos.	
+		</p>
+		]]>
+	</Copy>
+	<!--<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>
+	<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>-->
+	
+		<Slideshow Url="xml/Collections/Flash/collections.swf" Width="600" Height="450" Flashvars="xmlfile:'xml/Collections/es-es/warhol/gallery.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes=""><NoFlashCopy>
+			<![CDATA[
+			<p>
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Descarga Adobe Flash Player" localize="true"  />
+				</a>
+			</p>
+			]]>		
+		</NoFlashCopy>
+	</Slideshow>
+</Collection>

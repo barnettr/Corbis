@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleText>
+	<Title>Hotline</Title>
+	<Copy>
+		<![CDATA[
+				<p>Un calendario de acontecimientos, imágenes y espectáculos importantes para facilitar la planificación editorial con tres meses de antelación.</p>
+			]]>
+	</Copy>
+	<Links>
+		<Link Url="Hotline.aspx" Text="Ver el calendario Hotline" Title="Haz clic para ver el calendario Hotline"  />
+	</Links>
+</ModuleText>

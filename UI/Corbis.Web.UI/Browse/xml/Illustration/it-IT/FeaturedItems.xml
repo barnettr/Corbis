@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Profilo dell'illustratore: Chuck Shacochis</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| Standard RM| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| Standard RM| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Ispirato ai fumetti del periodo a cavallo tra le due guerre e alle locandine cinematografiche dei film russi, Shacochis descrive il suo stile dark in termini di "illustrazioni ispirate ai fumetti retrò ma con un tocco moderno". Linee audaci e giocose. Soggetti originali.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Arte grafica creativa da CSA Images</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| Standard RM| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| Standard RM| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Le insolite collezioni di CSA Images combinano una varietà di stili in modo provocatorio e giocoso.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Ingannevolmente semplice</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| Standard RM| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| Standard RM| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>I divertenti e buffi personaggi di Venki Talath incarnano archetipi sofisticati, riflettendo la tendenza dei fumetti per adulti.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

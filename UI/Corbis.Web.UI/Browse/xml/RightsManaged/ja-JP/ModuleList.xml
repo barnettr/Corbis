@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>ライツマネージド・コレクション</Title>
+	<Links>
+		<Link Url="Collections.aspx?name=crush" Text="Crush" Title="スライドショーを見る"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289174" Text="Ivy " Title="画像を見る"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289154" Text="zefa" Title="画像を見る"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289155" Text="moodboard plus" Title="画像を見る"  />
+		<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289184" Text="Blend Images" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289156" Text="Amana" Title="画像を見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289157" Text="PhotoCuisine" Title="画像を見る"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Transtock" Title="View images" />-->
+	</Links>
+</ModuleList>

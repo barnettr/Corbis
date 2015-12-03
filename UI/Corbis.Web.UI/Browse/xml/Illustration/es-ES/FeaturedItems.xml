@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Perfil del ilustrador: Chuck Shacochis</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| Estándar DP| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| Estándar DP| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Influenciado por los dibujos del periodo de entreguerras y los carteles del cine ruso, Shacochis define su oscuro estilo como "ilustraciones inspiradas en animaciones clásicas con un toque moderno". Trazos gruesos e inquietos. Temas de vanguardia.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Ingenioso arte gráfico de CSA Images</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| Estándar DP| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| Estándar DP| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Las originales colecciones de CSA Images inspiran una gran variedad de estilos con una picardía provocadora.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Aparentemente sencillo</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| Estándar DP| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| Estándar DP| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Los llamativos y divertidos personajes de Venki Talath son un sofisticado arquetipo que refleja la tendencia de los dibujos animados para adultos.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

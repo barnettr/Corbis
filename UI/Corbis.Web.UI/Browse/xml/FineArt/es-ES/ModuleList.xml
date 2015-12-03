@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Colecciones de Arte</Title>
+	<Links>
+    <Link Url="Collections.aspx?name=warhol" Text="Fundación Andy Warhol" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288500" Text="Ansel Adams " Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288501" Text="The Gallery Collection" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288519" Text="Smithsonian Institution " Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288520" Text="SWIM Ink" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288522" Text="Brett Weston Archive" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288512" Text="The Picture Desk Limited" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288510" Text="Historical Picture Library" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288504" Text="Christie's Images" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288499" Text="Fratelli Alinari" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288502" Text="Blue Lantern Studio" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288517" Text="Philadelphia Museum of Art" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288503" Text="Brooklyn Museum" Title="Haz clic para ver las imágenes"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288507" Text="Fine Art Photographic Library" Title="Haz clic para ver las imágenes"  />
+	</Links>
+</ModuleList>

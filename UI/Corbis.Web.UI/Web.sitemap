@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap enableLocalization="true" xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/default.aspx" title="$Resources: Resource, SiteMap_HomePageTitle" description="$Resources: Resource, SiteMap_HomePageDescription">
+      <siteMapNode url="~/Accounts/MyAccount.aspx" title="$Resources: Resource, SiteMap_MyAccountPageTitle"  description="$Resources: Resource, SiteMap_MyAccountPageDescription">
+        <siteMapNode url="~/Accounts/MyProfile.aspx" title="$Resources: Resource, SiteMap_MyProfilePageTitle" description="$Resources: Resource, SiteMap_MyProfilePageDescription" />
+		  <siteMapNode url="~/OrderHistory/OrderHistory.aspx" title="$Resources: Resource, SiteMap_MyOrderHistoryPageTitle" description="$Resources: Resource, SiteMap_MyOrderHistoryPageDescription" />
+		  <siteMapNode url="~/Lightboxes/MyLightboxes.aspx" title="$Resources: Resource, SiteMap_MyLightboxesPageTitle" description="$Resources: Resource, SiteMap_MyLightboxesPageDescription" />
+		  <siteMapNode url="~/Accounts/ApplyCredit.aspx" title="$Resources: Resource, SiteMap_ApplyForCreditPageTitle" description="$Resources: Resource, SiteMap_ApplyForCreditPageDescription"  />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

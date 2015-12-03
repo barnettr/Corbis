@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Royalty-Free Collections</Title>
+	<Links>
+    <Link Url="Collections.aspx?name=fancy" Text="Fancy" Title="View slideshow"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Somos" Title="View images" />-->
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289158" Text="Cardinal" Title="View images"  />
+    <Link Url="Collections.aspx?name=imagesource" Text="Image Source" Title="View slideshow"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289160" Text="moodboard" Title="View images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289161" Text="PhotoAlto" Title="View images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289162" Text="Cultura" Title="View images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289163" Text="Juice" Title="View images"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289165" Text="Radius" Title="View images"  />
+    <!--<Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=" Text="Clover" Title="View images" />-->
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1289170" Text="ZenShui" Title="View images"  />
+	</Links>
+</ModuleList>

@@ -1,0 +1,79 @@
+﻿#fileSizeModal .ModalPopupContent
+{
+	padding: 0;
+	width:100%;
+}
+
+#fileSizeModal .FormButtons 
+{
+	margin: 0;
+}
+
+#fileSizeModal .headerMessage
+{
+	background-color: #e8e8e8;
+	font-weight: bold;
+	padding: 13px;
+}
+
+#fileSizeModal .fileSizes
+{
+	background-color: #b7b7b7;
+	padding: 13px;
+}
+
+#fileSizeModal .footerMessage
+{
+	background-color: #e8e8e8;
+	color: #666666;
+	font-weight: bold;
+	padding: 13px;
+}
+
+#fileSizeModal .button
+{
+	background-color: #e8e8e8;
+	height: 21px;
+	padding: 0 13px 9px 13px;
+}
+
+#fileSizeModal .fileSizes div
+{
+	color: #1a1a1a;
+	font-weight: bold;
+	height: 25px;
+	padding-top: 5px;
+	text-align: center;
+	width: 196px;
+}
+
+#fileSizeModal .rfFileSizeHeader,
+#fileSizeModal .rmFileSizeHeader
+{
+background-color:#646464;
+color:#F0F0F0 !important;
+height:25px;
+padding-top:5px;
+text-align:center;
+vertical-align:top;
+width:196px;
+}
+
+.betweenFileSizeHeaders
+{
+    width:10px;
+}
+
+#fileSizeModal .rmFileSize
+{
+	background-color: #e8e8e8;
+	margin-top: 2px;
+	float: right;
+}
+
+#fileSizeModal .rfFileSize
+{
+	background-color: #e8e8e8;
+	margin-top: 2px;
+}
+

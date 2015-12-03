@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+	<Slideshow ID="colorCentury" Url="xml/Slideshows/Flash/standalone.swf" Width="900" Height="720" Flashvars="xmlfile:'xml/Slideshows/fr-fr/colorCentury/gallery.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes=""><NoFlashCopy>
+		<![CDATA[
+		<p>
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Télécharger Adobe Flash Player" localize="true"  />
+			</a>
+		</p>
+		]]>		
+	</NoFlashCopy>
+</Slideshow>

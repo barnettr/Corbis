@@ -1,0 +1,44 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AccountsMaster.Master.cs" Inherits="Corbis.Web.UI.MasterPages.AccountsMaster" MasterPageFile="~/MasterPages/MasterBase.Master" %>
+<%@ Register TagPrefix="Corbis" Namespace="Corbis.Web.UI.Controls" Assembly="Corbis.Web.UI.Controls" %>
+
+<asp:Content ID="accountsMasterContent" runat="server" ContentPlaceHolderID="mainContent">
+    <div id="accountsMasterContent">
+        <div id="AccountsNavigation">
+            <div class="MyAccount">
+                <Corbis:Localize ID="myaccountHeaderLabel" runat="server" meta:resourcekey="MyAccountHeader"></Corbis:Localize>           
+            </div>
+            <asp:Repeater ID="navigation" runat="server">
+                <ItemTemplate>
+                    <Corbis:HyperLink ID="hyperLink" runat="server" NavigateUrl='<%# DataBinder.Eval(Container.DataItem, "NavigateUrl") %>'>
+                        <div class="Tab" id="tab" runat="server">
+                            <div class="Icon"><img alt="" src="<%# DataBinder.Eval(Container.DataItem, "ImageUrl") %>" onclick="window.location.href='<%# DataBinder.Eval(Container.DataItem, "NavigateUrl") %>';" onload="FixPng(this);" class="displayNone"/></div>
+                            <span class="Title"><Corbis:Localize ID="label" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "Text") %>'></Corbis:Localize></span>
+                        </div>
+                    </Corbis:HyperLink>
+                </ItemTemplate>
+            </asp:Repeater>
+            <div id="ApplyForCredit" class="ApplyForCredit" runat="server">
+                <Corbis:HyperLink ID="applyCredit" runat="server" meta:resourcekey="applyCredit" />
+            </div>
+        </div>
+        <div id="AccountsRound" class="rc5px clear">
+            <div class="Top">
+                <div class="Left"><div class="Right"><div class="Center">&nbsp;</div></div></div>
+            </div>
+        </div>
+        <div id="AccountsContent">
+            <asp:ContentPlaceHolder ID="accountsContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="AccountsRound" class="rc5px clear">
+            <div class="Bottom">
+                <div class="Left"><div class="Right"><div class="Center">&nbsp;</div></div></div>
+            </div>
+        </div>
+        
+        <Corbis:ModalPopup ID="sessionTimeout" ContainerID="sessionTimeout" runat="server"  meta:resourcekey="sessionTimeoutTitle"  CloseScript="window.location=window.location">
+            <Corbis:Localize ID="sessionTimeoutMessage" runat="server" meta:resourcekey="sessionTimeoutMessage" />
+		    <Corbis:GlassButton CssClass="closeSuccess"   ID="closeSessionTimeout" runat="server" OnClientClick="window.location=window.location" ButtonStyle="Orange" ButtonBackground="dbdbdb"  meta:resourcekey="closeButton" />
+	    </Corbis:ModalPopup> 
+    </div>
+</asp:Content>

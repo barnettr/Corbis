@@ -1,0 +1,218 @@
+.GlassButton
+{
+    /*  this is for the new solution to fix the ie 7 redraw bug  */
+    padding-left: 4px;
+    display:inline-block;
+}
+
+
+.btnOrangedbdbdb,
+.btnOrangedbdbdb .Right,
+.btnOrangedbdbdb .Center
+{
+	/* TODO: need sprite for #dbdbdb, use #d8d8d8 for now */
+	/* REBRANDING
+	background-image: url("../../Images/btnOranged8d8d8.gif");
+	*/
+	background-image: url(/Images/btnBlued8d8d8.gif);
+}
+
+.btnOrangee8e8e8,
+.btnOrangee8e8e8 .Right,
+.btnOrangee8e8e8 .Center
+{
+	/* REBRANDING
+	background-image: url("../../Images/btnOrangee8e8e8.gif");
+	*/
+	background-image: url(/Images/btnBluee8e8e8.gif);
+}
+
+.btnOrange363636,
+.btnOrange363636 .Right,
+.btnOrange363636 .Center
+{
+	/* REBRANDING
+	background-image: url("../../Images/btnOrange363636.gif");
+	*/
+	background-image: url(/Images/btnBlue363636.gif);
+}
+
+.btnOrange4b4b4b,
+.btnOrange4b4b4b .Right,
+.btnOrange4b4b4b .Center
+{
+	/* REBRANDING
+	background-image: url("../../Images/btnOrange4b4b4b.gif");
+	*/
+	background-image: url(/Images/btnBlue4b4b4b.gif);
+}
+
+.btnGraydbdbdb,
+.btnGraydbdbdb .Right,
+.btnGraydbdbdb .Center
+{
+	/* [REBRANDING TODO] replace image */
+	background-image: url("../../Images/btnGrayd8d8d8.gif");
+}
+
+.btnGray363636,
+.btnGray363636 .Right,
+.btnGray363636 .Center
+{
+	/* [REBRANDING TODO] replace image */
+	background-image: url("../../Images/btnGray363636.gif");
+}
+
+.btnGraye8e8e8,
+.btnGraye8e8e8 .Right,
+.btnGraye8e8e8 .Center
+{
+    /* [REBRANDING TODO] replace image */
+	background-image: url("../../Images/btnGraye8e8e8.gif");
+}
+
+.btnOutlinedbdbdb,
+.btnOutlinedbdbdb .Right,
+.btnOutlinedbdbdb .Center
+{
+	/* REBRANDING
+	background-image: url("../../Images/btnOutlinedbdbdb.gif");
+	color: #DD602B;
+	*/
+	background-image: url(/Images/btnOutlineBluedbdbdb.gif);
+	color: #4385C0;
+}
+
+.btnOutlinedbdbdb a
+{
+	white-space: nowrap;
+	text-decoration: none;
+	display: block;
+	line-height: 20px;
+	height: 16px;
+	margin: 0 5px;
+}
+.btnOutlinedbdbdb a:active, .btnOutlinedbdbdb a:hover
+{
+	text-decoration: none;
+	/* REBRANDING
+	border-bottom: dotted 1px #dd602b;
+	*/
+	border-bottom: dotted 1px #4385C0;
+}
+
+.GlassButton .Right, 
+.GlassButton .Center 
+{
+	cursor:pointer;
+	display:inline-block;
+	height:21px;
+	vertical-align:top;
+}
+
+.GlassButton .Right 
+{
+	background-position:right -22px;
+	background-repeat:no-repeat;
+	padding-right:5px;
+}
+
+.GlassButton .Center 
+{
+	background-position:0px -44px;
+	background-repeat:repeat-x;
+	margin:0px;
+}
+.GlassButton span input 
+{
+	background-color:transparent;
+	border:medium none;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:22px;
+	padding-left:9px;
+	padding-right:9px;
+}
+
+
+.GlassButton
+{
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	padding-left: 5px;
+	vertical-align:middle;
+}
+
+.GlassButton .Center
+{
+	background-position: 0px -44px;
+	background-repeat: repeat-x;
+
+	/*Mike: this is to fix safari bug */
+	margin:0px;
+}
+
+.GlassButton:hover 
+{
+	background-position: 0px -66px;
+}
+
+.GlassButton:hover .Right
+{
+	background-position: right -88px;
+}
+
+.GlassButton:hover .Center
+{
+	background-position: 0px -110px;
+}
+
+.DisabledGlassButton
+{
+	filter:alpha(opacity=60) !important;
+	opacity:0.6;
+	cursor:default;
+}
+
+.DisabledGlassButton a:hover
+{
+	cursor:default;
+	border-bottom: 0;
+}
+
+.DisabledGlassButton .Left,
+.DisabledGlassButton .Right,
+.DisabledGlassButton .Center
+{
+	filter:alpha(opacity=100) !important;
+	opacity:1.5;
+	cursor:default;
+}
+
+.DisabledGlassButton:hover
+{
+	background-position: 0px 0px;
+}
+
+.DisabledGlassButton:hover .Right
+{
+	background-position:right -22px;
+}
+
+.DisabledGlassButton:hover .Center
+{
+	background-position: 0px -44px;
+}
+
+.progressSignal
+{
+	line-height:30px;
+	width: 25px;
+	display:inline-block;
+}
+
+.progressSignal img
+{
+	vertical-align:middle;
+	margin-left:3px;
+}

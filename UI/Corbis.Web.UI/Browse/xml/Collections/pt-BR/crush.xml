@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Collection>
+	<Title>Crush: Fotografia com direitos controlados</Title>
+	<Copy>
+		<![CDATA[
+		
+    <p>
+    <b>Sofisticação luxuosa</b><br />
+   Representando uma mostra do trabalho refinado dos principais fotógrafos de propaganda comercial da atualidade, Crush oferece imagens de flagrantes com estilo e altamente idealizadas, para valorizar as marcas modernas.
+		</p>
+		]]>
+	</Copy>
+	<!--<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>
+	<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>-->
+	
+		<Slideshow Url="xml/Collections/Flash/collections.swf" Width="600" Height="450" Flashvars="xmlfile:'xml/Collections/pt-br/crush/gallery.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes=""><NoFlashCopy>
+			<![CDATA[
+			<p>
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtenha o Adobe Flash player" localize="true"  />
+				</a>
+			</p>
+			]]>		
+		</NoFlashCopy>
+	</Slideshow>
+</Collection>

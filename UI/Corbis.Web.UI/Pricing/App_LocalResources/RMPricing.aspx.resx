@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AsPerContract" xml:space="preserve">
+    <value>Per Contract</value>
+  </data>
+  <data name="attributeValueNoLongerValid.ErrorMessage" xml:space="preserve">
+    <value>The original selected value is no longer valid</value>
+  </data>
+  <data name="cancelClose.Text" xml:space="preserve">
+    <value>Finish pricing images now.</value>
+  </data>
+  <data name="cancelSave.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="chatHyperlink.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="confirmClose.Message" xml:space="preserve">
+    <value>To save your price, you must price your image and then &lt;b&gt;add it to your cart or lightbox&lt;/b&gt;.</value>
+  </data>
+  <data name="confirmClose.Title" xml:space="preserve">
+    <value>You haven't finished pricing.</value>
+  </data>
+  <data name="ContactOutline" xml:space="preserve">
+    <value>Contact Outline</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="continueClose.Text" xml:space="preserve">
+    <value>Close without saving changes.</value>
+  </data>
+  <data name="customPriceExpiredFavoriteUse.Message" xml:space="preserve">
+    <value>&lt;p&gt;You've selected a favorite use with special pricing applied by a  &lt;a href="{0}" &gt;Corbis Representative&lt;/a&gt;, and this special pricing has expired.&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Please price this image, or contact a Corbis Representative for Pricing Assistance.&lt;/p&gt;</value>
+  </data>
+  <data name="customPriceExpiredPopup.Title" xml:space="preserve">
+    <value>Special pricing expired</value>
+  </data>
+  <data name="customPriceExpiredPriceNowBtn.Text" xml:space="preserve">
+    <value>Price Now</value>
+  </data>
+  <data name="customPriceExpiredSingleItem.Message" xml:space="preserve">
+    <value>&lt;p&gt;The special pricing applied by a Corbis Representative has expired.&lt;/p&gt;&lt;br /&gt;&lt;p&gt;Please price this image, or contact a &lt;a href="{0}" &gt;Corbis Representative&lt;/a&gt; for pricing assistance.&lt;/p&gt;</value>
+  </data>
+  <data name="customPricingHeader.Text" xml:space="preserve">
+    <value>Custom pricing</value>
+  </data>
+  <data name="DateBeforeTodayError" xml:space="preserve">
+    <value>The start date cannot be before today's date.</value>
+  </data>
+  <data name="errorMsgFavorSave.Text" xml:space="preserve">
+    <value>This name already exists. Please enter a new name.</value>
+  </data>
+  <data name="exclusiveRightsHyperLink.Text" xml:space="preserve">
+    <value>Contact us for exclusive rights or multiple uses.</value>
+  </data>
+  <data name="favoriteUseInstructionsLabel.Text" xml:space="preserve">
+    <value>Save time by starting with a Favorite Use.</value>
+  </data>
+  <data name="FavoriteUseTitle.Text" xml:space="preserve">
+    <value>FAVORITE USE:</value>
+  </data>
+  <data name="favorPopupsaved1.Text" xml:space="preserve">
+    <value>Your favorite use</value>
+  </data>
+  <data name="favorPopupsaved2.Text" xml:space="preserve">
+    <value>has been successfully saved.</value>
+  </data>
+  <data name="favorPopupSavedTitle.Text" xml:space="preserve">
+    <value>Favorite Use saved</value>
+  </data>
+  <data name="favorPopupTitleOops.Text" xml:space="preserve">
+    <value>Alert!</value>
+  </data>
+  <data name="geographyNoLongerValue.ErrorMessage" xml:space="preserve">
+    <value>One or more original geographies are no longer valid</value>
+  </data>
+  <data name="InvalidDateError" xml:space="preserve">
+    <value>Please enter a valid date.</value>
+  </data>
+  <data name="lblPricingFooterDisclaimer.Text" xml:space="preserve">
+    <value>Files downloaded directly from our website are in JPEG format.&lt;br /&gt;If you need a TIFF or larger output size, please &lt;a target="_blank" href="/Corporate/ContactUs.aspx"&gt;contact Customer Service&lt;/a&gt;</value>
+  </data>
+  <data name="learnMoreHyperLink.Text" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="learnMorePopup.Message" xml:space="preserve">
+    <value>With Rights Managed images, you are purchasing a license to use the image, not purchasing the image itself.  In order to determine the price and restrictions on an image, you will be asked to provide information regarding how you plan to use it.&lt;br /&gt;&lt;br /&gt;For help answering any questions, try our live Chat or &lt;a id="learnMoreContactLink" href="javascript:void(0);" onclick="javascript:CorbisUI.ContactCorbis.ShowContactCorbisModal(this);return false;"&gt;Contact Corbis&lt;/a&gt;.</value>
+  </data>
+  <data name="learnMorePopup.Title" xml:space="preserve">
+    <value>Pricing a Rights Managed image</value>
+  </data>
+  <data name="LicenseAlertMessage" xml:space="preserve">
+    <value>&lt;b&gt;LICENSE ALERT!&lt;/b&gt;
+These license options have recently changed. Please update your selection by answering the highlighted questions below.</value>
+  </data>
+  <data name="licenseDetailsEmpty.Text" xml:space="preserve">
+    <value>&lt;font style="color: red;"&gt;Please answer the questions on the left.&lt;/font&gt;</value>
+  </data>
+  <data name="licenseDetailsHeader.Text" xml:space="preserve">
+    <value>License details</value>
+  </data>
+  <data name="lnkViewRestrictions.Text" xml:space="preserve">
+    <value>View restrictions</value>
+  </data>
+  <data name="MoreInfo.Text" xml:space="preserve">
+    <value>With Rights Managed images, you are purchasing a license to use the image, not purchasing the image itself. In order to determine the price and restrictions on an image, you will be asked to provide information regarding how you plan to use it. For help answering any questions, try our Live Chat or contact a Corbis representative directly at 1-866-267-2473 (select option 2 at the prompt) or by email at &lt;a href="mailto:sales@corbis.com"&gt;sales@corbis.com&lt;/a&gt;.</value>
+  </data>
+  <data name="MoreInfoHeader.Text" xml:space="preserve">
+    <value>Pricing a Rights Managed image</value>
+  </data>
+  <data name="NotEcommerceEnabled" xml:space="preserve">
+    <value>Request Price</value>
+  </data>
+  <data name="or.text" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="orLabel.Text" xml:space="preserve">
+    <value>OR</value>
+  </data>
+  <data name="pageSubTitle.Text" xml:space="preserve">
+    <value>RIGHTS MANAGED</value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Price image</value>
+  </data>
+  <data name="pricedByAEFavoriteUse.Text" xml:space="preserve">
+    <value>This Favorite Use has been specially priced for you by your Account Executive.</value>
+  </data>
+  <data name="pricedByAEReviewLicense.Text" xml:space="preserve">
+    <value>Please review the License details to the right.</value>
+  </data>
+  <data name="pricedByAESingleItem.Text" xml:space="preserve">
+    <value>This item has been specially priced for you by your Corbis Representative.</value>
+  </data>
+  <data name="pricedByAEstartDateCancelButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="pricedByAEStartDateEditAnchor.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="pricedByAEStartDateError.Text" xml:space="preserve">
+    <value>Please provide a valid start date.</value>
+  </data>
+  <data name="pricedByAEstartDateSaveButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="pricedByAEStartDateTitle.Text" xml:space="preserve">
+    <value>Your start date is:</value>
+  </data>
+  <data name="pricedByAETitle.Text" xml:space="preserve">
+    <value>PRICING ALERT</value>
+  </data>
+  <data name="PriceNowButton.Text" xml:space="preserve">
+    <value>Price now</value>
+  </data>
+  <data name="priceStatusCloseButton.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="priceStatusPopup.Message" xml:space="preserve">
+    <value>&lt;p class=bold&gt;Your selected image is not available for
+Online Checkout.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Please add this image to your cart or lightbox&lt;/b&gt;. Then navigate to that location and click the "Contact us" link under your image to request assistance. &lt;/p&gt;</value>
+  </data>
+  <data name="priceStatusPopup.Title" xml:space="preserve">
+    <value>Pricing Alert</value>
+  </data>
+  <data name="printImgHyperlink.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="questionsLabel.Text" xml:space="preserve">
+    <value>Answer a few questions to calculate price.</value>
+  </data>
+  <data name="RequestPrice" xml:space="preserve">
+    <value>Request Price</value>
+  </data>
+  <data name="restrictionsPopup.Title" xml:space="preserve">
+    <value>Restrictions</value>
+  </data>
+  <data name="SaveFavoriteUse.Text" xml:space="preserve">
+    <value>Save this Favorite Use</value>
+  </data>
+  <data name="saveFavoriteUseButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="saveFavoriteUsePopUpLabel.Text" xml:space="preserve">
+    <value>Name and save this Favorite Use:</value>
+  </data>
+  <data name="selectFavoriteUseLabel.Text" xml:space="preserve">
+    <value>SELECT A FAVORITE USE</value>
+  </data>
+  <data name="SelectOne" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="selectType.Text" xml:space="preserve">
+    <value>Select a specific use</value>
+  </data>
+  <data name="selectUseCategory.Text" xml:space="preserve">
+    <value>Select a use category</value>
+  </data>
+  <data name="createAnewUseLabel.Text" xml:space="preserve">
+    <value>CREATE A NEW USE</value>
+  </data>
+  <data name="startOverLink.Text" xml:space="preserve">
+    <value>Start over</value>
+  </data>
+  <data name="UnavailableGeographyText" xml:space="preserve">
+    <value>(Unavailable)</value>
+  </data>
+  <data name="useCategoriesDropDown.PromptText" xml:space="preserve">
+    <value>Select a use category</value>
+  </data>
+  <data name="useCategory.ErrorMessage" xml:space="preserve">
+    <value>Invalid Category</value>
+  </data>
+  <data name="useCategoryError.Text" xml:space="preserve">
+    <value>Select a Valid Category</value>
+  </data>
+  <data name="useCategoryLicenseDetails.Text" xml:space="preserve">
+    <value>Use Category:</value>
+  </data>
+  <data name="useCategoryNoLongerValid.ErrorMessage" xml:space="preserve">
+    <value>The original category is no longer valid</value>
+  </data>
+  <data name="useCategoryNoLongerValid.Text" xml:space="preserve">
+    <value>Select a new Category</value>
+  </data>
+  <data name="useFavoriteUse.PromptText" xml:space="preserve">
+    <value>Select a Favorite Use</value>
+  </data>
+  <data name="useType.ErrorMessage" xml:space="preserve">
+    <value>Invalid Use Type</value>
+  </data>
+  <data name="useTypeError.Text" xml:space="preserve">
+    <value>Select a use type</value>
+  </data>
+  <data name="useTypeLicenseDetails.Text" xml:space="preserve">
+    <value>Use Type:</value>
+  </data>
+  <data name="useTypeNoLongerValid.ErrorMessage" xml:space="preserve">
+    <value>The original Use Type is no longer valid</value>
+  </data>
+  <data name="useTypeNoLongerValid.Text" xml:space="preserve">
+    <value>Select a new Use Type</value>
+  </data>
+  <data name="useTypesDropDown.PromptText" xml:space="preserve">
+    <value>Select a specific use</value>
+  </data>
+  <data name="chatDiv.Title" xml:space="preserve">
+    <value>Chat with a Corbis Representative</value>
+  </data>
+  <data name="printDiv.Title" xml:space="preserve">
+    <value>Print this</value>
+  </data>
+  <data name="SaveFavoriteUseToolTip" xml:space="preserve">
+    <value>Now you can save this Rights Managed (RM) license information so you can apply it when pricing future RM images (without having to re-answer questions).</value>
+  </data>
+  <data name="SaveFavoriteUseToolTipHeader" xml:space="preserve">
+    <value>Saving a Favorite Use</value>
+  </data>
+  <data name="ProvideValid_ImageSize" xml:space="preserve">
+    <value>Please provide a valid Image Size.</value>
+  </data>
+  <data name="ProvideValid_Placement" xml:space="preserve">
+    <value>Please provide a valid Placement.</value>
+  </data>
+  <data name="ProvideValid_CirculationPrintRun" xml:space="preserve">
+    <value>Please provide a valid Total Circulation.</value>
+  </data>
+  <data name="ProvideValid_Geography" xml:space="preserve">
+    <value>Please provide a valid Geography.</value>
+  </data>
+  <data name="ProvideValid_Exposure" xml:space="preserve">
+    <value>Please provide a valid Exposure.</value>
+  </data>
+  <data name="ProvideValid_Industry" xml:space="preserve">
+    <value>Please provide a valid Industry.</value>
+  </data>
+  <data name="ProvideValid_Duration" xml:space="preserve">
+    <value>Please provide a valid Duration.</value>
+  </data>
+  <data name="ProvideValid_LicenseStartDate" xml:space="preserve">
+    <value>Please provide a valid License Start Date.</value>
+  </data>
+  <data name="PriceNowButton.ToolTip" xml:space="preserve">
+    <value>Please ensure that you've answered all the pricing questions above.</value>
+  </data>
+  <data name="genericErrorMessage.Text" xml:space="preserve">
+    <value>Please enter valid information for the highlighted field(s)</value>
+  </data>
+</root>

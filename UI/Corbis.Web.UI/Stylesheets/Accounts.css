@@ -1,0 +1,1323 @@
+/* My Profile Page Styles
+
+Header and Main Styles */
+#accountsMasterContent
+{
+	min-height:500px;
+}
+	
+#AccountsContent
+{
+	clear: both;
+	color: #000;
+	padding:0px 10px 8px 20px;
+	margin-top:5px;
+	margin-left:20px;
+	width:927px;
+	display: inline-block;
+}
+
+.AccountsContentExpanded
+{
+	clear: both;
+	color: #000;
+	padding:0px 10px 0px 20px;
+	margin-top:5px;
+	width:927px;
+}
+
+.AccountsContentExpanded_noPaymentPane
+{
+	clear: both;
+	color: #000;
+	padding:0px 10px 0px 20px;
+	margin-top:5px;
+	width:927px;
+}
+
+#AccountsNavigation
+{
+	float: left;       
+	height: 80px;
+	width: 956px;
+}
+
+#AccountsNavigation .MyAccount
+{
+	color: #b7b7b7;
+	float: left;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 33px;
+	min-width: 134px;
+	padding-right: 10px; 
+	text-align: center;
+}
+
+#AccountsNavigation .Tab
+{
+	float: left;
+	height: 80px;
+	margin-left: -9px;
+	text-align: center;
+	width: 110px;
+}
+
+#AccountsNavigation .Tab a
+{
+	border-bottom: none;
+}
+
+#AccountsNavigation .Tab .Icon
+{
+	height: 50px;
+	text-align:center;
+	width: 100px;
+}
+
+#AccountsNavigation .Tab .Icon  img
+{
+    margin: 0 auto;
+    padding-left:7px;
+    padding-top:5px;
+}
+
+#AccountsNavigation .Tab .Title
+{
+	color: #b7b7b7;
+	display:inline-block;
+	font-size: 10px;
+	height: 30px;
+	line-height: 12px;
+	margin-top:-5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	width: 90px;
+}
+
+#AccountsNavigation .ApplyForCredit
+{
+	float: right;
+	margin-top: 13px;
+	padding-right: 12px;
+	text-align: right;
+	width: 88px;
+}
+
+#AccountsNavigation .ApplyForCredit a
+{
+	border: none;
+	text-align: center;
+}
+
+#AccountsRound
+{
+	width: 976px;
+}
+#AccountsRound .Top
+{
+	margin-left:20px;
+}
+#AccountsRound .Bottom
+{
+	margin-left:20px;
+}
+
+/* MyProfile Accordian Styles */
+
+#ProfileContent
+{
+	color: #000;
+}
+
+#ProfileContent .PaneContent
+{
+	padding: 0px 10px 15px 10px;
+	width: 907px;
+}
+
+#ProfileContent .PaneContent .FormRight
+{
+	width: 100%;
+}
+
+#ProfileContent .PaneContent .PaneContentLead
+{
+	padding: 12px 0px 12px 0px;
+}
+
+#ProfileContent .PaneContentRound
+{
+	overflow:hidden;
+}
+#ProfileContent .PaneContentRoundActive
+{
+	overflow:visible !important;
+}
+
+#ProfileContent .PaneHeader,
+#ProfileContent .PaneHeader .Right,
+#ProfileContent .PaneHeader .Right .Center,
+#ProfileContent .PaneHeaderExpanded,
+#ProfileContent .PaneHeaderExpanded .Right,
+#ProfileContent .PaneHeaderExpanded .Right .Center
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	height: 34px;
+	overflow: hidden !important;
+}
+
+#ProfileContent .PaneHeader,
+#ProfileContent .PaneHeaderExpanded
+{
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+#ProfileContent .PaneHeader .Right,
+#ProfileContent .PaneHeaderExpanded .Right
+{
+	padding-right: 5px;
+}
+
+#ProfileContent .PaneHeader .Right .Center,
+#ProfileContent .PaneHeaderExpanded .Right .Center
+{
+	background-repeat: repeat-x;
+	color: #a1a1a1;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 9px 0px 11px 13px;
+}
+
+#ProfileContent .PaneHeader
+{
+	background-position: 0px 0px;
+}
+
+#ProfileContent .PaneHeader:hover
+{
+	background-position: 0px -102px;
+}
+
+#ProfileContent .PaneHeader:hover .Right
+{
+	background-position: right -136px;
+}
+
+#ProfileContent .PaneHeader:hover .Right .Center
+{
+	background-position: 0px -170px;
+}
+
+#ProfileContent .PaneHeaderExpanded
+{
+	background-position: 0px -204px;
+}
+
+#ProfileContent .PaneHeaderExpanded .Right
+{
+	background-position: right -238px;
+}
+
+#ProfileContent .PaneHeaderExpanded .Right .Center
+{
+	background-position: 0px -272px;
+}
+
+#ProfileContent .TitleBar
+{          
+    background-color:#363636;
+    border-bottom:0;
+	padding-bottom: 7px;
+	padding-top: 5px;
+}
+
+#ProfileContent .TitleBar .Title
+{
+	color: #666666;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#ProfileContent .Delete
+{
+	border-left: solid 1px #c3c3c3;
+	padding: 0px 6px 0px 10px;
+}
+
+#ProfileContent .Edit
+{
+	margin: 0px 8px 0px 16px;
+}
+
+#ProfileContent .Empty
+{
+	padding-top: 12px;
+}
+
+#ProfileContent .IWant
+{
+	clear: both;
+	padding-bottom: 6px;
+	padding-top: 17px;
+	width: 100%;
+}
+
+#ProfileContent .IWantShipping
+{
+	clear: both;
+	padding-bottom: 6px;
+	padding-top: 8px;
+	width: 100%;
+}
+
+#ShippingInfoDetail
+{
+	float: left;
+	margin-right: 2px;
+	margin-bottom: 11px;
+	overflow: hidden;
+	padding: 0px 8px 9px 8px;
+	width: 432px;
+}
+
+#ShippingInfoDetail .Title
+{
+	float: left;
+	height: 12px;
+	line-height: 12px;
+	padding: 6px 0px 6px 0px;
+	width: 100%;
+}
+
+#PreferencesDetail .PaneContentLead
+{
+	font-size: 14px;
+}
+
+#PreferencesDetail .EmailPreferences,
+#PreferencesDetail .DirectMailPreferences,
+#PreferencesDetail .PaymentAndShippingPreferences
+{
+	padding: 10px;
+}
+
+#PreferencesDetail .EmailPreferences,
+#PreferencesDetail .DirectMailPreferences
+{
+	margin-bottom: 2px;
+}
+
+#PreferencesDetail .EmailPreferences .EmailLanguageControls
+{
+	background: url("../Images/dividerHorizontal.gif") bottom repeat-x;
+	padding-bottom: 11px;
+}
+
+#PreferencesDetail .EmailPreferences .EmailOptInControls
+{
+	line-height: 14px;
+}
+
+#PreferencesDetail .EmailPreferences .EmailOptInControls
+{
+	line-height: 14px;
+	padding-top: 10px;
+}
+
+#PreferencesDetail .DirectMailPreferences .DirectMailAddress
+{
+	background: url("../Images/dividerHorizontal.gif") top repeat-x;
+	line-height: 14px;
+	margin-top: 10px;
+	padding-left: 9px;
+	padding-top: 11px;
+}
+
+#PreferencesDetail .DirectMailPreferences .DirectMailAddress .Edit
+{
+	margin-left: 18px;
+}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Payment
+{
+	float: left;
+	line-height: 30px;
+}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Payment td.alignRightPreference
+{
+	white-space: nowrap;
+}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Payment .PaymentRight
+{
+	padding:0 0 0 8px;
+	width:900px !important;
+}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Shipping
+{
+	float: left;
+	margin-left: 13px;
+}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .Shipping select
+{
+	margin-left: 5px;
+}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .ExpressCheckout
+{
+}
+
+#PreferencesDetail .PaymentAndShippingPreferences .Preferred .ExpressCheckout img
+{
+	margin-left: 5px;
+}
+
+#PreferencesDetail .PreferencesButtons
+{
+	padding-top: 11px;
+	padding-bottom:18px;
+	display:inline-block;
+}
+
+#PreferencesDetail .PreferencesButtons .GlassButton
+{
+	margin-right: 6px;
+}
+
+.DefaultAddress
+{
+	border: solid 1px #c3c3c3 !important;
+}
+#personalInfoModalPopup, 
+#editBusinessInformationModalPopup, 
+.ChangePasswordContent, 
+#paymentTargetModalPopup, 
+#editShippingAddressModalPopup,
+#editMailingAddressModalPopup,
+#changeSuccessDiv,
+#changePasswordSuccessDiv
+{
+	width: 350px;
+}
+/* Styles for Modal Popups in My profile- My Account*/
+
+/*#personalInfoModalPopup,
+#editBusinessInformationModalPopup,
+#editShippingAddressModalPopup,
+#editMailingAddressModalPopup,
+#paymentTargetModalPopup
+{
+	z-index:99999;
+	background-color:#dbdbdb;
+	filter: alpha(opacity=100);
+	opacity: 1.0;
+	
+}*/
+
+
+#modalPaymentTargetWindow
+{
+	height:555px !important;
+}
+
+
+#personalInfoModalPopupWindow,
+#editBusinessInformationModalPopupWindow,
+#editShippingAddressModalPopupWindow,
+#editMailingAddressModalPopupWindow,
+#modalPaymentTargetWindow
+{
+	margin:10px 0;
+	filter: alpha(opacity=100);
+	opacity: 1.0;	
+	z-index:99999 !important;
+	
+}
+
+#personalInfoModalPopupWindow .FormButtons,
+#editBusinessInformationModalPopupWindow .FormButtons,
+#editShippingAddressModalPopupWindow .FormButtons,
+#editMailingAddressModalPopupWindow .FormButtons,
+#modalPaymentTargetWindow .FormButtons
+{
+	/*margin:10px 0;*/
+	background-color:#DBDBDB;
+	overflow:visible;	
+}
+
+#personalInfoModalPopupWindow .FormLeft,
+#editBusinessInformationModalPopupWindow .FormLeft,
+#editShippingAddressModalPopupWindow .FormLeft,
+#editMailingAddressModalPopupWindow .FormLeft,
+#modalPaymentTargetWindow .FormLeft
+{
+	width:120px;
+} 
+
+.addEditCreditCardDiv .FormRight input
+{
+	margin-bottom: 6px;
+}
+.addEditCreditCardDiv .FormRight select
+{
+    margin-bottom: 6px;
+    border-top: 1px solid #dbdbdb;
+}
+
+#personalInfoModalPopupWindow  .FormRight,
+#editBusinessInformationModalPopupWindow .FormRight,
+#editShippingAddressModalPopupWindow  .FormRight,
+#modalPaymentTargetWindow  .FormRight
+{
+	width:220px;
+}
+
+#editMailingAddressModalPopupWindow .FormRight
+{
+	width:200px;
+}
+
+#personalInfoModalPopupWindow .FormLeft span,
+#editBusinessInformationModalPopupWindow .FormLeft span,
+#editShippingAddressModalPopupWindow .FormLeft span,
+#editMailingAddressModalPopupWindow .FormLeft span,
+#modalPaymentTargetWindow .FormLeft span
+{
+	margin-right:0;
+}
+#personalInfoModalPopupWindow .FormRow,
+#editBusinessInformationModalPopupWindow .FormRow,
+#editShippingAddressModalPopupWindow .FormRow,
+#editMailingAddressModalPopupWindow .ErrorRow,
+#modalPaymentTargetWindow .FormRow
+{	
+	background-color:#E8E8E8 !important;
+}
+
+#personalInfoModalPopupWindow .GlassButton,
+#editBusinessInformationModalPopupWindow .GlassButton,
+#editShippingAddressModalPopupWindow .GlassButton,
+#editMailingAddressModalPopupWindow .GlassButton,
+#modalPaymentTargetWindow .GlassButton
+{
+	float:none;
+}
+
+.creditCardField
+{
+	width: 230px;
+}
+/* End for Styles for Modal Popups in My profile- My Account*/
+
+#DirectMailDisplay
+{
+	margin-left: 10px;
+}
+
+.expiringOrderText
+{
+	color: #ff0;
+	font-weight:bold;
+}
+
+.expiredOrderText
+{
+	color: #f00;
+	font-weight:bold;
+}
+
+#orderHistory .OrderHistoryHeading
+{
+	/*padding-bottom: 10px;*/
+}
+
+#orderHistory .OrderHistoryContent
+{
+	/*padding: 10px;*/
+	background-color:#d8d8d8;
+}
+
+
+#orderHistory .OrderHistoryRecords
+{
+	float:left;
+	color: #000;
+	width:734px;
+}
+
+
+
+#orderHistory .OrdersPerPage20Selected
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	float:left;
+}
+
+#orderHistory .OrdersPerPage40Selected
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	background-position: -15px 0px;
+	height: 16px;
+	width: 15px;
+	float:left;
+}
+
+#orderHistory .OrdersPerPage80Selected
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	background-position: -30px 0px;
+	height: 16px;
+	width: 15px;
+	float:left;
+}
+
+#orderHistory .OrdersPerPage100Selected
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	background-position: -45px 0px;
+	height: 16px;
+	width: 15px;
+	float:left;
+}
+
+#orderHistory .OrdersPerPage20
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0px -16px;
+	float:left;
+}
+
+#orderHistory .OrdersPerPage40
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: -15px -16px;
+	float:left;
+}
+
+#orderHistory .OrdersPerPage80
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: -30px -16px;
+	float:left;
+}
+
+#orderHistory .OrdersPerPage100
+{
+	background-image: url(../Images/iconOrdersPerPage.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: -45px -16px;
+	float:left;
+}
+
+#orderHistory .ListDisplay
+{
+	background-image: url(../Images/iconListDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0px -16px;
+	float:left;
+}
+
+#orderHistory .ThumbNailDisplay
+{
+	background-image: url(../Images/iconThumbnailDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0px -16px;
+	float:left;
+}
+
+#orderHistory .ListDisplaySelected
+{
+	background-image: url(../Images/iconListDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0px 0px;
+	float:left;
+}
+
+#orderHistory .ThumbNailDisplaySelected
+{
+	background-image: url(../Images/iconThumbnailDisplayOption.gif);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 15px;
+	background-position: 0px 0px;
+	float:left;
+}
+
+#orderHistory .ToolTipPopupTop
+{
+	background-color: #808080;
+	padding: 10px;
+	color: darkGray;
+	font-size: medium;
+}
+
+#orderHistory .ToolTipPopupBottom
+{
+	background-color: #fff;
+	padding: 10px;
+	color: #000;
+
+}
+
+
+#orderHistory .PagingHeader
+{
+	
+}
+
+#orderHistory .PagingTitle
+{
+	padding-top:1px;
+	padding-bottom:3px;
+	float:left;
+		
+}
+
+#orderHistory .PagingControl
+{
+	float:right;
+}
+
+#OrderHistory .PaginControlNextEnabled
+{
+	background-image:url(../src/Images/PreviousButtonEnabled.PNG);
+}
+
+.OrderHistoryRecords .OrderHistoryRecordProjectName
+{
+	color:#4385C0;
+	width:100%;
+	clear:both;
+	font-weight:bold;	
+	border:none 1px yellow;
+	margin-bottom:5px;
+	padding-top:0px;
+	padding-left:12px;
+}
+
+#orderHistoryContentMain .OrderHistoryRecordsDetailsExpirations
+{
+	
+	color:Black;
+	padding-bottom:15px;
+	padding-top:0px;
+	float:right;
+	width:314px;	
+	height:30px;	
+	
+}
+
+#orderHistoryContentMain .OrderHistoryRecordsDetailsTotal
+{
+	
+	color:Black;	
+	
+	padding-bottom:15px;
+	padding-top:0px;
+	width:210px;
+	float:right;
+	height:30px;
+}
+
+#orderHistoryContentMain .OrderHistoryRecordsDetailsDate
+{
+	
+	color:black;		
+	padding-bottom:15px;
+	padding-top:0px;
+	width:198px;
+	height:30px;
+	float:right;
+}
+
+#orderHistoryContentMain .OrderDetailsProjectName
+{
+	font-weight:bold;
+	
+}
+#orderHistoryContentMain .Seperator
+{	
+	background-image:url(../Images/divider.gif);
+	background-repeat:repeat-x;
+	float:right;
+	width:100%;
+	clear:both;
+	height:1px;
+	padding-bottom:10px;
+}
+
+
+#Pager .PagerLabel
+{
+	padding: 13px 11px 12px 0px;
+	height:10px;
+	font-size:10px;
+}
+
+#Pager .PagerLabelRight
+{
+	padding: 13px 11px 12px 0px;
+	height:10px;
+	font-size:10px;
+}
+
+
+#orderHistory .Content
+{
+	background-color:#E8E8E8;
+	padding:23px 12px;
+	color:Black;
+}
+
+#orderHistory .OrderRecordTitle
+{
+	color:Black;
+	font-weight:bold;
+	padding-bottom:40px;
+    padding-top:20px;
+	padding-left:12px;
+	float:left;
+	border: none 1px red;
+	width:100%;
+}
+
+#orderHistory .OrderHistoryHeading
+{	
+
+	height:22px;
+	padding-bottom:12px;
+	
+}
+ .OrderHistoryHeading .Printer
+{
+	float:right;
+	padding-left:7px;
+	padding-right:7px;
+	margin-top:5px;
+	color:#fff;
+} 
+	
+ .OrderHistoryHeading .PageTitle
+ {
+	float:left;
+	padding-top:7px;
+	font-size:18px;
+	font-weight:bold;
+ }
+
+ .OrderHistoryHeading .ExpirationText
+{	
+	float:left;	
+	padding-top:10px;
+	padding-bottom:2px;
+	margin-left:10px;
+	vertical-align:bottom;
+	color:#dbdbdb;
+}
+
+
+#orderHistory .OrderHistoryContent
+{
+	/*padding: 12px 13px 16px 13px;*/
+	background-color:#d8d8d8;
+	color:Black;	
+	
+}
+
+.OrderHistoryContent .OrderHistoryContentPager ,
+.DetailsView .LightboxContentPager
+{
+	border-top:solid 1px #999;
+	border-bottom:solid 1px #999;
+	height:37px;
+	clear:left;	
+}
+
+.OrderHistoryContentPager .PagerLeft , 
+.LightboxContentPager .PagerLeft
+{   
+	float:left;
+	padding: 13px 0px 12px 0px;
+}
+
+.OrderHistoryContentPager .PagerRight , 
+.LightboxContentPager .PagerRight
+{
+	float:right;	
+	padding-top:6px;
+	padding-right:10px;
+}
+
+
+#headerHistory #Pager .PrevButton,
+#OrderHistorySearchResultsFooter #Pager .PrevButton
+{
+    background-image:url(../Images/btnPageArrowsd8d8d8.gif);
+    background-position:top left;
+}
+
+#headerHistory #Pager .NextButton,  
+#OrderHistorySearchResultsFooter #Pager .NextButton
+{
+    background-image:url(../Images/btnPageArrowsd8d8d8.gif);
+    background-position:top right;
+}
+
+#headerHistory #Pager .PrevButtonDisabled, 
+#OrderHistorySearchResultsFooter #Pager .PrevButtonDisabled
+{
+    background-image:url(../Images/btnPageArrowsd8d8d8.gif);
+    background-position:bottom left;
+}
+
+#headerHistory #Pager .NextButtonDisabled, 
+#OrderHistorySearchResultsFooter #Pager .NextButtonDisabled
+{
+    background-image:url(../Images/btnPageArrowsd8d8d8.gif);
+    background-position:bottom right;
+}
+
+#headerHistory #Pager .PagerLabelPostFix,
+#OrderHistorySearchResultsFooter #Pager .PagerLabelPostFix
+{
+	color:Black;
+}
+
+.OrderHistoryContent .OrderHistoryContentMain
+{
+	margin-top:23px;
+}
+
+#orderHistoryContentMain .OrderHistoryNav
+{
+	float: left;
+	width: auto;
+	color: #000;	
+	padding-right:30px;
+	padding-bottom:30px;
+}
+ .OrderHistoryNav .Title
+{
+	
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-top:20px;
+}
+.OrderHistoryNav .TitleSort
+{
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.OrderHistoryNav .NavigationContent
+{
+	margin-top:15px;
+	font-size:12px;
+	color:#dd6028;
+}
+
+.OrderHistoryNav  .NavigationSeparator
+{
+	padding-bottom:30px;
+	border-bottom:solid 1px #999;
+}
+
+#orderHistoryContentMain .OrderHistoryRecords
+{	
+	min-height: 80px;/*allow for height of nav control.*/
+	color: #000;
+}
+
+.OrderHistoryRecords .ProjectName
+{
+	color:#DD6028;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Trebuchet MS;
+}
+
+
+#orderHistory .ToolTipPopupTop
+{
+	background-color: #808080;
+	padding: 10px;
+	color: darkGray;
+	font-size: medium;
+}
+
+#orderHistory .ToolTipPopupBottom
+{
+	background-color: #fff;
+	padding: 10px;
+	color: #000;
+}
+
+#headerHistory 
+{
+    border-bottom:1px solid #999999;
+    border-top:1px solid #999999;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin: 3px 0;
+    padding-bottom:10px;
+    vertical-align: middle;
+    width: 98.5%;
+    
+}
+
+#headerHistory #imagePaging, #OrderHistorySearchResultsFooter #imagePaging
+{
+    display:block; 
+    float:right;
+    right:32px;
+    width: auto;
+}
+
+.imagePaging
+{
+    margin-right:6px;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+.itemsPerPageListHistory
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.labelOrderHistoryhHeader
+{
+    color:#1a1a1a;
+    margin-top:7px !important;
+}
+.floatLeft 
+{ 
+    float: left !important;
+    margin-left:10px;
+    padding-top:2px; 
+}
+.seperaterInSearchHeader
+{
+    border-right: 1px solid #999999;
+    width:10px;
+    height:28px !important;
+    margin-top:3px;
+}
+.sortOptionText
+{
+    color:#1a1a1a;
+    float:left;
+    font-weight:bold;
+}
+
+#sortBlockId
+{
+	margin:3px 5px;
+}
+.sortBlock
+{
+    background: url(../Images/BTN-gray-border-only.gif) no-repeat 0 0 !important;
+    border-bottom: 0;
+    float:left;
+    height: 24px !important;
+    position:relative; 
+    background-color:Transparent;
+    margin:0px 5px;
+}
+.sortBlock, .sortBlock .Right, .sortBlock .Center
+{
+    padding: 0 !important;
+}
+.sortBlock a
+{
+    border: 0;
+    color: white !important;
+    display: block;
+    font-size:12px;
+    height: 25px !important;
+}
+.sortBlock .Center
+{
+	background:transparent url(../Images/BTN-gray-border-only.gif) repeat-x scroll 0 -48px !important;
+	height:24px !important;
+	margin:0px 4px 0 3px !important;
+	padding:0 19px 0 6px !important;
+}	
+.sortBlock .Right
+{
+    background: url(../Images/BTN-gray-border-only.gif) no-repeat 100% -24px !important;
+    height: 24px !important;
+}
+.sortBlock .GlassButton
+{
+    padding:0;
+    text-transform:uppercase;
+}
+.sortBlock .GlassButton a
+{
+	font-size:11px;
+}
+    
+.mainShadowContainer, 
+.bottomLeftShadow,
+.topRightShadow
+{   
+    background-image: url(../Images/shadow.png) ;
+    background-repeat:no-repeat;
+}  
+
+.mainShadow 
+{
+    left:-2px;
+    margin:5px 0 0 -15px;
+    position:relative;
+    top:-4px !important;
+}
+ 
+.mainShadowContainer
+{   
+    background-position: right bottom;
+    left:17px;
+    padding:0 14px 14px 0;
+    position:relative;
+}   
+
+.bottomLeftShadow
+{
+    background-position:0 -611px;
+    bottom:7px;
+    height:15px;
+    left:-15px;
+    position:absolute;
+    width:15px;
+}
+
+.topRightShadow
+{
+    background-position:-604px 3px;
+    height:11px;
+    position:absolute;
+    right:3px;
+    top:-11px;
+    width:15px;
+}
+
+#sortOptionsMenuDiv
+{
+     min-width:182px !important;
+}
+
+#sortOptionsMenuDiv .MenuItem span
+{
+    width:100%;
+    display:block;            
+}    
+ 
+ #sortOptionTrigger .arrowMeUp
+ {
+    float:left;
+    left:15px;
+    position:relative;
+ }
+ 
+#sortOptionTrigger  a:hover,
+#sortOptionsMenuDiv a:hover
+{
+    border-bottom:0;
+}
+
+#OrderHistorySearchResultsFooter 
+{
+    border-bottom:1px solid #999999;    
+    border-top:1px solid #999999;    
+    height:26px;
+    padding:6px 0;
+    margin:10px 8px 30px 8px;
+}
+
+.labelInSearchHeader
+{
+    margin-left: 10px;
+    color:#1a1a1a;
+    font-size: 12px;
+    font-weight:normal;
+    margin-top:7px !important;
+}
+
+#imagePagingFooter
+{
+    margin-right:6px;
+    margin-top:0px;
+    margin-bottom:6px;
+    float:right;
+}
+.selectOrderHREF
+{
+    font-size:12px;
+    font-weight:bold;
+    padding: 0px 0px 0px 0px;
+}
+
+.OH-border-only1 {
+	padding-left:4px;
+}
+
+.OH-border-only1 div
+{
+    display:inline-block;
+}
+
+.OH-border-only1, .OH-border-only1 .right1,  .OH-border-only1 .right1 .center1 {
+	background-color:transparent;
+	background-image:url(../images/btnGray-outline.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	color:white;
+	cursor:pointer;
+	font-size:19px;
+	font-weight:bold;
+	height:24px;
+}
+.OH-border-only1 .right1 {
+	background-position:right -24px;
+	padding-right:4px;
+}
+
+.OH-border-only1 .right1 .center1 
+{
+    background-position:0 -48px;
+    background-repeat:repeat-x;
+	color: #ffffff;
+	padding: 0 8px;
+	text-align:center;
+}
+
+.titleWrapper
+{
+    padding-left:8px;
+    background-color:#dbdbdb;
+    height:26px;
+    color:#797979;    
+}
+
+/*
+Too generic!
+.title
+{
+	color: #b7b7b7;
+	display:inline-block;
+	font-size: 10px;
+	height: 30px;
+	line-height: 12px;
+	margin-top:-5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	width: 90px;
+}
+*/
+
+.profileContentWrapper
+{
+    background-color:#E8E8E8;
+    color:#1A1A1A;
+    line-height:16px;
+    margin-bottom:0.3em !important;
+}
+.businessContentWrapper
+{
+    background-color:#E8E8E8;
+    color:#1A1A1A;
+    line-height:16px;
+    margin-bottom:0.3em !important;
+}
+.mailContentWrapper
+{
+    background-color:#E8E8E8;
+    color:#1A1A1A;
+    line-height:16px;
+    margin-bottom:0.3em !important;
+}
+
+.editPaymentInformationDiv
+{
+    width:360px;
+}
+
+#addEditCreditCardDiv .RightFormTd
+{
+    padding-right:7px;
+}
+
+.FillAddress span
+{
+	margin: 0 0 0 0 !important;
+}
+
+.FillAddress
+{
+	margin: 6px 0 4px 10px;
+}
+.shipBold
+{
+    font-weight:bold;
+}
+.tableBottomMargin
+{
+    margin-bottom:8px;
+}
+
+#addEditCreditCardDiv .tableWidth
+{
+	width:400px;
+}
+
+div.ButtonRow350
+{
+	width:390px;
+}
+
+td.FormLeftProfile
+{
+	width:20%;
+}
+
+td.FormRightEmailTop,td.FormRightEmail
+{
+	width:80%;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| DC Premium| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| DC Premium| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+	<album lgpath="xml/Slideshows/Images/colorCentury/large/" tnpath="xml/Slideshows/Images/colorCentury/thumb/">
+		<img src="42-15772451.jpg" caption="Girl in Bath, New York City&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('42-15772451');&quot;&gt;42-15772451&lt;/a&gt; &lt;p&gt; | DC Premium| © Jerry Schatzberg/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15772451');" />
+    <img src="42-15864164.jpg" caption="Young Couple Surrounded by Daisies&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('42-15864164');&quot;&gt;42-15864164&lt;/a&gt; &lt;p&gt; | DC Padrão| © Andy Kingsbury/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15864164');" />
+		<img src="42-20039993.jpg" caption="1950s 1960s Overall Daisy Flower Pattern On Pale Blue Background&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('42-20039993');&quot;&gt;42-20039993&lt;/a&gt; &lt;p&gt; | DC Padrão| © H. Armstrong Roberts/ClassicStock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20039993');" />
+		<img src="42-20040381.jpg" caption="Red Haired Boy Hanging Upside Down In Elementary School Yard&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('42-20040381');&quot;&gt;42-20040381&lt;/a&gt; &lt;p&gt; | DC Padrão| © H. Armstrong Roberts/ClassicStock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20040381');" />
+    <img src="42-20041140.jpg" caption="Graphic Pattern Ferris Wheel Spinning Fast Silhouetting People&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('42-20041140');&quot;&gt;42-20041140&lt;/a&gt; &lt;p&gt; | DC Padrão| © H.G. Ross/ClassicStock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20041140');" />
+		<img src="42-21718547.jpg" caption="Women Waving American Flags&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('42-21718547');&quot;&gt;42-21718547&lt;/a&gt; &lt;p&gt; | DC Premium| © Condé Nast Archive/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21718547');" />
+		<img src="AAFW001092.jpg" caption="Fuzzy Duckling&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('AAFW001092');&quot;&gt;AAFW001092&lt;/a&gt; &lt;p&gt; | DC Padrão| © William Gottlieb/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAFW001092');" />
+		<img src="Al025072.jpg" caption="Mounted Hunting Trophies&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('Al025072');&quot;&gt;Al025072&lt;/a&gt; &lt;p&gt; | DC Padrão| © Paul Almasy/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('Al025072');" />
+    <img src="AL027661.jpg" caption="Muslim Man Holding Prayer Beads&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('AL027661');&quot;&gt;AL027661&lt;/a&gt; &lt;p&gt; | DC Padrão| © Paul Almasy/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AL027661');" />
+		<img src="AL027745.jpg" caption="Swimmers on the Passenger Ship&lt;br&gt;&#34;Augustus&#34;&lt;a href=&quot;javascript:DisplaySearchResults('AL027745');&quot;&gt;AL027745&lt;/a&gt; &lt;p&gt; | DC Padrão| © Paul Almasy/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AL027745');" />
+    <img src="AL027748.jpg" caption="&#34;France&#34; Ocean Liner at Night&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('AL027748');&quot;&gt;AL027748&lt;/a&gt; &lt;p&gt; | DC Padrão| © Paul Almasy/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AL027748');" />
+		<img src="AL028256.jpg" caption="Woman Feeds Baby Giraffe&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('AL028256');&quot;&gt;AL028256&lt;/a&gt; &lt;p&gt; | DC Premium| © Paul Almasy/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AL028256');" />
+    <img src="BE030469.jpg" caption="Detergent Stand At Grand Union&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('BE030469');&quot;&gt;BE030469&lt;/a&gt; &lt;p&gt; | DC Padrão| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('BE030469');" />
+		<img src="CN00034958.jpg" caption="Bottle in Sand with Straws&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('CN00034958');&quot;&gt;CN00034958&lt;/a&gt; &lt;p&gt; | DC Premium| © Condé Nast Archive/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('CN00034958');" />
+		<img src="CN00063253.jpg" caption="Various Chairs&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('CN00063253');&quot;&gt;CN00063253&lt;/a&gt; &lt;p&gt; | DC Premium| © Condé Nast Archive/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('CN00063253');" />
+    <!--<img src="GNGH54.jpg" caption="Drum Majorette Posing with Baton&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('GNGH54');&quot;&gt;GNGH54&lt;/a&gt; &lt;p&gt; credit&lt;/p&gt;" link="javascript:DisplaySearchResults('GNGH54');" />-->
+		<img src="GNGH68.jpg" caption="Woman Lying on Lounge Chair&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('GNGH68');&quot;&gt;GNGH68&lt;/a&gt; &lt;p&gt; | DC Padrão| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('GNGH68');" />
+    <img src="JE002069.jpg" caption="Prima Ballerina Taking a Bow&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('JE002069');&quot;&gt;JE002069&lt;/a&gt; &lt;p&gt; | DC Premium| © Jerry Cooke/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('JE002069');" />
+		<img src="RT001204.jpg" caption="High Voltage Test Laboratory&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('RT001204');&quot;&gt;RT001204&lt;/a&gt; &lt;p&gt; | DC Premium| © Charles E. Rotkin/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('RT001204');" />
+		<img src="RT001547.jpg" caption="&#34;Whopper-Hopper&#34; Car&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('RT001547');&quot;&gt;RT001547&lt;/a&gt; &lt;p&gt; | DC Padrão| © Charles E. Rotkin/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('RT001547');" />
+    <img src="RW006601.jpg" caption="Front Counter at New York Diner&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('RW006601');&quot;&gt;RW006601&lt;/a&gt; &lt;p&gt; | DC Premium| © Roger Wood/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('RW006601');" />
+		<img src="RZ002018.jpg" caption="Modeling Coat by Glass Door&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('RZ002018');&quot;&gt;RZ002018&lt;/a&gt; &lt;p&gt; | DC Premium| © Genevieve Naylor/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('RZ002018');" />
+		<img src="U1369660.jpg" caption="Los Angeles Airport&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('U1369660');&quot;&gt;U1369660&lt;/a&gt; &lt;p&gt; | DC Padrão| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('U1369660');" />
+		<img src="U1591414-10.jpg" caption="Folies Bergere at Hotel Tropicana&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('U1591414-10');&quot;&gt;U1591414-10&lt;/a&gt; &lt;p&gt; | DC Padrão| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('U1591414-10');" />
+    <img src="UKD551EINP.jpg" caption="Scout Performing Semaphore&lt;br&gt;&lt;a href=&quot;javascript:DisplaySearchResults('UKD551EINP');&quot;&gt;UKD551EINP&lt;/a&gt; &lt;p&gt; | DC Padrão| © Bettmann/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('UKD551EINP');" />
+	</album>
+</gallery>

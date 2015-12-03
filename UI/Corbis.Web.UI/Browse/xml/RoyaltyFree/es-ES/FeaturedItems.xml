@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Espacios de trabajo contemporáneos</Title>
+		<Image Src="xml/RoyaltyFree/Images/main.jpg" Alt="42-21637569| Premium LD| © Fancy/Veer/Corbis" ImageID="42-21637569" Attribution="| Premium LD| © Fancy/Veer/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Los empresarios de verdad trabajan en cualquier sitio, en los más comunes e inusuales lugares. Las reuniones se celebran en salas de juntas, el papeleo se resuelve en cafeterías y las opiniones se intercambian durante escalas de vuelos.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ethnicEntrepreneurs" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Fancy: fotografía artística libre de derechos</Title>
+		<Image Src="xml/RoyaltyFree/Images/sub.1.jpg" Alt="42-21218191| Estándar LD| © Image Source/Corbis" ImageID="42-21218191" Attribution="| Estándar LD| © Image Source/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Fancy plasma los estilos de vida contemporáneos y las preocupaciones actuales, y establece así los nuevos estándares de la fotografía libre de derechos. El cuidado de la luz, el entorno y los modelos define el estilo y el espíritu de esta colección.</p>
+			]]>
+		</Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=fancy" Text="Ver la presentación de diapositivas" Title="Haz clic para ver la presentación de diapositivas"  />
+    </Links>
+	</FeaturedItem>
+</FeaturedItems>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Collection>
+	<Title>Latitude：版权正片摄影</Title>
+	<Copy>
+		<![CDATA[
+		<p>
+    <b>广受赞誉的纪实类图像，适合作不同类型的商业用途</b><br />
+		由世界著名的纪实类摄影师负责摄制，图片库有着个人作品集般的水准。真实的、无可取代的，这些意象丰富的图像，包含了很多商业元素。	
+		</p>
+		]]>
+	</Copy>
+	<!--<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>
+	<Links>
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+		<Link Url="#" Text="NEW" Title="Click to see NEW." />
+	</Links>-->
+	
+		<Slideshow Url="xml/Collections/Flash/collections.swf" Width="600" Height="450" Flashvars="xmlfile:'xml/Collections/zh-CHS/latitude/gallery.xml',xmlfiletype:'Default'" Params="wmode:'transparent',bgcolor:'#242424'" Attributes=""><NoFlashCopy>
+			<![CDATA[
+			<p>
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="下载 Adobe Flash player"  localize="true" />
+				</a>
+			</p>
+			]]>		
+		</NoFlashCopy>
+	</Slideshow>
+</Collection>

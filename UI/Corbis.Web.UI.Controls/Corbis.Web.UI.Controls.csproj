@@ -1,0 +1,179 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65AF0689-BB58-4FF6-8E8D-4DB0D3636C27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Corbis.Web.UI.Controls</RootNamespace>
+    <AssemblyName>Corbis.Web.UI.Controls</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\libs\Microsoft.Practices\Ajax\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit.WCSFExtensions, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\libs\Microsoft.Practices\Ajax\AjaxControlToolkit.WCSFExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.DisplayText.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\DisplayText\Corbis.DisplayText.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.DisplayText.ServiceAgents, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\DisplayText\Corbis.DisplayText.ServiceAgents.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Framework.Globalization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Corbis.Framework\Binaries\Corbis.Framework.Globalization\Corbis.Framework.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.LightboxCart.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\LightboxCart\Corbis.LightboxCart.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Membership.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ServiceGenerator\Binaries\Services\Membership\Corbis.Membership.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Corbis.Web.Entities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Utilities\Corbis.Web.Entities\bin\Debug\Corbis.Web.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\libs\Microsoft.Practices\Validation\Microsoft.Practices.EnterpriseLibrary.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\libs\Microsoft.Practices\Validation\Microsoft.Practices.EnterpriseLibrary.Validation.Integration.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\common\libs\System.Web\System.Web.Abstractions.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Common\libs\Microsoft.Practices\Ajax\System.Web.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="AjaxDropDownList.cs" />
+    <Compile Include="CenteredImageContainer.cs" />
+    <Compile Include="COFFModalPopup.cs" />
+    <Compile Include="GlassButtonEx.cs" />
+    <Compile Include="IValidationHubErrorSetter.cs" />
+    <Compile Include="ValidationHub.cs" />
+    <Compile Include="WorkflowBlock.cs" />
+    <Compile Include="GeographySelector.cs" />
+    <Compile Include="GlassButton.cs" />
+    <Compile Include="GridView.cs" />
+    <Compile Include="HoverButton.cs" />
+    <Compile Include="ImageCheckbox.cs" />
+    <Compile Include="ImageRadioButton.cs" />
+    <Compile Include="LightboxTree.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LightboxTreeItemTemplate.cs" />
+    <Compile Include="ListBox.cs" />
+    <Compile Include="ModalPopup.cs" />
+    <Compile Include="Panel.cs" />
+    <Compile Include="CreditCardControl\AmexCardNumberValidation.cs" />
+    <Compile Include="CreditCardControl\CardNumberValidationBase.cs" />
+    <Compile Include="CreditCardControl\CreditCardControl.cs" />
+    <Compile Include="CreditCardControl\MasterCardCardNumberValidation.cs" />
+    <Compile Include="CreditCardControl\VisaCardNumberValidation.cs" />
+    <Compile Include="HyperLink.cs" />
+    <Compile Include="Button.cs" />
+    <Compile Include="CheckBox.cs" />
+    <Compile Include="IGroupValidator.cs" />
+    <Compile Include="ImageButton.cs" />
+    <Compile Include="Label.cs" />
+    <Compile Include="LanguageSelectorMenu.cs" />
+    <Compile Include="LinkButton.cs" />
+    <Compile Include="LinkButtonList.cs" />
+    <Compile Include="ImageList.cs" />
+    <Compile Include="RadioButton.cs" />
+    <Compile Include="RadioButtonList.cs" />
+    <Compile Include="DropDownList.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="Localize.cs" />
+    <Compile Include="Repeater.cs" />
+    <Compile Include="TextArea.cs" />
+    <Compile Include="TextBox.cs" />
+    <Compile Include="TextIconButton.cs" />
+    <Compile Include="ThemeSelector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidationGroupSummary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Presenters\Corbis.Web.UI.Presenters\Corbis.Web.UI.Presenters.csproj">
+      <Project>{3F264FFC-955D-4471-8203-1DBD11720F65}</Project>
+      <Name>Corbis.Web.UI.Presenters</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utilities\Corbis.Web.Utilities\Corbis.Web.Utilities.csproj">
+      <Project>{C30B1114-AE29-4C53-8951-99D47F37EA01}</Project>
+      <Name>Corbis.Web.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utilities\Corbis.Web.Validation\Corbis.Web.Validation.csproj">
+      <Project>{3458827D-A75F-4520-99BB-A79C60AD85BF}</Project>
+      <Name>Corbis.Web.Validation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

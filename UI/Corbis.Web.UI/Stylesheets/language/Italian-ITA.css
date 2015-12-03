@@ -1,0 +1,83 @@
+﻿/*
+store all language specific css here
+to override the English_US default setting
+*/
+
+.SBT_filters img {
+    background-image:url(/Images/it-IT/buddyTabFilters_off.gif);
+    height:92px;
+}
+.SBT_filters.ON img {
+    background-image:url(/Images/it-IT/buddyTabFilters_on.gif);
+}
+.SBT_filters img:hover {
+    background-image:url(/Images/it-IT/buddyTabFilters_hover.gif);
+}
+
+.SBT_lightboxes img 
+{
+	background-image:url(/Images/it-IT/buddyTabLightbox_off.gif);
+	height:85px;
+}
+.SBT_lightboxes.ON img 
+{
+	background-image:url(/Images/it-IT/buddyTabLightbox_on.gif);
+}
+.SBT_lightboxes img:hover
+{
+	background-image:url(/Images/it-IT/buddyTabLightbox_hover.gif);
+}
+
+.SBT_quickpic img {
+    background-image:url(/Images/it-IT/buddyTabQuickPic1.gif);
+    height:87px;
+}
+.SBT_quickpic.ON img {
+    background-image:url(/Images/it-IT/buddyTabQuickPic2.gif);
+}
+.SBT_quickpic img:hover {
+    background-image:url(/Images/it-IT/buddyTabQuickPic3.gif);
+}
+
+#transferLightbox .addMemberControls .addMemberInstruction 
+{
+    margin-top:-6px;
+    width:260px;           /* bug no. 17861 */
+}
+
+/* sort options in search */
+.searchResultsContent #sortOptionsMenuDiv
+{
+     width:220px !important;
+}
+
+/* sort options in order history */
+#orderHistory .IE7OrLess #sortOptionsMenuDiv
+{
+     width:280px !important;
+}
+
+/* File size modal from Express Checkout download popup - bug 17027 */
+#fileSizeModalWindow_contentWrapper
+{
+    height:465px !important;
+}
+
+/* 
+cart button:
+IE cannot handle nowrap/width:auto because positioning is handled by floats, and floats in IE7 need a width in this situation in the polish version.  
+Should be rebuilt using a table if the fixed width becomes an issue/it's an issue in future languages.
+Bug 13866
+ */
+
+#cartCountDiv,
+.Checkout
+{
+width:115px;
+}
+
+.optionsBlock a span  
+{  /* delivery icons in stage 2 of checkout */
+    position:relative;
+    top:-4px;
+ }

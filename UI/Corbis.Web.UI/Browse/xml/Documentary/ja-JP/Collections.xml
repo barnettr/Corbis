@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>ドキュメンタリー写真コレクション</Title>
+	<Links>
+		<Link Url="Collections.aspx?name=latitude" Text="Latitude" Title="スライドショーを見る"  />
+    <Link Url="Collections.aspx?name=terra" Text="Terra" Title="スライドショーを見る"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288525" Text="Encyclopedia" Title="画像を見る"  />
+	</Links>
+</ModuleList>

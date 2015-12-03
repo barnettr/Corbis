@@ -1,0 +1,30 @@
+/* this is the placeholder for anything common for IE related. 
+    holly will migrate common styles from ie6 and ie7 to here */
+ 
+/* print version of image enlargement page */    
+.printVersion #controlsDiv
+{
+    top:32px;
+}
+
+.printVersion #imageTitleAndNumber
+{
+    top:52px;
+}
+
+.printVersion .imageTitleAndCreditLine 
+{
+    top:100px;
+}
+
+.printVersion .detailPair
+{
+    float:left;
+    min-height:35px;
+}
+
+.printVersion
+{
+    width:730px;           
+}
+

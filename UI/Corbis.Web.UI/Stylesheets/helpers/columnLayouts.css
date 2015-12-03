@@ -1,0 +1,639 @@
+/***********************************************
+ DO NOT CHANGE ANYTHING HERE - PERIOD
+ import this into your other css file
+ and make modifications in that file
+***********************************************/
+
+/* NOTE:
+	These are some tricky styles. However, they are hack free and SEO friendly. 
+	They work best when the height of the columns will be quite large.
+	If they are to have a small height (ie 50px), don't use any popups using z-index
+	
+	See these websites for details:
+	
+	for fixed width columns
+	http://matthewjamestaylor.com/blog/ultimate-multi-column-liquid-layouts-em-and-pixel-widths
+	
+	for liquid columns
+	http://matthewjamestaylor.com/blog/perfect-multi-column-liquid-layouts
+*/
+
+/* GENERAL 
+
+	Usage:
+	<div class="ColumnedLayout ColumnLayoutClass">
+
+	naming convention for ColumnLayoutClass:
+	ColumnType_FlexibilityType_LayoutType (ie ThreeColumn_Fixed_HG)
+	
+	ColumnTypes:
+	1. ThreeColumn
+	2. TwoColumn
+	3. EqualHeights
+	
+	FlexibilityTypes:
+	1. Fixed
+	2. Fluid
+	
+	LayoutTypes:
+	Three column types
+	1. HG (Holy grail - left & right columns are smaller than center area)
+	2. BS (Blog Style - left column is main area while center and right column are smaller)
+	3. EW (equal width)
+	
+	Two column types
+	3. LM (Left Menu - left column smaller)
+	4. RM (Right Menu - right column smaller)
+	5. DP (double page - both sides are of equal width)
+	
+*/
+.ColumnedLayout
+{
+	position:relative;		/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+    clear:both;
+    float:left;
+    width:100%;				/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+
+/***********************************
+ 	EQUAL HEIGHTS COLUMN LAYOUTS
+/**********************************/
+
+/* EQUAL HEIGHTS - Fluid - Equal Widths
+	height is fluid
+	column widths are fluid
+	
+	example html:
+	<div id="container3" class="ColumnedLayout EqualHeights_Fluid_EW">
+	    <div id="container2">
+		    <div id="container1">
+			    <div id="col1">
+				    <!-- Column one start -->
+				    <!-- Column one end -->
+			    </div>
+			    <div id="col2">
+				    <!-- Column two start -->
+				    <!-- Column two end -->
+			    </div>
+			    <div id="col3">
+				    <!-- Column three start -->
+				    <!-- Column three end -->
+			    </div>
+
+		    </div>
+	    </div>
+    </div>
+
+ */
+ 
+ .EqualHeights_Fluid_EW /* right col background */
+ {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	background:#89ffa2; /* right column background colour */
+}
+.EqualHeights_Fluid_EW .ThreeCol_midWrap {
+	clear:left;
+	float:left;
+	width:100%;
+	position:relative;
+	right:33.333%;
+	background:#ffa7a7; /* center column background colour */
+}
+.EqualHeights_Fluid_EW .ThreeCol_leftWrap {
+	float:left;
+	width:100%;
+	position:relative;
+	right:33.33%;
+	background:#fff689; /* left column background colour */
+}
+.EqualHeights_Fluid_EW .ThreeCol_centerColumn {
+	float:left;
+	width:29.33%;
+	position:relative;
+	left:68.67%;
+	overflow:hidden;
+}
+.EqualHeights_Fluid_EW .ThreeCol_leftColum {
+	float:left;
+	width:29.33%;
+	position:relative;
+	left:72.67%;
+	overflow:hidden;
+}
+.EqualHeights_Fluid_EW .ThreeCol_rightColumn {
+	float:left;
+	width:29.33%;
+	position:relative;
+	left:76.67%;
+	overflow:hidden;
+}
+
+/*******************************
+ 	THREE COLUMN LAYOUTS
+/******************************/
+
+
+
+/* THREE COLUMN LAYOUT - Fixed - Holy Grail
+	left and right columns are 
+	fixed width and center is fluid
+	
+	example html:
+	<div class="ColumnedLayout ThreeColumn_Fixed_HG">
+		<div class="ThreeCol_midWrap">
+			<div class="ThreeCol_leftWrap">
+				<div class="ThreeCol_centerWrap">
+					<div class="ThreeCol_centerColumn">
+						center
+					</div>
+				</div>
+				<div class="ThreeCol_leftColumn">
+					left
+				</div>
+				<div class="ThreeCol_rightColumn">
+					right
+				</div>
+			</div>
+		</div>
+	</div>
+ */
+.ThreeColumn_Fixed_HG
+{
+	background:maroon;   	/* Right column background colour */
+}
+
+	.ThreeColumn_Fixed_HG .ThreeCol_midWrap
+	{
+		float:left;
+        width:200%;
+        margin-left:-200px; 	/* Width of right column */
+        position:relative;
+        right:100%;
+        background:green;   	/* Centre column background colour */
+	}
+	
+	.ThreeColumn_Fixed_HG .ThreeCol_leftWrap
+	{
+		float:left;
+        width:100%;
+        margin-left:-50%;
+        position:relative;
+        left:400px;         	/* Left column width + right column width */
+        background:maroon;	/* Left column background colour */
+	}
+	
+	.ThreeColumn_Fixed_HG .ThreeCol_centerWrap
+	{
+		float:left;
+	    width:50%;
+	    position:relative;
+	    right:200px;        	/* Width of left column */
+	    padding-bottom:1em; 	/* Centre column bottom padding. Leave it out if it's zero */
+	}
+	
+	.ThreeColumn_Fixed_HG .ThreeCol_centerColumn
+	{
+		margin:0 215px;     	/* Centre column side padding:
+                            	Left padding = left column width + centre column left padding width
+                            	Right padding = right column width + centre column right padding width */
+        position:relative;
+	    left:200%;
+	    overflow:hidden;
+	}
+	
+	.ThreeColumn_Fixed_HG .ThreeCol_leftColumn
+	{
+		float:left;
+        float:right;			/* This overrides the float:left above */
+        width:170px;        	/* Width of left column content (left column width minus left and right padding) */
+        position:relative;
+        right:15px;         	/* Width of the left-had side padding on the left column */
+	}
+	
+	.ThreeColumn_Fixed_HG .ThreeCol_rightColumn
+	{
+		float:left;
+        float:right;			/* This overrides the float:left above */
+        width:170px;        	/* Width of right column content (right column width minus left and right padding) */
+        margin-right:45px;  	/* Width of right column right-hand padding + left column left and right padding */
+        position:relative;
+        left:50%;
+	}
+
+/* THREE COLUMN LAYOUT - Fluid - Holy Grail
+	all columns are fluid with the
+	left and right being smaller
+	
+	tricky percentage use here.
+	
+	example html:
+	<div class="ColumnedLayout ThreeColumn_Fluid_HG">
+		<div class="ThreeCol_midWrap">
+			<div class="ThreeCol_leftWrap">
+				<div class="ThreeCol_centerColumn">
+					center
+				</div>
+				<div class="ThreeCol_leftColumn">
+					left
+				</div>
+				<div class="ThreeCol_rightColumn">
+					right
+				</div>
+			</div>
+		</div>
+	</div>
+ */
+	.ThreeColumn_Fluid_HG .ThreeCol_midWrap,
+	.ThreeColumn_Fluid_HG .ThreeCol_leftWrap
+	{
+		float:left;
+		width:100%;				/* width of page */
+		position:relative;
+	}
+
+
+	.ThreeColumn_Fluid_HG .ThreeCol_centerColumn,
+	.ThreeColumn_Fluid_HG .ThreeCol_leftColumn,
+	.ThreeColumn_Fluid_HG .ThreeCol_rightColumn
+	{
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;	/* no left and right padding on columns, we just make them narrower instead 
+								only padding top and bottom is included here, make it whatever value you need */
+		overflow:hidden;
+	}
+	
+	/* 3 Column settings */
+	.ThreeColumn_Fluid_HG {
+		background:maroon;	/* right column background colour */
+	}
+	.ThreeColumn_Fluid_HG .ThreeCol_midWrap {
+		right:25%;				/* width of the right column */
+		background:green;	/* center column background colour */
+	}
+	.ThreeColumn_Fluid_HG .ThreeCol_leftWrap {
+		right:50%;				/* width of the middle column */
+		background:maroon;	/* left column background colour */
+	}
+	.ThreeColumn_Fluid_HG .ThreeCol_centerColumn {
+		width:46%;				/* width of center column content (column width minus padding on either side) */
+		left:102%;				/* 100% plus left padding of center column */
+	}
+	.ThreeColumn_Fluid_HG .ThreeCol_leftColumn {
+		width:21%;				/* Width of left column content (column width minus padding on either side) */
+		left:31%;				/* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+	}
+	.ThreeColumn_Fluid_HG .ThreeCol_rightColumn {
+		width:21%;				/* Width of right column content (column width minus padding on either side) */
+		left:85%;				/* Please make note of the brackets here:
+								(100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+	}
+	
+/* THREE COLUMN LAYOUT - Fixed - Blog Style
+	all columns are fluid with the
+	center and right being smaller (and fixed width)
+	left column is fluid
+
+	tricky percentage use here.
+
+	example html:
+	<div class="ColumnedLayout ThreeColumn_Fixed_BS">
+		<div class="ThreeCol_midWrap">
+			<div class="ThreeCol_leftWrap">
+				<div class="ThreeCol_leftColumnWrap">
+					<div class="ThreeCol_leftColumn">
+						left
+					</div>
+				</div>
+				<div class="ThreeCol_centerColumn">
+					center
+				</div>
+				<div class="ThreeCol_rightColumn">
+					right
+				</div>
+			</div>
+		</div>
+	</div>
+ */
+
+	.ThreeColumn_Fixed_BS {
+	    background:purple;    	/* Right column background colour */
+	}
+    .ThreeColumn_Fixed_BS .ThreeCol_midWrap {
+        float:left;
+        width:200%;
+        margin-left:-200px; 	/* Width of right column */
+        position:relative;
+        right:100%;
+        background:maroon;    	/* Centre column background colour */
+    }
+    .ThreeColumn_Fixed_BS .ThreeCol_leftWrap {
+        float:left;
+        width:100%;
+        margin-left:-200px; 	/* Width of centre column */
+        background:green;    	/* Left column background colour */
+    }
+    .ThreeColumn_Fixed_BS .ThreeCol_leftColumnWrap {
+        float:left;
+	    width:50%;
+	    padding-bottom:1em; 	/* Centre column bottom padding. Leave it out if it's zero */
+	}
+	.ThreeColumn_Fixed_BS .ThreeCol_leftColumn {
+        margin:0 15px 0 415px;	/* Centre column side padding:
+                            	Left padding = left column width + centre column left padding width
+                            	Right padding = right column width + centre column right padding width */
+        position:relative;
+	    left:100%;
+	    overflow:hidden;
+	}
+    .ThreeColumn_Fixed_BS .ThreeCol_centerColumn {
+        float:right;
+        width:170px;        	/* Width of left column content (left column width minus left and right padding) */
+        position:relative;
+        left:185px;         	/* Width of the left-had side padding on the left column */
+    }
+    .ThreeColumn_Fixed_BS .ThreeCol_rightColumn {
+        float:right;
+        width:170px;        	/* Width of right column content (right column width minus left and right padding) */
+        position:relative;
+        left:555px;
+    }
+
+
+
+/*******************************
+ 	TWO COLUMN LAYOUTS
+/******************************/
+
+/* TWO COLUMN LAYOUT - Fixed - Left Menu
+	left column is fixed width 
+	and right column is fluid
+	
+	example html:
+	<div class="ColumnedLayout TwoColumn_Fixed_LM">
+		<div class="TwoColumn_leftWrap">
+			<div class="TwoColumn_mainWrap">
+				<div class="TwoColumn_mainColumn">
+					right
+				</div>
+			</div>
+			<div class="TwoColumn_leftColumn">
+				left
+			</div>
+		</div>	
+	</div>
+ */
+
+	/* 2 column left column settings */
+	.TwoColumn_Fixed_LM 
+	{
+		background:maroon;		
+	}
+
+	/* the container for the columns */
+	.TwoColumn_Fixed_LM .TwoColumn_leftWrap 
+	{
+		float:left;
+		width:200%;
+		position:relative;
+		left:200px; /* this moves the right columns left spacing */
+		background:green;
+	}
+	.TwoColumn_Fixed_LM .TwoColumn_mainWrap 
+	{
+		float:right;
+		width:50%;
+		position:relative;
+		right:200px; /* same as left column width */
+		padding-bottom:1em;
+	}
+	
+	/* MAIN COLUMN */
+	.TwoColumn_Fixed_LM .TwoColumn_mainColumn 
+	{
+		margin:0 15px 0 215px; /* this controls padding of right column */
+		position:relative;
+		right:100%;
+		overflow:hidden;
+	}
+	
+	/* LEFT COLUMN */
+	.TwoColumn_Fixed_LM .TwoColumn_leftColumn 
+	{
+		float:left;
+		width:170px; /* width of left column */
+		position:relative;
+		right:185px; 
+	}
+	
+/* TWO COLUMN LAYOUT - Fluid - Left Menu
+	tricky percentages here
+
+	example html:
+	<div class="ColumnedLayout TwoColumn_Fluid_LM">
+		<div class="TwoColumn_leftWrap">
+			<div class="TwoColumn_mainColumn">
+				right
+			</div>
+			<div class="TwoColumn_leftColumn">
+				left
+			</div>
+		</div>	
+	</div>
+ */
+
+	.TwoColumn_Fluid_LM  {
+		background:green;		/* right column background colour */
+	}
+	
+	.TwoColumn_Fluid_LM .TwoColumn_mainColumn,
+	.TwoColumn_Fluid_LM .TwoColumn_leftColumn
+	{
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;
+		overflow:hidden;
+	}
+
+	.TwoColumn_Fluid_LM  .TwoColumn_leftWrap {
+		float:left;
+		width:100%;
+		position:relative;
+		right:75%;				/* right column width */
+		background:maroon;		/* left column background colour */
+	}
+	.TwoColumn_Fluid_LM  .TwoColumn_mainColumn {
+		width:71%;				/* right column content width */
+		left:102%;				/* 100% plus left column left padding */
+	}
+	.TwoColumn_Fluid_LM  .TwoColumn_leftColumn {
+		width:21%;				/* left column content width (column width minus left and right padding) */
+		left:6%;				/* (right column left and right padding) plus (left column left padding) */
+	}
+	
+	
+	
+/* TWO COLUMN LAYOUT - Fixed - Right Menu
+	left column is fluid width 
+	and right column is fixed
+
+	example html:
+	<div class="ColumnedLayout TwoColumn_Fixed_RM">
+		<div class="TwoColumn_leftWrap">
+			<div class="TwoColumn_mainWrap">
+				<div class="TwoColumn_mainColumn">
+					left
+				</div>
+			</div>
+			<div class="TwoColumn_rightColumn">
+				right
+			</div>
+		</div>	
+	</div>
+ */
+
+	/* 2 column left column settings */
+	.TwoColumn_Fixed_RM 
+	{
+		background:maroon;		
+	}
+
+	/* the container for the columns */
+	.TwoColumn_Fixed_RM .TwoColumn_leftWrap 
+	{
+		float:left;
+	    width:200%;
+        margin-left:-200px; /* needs to be same as right column width */
+        position:relative;
+        right:100%;
+        background:green;
+		
+	}
+	.TwoColumn_Fixed_RM .TwoColumn_mainWrap 
+	{
+		float:left;
+	    width:50%;
+	    position:relative;
+	    left:50%;
+	    padding-bottom:1em;
+
+	}
+
+	/* MAIN COLUMN */
+	.TwoColumn_Fixed_RM .TwoColumn_mainColumn 
+	{
+		margin:0 15px 0 215px; /* this controls padding of right column */
+		overflow:hidden;
+		
+	}
+
+	/* RIGHT COLUMN */
+	.TwoColumn_Fixed_RM .TwoColumn_rightColumn 
+	{
+		float:right;
+		width:170px; /* width of right column */
+        position:relative;
+        left:185px;
+
+	}
+	
+/* TWO COLUMN LAYOUT - Fluid - right Menu
+	tricky percentages here
+
+	example html:
+	<div class="ColumnedLayout TwoColumn_Fluid_RM">
+		<div class="TwoColumn_leftWrap">
+			<div class="TwoColumn_mainColumn">
+				left
+			</div>
+			<div class="TwoColumn_rightColumn">
+				right
+			</div>
+		</div>	
+	</div>
+ */
+
+	.TwoColumn_Fluid_RM  {
+		background:maroon;		/* right column background colour */
+	}
+
+	.TwoColumn_Fluid_RM .TwoColumn_mainColumn,
+	.TwoColumn_Fluid_RM .TwoColumn_rightColumn
+	{
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;
+		overflow:hidden;
+	}
+
+	.TwoColumn_Fluid_RM  .TwoColumn_leftWrap {
+		float:left;
+		width:100%;
+		position:relative;
+		right:25%;				/* right column width */
+		background:green;		/* left column background colour */
+	}
+	.TwoColumn_Fluid_RM  .TwoColumn_mainColumn {
+		width:71%;				/* left column content width (left column width minus left and right padding) */
+		left:27%;				/* (right column width) plus (left column left padding) */
+	}
+
+	.TwoColumn_Fluid_RM  .TwoColumn_rightColumn {
+		width:21%;				/* right column content width (right column width minus left and right padding) */
+		left:31%;				/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+	}
+	
+	
+	
+/* TWO COLUMN LAYOUT - Fluid - double page
+	(not so) tricky percentages here
+
+	example html:
+	<div class="ColumnedLayout TwoColumn_Fluid_DP">
+		<div class="TwoColumn_columnWrap">
+			<div class="TwoColumn_leftColumn">
+				left
+			</div>
+			<div class="TwoColumn_rightColumn">
+				right
+			</div>
+		</div>	
+	</div>
+ */
+
+	.TwoColumn_Fluid_DP  {
+		background:maroon;		/* right column background colour */
+	}
+
+	.TwoColumn_Fluid_DP .TwoColumn_leftColumn,
+	.TwoColumn_Fluid_DP .TwoColumn_rightColumn
+	{
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;
+		overflow:hidden;
+	}
+
+	.TwoColumn_Fluid_DP  .TwoColumn_columnWrap {
+		float:left;
+		width:100%;
+		position:relative;
+		right:50%;				/* right column width */
+		background:green;		/* left column background colour */
+	}
+	.TwoColumn_Fluid_DP  .TwoColumn_leftColumn {
+		width:46%;				/* left column content width (column width minus left and right padding) */
+		left:52%;				/* right column width plus left column left padding */
+	}
+
+	.TwoColumn_Fluid_DP  .TwoColumn_rightColumn {
+		width:46%;				/* right column content width (column width minus left and right padding) */
+		left:56%;				/* (right column width) plus (left column left and right padding) plus (right column left padding) */
+	}
+
+
+

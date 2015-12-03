@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ModuleList>
+	<Title>Historische collecties</Title>
+	<Links>
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288531" Text="Bettmann" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288534" Text="Sygma" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1288532" Text="Condé Nast" Title="Klik om beelden te bekijken"  />
+    <Link Url="/ImageGroups/ImageGroups.aspx?typ=3&amp;id=1217882" Text="Turnley" Title="Klik om beelden te bekijken"  />
+	</Links>
+</ModuleList>

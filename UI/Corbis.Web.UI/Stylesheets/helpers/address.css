@@ -1,0 +1,23 @@
+﻿/* used in checkout - add new address */
+table.Address td.FormLeft
+{
+	width:127px;	
+}
+table.Address td.FormRight
+{
+	width:223px;	
+}
+table.Address select
+{
+	width:auto !important;	
+}
+table.Address div.imageCheckbox img
+{
+	margin-left:10px;
+	margin-top:3px;
+}
+table.Address td.col2
+{
+	width:350px !important;	
+	text-align:left;
+}

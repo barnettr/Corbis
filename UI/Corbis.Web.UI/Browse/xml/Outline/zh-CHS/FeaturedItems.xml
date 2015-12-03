@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>夏季票房明星</Title>
+		<Image Src="xml/Outline/Images/main.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>
+				他们饰演队长、罪犯，以及年青男魔法师。他们与恐龙、强盗，以及智能机器搏斗。明星云集，为这个夏季的大电影进行宣传活动。
+				</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Links>
+	</FeaturedItem>
+  <FeaturedItem>
+    <Title>重点介绍 Jill Greenberg </Title>
+    <Image Src="xml/Outline/Images/sub.1.jpg" Alt="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" Attribution="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Jill Greenberg 摄影作品的灯光运用及清晰度，都教人赞叹不已。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>介绍 Andrew McLeod</Title>
+    <Image Src="xml/Outline/Images/sub.2.jpg" Alt="OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" Attribution=" OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>客户名单包括 Seventeen 及 Sony BMG，Andrew McLeod 是时装摄影及名人肖像摄影的专家。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Outline 最佳之选</Title>
+    <Image Src="xml/Outline/Images/sub.3.jpg" Alt="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" Attribution="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>别具一格的世界名人肖像，是业界最受欢迎的摄影师所拍摄的。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="查看幻灯片展示" Title="查看幻灯片展示"  />
+    </Links>
+  </FeaturedItem>
+	<FeaturedItem IsHero="true">
+		<Title>不是 Outline 会员？</Title>
+		<Copy>
+			<![CDATA[
+				<p>
+					Outline 图像只供 Outline 会员使用。<a href="http://pro.corbis.com/creative/celebrity/outlineform/orderform.asp?lcd=zh-CHS" title="点击查看会员申请表。" rel="720_600_popup" localize="true">点击这里</a>联系我们，查询会员申请事宜。
+				</p>
+			]]>
+		</Copy>
+		<Links />
+	</FeaturedItem>
+</FeaturedItems>

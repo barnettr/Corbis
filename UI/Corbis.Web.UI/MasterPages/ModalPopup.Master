@@ -1,0 +1,35 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ModalPopup.master.cs" Inherits="Corbis.Web.UI.MasterPages.ModalPopup" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body id="body" style="background-color:#dbdbdb;" runat="server">
+    <form id="form1" runat="server"> 
+        <asp:ScriptManager ID="scriptManager" runat="server"  EnableScriptGlobalization="true" EnableScriptLocalization="true">
+            <CompositeScript>
+                <Scripts>
+                    <asp:ScriptReference name="AjaxControlToolkit.Common.Common.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+                	<asp:ScriptReference name="AjaxControlToolkit.ExtenderBase.BaseScripts.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+                	<asp:ScriptReference name="AjaxControlToolkit.TextboxWatermark.TextboxWatermark.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+                	<asp:ScriptReference name="AjaxControlToolkit.FilteredTextBox.FilteredTextBoxBehavior.js" assembly="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" />
+                </Scripts>
+            </CompositeScript>
+        </asp:ScriptManager>
+        <asp:ContentPlaceHolder ID="mainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <div id="hiddenWorkshop" class="hdn"></div>
+    </form>
+</body>
+<script type="text/javascript" language="javascript">
+	<%//work around for preventing dead space and scroll bars from appearing in IE7 %>
+	var feedbackImg = $('s_i_corbisbetafeedbacktest');
+	if (feedbackImg) feedbackImg.setStyle('float', 'right');
+	 function redirectToRegister()
+        {
+            parent.redirectToRegister();
+        }
+</script>
+</html>

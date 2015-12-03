@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>コービス Motion の多彩なコレクションと総括的なサービス</Title>
+		<Copy>
+			<![CDATA[
+				<p>コービスは、Thought Equity Motion と提携。世界の名作映画や一流のエンターテインメント会社による動画コンテンツにすばやくアクセスしていただけます。MGMスタジオ、HBOアーカイブス、ナショナル・ジオグラフィック、ソニー・ピクチャーズ・エンタテインメント、スミソニアン・チャンネル、パラマウント・ピクチャーズなど、あらゆる動画を取り揃えています。 ウェブサイト上では、オンラインでのご購入やコンテンツのダウンロードのほか、高解像度のカンプデータ、無料の検索サービスなどもご利用いただけます。</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="http://www.corbismotion.com/" Text="corbismotion.comを見る" Title="Corbis Motion"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

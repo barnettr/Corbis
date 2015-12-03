@@ -1,0 +1,1125 @@
+/* * html is IE6; * + html is IE7 */
+
+.GlassButton
+{
+    display:inline !important;
+}
+
+
+/* search buddy - to view rounded corner corectly */
+* + html #quickPicHeaderDiv span, * html #quickPicHeaderDiv span { 
+    width: 190px;
+}
+
+/* search buddy - to display bottom right corner correctly  *//* $$$ common to IE6 & IE7 */
+* + html .inSearchBuddy, * html .inSearchBuddy    {
+    background-color:Transparent;
+    background-position:bottom 180px;
+    padding-bottom:0;
+    position:absolute;
+    width:220px;
+    z-index:300;
+}   
+
+#SBBX_filters, .SBBX_lightboxes, .SBBX_quickpic {
+    padding-bottom: 37px;
+}
+table.pop500 td {
+	width:500px;                                                                                        
+}
+
+/* search buddy - inset boxes in container */
+.InsetBox  {
+    margin-right: 1px;
+}
+.NoPeople  {
+    width:174px !important;
+}
+#SBBX_quickpic .RFcolor span span {padding:0 !important}
+
+/* ==========[ SEARCH RESULT FIXES ]==============*/
+    /*#SearchColumnedConten .rightColumn {
+        margin:0 0 0 0px;
+    }
+    
+    #SearchColumnedConten .leftColumn {
+        right:0px;
+        width:0px;
+    }
+    
+    
+
+    * + html #SearchColumnedContent .leftColumnWrap {
+        float:left;
+        left:200px;
+        position:relative;
+        width:200%;
+        
+    }
+    
+    * + html #SearchColumnedContent .rightColumnWrap {
+        float:right;
+        position:relative;
+        right:200px;
+        width:50%;
+    }
+    
+    * + html #SearchColumnedContent .rightColumn {
+        margin:0 0 0 200px;
+        overflow:hidden;
+        position:relative;
+        right:100%;
+    }
+    
+    * + html #SearchColumnedContent .leftColumn {
+        float:left;
+        position:relative;
+        right:200px;
+        width:200px;
+    }*/
+
+/* ==========[ END SEARCH RESULT FIXES ]==============*/
+
+/* ========================================================
+==================[ all below: to solve scroll issue ]================
+========================================================*/
+/*$$$ three below style sets are from Chris' code */
+/*
+.searchContent {
+    min-width:1008px;
+    position:relative; 
+    width:auto !important;
+    }
+
+#SearchColumnedContent {
+    height:auto !important;
+    min-height:600px;
+    position:relative;
+    }
+.left {
+    left:0;
+    position:absolute;
+    top:0;
+    width:200px;
+}
+*/
+body .SearchBuddy
+{
+    bottom: 0;
+    left: 0;
+    position: fixed !important;
+    width: 220px;
+    z-index: 0;
+    zoom: 1;
+}
+
+ body .inSearchBuddy  {
+    overflow:hidden; 
+    /*width:185px; causes problems - hides tabs in IE7 */
+} 
+body #SBBX_filters, body .SBBX_lightboxes, body .SBBX_quickpic {
+    background-color: #4d4d4d;
+    bottom:10px !important;
+    left: 0;
+    overflow: hidden;
+    padding:10px 10px 37px 0 !important;
+    position: absolute;
+    top: 0;
+    width: 175px;
+    z-index: 200;
+}
+
+body .LBXContainer, body .quickPicsContainer
+{
+    background-color: #404040;
+    border-top: 1px solid black;
+    border-bottom:1px solid #636363;
+    height:auto;
+    margin-top: 5px; 
+    padding-top: -15px;
+    padding-bottom:25px;
+    zoom:1;
+}
+
+/* sort options in search */
+.searchResultsContent #sortOptionsMenuDiv
+{
+     min-width:200px !important;
+}
+
+/*$$$ search buddy scrolling up & down =(
+- tried applying widths to thumbnails & other children
+- tried absolutely positioning .ICN_cart & .license span & .infoBox to remove potential float issue
+- added zoom to tackle hasLayout
+Opened up a can of worms in terms of image width: getting close though 
+=======================================
+body .LBXContainer  *  {zoom:1;width:96px;}
+body .LBXContainer .lightboxBlock  {width:102px; }
+body .LBXContainer .license span {width:20px !important;}
+body .LBXContainer .lightboxBlock .ICN_cart {position:relative; top:-20px; width:15px;}
+body .LBXContainer .lightboxBlock .infoBox {width:96px;}
+body .LBXContainer .lightboxBlock img {width:96px !important; }
+*/
+
+/* Mike: removed for bug 13022
+.cartBlock {
+    position:static !important;margin-bottom:100px;
+    }
+*/
+.cartBlock .infoBox div span
+{
+    position:relative;
+    top:2px;
+}
+
+/* enforce 'disabled' opacity in lightbox link in search buddy */
+#ctl00_mainContent_pnlCreateLightBox {
+    float:left;
+    }
+
+/* ====[ more search options button ]======*/
+#Search .MSOButton
+{
+    background: url(../Images/BTN-gray-border-only.gif) no-repeat 0 0px !important;
+ }
+
+#Search .MSOButton .Center
+{
+    background: url(../Images/BTN-gray-border-only.gif) repeat-x 0 -48px !important;
+    margin: 0 4px 0 4px !important;
+    padding:3px 18px 0 5px !important;
+}
+
+.arrowMeUp
+{
+   right:8px;
+   top:13px;
+}
+
+.seperatorLine
+{
+    margin-top:16px;    
+}
+.onWarning
+{
+    height:15px; 
+    width:14px; 
+    background-image:url(../Images/ICN-SPRITE-termClarifications.gif); 
+    background-position:0 -15px; 
+    margin-top:3px !important; 
+    margin-left:0px;  
+}
+.warningOff, 
+.warningOn
+{
+    top:2px!important;/* Fixed IE 7 issue for terms clarification in SearchResultHeader.ascx*/
+}
+.infoBottom
+{
+    width:14px; 
+    height:15px; 
+    background-image:url(../Images/info.gif); 
+    position:absolute; 
+    top:114px; 
+    left:180px;    
+}
+
+/* weird hover state in cart icon in search buddy */
+.infoBox a:hover
+ {border-bottom:0 !important}
+ 
+.lightboxBlock
+{
+    padding-bottom:1px !important;
+}
+
+/*
+    MSO checkbox label 
+*/
+div.MSO_element .collectionOptionsWrap .collectionsPadding .checkboxWrap .imageCheckbox Label
+{
+	padding-left:4px;
+	vertical-align:top;
+	margin-top:0px; 
+}
+
+.checkboxWrap 
+{
+   margin-bottom:0px !important;     
+}
+#contentBar .ImageCheckbox
+{
+    margin:0px;
+}
+#contentBar .imageCheckbox
+{
+    margin:0px !important;
+}
+
+#contentBar div.ImageCheckbox span
+{
+	display:inline-block;
+	font-size:11px;
+	-moz-user-select:none; 
+	padding:0px 0px 0px 18px;
+}
+
+/*
+  *******************************************
+    CHECKOUT STYLES
+  *******************************************
+*/
+
+#itemSummaryContainer, #summaryItems table /*$$$  in both IE6 & IE7 */
+{
+    width:94% !important;
+    zoom:1;
+}
+
+body #summaryItemsContainer /*$$$  in both IE6 & IE7 */
+{
+    width:310px; 
+    zoom:1;
+}
+
+.summaryTotals .subTotal .clr        /* bug no.17653 - removed clearing div to prevent extra space between 'subtotal' and 'promotion applied' rows.*/
+{
+    display:none;
+}
+ 
+#loadingViewRestrictions 
+{
+    right:30px !important;
+}
+
+body #shippingPriorityModalWindow_content .subTitle 
+{
+    margin-bottom:0;
+}
+
+body #ctl00_mainContent_steps_stepDelivery_shippingPriorityModal_btnOK
+ {
+    top:-5px;
+}
+
+#securityQuestionsModalWindow_content .ModalTitleBar .Close,
+#shippingDeliveryModalWindow_content .ModalTitleBar .Close,
+#viewRestrictionsTemplateWindow .Close
+{
+     top:5px;       
+}
+
+/* button in checkout stage 1: Project */
+#projectPane .btnOrangedbdbdb 
+{
+    height:22px;
+}
+
+#searchProgIndicator .wrap
+{
+	margin-top: 300px;
+	position:static !important;
+}
+
+/* order restrictions in checkout */
+.restrictionSection
+{
+    width:91%;                   
+}
+
+/* project panel in project tab in checkout */
+#projectPaneLayout td  /* $$$ common to IE6 & IE7 */
+{
+    height:27px !important;
+ }
+
+/* validation code on credit card popup in payment panel in checkout */
+.TIP-cc-verification .tip
+{
+    height:250px;
+}
+
+/* RF Pricing REMOVED, THESE VALUES ARE JUST PLAIN WRONG - TO
+
+.PricingGrid
+{
+    width:600px !important;
+    overflow:hidden !important;
+    height:230px !important;
+} */
+/*
+  *******************************************
+    Search Clarification
+  *******************************************
+*/
+.clarifyCancel
+{
+    margin-left:6px;
+}
+.ambiguousTitle
+{
+    padding-bottom:4px;
+}
+
+/* checkout page tabs */   /* $$$ common to IE6 & IE7 */
+body #topNavDiv a.tab, body #topNavDiv a.tab:link, body #topNavDiv a.tab:visited, body #topNavDiv a.tab:active
+{
+	padding:12px 0 11px;
+}
+/*
+  *********************************************
+    Options Applied Style
+  *********************************************
+*/
+
+#Search .optionsAppliedClose
+{
+    float:right;
+    cursor:pointer; 
+    position:absolute; 
+    right:4px;
+    top:9px;
+}
+
+#Search .optionsAppliedTextWrapper
+{
+    float:left;
+    position:absolute;
+    top:7px;
+    cursor:pointer;
+    width:145px !important;
+    text-align:right;
+}
+#Search .optionsAppliedDiv
+    {
+        display:block;
+        float:left;
+        position:relative;
+        background-color:#ffffcc; 
+        background-image:url("../Images/optionsApplied_bg.gif");
+        background-repeat:repeat-x;
+        height:24px; 
+        min-width:114px;
+        max-width:145px !important;
+        margin-top:10px; 
+        /*left:336px; 
+        top:146px;*/ 
+    }
+#Search .returnToPreviousSearchDiv
+{
+    background: url(../Images/BTN-orange-border-only.gif) no-repeat 0 0 !important;
+    border-bottom: 0;
+    float:right;
+    height: 24px;
+    margin: 9px 10px 0 0px !important;
+    position:relative; 
+}    
+
+#Search .returnToPreviousSearchDiv .returnPreviousSearchHyperlink
+{
+    border: 0;
+    display: block;
+    font-weight: normal;
+    font-size:11px !important;
+    /*height: 25px !important;*/
+    padding:6px 0px 0 0px !important;
+    text-transform:uppercase;
+    margin: 0 14px;
+    color: #6699cc;
+}
+#Search .returnToPreviousSearchDiv .GlassButton .Right .Center
+{
+    margin: 0 !important;
+}
+
+/*
+  *********************************************
+  
+    SIGN IN MODAL POPUUPS
+
+  *********************************************
+*/
+
+.signInTitleWrapper
+{
+    background-color:#dbdbdb;
+    height:26px;
+    color: #666666;
+    font-weight: normal;   
+    font-size: 14px;
+    font-family:Trebuchet MS;
+    margin-top:-7px !important;
+    padding-left:10px;      
+}
+.SignInContent #userNameWrapper #UsernameField
+{
+    float:right;
+    position:relative;
+    margin-top:2px;
+    margin-right:4px !important;
+}
+
+.SignInContent #passwordWrapper #PasswordField
+{
+    float:right;
+    position:relative;
+    margin-top:2px;
+    margin-right:4px !important;
+}
+
+.signInCloseButton
+{
+    top:-3px;
+}
+
+/*
+  *********************************************
+  
+    ZERO SEARCH RESULTS
+
+  *********************************************
+*/
+.zeroResults
+{
+    position:relative;
+    bottom:-130px !important;    
+}
+
+/*.hideCaptionWrapper
+{
+    width:170px;
+    height:auto;
+    max-height:450px;
+    background-color: #4c4c4c;
+    position:absolute;
+    right:20px;
+    top:286px !important;
+}
+.captionBtnHide
+{
+    position:absolute;
+    right:20px;
+    top:260px !important;
+    height:16px;
+    width:100px !important;
+    cursor:pointer;
+}*/
+.captionIconHide
+{
+    background-image:url(../Images/iconCaption.gif);
+    height:16px;
+    width:16px;
+    display:inline !important;
+}
+.labelDivHide
+{
+    display:inline !important;
+    vertical-align:top;
+    margin-top:3px !important;
+}
+.labelDivShow
+{
+    float:right !important;
+    display:inline !important;
+    vertical-align:top !important;
+    margin-top:-14px !important;
+}
+.displayNone
+{
+    display:none !important;
+}
+.viewSlideShow
+{
+    background-image:url(../Images/iconCaption.gif);
+    /*background-position:0px 16px;*/
+    height:16px;
+    width:16px;
+    display:inline !important;
+    vertical-align:middle;
+    margin-left:4px;
+}
+.mainLabelOL
+{
+    margin-bottom:6px !important;
+}
+.photographedBy
+{
+    margin-bottom:4px !important;
+}
+.datePublished
+{
+    margin-bottom:8px !important;
+}
+.byItalics
+{
+    margin-bottom:8px !important;
+    font-style:italic;
+}
+.idNumberPS
+{
+    margin-bottom:12px !important;
+}
+.creditLabelWrapper
+{
+    margin-bottom:6px !important;
+}
+
+/* media sets */
+.buttonBoxLabel2
+{
+    float:none;
+}
+
+.RFCD
+{
+    float:right;
+    width:100px;
+}
+
+
+/* checkout: second tab, payment */
+#paymentPaneLayout hr
+{
+	margin-top:0px;
+	margin-bottom:2px;
+}
+#paymentPaneLayout div.subcontainer
+{
+	margin-top:-10px;
+}   
+
+/*Styles for the My profile- Edit Credit Payment popup */
+#modalPaymentTarget
+{
+	height:510px !important;
+}
+
+/* Added styles for Reducing RM pricing modal height in IE7*/
+
+.noOverflow
+{
+	overflow:hidden !important;	
+}
+
+/*#pricingWindow_iframe
+{
+	width:110% !important;
+}*/
+
+#LanguageSelector
+{
+	width: 236px;
+}
+.footer
+{
+	padding-top:13px !important;
+}
+
+.c9c9c9_HorizontalRule
+{
+	margin-bottom: 15px;
+	border-bottom:1px solid #ffffff;
+	border-top:2px solid #c9c9c9 !important;
+}
+
+
+
+/* $$$ ====[ Styles for Express Checkout  ]*/
+
+.PricingBox
+{
+    padding:0;
+}
+.PricingBox .innerWrap
+{
+    width:226px;
+    padding:12px;
+    margin:0 12px;
+}
+.PricingBox
+{
+    color:#1a1a1a;
+}
+#pricingPane
+{
+    padding:0px;
+}
+.pricingLabels
+{
+	width:30%;
+	margin-left:5px;
+}
+.pricingValues
+{
+	width:70%;
+    text-align:right;
+}
+.pricingValues input
+{
+    margin-right:10px;
+}
+.totalsWrap
+{
+    margin-left:-10px;
+    float:left;
+}
+.ajaxPriceLoader
+{
+    width:270px;
+    height:135px; 
+    margin-left:-18px;    
+}
+
+.purchaseInfo .creditCardValidationCodeBox
+{
+	width:220px; 
+}
+.ajaxLicenseLoader
+{
+    width:240px;
+}
+
+/* Took three sets of styles out here to fix bug no. 17414: fixed position of thumbnail in IE7 in 'restrictions' modal in express checkout */
+
+/* Pricing */
+.PricingBottom .ExclusiveRights .textIconButton 
+{
+	line-height:20px !important;
+}
+
+.PricingBottom .ViewRestrictions .textIconButton 
+{
+	line-height:15px !important;
+}
+
+/*
+  *********************************************
+  
+    Order History
+
+  *********************************************
+*/
+
+#downloadProducts .licenseStatus
+{
+   background-image:url(/Images/alertYellow.gif);
+   background-repeat:no-repeat;
+   background-color:#BFBFBF;
+   padding:2px 3px 3px 14px;
+   height:20px;
+   vertical-align:top;
+   line-height:11px;
+   text-indent:0px;
+}
+#downloadProducts .redAlert
+{
+   background-image:url(/Images/alertRed.gif);
+   background-repeat:no-repeat;
+   background-color:#BFBFBF;
+   padding:3px;
+   height:12px;
+   text-indent:14px;
+}
+
+.OH-border-only1 {
+	padding-left:5px;
+}
+.OH-border-only1, .OH-border-only1 .right1,  .OH-border-only1 .right1 .center1 {
+	background-color:transparent;
+	background-image:url(../images/btnGray-outline.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+	color:white;
+	cursor:pointer;
+	font-size:16px;
+	font-weight:bold;
+	height:24px;
+}
+.OH-border-only1 .right1 {
+	background-position:right -24px;
+	padding-right:5px;
+}
+
+.OH-border-only1 .right1 .center1 
+{
+	background-position: 0px -48px;
+    background-repeat: repeat-x;
+	line-height:22px;
+	line-height: 24px;
+	padding: 0px 8px;
+	text-align: center;
+}
+
+
+/* order history summary page & media sets page */
+#downloadProducts .productBlock, 
+.MediaSetsProducts .ProductBlock
+{
+	display:inline !important;
+}
+
+#errorBlock .BTN-border-only      
+{
+    display:inline;
+    zoom:1;
+}
+
+/* Style - Footer.ascx Licensing Terms and Conditions */
+#getAcrobatWindow
+{
+	left:524px !important;
+}
+/* Style - Fix for IE7 - Spacing in the footer for Horizontal Line */
+#FooterContent #Right hr
+{
+	margin: 8px 0px !important;
+}
+
+/*  order history */
+
+#sortOptionsMenuDiv {
+    padding-right:32px;
+}
+
+#sortOptionsMenuDiv .MenuItem
+{
+    padding-right:20px;
+    width:100%;
+}    
+
+ /* order summary */
+ #selectOrder
+{
+    left:15px;
+    top:-1px;    
+}
+
+#selectOrder .mainShadow        
+{
+    left:0;
+    margin-left:-30px;               
+ }
+
+#sortOptionTrigger .arrowMeUp
+ {
+    left:auto;
+    margin-left:8px;
+    position:absolute;
+    right:auto;                        
+    top:12px;
+ }
+
+.txtName {
+    right:30px;
+}
+
+#notesGlassButton .GlassButton 
+{
+    top:6px;
+}
+
+.LightboxDetails 
+{
+    padding-bottom:0;
+}
+/*  shadow styling  */
+
+.topRightShadow
+{
+    right:5px;
+}
+
+/* Research Image Build form - IE7 spacing */
+
+div.ModalDescriptionText
+{
+	padding: 8px 13px !important;
+}
+
+/*Customer Service Page */
+#CustomerServiceContent .chatIcon
+{
+	margin-bottom:5px;
+}
+
+#CustomerServiceContent .FormRow .commentsSpacing
+{
+	vertical-align:top !important;
+}
+
+/* lightbox */ 
+.text2.SharedByPeople
+{
+    margin-top:-4px !important;
+    position:static;
+}
+
+.buttonsSpacing
+{
+	padding-right:5px;
+}
+
+/* My Profile */
+.mailContentWrapper
+{
+    background-color:#E8E8E8;
+    color:#1A1A1A;
+    line-height:16px;
+    margin-bottom:0.3em !important;
+}
+.FormLeftProfile
+{
+	border-bottom: solid 1px #dbdbdb;
+	border-top: solid 1px #dbdbdb;
+	font-weight: bold;
+	line-height: 12px;
+	width: 120px !important;
+	padding: 7px 8px 7px 10px;
+	text-align: right;
+	font-size:12px;
+	/*white-space: nowrap;*/
+}
+
+.FormRightPayment
+{
+	border-bottom: solid 1px #dbdbdb;
+	border-left: solid 2px #d8d8d8;
+	border-top: solid 1px #dbdbdb;
+	line-height: 12px;
+	overflow: visible !important;
+	padding: 7px 10px 7px 8px;
+	width:312px;
+}
+#ProfileContent .PaneContent .FormRight
+{
+    width:840px !important;	
+}
+.titleWrapper
+{
+    padding-left:8px;
+    background-color:#dbdbdb;
+    height:26px;
+    overflow: visible;
+    font-size:14px !important;
+    color:#666666;    
+}
+
+/* Styles for only IE- Request price form */
+.ContactUSimages
+{
+	display:block !important;
+	white-space:nowrap;
+}
+
+.ContactUSimages .ProductBlock 
+{
+	display:inline-block;
+	float:left;
+}
+
+.ContactUSimages .ProductBlock .controlWrap div.LT,
+.ContactUSimages .ProductBlock .thumbWrap,
+.ContactUSimages .ProductBlock .controlWrap
+{
+	position:static !important;
+		
+}
+
+.ContactUSimages .ProductBlock .controlWrap div.LT
+{
+	display:inline;
+}
+
+/* COFF popup */
+
+#coffProduct .ModalPopupPanelDialog
+{
+	margin-top:0;
+}
+
+/* disclaimer popup in enlargement */
+.disclaimerContent 
+{
+    margin-top:-9px;
+}
+
+/* 'do you want to delete?' modal in checkout */
+#modalDeleteTemplateWindow .ModalPopupContent
+{
+    padding-top:15px;
+}
+
+/* Cart dispaly message if no items available*/
+#emptyCartCarosel
+{
+	left:0px;
+}
+
+.headerControlWrapperNoAddAllLink
+{
+    min-height: 116px;
+}
+.headerControlWrapper
+{
+    min-height: 142px;
+}
+
+.rfcdRightButtons
+{
+    height:65px; 
+}
+
+.darkTopRightCorner
+{
+	z-index:-1;
+}
+.darkTopLeftCorner
+{
+	z-index:-1;
+}
+.darkBottomRightCorner
+{
+	z-index:-1;
+}
+
+
+/* MASSIVE PROGRESS INDICATOR */
+#ctl00_mainContent_searchProgIndicator
+{
+    display:none;
+	left: 0;
+	background-color:transparent;
+    overflow: visible;
+    right: 0;
+    top:180px;
+    bottom:0px;
+    height:100%;
+    z-index:1;
+    width: 100%;
+    margin-right:-200px !important;
+    position:fixed;
+}
+
+#ctl00_mainContent_searchProgIndicator .mask
+{
+    left: 0;
+    opacity: 0.66;
+    filter:alpha(opacity = 66);
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top:0;
+    height:100%;
+    bottom:-1000px;
+    z-index:1;
+    width: 100%;
+    background-color: black;
+}
+
+#ctl00_mainContent_searchProgIndicator .mask h1
+{
+    color: #4385c0;
+    height: 50px;
+    line-height: 36px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+#startDateButtons
+{
+	margin:5px 0 3px 150px;
+}
+
+.aSearchColumn, .bSearchColumn, .cSearchColumn
+{
+	top:-5px !important;
+}
+
+.checkboxesAdjustment input[type="checkbox"]
+{
+    height:20px;
+    width:20px;
+    border-bottom-width:0px !important;
+    border-left-width:0px  !important;
+    border-right-width:0px  !important;
+    border-top-width:0px  !important;
+}
+
+.feedbackRadioButtons label
+{	
+    margin-left:34px;
+    margin-top:3px;
+}
+#header1
+{
+    background-color: #333333;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    position:relative;
+    float:left;
+    width:100%;
+}
+
+#sortBlockId
+{
+	margin:3px 5px;
+}
+
+#header1 .recentImageDisplay
+{
+	float:right;
+	display:inline-block;
+	width:90px;
+	min-height:60px;
+    max-height:142px;
+}
+
+#saveFavoriteUsePopUp .ModalPopupPanelDialog .ModalPopupContent
+{
+	padding-bottom : 0px;
+}
+#saveFavoriteUsePopUp .ModalPopupPanelDialog .ModalPopupContent .FormButtons 
+{
+	margin-bottom:-12px;
+}
+
+/*Enlargement*/
+#backgroundDiv
+{
+	overflow:visible;
+	margin-left:6px;
+	width: 955px !important;
+}
+#paymentPane .nextStepButton
+{ 
+	zoom:1;
+}
+#paymentPane .nextStepButton
+{
+	display:inline;
+}
+
+/* bug no. 18008: remove scrollbar from 'contact us' modal in localized versions */
+#validationContainer
+{
+    overflow:hidden;
+}
+
+#downloadProducts .redAlert
+{
+    height:auto !important;
+}
+
+#downloadProducts .licenseStatusContent
+{
+   font-size:10px;
+   padding-left:2px;
+   display:block;
+   height:auto !important;
+}
+.productBlock
+{
+    height:auto !important;
+}
+

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Archives Corbis : Faire vivre l'Histoire</Title>
+		<Image Src="xml/Archival/Images/main.jpg" Alt="42-21496840| Premium DG| © Bob Adelman/Corbis" ImageID="42-21496840" Attribution="| Premium DG| © Bob Adelman/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>  Des régimes sont renversés, des foules se manifestent, des idoles disparaissent. De grands photographes ont immortalisé tous ces instants.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=treasures" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Un siècle haut en couleur</Title>
+		<Image Src="xml/Archival/Images/sub.1.jpg" Alt="U1591414-10| Standard DG| © Bettmann/CORBIS" ImageID="U1591414-10" Attribution="| Standard DG| © Bettmann/CORBIS" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Techniques antiques de pigmentation, pellicules désuètes et formats oubliés donnent une autre dimension à la photographie en couleurs.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=colorCentury" Text="Voir diaporama" Title="Voir diaporama"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Summer box office stars</Title>
+		<Image Src="xml/Outline/Images/main.jpg" Alt="OUT18640068| Premium RM| © Don Flood/Corbis Outline" Attribution="OUT18640068| Premium RM| © Don Flood/Corbis Outline">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="View slideshow" Title="View slideshow" />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>
+				They play captains, criminals, and boy wizards. They battle dinosaurs, hijackers, and sentient machines. Stars pose to promote this summer’s top blockbusters.
+				</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=summerStars" Text="View slideshow" Title="View slideshow" />
+		</Links>
+	</FeaturedItem>
+  <FeaturedItem>
+    <Title>Featuring Jill Greenberg</Title>
+    <Image Src="xml/Outline/Images/sub.1.jpg" Alt="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" Attribution="OUT21718659| Premium RM| © Jill Greenberg/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="View slideshow" Title="View slideshow" />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Jill Greenberg’s photography is acclaimed for its distinctive lighting style and compelling clarity.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=jillGreenburg" Text="View slideshow" Title="View slideshow" />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>Introducing Andrew McLeod</Title>
+    <Image Src="xml/Outline/Images/sub.2.jpg" Alt="OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" Attribution=" OUT20804934| Premium RM| © Andrew McLeod/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="View slideshow" Title="View slideshow" />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>With a client list that includes Seventeen and Sony BMG, Andrew McLeod specializes in fashion photography and celebrity portraiture.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=andrewMcLeod" Text="View slideshow" Title="View slideshow" />
+    </Links>
+  </FeaturedItem>
+  <FeaturedItem>
+    <Title>The best of Outline</Title>
+    <Image Src="xml/Outline/Images/sub.3.jpg" Alt="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" Attribution="OUT21975609| Premium RM| © Anthony Mandler/Corbis Outline" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="View slideshow" Title="View slideshow" />
+		</Image>
+    <Copy>
+      <![CDATA[
+				<p>Original portraits of the most fascinating people in the world by the most sought-after photographers in the industry.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=bestOf" Text="View slideshow" Title="View slideshow" />
+    </Links>
+  </FeaturedItem>
+	<FeaturedItem IsHero="true">
+		<Title>Not an Outline member?</Title>
+		<Copy>
+			<![CDATA[
+				<p>
+					Outline images are available exclusively to Outline members. <a href="http://pro.corbis.com/creative/celebrity/outlineform/orderform.asp?lcd=us-us" title="Click to view Membership signup form." rel="720_600_popup" localize="true">Click here</a> to contact us about membership.
+				</p>
+			]]>
+		</Copy>
+		<Links />
+	</FeaturedItem>
+</FeaturedItems>

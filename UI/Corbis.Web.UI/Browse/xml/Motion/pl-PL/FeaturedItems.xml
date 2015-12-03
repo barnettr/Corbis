@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Niezrównana oferta Corbis Motion</Title>
+		<Copy>
+			<![CDATA[
+				<p>Nowy serwis, zbudowany we współpracy z ThoughtEquity, dostarczy Ci wielką ilość różnorodnych materiałów filmowych i najnowocześniejsze rozwiązania technologiczne. Materiał ze znanych wytwórni jak: Sony Pictures, National Geographic, Paramount Pictures, HBO Archives oraz the Smithsonian Channel. Z nowej strony CorbisMotion możesz ściągać próbki klipów, kupić klipy on-line, pobierać materiały produkcyjne oraz zamówić wyszukiwanie."</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Url="http://www.corbismotion.com/" Text="Odwiedź corbismotion.com" Title="Corbis Motion"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

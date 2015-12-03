@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page>
+
+	<!-- 
+	LANGUAGELISTSELECTOR
+	Usage: If the suppressAll attribute is set to "true", the language selection dropdown menu will be hidden. If the suppressAll attribute is set to "false" then only the languages displayed in the Items list will be displayed in the dropdown menu. Comment out the <Item/> line for any languages that should be removed from the dropdown menu. If zero languages are set/listed below, the default of all 10 languages will be used.
+	-->
+  <LanguageListSelector suppressAll="false">  
+    <Items>
+      <!-- If no languages are set, all 10 will be available -->
+			<Item Text="Deutsch" Value="de-DE"/>
+      <Item Text="English (UK)" Value="en-GB"/>
+			<Item Text="English (US)" Value="en-US"/>
+			<Item Text="Español" Value="es-ES"/>
+      <Item Text="Français" Value="fr-FR"/>
+      <Item Text="Italiano" Value="it-IT"/>
+      <Item Text="Nederlands" Value="nl-NL"/>
+      <Item Text="Polski" Value="pl-PL"/>
+      <Item Text="Português" Value="pt-BR"/>
+      <Item Text="中文（Chinese）" Value="zh-CHS"/>
+      <Item Text="日本語 (Japanese)" Value="ja-JP"/>
+    </Items>
+  </LanguageListSelector>
+
+	<!-- 
+	SCRIPTS
+	Usage: If you need to add a custom javascript file for a particular page, add it to the source tree under \Browse\xml\<Name of File>\Scripts\ and then reference it here. We use MooTools so check out http://docs.mootools.org for more documentation.
+	-->
+
+
+	<!-- 
+	STYLESHEETS
+	Usage: If you need to add a custom css file for a particular page, add it to the source tree under \Browse\xml\<Name of File>\Stylesheets\ and then reference it here.
+	-->
+  <StyleSheets>
+      <StyleSheet>FineArt.css</StyleSheet>
+  </StyleSheets>
+
+	<!-- 
+	OMNITUREVARS
+	Usage: Near the bottom of each page, there is some javascript that is used for Omniture, our analytics program. You can add as many variables below as needed or change the values of the current settings.
+	-->
+	<OmnitureVars>
+		<OmnitureVar name="pageName">FineArt</OmnitureVar>
+		<OmnitureVar name="server"/>
+		<OmnitureVar name="channel">Browse</OmnitureVar>
+		<OmnitureVar name="pageType"/>
+	</OmnitureVars>
+
+	<!-- 
+	MASTERPAGE
+	Usage: Change to one of the following three options to change the .Net MasterPage that the page will use to render the page. The possible MasterPages are located under \Browse\MasterPages\.
+  MasterPage options: 
+				 GlobalNav (1 column layout), MasterBase (2 column layout), NoGlobalNav (No site chrome)        
+   -->
+  <MasterPage>MasterBase</MasterPage>
+
+	<!-- 
+	MODULES
+	Usage: The xmlSource attribute indicates name of xml file
+				 The zone attribute indicates the zone on the page to display the module (options: main or left)
+				 The order attribute indicates the order the modules should be displayed on the page per zone
+				 The text value for Module (<Module>text value</Module>) needs to be one of the following options
+  Module options: 
+				 OutlineMembership - An Outline signup form with office selection and office information.
+				 ModuleImages - Four images with links: one large image on top, three smaller images underneath.
+				 ModuleThumbnails - A list of small icons/thumbnail images with a link inline next to it.
+				 ModuleList - A UL list of text links.
+				 ModuleText - A paragraph or two of text.
+   -->
+  <Modules>
+			<Module zone="main" order="1" xmlSource="FeaturedItems.xml">FeaturedItems</Module>
+      <Module zone="left" order="1" xmlSource="ModuleList.xml">ModuleList</Module>
+  </Modules>
+
+	<!-- 
+	CUSTOMMODULES
+	Usage: Pretty much the same as the Modules above except that the path to the xslt is explicitly set as well as the full path to the xml file, the associated css file and the ascx file.
+	-->
+  <CustomModules>
+      <!-- XML Source defined in XSLT File-->
+      <!--<CustomModule zone="left" order="5" xslSource="" xmlSource="">CustomModule1</CustomModule>-->
+  </CustomModules>
+</Page>

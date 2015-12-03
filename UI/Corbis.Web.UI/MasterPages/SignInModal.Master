@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SignInModal.master.cs" Inherits="Corbis.Web.UI.MasterPages.SignInModal" %>
+<%@ Register TagPrefix="Corbis" Namespace="Corbis.Web.UI.Controls" Assembly="Corbis.Web.UI.Controls" %>
+<%@ Register TagPrefix="Corbis" TagName="Footer" Src="~/src/Navigation/Footer.ascx" %>
+<%@ Register TagPrefix="Corbis" TagName="Search" Src="~/src/Navigation/Search.ascx" %>
+<%@ Register TagPrefix="Corbis" TagName="GlobalNav" Src="~/src/Navigation/GlobalNav.ascx" %>
+<%@ Register TagPrefix="AJAXExtentions" Namespace="AjaxControlToolkit.WCSFExtensions" Assembly="AjaxControlToolkit.WCSFExtensions" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title><Corbis:Localize ID="defaultSite" runat="server" meta:resourcekey="defaultSite" /></title>
+    <link rel="shortcut icon" href="~/Images/favicon.ico" type="image/x-icon" />
+</head>
+<body class="noGlobalBody" style="background-color: #dbdbdb;">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="scriptManager" runat="server"  EnableScriptGlobalization="true" EnableScriptLocalization="true">
+            <CompositeScript>
+                <Scripts>
+                    <asp:ScriptReference name="MicrosoftAjax.js"/>
+	                <asp:ScriptReference name="MicrosoftAjaxWebForms.js"/>
+                </Scripts>
+            </CompositeScript>
+        </asp:ScriptManager>
+        <div id="MainContent">
+            <asp:ContentPlaceHolder ID="mainContent" runat="server">
+            </asp:ContentPlaceHolder><div class="clear"></div>
+            
+        </div>
+    </form>
+    
+    <%-- MOCHA IFRAME MODAL -- LOADS THE SIGNIN.ASPX PAGE --%>
+    <div id="secureSignIn" runat="server" style="display:none;">
+
+    </div>
+    <%-- END MOCHA IFRAME --%>
+</body>
+</html>
+

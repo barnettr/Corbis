@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="artworkText.Text" xml:space="preserve">
+    <value>ARTWORK</value>
+  </data>
+  <data name="asPerContract" xml:space="preserve">
+    <value>Per contract</value>
+  </data>
+  <data name="collectionText.Text" xml:space="preserve">
+    <value>COLLECTION</value>
+  </data>
+  <data name="contactOutline" xml:space="preserve">
+    <value>Contact Outline</value>
+  </data>
+  <data name="contactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="corbisKeywordsText.Text" xml:space="preserve">
+    <value>Corbis keywords</value>
+  </data>
+  <data name="creatorNameText.Text" xml:space="preserve">
+    <value>CREATOR NAME</value>
+  </data>
+  <data name="dataCreatedText.Text" xml:space="preserve">
+    <value>DATE CREATED</value>
+  </data>
+  <data name="dateAddedText.Text" xml:space="preserve">
+    <value>DATE ADDED</value>
+  </data>
+  <data name="datePhotographedText.Text" xml:space="preserve">
+    <value>DATE PHOTOGRAPHED</value>
+  </data>
+  <data name="datePublishedText.Text" xml:space="preserve">
+    <value>DATE PUBLISHED</value>
+  </data>
+  <data name="feedbackMessage.Text" xml:space="preserve">
+    <value>If you see a problem or discrepancy with the {0} image &lt;b&gt;{1}&lt;/b&gt;,&lt;b&gt; [{2}]&lt;/b&gt;, please complete and submit this form. If you have pricing and/or license questions about this image, please &lt;a id="feedbackContactLink" href="javascript:void(0);" onclick="javascript:CorbisUI.ContactCorbis.ShowContactCorbisModal(this);return false;"&gt;Contact Corbis&lt;/a&gt;.</value>
+  </data>
+  <data name="disclaimerPara1.Text" xml:space="preserve">
+    <value>THE CORBIS SITE AND ITS CONTENT ARE PROVIDED TO YOU ON AN "AS IS" BASIS. WE MAKE NO WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO: THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW.</value>
+  </data>
+  <data name="disclaimerPara2.Text" xml:space="preserve">
+    <value>Although we use our reasonable best efforts to ensure the accuracy of the Content on our site, we make no representations or warranties as to the accuracy, correctness, or reliability of the Content. Further, we make no representations or warranties that the functional aspects of our site will be uninterrupted or error-free, or that our site or the server that makes it available are free of viruses or other harmful components. (Because some jurisdictions do not allow for the exclusion of implied warranties, some of these exclusions may not apply to you.) You acknowledge that your use of our site is at your own risk.</value>
+  </data>
+  <data name="disclaimerPara3.Text" xml:space="preserve">
+    <value>As a convenience, our site links to other sites that may be of interest to you but are not under our control. These links do not imply an endorsement by Corbis, and we are not responsible for the availability of or the content contained in any linked site.</value>
+  </data>
+  <data name="disclaimerPara4.Text" xml:space="preserve">
+    <value>Corbis is developing a historically and culturally important archive of images and text. In order to ensure the historical integrity of the archive, Corbis preserves any text that might originally have accompanied its images. Therefore, the Corbis archive may contain content that reflects the social attitudes and circumstances of a particular time. You should be aware that your search may display results containing content that may seem inappropriate to its context, or text that could be potentially offensive. By using the Corbis archive, you agree that Corbis shall not be liable for any damages (direct or indirect, consequential or incidental) or any claim arising out of the use of this original content.</value>
+  </data>
+  <data name="disclaimerTitle.Title" xml:space="preserve">
+    <value>Disclaimer</value>
+  </data>
+  <data name="imageDetailsText.Text" xml:space="preserve">
+    <value>Image details</value>
+  </data>
+  <data name="imageText.Text" xml:space="preserve">
+    <value>Image:</value>
+  </data>
+  <data name="licenseDetails" xml:space="preserve">
+    <value>License details</value>
+  </data>
+  <data name="locationText.Text" xml:space="preserve">
+    <value>LOCATION</value>
+  </data>
+  <data name="magazineText.Text" xml:space="preserve">
+    <value>MAGAZINE</value>
+  </data>
+  <data name="photographerText.Text" xml:space="preserve">
+    <value>PHOTOGRAPHER</value>
+  </data>
+  <data name="priceNow" xml:space="preserve">
+    <value>Price now</value>
+  </data>
+  <data name="relatedImagesMessage.Text" xml:space="preserve">
+    <value>This image appears in {0} image group(s):</value>
+  </data>
+  <data name="relatedImagesText.Text" xml:space="preserve">
+    <value>Related images</value>
+  </data>
+  <data name="updateUse" xml:space="preserve">
+    <value>Update use</value>
+  </data>
+  <data name="viewDimension.Text" xml:space="preserve">
+    <value>VIEW DIMENSIONS</value>
+  </data>
+  <data name="rf.Text" xml:space="preserve">
+    <value>Royalty-Free</value>
+  </data>
+  <data name="rm.Text" xml:space="preserve">
+    <value>Rights Managed</value>
+  </data>
+  <data name="rs.Text" xml:space="preserve">
+    <value>Rights Simple</value>
+  </data>
+  <data name="commentsLabel.Text" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="editing.Text" xml:space="preserve">
+    <value>&lt;b&gt;Editing&lt;/b&gt;&lt;br/&gt; (Model release issues, duplicate images, etc.)</value>
+  </data>
+  <data name="editingMsg.Text" xml:space="preserve">
+    <value>(Model release issues, duplicate images, etc.)</value>
+  </data>
+  <data name="feedbackPopupTitle.Text" xml:space="preserve">
+    <value>Image feedback</value>
+  </data>
+  <data name="imageInfo.Text" xml:space="preserve">
+    <value>&lt;b&gt;Image Information&lt;/b&gt;&lt;br/&gt;(Spelling errors, factual discrepancies, incorrect date or location,	misidentified subject, 'missing' keywords, wrong caption accompanying image, etc.)</value>
+  </data>
+  <data name="imageInfoMsg.Text" xml:space="preserve">
+    <value>(Spelling errors, factual discrepancies, incorrect date or location,	misidentified subject, 'missing' keywords, wrong caption accompanying image, etc.)</value>
+  </data>
+  <data name="imaging.Text" xml:space="preserve">
+    <value>&lt;b&gt;Imaging&lt;/b&gt;&lt;br/&gt; (Bad scan, image rotated/flipped, technical problems)</value>
+  </data>
+  <data name="imagingMsg.Text" xml:space="preserve">
+    <value>(Bad scan, image rotated/flipped, technical problems)</value>
+  </data>
+  <data name="legal.Text" xml:space="preserve">
+    <value>&lt;b&gt;Legal&lt;/b&gt;&lt;br/&gt; (Incorrect credit or copyright, questions regarding copyright, clearances, restrictions, trademark issues, etc)</value>
+  </data>
+  <data name="legalMsg.Text" xml:space="preserve">
+    <value>(Incorrect credit or copyright, questions regarding copyright, clearances, restrictions, trademark issues, etc)</value>
+  </data>
+  <data name="other.Text" xml:space="preserve">
+    <value>&lt;b&gt;Other:&lt;/b&gt; please describe below</value>
+  </data>
+  <data name="contributorRole" xml:space="preserve">
+    <value>A Corbis Contributor</value>
+  </data>
+  <data name="forThisImageRole" xml:space="preserve">
+    <value>The Corbis Contributor for this image</value>
+  </data>
+  <data name="notContributorRole" xml:space="preserve">
+    <value>Not a Corbis Contributor</value>
+  </data>
+  <data name="representingRole" xml:space="preserve">
+    <value>Representing a Corbis Contributor</value>
+  </data>
+  <data name="selectOneRole" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="relatedImagesHeading.Text" xml:space="preserve">
+    <value>Related images</value>
+  </data>
+  <data name="relatedImageGroupDetail.Text" xml:space="preserve">
+    <value>({0} images)</value>
+  </data>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="feedbackSuccess.Message" xml:space="preserve">
+    <value>Your feedback was successfully submitted.</value>
+  </data>
+  <data name="nameLabel.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="phoneNumberLabel.Text" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="roleLabel.Text" xml:space="preserve">
+    <value>Your role</value>
+  </data>
+  <data name="userNameLabel.Text" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="feedbackSuccess.Title" xml:space="preserve">
+    <value>Thank you</value>
+  </data>
+  <data name="feedbackSuccessClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="availability.Text" xml:space="preserve">
+    <value>Availability</value>
+  </data>
+  <data name="description.Text" xml:space="preserve">
+    <value>The following data is intended to help you select the best file size for your project. Files downloaded directly from the website are in JPEG format. If you need a TIFF format or a larger output size, &lt;a id="enlargementContactLink" href="javascript:void(0)" onclick="javascript:CorbisUI.ContactCorbis.ShowContactCorbisModal(this)"&gt;contact Customer Service&lt;/a&gt;.</value>
+  </data>
+  <data name="dimensions.Text" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="filesize.Text" xml:space="preserve">
+    <value>File size</value>
+  </data>
+  <data name="filesizenote.Text" xml:space="preserve">
+    <value>* File sizes are approximate and may vary by color space and source. Pixel dimensions are accurate as displayed.</value>
+  </data>
+  <data name="immediate.Text" xml:space="preserve">
+    <value>Immediate</value>
+  </data>
+  <data name="title.Text" xml:space="preserve">
+    <value>Dimensions &amp;amp; availability</value>
+  </data>
+  <data name="keywordsIntro.Text" xml:space="preserve">
+    <value>Select one or more keywords below and then click the Search now button to start a new search for similar images.</value>
+  </data>
+  <data name="keywordsTitle.Text" xml:space="preserve">
+    <value>Corbis keywords</value>
+  </data>
+  <data name="inchAbbreviation" xml:space="preserve">
+    <value>in.</value>
+  </data>
+  <data name="ppi.Text" xml:space="preserve">
+    <value>ppi</value>
+  </data>
+  <data name="clearItems.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="searchnow.Text" xml:space="preserve">
+    <value>Search now</value>
+  </data>
+  <data name="signIn.Text" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="waterMark.Text" xml:space="preserve">
+    <value>to remove watermarks.</value>
+  </data>
+  <data name="AddToCart" xml:space="preserve">
+    <value>Add to Cart</value>
+  </data>
+  <data name="AddToCartSelected" xml:space="preserve">
+    <value>Add to Cart</value>
+  </data>
+  <data name="AddToLightbox" xml:space="preserve">
+    <value>Add to Lightbox</value>
+  </data>
+  <data name="AddToLightboxSelected" xml:space="preserve">
+    <value>Add to Lightbox</value>
+  </data>
+  <data name="AddToQuickPic" xml:space="preserve">
+    <value>Add to Quick Pic</value>
+  </data>
+  <data name="AddToQuickPicSelected" xml:space="preserve">
+    <value>Add to Quick Pic</value>
+  </data>
+  <data name="CalculatePrice" xml:space="preserve">
+    <value>Price Image</value>
+  </data>
+  <data name="ExpressCheckout" xml:space="preserve">
+    <value>Express Checkout</value>
+  </data>
+  <data name="PrintPage" xml:space="preserve">
+    <value>Print this page</value>
+  </data>
+  <data name="captionDisclaimerText.Text" xml:space="preserve">
+    <value>Caption disclaimer </value>
+  </data>
+  <data name="imageFeedbackText.Text" xml:space="preserve">
+    <value>Image feedback </value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Price:</value>
+  </data>
+  <data name="closeButton.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="warningDifferentCountry.Text" xml:space="preserve">
+    <value>The registered billing country you have selected may prevent online pricing and purchasing of images. Please</value>
+  </data>
+  <data name="alertTitle.Title" xml:space="preserve">
+    <value>Alert!</value>
+  </data>
+  <data name="registerWindowTitle.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="contactCorbis.Text" xml:space="preserve">
+    <value>contact Corbis</value>
+  </data>
+  <data name="warningDifferentCountryEnd.Text" xml:space="preserve">
+    <value>for more information.</value>
+  </data>
+  <data name="whatsThisImageLabel.Text" xml:space="preserve">
+    <value>What's the issue with this image?</value>
+  </data>
+  <data name="feebackCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="feedbackSubmit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="ImageFileAvailability_Immediate" xml:space="preserve">
+    <value>Immediate</value>
+  </data>
+  <data name="ImageFileAvailability_NeedsProcessing" xml:space="preserve">
+    <value>Requires Processing</value>
+  </data>
+  <data name="centimeterAbbreviation" xml:space="preserve">
+    <value>cm.</value>
+  </data>
+  <data name="name.required_message" xml:space="preserve">
+    <value>Name is required. </value>
+  </data>
+  <data name="comments.custom1_message" xml:space="preserve">
+    <value>Comments are required.</value>
+  </data>
+  <data name="email.custom1_message" xml:space="preserve">
+    <value>Please enter a valid Email.</value>
+  </data>
+  <data name="email.required_message" xml:space="preserve">
+    <value>Email address is required.</value>
+  </data>
+  <data name="role.custom1_message" xml:space="preserve">
+    <value>Role is required.</value>
+  </data>
+  <data name="invalidEmail" xml:space="preserve">
+    <value>Please enter a valid email.</value>
+  </data>
+  <data name="NonEcommercePriceLink" xml:space="preserve">
+    <value>Request Price</value>
+  </data>
+  <data name="OutlinePriceLink" xml:space="preserve">
+    <value>Contact Outline</value>
+  </data>
+  <data name="viewDimensionTooltip" xml:space="preserve">
+    <value>View Dimensions</value>
+  </data>
+  <data name="ImageFileAvailability_ContactUs" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="rfcdHeader" xml:space="preserve">
+    <value>ROYALTY-FREE CD</value>
+  </data>
+  <data name="viewRfcdLink.Text" xml:space="preserve">
+    <value>View images on this CD</value>
+  </data>
+  <data name="quickpicMaximumAlert.Message" xml:space="preserve">
+    <value>You can download &lt;b&gt;up to 20 images&lt;/b&gt; at any one time. Please download these before attempting to download any more.</value>
+  </data>
+  <data name="quickpicMaximumAlert.Title" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="imagePager.PostfixTextFormat" xml:space="preserve">
+    <value>of {0}</value>
+    <comment>In most lanuguages the text reads "1 of 100", but in others (e.g. Japanese) they read "100 of 1".  The {0} will be where the total pages go</comment>
+  </data>
+  <data name="imagePager.PrefixTextFormat" xml:space="preserve">
+    <value>&lt;!--blank--&gt;</value>
+    <comment>In most lanuguages the text reads "1 of 100", but in others (e.g. Japanese) they read "100 of 1".  The {0} will be where the total pages go</comment>
+  </data>
+</root>

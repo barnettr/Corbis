@@ -1,0 +1,156 @@
+/**************************
+ *  TOOLTIP CLASSES
+ **************************/
+
+/* CHECKOUT - License Details Tooltip */
+.TIP-license-details
+{
+    width: 323px
+}
+
+    .TIP-license-details .tip-top,
+    .TIP-license-details .tip-bottom
+    {
+        height: 18px 
+    }
+
+    .TIP-license-details .tip-top
+    {
+        background: url('/Images/TIP-LD-top.png') top left no-repeat;
+    }
+    
+    .TIP-license-details .tip
+    {
+        background: url('/Images/TIP-LD-body.png') top left repeat-y;
+    }
+    
+        .TIP-license-details .tip .tip-title,
+        .TIP-license-details .tip .tip-text
+        {
+            margin-left: 11px;
+            margin-right: 9px;
+            padding: 10px;
+        }
+        
+        .TIP-license-details .tip .tip-title
+        {
+            background: #dbdbdb;
+            padding-top: 0;
+            padding-bottom: 5px;
+            float:none;
+            height:22px;
+            color:#666666;
+        }
+           
+    .TIP-license-details .tip-bottom
+    {
+        background: url('/Images/TIP-LD-bottom.png') top left no-repeat;
+    }
+
+/* CHECKOUT - Credit Card Verification Tooltip */
+.TIP-cc-verification
+{
+    width: 550px;
+
+}
+
+    .TIP-cc-verification .tip-top,
+    .TIP-cc-verification .tip-bottom
+    {
+        height: 18px 
+    }
+
+    .TIP-cc-verification .tip-top
+    {
+        background: url('/Images/TIP-CCV-top.png') top left no-repeat;
+    }
+    
+    .TIP-cc-verification .tip
+    {
+        background: url('/Images/TIP-CCV-body.png') top left repeat-y;
+    }
+    
+        .TIP-cc-verification .tip .tip-title,
+        .TIP-cc-verification .tip .tip-text
+        {
+            margin-left: 11px;
+            margin-right: 9px;
+            padding: 10px;
+        }
+        
+        .TIP-cc-verification .tip .tip-title
+        {
+            color: #797979;
+            font-size: 14px;
+            background: #dbdbdb;
+            padding-top: 0px;
+            padding-bottom: 5px;
+            height:22px;
+        }
+        
+        .TIP-cc-verification .tip .tip-text
+        {
+            color: #1a1a1a;
+            font-size: 11px;
+            background: #e8e8e8;
+        }
+    
+    .TIP-cc-verification .tip-bottom
+    {
+        background: url('/Images/TIP-CCV-bottom.png') top left no-repeat;
+    }
+
+/* SEARCH - product block tooltip */
+
+.TIP-product-block
+{
+    width: 296px
+}
+    .TIP-product-block .tip-top,
+    .TIP-product-block .tip-bottom
+    {
+        height: 18px 
+    }
+
+    .TIP-product-block .tip-top
+    {
+        background: url('/Images/TIP-search-top.png') top left no-repeat;
+    }
+    
+    .TIP-product-block .tip
+    {
+        background: url('/Images/TIP-search-body.png') top left repeat-y;
+    }
+    
+        .TIP-product-block .tip .tip-title,
+        .TIP-product-block .tip .tip-text
+        {
+            margin-left: 11px;
+            margin-right: 9px;
+            padding: 10px;
+        }
+        
+        .TIP-product-block .tip .tip-title
+        {
+            color: #797979;
+            font-size: 11px;
+            background: #dbdbdb;
+            padding-top: 0px;
+            padding-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        .TIP-product-block .tip .tip-text
+        {
+            color: #1a1a1a;
+            font-size: 11px;
+            background: #e8e8e8;
+        }
+    
+    .TIP-product-block .tip-bottom
+    {
+        background: url('/Images/TIP-search-bottom.png') top left no-repeat;
+    }
+
+
+    

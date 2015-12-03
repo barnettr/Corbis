@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="chat.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="contactCorbis.Text" xml:space="preserve">
+    <value>Contact Corbis</value>
+  </data>
+  <data name="contactMessage" xml:space="preserve">
+    <value>Please contact &lt;a href="{0}"&gt;Customer Service&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="cornfirmationNumber" xml:space="preserve">
+    <value>Confirmation #{0}</value>
+  </data>
+  <data name="deliveryPaneTitle.Text" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="downloadAll.Text" xml:space="preserve">
+    <value>DOWNLOAD ALL</value>
+  </data>
+  <data name="downloadErrorModal.Title" xml:space="preserve">
+    <value>Download error</value>
+  </data>
+  <data name="downloadImagesModal.Title" xml:space="preserve">
+    <value>Download images</value>
+  </data>
+  <data name="downloadItemCount" xml:space="preserve">
+    <value>Your order contains {0} item.</value>
+  </data>
+  <data name="downloadItemsCount" xml:space="preserve">
+    <value>Your order contains {0} items.</value>
+  </data>
+  <data name="downloadItemsHeader.Text" xml:space="preserve">
+    <value>DOWNLOAD YOUR ITEM(S)</value>
+  </data>
+  <data name="downloadMessage.Text" xml:space="preserve">
+    <value>We are compressing your image(s) for download.</value>
+  </data>
+  <data name="downloadRfcd.Text" xml:space="preserve">
+    <value>Download selected images</value>
+  </data>
+  <data name="errorIcon.title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="errorMessage.Text" xml:space="preserve">
+    <value>An error occurred during the download process. We apologize for the inconvenience.</value>
+  </data>
+  <data name="errorTitle.Text" xml:space="preserve">
+    <value>There was an error with your order.</value>
+  </data>
+  <data name="imageDownloadMessage.Text" xml:space="preserve">
+    <value>Click on the file name to download:</value>
+  </data>
+  <data name="imagesHeader" xml:space="preserve">
+    <value>{0} image(s)&lt;br/&gt;Order #{1}</value>
+  </data>
+  <data name="imageSizeQuestion.Text" xml:space="preserve">
+    <value>Questions about image file sizes?</value>
+  </data>
+  <data name="instructionalText.Text" xml:space="preserve">
+    <value>Lower resolution images are available for immediate download.  Higher resolutions may take longer before downloads are available.  Please allow up to 1 hour for every 3 images purchased.</value>
+  </data>
+  <data name="licenseDetailsPaneTitle.Text" xml:space="preserve">
+    <value>License details</value>
+  </data>
+  <data name="longWaitMessage.Text" xml:space="preserve">
+    <value>You've selected 50+ images. Preparing that many images can take many minutes to complete. Thank you for your patience.</value>
+  </data>
+  <data name="orderDateLabel" xml:space="preserve">
+    <value>This order was placed on {0}.</value>
+  </data>
+  <data name="orderEmail" xml:space="preserve">
+    <value>In addition, an email confirmation has been sent to: {0}.</value>
+  </data>
+  <data name="orderErrorMessage.Text" xml:space="preserve">
+    <value>Your order has not been processed and you have not been charged for this order.&lt;br /&gt;We apologize for the inconvenience.</value>
+  </data>
+  <data name="orderMessageHeader.Text" xml:space="preserve">
+    <value>Your order was successfully submitted. Thank you for placing your order with Corbis!</value>
+  </data>
+  <data name="orderRecords.Text" xml:space="preserve">
+    <value>A record of this transaction is available in &lt;a href="../OrderHistory/OrderHistory.aspx"&gt;my orders&lt;/a&gt;.</value>
+  </data>
+  <data name="orderSummary" xml:space="preserve">
+    <value>ORDER SUMMARY #{0}</value>
+  </data>
+  <data name="orderTotalItem" xml:space="preserve">
+    <value>{0} item</value>
+  </data>
+  <data name="orderTotalItems" xml:space="preserve">
+    <value>{0} items </value>
+  </data>
+  <data name="pageTitle.Text" xml:space="preserve">
+    <value>Order submitted</value>
+  </data>
+  <data name="paymentPaneTitle.Text" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="perContract" xml:space="preserve">
+    <value>Per Contract</value>
+  </data>
+  <data name="printOrder.Text" xml:space="preserve">
+    <value>PRINT FULL ORDER SUMMARY</value>
+  </data>
+  <data name="projectDetailsLabel.Text" xml:space="preserve">
+    <value>Project details</value>
+  </data>
+  <data name="projectPaneTitle.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="promotionAppliedLabel.Text" xml:space="preserve">
+    <value>Promotion Applied</value>
+  </data>
+  <data name="rfcdDownloadTemplate.Title" xml:space="preserve">
+    <value>Download CD images</value>
+  </data>
+  <data name="rfcdInstruction.Text" xml:space="preserve">
+    <value>Click on a thumbnail to select it, and click again to deselect it. Then to begin downloading, click the Download selected images button.</value>
+  </data>
+  <data name="rfcdInstructionHeader.Text" xml:space="preserve">
+    <value>Select images to download</value>
+  </data>
+  <data name="selectAll.deselect" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+  <data name="selectAll.select" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="selectAllText.Text" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="shippingLabel.Text" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="standByMessage.Text" xml:space="preserve">
+    <value>Please stand by...</value>
+  </data>
+  <data name="subtotalLabel.Text" xml:space="preserve">
+    <value>Subtotal</value>
+  </data>
+  <data name="taxLabel.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="toBedetermined" xml:space="preserve">
+    <value>To be determined</value>
+  </data>
+  <data name="total.Text" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="totalLabel.Text" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="windowTitle" xml:space="preserve">
+    <value>Order submitted</value>
+  </data>
+  <data name="zipFilesHeader" xml:space="preserve">
+    <value>We've created {0} ZIP file(s) for you.</value>
+  </data>
+  <data name="addtoCart.Text" xml:space="preserve">
+    <value>Add to Cart</value>
+  </data>
+  <data name="selectOrder.Text" xml:space="preserve">
+    <value>SELECT AN ORDER</value>
+  </data>
+  <data name="selectOrder" xml:space="preserve">
+    <value>SELECT AN ORDER</value>
+  </data>
+  <data name="contactUs.Text" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="goToOrdersButton.Text" xml:space="preserve">
+    <value>Go to my orders</value>
+  </data>
+  <data name="pleaseContact.Text" xml:space="preserve">
+    <value>Please contact us for assistance.</value>
+  </data>
+  <data name="wereSorry.Text" xml:space="preserve">
+    <value>We're sorry, the details of this order cannot be viewed.</value>
+  </data>
+  <data name="FeeType_ResearchFee" xml:space="preserve">
+    <value>Research Fee</value>
+  </data>
+  <data name="FeeType_ResearchFee_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FeeType_ISDNFee" xml:space="preserve">
+    <value>ISDN Fee</value>
+  </data>
+  <data name="FeeType_ISDNFee_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FeeType_PeriodicResearchFee" xml:space="preserve">
+    <value>Periodic Research Fee</value>
+  </data>
+  <data name="FeeType_PeriodicResearchFee_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="FeeType_ShippingCharge" xml:space="preserve">
+    <value>Shipping Charge</value>
+  </data>
+  <data name="FeeType_ShippingCharge_Ordinal" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FeeType_HighResCompFee" xml:space="preserve">
+    <value>High Res Comp Fee</value>
+  </data>
+  <data name="FeeType_HighResCompFee_Ordinal" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="FeeType_ProductionFee" xml:space="preserve">
+    <value>Production Fee</value>
+  </data>
+  <data name="FeeType_ProductionFee_Ordinal" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FeeType_RightsClearanceFee" xml:space="preserve">
+    <value>Rights Clearance Fee</value>
+  </data>
+  <data name="FeeType_RightsClearanceFee_Ordinal" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="FeeType_RightsRepresentationFee" xml:space="preserve">
+    <value>Rights Representation Fee</value>
+  </data>
+  <data name="FeeType_RightsRepresentationFee_Ordinal" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="FeeType_ExclusivityClearanceFee" xml:space="preserve">
+    <value>Exclusivity Clearance Fee</value>
+  </data>
+  <data name="FeeType_ExclusivityClearanceFee_Ordinal" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="FeeType_Cancellation" xml:space="preserve">
+    <value>Cancellation</value>
+  </data>
+  <data name="FeeType_Cancellation_Ordinal" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="FeeType_KSA" xml:space="preserve">
+    <value>KSA</value>
+  </data>
+  <data name="FeeType_KSA_Ordinal" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="FeeType_QuickPic" xml:space="preserve">
+    <value>Quick Pic</value>
+  </data>
+  <data name="FeeType_QuickPic_Ordinal" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="FeeType_Reservation" xml:space="preserve">
+    <value>Reservation</value>
+  </data>
+  <data name="FeeType_Reservation_Ordinal" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="FeeType_ResearchFPF" xml:space="preserve">
+    <value>Research - FPF</value>
+  </data>
+  <data name="FeeType_ResearchFPF_Ordinal" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="FeeType_Project" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="FeeType_Project_Ordinal" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="FeeType_Interpolation100MB" xml:space="preserve">
+    <value>Interpolation 100 MB</value>
+  </data>
+  <data name="FeeType_Interpolation100MB_Ordinal" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="FeeType_Interpolation200MB" xml:space="preserve">
+    <value>Interpolation 200 MB</value>
+  </data>
+  <data name="FeeType_Interpolation200MB_Ordinal" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="FeeType_Interpolation300MB" xml:space="preserve">
+    <value>Interpolation 300 MB</value>
+  </data>
+  <data name="FeeType_Interpolation300MB_Ordinal" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="FeeType_Interpolation600MB" xml:space="preserve">
+    <value>Interpolation 600 MB</value>
+  </data>
+  <data name="FeeType_Interpolation600MB_Ordinal" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="FeeType_AlternateDeliveryCD" xml:space="preserve">
+    <value>Alternate Delivery - CD</value>
+  </data>
+  <data name="FeeType_AlternateDeliveryCD_Ordinal" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="FeeType_AlternateDeliveryFTP" xml:space="preserve">
+    <value>Alternate Delivery - FTP</value>
+  </data>
+  <data name="FeeType_AlternateDeliveryFTP_Ordinal" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="FeeType_AlternateDeliveryEmail" xml:space="preserve">
+    <value>Alternate Delivery - Email</value>
+  </data>
+  <data name="FeeType_AlternateDeliveryEmail_Ordinal" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="FeeType_Rescan" xml:space="preserve">
+    <value>Rescan</value>
+  </data>
+  <data name="FeeType_Rescan_Ordinal" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="FeeType_Transparencies" xml:space="preserve">
+    <value>Transparencies</value>
+  </data>
+  <data name="FeeType_Transparencies_Ordinal" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="FeeType_CustomImaging" xml:space="preserve">
+    <value>Custom Imaging</value>
+  </data>
+  <data name="FeeType_CustomImaging_Ordinal" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="FeeType_ImageRepostFTP" xml:space="preserve">
+    <value>Image Repost - FTP</value>
+  </data>
+  <data name="FeeType_ImageRepostFTP_Ordinal" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="FeeType_ScanonDemand" xml:space="preserve">
+    <value>Scan on Demand</value>
+  </data>
+  <data name="FeeType_ScanonDemand_Ordinal" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="FeeType_RightsClearanceFees" xml:space="preserve">
+    <value>Rights Clearance Fees</value>
+  </data>
+  <data name="FeeType_RightsClearanceFees_Ordinal" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="FeeType_RightsClearanceResearchFee" xml:space="preserve">
+    <value>Rights Clearance Research Fee</value>
+  </data>
+  <data name="FeeType_RightsClearanceResearchFee_Ordinal" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="FeeType_GlobalSearchResearchFee" xml:space="preserve">
+    <value>Global Search Research Fee</value>
+  </data>
+  <data name="FeeType_GlobalSearchResearchFee_Ordinal" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="FeeType_GlobalSearch" xml:space="preserve">
+    <value>Global Search</value>
+  </data>
+  <data name="FeeType_GlobalSearch_Ordinal" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="FeeType_RightsMediaPackaging" xml:space="preserve">
+    <value>Rights Media Packaging</value>
+  </data>
+  <data name="FeeType_RightsMediaPackaging_Ordinal" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="FeeType_AlbertEinsteinRightsRep" xml:space="preserve">
+    <value>Albert Einstein Rights Rep</value>
+  </data>
+  <data name="FeeType_AlbertEinsteinRightsRep_Ordinal" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="FeeType_AlbertEinsteinMerchandise" xml:space="preserve">
+    <value>Albert Einstein Merchandise</value>
+  </data>
+  <data name="FeeType_AlbertEinsteinMerchandise_Ordinal" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="FeeType_BurtLancasterRightsRep" xml:space="preserve">
+    <value>Burt Lancaster Rights Rep</value>
+  </data>
+  <data name="FeeType_BurtLancasterRightsRep_Ordinal" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="FeeType_BurtLancasterMerchandise" xml:space="preserve">
+    <value>Burt Lancaster Merchandise</value>
+  </data>
+  <data name="FeeType_BurtLancasterMerchandise_Ordinal" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="FeeType_BuzzAldrinRightsRep" xml:space="preserve">
+    <value>Buzz Aldrin Rights Rep</value>
+  </data>
+  <data name="FeeType_BuzzAldrinRightsRep_Ordinal" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="FeeType_Casting" xml:space="preserve">
+    <value>Casting</value>
+  </data>
+  <data name="FeeType_Casting_Ordinal" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="FeeType_EmmettKellyRightsRep" xml:space="preserve">
+    <value>Emmett Kelly Rights Rep</value>
+  </data>
+  <data name="FeeType_EmmettKellyRightsRep_Ordinal" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="FeeType_GloriaSwansonRightsRep" xml:space="preserve">
+    <value>Gloria Swanson Rights Rep</value>
+  </data>
+  <data name="FeeType_GloriaSwansonRightsRep_Ordinal" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="FeeType_GloriaSwansonMerchandise" xml:space="preserve">
+    <value>Gloria Swanson Merchandise</value>
+  </data>
+  <data name="FeeType_GloriaSwansonMerchandise_Ordinal" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="FeeType_JamesCagneyRightsRep" xml:space="preserve">
+    <value>James Cagney Rights Rep</value>
+  </data>
+  <data name="FeeType_JamesCagneyRightsRep_Ordinal" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="FeeType_JamesCagneyMerchandise" xml:space="preserve">
+    <value>James Cagney Merchandise</value>
+  </data>
+  <data name="FeeType_JamesCagneyMerchandise_Ordinal" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="FeeType_LeonardBernsteinRightsRep" xml:space="preserve">
+    <value>Leonard Bernstein Rights Rep</value>
+  </data>
+  <data name="FeeType_LeonardBernsteinRightsRep_Ordinal" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="FeeType_LeonardBernsteinMerchandise" xml:space="preserve">
+    <value>Leonard Bernstein Merchandise</value>
+  </data>
+  <data name="FeeType_LeonardBernsteinMerchandise_Ordinal" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="FeeType_LiberaceRightsRep" xml:space="preserve">
+    <value>Liberace Rights Rep</value>
+  </data>
+  <data name="FeeType_LiberaceRightsRep_Ordinal" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="FeeType_LiberaceMerchandise" xml:space="preserve">
+    <value>Liberace Merchandise</value>
+  </data>
+  <data name="FeeType_LiberaceMerchandise_Ordinal" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="FeeType_MaeWestRightsRep" xml:space="preserve">
+    <value>Mae West Rights Rep</value>
+  </data>
+  <data name="FeeType_MaeWestRightsRep_Ordinal" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="FeeType_MaeWestMerchandise" xml:space="preserve">
+    <value>Mae West Merchandise</value>
+  </data>
+  <data name="FeeType_MaeWestMerchandise_Ordinal" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="FeeType_MariaCallasRightsRep" xml:space="preserve">
+    <value>Maria Callas Rights Rep</value>
+  </data>
+  <data name="FeeType_MariaCallasRightsRep_Ordinal" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="FeeType_MariaCallasMerchandise" xml:space="preserve">
+    <value>Maria Callas Merchandise</value>
+  </data>
+  <data name="FeeType_MariaCallasMerchandise_Ordinal" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="FeeType_SigmundFreudRightsRep" xml:space="preserve">
+    <value>Sigmund Freud Rights Rep</value>
+  </data>
+  <data name="FeeType_SigmundFreudRightsRep_Ordinal" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="FeeType_SigmundFreudMerchandise" xml:space="preserve">
+    <value>Sigmund Freud Merchandise</value>
+  </data>
+  <data name="FeeType_SigmundFreudMerchandise_Ordinal" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="FeeType_SMQBullittAdvertising" xml:space="preserve">
+    <value>SMQ-Bullitt Advertising</value>
+  </data>
+  <data name="FeeType_SMQBullittAdvertising_Ordinal" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="FeeType_SMQBullittMerchandise" xml:space="preserve">
+    <value>SMQ-Bullitt Merchandise</value>
+  </data>
+  <data name="FeeType_SMQBullittMerchandise_Ordinal" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="FeeType_SteveMcQueenRightsRep" xml:space="preserve">
+    <value>Steve McQueen Rights Rep</value>
+  </data>
+  <data name="FeeType_SteveMcQueenRightsRep_Ordinal" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="FeeType_SteveMcQueenMerchandise" xml:space="preserve">
+    <value>Steve McQueen Merchandise</value>
+  </data>
+  <data name="FeeType_SteveMcQueenMerchandise_Ordinal" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="FeeType_ThunderdogRightsRep" xml:space="preserve">
+    <value>Thunderdog Rights Rep</value>
+  </data>
+  <data name="FeeType_ThunderdogRightsRep_Ordinal" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="FeeType_ThunderdogMerchandise" xml:space="preserve">
+    <value>Thunderdog Merchandise</value>
+  </data>
+  <data name="FeeType_ThunderdogMerchandise_Ordinal" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="FeeType_WrightBrothersRightsRep" xml:space="preserve">
+    <value>Wright Brothers Rights Rep</value>
+  </data>
+  <data name="FeeType_WrightBrothersRightsRep_Ordinal" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="FeeType_WrightBrothersMerchandise" xml:space="preserve">
+    <value>Wright Brothers Merchandise</value>
+  </data>
+  <data name="FeeType_WrightBrothersMerchandise_Ordinal" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="FeeType_WarholLicenseFeeCommercial" xml:space="preserve">
+    <value>Warhol License Fee-Commercial</value>
+  </data>
+  <data name="FeeType_WarholLicenseFeeCommercial_Ordinal" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="FeeType_MGMLicenseFeeEditorial" xml:space="preserve">
+    <value>MGM License Fee-Editorial</value>
+  </data>
+  <data name="FeeType_MGMLicenseFeeEditorial_Ordinal" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="FeeType_MGMLicenseFeeCommercial" xml:space="preserve">
+    <value>MGM License Fee-Commercial</value>
+  </data>
+  <data name="FeeType_MGMLicenseFeeCommercial_Ordinal" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="FeeType_WarholLicenseFeeEditorial" xml:space="preserve">
+    <value>Warhol License Fee-Editorial</value>
+  </data>
+  <data name="FeeType_WarholLicenseFeeEditorial_Ordinal" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="FeeType_WithholdingTax" xml:space="preserve">
+    <value>Withholding Tax</value>
+  </data>
+  <data name="FeeType_WithholdingTax_Ordinal" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="ReturnToMyOrder" xml:space="preserve">
+    <value>RETURN TO MY ORDERS</value>
+  </data>  
+</root>

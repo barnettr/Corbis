@@ -1,0 +1,529 @@
+﻿html, form, body
+{
+    background-color: #e8e8e8;
+    overflow:hidden;
+}
+
+#quickPicTitleBar
+{
+	background-color:#dbdbdb;
+    cursor:default;
+	height:27px;
+	padding-top: 5px;
+	width:640px;
+}
+
+ #quickPicTitleBar .ChatIconImg
+	{
+		display:block;
+		float:left;
+		width:13px;
+		height:11px !important;
+		text-decoration:none;
+		background: url(/Images/ICN-chat.gif);
+		background-repeat: no-repeat;
+		background-position: 0 0 !important;
+		background-position: 0 1px;
+		margin:2px 0 0 4px;
+		text-indent:-5000px;
+	}
+	#quickPicTitleBar .ChatIconImg:hover, .ChatIconImg:active
+	{
+		background-position:0 -11px !important;
+		border-bottom:0;
+	}
+	
+	#quickPicTitleBar .ChatIconText
+	{
+		display:block;
+		margin-top: 2px;
+		float:left;
+		text-decoration:none !important;
+	}
+	#quickPicTitleBar .ChatIconText:hover, .ChatIconText:active 
+	{
+		margin-top: 2px;
+		float:left;
+		border-bottom:1px dotted #4385C0;
+	}
+
+#quickPicTitleBar .closeButton
+{
+	border: 0px;
+    float: right;
+    margin-right:10px;
+}
+
+#quickPicTitleBar .quickPicTitle
+{
+    color: #1A1A1A;
+    float: left;
+    margin-left:13px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#quickPicBody
+{
+	height: 503px;
+	background-color: #e8e8e8;
+	margin: 0 0 0 15px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    position: relative;
+    width: 625px;
+}
+
+#selectImage
+{
+	position: relative;
+}
+
+#selectImage .quickPicText
+{
+	font-size: 12px;
+	color: #666666;
+	margin-top:15px;
+	width:543px;
+}
+
+#selectImage .projectName
+{
+	margin-top: 10px;
+}
+
+#selectImage .projectName span
+{
+	color: #1a1a1a;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26PX;
+}
+
+#selectImage .projectName input
+{
+	width: 365px;
+}
+
+#selectImage .downloadwrap, #download .downloadwrap
+{
+	background-color: #ffffff;
+	margin: 10px 20px 10px 0;
+}
+
+#selectImage .download, #download .download
+{
+	background-color: #ffffff;
+	color: #1a1a1a;
+	margin: 11px 15px;
+	overflow: visible;
+}
+
+#selectImage .download .resolutionTitle
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#selectImage .download .resolutionText
+{
+	font-size: 12px;
+	line-height:17px;
+}
+
+#selectImage .download .downloadSelect
+{
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#selectImage .download .quickPicImages
+{
+	margin-top: 5px;
+	padding: 0;
+}
+
+#selectImage .termsConditionsTitle
+{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+	color:#1A1A1A;
+}
+
+#selectImage .termsConditionAccept
+{
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-top: 5px;	
+}
+
+#selectImage .termsConditionAccept div.imageCheckbox
+{
+	float: left;
+	height:45px;
+	margin: 0;
+	width: 20px;
+}
+
+#selectImage .termsConditionAccept .acceptTermsConditionsDiv
+{
+	font-size:11px;
+	width:516px;
+}
+
+#selectImage .buttons
+{
+	padding: 15px 10px 30px 0;
+}
+
+#selectImage .GlassButton
+{
+	float: right; 
+	margin-right: 10px;
+}
+
+#download
+{
+	color: #1a1a1a;
+	font-size: 12px;
+	margin-top: 15px;	
+}
+
+#download .projectName
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#download .orderText
+{
+	margin-bottom:15px;
+	margin-top: 10px;
+	width: 585px;
+}
+
+#download .download
+{
+	font-size: 12px;
+}
+
+#download .downloadProgressTitle
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#download .downloadLinks
+{
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#download .dots
+{
+	border-style:dotted none none;
+	border-width:1px medium medium;
+	clear:both;
+	height:1px;
+	margin-bottom:15px;
+	margin-top:20px;
+}
+
+#download .closeButtonWrap
+{
+	position: relative;
+	width:606px;
+	height:65px;
+}
+
+#download .closeButton
+{
+	float: right;
+}
+
+#contentFooter
+{
+	margin-top: 15px;
+	position: relative;
+}
+
+#contentFooter .contentFooterText
+{
+	float: left;
+	font-size: 11px;
+	padding-bottom:10px;
+	width:365px;
+}
+
+#contentFooter .contentFooterText a
+{
+	font-weight: bold;
+}
+
+#contentFooter a.etrust
+{
+	float: right;
+	padding-bottom: 12px;
+	padding-right: 20px;
+}
+
+#contentFooter a:hover.etrust,
+#quickPicTitleBar .closeButton a:hover
+{
+	border-bottom-style: none;
+}
+
+#quickPicFooter
+{
+	background-color:#dbdbdb;
+	height:5px;	
+}
+
+/* $$$ COLUMNED CONTENT quickPic user control - sunny */
+
+.DownloadQuickPic
+{
+	background:#FFFFFF none repeat scroll 0 0;
+	border:2px solid #BDBDBD;
+	height:auto;
+	margin-bottom:9px;
+	min-height:180px;
+	padding:3px 3px 0;
+	position:relative;
+	width:530px;
+}
+
+.DownloadQuickPic .closeIcon
+{
+    background:transparent url(../images/thumbnailTabDeleteQuickPic.gif) no-repeat scroll left top;
+}
+
+.DownloadQuickPic .closeIcon:hover
+{
+    background-position: 0px -24px;
+    cursor:hand;
+    cursor:pointer;
+}
+
+.DownloadQuickPic .hoverBtn
+{   
+	border:medium none;
+	color:red;
+	cursor:pointer;
+	display:block;
+	float:right;
+	font-weight:bold;
+	height:24px;
+	left:19px;
+	position:relative;
+	right:-19px;
+	width:14px;
+	top: -1px;
+}
+
+.DownloadQuickPic input
+{
+	background-color:transparent;
+	border:medium none;
+	height:24px;
+	width:14px;
+}
+
+.QuickPicDetailsThumbnail
+{
+    float:left;
+    height:128px;
+    margin-right:10px;
+    margin-bottom:5px;
+    text-align:center;
+    vertical-align:middle;
+    width:128px;
+    background-color: #333333;
+}
+
+.DownloadQuickPic .fileSize
+{
+    margin-top:3px;
+    width:128px;
+}
+
+.QuickPicRestriction
+{
+	margin-top: 3px;
+}
+
+.QuickPicRestriction span
+{
+    margin-left:5px;
+}
+
+.RMcolor
+{
+    /* REBRANDING
+    background-color:#e7e3e7 ;
+    */
+    background-color:#646464 ;
+    
+    /* REBRANDING
+    border-top: 2px solid #206AFF;
+    */
+    border-top: 2px solid #646464;
+}
+
+.QuickPicDetailsThumbnail .infoBox
+{
+	background-color: #e0e0e0;
+    float:left;
+    height:20px;
+    margin: 3px 0 0 !important;
+    padding:0 !important;
+    width:128px;
+}
+.QuickPicDetailsThumbnail .thumbWrap
+{
+    height:128px;
+    padding:0 !important;
+    width:128px;
+}
+
+.QuickPicDetailsThumbnail .infoBox .license
+{
+	color:white;
+	float:left;
+	font-weight:bold;
+	line-height:20px;
+	text-align:center;
+	width:20px;
+}
+
+.RMcolor .license span
+{
+    /* REBRANDING
+    background-color: #06c;
+    */
+    background-color: #646464;
+    
+    padding: 0 1px 0 3px;
+    float:left;
+}
+
+.RFcolor
+{
+    /* REBRANDING
+    border-top: 2px solid #298C43; 
+    */
+    border-top: 2px solid #646464;
+    
+    background-color:#e7e3e7 ;
+}
+
+.RFcolor .license span
+{
+    /* REBRANDING
+    background-color: #298C43;
+    */
+    background-color: #646464;
+    
+    padding: 0 1px 0 3px;
+    float:left;
+}
+
+.corbisId 
+{
+  color: #1A1A1A;
+  font-weight:regular;
+  margin-left: 28px;
+  margin-top:5px;
+  font-family:inherit;
+  font-size: 10px;
+  text-align:left;
+}
+
+.DownloadQuickPic .RestrictionsList 
+{
+   font-family:inherit;
+   height:auto;
+}
+
+li
+{
+    margin: 5px 0px 0px 15px;
+    line-height:14px;
+}
+
+.ModelReleaseLabel,
+.PropertyReleaseLabel
+{
+    font-size: 12px;
+    font-weight:bold;
+    color: #333333;
+    font-family:inherit;
+}
+
+/* $$$ ====[ progress modal styles ]==== */
+
+#downloadProgress
+{
+	background-color: Transparent;
+	/* REBRANDING
+	color: #dd602b;
+	*/
+	color: #4088D1;
+	
+	height: 185px;
+	text-align: center;	
+	width:315px;
+}
+
+#downloadProgress .standBy, .standBy1
+{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#downloadProgress .downloadMessage, .standBy2
+{
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#downloadProgress .downloadMessage
+{
+    /* REBRANDING */
+    color: White;
+}
+
+#downloadProgress .longWaitMessage, .standBy3
+{
+	/* REBRANDING
+	color: #d8d8d8;
+	*/
+	color: #4385C0;
+	
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#downloadProgress .cancelButton
+{
+	margin-top: 25px;
+	
+}
+
+#inlineRestrictionsContent .RestrictionTitleList
+{
+	display:inline;
+	list-style-type:none;
+}
+
+#inlineRestrictionsContent .modelProperties
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#inlineRestrictionsContent .restrictionValues
+{
+	margin-left:170px;
+}

@@ -1,0 +1,99 @@
+/**************************
+ *  ROUNDED CORNERS
+ **************************/
+
+.RC-4px-d8d8d8-333333 {
+    background-color:#D8D8D8;
+}
+
+.roundCorners-4px .rc-topCorners, 
+.roundCorners-4px .rc-bottomCorners 
+{
+    height:4px;
+    width:100%;
+}
+
+.roundCorners-4px .rc-topCorners .rc-left 
+{
+    background-position:0 0;
+    padding-left:4px;
+}
+
+.roundCorners-4px .rc-topCorners .rc-left, 
+.roundCorners-4px .rc-topCorners .rc-right, 
+.roundCorners-4px .rc-topCorners .rc-center 
+{
+    height:4px;
+}
+
+.roundCorners-4px .rc-topCorners .rc-left, 
+.roundCorners-4px .rc-topCorners .rc-right, 
+.roundCorners-4px .rc-bottomCorners .rc-left, 
+.roundCorners-4px .rc-bottomCorners .rc-right 
+{
+    background-repeat:no-repeat;
+}
+
+.RC-4px-d8d8d8-333333 .rc-topCorners .rc-left, 
+.RC-4px-d8d8d8-333333 .rc-topCorners .rc-right, 
+.RC-4px-d8d8d8-333333 .rc-bottomCorners .rc-left, 
+.RC-4px-d8d8d8-333333 .rc-bottomCorners .rc-right 
+{
+    background-image:url(../../images/RC-d8d8d8-333333.gif) !important;
+}
+
+.roundCorners-4px .rc-topCorners .rc-left .rc-right
+{
+    background-position:right -4px;
+    padding-right:4px;
+}
+
+.roundCorners-4px .rc-topCorners .rc-left,
+.roundCorners-4px .rc-topCorners .rc-right, 
+.roundCorners-4px .rc-topCorners .rc-center 
+{
+    height:4px;
+}
+
+.roundCorners-4px .rc-topCorners .rc-left, 
+.roundCorners-4px .rc-topCorners .rc-right, 
+.roundCorners-4px .rc-bottomCorners .rc-left, 
+.roundCorners-4px .rc-bottomCorners .rc-right 
+{
+    background-repeat:no-repeat;
+}
+
+.RC-4px-d8d8d8-333333 .rc-topCorners .rc-left, 
+.RC-4px-d8d8d8-333333 .rc-topCorners .rc-right, 
+.RC-4px-d8d8d8-333333 .rc-bottomCorners .rc-left, 
+.RC-4px-d8d8d8-333333 .rc-bottomCorners .rc-right 
+{
+    background-image:url(../../images/RC-d8d8d8-333333.gif);
+}
+
+.roundCorners-4px .rc-topCorners .rc-left .rc-right .rc-center 
+{
+    padding:0 8px;
+}
+
+.roundCorners-4px .rc-topCorners .rc-left, 
+.roundCorners-4px .rc-topCorners .rc-right, 
+.roundCorners-4px .rc-topCorners .rc-center 
+{
+    height:4px;
+}
+
+/* parent set of rounded corners */
+
+.RC-4px-2f2f2f-1a1a1a 
+{
+    background-color:#2F2F2F;
+}
+
+.RC-4px-2f2f2f-1a1a1a .rc-topCorners .rc-left, 
+.RC-4px-2f2f2f-1a1a1a .rc-topCorners .rc-right, 
+.RC-4px-2f2f2f-1a1a1a .rc-bottomCorners .rc-left, 
+.RC-4px-2f2f2f-1a1a1a .rc-bottomCorners .rc-right 
+{
+    background-image:url(../../images/RC-2f2f2f-1a1a1a.gif);
+}

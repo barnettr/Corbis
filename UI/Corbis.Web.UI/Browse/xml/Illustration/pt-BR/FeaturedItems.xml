@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Perfil do desenhista: Chuck Shacochis</Title>
+		<Image Src="xml/Illustration/Images/main.jpg" Alt="42-20835767| DC Padrão| © Illustration Works/Corbis" ImageID="42-20835767" Attribution="| DC Padrão| © Illustration Works/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Veja o show de slides" Title="Veja o show de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Inspirado por desenhos animados e pôsteres de filmes russos do período de entre-guerra, Shacochis descreve seu estilo negro como “ilustrações inspiradas em desenhos clássicos mas com um toque moderno." Silhuetas brincalhonas e audaciosas. Assunto vanguardista.</p>
+			]]>
+		</Copy>
+		<Links>
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=ChuckShacochis" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Artes gráficas originais de imagens CSA</Title>
+		<Image Src="xml/Illustration/Images/sub.1.gif" Alt="42-19484511| DC Padrão| © Printstock/CSA Images/Corbis" ImageID="42-19484511" Attribution="| DC Padrão| © Printstock/CSA Images/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>As coleções de imagens não-convencionais da CSA infundem uma variada gama de estilos com brincadeiras provocantes.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=csa" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Ilusão do simples</Title>
+		<Image Src="xml/Illustration/Images/sub.2.gif" Alt="42-20092858| DC Padrão| © Illustration Works/Corbis" ImageID="42-20092858" Attribution="| DC Padrão| © Illustration Works/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Os personagens engraçados e vivos de Venki Talath funcionam como arquétipos sofisticados, refletindo a tendência em direção a desenhos para adultos.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=venki" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

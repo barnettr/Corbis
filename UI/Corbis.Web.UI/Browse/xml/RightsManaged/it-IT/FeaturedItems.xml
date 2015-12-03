@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Nuova fotografia</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Premium RM| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Premium RM| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Momenti straordinari, direzione artistica impeccabile. Nuove aggiunte importanti alla collezione Corbis.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush: Il teatro della pubblicità</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Premium RM| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Premium RM| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Ricca di immagini esclusive e spettacolari, Crush presenta una fotografia creativa ad uso commerciale con un tocco elegante e decisamente moderno.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Visualizza slideshow" Title="Visualizza slideshow"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Rapporto sulle tendenze: Responsabilità aziendale</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Premium RM| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Premium RM| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-IT.pdf?cid=it-IT" localize="true" Text="Scarica il PDF" Title="Scarica il PDF"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>Mai come in questi tempi, le aziende stanno riconoscendo lo stretto legame tra impegno sociale e profitto. Ambiente, educazione ed etica rappresentano i nuovi indicatori chiave della loro attività.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-IT.pdf?cid=it-IT" localize="true" Text="Scarica il PDF (1,83 MB)" Title="Scarica il PDF"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

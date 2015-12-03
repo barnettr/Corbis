@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>Novas fotografias</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | DC Premium| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| DC Premium| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Veja o show de slides" Title="Veja o show de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Momentos extraordinários, dirigindo arte com exatidão. Introduzindo notáveis adições à coleção da Corbis.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush: o Teatro da Propaganda</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| DC Premium| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| DC Premium| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>Estilizada e conspícua, a Crush apresenta imagens comerciais de design com um toque inteligente e decididamente moderno.</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="Visualizar apresentação de slides" Title="Visualizar apresentação de slides"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Relatório de tendências: Responsabilidade corporativa</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| DC Premium| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| DC Premium| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-PT.pdf?cid=pt-BR" localize="true" Text="Download do PDF" Title="Download do PDF"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>Mais do que nunca, as empresas estão percebendo a conexão entre ação social positiva e lucratividade. O meio ambiente, a educação e a ética são os novos indicadores de desempenho.</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-PT.pdf?cid=pt-BR" localize="true" Text="Download do PDF (1.83 MB)" Title="Download do PDF"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

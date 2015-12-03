@@ -1,0 +1,52 @@
+﻿/* styling details underneath thumbnail */
+
+ .ProductBlock span
+{
+    display:block;
+}
+
+.MediaSetsProducts .thumbWrap
+{
+    margin-bottom:2px;
+}
+
+.MediaSetType
+{
+    color:#f8f8f8;
+    padding:2px 0;
+    text-transform:uppercase;
+}
+
+.MediaSetCreditLine,
+.MediaSetTitle
+{
+    color:#aeaeae;
+    font-size: 12px;
+    padding:3px 0;
+}
+
+.MediaSetId
+ {
+    color:#aeaeae; 
+    font-weight:normal;
+    padding:2px 0;
+}
+ 
+.DatePhotographed,
+.DatePUblished      
+{
+    color:#f8f8f8;
+    font-size: 11px;
+}
+.zeroSearchResults {
+background-color:Transparent;
+left:0px;
+position:absolute;
+top:62px;
+width:80%;
+}
+
+.MediaSetsProducts #header1
+{
+    width:99%;
+}

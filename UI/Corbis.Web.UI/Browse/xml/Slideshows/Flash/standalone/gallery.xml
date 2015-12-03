@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ---------------------------------------------------------------------------
+	Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+	All of the captions use some HTML code to get the proper look and feel,
+	the basic structure is as follows:
+	===========================================================================
+		Description of the image <br> <a href="LINK TO IMAGE HERE">SKU#</a> <p>Credit for photo goes here</p>
+	
+	===========================================================================
+	You absolutely MUST convert all HTML tags into their proper entities or
+	you'll get a nasty XML parsing error. 
+	===========================================================================
+	
+	Once properly escaped, it will appear as follows:
+	===========================================================================
+		Description of the image &lt;br&gt; &lt;a href=&quot;LINK TO IMAGE HERE&quot;&gt;SKU#&lt;/a&gt; &lt;p&gt;Credit for photo goes here&lt;/p&gt;
+
+	For translation:
+	===========================================================================
+	My suggestion is to leave everything un-escaped and then escape it once it's ready to go live.
+
+  ------------------------------------------------------------------------------ -->
+
+
+<gallery>
+	<album lgpath="gallery/lg/" tnpath="gallery/thumb/">
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="bonsai.jpg" caption="This is a bonsai tree on a desk &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="tree.jpg" caption="Biggest knockout punch ever thrown by Ali (caption goes here) &lt;br&gt; &lt;a href=&quot;#&quot;&gt;DEP100101010&lt;/a&gt;&lt;p&gt; © Someone Famous Bettemen Archive&lt;/p&gt;" link="#" />
+		<img src="wine.jpg" caption="This is some white wine &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		<img src="blue.jpg" caption="This is burning BLUE &lt;br&gt; &lt;a href=&quot;#&quot;&gt;SKU100101010&lt;/a&gt; &lt;p&gt; © Photo taken by brett ohland&lt;/p&gt;" link="#" />
+		
+	</album>
+</gallery>

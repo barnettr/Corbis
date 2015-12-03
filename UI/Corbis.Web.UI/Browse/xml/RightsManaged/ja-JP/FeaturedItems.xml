@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<FeaturedItems>
+	<FeaturedItem IsHero="true">
+		<Title>最新入荷の写真</Title>
+		<Image Src="xml/RightsManaged/Images/main.jpg" Alt="42-21082672 | Premium RM| © Alejandro Almaraz/zefa/Corbis" ImageID="42-21082672" Attribution="| Premium RM| © Alejandro Almaraz/zefa/Corbis">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>驚くべき瞬間と明確な芸術の方向性。特筆すべきコービス・コレクションの最新画像をご紹介します。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=newwork" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>Crush：<br/>広告をドラマチックに演出する</Title>
+		<Image Src="xml/RightsManaged/Images/sub.1.jpg" Alt="42-19770096| Premium RM| © Solus-Veer/Corbis" ImageID="42-19770096" Attribution="| Premium RM| © Solus-Veer/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Image>
+		<Copy>
+			<![CDATA[
+				<p>明確なコンセプトとわかりやすいテーマ。緻密にデザインされたコマーシャルフォトブランドである Crush は、洗練された現代的な空間をお届けします。</p>
+			]]>
+		</Copy>
+		<Links>
+      <Link Rel="900_720_popup" Url="Slideshows.aspx?Name=crush" Text="スライドショーを見る" Title="スライドショーを見る"  />
+		</Links>
+	</FeaturedItem>
+	<FeaturedItem>
+		<Title>トレンド：企業の責任</Title>
+		<Image Src="xml/RightsManaged/Images/sub.2.jpg" Alt="42-18506462| Premium RM| © catherine raillard/zefa/Corbis" ImageID="42-18506462" Attribution="| Premium RM| © catherine raillard/zefa/Corbis" AttributionLocation="UnderCopy">
+			<Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-JP.pdf?cid=ja-JP" localize="true" Text="PDF をダウンロード" Title="PDF をダウンロード"  />
+    </Image>
+    <Copy>
+      <![CDATA[
+				<p>企業による有益な社会貢献と利益追求の関係について、かつてなく認識が高まっています。環境、教育、そして倫理が、企業の業績を測る新しい尺度になっているのです。</p>
+			]]>
+    </Copy>
+    <Links>
+      <Link Rel="900_720_popup" Url="http://cache.corbis.com/pro/trends/Trends_corpResponsibilities-JP.pdf?cid=ja-JP" localize="true" Text="PDF をダウンロード (1.83 MB)" Title="PDF をダウンロード"  />
+		</Links>
+	</FeaturedItem>
+</FeaturedItems>

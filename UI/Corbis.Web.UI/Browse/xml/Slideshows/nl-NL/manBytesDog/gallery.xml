@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Created by Brett Ohland @ Veer (Corbis) in Calgary - 164137
+
+Usage:
+src - The name of the image file (should be in both the lgpath directory and the tnpath directory).
+caption - HTML code may be used but must be escaped.
+	Example: caption="Description of the image <br> <a href="IMAGEIDLINK">IMAGEID</a> <p>| Premium RM| © Credit for photo goes here</p>"
+	Escaped: caption="Description of the image &lt;br&gt; &lt;a href=&quot;IMAGEIDLINK');&quot;&gt;IMAGEID&lt;/a&gt; &lt;p&gt;| Premium RM| © Credit for photo goes here&lt;/p&gt;"
+link - The url for when a user clicks on the image.
+-->
+
+<gallery>
+  <album lgpath="xml/Slideshows/Images/manBytesDog/large/" tnpath="xml/Slideshows/Images/manBytesDog/thumb/">
+    <img src="42-15743171.jpg" caption="Color Print of a Woman Walking a Borzoi&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15743171');&quot;&gt;42-15743171&lt;/a&gt; &lt;p&gt;| Standaard RM| © Cynthia Hart Designer/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15743171');" />
+    <img src="42-15947784.jpg" caption="&#34;Greyhound Racing&#34; Poster&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-15947784');&quot;&gt;42-15947784&lt;/a&gt; &lt;p&gt;| Standaard RM| © Swim Ink 2, LLC/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('42-15947784');" />
+    <img src="42-17795662.jpg" caption="&#34;Even a Dog Enlists, Why Not You?&#34; Recruitment Poster by Moody&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-17795662');&quot;&gt;42-17795662&lt;/a&gt; &lt;p&gt;| Standaard RM| © David Pollack/K.J. Historical/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17795662');" />
+    <img src="42-17895460.jpg" caption="&#34;Puppy and Chirps&#34; by Hung Juihsia&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-17895460');&quot;&gt;42-17895460&lt;/a&gt; &lt;p&gt;| Standaard RM| © Artkey/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-17895460');" />
+    <img src="42-18591608.jpg" caption="Illustration of Fashionable Couple with Two Greyhounds by L. Fellows&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-18591608');&quot;&gt;42-18591608&lt;/a&gt; &lt;p&gt;| Standaard RM| © PoodlesRock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-18591608');" />
+    <img src="42-20733729.jpg" caption="Magazine Illustration of Woman Running with Two Dogs&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-20733729');&quot;&gt;42-20733729&lt;/a&gt; &lt;p&gt;| Standaard RM| © Blue Lantern Studio/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-20733729');" />
+    <img src="42-21439423.jpg" caption="&#34;Hoyt's German Cologne&#34; Trade Card&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21439423');&quot;&gt;42-21439423&lt;/a&gt; &lt;p&gt;| Standaard RM| © PoodlesRock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21439423');" />
+    <img src="42-21493667.jpg" caption="Illustration of Little Boy Sleeping in Back Seat of Car&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21493667');&quot;&gt;42-21493667&lt;/a&gt; &lt;p&gt;| Standaard RM| © PoodlesRock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21493667');" />
+    <img src="42-21505835.jpg" caption="Illustration of Children Riding in Eggshell Sleigh&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21505835');&quot;&gt;42-21505835&lt;/a&gt; &lt;p&gt;| Standaard RM| © PoodlesRock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21505835');" />
+    <img src="42-21545774.jpg" caption="Illustration of Boy Dressed as Pirate by John Gee&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('42-21545774');&quot;&gt;42-21545774&lt;/a&gt; &lt;p&gt;| Standaard RM| © PoodlesRock/Corbis&lt;/p&gt;" link="javascript:DisplaySearchResults('42-21545774');" />
+    <img src="AAED001080.jpg" caption="&#34;Fido&#34; Fruit Crate Label&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AED001080');&quot;&gt;AED001080&lt;/a&gt; &lt;p&gt; &lt;/p&gt;" link="javascript:DisplaySearchResults('AED001080');" />
+    <img src="AAED001205.jpg" caption="&#34;Internationale Hunde-Ausstellung' Poster by Ferdinand Schott&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AED001205');&quot;&gt;AED001205&lt;/a&gt; &lt;p&gt; &lt;/p&gt;" link="javascript:DisplaySearchResults('AED001205');" />
+    <img src="AAED003181.jpg" caption="'Cycles de Dion-Bouton&#34; Advertisement Poster by G. Fournery&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAED003181');&quot;&gt;AAED003181&lt;/a&gt; &lt;p&gt;| Standaard RM| © Swim Ink 2, LLC/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAED003181');" />
+    <img src="AAED003904.jpg" caption="&#34;J.B. Pace Tob Co. 'Mastif'&#34; Plug Cut Tobacco Advertisement&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAED003904');&quot;&gt;AAED003904&lt;/a&gt; &lt;p&gt;| Standaard RM| © Swim Ink 2, LLC/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAED003904');" />
+    <img src="AAED004169.jpg" caption="&#34;Secure from Harm&#34; Postcard&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAED004169');&quot;&gt;AAED004169&lt;/a&gt; &lt;p&gt;| Standaard RM| © Swim Ink 2, LLC/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAED004169');" />
+    <img src="AAED004276.jpg" caption="&#34;Ye Prize Setter&#34; Trade Card&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAED004276');&quot;&gt;AAED004276&lt;/a&gt; &lt;p&gt;| Standaard RM| © Swim Ink 2, LLC/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAED004276');" />
+    <img src="AAJU001028.jpg" caption="Drawing of a Pomeranian Dog by Leonardo da Vinci&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAJU001028');&quot;&gt;AAJU001028&lt;/a&gt; &lt;p&gt;| Standaard RM| © Alinari Archives/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAJU001028');" />
+    <img src="AAKC001003.jpg" caption="Front View of Audrey from &#34;Mug Shot&#34; Series by Tobi Seftel&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAKC001003');&quot;&gt;AAKC001003&lt;/a&gt; &lt;p&gt;| Standaard RM| © Tobi Seftel/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAKC001003');" />
+    <img src="AAKS001420.jpg" caption="&#34;Eine Pikante Geschichte&#34; Postcard&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AAKS001420');&quot;&gt;AAKS001420&lt;/a&gt; &lt;p&gt;| Standaard RM| © PoodlesRock/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AAKS001420');" />
+    <img src="AALQ001053.jpg" caption="&#34;The Broken String&#34; by Charles Burton Barber&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('AALQ001053');&quot;&gt;AALQ001053&lt;/a&gt; &lt;p&gt;| Standaard RM| © Fine Art Photographic Library/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('AALQ001053');" />
+    <img src="DE004825.jpg" caption="Mosaic of a Dog Attacking a Cat by Settimia Marini&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('DE004825');&quot;&gt;DE004825&lt;/a&gt; &lt;p&gt;| Standaard RM| © Araldo de Luca/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('DE004825');" />
+    <img src="HT002202.jpg" caption="Beagles in Pursuit of Their Quarry&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('HT002202');&quot;&gt;HT002202&lt;/a&gt; &lt;p&gt;| Standaard RM| © Historical Picture Archive/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('HT002202');" />
+    <img src="IE001523.jpg" caption="&#34;Young Girl Playing with Her Dog&#34; by Jean-Honore Fragonard&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('IE001523');&quot;&gt;IE001523&lt;/a&gt; &lt;p&gt;| Standaard RM| © Geoffrey Clements/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('IE001523');" />
+    <img src="IX001897.jpg" caption="&#34;Elsie Cassatt Holding a Big Dog&#34; by Mary Cassatt&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('IX001897');&quot;&gt;IX001897&lt;/a&gt; &lt;p&gt;| Standaard RM| © Christie's Images/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('IX001897');" />
+    <img src="NC001944.jpg" caption="&#34;Swan Attacked by a Dog&#34; by Jean-Baptiste Oudry&lt;br&gt; &lt;a href=&quot;javascript:DisplaySearchResults('NC001944');&quot;&gt;NC001944&lt;/a&gt; &lt;p&gt;| Standaard RM| © North Carolina Museum of Art/CORBIS&lt;/p&gt;" link="javascript:DisplaySearchResults('NC001944');" />
+  </album>
+</gallery>

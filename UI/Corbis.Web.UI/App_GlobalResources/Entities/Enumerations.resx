@@ -1,0 +1,1122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AvailabilityEnum_Immediate" xml:space="preserve">
+    <value>Immediate</value>
+  </data>
+  <data name="AvailabilityEnum_Immediate_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AvailabilityEnum_NeedsProcessing" xml:space="preserve">
+    <value>Needs Processing</value>
+  </data>
+  <data name="AvailabilityEnum_NeedsProcessing_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Category_Archival" xml:space="preserve">
+    <value>Archival</value>
+  </data>
+  <data name="Category_Outline" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="Category_Creative" xml:space="preserve">
+    <value>Creative</value>
+  </data>
+  <data name="Category_Entertainment" xml:space="preserve">
+    <value>Entertainment</value>
+  </data>
+  <data name="Category_CurrentEvents" xml:space="preserve">
+    <value>Current Events</value>
+  </data>
+  <data name="Category_FineArt" xml:space="preserve">
+    <value>Fine Art</value>
+  </data>
+  <data name="Category_Unknown" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Category_Documentary" xml:space="preserve">
+    <value>Documentary</value>
+  </data>
+  <data name="FileSize_FullPage" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="FileSize_HalfPage" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="FileSize_LargestOne" xml:space="preserve">
+    <value>Xlarge</value>
+  </data>
+  <data name="FileSize_LargeThumbnail" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Not used on web site</comment>
+  </data>
+  <data name="FileSize_MicroThumbnail" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Not used on web site</comment>
+  </data>
+  <data name="FileSize_OnScreen" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Not used on web site</comment>
+  </data>
+  <data name="FileSize_QuarterPage" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="FileSize_Thumbnail" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Not used on web site</comment>
+  </data>
+  <data name="FileSize_TinyThumbnail" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Not used on web site</comment>
+  </data>
+  <data name="FileSize_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Not used on web site</comment>
+  </data>
+  <data name="FileSize_WebUse" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ImageAvailability_AllResolutions" xml:space="preserve">
+    <value>All Resolutions</value>
+  </data>
+  <data name="ImageAvailability_AllResolutions_Ordinal" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ImageAvailability_High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="ImageAvailability_High_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ImageAvailability_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="ImageAvailability_Low_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ImageAvailability_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="ImageAvailability_Medium_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ImageAvailability_Ultra" xml:space="preserve">
+    <value>Ultra</value>
+  </data>
+  <data name="ImageAvailability_Ultra_Ordinal" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ImageMediaSetType_OutlineSession" xml:space="preserve">
+    <value>Outline photoshoot</value>
+  </data>
+  <data name="ImageMediaSetType_PhotoShoot" xml:space="preserve">
+    <value>Same photoshoot</value>
+  </data>
+  <data name="ImageMediaSetType_RFCD" xml:space="preserve">
+    <value>Royalty-Free CD</value>
+  </data>
+  <data name="ImageMediaSetType_SameModel" xml:space="preserve">
+    <value>Same model</value>
+  </data>
+  <data name="ImageMediaSetType_StorySet" xml:space="preserve">
+    <value>Story Set</value>
+  </data>
+  <data name="ImageMediaSetType_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="ImageSize_Large_RF" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="ImageSize_Large_RM" xml:space="preserve">
+    <value>Largest</value>
+  </data>
+  <data name="ImageSize_Medium_RF" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="ImageSize_Medium_RM" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="ImageSize_Small_RF" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="ImageSize_Small_RM" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="ImageSize_Web_RF" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ImageSize_Web_RM" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ImageSize_XLarge_RF" xml:space="preserve">
+    <value>Xlarge</value>
+  </data>
+  <data name="LicenseModel_RF" xml:space="preserve">
+    <value>RF</value>
+  </data>
+  <data name="LicenseModel_RF_LongText" xml:space="preserve">
+    <value>Royalty free</value>
+  </data>
+  <data name="LicenseModel_RM" xml:space="preserve">
+    <value>RM</value>
+  </data>
+  <data name="LicenseModel_RM_LongText" xml:space="preserve">
+    <value>Rights managed</value>
+  </data>
+  <data name="LicenseModel_RS" xml:space="preserve">
+    <value>RS</value>
+  </data>
+  <data name="LicenseModel_RS_LongText" xml:space="preserve">
+    <value>Rights simple</value>
+  </data>
+  <data name="LicenseModel_Unknown" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LicenseModel_Unknown_LongText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MarketingCollectionGroupType_Premium" xml:space="preserve">
+    <value>Premium Collections</value>
+  </data>
+  <data name="MarketingCollectionGroupType_Premium_Tooltip" xml:space="preserve">
+    <value>Our top-line images at premium prices</value>
+  </data>
+  <data name="MarketingCollectionGroupType_Standard" xml:space="preserve">
+    <value>Standard Collections</value>
+  </data>
+  <data name="MarketingCollectionGroupType_Standard_Tooltip" xml:space="preserve">
+    <value>Corbis quality images at competitive prices</value>
+  </data>
+  <data name="MarketingCollectionGroupType_SuperValue" xml:space="preserve">
+    <value>Super Value Collections</value>
+  </data>
+  <data name="MarketingCollectionGroupType_SuperValue_Tooltip" xml:space="preserve">
+    <value>Great images priced for everyday use</value>
+  </data>
+  <data name="MarketingCollectionGroupType_Unknown" xml:space="preserve">
+    <value>Unknown Collections</value>
+  </data>
+  <data name="MarketingCollectionGroupType_Unknown_Tooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MarketingCollectionGroupType_Value" xml:space="preserve">
+    <value>Value Collections</value>
+  </data>
+  <data name="MarketingCollectionGroupType_Value_Tooltip" xml:space="preserve">
+    <value>Professional images, affordable prices</value>
+  </data>
+  <data name="ModelRelease_NotApplicable" xml:space="preserve">
+    <value>No Release</value>
+  </data>
+  <data name="ModelRelease_NotReleased" xml:space="preserve">
+    <value>No Release</value>
+  </data>
+  <data name="ModelRelease_OnFile" xml:space="preserve">
+    <value>Released</value>
+  </data>
+  <data name="ModelReleaseForResearch_NotApplicable" xml:space="preserve">
+    <value>Not Applicable</value>
+  </data>
+  <data name="ModelReleaseForResearch_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ModelReleaseForResearch_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="NatureOfYourBusiness_AdvertisingGraphicDesign" xml:space="preserve">
+    <value>Advertising / Graphic Design</value>
+  </data>
+  <data name="NatureOfYourBusiness_BookPublishing" xml:space="preserve">
+    <value>Book Publishing</value>
+  </data>
+  <data name="NatureOfYourBusiness_Corporate" xml:space="preserve">
+    <value>Corporate</value>
+  </data>
+  <data name="NatureOfYourBusiness_ElectronicTVMediaFilm" xml:space="preserve">
+    <value>Electronic TV / Media / Film</value>
+  </data>
+  <data name="NatureOfYourBusiness_NonProfit" xml:space="preserve">
+    <value>Non-Profit</value>
+  </data>
+  <data name="NatureOfYourBusiness_MagazineNewspaperPublishing" xml:space="preserve">
+    <value>Magazine / Newspaper Publishing</value>
+  </data>
+  <data name="NatureOfYourBusiness_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="PointOfView_Above" xml:space="preserve">
+    <value>Above</value>
+  </data>
+  <data name="PointOfView_Above_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PointOfView_Aerial" xml:space="preserve">
+    <value>Aerial</value>
+  </data>
+  <data name="PointOfView_Aerial_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PointOfView_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PointOfView_All_Ordinal" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PointOfView_Below" xml:space="preserve">
+    <value>Below</value>
+  </data>
+  <data name="PointOfView_Below_Ordinal" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PointOfView_CloseUp" xml:space="preserve">
+    <value>Close-up</value>
+  </data>
+  <data name="PointOfView_CloseUp_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PointOfView_FromSpace" xml:space="preserve">
+    <value>From Space</value>
+  </data>
+  <data name="PointOfView_FromSpace_Ordinal" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PriceStatus_AsPerContract" xml:space="preserve">
+    <value>Per contract</value>
+  </data>
+  <data name="PriceStatus_ContactOutline" xml:space="preserve">
+    <value>Contact Outline</value>
+  </data>
+  <data name="PriceStatus_ContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="PriceStatus_CountryOrCurrencyError" xml:space="preserve">
+    <value>Country or currency error</value>
+  </data>
+  <data name="PriceStatus_CustomPriceExpired" xml:space="preserve">
+    <value>Custom price expired</value>
+  </data>
+  <data name="PriceStatus_DisplayPrice" xml:space="preserve">
+    <value>Display price</value>
+  </data>
+  <data name="PriceStatus_NotEcommerceEnabled" xml:space="preserve">
+    <value>Not ecommerce enabled</value>
+  </data>
+  <data name="PriceStatus_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PriceStatus_PricedByAE" xml:space="preserve">
+    <value>Priced by A.E.</value>
+  </data>
+  <data name="PriceStatus_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="PriceStatus_UpdateUse" xml:space="preserve">
+    <value>Update use</value>
+  </data>
+  <data name="DeliveryMethod_CD" xml:space="preserve">
+    <value>CD</value>
+  </data>
+  <data name="DeliveryMethod_Download" xml:space="preserve">
+    <value>Download from this website</value>
+  </data>
+  <data name="DeliveryMethod_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="DeliveryMethod_FTP" xml:space="preserve">
+    <value>Retrieve from Corbis FTP Server</value>
+  </data>
+  <data name="DeliveryMethod_ProcessedDownload" xml:space="preserve">
+    <value>Processed Download</value>
+  </data>
+  <data name="DeliveryMethod_RFCD_CD" xml:space="preserve">
+    <value>RFCD CD</value>
+  </data>
+  <data name="DeliveryMethod_RFCD_Download" xml:space="preserve">
+    <value>Download from this website</value>
+  </data>
+  <data name="DeliveryMethod_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Not used on web site</comment>
+  </data>
+  <data name="SearchSort_DateAdded" xml:space="preserve">
+    <value>Sort by date added</value>
+  </data>
+  <data name="SearchSort_DatePhotographed" xml:space="preserve">
+    <value>Sort by date photographed</value>
+  </data>
+  <data name="SearchSort_DatePublished" xml:space="preserve">
+    <value>Sort by publication date</value>
+  </data>
+  <data name="SearchSort_Relevancy" xml:space="preserve">
+    <value>Sort by best match</value>
+  </data>
+  <data name="SearchSort_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_BirthCity" xml:space="preserve">
+    <value>Birth City</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_BirthCity_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_MothersMiddleName" xml:space="preserve">
+    <value>Mother's Middle Name</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_MothersMiddleName_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_FathersMiddleName" xml:space="preserve">
+    <value>Father's Middle Name</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_FathersMiddleName_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_PetsName" xml:space="preserve">
+    <value>Pet's Name</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_PetsName_Ordinal" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_FavoriteCity" xml:space="preserve">
+    <value>Favorite City</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_FavoriteCity_Ordinal" xml:space="preserve">
+    <value>X</value>
+    <comment>Do Not Localize, Will not display in dropdowns</comment>
+  </data>
+  <data name="PasswordRecoveryQuestionType_FavoriteName" xml:space="preserve">
+    <value>Favorite Name</value>
+  </data>
+  <data name="PasswordRecoveryQuestionType_FavoriteName_Ordinal" xml:space="preserve">
+    <value>X</value>
+    <comment>Do Not Localize, Will not display in dropdowns</comment>
+  </data>
+  <data name="PasswordRecoveryQuestionType_None" xml:space="preserve">
+    <value>None</value>
+    <comment>Do Not Localize</comment>
+  </data>
+  <data name="PasswordRecoveryQuestionType_None_Ordinal" xml:space="preserve">
+    <value>X</value>
+    <comment>Do Not Localize, Will not display in dropdowns</comment>
+  </data>
+  <data name="PasswordRecoveryQuestionType_InvalidEmail" xml:space="preserve">
+    <value>InvalidEmail</value>
+    <comment>Do Not Localize</comment>
+  </data>
+  <data name="PasswordRecoveryQuestionType_InvalidEmail_Ordinal" xml:space="preserve">
+    <value>X</value>
+    <comment>Do Not Localize, Will not display in dropdowns</comment>
+  </data>
+  <data name="FileSizeText_FullPage" xml:space="preserve">
+    <value>32 MB</value>
+  </data>
+  <data name="FileSizeText_HalfPage" xml:space="preserve">
+    <value>16 MB</value>
+  </data>
+  <data name="FileSizeText_LargestOne" xml:space="preserve">
+    <value>50 MB</value>
+  </data>
+  <data name="FileSizeText_LargeThumbnail" xml:space="preserve">
+    <value>32 MB</value>
+  </data>
+  <data name="FileSizeText_MicroThumbnail" xml:space="preserve">
+    <value>16 MB</value>
+  </data>
+  <data name="FileSizeText_OnScreen" xml:space="preserve">
+    <value>On Screen</value>
+  </data>
+  <data name="FileSizeText_QuarterPage" xml:space="preserve">
+    <value>8 MB</value>
+  </data>
+  <data name="FileSizeText_Thumbnail" xml:space="preserve">
+    <value>Thumbnail</value>
+  </data>
+  <data name="FileSizeText_TinyThumbnail" xml:space="preserve">
+    <value>Tiny Thumbnail</value>
+  </data>
+  <data name="FileSizeText_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="FileSizeText_WebUse" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ContentWarning_Language" xml:space="preserve">
+    <value>This image contains potentially offensive language.</value>
+  </data>
+  <data name="ContentWarning_Nudity" xml:space="preserve">
+    <value>This image contains nudity.</value>
+  </data>
+  <data name="ContentWarning_Sex" xml:space="preserve">
+    <value>This image contains sexual content.</value>
+  </data>
+  <data name="ContentWarning_Violence" xml:space="preserve">
+    <value>This image contains graphic content.</value>
+  </data>
+  <data name="DragStatus_ImageNotAvailable" xml:space="preserve">
+    <value>This item is no longer available and cannot be added to checkout.</value>
+  </data>
+  <data name="DragStatus_LicenseChanged" xml:space="preserve">
+    <value>License has been changed.</value>
+  </data>
+  <data name="DragStatus_PricingChanged" xml:space="preserve">
+    <value>Price has been changed.</value>
+  </data>
+  <data name="DragStatus_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="DragStatus_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="ChangePasswordResult_IncorrectOldPassword" xml:space="preserve">
+    <value>Please enter a valid old password.</value>
+  </data>
+  <data name="ChangePasswordResult_InvalidNewPassword" xml:space="preserve">
+    <value>Invalid New Password</value>
+  </data>
+  <data name="ChangePasswordResult_InvalidUserName" xml:space="preserve">
+    <value>Invalid Username</value>
+  </data>
+  <data name="ChangePasswordResult_NewPasswordContainsNonWesternCharacters" xml:space="preserve">
+    <value>Only standard western European characters, numeric values, and punctuation characters such as '@' and '.' are allowed.</value>
+  </data>
+  <data name="ChangePasswordResult_NewPasswordSameasOld" xml:space="preserve">
+    <value>Your new password must be different from your old password.</value>
+  </data>
+  <data name="ChangePasswordResult_None" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="ChangePasswordResult_Success" xml:space="preserve">
+    <value>Success</value>
+    <comment>Do NOT Localize</comment>
+  </data>
+  <data name="NumberOfPeople_GroupsOrCrowds" xml:space="preserve">
+    <value>Groups or crowds</value>
+  </data>
+  <data name="NumberOfPeople_GroupsOrCrowds_Ordinal" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NumberOfPeople_WithPeople" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="NumberOfPeople_WithPeople_Ordinal" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NumberOfPeople_OnePersonOnly" xml:space="preserve">
+    <value>1 person only</value>
+  </data>
+  <data name="NumberOfPeople_OnePersonOnly_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NumberOfPeople_TwoPeopleOnly" xml:space="preserve">
+    <value>2 people only</value>
+  </data>
+  <data name="NumberOfPeople_TwoPeopleOnly_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NumberOfPeople_ThreeToFivePeopleOnly" xml:space="preserve">
+    <value>3-5 people</value>
+  </data>
+  <data name="NumberOfPeople_ThreeToFivePeopleOnly_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SortOrder_LicenseExpiration" xml:space="preserve">
+    <value>Sort by license expirations</value>
+  </data>
+  <data name="SortOrder_None" xml:space="preserve">
+    <value>None</value>
+    <comment>Do Not Localize</comment>
+  </data>
+  <data name="SortOrder_OrderDate" xml:space="preserve">
+    <value>Sort by date</value>
+  </data>
+  <data name="SortOrder_ProjectName" xml:space="preserve">
+    <value>Sort by project name</value>
+  </data>
+  <data name="SortOrder_TotalCost" xml:space="preserve">
+    <value>Sort by total</value>
+  </data>
+  <data name="SendPasswordReminderEmailResult_DuplicateEmailFound" xml:space="preserve">
+    <value>DuplicateEmailFound</value>
+    <comment>Do Not Localize</comment>
+  </data>
+  <data name="SendPasswordReminderEmailResult_IncorrectPasswordRecoveryAnswer" xml:space="preserve">
+    <value>Please enter a valid answer.</value>
+  </data>
+  <data name="SendPasswordReminderEmailResult_InvalidEmail" xml:space="preserve">
+    <value>Please enter a valid email.</value>
+  </data>
+  <data name="SendPasswordReminderEmailResult_Success" xml:space="preserve">
+    <value>Success</value>
+    <comment>Do Not Localize</comment>
+  </data>
+  <data name="SendPasswordReminderEmailResult_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+    <comment>Do Not Localize</comment>
+  </data>
+  <data name="ModelReleaseForResearch_NotApplicable_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ModelReleaseForResearch_No_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ModelReleaseForResearch_Yes_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ModelReleaseForResearch_None" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="ModelReleaseForResearch_None_Ordinal" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NatureOfYourBusiness_AdvertisingGraphicDesign_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NatureOfYourBusiness_BookPublishing_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NatureOfYourBusiness_Corporate_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NatureOfYourBusiness_ElectronicTVMediaFilm_Ordinal" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NatureOfYourBusiness_MagazineNewspaperPublishing_Ordinal" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NatureOfYourBusiness_NonProfit_Ordinal" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NatureOfYourBusiness_Other_Ordinal" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NatureOfYourBusiness_Unknown" xml:space="preserve">
+    <value>Select one</value>
+  </data>
+  <data name="NatureOfYourBusiness_Unknown_Ordinal" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MemberAssociateStatus_Existing" xml:space="preserve">
+    <value>Sorry. The specified Username cannot be added to your list.</value>
+  </data>
+  <data name="MemberAssociateStatus_InvalidUser" xml:space="preserve">
+    <value>Sorry. The username specified does not correspond to any member account.</value>
+  </data>
+  <data name="MemberAssociateStatus_Self" xml:space="preserve">
+    <value>Sorry. You cannot transfer a lightbox to yourself. Please enter another member.</value>
+  </data>
+  <data name="DeliveryMethod_DigitalPrint" xml:space="preserve">
+    <value>Digital Print</value>
+  </data>
+  <data name="DeliveryMethod_ISDN" xml:space="preserve">
+    <value>ISDN</value>
+  </data>
+  <data name="DeliveryMethod_VIO" xml:space="preserve">
+    <value>VIO</value>
+  </data>
+  <data name="AboutCustomerFeedback_SalesPricing" xml:space="preserve">
+    <value>Sales/Pricing</value>
+  </data>
+  <data name="AboutCustomerFeedback_TechnicalSupport" xml:space="preserve">
+    <value>Technical Support</value>
+  </data>
+  <data name="AboutCustomerFeedback_ImageResearch" xml:space="preserve">
+    <value>Image research</value>
+  </data>
+  <data name="AboutCustomerFeedback_WebsiteFeedback" xml:space="preserve">
+    <value>Website feedback</value>
+  </data>
+  <data name="AboutCustomerFeedback_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="OfficeCountry_UnitedStates" xml:space="preserve">
+    <value>United States</value>
+  </data>
+  <data name="OfficeCountry_Argentina" xml:space="preserve">
+    <value>Argentina</value>
+  </data>
+  <data name="OfficeCountry_Australia" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="OfficeCountry_Austria" xml:space="preserve">
+    <value>Austria</value>
+  </data>
+  <data name="OfficeCountry_Belgium" xml:space="preserve">
+    <value>Belgium</value>
+  </data>
+  <data name="OfficeCountry_Bosnia" xml:space="preserve">
+    <value>Bosnia</value>
+  </data>
+  <data name="OfficeCountry_Brazil" xml:space="preserve">
+    <value>Brazil</value>
+  </data>
+  <data name="OfficeCountry_Bulgaria" xml:space="preserve">
+    <value>Bulgaria</value>
+  </data>
+  <data name="OfficeCountry_Canada" xml:space="preserve">
+    <value>Canada</value>
+  </data>
+  <data name="OfficeCountry_Caribbean" xml:space="preserve">
+    <value>Caribbean</value>
+  </data>
+  <data name="OfficeCountry_Chile" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+  <data name="OfficeCountry_China" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="OfficeCountry_Colombia" xml:space="preserve">
+    <value>Colombia</value>
+  </data>
+  <data name="OfficeCountry_CostaRica" xml:space="preserve">
+    <value>Costa Rica</value>
+  </data>
+  <data name="OfficeCountry_Croatia" xml:space="preserve">
+    <value>Croatia</value>
+  </data>
+  <data name="OfficeCountry_CzechRepublic" xml:space="preserve">
+    <value>Czech Republic</value>
+  </data>
+  <data name="OfficeCountry_Denmark" xml:space="preserve">
+    <value>Denmark</value>
+  </data>
+  <data name="OfficeCountry_DominicanRepublic" xml:space="preserve">
+    <value>Dominican Republic</value>
+  </data>
+  <data name="OfficeCountry_Ecuador" xml:space="preserve">
+    <value>Ecuador</value>
+  </data>
+  <data name="OfficeCountry_FaeroeIsland" xml:space="preserve">
+    <value>Faeroe Island</value>
+  </data>
+  <data name="OfficeCountry_Finland" xml:space="preserve">
+    <value>Finland</value>
+  </data>
+  <data name="OfficeCountry_France" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="OfficeCountry_Germany" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="OfficeCountry_Greece" xml:space="preserve">
+    <value>Greece</value>
+  </data>
+  <data name="OfficeCountry_HongKong" xml:space="preserve">
+    <value>Hong Kong</value>
+  </data>
+  <data name="OfficeCountry_Hungary" xml:space="preserve">
+    <value>Hungary</value>
+  </data>
+  <data name="OfficeCountry_Iceland" xml:space="preserve">
+    <value>Iceland</value>
+  </data>
+  <data name="OfficeCountry_India" xml:space="preserve">
+    <value>India</value>
+  </data>
+  <data name="OfficeCountry_Ireland" xml:space="preserve">
+    <value>Ireland</value>
+  </data>
+  <data name="OfficeCountry_Israel" xml:space="preserve">
+    <value>Israel</value>
+  </data>
+  <data name="OfficeCountry_Italy" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+  <data name="OfficeCountry_Japan" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="OfficeCountry_Kazakhstan" xml:space="preserve">
+    <value>Kazakhstan</value>
+  </data>
+  <data name="OfficeCountry_Korea" xml:space="preserve">
+    <value>Korea</value>
+  </data>
+  <data name="OfficeCountry_Kyrgyzstan" xml:space="preserve">
+    <value>Kyrgyzstan</value>
+  </data>
+  <data name="OfficeCountry_Luxembourg" xml:space="preserve">
+    <value>Luxembourg</value>
+  </data>
+  <data name="OfficeCountry_Macedonia" xml:space="preserve">
+    <value>Macedonia</value>
+  </data>
+  <data name="OfficeCountry_Malaysia" xml:space="preserve">
+    <value>Malaysia</value>
+  </data>
+  <data name="OfficeCountry_Mexico" xml:space="preserve">
+    <value>Mexico</value>
+  </data>
+  <data name="OfficeCountry_Moldova" xml:space="preserve">
+    <value>Moldova</value>
+  </data>
+  <data name="OfficeCountry_Netherlands" xml:space="preserve">
+    <value>Netherlands</value>
+  </data>
+  <data name="OfficeCountry_NewZealand" xml:space="preserve">
+    <value>New Zealand</value>
+  </data>
+  <data name="OfficeCountry_Norway" xml:space="preserve">
+    <value>Norway</value>
+  </data>
+  <data name="OfficeCountry_Pakistan" xml:space="preserve">
+    <value>Pakistan</value>
+  </data>
+  <data name="OfficeCountry_Peru" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="OfficeCountry_Phillipines" xml:space="preserve">
+    <value>Phillipines</value>
+  </data>
+  <data name="OfficeCountry_Poland" xml:space="preserve">
+    <value>Poland</value>
+  </data>
+  <data name="OfficeCountry_Portugal" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+  <data name="OfficeCountry_PuertoRico" xml:space="preserve">
+    <value>Puerto Rico</value>
+  </data>
+  <data name="OfficeCountry_Romania" xml:space="preserve">
+    <value>Romania</value>
+  </data>
+  <data name="OfficeCountry_Russia" xml:space="preserve">
+    <value>Russia</value>
+  </data>
+  <data name="OfficeCountry_Serbia" xml:space="preserve">
+    <value>Serbia</value>
+  </data>
+  <data name="OfficeCountry_Singapore" xml:space="preserve">
+    <value>Singapore</value>
+  </data>
+  <data name="OfficeCountry_Slovenia" xml:space="preserve">
+    <value>Slovenia</value>
+  </data>
+  <data name="OfficeCountry_SouthAfrica" xml:space="preserve">
+    <value>South Africa</value>
+  </data>
+  <data name="OfficeCountry_Spain" xml:space="preserve">
+    <value>Spain</value>
+  </data>
+  <data name="OfficeCountry_SriLanka" xml:space="preserve">
+    <value>Sri Lanka</value>
+  </data>
+  <data name="OfficeCountry_Sweden" xml:space="preserve">
+    <value>Sweden</value>
+  </data>
+  <data name="OfficeCountry_Switzerland" xml:space="preserve">
+    <value>Switzerland</value>
+  </data>
+  <data name="OfficeCountry_Taiwan" xml:space="preserve">
+    <value>Taiwan</value>
+  </data>
+  <data name="OfficeCountry_Tajikistan" xml:space="preserve">
+    <value>Tajikistan</value>
+  </data>
+  <data name="OfficeCountry_Thailand" xml:space="preserve">
+    <value>Thailand</value>
+  </data>
+  <data name="OfficeCountry_Turkey" xml:space="preserve">
+    <value>Turkey</value>
+  </data>
+  <data name="OfficeCountry_Turkmenistan" xml:space="preserve">
+    <value>Turkmenistan</value>
+  </data>
+  <data name="OfficeCountry_Ukraine" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+  <data name="OfficeCountry_UnitedArabEmirates" xml:space="preserve">
+    <value>United Arab Emirates</value>
+  </data>
+  <data name="OfficeCountry_UnitedKingdom" xml:space="preserve">
+    <value>United Kingdom</value>
+  </data>
+  <data name="OfficeCountry_Uruguay" xml:space="preserve">
+    <value>Uruguay</value>
+  </data>
+  <data name="OfficeCountry_Uzbekistan" xml:space="preserve">
+    <value>Uzbekistan</value>
+  </data>
+  <data name="OfficeCountry_Venezuela" xml:space="preserve">
+    <value>Venezuela</value>
+  </data>
+  <data name="OfficeCountry_OtherLocations" xml:space="preserve">
+    <value>Other Locations</value>
+  </data>
+  <data name="OfficeCountry_Canada_Ordinal" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="OfficeCountry_OtherLocations_Ordinal" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="OfficeCountry_UnitedStates_Ordinal" xml:space="preserve">
+    <value>-2</value>
+  </data>
+  <data name="JobTitle_AccountExecutive" xml:space="preserve">
+    <value>Account Executive</value>
+  </data>
+  <data name="JobTitle_AccountExecutive_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="JobTitle_Accounting" xml:space="preserve">
+    <value>Accounting</value>
+  </data>
+  <data name="JobTitle_Accounting_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="JobTitle_ArtBuyer" xml:space="preserve">
+    <value>Art Buyer</value>
+  </data>
+  <data name="JobTitle_ArtBuyer_Ordinal" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="JobTitle_ArtDirector" xml:space="preserve">
+    <value>Art Director</value>
+  </data>
+  <data name="JobTitle_ArtDirector_Ordinal" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="JobTitle_AuthorEditorCopywriter" xml:space="preserve">
+    <value>Author / Editor / Copywriter</value>
+  </data>
+  <data name="JobTitle_AuthorEditorCopywriter_Ordinal" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="JobTitle_CreativeDirector" xml:space="preserve">
+    <value>Creative Director</value>
+  </data>
+  <data name="JobTitle_CreativeDirector_Ordinal" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="JobTitle_EducatorInstructor" xml:space="preserve">
+    <value>Educator/Instructor</value>
+  </data>
+  <data name="JobTitle_EducatorInstructor_Ordinal" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="JobTitle_GraphicDesigner" xml:space="preserve">
+    <value>Graphic Designer</value>
+  </data>
+  <data name="JobTitle_GraphicDesigner_Ordinal" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="JobTitle_MarketingCommunications" xml:space="preserve">
+    <value>Marketing Communications</value>
+  </data>
+  <data name="JobTitle_MarketingCommunications_Ordinal" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="JobTitle_PhotoResearcher" xml:space="preserve">
+    <value>Photo Researcher</value>
+  </data>
+  <data name="JobTitle_PhotoResearcher_Ordinal" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="JobTitle_Photographer" xml:space="preserve">
+    <value>Photographer</value>
+  </data>
+  <data name="JobTitle_Photographer_Ordinal" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="JobTitle_ProducerDirector" xml:space="preserve">
+    <value>Producer / Director</value>
+  </data>
+  <data name="JobTitle_ProducerDirector_Ordinal" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="JobTitle_ProductionManagement" xml:space="preserve">
+    <value>Production Management</value>
+  </data>
+  <data name="JobTitle_ProductionManagement_Ordinal" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="JobTitle_PublicRelations" xml:space="preserve">
+    <value>Public Relations</value>
+  </data>
+  <data name="JobTitle_PublicRelations_Ordinal" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="JobTitle_SeniorManagement" xml:space="preserve">
+    <value>Senior Management</value>
+  </data>
+  <data name="JobTitle_SeniorManagement_Ordinal" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="JobTitle_WebDeveloperProgrammer" xml:space="preserve">
+    <value>Web Developer / Programmer</value>
+  </data>
+  <data name="JobTitle_WebDeveloperProgrammer_Ordinal" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="EmailFormat_Html" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="EmailFormat_Html_Ordinal" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EmailFormat_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="EmailFormat_Text_Ordinal" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FunctionalArea_Cart" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="FunctionalArea_Lightbox" xml:space="preserve">
+    <value>Lightbox</value>
+  </data>
+  <data name="FunctionalArea_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="FunctionalArea_ExpressCheckout" xml:space="preserve">
+    <value>ExpressCheckout</value>
+  </data>
+  <data name="ParentPage_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ParentPage_Lightbox" xml:space="preserve">
+    <value>Lightbox</value>
+  </data>
+  <data name="ParentPage_RfCd" xml:space="preserve">
+    <value>RfCd</value>
+  </data>
+  <data name="ParentPage_Enlargement" xml:space="preserve">
+    <value>Enlargement</value>
+  </data>
+  <data name="ParentPage_Cart" xml:space="preserve">
+    <value>Cart</value>
+  </data>
+  <data name="ParentPage_ImageGroups" xml:space="preserve">
+    <value>ImageGroups</value>
+  </data>
+  <data name="ParentPage_ExpressCheckout" xml:space="preserve">
+    <value>ExpressCheckout</value>
+  </data>
+  <data name="PriceTier_Premium" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="PriceTier_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="PriceTier_SuperValue" xml:space="preserve">
+    <value>Super Value</value>
+  </data>
+  <data name="PriceTier_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+</root>
